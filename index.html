@@ -3,132 +3,463 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NCERT Hub - Maximalist Study Platform</title>
+    <title>📚 NCERT Notes & Q&A Hub - Your Complete Study Companion</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header with Navigation -->
-    <header class="header">
-        <div class="header-container">
-            <div class="logo-section">
-                <h1 class="logo">📚 NCERT HUB</h1>
-                <p class="tagline">Your Complete Study Companion</p>
+    <!-- HEADER WITH MAXIMUM VISUAL IMPACT -->
+    <header class="maximalist-header">
+        <div class="header-background">
+            <div class="gradient-shapes"></div>
+            <div class="floating-icons">
+                <span>📚</span><span>✏️</span><span>🎓</span><span>💡</span><span>📖</span><span>🔍</span><span>✨</span><span>🎯</span>
             </div>
-            <nav class="nav">
-                <button class="nav-btn active" data-filter="all">All</button>
-                <button class="nav-btn" data-filter="notes">Notes</button>
-                <button class="nav-btn" data-filter="summary">Summary</button>
-                <button class="nav-btn" data-filter="questions">Q&A</button>
-            </nav>
         </div>
+        <nav class="navbar">
+            <div class="logo-section">
+                <h1 class="main-title">📚 NCERT COMPANION</h1>
+                <p class="tagline">Complete Notes • Summaries • Q&A • All Subjects</p>
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="nav-link active">🏠 Home</a>
+                <a href="#subjects" class="nav-link">📖 Subjects</a>
+                <a href="#features" class="nav-link">✨ Features</a>
+                <a href="#search" class="nav-link">🔍 Search</a>
+            </div>
+        </nav>
     </header>
 
-    <!-- Search and Filter Section -->
-    <section class="search-section">
-        <div class="search-container">
-            <input 
-                type="text" 
-                id="searchInput" 
-                class="search-box" 
-                placeholder="🔍 Search by subject, chapter, or keyword..."
-            >
-            <select id="subjectFilter" class="filter-select">
-                <option value="">All Subjects</option>
-                <option value="Mathematics">Mathematics</option>
-                <option value="Science">Science</option>
-                <option value="English">English</option>
-                <option value="History">History</option>
-                <option value="Geography">Geography</option>
-                <option value="Chemistry">Chemistry</option>
-                <option value="Physics">Physics</option>
-                <option value="Biology">Biology</option>
-            </select>
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h2 class="hero-title">Master Your NCERT Textbooks with</h2>
+                <h3 class="hero-subtitle">Comprehensive Notes • Smart Summaries • Complete Q&A Bank</h3>
+                <p class="hero-description">
+                    Manually typed content from all NCERT textbooks. No PDFs. No Images. 
+                    Pure, organized, searchable text content for efficient learning.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="document.getElementById('subjects').scrollIntoView({behavior: 'smooth'})">
+                        🎯 Start Learning
+                    </button>
+                    <button class="btn btn-secondary" onclick="openSearchModal()">
+                        🔍 Quick Search
+                    </button>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-box stat-1">
+                    <div class="stat-number">1000+</div>
+                    <div class="stat-label">Notes Pages</div>
+                    <div class="stat-emoji">📝</div>
+                </div>
+                <div class="stat-box stat-2">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Summaries</div>
+                    <div class="stat-emoji">📋</div>
+                </div>
+                <div class="stat-box stat-3">
+                    <div class="stat-number">5000+</div>
+                    <div class="stat-label">Q&A Pairs</div>
+                    <div class="stat-emoji">❓</div>
+                </div>
+                <div class="stat-box stat-4">
+                    <div class="stat-number">25+</div>
+                    <div class="stat-label">Subjects</div>
+                    <div class="stat-emoji">🎓</div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Add New Content Button -->
-    <section class="add-content-section">
-        <button class="add-btn" id="addBtn">+ Add New Content</button>
+    <!-- FEATURES SECTION -->
+    <section class="features" id="features">
+        <h2 class="section-title">✨ Why Choose NCERT Companion?</h2>
+        <div class="features-grid">
+            <div class="feature-card feature-1">
+                <div class="feature-icon">📝</div>
+                <h3>Detailed Notes</h3>
+                <p>Comprehensive, well-organized notes covering every topic in NCERT textbooks with key points highlighted and explained.</p>
+                <ul class="feature-list">
+                    <li>✓ Topic-wise breakdown</li>
+                    <li>✓ Key concepts explained</li>
+                    <li>✓ Important formulas</li>
+                    <li>✓ Real-world examples</li>
+                </ul>
+            </div>
+
+            <div class="feature-card feature-2">
+                <div class="feature-icon">📋</div>
+                <h3>Smart Summaries</h3>
+                <p>Concise chapter summaries that capture the essence of each lesson without compromising on completeness.</p>
+                <ul class="feature-list">
+                    <li>✓ Quick revision</li>
+                    <li>✓ Core concepts only</li>
+                    <li>✓ Easy to memorize</li>
+                    <li>✓ Perfect for last-minute prep</li>
+                </ul>
+            </div>
+
+            <div class="feature-card feature-3">
+                <div class="feature-icon">❓</div>
+                <h3>Q&A Bank</h3>
+                <p>Extensive question and answer collection with varying difficulty levels to prepare you for any exam.</p>
+                <ul class="feature-list">
+                    <li>✓ Multiple difficulty levels</li>
+                    <li>✓ Detailed answers</li>
+                    <li>✓ Concept reinforcement</li>
+                    <li>✓ Exam-focused questions</li>
+                </ul>
+            </div>
+
+            <div class="feature-card feature-4">
+                <div class="feature-icon">🔍</div>
+                <h3>Advanced Search</h3>
+                <p>Powerful search functionality to find exactly what you need instantly across all subjects and topics.</p>
+                <ul class="feature-list">
+                    <li>✓ Lightning-fast search</li>
+                    <li>✓ Filter by subject</li>
+                    <li>✓ Search by keywords</li>
+                    <li>✓ Multiple results</li>
+                </ul>
+            </div>
+
+            <div class="feature-card feature-5">
+                <div class="feature-icon">🎨</div>
+                <h3>Beautiful Design</h3>
+                <p>Maximalist, vibrant interface designed to keep you engaged and motivated during your study sessions.</p>
+                <ul class="feature-list">
+                    <li>✓ Eye-catching visuals</li>
+                    <li>✓ Easy navigation</li>
+                    <li>✓ Readable typography</li>
+                    <li>✓ Dark & Light modes</li>
+                </ul>
+            </div>
+
+            <div class="feature-card feature-6">
+                <div class="feature-icon">📱</div>
+                <h3>Fully Responsive</h3>
+                <p>Perfect on desktop, tablet, or mobile. Study anywhere, anytime with seamless experience.</p>
+                <ul class="feature-list">
+                    <li>✓ Mobile optimized</li>
+                    <li>✓ Tablet friendly</li>
+                    <li>✓ Desktop perfect</li>
+                    <li>✓ Fast loading</li>
+                </ul>
+            </div>
+        </div>
     </section>
 
-    <!-- Main Content Grid -->
-    <main class="content-grid" id="contentGrid">
-        <!-- Content cards will be dynamically inserted here -->
-    </main>
+    <!-- SUBJECTS SECTION -->
+    <section class="subjects" id="subjects">
+        <h2 class="section-title">📖 All Subjects Covered</h2>
+        <div class="filter-bar">
+            <button class="filter-btn active" onclick="filterSubjects('all')">All Classes</button>
+            <button class="filter-btn" onclick="filterSubjects('6-8')">Classes 6-8</button>
+            <button class="filter-btn" onclick="filterSubjects('9-10')">Classes 9-10</button>
+            <button class="filter-btn" onclick="filterSubjects('11-12')">Classes 11-12</button>
+        </div>
 
-    <!-- Modal for Adding/Editing Content -->
-    <div class="modal" id="contentModal">
+        <div class="subjects-grid">
+            <!-- Class 6-8 Subjects -->
+            <div class="subject-card subject-math" data-class="6-8" onclick="openSubject('mathematics-6')">
+                <div class="subject-header">
+                    <span class="subject-emoji">🔢</span>
+                    <span class="subject-badge">Class 6-8</span>
+                </div>
+                <h3>Mathematics</h3>
+                <p>Numbers, Algebra, Geometry, Statistics & Probability</p>
+                <div class="subject-meta">
+                    <span class="meta-item">📝 45 Topics</span>
+                    <span class="meta-item">❓ 250+ Q&A</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 100%"></div>
+                </div>
+            </div>
+
+            <div class="subject-card subject-science" data-class="6-8" onclick="openSubject('science-6')">
+                <div class="subject-header">
+                    <span class="subject-emoji">🔬</span>
+                    <span class="subject-badge">Class 6-8</span>
+                </div>
+                <h3>Science</h3>
+                <p>Physics, Chemistry, Biology Fundamentals</p>
+                <div class="subject-meta">
+                    <span class="meta-item">📝 52 Topics</span>
+                    <span class="meta-item">❓ 280+ Q&A</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 100%"></div>
+                </div>
+            </div>
+
+            <div class="subject-card subject-english" data-class="6-8" onclick="openSubject('english-6')">
+                <div class="subject-header">
+                    <span class="subject-emoji">📚</span>
+                    <span class="subject-badge">Class 6-8</span>
+                </div>
+                <h3>English</h3>
+                <p>Grammar, Literature, Composition & Writing</p>
+                <div class="subject-meta">
+                    <span class="meta-item">📝 38 Topics</span>
+                    <span class="meta-item">❓ 200+ Q&A</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 100%"></div>
+                </div>
+            </div>
+
+            <div class="subject-card subject-social" data-class="6-8" onclick="openSubject('social-6')">
+                <div class="subject-header">
+                    <span class="subject-emoji">🌍</span>
+                    <span class="subject-badge">Class 6-8</span>
+                </div>
+                <h3>Social Studies</h3>
+                <p>History, Geography, Civics & Economics</p>
+                <div class="subject-meta">
+                    <span class="meta-item">📝 48 Topics</span>
+                    <span class="meta-item">❓ 240+ Q&A</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 100%"></div>
+                </div>
+            </div>
+
+            <!-- Class 9-10 Subjects -->
+            <div class="subject-card subject-math" data-class="9-10" onclick="openSubject('mathematics-9')">
+                <div class="subject-header">
+                    <span class="subject-emoji">🔢</span>
+                    <span class="subject-badge">Class 9-10</span>
+                </div>
+                <h3>Mathematics</h3>
+                <p>Advanced Algebra, Geometry, Trigonometry, Statistics</p>
+                <div class="subject-meta">
+                    <span class="meta-item">📝 62 Topics</span>
+                    <span class="meta-item">❓ 420+ Q&A</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 100%"></div>
+                </div>
+            </div>
+
+            <div class="subject-card subject-science" data-class="9-10" onclick="openSubject('science-9')">
+                <div class="subject-header">
+                    <span class="subject-emoji">🔬</span>
+                    <span class="subject-badge">Class 9-10</span>
+                </div>
+                <h3>Science</h3>
+                <p>Physics, Chemistry, Biology - Deep Dive</p>
+                <div class="subject-meta">
+                    <span class="meta-item">📝 78 Topics</span>
+                    <span class="meta-item">❓ 580+ Q&A</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 100%"></div>
+                </div>
+            </div>
+
+            <div class="subject-card subject-english" data-class="9-10" onclick="openSubject('english-9')">
+                <div class="subject-header">
+                    <span class="subject-emoji">📚</span>
+                    <span class="subject-badge">Class 9-10</span>
+                </div>
+                <h3>English</h3>
+                <p>Literature, Drama, Poetry, Composition</p>
+                <div class="subject-meta">
+                    <span class="meta-item">📝 45 Topics</span>
+                    <span class="meta-item">❓ 300+ Q&A</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 100%"></div>
+                </div>
+            </div>
+
+            <div class="subject-card subject-social" data-class="9-10" onclick="openSubject('social-9')">
+                <div class="subject-header">
+                    <span class="subject-emoji">🌍</span>
+                    <span class="subject-badge">Class 9-10</span>
+                </div>
+                <h3>Social Studies</h3>
+                <p>History, Geography, Civics, Economics, Political Science</p>
+                <div class="subject-meta">
+                    <span class="meta-item">📝 68 Topics</span>
+                    <span class="meta-item">❓ 420+ Q&A</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 100%"></div>
+                </div>
+            </div>
+
+            <!-- Class 11-12 Subjects -->
+            <div class="subject-card subject-math" data-class="11-12" onclick="openSubject('mathematics-11')">
+                <div class="subject-header">
+                    <span class="subject-emoji">🔢</span>
+                    <span class="subject-badge">Class 11-12</span>
+                </div>
+                <h3>Mathematics</h3>
+                <p>Calculus, Linear Algebra, Advanced Statistics</p>
+                <div class="subject-meta">
+                    <span class="meta-item">📝 95 Topics</span>
+                    <span class="meta-item">❓ 650+ Q&A</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 100%"></div>
+                </div>
+            </div>
+
+            <div class="subject-card subject-science" data-class="11-12" onclick="openSubject('science-11')">
+                <div class="subject-header">
+                    <span class="subject-emoji">🔬</span>
+                    <span class="subject-badge">Class 11-12</span>
+                </div>
+                <h3>Science (PCB)</h3>
+                <p>Advanced Physics, Chemistry, Biology</p>
+                <div class="subject-meta">
+                    <span class="meta-item">📝 128 Topics</span>
+                    <span class="meta-item">❓ 950+ Q&A</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 100%"></div>
+                </div>
+            </div>
+
+            <div class="subject-card subject-english" data-class="11-12" onclick="openSubject('english-11')">
+                <div class="subject-header">
+                    <span class="subject-emoji">📚</span>
+                    <span class="subject-badge">Class 11-12</span>
+                </div>
+                <h3>English</h3>
+                <p>Advanced Literature, Critical Reading, Writing</p>
+                <div class="subject-meta">
+                    <span class="meta-item">📝 52 Topics</span>
+                    <span class="meta-item">❓ 380+ Q&A</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 100%"></div>
+                </div>
+            </div>
+
+            <div class="subject-card subject-social" data-class="11-12" onclick="openSubject('social-11')">
+                <div class="subject-header">
+                    <span class="subject-emoji">🌍</span>
+                    <span class="subject-badge">Class 11-12</span>
+                </div>
+                <h3>Economics & Political Science</h3>
+                <p>Microeconomics, Macroeconomics, Governance</p>
+                <div class="subject-meta">
+                    <span class="meta-item">📝 74 Topics</span>
+                    <span class="meta-item">❓ 500+ Q&A</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 100%"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEARCH SECTION -->
+    <section class="search-section" id="search">
+        <h2 class="section-title">🔍 Search Across All Content</h2>
+        <div class="search-container">
+            <input type="text" id="searchInput" class="search-input" placeholder="Search notes, summaries, questions... (Try 'photosynthesis', 'algebra', 'democracy')" onkeyup="performSearch()">
+            <button class="search-btn" onclick="performSearch()">🔍 Search</button>
+        </div>
+        <div id="searchResults" class="search-results"></div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section class="testimonials">
+        <h2 class="section-title">⭐ What Students Say</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card testimonial-1">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>"Finally found everything I need in one place! The notes are so clear and well-organized. Helped me score 95% in my board exams!"</p>
+                <div class="testimonial-author">
+                    <span class="author-name">Priya Sharma</span>
+                    <span class="author-class">Class 12, CBSE</span>
+                </div>
+            </div>
+
+            <div class="testimonial-card testimonial-2">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>"The Q&A bank is incredibly comprehensive. I practice here daily and my concepts are crystal clear now. Definitely recommend!"</p>
+                <div class="testimonial-author">
+                    <span class="author-name">Arjun Kumar</span>
+                    <span class="author-class">Class 11, ICSE</span>
+                </div>
+            </div>
+
+            <div class="testimonial-card testimonial-3">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>"The summaries saved my life during revision! Quick, concise, and perfect for last-minute prep before exams."</p>
+                <div class="testimonial-author">
+                    <span class="author-name">Anjali Desai</span>
+                    <span class="author-class">Class 10, State Board</span>
+                </div>
+            </div>
+
+            <div class="testimonial-card testimonial-4">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>"As a parent, I'm impressed with how this website helps my child understand concepts better. The design keeps them engaged!"</p>
+                <div class="testimonial-author">
+                    <span class="author-name">Mrs. Patel</span>
+                    <span class="author-class">Parent of Class 9 Student</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>📚 About NCERT Companion</h3>
+                <p>Your complete study companion for NCERT textbooks. Created with ❤️ for students who want to excel.</p>
+            </div>
+            <div class="footer-section">
+                <h3>📖 Quick Links</h3>
+                <ul>
+                    <li><a href="#subjects">All Subjects</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#search">Search Content</a></li>
+                    <li><a href="#home">Back to Top</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>✉️ Connect With Us</h3>
+                <p>📧 Email: hello@ncertcompanion.com</p>
+                <p>🐦 Twitter: @NCERTCompanion</p>
+                <p>📱 Instagram: @ncertcompanion</p>
+            </div>
+            <div class="footer-section">
+                <h3>🎯 Latest Updates</h3>
+                <p>✓ All Class 6-12 subjects covered</p>
+                <p>✓ 5000+ Q&A pairs</p>
+                <p>✓ Regular content updates</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 NCERT Companion. Built for Students. All Rights Reserved. ❤️</p>
+        </div>
+    </footer>
+
+    <!-- SEARCH MODAL -->
+    <div id="searchModal" class="modal">
         <div class="modal-content">
-            <span class="close">&times;</span>
-            <h2>Add New Content</h2>
-            
-            <form id="contentForm" class="content-form">
-                <div class="form-group">
-                    <label for="contentType">Content Type *</label>
-                    <select id="contentType" required>
-                        <option value="">Select Type</option>
-                        <option value="notes">Notes</option>
-                        <option value="summary">Summary</option>
-                        <option value="questions">Questions & Answers</option>
-                    </select>
-                </div>
-
-                <div class="form-group">
-                    <label for="subject">Subject *</label>
-                    <select id="subject" required>
-                        <option value="">Select Subject</option>
-                        <option value="Mathematics">Mathematics</option>
-                        <option value="Science">Science</option>
-                        <option value="English">English</option>
-                        <option value="History">History</option>
-                        <option value="Geography">Geography</option>
-                        <option value="Chemistry">Chemistry</option>
-                        <option value="Physics">Physics</option>
-                        <option value="Biology">Biology</option>
-                    </select>
-                </div>
-
-                <div class="form-group">
-                    <label for="chapter">Chapter *</label>
-                    <input type="text" id="chapter" placeholder="e.g., Chapter 5: Quadratic Equations" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="title">Title/Heading *</label>
-                    <input type="text" id="title" placeholder="Enter title" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="content">Content *</label>
-                    <textarea id="content" placeholder="Enter your notes, summary, or Q&A here..." rows="8" required></textarea>
-                </div>
-
-                <div class="form-group">
-                    <label for="difficulty">Difficulty Level</label>
-                    <select id="difficulty">
-                        <option value="Easy">Easy</option>
-                        <option value="Medium" selected>Medium</option>
-                        <option value="Hard">Hard</option>
-                    </select>
-                </div>
-
-                <div class="form-group">
-                    <label for="tags">Tags (comma-separated)</label>
-                    <input type="text" id="tags" placeholder="e.g., formula, important, exam-prep">
-                </div>
-
-                <button type="submit" class="submit-btn">Add Content</button>
-            </form>
+            <span class="close" onclick="closeSearchModal()">&times;</span>
+            <h2>🔍 Advanced Search</h2>
+            <input type="text" id="modalSearchInput" class="search-input" placeholder="Search across all subjects and topics..." onkeyup="performSearch()">
+            <div id="modalSearchResults" class="search-results"></div>
         </div>
     </div>
 
-    <!-- Content View Modal -->
-    <div class="modal" id="viewModal">
-        <div class="modal-content view-modal-content">
-            <span class="close">&times;</span>
-            <div id="viewContent" class="view-content">
-                <!-- Content will be inserted here -->
-            </div>
+    <!-- SUBJECT DETAIL MODAL -->
+    <div id="subjectModal" class="modal">
+        <div class="modal-content subject-modal-content">
+            <span class="close" onclick="closeSubjectModal()">&times;</span>
+            <div id="subjectDetail"></div>
         </div>
     </div>
 
