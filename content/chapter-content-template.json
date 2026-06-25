@@ -1,0 +1,24 @@
+{
+  "title": "Chapter Title Here",
+  "class": "10",
+  "subject": "Science",
+  "chapter": "Chapter 1",
+  "book": "NCERT Book Name",
+  "type": "Notes",
+  "notes": [
+    "Write important point 1 here.",
+    "Write important point 2 here.",
+    "Write important point 3 here."
+  ],
+  "summary": "Write complete chapter summary here.",
+  "qa": [
+    {
+      "q": "Write question 1 here?",
+      "a": "Write answer 1 here."
+    },
+    {
+      "q": "Write question 2 here?",
+      "a": "Write answer 2 here."
+    }
+  ]
+}

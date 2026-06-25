@@ -1,0 +1,26 @@
+{
+  "title": "Crop Production and Management — Summary",
+  "class": "8",
+  "subject": "Science",
+  "chapter": "Chapter 1",
+  "book": "NCERT Science",
+  "type": "Summary",
+  "notes": [
+    "Crop production means growing crops on a large scale for food and other uses.",
+    "Important agricultural practices include preparation of soil, sowing, adding manure, irrigation, weeding, harvesting and storage.",
+    "Manure and fertilizers improve soil fertility.",
+    "Irrigation supplies water to crops at proper intervals.",
+    "Harvested grains must be dried and stored safely to prevent damage."
+  ],
+  "summary": "This chapter explains the main steps in crop production and management. It describes how farmers prepare soil, sow seeds, add manure and fertilizers, irrigate fields, remove weeds, harvest crops and store grains safely.",
+  "qa": [
+    {
+      "q": "What is irrigation?",
+      "a": "Irrigation is the process of supplying water to crops at regular intervals."
+    },
+    {
+      "q": "Why is weeding necessary?",
+      "a": "Weeding is necessary because weeds compete with crops for water, nutrients, space and sunlight."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Life Processes — Notes",
+  "class": "10",
+  "subject": "Science",
+  "chapter": "Chapter 5",
+  "book": "NCERT Science",
+  "type": "Notes",
+  "notes": [
+    "Life processes are the basic activities performed by living organisms to maintain life.",
+    "The main life processes are nutrition, respiration, transportation and excretion.",
+    "Autotrophic nutrition is the process in which green plants prepare food by photosynthesis.",
+    "Respiration releases energy from food and helps organisms perform daily activities.",
+    "Transportation moves food, water, oxygen and waste materials inside the body.",
+    "Excretion removes harmful metabolic wastes from the body."
+  ],
+  "summary": "This chapter explains how living organisms maintain life through nutrition, respiration, transportation and excretion. Plants prepare food through photosynthesis, while animals depend on other organisms for nutrition. The chapter also explains how energy is released from food and how materials are transported and wastes are removed.",
+  "qa": [
+    {
+      "q": "What are life processes?",
+      "a": "Life processes are essential activities such as nutrition, respiration, transportation and excretion that help living organisms survive."
+    },
+    {
+      "q": "What is photosynthesis?",
+      "a": "Photosynthesis is the process by which green plants prepare food using carbon dioxide, water, sunlight and chlorophyll."
+    },
+    {
+      "q": "Why is excretion important?",
+      "a": "Excretion is important because it removes harmful waste products from the body and keeps the internal environment balanced."
+    }
+  ]
+}

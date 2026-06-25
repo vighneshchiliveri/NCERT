@@ -1,0 +1,26 @@
+{
+  "title": "The French Revolution — Notes",
+  "class": "9",
+  "subject": "Social Science",
+  "chapter": "History Ch. 1",
+  "book": "India and the Contemporary World - I",
+  "type": "Notes",
+  "notes": [
+    "The French Revolution began in 1789 and changed the political structure of France.",
+    "French society was divided into three estates: clergy, nobility and the common people.",
+    "The Third Estate carried most of the tax burden and demanded equality.",
+    "The fall of the Bastille became a symbol of people's revolt against monarchy.",
+    "The Declaration of the Rights of Man and Citizen introduced ideas of liberty, equality and fraternity."
+  ],
+  "summary": "The French Revolution was a major historical event that ended absolute monarchy in France and spread the ideas of liberty, equality and fraternity. It was caused by social inequality, economic crisis, heavy taxation and political dissatisfaction among the common people.",
+  "qa": [
+    {
+      "q": "What were the three estates in France?",
+      "a": "The three estates were the clergy, the nobility and the common people."
+    },
+    {
+      "q": "Why was the Bastille attacked?",
+      "a": "The Bastille was attacked because it represented the oppressive power of the king."
+    }
+  ]
+}
