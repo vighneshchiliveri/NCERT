@@ -16,6 +16,12 @@
           "format": "PDF",
           "size": "Add size",
           "path": "#"
+        },
+        {
+          "label": "Edit Chapter Content JSON",
+          "format": "CONTENT",
+          "size": "Upload/edit this file for notes, summary and Q&A",
+          "path": "content/n10-sci-life-processes.json"
         }
       ],
       "content": {
@@ -76,7 +82,8 @@
             "a": "Excretion is important because it removes harmful waste products from the body and keeps the internal system balanced."
           }
         ]
-      }
+      },
+      "contentHref": "content/n10-sci-life-processes.json"
     },
     {
       "id": "n9-his-french-revolution",
@@ -94,6 +101,12 @@
           "format": "PDF",
           "size": "Add size",
           "path": "#"
+        },
+        {
+          "label": "Edit Chapter Content JSON",
+          "format": "CONTENT",
+          "size": "Upload/edit this file for notes, summary and Q&A",
+          "path": "content/n9-his-french-revolution.json"
         }
       ],
       "content": {
@@ -151,7 +164,8 @@
             "a": "The ideas of liberty, equality and fraternity became famous because of the French Revolution."
           }
         ]
-      }
+      },
+      "contentHref": "content/n9-his-french-revolution.json"
     }
   ],
   "summaries": [
@@ -171,6 +185,12 @@
           "format": "PDF",
           "size": "Add size",
           "path": "#"
+        },
+        {
+          "label": "Edit Chapter Content JSON",
+          "format": "CONTENT",
+          "size": "Upload/edit this file for notes, summary and Q&A",
+          "path": "content/s10-eng-letter-god.json"
         }
       ],
       "content": {
@@ -219,7 +239,8 @@
             "a": "The irony is that Lencho suspects the same post office employees who actually helped him."
           }
         ]
-      }
+      },
+      "contentHref": "content/s10-eng-letter-god.json"
     },
     {
       "id": "s8-sci-crop-production",
@@ -237,6 +258,12 @@
           "format": "PDF",
           "size": "Add size",
           "path": "#"
+        },
+        {
+          "label": "Edit Chapter Content JSON",
+          "format": "CONTENT",
+          "size": "Upload/edit this file for notes, summary and Q&A",
+          "path": "content/s8-sci-crop-production.json"
         }
       ],
       "content": {
@@ -286,7 +313,8 @@
             "a": "Irrigation is the process of supplying water to crops at regular intervals."
           }
         ]
-      }
+      },
+      "contentHref": "content/s8-sci-crop-production.json"
     }
   ],
   "qa": [
@@ -306,6 +334,12 @@
           "format": "PDF",
           "size": "Add size",
           "path": "#"
+        },
+        {
+          "label": "Edit Chapter Content JSON",
+          "format": "CONTENT",
+          "size": "Upload/edit this file for notes, summary and Q&A",
+          "path": "content/q10-maths-real-numbers.json"
         }
       ],
       "content": {
@@ -347,7 +381,8 @@
             "a": "√2 is irrational because assuming it as a rational number leads to a contradiction that both numerator and denominator are even, which is not possible if they are co-prime."
           }
         ]
-      }
+      },
+      "contentHref": "content/q10-maths-real-numbers.json"
     },
     {
       "id": "q7-civics-equality",
@@ -365,6 +400,12 @@
           "format": "PDF",
           "size": "Add size",
           "path": "#"
+        },
+        {
+          "label": "Edit Chapter Content JSON",
+          "format": "CONTENT",
+          "size": "Upload/edit this file for notes, summary and Q&A",
+          "path": "content/q7-civics-equality.json"
         }
       ],
       "content": {
@@ -413,7 +454,8 @@
             "a": "The Constitution supports equality by guaranteeing equality before the law and prohibiting discrimination on certain grounds."
           }
         ]
-      }
+      },
+      "contentHref": "content/q7-civics-equality.json"
     }
   ]
 }
