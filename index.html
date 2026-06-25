@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NCERT Archive— Notes, Summaries & Q&A</title>
+  <title>NCERT Archive — Notes, Summaries & Q&A</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -14,13 +14,14 @@
 
   <header class="site-header">
     <div class="header-inner">
-      <div class="brand">
+      <button id="homeBtn" class="brand" type="button" aria-label="Go to class selection">
         <div class="brand-mark">N</div>
         <div class="brand-text">
           <h1>NCERT</h1>
           <p>notes, summaries, question answers</p>
         </div>
-      </div>
+      </button>
+
       <nav class="view-toggle" aria-label="Collection type">
         <button class="toggle-btn active" data-view="notes" aria-selected="true">Notes</button>
         <button class="toggle-btn" data-view="summaries" aria-selected="false">Summaries</button>
@@ -30,11 +31,27 @@
   </header>
 
   <main>
-    <section class="catalog-controls">
+    <section class="class-select-section" id="classSelectSection">
+      <div class="section-kicker">Step 1</div>
+      <h2>Select Class</h2>
+      <p>Choose a class to view related NCERT notes, summaries and question answers.</p>
+      <div class="class-grid" id="classGrid"></div>
+    </section>
+
+    <section class="catalog-controls" id="catalogControls" hidden>
+      <div class="selected-class-bar">
+        <div>
+          <span class="section-kicker">Selected</span>
+          <strong id="selectedClassText">Class</strong>
+        </div>
+        <button id="changeClassBtn" type="button">Change Class</button>
+      </div>
+
       <div class="search-wrap">
-        <input id="searchInput" type="search" placeholder="Search class, subject, chapter..." autocomplete="off" />
+        <input id="searchInput" type="search" placeholder="Search subject, chapter..." autocomplete="off" />
         <span id="resultCount" class="search-count">0 / 0</span>
       </div>
+
       <div class="filter-wrap">
         <label for="genreFilter">Subject</label>
         <select id="genreFilter"><option value="">All</option></select>
@@ -52,25 +69,33 @@
     </div>
   </div>
 
-  <section id="readerView" class="reader-view" hidden aria-labelledby="readerTitle">
-    <header class="reader-header">
-      <button id="readerBack" class="reader-back" type="button">← Back</button>
-      <div class="reader-heading">
+  <section id="readerView" class="reader-view" hidden>
+    <div class="reader-shell">
+      <div class="reader-toolbar">
+        <button id="readerBack" type="button">← Back</button>
+        <div class="reader-actions">
+          <button id="readerPdf" type="button">Open PDF</button>
+          <button id="readerPrint" type="button">Print</button>
+        </div>
+      </div>
+
+      <article class="reader-paper">
         <p id="readerKicker" class="reader-kicker"></p>
-        <h2 id="readerTitle">Detailed Notes</h2>
-      </div>
-      <div class="reader-actions">
-        <button id="readerPrint" class="reader-action-btn" type="button">Open PDF</button>
-      </div>
-    </header>
-    <div id="readerContent" class="reader-content"></div>
+        <h1 id="readerTitle"></h1>
+        <div id="readerContent" class="reader-content"></div>
+        <div class="reader-nav">
+          <button id="prevChapterBtn" type="button">← Previous</button>
+          <button id="nextChapterBtn" type="button">Next →</button>
+        </div>
+      </article>
+    </div>
   </section>
 
   <footer class="site-footer">
-    NCERT collection for study use. Add PDFs/Docs links and manual content in <code>media/library.json</code>.
+    NCERT collection for study use. Add chapter content in <code>content/</code> and link it in <code>media/library.json</code>.
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
