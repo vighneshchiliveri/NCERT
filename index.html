@@ -52,8 +52,22 @@
     </div>
   </div>
 
+  <section id="readerView" class="reader-view" hidden aria-labelledby="readerTitle">
+    <header class="reader-header">
+      <button id="readerBack" class="reader-back" type="button">← Back</button>
+      <div class="reader-heading">
+        <p id="readerKicker" class="reader-kicker"></p>
+        <h2 id="readerTitle">Detailed Notes</h2>
+      </div>
+      <div class="reader-actions">
+        <button id="readerPrint" class="reader-action-btn" type="button">Print / Save PDF</button>
+      </div>
+    </header>
+    <div id="readerContent" class="reader-content"></div>
+  </section>
+
   <footer class="site-footer">
-    NCERT collection for study use. Add PDFs/Docs links in <code>media/library.json</code>.
+    NCERT collection for study use. Add PDFs/Docs links and manual content in <code>media/library.json</code>.
   </footer>
 
   <script src="script.js"></script>
