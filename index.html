@@ -3,320 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NCERT Companion — Complete Study Notes & Q&A</title>
+    <title>The Archive — Personal Media Collection</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- HEADER -->
-    <header class="header">
-        <nav class="navbar">
-            <div class="logo">
-                <div>
-                    <div class="logo-text">NCERT</div>
-                    <div class="tagline">Study Companion</div>
-                </div>
+    <div class="container">
+        <header>
+            <div class="logo">A</div>
+            <div class="header-text">
+                <h1>The Archive</h1>
+                <p>a personal collection, catalogued</p>
             </div>
-            <div class="nav-links">
-                <a href="#subjects" class="nav-link">Subjects</a>
-                <a href="#features" class="nav-link">Features</a>
-                <a href="#search" class="nav-link">Search</a>
-                <a href="#about" class="nav-link">About</a>
-            </div>
+        </header>
+
+        <nav class="tabs">
+            <button class="tab active" data-category="music">Music</button>
+            <button class="tab" data-category="video">Video</button>
         </nav>
-        <div class="header-divider"></div>
-    </header>
 
-    <!-- HERO SECTION -->
-    <section class="hero" id="home">
-        <div class="container">
-            <div class="hero-content">
-                <h1 class="hero-title">Master Your NCERT Textbooks</h1>
-                <p class="hero-subtitle">Comprehensive notes, intelligent summaries, and complete Q&A for all classes and subjects</p>
-                <div class="hero-features">
-                    <div class="feature-item">
-                        <span class="feature-count">1000+</span>
-                        <span class="feature-label">Typed Notes</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="feature-count">500+</span>
-                        <span class="feature-label">Summaries</span>
-                    </div>
-                    <div class="feature-item">
-                        <span class="feature-count">5000+</span>
-                        <span class="feature-label">Q&A Pairs</span>
-                    </div>
-                </div>
-                <div class="hero-cta">
-                    <button class="btn btn-primary" onclick="document.getElementById('subjects').scrollIntoView({behavior: 'smooth'})">Browse Subjects</button>
-                    <button class="btn btn-secondary" onclick="openSearchModal()">Quick Search</button>
-                </div>
+        <div class="controls">
+            <div class="filter-group">
+                <label for="genre">Genre</label>
+                <select id="genre">
+                    <option value="all">All</option>
+                </select>
+            </div>
+            <div class="search-group">
+                <input type="text" id="search" placeholder="Search...">
             </div>
         </div>
-    </section>
 
-    <!-- FEATURES SECTION -->
-    <section class="features" id="features">
-        <div class="container">
-            <h2 class="section-title">Why Choose NCERT Companion</h2>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">📖</div>
-                    <h3>Detailed Notes</h3>
-                    <p>Comprehensive, well-organized notes covering every topic with key points and real-world examples</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">📋</div>
-                    <h3>Smart Summaries</h3>
-                    <p>Concise chapter summaries capturing the essence of each lesson for quick revision</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">❓</div>
-                    <h3>Complete Q&A</h3>
-                    <p>Extensive question bank with varying difficulty levels and detailed explanations</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🔍</div>
-                    <h3>Advanced Search</h3>
-                    <p>Powerful search functionality to find content instantly across all subjects</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">📱</div>
-                    <h3>Fully Responsive</h3>
-                    <p>Perfect on desktop, tablet, or mobile with seamless experience everywhere</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">⚡</div>
-                    <h3>Fast & Accessible</h3>
-                    <p>Lightning-fast performance with beautiful, accessible design for all users</p>
-                </div>
-            </div>
-        </div>
-    </section>
+        <main id="media-grid" class="media-grid">
+            <div class="empty-state">No entries match your search.</div>
+        </main>
 
-    <!-- SUBJECTS SECTION -->
-    <section class="subjects" id="subjects">
-        <div class="container">
-            <h2 class="section-title">All Subjects & Classes</h2>
-            
-            <div class="filter-bar">
-                <button class="filter-btn active" onclick="filterSubjects('all')">All Classes</button>
-                <button class="filter-btn" onclick="filterSubjects('6-8')">Classes 6–8</button>
-                <button class="filter-btn" onclick="filterSubjects('9-10')">Classes 9–10</button>
-                <button class="filter-btn" onclick="filterSubjects('11-12')">Classes 11–12</button>
-            </div>
-
-            <div class="subjects-grid">
-                <!-- Class 6-8 -->
-                <div class="subject-card" data-class="6-8" onclick="openSubject('math-6')">
-                    <div class="subject-icon">🔢</div>
-                    <div class="subject-info">
-                        <h3>Mathematics</h3>
-                        <p>Classes 6–8 • 45 Topics • 250+ Q&A</p>
-                    </div>
-                </div>
-
-                <div class="subject-card" data-class="6-8" onclick="openSubject('science-6')">
-                    <div class="subject-icon">🔬</div>
-                    <div class="subject-info">
-                        <h3>Science</h3>
-                        <p>Classes 6–8 • 52 Topics • 280+ Q&A</p>
-                    </div>
-                </div>
-
-                <div class="subject-card" data-class="6-8" onclick="openSubject('english-6')">
-                    <div class="subject-icon">📚</div>
-                    <div class="subject-info">
-                        <h3>English</h3>
-                        <p>Classes 6–8 • 38 Topics • 200+ Q&A</p>
-                    </div>
-                </div>
-
-                <div class="subject-card" data-class="6-8" onclick="openSubject('social-6')">
-                    <div class="subject-icon">🌍</div>
-                    <div class="subject-info">
-                        <h3>Social Studies</h3>
-                        <p>Classes 6–8 • 48 Topics • 240+ Q&A</p>
-                    </div>
-                </div>
-
-                <!-- Class 9-10 -->
-                <div class="subject-card" data-class="9-10" onclick="openSubject('math-9')">
-                    <div class="subject-icon">🔢</div>
-                    <div class="subject-info">
-                        <h3>Mathematics</h3>
-                        <p>Classes 9–10 • 62 Topics • 420+ Q&A</p>
-                    </div>
-                </div>
-
-                <div class="subject-card" data-class="9-10" onclick="openSubject('science-9')">
-                    <div class="subject-icon">🔬</div>
-                    <div class="subject-info">
-                        <h3>Science</h3>
-                        <p>Classes 9–10 • 78 Topics • 580+ Q&A</p>
-                    </div>
-                </div>
-
-                <div class="subject-card" data-class="9-10" onclick="openSubject('english-9')">
-                    <div class="subject-icon">📚</div>
-                    <div class="subject-info">
-                        <h3>English</h3>
-                        <p>Classes 9–10 • 45 Topics • 300+ Q&A</p>
-                    </div>
-                </div>
-
-                <div class="subject-card" data-class="9-10" onclick="openSubject('social-9')">
-                    <div class="subject-icon">🌍</div>
-                    <div class="subject-info">
-                        <h3>Social Studies</h3>
-                        <p>Classes 9–10 • 68 Topics • 420+ Q&A</p>
-                    </div>
-                </div>
-
-                <!-- Class 11-12 -->
-                <div class="subject-card" data-class="11-12" onclick="openSubject('math-11')">
-                    <div class="subject-icon">🔢</div>
-                    <div class="subject-info">
-                        <h3>Mathematics</h3>
-                        <p>Classes 11–12 • 95 Topics • 650+ Q&A</p>
-                    </div>
-                </div>
-
-                <div class="subject-card" data-class="11-12" onclick="openSubject('science-11')">
-                    <div class="subject-icon">🔬</div>
-                    <div class="subject-info">
-                        <h3>Science (PCB)</h3>
-                        <p>Classes 11–12 • 128 Topics • 950+ Q&A</p>
-                    </div>
-                </div>
-
-                <div class="subject-card" data-class="11-12" onclick="openSubject('english-11')">
-                    <div class="subject-icon">📚</div>
-                    <div class="subject-info">
-                        <h3>English</h3>
-                        <p>Classes 11–12 • 52 Topics • 380+ Q&A</p>
-                    </div>
-                </div>
-
-                <div class="subject-card" data-class="11-12" onclick="openSubject('social-11')">
-                    <div class="subject-icon">🌍</div>
-                    <div class="subject-info">
-                        <h3>Economics & Politics</h3>
-                        <p>Classes 11–12 • 74 Topics • 500+ Q&A</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- SEARCH SECTION -->
-    <section class="search-section" id="search">
-        <div class="container">
-            <h2 class="section-title">Search Content</h2>
-            <div class="search-box">
-                <input type="text" class="search-input" id="searchInput" placeholder="Search topics, concepts, questions..." onkeyup="performSearch()" />
-                <button class="search-submit" onclick="performSearch()">Search</button>
-            </div>
-            <div id="searchResults" class="search-results"></div>
-        </div>
-    </section>
-
-    <!-- TESTIMONIALS -->
-    <section class="testimonials">
-        <div class="container">
-            <h2 class="section-title">What Students Say</h2>
-            <div class="testimonials-grid">
-                <div class="testimonial-card">
-                    <div class="testimonial-rating">★★★★★</div>
-                    <p class="testimonial-text">"The notes are incredibly clear and well-organized. Helped me score 95% in my board exams."</p>
-                    <p class="testimonial-author">– Priya Sharma, Class 12 CBSE</p>
-                </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-rating">★★★★★</div>
-                    <p class="testimonial-text">"The Q&A bank is comprehensive and practice here daily. Concepts are crystal clear now."</p>
-                    <p class="testimonial-author">– Arjun Kumar, Class 11 ICSE</p>
-                </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-rating">★���★★★</div>
-                    <p class="testimonial-text">"Summaries saved my life during revision. Perfect for last-minute exam preparation."</p>
-                    <p class="testimonial-author">– Anjali Desai, Class 10 Board</p>
-                </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-rating">★★★★★</div>
-                    <p class="testimonial-text">"My child's concepts are clearer and the design keeps them engaged. Highly recommended."</p>
-                    <p class="testimonial-author">– Mrs. Patel, Parent</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ABOUT SECTION -->
-    <section class="about" id="about">
-        <div class="container">
-            <h2 class="section-title">About NCERT Companion</h2>
-            <div class="about-content">
-                <p>NCERT Companion is your complete study resource for mastering NCERT textbooks. We provide manually typed, searchable content covering all classes from 6 to 12 across all major subjects. No PDFs, no images—just clean, organized, text-based content designed for efficient learning.</p>
-                <p>Our mission is to make quality education accessible to every student by providing comprehensive notes, intelligent summaries, and extensive Q&A banks that prepare you for any exam.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- FOOTER -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>NCERT Companion</h3>
-                    <p>Your complete study companion for NCERT textbooks.</p>
-                </div>
-                <div class="footer-section">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="#subjects">Subjects</a></li>
-                        <li><a href="#features">Features</a></li>
-                        <li><a href="#search">Search</a></li>
-                        <li><a href="#about">About</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h3>Connect</h3>
-                    <ul>
-                        <li><a href="#">Email: hello@ncertcompanion.com</a></li>
-                        <li><a href="#">Twitter: @NCERTCompanion</a></li>
-                        <li><a href="#">Instagram: @ncertcompanion</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-divider"></div>
-            <div class="footer-bottom">
-                <p>&copy; 2024 NCERT Companion. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- MODALS -->
-    <div id="searchModal" class="modal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h2>Search</h2>
-                <button class="modal-close" onclick="closeSearchModal()">×</button>
-            </div>
-            <div class="modal-body">
-                <input type="text" class="search-input" id="modalSearchInput" placeholder="Search topics, concepts, questions..." onkeyup="performSearch()" />
-                <div id="modalSearchResults" class="search-results"></div>
-            </div>
-        </div>
+        <footer>
+            <p>Catalogued for personal use. Add your own files to <code>/media/music</code> and <code>/media/video</code>, then update <code>library.json</code>.</p>
+        </footer>
     </div>
-
-    <div id="subjectModal" class="modal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h2>Subject Details</h2>
-                <button class="modal-close" onclick="closeSubjectModal()">×</button>
-            </div>
-            <div class="modal-body" id="subjectDetail"></div>
-        </div>
-    </div>
-
+    
     <script src="script.js"></script>
 </body>
 </html>
