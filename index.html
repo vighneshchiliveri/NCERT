@@ -1,51 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NCERT Digital Library</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NCERT Archive — Notes, Summaries & Q&A</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="container">
-        <header>
-            <div class="logo">N</div>
-            <div class="header-text">
-                <h1>NCERT Repository</h1>
-                <p>Curated educational resources for Jawahar Navodaya Vidyalaya, Kamareddy</p>
-            </div>
-        </header>
+  <div class="grain"></div>
 
-        <nav class="tabs">
-            <button class="tab active" data-category="textbooks">Textbooks</button>
-            <button class="tab" data-category="reference">Reference Materials</button>
-        </nav>
-
-        <div class="controls">
-            <div class="filter-group">
-                <label for="class-level">Class</label>
-                <select id="class-level">
-                    <option value="all">All Classes</option>
-                    <option value="10">Class 10</option>
-                    <option value="11">Class 11</option>
-                    <option value="12">Class 12</option>
-                </select>
-            </div>
-            <div class="search-group">
-                <input type="text" id="search" placeholder="Search subjects or topics...">
-            </div>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <div class="brand-mark">N</div>
+        <div class="brand-text">
+          <h1>NCERT Archive</h1>
+          <p>notes, summaries, question answers</p>
         </div>
-
-        <main id="media-grid" class="media-grid">
-            <div class="empty-state">No resources match your search.</div>
-        </main>
-
-        <footer>
-            <p>Maintained by Akula Sandeep {Librarian}. Update the repository catalog in <code>data.json</code>.</p>
-        </footer>
+      </div>
+      <nav class="view-toggle" aria-label="Collection type">
+        <button class="toggle-btn active" data-view="notes" aria-selected="true">Notes</button>
+        <button class="toggle-btn" data-view="summaries" aria-selected="false">Summaries</button>
+        <button class="toggle-btn" data-view="qa" aria-selected="false">Q & A</button>
+      </nav>
     </div>
-    
-    <script src="script.js"></script>
+  </header>
+
+  <main>
+    <section class="catalog-controls">
+      <div class="search-wrap">
+        <input id="searchInput" type="search" placeholder="Search class, subject, chapter..." autocomplete="off" />
+        <span id="resultCount" class="search-count">0 / 0</span>
+      </div>
+      <div class="filter-wrap">
+        <label for="genreFilter">Subject</label>
+        <select id="genreFilter"><option value="">All</option></select>
+      </div>
+    </section>
+
+    <section id="catalog" class="catalog" aria-live="polite"></section>
+    <section id="emptyState" class="empty-state" hidden>No NCERT material matches your search.</section>
+  </main>
+
+  <div id="modalBackdrop" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal">
+      <button id="modalClose" class="modal-close" aria-label="Close">×</button>
+      <div id="modalContent" class="modal-content"></div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    NCERT collection for study use. Add PDFs/Docs links in <code>media/library.json</code>.
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
