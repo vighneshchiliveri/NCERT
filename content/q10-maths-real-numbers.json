@@ -1,0 +1,44 @@
+{
+  "title": "Real Numbers — Question Answers",
+  "class": "10",
+  "subject": "Mathematics",
+  "chapter": "Chapter 1",
+  "notes": [
+    {
+      "heading": "Important concepts",
+      "points": [
+        "Real numbers include rational and irrational numbers.",
+        "Euclid's Division Lemma says that for positive integers a and b, there exist unique integers q and r such that a = bq + r, where 0 ≤ r < b.",
+        "The Fundamental Theorem of Arithmetic says every composite number can be expressed as a product of primes in a unique way, apart from the order of factors.",
+        "A rational number has a terminating or non-terminating recurring decimal expansion."
+      ]
+    },
+    {
+      "heading": "Exam tips",
+      "points": [
+        "For HCF using Euclid's algorithm, divide the larger number by the smaller number repeatedly until the remainder becomes zero.",
+        "To prove irrationality, assume the number is rational and then reach a contradiction.",
+        "For decimal expansion, check the prime factors of the denominator after reducing the fraction to lowest terms."
+      ]
+    }
+  ],
+  "summary": "The chapter Real Numbers deals with Euclid's Division Lemma, Euclid's algorithm, the Fundamental Theorem of Arithmetic, rational and irrational numbers, and decimal expansion. It helps students understand how numbers are classified and how HCF, LCM and prime factorisation are used in problem solving.",
+  "qa": [
+    {
+      "q": "Find the HCF of 135 and 225 using Euclid's algorithm.",
+      "a": "225 = 135 × 1 + 90, 135 = 90 × 1 + 45, 90 = 45 × 2 + 0. Therefore, HCF = 45."
+    },
+    {
+      "q": "State Euclid's Division Lemma.",
+      "a": "For positive integers a and b, there exist unique integers q and r such that a = bq + r, where 0 ≤ r < b."
+    },
+    {
+      "q": "When does a rational number have a terminating decimal expansion?",
+      "a": "A rational number p/q in lowest terms has a terminating decimal expansion if the prime factorisation of q contains only powers of 2, 5 or both."
+    },
+    {
+      "q": "Why is √2 irrational?",
+      "a": "√2 is irrational because assuming it as a rational number leads to a contradiction that both numerator and denominator are even, which is not possible if they are co-prime."
+    }
+  ]
+}

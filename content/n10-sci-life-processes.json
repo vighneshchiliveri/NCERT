@@ -1,0 +1,63 @@
+{
+  "title": "Life Processes — Notes",
+  "class": "10",
+  "subject": "Science",
+  "chapter": "Chapter 5",
+  "notes": [
+    {
+      "heading": "Meaning of life processes",
+      "points": [
+        "Life processes are the basic functions needed by living organisms to stay alive.",
+        "The main life processes are nutrition, respiration, transportation and excretion.",
+        "Energy is required for all life processes, and organisms get this energy from food."
+      ]
+    },
+    {
+      "heading": "Nutrition",
+      "points": [
+        "Nutrition is the process of taking food and using it for growth, repair and energy.",
+        "Autotrophic nutrition is found in green plants; they prepare food by photosynthesis.",
+        "Heterotrophic nutrition is found in animals and many microorganisms; they depend on other organisms for food."
+      ]
+    },
+    {
+      "heading": "Respiration",
+      "points": [
+        "Respiration releases energy from food inside cells.",
+        "Aerobic respiration uses oxygen and releases more energy.",
+        "Anaerobic respiration takes place without oxygen and releases less energy."
+      ]
+    },
+    {
+      "heading": "Transportation and excretion",
+      "points": [
+        "In humans, blood transports oxygen, food, hormones and waste materials.",
+        "In plants, xylem transports water and minerals, while phloem transports food.",
+        "Excretion removes harmful metabolic wastes from the body."
+      ]
+    }
+  ],
+  "summary": "Life Processes explains how living organisms perform essential activities such as nutrition, respiration, transportation and excretion. Plants prepare food through photosynthesis, while animals depend on other organisms. Respiration releases energy from food. Transport systems carry useful materials, and excretory systems remove waste from the body.",
+  "qa": [
+    {
+      "q": "What are life processes?",
+      "a": "Life processes are the essential activities performed by living organisms to maintain life, such as nutrition, respiration, transportation and excretion."
+    },
+    {
+      "q": "What is photosynthesis?",
+      "a": "Photosynthesis is the process by which green plants prepare food using carbon dioxide, water, sunlight and chlorophyll."
+    },
+    {
+      "q": "What is the difference between aerobic and anaerobic respiration?",
+      "a": "Aerobic respiration occurs in the presence of oxygen and releases more energy. Anaerobic respiration occurs without oxygen and releases less energy."
+    },
+    {
+      "q": "What is the function of xylem?",
+      "a": "Xylem transports water and minerals from roots to other parts of the plant."
+    },
+    {
+      "q": "Why is excretion important?",
+      "a": "Excretion is important because it removes harmful waste products from the body and keeps the internal system balanced."
+    }
+  ]
+}
