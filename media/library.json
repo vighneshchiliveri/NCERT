@@ -11,8 +11,72 @@
       "icon": "🔬",
       "description": "Short notes covering nutrition, respiration, transportation and excretion with important points for revision.",
       "files": [
-        { "label": "PDF Notes", "format": "PDF", "size": "Add size", "path": "#" }
-      ]
+        {
+          "label": "PDF Notes",
+          "format": "PDF",
+          "size": "Add size",
+          "path": "#"
+        }
+      ],
+      "content": {
+        "notes": [
+          {
+            "heading": "Meaning of life processes",
+            "points": [
+              "Life processes are the basic functions needed by living organisms to stay alive.",
+              "The main life processes are nutrition, respiration, transportation and excretion.",
+              "Energy is required for all life processes, and organisms get this energy from food."
+            ]
+          },
+          {
+            "heading": "Nutrition",
+            "points": [
+              "Nutrition is the process of taking food and using it for growth, repair and energy.",
+              "Autotrophic nutrition is found in green plants; they prepare food by photosynthesis.",
+              "Heterotrophic nutrition is found in animals and many microorganisms; they depend on other organisms for food."
+            ]
+          },
+          {
+            "heading": "Respiration",
+            "points": [
+              "Respiration releases energy from food inside cells.",
+              "Aerobic respiration uses oxygen and releases more energy.",
+              "Anaerobic respiration takes place without oxygen and releases less energy."
+            ]
+          },
+          {
+            "heading": "Transportation and excretion",
+            "points": [
+              "In humans, blood transports oxygen, food, hormones and waste materials.",
+              "In plants, xylem transports water and minerals, while phloem transports food.",
+              "Excretion removes harmful metabolic wastes from the body."
+            ]
+          }
+        ],
+        "summary": "Life Processes explains how living organisms perform essential activities such as nutrition, respiration, transportation and excretion. Plants prepare food through photosynthesis, while animals depend on other organisms. Respiration releases energy from food. Transport systems carry useful materials, and excretory systems remove waste from the body.",
+        "qa": [
+          {
+            "q": "What are life processes?",
+            "a": "Life processes are the essential activities performed by living organisms to maintain life, such as nutrition, respiration, transportation and excretion."
+          },
+          {
+            "q": "What is photosynthesis?",
+            "a": "Photosynthesis is the process by which green plants prepare food using carbon dioxide, water, sunlight and chlorophyll."
+          },
+          {
+            "q": "What is the difference between aerobic and anaerobic respiration?",
+            "a": "Aerobic respiration occurs in the presence of oxygen and releases more energy. Anaerobic respiration occurs without oxygen and releases less energy."
+          },
+          {
+            "q": "What is the function of xylem?",
+            "a": "Xylem transports water and minerals from roots to other parts of the plant."
+          },
+          {
+            "q": "Why is excretion important?",
+            "a": "Excretion is important because it removes harmful waste products from the body and keeps the internal system balanced."
+          }
+        ]
+      }
     },
     {
       "id": "n9-his-french-revolution",
@@ -25,8 +89,69 @@
       "icon": "🏛️",
       "description": "Exam-friendly notes on causes, events, National Assembly, Reign of Terror and legacy of the French Revolution.",
       "files": [
-        { "label": "PDF Notes", "format": "PDF", "size": "Add size", "path": "#" }
-      ]
+        {
+          "label": "PDF Notes",
+          "format": "PDF",
+          "size": "Add size",
+          "path": "#"
+        }
+      ],
+      "content": {
+        "notes": [
+          {
+            "heading": "French society before 1789",
+            "points": [
+              "French society was divided into three estates: clergy, nobility and common people.",
+              "The First and Second Estates enjoyed privileges and paid fewer taxes.",
+              "The Third Estate included peasants, workers, merchants and professionals, and they carried most of the tax burden."
+            ]
+          },
+          {
+            "heading": "Main causes of the Revolution",
+            "points": [
+              "Heavy taxes and rising prices created anger among common people.",
+              "France faced a financial crisis due to wars and royal expenses.",
+              "Ideas of liberty, equality and popular sovereignty influenced people."
+            ]
+          },
+          {
+            "heading": "Important events",
+            "points": [
+              "The Estates General was called in 1789 to solve the financial crisis.",
+              "The Third Estate declared itself the National Assembly.",
+              "The Bastille was stormed on 14 July 1789, becoming a symbol of the Revolution.",
+              "The Declaration of the Rights of Man and Citizen proclaimed equality before law."
+            ]
+          },
+          {
+            "heading": "Legacy",
+            "points": [
+              "The Revolution spread ideas of liberty, equality and fraternity.",
+              "It challenged absolute monarchy and feudal privileges.",
+              "It inspired democratic movements in many parts of the world."
+            ]
+          }
+        ],
+        "summary": "The French Revolution began because of social inequality, economic crisis and new political ideas. The Third Estate challenged the old system and demanded rights. The Revolution ended many feudal privileges and introduced ideas of equality, citizenship and democracy, though it also witnessed violence during the Reign of Terror.",
+        "qa": [
+          {
+            "q": "What were the three estates in France?",
+            "a": "The First Estate was clergy, the Second Estate was nobility, and the Third Estate included common people such as peasants, workers and merchants."
+          },
+          {
+            "q": "Why was the Bastille attacked?",
+            "a": "The Bastille was attacked because it represented royal authority and oppression. People also wanted arms and ammunition stored there."
+          },
+          {
+            "q": "What was the National Assembly?",
+            "a": "The National Assembly was formed by the representatives of the Third Estate to make a constitution and limit the powers of the king."
+          },
+          {
+            "q": "What ideas became famous because of the French Revolution?",
+            "a": "The ideas of liberty, equality and fraternity became famous because of the French Revolution."
+          }
+        ]
+      }
     }
   ],
   "summaries": [
@@ -41,8 +166,60 @@
       "icon": "📖",
       "description": "Simple chapter summary with theme, characters and moral points.",
       "files": [
-        { "label": "Chapter Summary", "format": "PDF", "size": "Add size", "path": "#" }
-      ]
+        {
+          "label": "Chapter Summary",
+          "format": "PDF",
+          "size": "Add size",
+          "path": "#"
+        }
+      ],
+      "content": {
+        "notes": [
+          {
+            "heading": "About the lesson",
+            "points": [
+              "A Letter to God is a story about faith, innocence and irony.",
+              "The main character Lencho is a hardworking farmer who has strong faith in God.",
+              "The story shows the goodness of post office employees and Lencho's innocent misunderstanding."
+            ]
+          },
+          {
+            "heading": "Characters",
+            "points": [
+              "Lencho: a poor farmer with complete faith in God.",
+              "Postmaster: a kind person who wants to protect Lencho's faith.",
+              "Post office employees: they contribute money to help Lencho."
+            ]
+          },
+          {
+            "heading": "Theme and message",
+            "points": [
+              "Faith can give strength during difficult times.",
+              "Human kindness is an important form of support.",
+              "Blind faith without understanding can create irony."
+            ]
+          }
+        ],
+        "summary": "Lencho, a poor farmer, hopes for a good harvest, but a hailstorm destroys his crop. He writes a letter to God asking for money. The postmaster, moved by Lencho's faith, collects money with the help of employees and sends it to him. Lencho receives less than he requested and thinks the post office workers have stolen the remaining money. The story ends with irony because the people who helped him are blamed by him.",
+        "qa": [
+          {
+            "q": "Why did Lencho write a letter to God?",
+            "a": "Lencho wrote a letter to God because his crop was destroyed by a hailstorm and he needed money to sow his field again and support his family."
+          },
+          {
+            "q": "How did the postmaster help Lencho?",
+            "a": "The postmaster collected money from his employees and friends, added some money himself, and sent it to Lencho in the name of God."
+          },
+          {
+            "q": "Why was Lencho angry after receiving the money?",
+            "a": "Lencho was angry because he received less money than he had asked for and believed that the post office employees had stolen the rest."
+          },
+          {
+            "q": "What is the irony in the story?",
+            "a": "The irony is that Lencho suspects the same post office employees who actually helped him."
+          }
+        ]
+      }
     },
     {
       "id": "s8-sci-crop-production",
@@ -55,8 +232,61 @@
       "icon": "🌾",
       "description": "Quick summary of agricultural practices, irrigation, crop protection and storage.",
       "files": [
-        { "label": "Chapter Summary", "format": "PDF", "size": "Add size", "path": "#" }
-      ]
+        {
+          "label": "Chapter Summary",
+          "format": "PDF",
+          "size": "Add size",
+          "path": "#"
+        }
+      ],
+      "content": {
+        "notes": [
+          {
+            "heading": "Agricultural practices",
+            "points": [
+              "Crop production involves a series of steps followed by farmers to grow crops.",
+              "Important steps are preparation of soil, sowing, adding manure and fertilizers, irrigation, weeding, harvesting and storage.",
+              "Good quality seeds and proper spacing help crops grow better."
+            ]
+          },
+          {
+            "heading": "Irrigation and crop protection",
+            "points": [
+              "Irrigation is the supply of water to crops at regular intervals.",
+              "Traditional methods include moat, chain pump, dhekli and rahat.",
+              "Modern methods include sprinkler and drip irrigation.",
+              "Weeds are unwanted plants that compete with crops for nutrients, water and sunlight."
+            ]
+          },
+          {
+            "heading": "Harvesting and storage",
+            "points": [
+              "Harvesting is cutting and gathering mature crops.",
+              "Threshing separates grains from harvested crop plants.",
+              "Grains must be dried properly before storage to protect them from moisture, insects and fungi."
+            ]
+          }
+        ],
+        "summary": "Crop Production and Management explains the basic practices used by farmers to grow crops successfully. The process begins with soil preparation and sowing of seeds, followed by adding manure or fertilizers, irrigation and protection from weeds. After crops mature, they are harvested, threshed and stored safely to prevent damage.",
+        "qa": [
+          {
+            "q": "What is crop production?",
+            "a": "Crop production is the process of growing crops by following agricultural practices such as sowing, irrigation, weeding, harvesting and storage."
+          },
+          {
+            "q": "Why is soil preparation important?",
+            "a": "Soil preparation loosens the soil, improves aeration and helps roots grow easily."
+          },
+          {
+            "q": "What are weeds?",
+            "a": "Weeds are unwanted plants that grow along with crops and compete for nutrients, sunlight and water."
+          },
+          {
+            "q": "What is irrigation?",
+            "a": "Irrigation is the process of supplying water to crops at regular intervals."
+          }
+        ]
+      }
     }
   ],
   "qa": [
@@ -71,8 +301,53 @@
       "icon": "➗",
       "description": "Important NCERT exercise question answers and practice questions for revision.",
       "files": [
-        { "label": "Solved Questions", "format": "PDF", "size": "Add size", "path": "#" }
-      ]
+        {
+          "label": "Solved Questions",
+          "format": "PDF",
+          "size": "Add size",
+          "path": "#"
+        }
+      ],
+      "content": {
+        "notes": [
+          {
+            "heading": "Important concepts",
+            "points": [
+              "Real numbers include rational and irrational numbers.",
+              "Euclid's Division Lemma says that for positive integers a and b, there exist unique integers q and r such that a = bq + r, where 0 ≤ r < b.",
+              "The Fundamental Theorem of Arithmetic says every composite number can be expressed as a product of primes in a unique way, apart from the order of factors.",
+              "A rational number has a terminating or non-terminating recurring decimal expansion."
+            ]
+          },
+          {
+            "heading": "Exam tips",
+            "points": [
+              "For HCF using Euclid's algorithm, divide the larger number by the smaller number repeatedly until the remainder becomes zero.",
+              "To prove irrationality, assume the number is rational and then reach a contradiction.",
+              "For decimal expansion, check the prime factors of the denominator after reducing the fraction to lowest terms."
+            ]
+          }
+        ],
+        "summary": "The chapter Real Numbers deals with Euclid's Division Lemma, Euclid's algorithm, the Fundamental Theorem of Arithmetic, rational and irrational numbers, and decimal expansion. It helps students understand how numbers are classified and how HCF, LCM and prime factorisation are used in problem solving.",
+        "qa": [
+          {
+            "q": "Find the HCF of 135 and 225 using Euclid's algorithm.",
+            "a": "225 = 135 × 1 + 90, 135 = 90 × 1 + 45, 90 = 45 × 2 + 0. Therefore, HCF = 45."
+          },
+          {
+            "q": "State Euclid's Division Lemma.",
+            "a": "For positive integers a and b, there exist unique integers q and r such that a = bq + r, where 0 ≤ r < b."
+          },
+          {
+            "q": "When does a rational number have a terminating decimal expansion?",
+            "a": "A rational number p/q in lowest terms has a terminating decimal expansion if the prime factorisation of q contains only powers of 2, 5 or both."
+          },
+          {
+            "q": "Why is √2 irrational?",
+            "a": "√2 is irrational because assuming it as a rational number leads to a contradiction that both numerator and denominator are even, which is not possible if they are co-prime."
+          }
+        ]
+      }
     },
     {
       "id": "q7-civics-equality",
@@ -85,8 +360,60 @@
       "icon": "⚖️",
       "description": "Short and long answers based on the NCERT chapter On Equality.",
       "files": [
-        { "label": "Question Answers", "format": "PDF", "size": "Add size", "path": "#" }
-      ]
+        {
+          "label": "Question Answers",
+          "format": "PDF",
+          "size": "Add size",
+          "path": "#"
+        }
+      ],
+      "content": {
+        "notes": [
+          {
+            "heading": "Meaning of equality",
+            "points": [
+              "Equality means every person should get equal respect and equal opportunity.",
+              "In a democracy, all citizens are equal before the law.",
+              "No person should be discriminated against on the basis of caste, religion, gender, wealth or background."
+            ]
+          },
+          {
+            "heading": "Equality in Indian democracy",
+            "points": [
+              "Universal adult franchise gives every adult citizen the right to vote.",
+              "The Constitution guarantees equality before the law.",
+              "Government schemes try to reduce inequality and support disadvantaged people."
+            ]
+          },
+          {
+            "heading": "Dignity",
+            "points": [
+              "Dignity means self-respect and the respect given to every human being.",
+              "Discrimination hurts dignity.",
+              "A democratic society must protect the dignity of all citizens."
+            ]
+          }
+        ],
+        "summary": "On Equality explains that democracy is based on the idea that all people are equal. Equality includes equal respect, equal rights and equal opportunities. The Indian Constitution gives all citizens equality before the law and the right to vote. However, inequalities still exist in society, so people and governments must work to reduce discrimination and protect human dignity.",
+        "qa": [
+          {
+            "q": "What does equality mean?",
+            "a": "Equality means that every person should be treated with equal respect and should get equal opportunities and rights."
+          },
+          {
+            "q": "What is universal adult franchise?",
+            "a": "Universal adult franchise means that every adult citizen has the right to vote, regardless of caste, religion, gender, wealth or education."
+          },
+          {
+            "q": "Why is dignity important?",
+            "a": "Dignity is important because every human being deserves respect. Discrimination and unequal treatment hurt a person's dignity."
+          },
+          {
+            "q": "How does the Constitution support equality?",
+            "a": "The Constitution supports equality by guaranteeing equality before the law and prohibiting discrimination on certain grounds."
+          }
+        ]
+      }
     }
   ]
 }
