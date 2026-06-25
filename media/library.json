@@ -1,0 +1,92 @@
+{
+  "notes": [
+    {
+      "id": "n10-sci-life-processes",
+      "title": "Life Processes — Notes",
+      "class": "10",
+      "subject": "Science",
+      "chapter": "Chapter 5",
+      "book": "NCERT Science",
+      "type": "Notes",
+      "icon": "🔬",
+      "description": "Short notes covering nutrition, respiration, transportation and excretion with important points for revision.",
+      "files": [
+        { "label": "PDF Notes", "format": "PDF", "size": "Add size", "path": "#" }
+      ]
+    },
+    {
+      "id": "n9-his-french-revolution",
+      "title": "The French Revolution — Notes",
+      "class": "9",
+      "subject": "Social Science",
+      "chapter": "History Ch. 1",
+      "book": "India and the Contemporary World - I",
+      "type": "Notes",
+      "icon": "🏛️",
+      "description": "Exam-friendly notes on causes, events, National Assembly, Reign of Terror and legacy of the French Revolution.",
+      "files": [
+        { "label": "PDF Notes", "format": "PDF", "size": "Add size", "path": "#" }
+      ]
+    }
+  ],
+  "summaries": [
+    {
+      "id": "s10-eng-letter-god",
+      "title": "A Letter to God — Summary",
+      "class": "10",
+      "subject": "English",
+      "chapter": "First Flight Ch. 1",
+      "book": "First Flight",
+      "type": "Summary",
+      "icon": "📖",
+      "description": "Simple chapter summary with theme, characters and moral points.",
+      "files": [
+        { "label": "Chapter Summary", "format": "PDF", "size": "Add size", "path": "#" }
+      ]
+    },
+    {
+      "id": "s8-sci-crop-production",
+      "title": "Crop Production and Management — Summary",
+      "class": "8",
+      "subject": "Science",
+      "chapter": "Chapter 1",
+      "book": "NCERT Science",
+      "type": "Summary",
+      "icon": "🌾",
+      "description": "Quick summary of agricultural practices, irrigation, crop protection and storage.",
+      "files": [
+        { "label": "Chapter Summary", "format": "PDF", "size": "Add size", "path": "#" }
+      ]
+    }
+  ],
+  "qa": [
+    {
+      "id": "q10-maths-real-numbers",
+      "title": "Real Numbers — Question Answers",
+      "class": "10",
+      "subject": "Mathematics",
+      "chapter": "Chapter 1",
+      "book": "NCERT Mathematics",
+      "type": "Q&A",
+      "icon": "➗",
+      "description": "Important NCERT exercise question answers and practice questions for revision.",
+      "files": [
+        { "label": "Solved Questions", "format": "PDF", "size": "Add size", "path": "#" }
+      ]
+    },
+    {
+      "id": "q7-civics-equality",
+      "title": "On Equality — Question Answers",
+      "class": "7",
+      "subject": "Social Science",
+      "chapter": "Civics Ch. 1",
+      "book": "Social and Political Life - II",
+      "type": "Q&A",
+      "icon": "⚖️",
+      "description": "Short and long answers based on the NCERT chapter On Equality.",
+      "files": [
+        { "label": "Question Answers", "format": "PDF", "size": "Add size", "path": "#" }
+      ]
+    }
+  ]
+}
