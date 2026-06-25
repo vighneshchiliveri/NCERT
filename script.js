@@ -167,8 +167,207 @@ function renderFullContent(item) {
     </section>`;
 }
 
+
+function cleanPdfText(value = '') {
+  return String(value)
+    .replace(/[📖📝❓📘📗📙📕🧬🌾➗⚖️]/g, '')
+    .replace(/[“”]/g, '"')
+    .replace(/[‘’]/g, "'")
+    .replace(/—|–/g, '-')
+    .replace(/≤/g, '<=')
+    .replace(/≥/g, '>=')
+    .replace(/×/g, 'x')
+    .replace(/√/g, 'sqrt')
+    .replace(/•/g, '-')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function sanitizeFilename(value = 'NCERT-notes') {
+  return cleanPdfText(value)
+    .replace(/[^a-z0-9\- ]/gi, '')
+    .replace(/\s+/g, '-')
+    .replace(/-+/g, '-')
+    .slice(0, 80) || 'NCERT-notes';
+}
+
+function ensurePdfSpace(doc, y, needed = 18) {
+  const pageHeight = doc.internal.pageSize.getHeight();
+  const bottomMargin = 54;
+  if (y + needed > pageHeight - bottomMargin) {
+    doc.addPage();
+    return 54;
+  }
+  return y;
+}
+
+function addWrappedPdfText(doc, text, x, y, maxWidth, options = {}) {
+  const fontSize = options.fontSize || 11;
+  const lineHeight = options.lineHeight || fontSize + 5;
+  const style = options.style || 'normal';
+  const color = options.color || [34, 31, 26];
+
+  doc.setFont('helvetica', style);
+  doc.setFontSize(fontSize);
+  doc.setTextColor(...color);
+
+  const cleaned = cleanPdfText(text);
+  if (!cleaned) return y;
+
+  const lines = doc.splitTextToSize(cleaned, maxWidth);
+  lines.forEach(line => {
+    y = ensurePdfSpace(doc, y, lineHeight);
+    doc.text(line, x, y);
+    y += lineHeight;
+  });
+  return y;
+}
+
+function addPdfSectionTitle(doc, title, y, margin, contentWidth) {
+  y = ensurePdfSpace(doc, y, 40);
+  doc.setDrawColor(34, 31, 26);
+  doc.setFillColor(243, 214, 150);
+  doc.roundedRect(margin, y - 20, contentWidth, 32, 6, 6, 'FD');
+  doc.setFont('helvetica', 'bold');
+  doc.setFontSize(14);
+  doc.setTextColor(34, 31, 26);
+  doc.text(cleanPdfText(title), margin + 12, y + 1);
+  return y + 26;
+}
+
+function addPdfFooter(doc, title) {
+  const pageCount = doc.getNumberOfPages();
+  const pageWidth = doc.internal.pageSize.getWidth();
+  const pageHeight = doc.internal.pageSize.getHeight();
+  for (let i = 1; i <= pageCount; i += 1) {
+    doc.setPage(i);
+    doc.setDrawColor(213, 201, 178);
+    doc.line(48, pageHeight - 38, pageWidth - 48, pageHeight - 38);
+    doc.setFont('helvetica', 'normal');
+    doc.setFontSize(8);
+    doc.setTextColor(111, 100, 82);
+    doc.text(cleanPdfText(title), 48, pageHeight - 22);
+    doc.text(`Page ${i} of ${pageCount}`, pageWidth - 48, pageHeight - 22, { align: 'right' });
+  }
+}
+
+function buildItemPdf(item) {
+  const PdfConstructor = window.jspdf && window.jspdf.jsPDF;
+  if (!PdfConstructor) return null;
+
+  const doc = new PdfConstructor({ orientation: 'p', unit: 'pt', format: 'a4' });
+  const pageWidth = doc.internal.pageSize.getWidth();
+  const margin = 48;
+  const contentWidth = pageWidth - margin * 2;
+  const content = item.content || {};
+  let y = 58;
+
+  doc.setDrawColor(34, 31, 26);
+  doc.setFillColor(251, 248, 241);
+  doc.roundedRect(margin, 36, contentWidth, 118, 10, 10, 'FD');
+
+  doc.setFont('helvetica', 'bold');
+  doc.setFontSize(22);
+  doc.setTextColor(34, 31, 26);
+  doc.text(cleanPdfText(item.title || 'NCERT Notes'), margin + 18, y);
+  y += 24;
+
+  const meta = `Class ${item.class || ''} | ${item.subject || ''} | ${item.chapter || ''} | ${item.type || ''}`;
+  y = addWrappedPdfText(doc, meta, margin + 18, y, contentWidth - 36, { fontSize: 10, lineHeight: 14, color: [111, 100, 82] });
+  y += 6;
+  y = addWrappedPdfText(doc, item.description || 'Study material for NCERT preparation.', margin + 18, y, contentWidth - 36, { fontSize: 10, lineHeight: 15 });
+  y = 190;
+
+  y = addPdfSectionTitle(doc, 'NOTES', y, margin, contentWidth);
+  const notes = content.notes || [];
+  if (!notes.length) {
+    y = addWrappedPdfText(doc, 'Notes are not added yet.', margin, y, contentWidth, { fontSize: 11, lineHeight: 16 });
+  } else {
+    notes.forEach((note, noteIndex) => {
+      if (typeof note === 'string') {
+        y = addWrappedPdfText(doc, `${noteIndex + 1}. ${note}`, margin, y, contentWidth, { fontSize: 11, lineHeight: 16 });
+        y += 4;
+      } else {
+        if (note.heading) {
+          y = ensurePdfSpace(doc, y, 28);
+          doc.setFont('helvetica', 'bold');
+          doc.setFontSize(12);
+          doc.setTextColor(34, 31, 26);
+          doc.text(cleanPdfText(note.heading), margin, y);
+          y += 18;
+        }
+        (note.points || []).forEach(point => {
+          y = addWrappedPdfText(doc, `- ${point}`, margin + 10, y, contentWidth - 10, { fontSize: 11, lineHeight: 16 });
+        });
+        y += 8;
+      }
+    });
+  }
+
+  y += 10;
+  y = addPdfSectionTitle(doc, 'SUMMARY', y, margin, contentWidth);
+  const summary = content.summary;
+  if (Array.isArray(summary)) {
+    summary.forEach(point => {
+      y = addWrappedPdfText(doc, `- ${point}`, margin + 10, y, contentWidth - 10, { fontSize: 11, lineHeight: 16 });
+    });
+  } else {
+    y = addWrappedPdfText(doc, summary || 'Summary is not added yet.', margin, y, contentWidth, { fontSize: 11, lineHeight: 16 });
+  }
+
+  y += 10;
+  y = addPdfSectionTitle(doc, 'QUESTION & ANSWERS', y, margin, contentWidth);
+  const qa = content.qa || [];
+  if (!qa.length) {
+    y = addWrappedPdfText(doc, 'Question answers are not added yet.', margin, y, contentWidth, { fontSize: 11, lineHeight: 16 });
+  } else {
+    qa.forEach((question, index) => {
+      y = ensurePdfSpace(doc, y, 46);
+      y = addWrappedPdfText(doc, `Q${index + 1}. ${question.q}`, margin, y, contentWidth, { fontSize: 11, lineHeight: 16, style: 'bold' });
+      y = addWrappedPdfText(doc, `Answer: ${question.a}`, margin + 12, y, contentWidth - 12, { fontSize: 11, lineHeight: 16 });
+      y += 8;
+    });
+  }
+
+  addPdfFooter(doc, item.title || 'NCERT Notes');
+  return doc;
+}
+
+function openGeneratedPdf(id) {
+  const item = findItemById(id);
+  if (!item) return;
+
+  const doc = buildItemPdf(item);
+  if (!doc) {
+    openReader(id);
+    setTimeout(() => window.print(), 200);
+    return;
+  }
+
+  const pdfBlob = doc.output('blob');
+  const pdfUrl = URL.createObjectURL(pdfBlob);
+  const newWindow = window.open(pdfUrl, '_blank');
+  if (!newWindow) {
+    doc.save(`${sanitizeFilename(item.title)}.pdf`);
+  }
+  setTimeout(() => URL.revokeObjectURL(pdfUrl), 60000);
+}
+
 function renderFiles(item) {
   return (item.files || []).map(f => {
+    const isPdf = String(f.format || '').toLowerCase().includes('pdf');
+
+    if (isPdf) {
+      return `
+        <div class="quality-row">
+          <div class="quality-info">
+            <span class="quality-name">${escapeHtml(f.format)} — ${escapeHtml(f.label || 'Full Notes PDF')}</span>
+            <span class="quality-size">Generated from notes, summary and Q&A</span>
+          </div>
+          <button class="download-btn" type="button" data-generate-pdf="${escapeHtml(item.id)}">Open PDF</button>
+        </div>`;
+    }
+
     const href = normalizeDriveUrl(f.path);
     const downloadAttr = isExternalUrl(href) ? '' : 'download';
     return `
@@ -210,6 +409,11 @@ function openModal(id) {
 
   const readerButton = modalContent.querySelector('[data-open-reader]');
   readerButton.addEventListener('click', () => openReader(item.id));
+
+  modalContent.querySelectorAll('[data-generate-pdf]').forEach(btn => {
+    btn.addEventListener('click', () => openGeneratedPdf(btn.dataset.generatePdf));
+  });
+
   modalBackdrop.classList.add('open');
 }
 
@@ -278,7 +482,7 @@ function closeReader() {
 modalClose.addEventListener('click', closeModal);
 modalBackdrop.addEventListener('click', e => { if (e.target === modalBackdrop) closeModal(); });
 readerBack.addEventListener('click', closeReader);
-readerPrint.addEventListener('click', () => window.print());
+readerPrint.addEventListener('click', () => { if (activeReaderId) openGeneratedPdf(activeReaderId); });
 
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape') {
