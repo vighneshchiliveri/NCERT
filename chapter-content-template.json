@@ -1,0 +1,34 @@
+{
+  "title": "Chapter Title Here",
+  "class": "10",
+  "subject": "Science",
+  "chapter": "Chapter 1",
+  "notes": [
+    {
+      "heading": "Main Topic 1",
+      "points": [
+        "Point 1",
+        "Point 2",
+        "Point 3"
+      ]
+    },
+    {
+      "heading": "Main Topic 2",
+      "points": [
+        "Point 1",
+        "Point 2"
+      ]
+    }
+  ],
+  "summary": "Write the complete chapter summary here.",
+  "qa": [
+    {
+      "q": "Question 1 here?",
+      "a": "Answer 1 here."
+    },
+    {
+      "q": "Question 2 here?",
+      "a": "Answer 2 here."
+    }
+  ]
+}

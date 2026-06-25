@@ -571,3 +571,12 @@ body.reader-open { overflow: hidden; }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; scroll-behavior: auto !important; }
 }
+
+.secondary-btn {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.secondary-btn:hover {
+  background: var(--accent-soft);
+}

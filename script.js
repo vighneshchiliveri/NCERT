@@ -1,6 +1,34 @@
 let library = { notes: [], summaries: [], qa: [] };
 let currentView = 'notes';
 let activeReaderId = null;
+const contentCache = {};
+
+async function loadItemContent(item) {
+  if (!item) return null;
+  if (item.contentHref) {
+    try {
+      if (!contentCache[item.contentHref]) {
+        const res = await fetch(item.contentHref);
+        if (!res.ok) throw new Error('Content file not found');
+        contentCache[item.contentHref] = await res.json();
+      }
+      const external = contentCache[item.contentHref];
+      item.content = {
+        notes: external.notes || [],
+        summary: external.summary || '',
+        qa: external.qa || []
+      };
+      item.title = external.title || item.title;
+      item.class = external.class || item.class;
+      item.subject = external.subject || item.subject;
+      item.chapter = external.chapter || item.chapter;
+    } catch (err) {
+      console.warn('Could not load chapter content file:', item.contentHref, err);
+      item.content = item.content || { notes: [], summary: '', qa: [] };
+    }
+  }
+  return item;
+}
 
 const catalogEl = document.getElementById('catalog');
 const emptyStateEl = document.getElementById('emptyState');
@@ -333,8 +361,8 @@ function buildItemPdf(item) {
   return doc;
 }
 
-function openGeneratedPdf(id) {
-  const item = findItemById(id);
+async function openGeneratedPdf(id) {
+  const item = await loadItemContent(findItemById(id));
   if (!item) return;
 
   const doc = buildItemPdf(item);
@@ -355,7 +383,21 @@ function openGeneratedPdf(id) {
 
 function renderFiles(item) {
   return (item.files || []).map(f => {
-    const isPdf = String(f.format || '').toLowerCase().includes('pdf');
+    const format = String(f.format || '');
+    const isPdf = format.toLowerCase().includes('pdf');
+    const isContent = format.toLowerCase().includes('content');
+
+    if (isContent) {
+      const href = normalizeDriveUrl(f.path);
+      return `
+        <div class="quality-row">
+          <div class="quality-info">
+            <span class="quality-name">${escapeHtml(f.label || 'Chapter Content JSON')}</span>
+            <span class="quality-size">${escapeHtml(f.size || 'Edit/upload this JSON file')}</span>
+          </div>
+          <a class="download-btn secondary-btn" href="${escapeHtml(href)}" target="_blank" rel="noopener">Open Template</a>
+        </div>`;
+    }
 
     if (isPdf) {
       return `
@@ -381,8 +423,8 @@ function renderFiles(item) {
   }).join('');
 }
 
-function openModal(id) {
-  const item = findItemById(id);
+async function openModal(id) {
+  const item = await loadItemContent(findItemById(id));
   if (!item) return;
 
   const filesHtml = renderFiles(item);
@@ -431,8 +473,8 @@ function getReaderNavigation(id) {
   };
 }
 
-function openReader(id) {
-  const item = findItemById(id);
+async function openReader(id) {
+  const item = await loadItemContent(findItemById(id));
   if (!item) return;
 
   activeReaderId = id;
