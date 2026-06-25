@@ -3,43 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Archive — Personal Media Collection</title>
+    <title>NCERT Digital Library</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <header>
-            <div class="logo">A</div>
+            <div class="logo">N</div>
             <div class="header-text">
-                <h1>The Archive</h1>
-                <p>a personal collection, catalogued</p>
+                <h1>NCERT Repository</h1>
+                <p>Curated educational resources for Jawahar Navodaya Vidyalaya, Kamareddy</p>
             </div>
         </header>
 
         <nav class="tabs">
-            <button class="tab active" data-category="music">Music</button>
-            <button class="tab" data-category="video">Video</button>
+            <button class="tab active" data-category="textbooks">Textbooks</button>
+            <button class="tab" data-category="reference">Reference Materials</button>
         </nav>
 
         <div class="controls">
             <div class="filter-group">
-                <label for="genre">Genre</label>
-                <select id="genre">
-                    <option value="all">All</option>
+                <label for="class-level">Class</label>
+                <select id="class-level">
+                    <option value="all">All Classes</option>
+                    <option value="10">Class 10</option>
+                    <option value="11">Class 11</option>
+                    <option value="12">Class 12</option>
                 </select>
             </div>
             <div class="search-group">
-                <input type="text" id="search" placeholder="Search...">
+                <input type="text" id="search" placeholder="Search subjects or topics...">
             </div>
         </div>
 
         <main id="media-grid" class="media-grid">
-            <div class="empty-state">No entries match your search.</div>
+            <div class="empty-state">No resources match your search.</div>
         </main>
 
         <footer>
-            <p>Catalogued for personal use. Add your own files to <code>/media/music</code> and <code>/media/video</code>, then update <code>library.json</code>.</p>
+            <p>Maintained by Akula Sandeep {Librarian}. Update the repository catalog in <code>data.json</code>.</p>
         </footer>
     </div>
     
