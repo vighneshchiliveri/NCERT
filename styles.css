@@ -1,9 +1,9 @@
 :root {
-    --bg-color: #000000;
-    --text-primary: #ffffff;
-    --text-secondary: #a1a1aa;
-    --border-color: #27272a;
-    --accent: #ffffff;
+    --bg-color: #f8fafc; /* Very light blue/gray background */
+    --text-primary: #0f172a; /* Dark slate for text */
+    --text-secondary: #64748b; /* Muted gray for secondary text */
+    --border-color: #cbd5e1; /* Light gray borders */
+    --accent: #1e3a8a; /* Navodaya Navy Blue */
     --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
@@ -74,8 +74,9 @@ header p {
 }
 
 .tab.active {
-    color: var(--text-primary);
-    border-bottom-color: var(--text-primary);
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+    font-weight: 600;
 }
 
 /* Controls */
