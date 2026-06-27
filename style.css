@@ -427,6 +427,11 @@ button, input, select { font: inherit; }
   font-size: 16px;
 }
 .reader-content ul { padding-left: 24px; }
+.qa-section-title {
+  font-family: var(--display);
+  margin: 24px 0 12px;
+  font-size: 22px;
+}
 .qa-block {
   background: var(--paper);
   border: 2px solid var(--ink);
@@ -436,6 +441,13 @@ button, input, select { font: inherit; }
 }
 .qa-block p { margin: 0 0 8px; }
 .qa-block p:last-child { margin-bottom: 0; }
+.qa-question {
+  font-weight: 800;
+}
+.qa-answer,
+.qa-answer p {
+  font-weight: 400;
+}
 .reader-nav {
   display: flex;
   justify-content: space-between;

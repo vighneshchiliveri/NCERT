@@ -309,16 +309,41 @@ function renderNotes(notes = []) {
   }).join('');
 }
 
+function groupQABySection(qa = []) {
+  const groups = [];
+  const map = new Map();
+
+  qa.forEach(item => {
+    const section = String(item.section || item.heading || '').trim();
+    const key = section.toLowerCase();
+
+    if (section && map.has(key)) {
+      map.get(key).items.push(item);
+    } else if (section) {
+      const group = { section, items: [item] };
+      groups.push(group);
+      map.set(key, group);
+    } else {
+      groups.push({ section: '', items: [item] });
+    }
+  });
+
+  return groups;
+}
+
 function renderQA(qa = []) {
   if (!Array.isArray(qa) || !qa.length) {
     return '<p>No question answers added yet.</p>';
   }
 
-  return qa.map((x, i) => `
-    <div class="qa-block">
-      <p><strong>Q${i + 1}.</strong> ${escapeHtml(x.q || x.question || '')}</p>
-      <div><strong>Answer:</strong> ${renderTextBlock(x.a || x.answer || '')}</div>
-    </div>
+  return groupQABySection(qa).map(group => `
+    ${group.section ? `<h3 class="qa-section-title">${escapeHtml(group.section)}</h3>` : ''}
+    ${group.items.map((x, i) => `
+      <div class="qa-block">
+        <p class="qa-question">Q${i + 1}. ${escapeHtml(x.q || x.question || '')}</p>
+        <div class="qa-answer">${renderTextBlock(x.a || x.answer || '')}</div>
+      </div>
+    `).join('')}
   `).join('');
 }
 
@@ -446,8 +471,12 @@ function notesToPlainText(notes = []) {
 function qaToPlainText(qa = []) {
   if (!Array.isArray(qa)) return '';
 
-  return qa.map((x, i) => {
-    return `Q${i + 1}. ${x.q || x.question || ''}\nAnswer: ${x.a || x.answer || ''}`;
+  return groupQABySection(qa).map(group => {
+    const heading = group.section ? `${group.section}\n` : '';
+    const body = group.items.map((x, i) => {
+      return `Q${i + 1}. ${x.q || x.question || ''}\nAnswer: ${x.a || x.answer || ''}`;
+    }).join('\n\n');
+    return `${heading}${body}`;
   }).join('\n\n');
 }
 
