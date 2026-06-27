@@ -1,9 +1,0 @@
-
-Requested upgrade summary:
-- Remove Notes/Summaries/Q&A top switch.
-- Show all chapters for selected class.
-- Subject filter placed below search.
-- Add Dark/Light mode toggle.
-- Add Class 6, 11, 12 cards.
-- Make Q&A questions bold in reader view.
-You still need to merge these UI changes into index.html, style.css and script.js.
