@@ -322,23 +322,43 @@ function renderQA(qa = []) {
   `).join('');
 }
 
+function hasContent(value) {
+  if (!value) return false;
+  if (Array.isArray(value)) return value.length > 0;
+  return String(value).trim().length > 0;
+}
+
 function contentToHtml(content) {
-  return `
-    <section>
-      <h2>Detailed Notes</h2>
-      ${renderNotes(content.notes)}
-    </section>
+  const sections = [];
 
-    <section>
-      <h2>Summary</h2>
-      ${renderTextBlock(content.summary || 'No summary added yet.')}
-    </section>
+  if (hasContent(content.notes)) {
+    sections.push(`
+      <section>
+        <h2>Detailed Notes</h2>
+        ${renderNotes(content.notes)}
+      </section>
+    `);
+  }
 
-    <section>
-      <h2>Question & Answers</h2>
-      ${renderQA(content.qa)}
-    </section>
-  `;
+  if (hasContent(content.summary)) {
+    sections.push(`
+      <section>
+        <h2>Summary</h2>
+        ${renderTextBlock(content.summary)}
+      </section>
+    `);
+  }
+
+  if (hasContent(content.qa)) {
+    sections.push(`
+      <section>
+        <h2>Question & Answers</h2>
+        ${renderQA(content.qa)}
+      </section>
+    `);
+  }
+
+  return sections.join('') || '<p>No content added yet.</p>';
 }
 
 async function openReader(id) {
@@ -464,29 +484,35 @@ async function generatePdfFromId(id) {
     6
   );
 
-  doc.setFont('helvetica', 'bold');
-  doc.setFontSize(14);
-  y = addPdfText(doc, 'Detailed Notes', 14, y + 8, maxWidth, 7);
+  if (hasContent(content.notes)) {
+    doc.setFont('helvetica', 'bold');
+    doc.setFontSize(14);
+    y = addPdfText(doc, 'Detailed Notes', 14, y + 8, maxWidth, 7);
 
-  doc.setFont('helvetica', 'normal');
-  doc.setFontSize(11);
-  y = addPdfText(doc, notesToPlainText(content.notes), 14, y + 2, maxWidth, 6);
+    doc.setFont('helvetica', 'normal');
+    doc.setFontSize(11);
+    y = addPdfText(doc, notesToPlainText(content.notes), 14, y + 2, maxWidth, 6);
+  }
 
-  doc.setFont('helvetica', 'bold');
-  doc.setFontSize(14);
-  y = addPdfText(doc, 'Summary', 14, y + 8, maxWidth, 7);
+  if (hasContent(content.summary)) {
+    doc.setFont('helvetica', 'bold');
+    doc.setFontSize(14);
+    y = addPdfText(doc, 'Summary', 14, y + 8, maxWidth, 7);
 
-  doc.setFont('helvetica', 'normal');
-  doc.setFontSize(11);
-  y = addPdfText(doc, content.summary || '', 14, y + 2, maxWidth, 6);
+    doc.setFont('helvetica', 'normal');
+    doc.setFontSize(11);
+    y = addPdfText(doc, content.summary || '', 14, y + 2, maxWidth, 6);
+  }
 
-  doc.setFont('helvetica', 'bold');
-  doc.setFontSize(14);
-  y = addPdfText(doc, 'Question & Answers', 14, y + 8, maxWidth, 7);
+  if (hasContent(content.qa)) {
+    doc.setFont('helvetica', 'bold');
+    doc.setFontSize(14);
+    y = addPdfText(doc, 'Question & Answers', 14, y + 8, maxWidth, 7);
 
-  doc.setFont('helvetica', 'normal');
-  doc.setFontSize(11);
-  y = addPdfText(doc, qaToPlainText(content.qa), 14, y + 2, maxWidth, 6);
+    doc.setFont('helvetica', 'normal');
+    doc.setFontSize(11);
+    y = addPdfText(doc, qaToPlainText(content.qa), 14, y + 2, maxWidth, 6);
+  }
 
   const fileName = `${cleanTitle(content.title || item.title || 'chapter').replace(/[^a-z0-9]+/gi, '-').toLowerCase()}.pdf`;
   doc.save(fileName);
