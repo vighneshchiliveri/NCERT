@@ -1,5 +1,5 @@
-let library = { notes: [], summaries: [], qa: [] };
-let currentView = 'notes';
+let library = { chapters: [], notes: [], summaries: [], qa: [] };
+
 let selectedClass = null;
 let activeReaderId = null;
 const contentCache = {};
@@ -15,9 +15,11 @@ const emptyStateEl = document.getElementById('emptyState');
 const searchInput = document.getElementById('searchInput');
 const resultCount = document.getElementById('resultCount');
 const genreFilter = document.getElementById('genreFilter');
+
 const modalBackdrop = document.getElementById('modalBackdrop');
 const modalContent = document.getElementById('modalContent');
 const modalClose = document.getElementById('modalClose');
+
 const readerView = document.getElementById('readerView');
 const readerBack = document.getElementById('readerBack');
 const readerPdf = document.getElementById('readerPdf');
@@ -28,13 +30,31 @@ const readerContent = document.getElementById('readerContent');
 const prevChapterBtn = document.getElementById('prevChapterBtn');
 const nextChapterBtn = document.getElementById('nextChapterBtn');
 
+function escapeHtml(str = '') {
+  const div = document.createElement('div');
+  div.textContent = String(str ?? '');
+  return div.innerHTML;
+}
+
+function cleanTitle(title = '') {
+  return String(title)
+    .replace(/\s*[—-]\s*(Notes|Summary|Summaries|Q\s*&\s*A|QA|Question Answers?)\s*$/i, '')
+    .trim();
+}
+
+function getCardTitle(item) {
+  return item.displayTitle || item.chapterTitle || cleanTitle(item.title || item.chapter || 'Untitled Chapter');
+}
+
 async function loadLibrary() {
+  document.querySelector('.view-toggle')?.remove();
+
   try {
     const res = await fetch('media/library.json');
     library = await res.json();
   } catch (err) {
     console.error('Could not load media/library.json', err);
-    library = { notes: [], summaries: [], qa: [] };
+    library = { chapters: [], notes: [], summaries: [], qa: [] };
   }
 
   renderClassSelection();
@@ -43,18 +63,35 @@ async function loadLibrary() {
   resultCount.textContent = '0 / 0';
 }
 
-function escapeHtml(str = '') {
-  const div = document.createElement('div');
-  div.textContent = str;
-  return div.innerHTML;
+function rawItems() {
+  if (Array.isArray(library.chapters) && library.chapters.length) {
+    return library.chapters;
+  }
+
+  return [
+    ...(library.notes || []),
+    ...(library.summaries || []),
+    ...(library.qa || [])
+  ];
 }
 
 function getAllItems() {
-  return Object.values(library).flat();
+  const seen = new Set();
+
+  return rawItems().filter(item => {
+    if (!item) return false;
+
+    const key = item.contentHref ||
+      `${item.class || ''}|${item.subject || ''}|${item.chapter || ''}|${cleanTitle(item.title || '')}`;
+
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
 }
 
 function getCurrentItems() {
-  return library[currentView] || [];
+  return getAllItems();
 }
 
 function getAvailableClasses() {
@@ -84,8 +121,10 @@ function selectClass(cls) {
   catalogControls.hidden = false;
   readerView.hidden = true;
   document.body.classList.remove('reader-open');
+
   searchInput.value = '';
   genreFilter.value = '';
+
   populateSubjects();
   render();
 }
@@ -100,6 +139,7 @@ function changeClass() {
   catalogEl.innerHTML = '';
   emptyStateEl.hidden = true;
   resultCount.textContent = '0 / 0';
+
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
@@ -119,7 +159,15 @@ function getFiltered() {
   const subject = genreFilter.value;
 
   return items.filter(item => {
-    const haystack = `${item.title} ${item.class || ''} ${item.subject || ''} ${item.chapter || ''} ${item.book || ''}`.toLowerCase();
+    const haystack = `
+      ${getCardTitle(item)}
+      ${item.class || ''}
+      ${item.subject || ''}
+      ${item.chapter || ''}
+      ${item.book || ''}
+      ${item.description || ''}
+    `.toLowerCase();
+
     return (!q || haystack.includes(q)) && (!subject || item.subject === subject);
   });
 }
@@ -146,23 +194,27 @@ function render() {
       <article class="entry-card" tabindex="0" data-id="${escapeHtml(item.id)}">
         <div class="entry-cover">${icon}</div>
         <span class="entry-cat">No. ${catNum}</span>
+
         <div class="entry-body">
-          <h3 class="entry-title">${escapeHtml(item.title)}</h3>
+          <h3 class="entry-title">${escapeHtml(getCardTitle(item))}</h3>
           <p class="entry-sub">Class ${escapeHtml(item.class || '')} · ${escapeHtml(item.subject || '')}</p>
+
           <div class="entry-meta">
             <span>${escapeHtml(item.chapter || '')}</span>
-            <span>${escapeHtml(item.type || '')}</span>
+            <span>${escapeHtml(item.book || 'NCERT')}</span>
           </div>
         </div>
-      </article>`;
+      </article>
+    `;
   }).join('');
 
   catalogEl.querySelectorAll('.entry-card').forEach(card => {
-    card.addEventListener('click', () => openModal(card.dataset.id));
+    card.addEventListener('click', () => openReader(card.dataset.id));
+
     card.addEventListener('keydown', e => {
       if (e.key === 'Enter' || e.key === ' ') {
         e.preventDefault();
-        openModal(card.dataset.id);
+        openReader(card.dataset.id);
       }
     });
   });
@@ -175,89 +227,109 @@ function findItem(id) {
 async function loadItemContent(item) {
   if (!item) return null;
 
-  if (item.content) return item.content;
+  if (item.content) {
+    return { ...item, ...item.content };
+  }
 
   if (item.contentHref) {
-    if (contentCache[item.contentHref]) return contentCache[item.contentHref];
+    if (contentCache[item.contentHref]) {
+      return { ...item, ...contentCache[item.contentHref] };
+    }
 
     try {
       const res = await fetch(item.contentHref);
       const content = await res.json();
       contentCache[item.contentHref] = content;
-      return content;
+      return { ...item, ...content };
     } catch (err) {
       console.error('Could not load content file:', item.contentHref, err);
     }
   }
 
   return {
-    title: item.title,
-    class: item.class,
-    subject: item.subject,
-    chapter: item.chapter,
-    book: item.book,
-    type: item.type,
+    ...item,
+    title: getCardTitle(item),
     notes: ['Add notes in the linked content JSON file.'],
     summary: 'Add summary in the linked content JSON file.',
     qa: [{ q: 'Add question here?', a: 'Add answer here.' }]
   };
 }
 
-async function openModal(id) {
-  const item = findItem(id);
-  if (!item) return;
+function renderTextBlock(value) {
+  if (!value) return '';
 
-  const content = await loadItemContent(item);
-  const notesPreview = (content.notes || []).slice(0, 3).map(n => `<li>${escapeHtml(n)}</li>`).join('');
-  const qaCount = (content.qa || []).length;
+  if (Array.isArray(value)) {
+    return `<ul>${value.map(v => `<li>${escapeHtml(v)}</li>`).join('')}</ul>`;
+  }
 
-  modalContent.innerHTML = `
-    <div class="modal-cover">${item.icon || '📘'}</div>
-    <div class="modal-body">
-      <h2 id="modalTitle" class="modal-title">${escapeHtml(item.title)}</h2>
-      <p class="modal-sub">Class ${escapeHtml(item.class || '')} · ${escapeHtml(item.subject || '')} · ${escapeHtml(item.chapter || '')}</p>
-      <p class="modal-desc">${escapeHtml(item.description || 'Study material for NCERT preparation.')}</p>
-
-      <div class="preview-box">
-        <p class="quality-label">Preview</p>
-        <ul>${notesPreview || '<li>No preview added yet.</li>'}</ul>
-        <p class="modal-sub">${qaCount} Question Answers available</p>
-      </div>
-
-      <div class="modal-actions">
-        <button class="download-btn wide" type="button" onclick="openReader('${escapeHtml(item.id)}')">Open Detailed Notes</button>
-        <button class="download-btn wide" type="button" onclick="generatePdfFromId('${escapeHtml(item.id)}')">Open PDF</button>
-      </div>
-    </div>`;
-
-  modalBackdrop.classList.add('open');
+  return String(value)
+    .split(/\n+/)
+    .filter(Boolean)
+    .map(p => `<p>${escapeHtml(p)}</p>`)
+    .join('');
 }
 
-function closeModal() {
-  modalBackdrop.classList.remove('open');
+function renderNotes(notes = []) {
+  if (!Array.isArray(notes) || !notes.length) {
+    return '<p>No notes added yet.</p>';
+  }
+
+  const simpleNotes = notes.every(n => typeof n === 'string');
+
+  if (simpleNotes) {
+    return `<ul>${notes.map(n => `<li>${escapeHtml(n)}</li>`).join('')}</ul>`;
+  }
+
+  return notes.map(note => {
+    if (typeof note === 'string') {
+      return `<div class="qa-block"><p>${escapeHtml(note)}</p></div>`;
+    }
+
+    const heading = note.heading || note.title || note.topic || '';
+    const text = note.text || note.description || note.content || '';
+    const points = note.points || note.subpoints || note.items || [];
+
+    return `
+      <div class="qa-block">
+        ${heading ? `<h3>${escapeHtml(heading)}</h3>` : ''}
+        ${text ? renderTextBlock(text) : ''}
+        ${Array.isArray(points) && points.length
+          ? `<ul>${points.map(p => `<li>${escapeHtml(p)}</li>`).join('')}</ul>`
+          : ''
+        }
+      </div>
+    `;
+  }).join('');
+}
+
+function renderQA(qa = []) {
+  if (!Array.isArray(qa) || !qa.length) {
+    return '<p>No question answers added yet.</p>';
+  }
+
+  return qa.map((x, i) => `
+    <div class="qa-block">
+      <p><strong>Q${i + 1}.</strong> ${escapeHtml(x.q || x.question || '')}</p>
+      <div><strong>Answer:</strong> ${renderTextBlock(x.a || x.answer || '')}</div>
+    </div>
+  `).join('');
 }
 
 function contentToHtml(content) {
-  const notesHtml = (content.notes || []).map(n => `<li>${escapeHtml(n)}</li>`).join('');
-  const qaHtml = (content.qa || []).map((x, i) => `
-    <div class="qa-block">
-      <p><strong>Q${i + 1}.</strong> ${escapeHtml(x.q)}</p>
-      <p><strong>Answer:</strong> ${escapeHtml(x.a)}</p>
-    </div>
-  `).join('');
-
   return `
     <section>
-      <h2>📖 Notes</h2>
-      <ul>${notesHtml || '<li>No notes added yet.</li>'}</ul>
+      <h2>Detailed Notes</h2>
+      ${renderNotes(content.notes)}
     </section>
+
     <section>
-      <h2>📝 Summary</h2>
-      <p>${escapeHtml(content.summary || 'No summary added yet.')}</p>
+      <h2>Summary</h2>
+      ${renderTextBlock(content.summary || 'No summary added yet.')}
     </section>
+
     <section>
-      <h2>❓ Question & Answers</h2>
-      ${qaHtml || '<p>No question answers added yet.</p>'}
+      <h2>Question & Answers</h2>
+      ${renderQA(content.qa)}
     </section>
   `;
 }
@@ -267,16 +339,20 @@ async function openReader(id) {
   if (!item) return;
 
   activeReaderId = id;
+
   const content = await loadItemContent(item);
 
-  readerTitle.textContent = content.title || item.title;
-  readerKicker.textContent = `Class ${content.class || item.class || ''} · ${content.subject || item.subject || ''} · ${content.chapter || item.chapter || ''} · ${content.book || item.book || ''}`;
+  readerTitle.textContent = cleanTitle(content.title || item.title || getCardTitle(item));
+  readerKicker.textContent =
+    `Class ${content.class || item.class || ''} · ${content.subject || item.subject || ''} · ${content.chapter || item.chapter || ''} · ${content.book || item.book || ''}`;
+
   readerContent.innerHTML = contentToHtml(content);
 
   closeModal();
   readerView.hidden = false;
   document.body.classList.add('reader-open');
   updateReaderNav();
+
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
@@ -286,6 +362,12 @@ function closeReader() {
   activeReaderId = null;
 }
 
+function closeModal() {
+  if (modalBackdrop) {
+    modalBackdrop.classList.remove('open');
+  }
+}
+
 function getReaderList() {
   return getFiltered();
 }
@@ -293,6 +375,7 @@ function getReaderList() {
 function updateReaderNav() {
   const list = getReaderList();
   const index = list.findIndex(item => item.id === activeReaderId);
+
   prevChapterBtn.disabled = index <= 0;
   nextChapterBtn.disabled = index < 0 || index >= list.length - 1;
 }
@@ -301,23 +384,51 @@ async function openAdjacentReader(direction) {
   const list = getReaderList();
   const index = list.findIndex(item => item.id === activeReaderId);
   const next = list[index + direction];
+
   if (next) await openReader(next.id);
 }
 
 function addPdfText(doc, text, x, y, maxWidth, lineHeight) {
   const pageHeight = doc.internal.pageSize.height;
-  const lines = doc.splitTextToSize(text || '', maxWidth);
+  const lines = doc.splitTextToSize(String(text || ''), maxWidth);
 
   lines.forEach(line => {
     if (y > pageHeight - 18) {
       doc.addPage();
       y = 18;
     }
+
     doc.text(line, x, y);
     y += lineHeight;
   });
 
   return y;
+}
+
+function notesToPlainText(notes = []) {
+  if (!Array.isArray(notes)) return '';
+
+  return notes.map(note => {
+    if (typeof note === 'string') return `• ${note}`;
+
+    const heading = note.heading || note.title || note.topic || '';
+    const text = note.text || note.description || note.content || '';
+    const points = note.points || note.subpoints || note.items || [];
+
+    return [
+      heading,
+      text,
+      ...(Array.isArray(points) ? points.map(p => `- ${p}`) : [])
+    ].filter(Boolean).join('\n');
+  }).join('\n\n');
+}
+
+function qaToPlainText(qa = []) {
+  if (!Array.isArray(qa)) return '';
+
+  return qa.map((x, i) => {
+    return `Q${i + 1}. ${x.q || x.question || ''}\nAnswer: ${x.a || x.answer || ''}`;
+  }).join('\n\n');
 }
 
 async function generatePdfFromId(id) {
@@ -333,27 +444,33 @@ async function generatePdfFromId(id) {
 
   const { jsPDF } = window.jspdf;
   const doc = new jsPDF('p', 'mm', 'a4');
+
   const pageWidth = doc.internal.pageSize.width;
   const maxWidth = pageWidth - 28;
   let y = 18;
 
   doc.setFont('helvetica', 'bold');
   doc.setFontSize(18);
-  y = addPdfText(doc, content.title || item.title, 14, y, maxWidth, 8);
+  y = addPdfText(doc, cleanTitle(content.title || item.title || getCardTitle(item)), 14, y, maxWidth, 8);
 
   doc.setFont('helvetica', 'normal');
   doc.setFontSize(10);
-  y = addPdfText(doc, `Class ${content.class || item.class || ''} | ${content.subject || item.subject || ''} | ${content.chapter || item.chapter || ''} | ${content.book || item.book || ''}`, 14, y + 2, maxWidth, 6);
+  y = addPdfText(
+    doc,
+    `Class ${content.class || item.class || ''} | ${content.subject || item.subject || ''} | ${content.chapter || item.chapter || ''} | ${content.book || item.book || ''}`,
+    14,
+    y + 2,
+    maxWidth,
+    6
+  );
 
   doc.setFont('helvetica', 'bold');
   doc.setFontSize(14);
-  y = addPdfText(doc, 'Notes', 14, y + 8, maxWidth, 7);
+  y = addPdfText(doc, 'Detailed Notes', 14, y + 8, maxWidth, 7);
 
   doc.setFont('helvetica', 'normal');
   doc.setFontSize(11);
-  (content.notes || []).forEach((note, i) => {
-    y = addPdfText(doc, `${i + 1}. ${note}`, 14, y + 2, maxWidth, 6);
-  });
+  y = addPdfText(doc, notesToPlainText(content.notes), 14, y + 2, maxWidth, 6);
 
   doc.setFont('helvetica', 'bold');
   doc.setFontSize(14);
@@ -369,49 +486,33 @@ async function generatePdfFromId(id) {
 
   doc.setFont('helvetica', 'normal');
   doc.setFontSize(11);
-  (content.qa || []).forEach((qa, i) => {
-    y = addPdfText(doc, `Q${i + 1}. ${qa.q}`, 14, y + 3, maxWidth, 6);
-    y = addPdfText(doc, `Answer: ${qa.a}`, 14, y + 1, maxWidth, 6);
-  });
+  y = addPdfText(doc, qaToPlainText(content.qa), 14, y + 2, maxWidth, 6);
 
-  const fileName = `${(content.title || item.title).replace(/[^a-z0-9]+/gi, '-').toLowerCase()}.pdf`;
+  const fileName = `${cleanTitle(content.title || item.title || 'chapter').replace(/[^a-z0-9]+/gi, '-').toLowerCase()}.pdf`;
   doc.save(fileName);
 }
 
 window.openReader = openReader;
 window.generatePdfFromId = generatePdfFromId;
 
-modalClose.addEventListener('click', closeModal);
-modalBackdrop.addEventListener('click', e => {
-  if (e.target === modalBackdrop) closeModal();
-});
+if (modalClose) {
+  modalClose.addEventListener('click', closeModal);
+}
+
+if (modalBackdrop) {
+  modalBackdrop.addEventListener('click', e => {
+    if (e.target === modalBackdrop) closeModal();
+  });
+}
 
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape') {
     closeModal();
-    if (!readerView.hidden) closeReader();
-  }
-});
 
-document.querySelectorAll('.toggle-btn').forEach(btn => {
-  btn.addEventListener('click', () => {
-    document.querySelectorAll('.toggle-btn').forEach(b => {
-      b.classList.remove('active');
-      b.setAttribute('aria-selected', 'false');
-    });
-
-    btn.classList.add('active');
-    btn.setAttribute('aria-selected', 'true');
-    currentView = btn.dataset.view;
-    searchInput.value = '';
-    genreFilter.value = '';
-
-    if (selectedClass) {
-      populateSubjects();
-      render();
-      if (!readerView.hidden) closeReader();
+    if (!readerView.hidden) {
+      closeReader();
     }
-  });
+  }
 });
 
 homeBtn.addEventListener('click', changeClass);
@@ -420,9 +521,11 @@ searchInput.addEventListener('input', render);
 genreFilter.addEventListener('change', render);
 readerBack.addEventListener('click', closeReader);
 readerPrint.addEventListener('click', () => window.print());
+
 readerPdf.addEventListener('click', () => {
   if (activeReaderId) generatePdfFromId(activeReaderId);
 });
+
 prevChapterBtn.addEventListener('click', () => openAdjacentReader(-1));
 nextChapterBtn.addEventListener('click', () => openAdjacentReader(1));
 
