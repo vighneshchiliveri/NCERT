@@ -4,31 +4,30 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>NCERT Archive — Notes, Summaries & Q&A</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <meta name="description" content="NCERT notes, summaries and question answers collection." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="grain"></div>
+  <div class="grain" aria-hidden="true"></div>
 
   <header class="site-header">
     <div class="header-inner">
-      <button id="homeBtn" class="brand" type="button" aria-label="Go to class selection">
-        <div class="brand-mark">N</div>
-        <div class="brand-text">
+      <button class="brand" id="homeBtn" type="button" aria-label="Go to home">
+        <span class="brand-mark">N</span>
+        <span class="brand-text">
           <h1>NCERT</h1>
           <p>notes, summaries, question answers</p>
-        </div>
+        </span>
       </button>
-
-      
     </div>
   </header>
 
   <main>
     <section class="class-select-section" id="classSelectSection">
-      <div class="section-kicker">Step 1</div>
+      <span class="section-kicker">Step 1</span>
       <h2>Select Class</h2>
       <p>Choose a class to view related NCERT notes, summaries and question answers.</p>
       <div class="class-grid" id="classGrid"></div>
@@ -37,35 +36,30 @@
     <section class="catalog-controls" id="catalogControls" hidden>
       <div class="selected-class-bar">
         <div>
-          <span class="section-kicker">Selected</span>
+          <span class="section-kicker">Selected Class</span>
           <strong id="selectedClassText">Class</strong>
         </div>
         <button id="changeClassBtn" type="button">Change Class</button>
       </div>
 
       <div class="search-wrap">
-        <input id="searchInput" type="search" placeholder="Search subject, chapter..." autocomplete="off" />
-        <span id="resultCount" class="search-count">0 / 0</span>
+        <input id="searchInput" type="search" placeholder="Search chapter, subject, book..." autocomplete="off" />
+        <span class="search-count" id="resultCount">0 / 0</span>
       </div>
 
       <div class="filter-wrap">
         <label for="genreFilter">Subject</label>
-        <select id="genreFilter"><option value="">All</option></select>
+        <select id="genreFilter">
+          <option value="">All</option>
+        </select>
       </div>
     </section>
 
-    <section id="catalog" class="catalog" aria-live="polite"></section>
-    <section id="emptyState" class="empty-state" hidden>No NCERT material matches your search.</section>
+    <section class="catalog" id="catalog" aria-live="polite"></section>
+    <section class="empty-state" id="emptyState" hidden>No NCERT material matches your search.</section>
   </main>
 
-  <div id="modalBackdrop" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
-    <div class="modal">
-      <button id="modalClose" class="modal-close" aria-label="Close">×</button>
-      <div id="modalContent" class="modal-content"></div>
-    </div>
-  </div>
-
-  <section id="readerView" class="reader-view" hidden>
+  <section class="reader-view" id="readerView" hidden>
     <div class="reader-shell">
       <div class="reader-toolbar">
         <button id="readerBack" type="button">← Back</button>
@@ -76,9 +70,10 @@
       </div>
 
       <article class="reader-paper">
-        <p id="readerKicker" class="reader-kicker"></p>
+        <p class="reader-kicker" id="readerKicker">#</p>
         <h1 id="readerTitle"></h1>
-        <div id="readerContent" class="reader-content"></div>
+        <div class="reader-content" id="readerContent"></div>
+
         <div class="reader-nav">
           <button id="prevChapterBtn" type="button">← Previous</button>
           <button id="nextChapterBtn" type="button">Next →</button>
@@ -91,7 +86,7 @@
     NCERT collection for study use. Add chapter content in <code>content/</code> and link it in <code>media/library.json</code>.
   </footer>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" defer></script>
+  <script src="script.js" defer></script>
 </body>
 </html>

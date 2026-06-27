@@ -1,5 +1,4 @@
-let library = { chapters: [], notes: [], summaries: [], qa: [] };
-
+let library = { chapters: [] };
 let selectedClass = null;
 let activeReaderId = null;
 const contentCache = {};
@@ -15,10 +14,6 @@ const emptyStateEl = document.getElementById('emptyState');
 const searchInput = document.getElementById('searchInput');
 const resultCount = document.getElementById('resultCount');
 const genreFilter = document.getElementById('genreFilter');
-
-const modalBackdrop = document.getElementById('modalBackdrop');
-const modalContent = document.getElementById('modalContent');
-const modalClose = document.getElementById('modalClose');
 
 const readerView = document.getElementById('readerView');
 const readerBack = document.getElementById('readerBack');
@@ -47,14 +42,12 @@ function getCardTitle(item) {
 }
 
 async function loadLibrary() {
-  document.querySelector('.view-toggle')?.remove();
-
   try {
-    const res = await fetch('media/library.json');
+    const res = await fetch('media/library.json', { cache: 'no-store' });
     library = await res.json();
   } catch (err) {
     console.error('Could not load media/library.json', err);
-    library = { chapters: [], notes: [], summaries: [], qa: [] };
+    library = { chapters: [] };
   }
 
   renderClassSelection();
@@ -64,9 +57,7 @@ async function loadLibrary() {
 }
 
 function rawItems() {
-  if (Array.isArray(library.chapters) && library.chapters.length) {
-    return library.chapters;
-  }
+  if (Array.isArray(library.chapters)) return library.chapters;
 
   return [
     ...(library.notes || []),
@@ -101,6 +92,21 @@ function getAvailableClasses() {
 
 function renderClassSelection() {
   const classes = getAvailableClasses();
+
+  if (!classes.length) {
+    classGrid.innerHTML = `
+      <div class="empty-library">
+        <h3>No chapters added yet</h3>
+        <p>Add chapter cards in <code>media/library.json</code>. Add full chapter content JSON files inside <code>content/</code>.</p>
+        <p>Use <code>media/library-template.json</code> and <code>chapter-content-template.json</code> as your copy-paste templates.</p>
+      </div>
+    `;
+    catalogControls.hidden = true;
+    catalogEl.innerHTML = '';
+    emptyStateEl.hidden = true;
+    resultCount.textContent = '0 / 0';
+    return;
+  }
 
   classGrid.innerHTML = classes.map(cls => `
     <button class="class-card" type="button" data-class="${escapeHtml(cls)}">
@@ -140,6 +146,7 @@ function changeClass() {
   emptyStateEl.hidden = true;
   resultCount.textContent = '0 / 0';
 
+  renderClassSelection();
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
@@ -237,7 +244,7 @@ async function loadItemContent(item) {
     }
 
     try {
-      const res = await fetch(item.contentHref);
+      const res = await fetch(item.contentHref, { cache: 'no-store' });
       const content = await res.json();
       contentCache[item.contentHref] = content;
       return { ...item, ...content };
@@ -348,7 +355,6 @@ async function openReader(id) {
 
   readerContent.innerHTML = contentToHtml(content);
 
-  closeModal();
   readerView.hidden = false;
   document.body.classList.add('reader-open');
   updateReaderNav();
@@ -360,12 +366,6 @@ function closeReader() {
   readerView.hidden = true;
   document.body.classList.remove('reader-open');
   activeReaderId = null;
-}
-
-function closeModal() {
-  if (modalBackdrop) {
-    modalBackdrop.classList.remove('open');
-  }
 }
 
 function getReaderList() {
@@ -495,23 +495,9 @@ async function generatePdfFromId(id) {
 window.openReader = openReader;
 window.generatePdfFromId = generatePdfFromId;
 
-if (modalClose) {
-  modalClose.addEventListener('click', closeModal);
-}
-
-if (modalBackdrop) {
-  modalBackdrop.addEventListener('click', e => {
-    if (e.target === modalBackdrop) closeModal();
-  });
-}
-
 document.addEventListener('keydown', e => {
-  if (e.key === 'Escape') {
-    closeModal();
-
-    if (!readerView.hidden) {
-      closeReader();
-    }
+  if (e.key === 'Escape' && !readerView.hidden) {
+    closeReader();
   }
 });
 

@@ -1,34 +1,36 @@
 {
-  "title": "Chapter Title Here",
+  "title": "Chemical Reactions and Equations",
   "class": "10",
   "subject": "Science",
   "chapter": "Chapter 1",
+  "book": "NCERT Science",
   "notes": [
     {
-      "heading": "Main Topic 1",
+      "heading": "Main Topic Name",
+      "text": "Write detailed explanation here.",
       "points": [
-        "Point 1",
-        "Point 2",
-        "Point 3"
+        "Important point 1",
+        "Important point 2",
+        "Important point 3"
       ]
     },
     {
-      "heading": "Main Topic 2",
+      "heading": "Another Topic",
+      "text": "Write more notes here.",
       "points": [
-        "Point 1",
-        "Point 2"
+        "Another important point"
       ]
     }
   ],
-  "summary": "Write the complete chapter summary here.",
+  "summary": "Write complete chapter summary here.",
   "qa": [
     {
-      "q": "Question 1 here?",
-      "a": "Answer 1 here."
+      "q": "Question 1?",
+      "a": "Answer 1."
     },
     {
-      "q": "Question 2 here?",
-      "a": "Answer 2 here."
+      "q": "Question 2?",
+      "a": "Answer 2."
     }
   ]
 }
