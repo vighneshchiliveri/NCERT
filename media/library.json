@@ -1,3 +1,235 @@
 {
-  "chapters": []
+  "chapters": [
+    {
+      "id": "class12-english-flamingo-chapter-1-the-last-lesson",
+      "title": "The Last Lesson by Alphonse Daudet",
+      "class": "12",
+      "subject": "English",
+      "chapter": "Chapter 1",
+      "book": "Flamingo",
+      "icon": "📖",
+      "description": "Loss of language equals loss of identity. The chapter highlights patriotism, regret, and the importance of mother tongue.",
+      "contentHref": "content/class12-english-flamingo-chapter-1-the-last-lesson.json"
+    },
+    {
+      "id": "class12-english-flamingo-chapter-2-lost-spring",
+      "title": "Lost Spring by Anees Jung",
+      "class": "12",
+      "subject": "English",
+      "chapter": "Chapter 2",
+      "book": "Flamingo",
+      "icon": "📖",
+      "description": "Child labour, poverty, exploitation, and the vicious cycle of tradition that kills dreams.",
+      "contentHref": "content/class12-english-flamingo-chapter-2-lost-spring.json"
+    },
+    {
+      "id": "class12-english-flamingo-chapter-3-deep-water",
+      "title": "Deep Water by William Douglas",
+      "class": "12",
+      "subject": "English",
+      "chapter": "Chapter 3",
+      "book": "Flamingo",
+      "icon": "📖",
+      "description": "Conquering fear through determination, willpower, and systematic effort. The lesson contrasts fear of death with fear itself.",
+      "contentHref": "content/class12-english-flamingo-chapter-3-deep-water.json"
+    },
+    {
+      "id": "class12-english-flamingo-chapter-4-the-rattrap",
+      "title": "The Rattrap by Selma Lagerlöf",
+      "class": "12",
+      "subject": "English",
+      "chapter": "Chapter 4",
+      "book": "Flamingo",
+      "icon": "📖",
+      "description": "Human goodness can reform a person. Compassion and dignity bring out the best in people.",
+      "contentHref": "content/class12-english-flamingo-chapter-4-the-rattrap.json"
+    },
+    {
+      "id": "class12-english-flamingo-chapter-5-indigo",
+      "title": "Indigo by Louis Fischer",
+      "class": "12",
+      "subject": "English",
+      "chapter": "Chapter 5",
+      "book": "Flamingo",
+      "icon": "📖",
+      "description": "First instance of Satyagraha in India. The chapter highlights self-reliance, courage, non-violence, and leadership that empowers the poor.",
+      "contentHref": "content/class12-english-flamingo-chapter-5-indigo.json"
+    },
+    {
+      "id": "class12-english-flamingo-chapter-6-poets-and-pancakes",
+      "title": "Poets and Pancakes by Asokamitran",
+      "class": "12",
+      "subject": "English",
+      "chapter": "Chapter 6",
+      "book": "Flamingo",
+      "icon": "📖",
+      "description": "Humor and irony in the film world. The chapter shows the gap between art and commercial cinema and between bureaucracy and creativity.",
+      "contentHref": "content/class12-english-flamingo-chapter-6-poets-and-pancakes.json"
+    },
+    {
+      "id": "class12-english-flamingo-chapter-7-the-interview",
+      "title": "The Interview by Christopher Silvester / Umberto Eco",
+      "class": "12",
+      "subject": "English",
+      "chapter": "Chapter 7",
+      "book": "Flamingo",
+      "icon": "🎙️",
+      "description": "The chapter explores the value and danger of interviews, the ethics of public questioning, and Umberto Eco’s discipline in using small moments of time.",
+      "contentHref": "content/class12-english-flamingo-chapter-7-the-interview.json"
+    },
+    {
+      "id": "class12-english-flamingo-chapter-8-going-places",
+      "title": "Going Places by A. R. Barton",
+      "class": "12",
+      "subject": "English",
+      "chapter": "Chapter 8",
+      "book": "Flamingo",
+      "icon": "📖",
+      "description": "Fantasy versus reality, adolescent dreams, class barriers, and escapism.",
+      "contentHref": "content/class12-english-flamingo-chapter-8-going-places.json"
+    },
+    {
+      "id": "class12-english-flamingo-poetry-1-my-mother-at-sixty-six",
+      "title": "My Mother at Sixty-six by Kamala Das",
+      "class": "12",
+      "subject": "English",
+      "chapter": "Poetry 1",
+      "book": "Flamingo",
+      "icon": "✒️",
+      "description": "Ageing, separation, fear of loss, and the bond between mother and daughter. The poem shows how we hide pain behind smiles when facing mortality.",
+      "contentHref": "content/class12-english-flamingo-poetry-1-my-mother-at-sixty-six.json"
+    },
+    {
+      "id": "class12-english-flamingo-poetry-2-keeping-quiet",
+      "title": "Keeping Quiet by Pablo Neruda",
+      "class": "12",
+      "subject": "English",
+      "chapter": "Poetry 2",
+      "book": "Flamingo",
+      "icon": "✒️",
+      "description": "Need for introspection, peace, and universal brotherhood. Silence helps us understand ourselves and stop harming nature and each other.",
+      "contentHref": "content/class12-english-flamingo-poetry-2-keeping-quiet.json"
+    },
+    {
+      "id": "class12-english-flamingo-poetry-3-a-thing-of-beauty",
+      "title": "A Thing of Beauty by John Keats",
+      "class": "12",
+      "subject": "English",
+      "chapter": "Poetry 3",
+      "book": "Flamingo",
+      "icon": "✒️",
+      "description": "Beauty is eternal and gives us hope. In a world full of pain and evil, beauty in nature and art heals us and gives meaning to life.",
+      "contentHref": "content/class12-english-flamingo-poetry-3-a-thing-of-beauty.json"
+    },
+    {
+      "id": "class12-english-flamingo-poetry-4-a-roadside-stand",
+      "title": "A Roadside Stand by Robert Frost",
+      "class": "12",
+      "subject": "English",
+      "chapter": "Poetry 4",
+      "book": "Flamingo",
+      "icon": "✒️",
+      "description": "Economic inequality, exploitation of the rural poor, false promises of government, and the city-village divide.",
+      "contentHref": "content/class12-english-flamingo-poetry-4-a-roadside-stand.json"
+    },
+    {
+      "id": "class12-english-flamingo-poetry-5-aunt-jennifer-s-tigers",
+      "title": "Aunt Jennifer's Tigers by Adrienne Rich",
+      "class": "12",
+      "subject": "English",
+      "chapter": "Poetry 5",
+      "book": "Flamingo",
+      "icon": "✒️",
+      "description": "Male domination in marriage, suppression of women, and art as an escape. The tigers show Aunt Jennifer’s inner desire for freedom.",
+      "contentHref": "content/class12-english-flamingo-poetry-5-aunt-jennifer-s-tigers.json"
+    },
+    {
+      "id": "class12-english-vistas-chapter-1-the-third-level",
+      "title": "The Third Level by Jack Finney",
+      "class": "12",
+      "subject": "English",
+      "chapter": "Chapter 1",
+      "book": "Vistas",
+      "icon": "🌍",
+      "description": "Escapism, nostalgia for a simpler past, and the harshness of modern life. The third level is a metaphor for the human desire to escape stress and insecurity.",
+      "contentHref": "content/class12-english-vistas-chapter-1-the-third-level.json"
+    },
+    {
+      "id": "class12-english-vistas-chapter-2-the-tiger-king",
+      "title": "The Tiger King by Kalki",
+      "class": "12",
+      "subject": "English",
+      "chapter": "Chapter 2",
+      "book": "Vistas",
+      "icon": "🌍",
+      "description": "Abuse of power, pride, fate, and satire on rulers who misuse power for vanity. The story also suggests that harming nature backfires.",
+      "contentHref": "content/class12-english-vistas-chapter-2-the-tiger-king.json"
+    },
+    {
+      "id": "class12-english-vistas-chapter-3-journey-to-the-end-of-the-earth",
+      "title": "Journey to the End of the Earth by Tishani Doshi",
+      "class": "12",
+      "subject": "English",
+      "chapter": "Chapter 3",
+      "book": "Vistas",
+      "icon": "🌍",
+      "description": "Climate change, environmental responsibility, Earth’s history, and the need for global cooperation.",
+      "contentHref": "content/class12-english-vistas-chapter-3-journey-to-the-end-of-the-earth.json"
+    },
+    {
+      "id": "class12-english-vistas-chapter-4-the-enemy",
+      "title": "The Enemy by Pearl S. Buck",
+      "class": "12",
+      "subject": "English",
+      "chapter": "Chapter 4",
+      "book": "Vistas",
+      "icon": "🌍",
+      "description": "Conflict between human compassion and national loyalty, duty as a doctor versus duty as a citizen, and humanity rising above hatred.",
+      "contentHref": "content/class12-english-vistas-chapter-4-the-enemy.json"
+    },
+    {
+      "id": "class12-english-vistas-chapter-5-should-wizard-hit-mommy",
+      "title": "Should Wizard Hit Mommy? by John Updike",
+      "class": "12",
+      "subject": "English",
+      "chapter": "Chapter 5",
+      "book": "Vistas",
+      "icon": "🌍",
+      "description": "Parenting, generation gap, children’s moral judgments, adult authority, and how stories shape a child’s view of right and wrong.",
+      "contentHref": "content/class12-english-vistas-chapter-5-should-wizard-hit-mommy.json"
+    },
+    {
+      "id": "class12-english-vistas-chapter-6-on-the-face-of-it",
+      "title": "On the Face of It by Susan Hill",
+      "class": "12",
+      "subject": "English",
+      "chapter": "Chapter 6",
+      "book": "Vistas",
+      "icon": "🌍",
+      "description": "Disability, loneliness, self-acceptance, empathy, and the importance of inner worth over outward appearance.",
+      "contentHref": "content/class12-english-vistas-chapter-6-on-the-face-of-it.json"
+    },
+    {
+      "id": "class12-english-vistas-chapter-7-evans-tries-an-o-level",
+      "title": "Evans Tries an O-Level by Colin Dexter",
+      "class": "12",
+      "subject": "English",
+      "chapter": "Chapter 7",
+      "book": "Vistas",
+      "icon": "🌍",
+      "description": "Battle of wits between criminals and authorities. The chapter highlights Evans’ cleverness, the prison’s overconfidence, and how strict security can fail against careful planning.",
+      "contentHref": "content/class12-english-vistas-chapter-7-evans-tries-an-o-level.json"
+    },
+    {
+      "id": "class12-english-vistas-chapter-8-memories-of-childhood",
+      "title": "Memories of Childhood by Zitkala-Sa and Bama",
+      "class": "12",
+      "subject": "English",
+      "chapter": "Chapter 8",
+      "book": "Vistas",
+      "icon": "🌍",
+      "description": "Racial discrimination, caste discrimination, cultural suppression, humiliation, resistance, and the power of education.",
+      "contentHref": "content/class12-english-vistas-chapter-8-memories-of-childhood.json"
+    }
+  ]
 }
