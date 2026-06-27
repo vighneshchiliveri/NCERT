@@ -22,3 +22,6 @@ This package is ready to upload to GitHub / Vercel.
 1. Add a new object in `media/library.json`.
 2. Create the linked JSON file inside `content/`.
 3. Follow the existing Class 12 files as examples.
+
+## Toolbar fix
+The reader buttons are now moved into the empty left/right space on desktop while scrolling, so they do not cover the chapter content. On smaller screens the buttons appear above the content normally.
