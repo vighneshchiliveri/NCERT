@@ -47,11 +47,9 @@
         <span class="search-count" id="resultCount">0 / 0</span>
       </div>
 
-      <div class="filter-wrap">
-        <label for="genreFilter">Subject</label>
-        <select id="genreFilter">
-          <option value="">All</option>
-        </select>
+      <div class="subject-switch-wrap" id="subjectSwitchWrap" aria-label="Subject filters">
+        <span class="switch-title">Subjects</span>
+        <div class="switch-list" id="subjectSwitchList"></div>
       </div>
     </section>
 
@@ -72,6 +70,26 @@
       <article class="reader-paper">
         <p class="reader-kicker" id="readerKicker">#</p>
         <h1 id="readerTitle"></h1>
+
+        <div class="reader-toggle-bar" id="readerToggleBar" aria-label="Choose content sections">
+          <span class="switch-title">Show</span>
+          <label class="switch-pill">
+            <input id="toggleNotes" type="checkbox" checked />
+            <span class="switch-track" aria-hidden="true"></span>
+            <span>Notes</span>
+          </label>
+          <label class="switch-pill">
+            <input id="toggleSummary" type="checkbox" checked />
+            <span class="switch-track" aria-hidden="true"></span>
+            <span>Summary</span>
+          </label>
+          <label class="switch-pill">
+            <input id="toggleQA" type="checkbox" checked />
+            <span class="switch-track" aria-hidden="true"></span>
+            <span>Q&A</span>
+          </label>
+        </div>
+
         <div class="reader-content" id="readerContent"></div>
 
         <div class="reader-nav">

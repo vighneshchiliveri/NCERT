@@ -1,6 +1,8 @@
 let library = { chapters: [] };
 let selectedClass = null;
 let activeReaderId = null;
+let selectedSubjects = new Set();
+const readerContentVisibility = { notes: true, summary: true, qa: true };
 const contentCache = {};
 
 const homeBtn = document.getElementById('homeBtn');
@@ -13,7 +15,8 @@ const catalogEl = document.getElementById('catalog');
 const emptyStateEl = document.getElementById('emptyState');
 const searchInput = document.getElementById('searchInput');
 const resultCount = document.getElementById('resultCount');
-const genreFilter = document.getElementById('genreFilter');
+const subjectSwitchWrap = document.getElementById('subjectSwitchWrap');
+const subjectSwitchList = document.getElementById('subjectSwitchList');
 
 const readerView = document.getElementById('readerView');
 const readerBack = document.getElementById('readerBack');
@@ -24,6 +27,9 @@ const readerKicker = document.getElementById('readerKicker');
 const readerContent = document.getElementById('readerContent');
 const prevChapterBtn = document.getElementById('prevChapterBtn');
 const nextChapterBtn = document.getElementById('nextChapterBtn');
+const toggleNotes = document.getElementById('toggleNotes');
+const toggleSummary = document.getElementById('toggleSummary');
+const toggleQA = document.getElementById('toggleQA');
 
 function escapeHtml(str = '') {
   const div = document.createElement('div');
@@ -129,7 +135,7 @@ function selectClass(cls) {
   document.body.classList.remove('reader-open');
 
   searchInput.value = '';
-  genreFilter.value = '';
+  selectedSubjects = new Set();
 
   populateSubjects();
   render();
@@ -154,8 +160,34 @@ function populateSubjects() {
   const items = getCurrentItems().filter(item => !selectedClass || item.class === selectedClass);
   const subjects = [...new Set(items.map(i => i.subject).filter(Boolean))].sort();
 
-  genreFilter.innerHTML = '<option value="">All</option>' +
-    subjects.map(s => `<option value="${escapeHtml(s)}">${escapeHtml(s)}</option>`).join('');
+  selectedSubjects = new Set(subjects);
+
+  if (!subjects.length) {
+    subjectSwitchList.innerHTML = '<span class="muted-note">No subjects found</span>';
+    return;
+  }
+
+  subjectSwitchList.innerHTML = subjects.map(subject => `
+    <label class="switch-pill subject-pill">
+      <input type="checkbox" data-subject="${escapeHtml(subject)}" checked />
+      <span class="switch-track" aria-hidden="true"></span>
+      <span>${escapeHtml(subject)}</span>
+    </label>
+  `).join('');
+
+  subjectSwitchList.querySelectorAll('input[type="checkbox"]').forEach(input => {
+    input.addEventListener('change', () => {
+      const subject = input.dataset.subject;
+
+      if (input.checked) {
+        selectedSubjects.add(subject);
+      } else {
+        selectedSubjects.delete(subject);
+      }
+
+      render();
+    });
+  });
 }
 
 function getFiltered() {
@@ -163,7 +195,6 @@ function getFiltered() {
 
   const items = getCurrentItems().filter(item => item.class === selectedClass);
   const q = searchInput.value.trim().toLowerCase();
-  const subject = genreFilter.value;
 
   return items.filter(item => {
     const haystack = `
@@ -175,7 +206,8 @@ function getFiltered() {
       ${item.description || ''}
     `.toLowerCase();
 
-    return (!q || haystack.includes(q)) && (!subject || item.subject === subject);
+    const matchesSubject = item.subject ? selectedSubjects.has(item.subject) : true;
+    return (!q || haystack.includes(q)) && matchesSubject;
   });
 }
 
@@ -358,7 +390,7 @@ function contentToHtml(content) {
 
   if (hasContent(content.notes)) {
     sections.push(`
-      <section>
+      <section class="reader-section" data-reader-section="notes">
         <h2>Detailed Notes</h2>
         ${renderNotes(content.notes)}
       </section>
@@ -367,7 +399,7 @@ function contentToHtml(content) {
 
   if (hasContent(content.summary)) {
     sections.push(`
-      <section>
+      <section class="reader-section" data-reader-section="summary">
         <h2>Summary</h2>
         ${renderTextBlock(content.summary)}
       </section>
@@ -376,7 +408,7 @@ function contentToHtml(content) {
 
   if (hasContent(content.qa)) {
     sections.push(`
-      <section>
+      <section class="reader-section" data-reader-section="qa">
         <h2>Question & Answers</h2>
         ${renderQA(content.qa)}
       </section>
@@ -384,6 +416,48 @@ function contentToHtml(content) {
   }
 
   return sections.join('') || '<p>No content added yet.</p>';
+}
+
+function syncReaderToggleInputs() {
+  toggleNotes.checked = readerContentVisibility.notes;
+  toggleSummary.checked = readerContentVisibility.summary;
+  toggleQA.checked = readerContentVisibility.qa;
+}
+
+function applyReaderContentVisibility() {
+  const sections = [...readerContent.querySelectorAll('[data-reader-section]')];
+  let visibleCount = 0;
+
+  sections.forEach(section => {
+    const key = section.dataset.readerSection;
+    const isVisible = readerContentVisibility[key] !== false;
+    section.hidden = !isVisible;
+    if (isVisible) visibleCount += 1;
+  });
+
+  const oldEmpty = readerContent.querySelector('.reader-empty-selection');
+  if (oldEmpty) oldEmpty.remove();
+
+  if (sections.length && visibleCount === 0) {
+    readerContent.insertAdjacentHTML('beforeend', '<p class="reader-empty-selection">Turn on Notes, Summary, or Q&A to view content.</p>');
+  }
+}
+
+function updateReaderToggleAvailability(content) {
+  const availability = {
+    notes: hasContent(content.notes),
+    summary: hasContent(content.summary),
+    qa: hasContent(content.qa)
+  };
+
+  [
+    ['notes', toggleNotes],
+    ['summary', toggleSummary],
+    ['qa', toggleQA]
+  ].forEach(([key, input]) => {
+    input.disabled = !availability[key];
+    input.closest('.switch-pill').classList.toggle('is-disabled', !availability[key]);
+  });
 }
 
 async function openReader(id) {
@@ -399,6 +473,9 @@ async function openReader(id) {
     `Class ${content.class || item.class || ''} · ${content.subject || item.subject || ''} · ${content.chapter || item.chapter || ''} · ${content.book || item.book || ''}`;
 
   readerContent.innerHTML = contentToHtml(content);
+  syncReaderToggleInputs();
+  updateReaderToggleAvailability(content);
+  applyReaderContentVisibility();
 
   readerView.hidden = false;
   document.body.classList.add('reader-open');
@@ -559,7 +636,6 @@ document.addEventListener('keydown', e => {
 homeBtn.addEventListener('click', changeClass);
 changeClassBtn.addEventListener('click', changeClass);
 searchInput.addEventListener('input', render);
-genreFilter.addEventListener('change', render);
 readerBack.addEventListener('click', closeReader);
 readerPrint.addEventListener('click', () => window.print());
 
@@ -569,5 +645,16 @@ readerPdf.addEventListener('click', () => {
 
 prevChapterBtn.addEventListener('click', () => openAdjacentReader(-1));
 nextChapterBtn.addEventListener('click', () => openAdjacentReader(1));
+
+[
+  ['notes', toggleNotes],
+  ['summary', toggleSummary],
+  ['qa', toggleQA]
+].forEach(([key, input]) => {
+  input.addEventListener('change', () => {
+    readerContentVisibility[key] = input.checked;
+    applyReaderContentVisibility();
+  });
+});
 
 loadLibrary();
