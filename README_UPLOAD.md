@@ -31,3 +31,8 @@ Update included:
 - Q&A from the uploaded Q&A.docx has been added to The Last Lesson, Lost Spring, Deep Water, and The Rattrap.
 - Repeated section headings such as "Think As You Read" are grouped once per chapter.
 - Questions display in bold and answers display in normal/thin weight.
+
+## Latest content update
+- Added Q&A content from the uploaded DOCX into matching Class 12 English chapter JSON files.
+- Existing notes and summaries were kept.
+- Chapters not present in the DOCX were left unchanged.
