@@ -1,0 +1,76 @@
+{
+  "title": "Indigo by Louis Fischer",
+  "class": "12",
+  "subject": "English",
+  "chapter": "Chapter 5",
+  "book": "Flamingo",
+  "notes": [
+    {
+      "heading": "Theme",
+      "text": "First instance of Satyagraha in India. The chapter highlights self-reliance, courage, non-violence, and leadership that empowers the poor."
+    }
+  ],
+  "summary": "This chapter records Mahatma Gandhi’s first major political movement in India, the Champaran Satyagraha of 1917. It began when Rajkumar Shukla, an illiterate but determined peasant from Champaran, met Gandhi at the 1916 Lucknow Congress. Shukla wanted Gandhi to visit Champaran to fight the injustice faced by indigo sharecroppers. British landlords forced peasants to plant indigo on 15 percent of their land and surrender the entire harvest as rent. This was the tinkathia system.\n\nWhen synthetic indigo was invented in Germany, the price of natural indigo fell. Landlords then asked peasants for compensation to release them from the agreement. Many peasants signed, but some refused. Gandhi went to Champaran despite being told it was impossible. British officials ordered him to leave, but he disobeyed and was summoned to court. Thousands of peasants demonstrated outside. The government was baffled and dropped the case. Civil disobedience had won.\n\nGandhi and his team investigated and recorded testimonies from thousands of peasants. The British appointed an official inquiry committee with Gandhi as a member. The landlords agreed to refund 25 percent of the money. Gandhi accepted because the amount was not important; the real victory was that landlords had to surrender part of their money and prestige. The peasants learned that they had rights and courage.\n\nGandhi stayed to work on social problems too. He opened schools, taught sanitation, and worked for health and education. The Champaran episode was a turning point because it showed that the British could be challenged and that India’s poor had to be included in the freedom struggle.",
+  "qa": [
+    {
+      "q": "Strike out what is not true.",
+      "a": "(a) Rajkumar Shukla was a sharecropper. (Not a politician, delegate, or landlord.) (b) Rajkumar Shukla was poor and illiterate. (Not physically strong.)",
+      "section": "Think as you read"
+    },
+    {
+      "q": "Why is Rajkumar Shukla described as being 'resolute'?",
+      "a": "Because he was firm and determined in his purpose — he followed Gandhi everywhere for months, never giving up, until Gandhi agreed to visit Champaran.",
+      "section": "Think as you read"
+    },
+    {
+      "q": "Why do you think the servants thought Gandhi to be another peasant?",
+      "a": "Gandhi was simply dressed like a common peasant and arrived with Shukla, so the servants assumed he was just another poor villager seeking help, not realizing he was a well-known leader.",
+      "section": "Think as you read"
+    },
+    {
+      "q": "List the places that Gandhi visited between his first meeting with Shukla and his arrival at Champaran.",
+      "a": "Cawnpore, his ashram near Ahmedabad, Calcutta, Patna, and Muzzafarpur.",
+      "section": "Think as you read"
+    },
+    {
+      "q": "What did the peasants pay the British landlords as rent? What did the British now want instead and why? What would be the impact of synthetic indigo on the prices of natural indigo?",
+      "a": "The peasants paid their entire indigo harvest as rent. When Germany developed synthetic indigo, the British landlords wanted compensation instead, since natural indigo was losing its market value. This meant the price of natural indigo would fall sharply.",
+      "section": "Think as you read"
+    },
+    {
+      "q": "The events in this part of the text illustrate Gandhi's method of working. Can you identify some instances of this method and link them to his ideas of satyagraha and non-violence?",
+      "a": "Gandhi gathered facts before acting, disobeyed unjust orders openly, accepted the legal consequences without resistance, and relied on peaceful mass support rather than force — all key features of satyagraha and non-violent resistance.",
+      "section": "Think as you read"
+    },
+    {
+      "q": "Why did Gandhi agree to a settlement of 25 per cent refund to the farmers?",
+      "a": "Because the landlords themselves offered 25%, and Gandhi accepted it immediately, since for him the actual amount mattered less than the fact that the landlords had been forced to surrender money and prestige.",
+      "section": "Think as you read"
+    },
+    {
+      "q": "How did the episode change the plight of the peasants?",
+      "a": "The peasants realized they had rights and could stand up to injustice. They learned courage, and eventually the British planters left, ending the indigo sharecropping system altogether.",
+      "section": "Think as you read"
+    },
+    {
+      "q": "Why do you think Gandhi considered the Champaran episode to be a turning-point in his life?",
+      "a": "It was his first successful use of civil disobedience in India, proving that ordinary people could challenge British authority without violence, strengthening his belief in satyagraha for the freedom struggle.",
+      "section": "Understanding the text"
+    },
+    {
+      "q": "How was Gandhi able to influence lawyers?",
+      "a": "Give instances. He criticized them for charging high fees from poor peasants. When he was arrested, he asked what they'd do if he were jailed — realizing it would mean deserting the peasants, the lawyers chose to stay and support him.",
+      "section": "Understanding the text"
+    },
+    {
+      "q": "What was the attitude of the average Indian in smaller localities towards advocates of 'home rule'?",
+      "a": "They were afraid even to show sympathy towards supporters of home rule, fearing trouble from the British authorities.",
+      "section": "Understanding the text"
+    },
+    {
+      "q": "How do we know that ordinary people too contributed to the freedom movement?",
+      "a": "Rajkumar Shukla, an ordinary peasant, brought Gandhi to Champaran, and thousands of unnamed peasants gathered at the courthouse and gave evidence, showing common people played a real role in the freedom struggle.",
+      "section": "Understanding the text"
+    }
+  ]
+}

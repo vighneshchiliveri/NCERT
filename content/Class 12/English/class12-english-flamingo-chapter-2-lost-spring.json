@@ -1,0 +1,71 @@
+{
+  "title": "Lost Spring by Anees Jung",
+  "class": "12",
+  "subject": "English",
+  "chapter": "Chapter 2",
+  "book": "Flamingo",
+  "notes": [
+    {
+      "heading": "Theme",
+      "text": "Child labour, poverty, exploitation, and the vicious cycle of tradition that kills dreams."
+    }
+  ],
+  "summary": "“Lost Spring” is about the stolen childhoods of poor children in India, told through two real-life stories. The author first meets Saheb, a ragpicker in Seemapuri, a slum on Delhi’s outskirts. Saheb’s family came from Bangladesh after storms destroyed their fields. Now they scavenge garbage for survival. Saheb roams barefoot, searching for “gold” in heaps of rubbish. He does not go to school, though he sometimes hangs around a tea stall. When the author jokingly asks if she should start a school, he says yes. Later she sees him working in a tea stall. He is paid 800 rupees and gets meals, but he has lost the freedom of being his own master. The steel canister seems heavier than his plastic bag.\n\nThe second part shifts to Firozabad, famous for bangle-making. The author meets Mukesh, whose family works in glass furnaces where temperatures are blinding and children lose eyesight early. Mukesh wants to be a motor mechanic, not a bangle-maker like generations before him. But the whole town is trapped by sahukars, middlemen, police, politicians, and tradition. They cannot organize into cooperatives because of fear. Even if they get the help of law, family pressure and tradition hold them back.\n\nThe title “Lost Spring” means these children never get to bloom. Poverty, exploitation, and social customs rob them of education, play, and dreams. Saheb and Mukesh represent millions of children who bear the burden of poverty when they should be in school.",
+  "qa": [
+    {
+      "section": "📖 Think As You Read",
+      "q": "What is Saheb looking for in the garbage dumps? Where is he and where has he come from?",
+      "a": "Saheb is scrounging for \"gold\" in the garbage dumps, which means items of value like a stray coin, a one-rupee note, or usable items. He is currently living in Seemapuri, a impoverished settlement on the periphery of Delhi. He migrated with his family from Dhaka, Bangladesh, after severe storms swept away their green fields and homes in 1971."
+    },
+    {
+      "section": "📖 Think As You Read",
+      "q": "What explanations does the author offer for the children not wearing footwear?",
+      "a": "The author offers two explanations. One common explanation given by the people is that staying barefoot is a cultural tradition rather than a lack of financial means. However, the author firmly points out that this explanation is merely an excuse used to hide a deeper, perpetual state of grinding poverty that keeps these children deprived of basic needs."
+    },
+    {
+      "section": "📖 Think As You Read",
+      "q": "Is Saheb happy working at the tea-stall? Explain.",
+      "a": "No, Saheb is not happy working at the tea stall. Even though he earns 800 rupees and gets all his meals, his face has lost its carefree look. The steel canister he carries feels significantly heavier to him than his old plastic ragpicking bag because the bag belonged to him, while the canister belongs to the shop owner; Saheb is no longer his own master."
+    },
+    {
+      "section": "📖 Think As You Read",
+      "q": "What makes the city of Firozabad famous?",
+      "a": "Firozabad is universally famous as the primary hub of India’s glass-blowing industry. It specializes in welding glass and producing vibrant, colourful bangles for women across the country, with nearly every household in the city engaged in this traditional craft for generations."
+    },
+    {
+      "section": "📖 Think As You Read",
+      "q": "Mention the hazards of working in the glass bangles industry.",
+      "a": "Workers, including 20,000 children, toil in dingy, unventilated cells around high-temperature furnaces. The continuous exposure to extreme heat, smoke, flickering oil lamps, and the toxic dust generated from polishing glass causes severe respiratory issues and often blinds workers before they even reach adulthood."
+    },
+    {
+      "section": "📖 Think As You Read",
+      "q": "How is Mukesh’s attitude to his situation different from that of his family?",
+      "a": "Unlike his family, who have accepted bangle-making as their unchangeable destiny (karam), Mukesh refuses to submit to tradition. He possesses the courage to dare and dream of a different life. He resolutely declares that he wants to be a motor mechanic and intends to walk to a distant garage to learn the trade."
+    },
+    {
+      "section": "🧠 Understanding the Text",
+      "q": "What could be some of the reasons for the migration of people from villages to cities?",
+      "a": "People migrate to cities due to extreme poverty, lack of employment opportunities, and natural calamities in their homelands. When natural disasters like storms destroy agricultural fields and houses, families lose their livelihoods. They relocate to big cities because survival and finding daily bread are far more vital than a fixed identity."
+    },
+    {
+      "section": "🧠 Understanding the Text",
+      "q": "Would you agree that promises made to poor children are rarely kept? Why do you think this happens in the incidents narrated in the text?",
+      "a": "Yes, promises made to poor children are rarely kept. In the text, the author casually asks Saheb if he would come if she started a school, giving him a false glimmer of hope. This happens because privileged individuals often make casual statements or empty assurances without real intent, failing to understand how deeply a deprived child clings to those promises in their bleak world."
+    },
+    {
+      "section": "🧠 Understanding the Text",
+      "q": "What forces conspire to keep the workers in the bangle industry of Firozabad in poverty?",
+      "a": "Two powerful oppressive forces conspire against them. The first is the deep-seated social stigma of being born into a specific caste destined only for manual labour. The second is a malicious, inescapable web of corrupt exploiters—comprising greedy middlemen, sahukars (moneylenders), brutal policemen, institutional bureaucrats, and deceptive politicians."
+    },
+    {
+      "section": "💬 Talking About the Text",
+      "q": "How, in your opinion, can Mukesh realise his dream?",
+      "a": "Mukesh can realize his dream through his sheer determination, hard work, and refusal to surrender to family tradition. By demonstrating the grit to walk a long distance to a mechanics' garage, seeking a practical apprenticeship, and eventually learning how to drive, he can break free from his family's generational poverty cycle."
+    },
+    {
+      "section": "💬 Talking About the Text",
+      "q": "Why should child labour be eliminated and how?",
+      "a": "Child labour must be eliminated because it robs children of their childhood, blocks their basic right to education, and inflicts severe physical damage on their health. It can be permanently eradicated by strictly enforcing anti-child labour laws, providing free schooling, providing financial incentives to impoverished families, and punishing those who exploit young children."
+    }
+  ]
+}
