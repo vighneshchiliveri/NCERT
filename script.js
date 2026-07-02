@@ -76,6 +76,32 @@ function getContentTypeInfo(type) {
   return CONTENT_TYPES.find(item => item.key === type) || CONTENT_TYPES[0];
 }
 
+function clearReaderState() {
+  activeReaderId = null;
+  activeReaderType = null;
+}
+
+function showOnlyContentTypePage() {
+  classSelectSection.hidden = true;
+  subjectSelectSection.hidden = true;
+  catalogControls.hidden = true;
+  catalogEl.hidden = true;
+  emptyStateEl.hidden = true;
+  contentTypeSection.hidden = false;
+  readerView.hidden = true;
+  document.body.classList.remove('reader-open');
+}
+
+function showChapterListPage() {
+  classSelectSection.hidden = true;
+  subjectSelectSection.hidden = true;
+  contentTypeSection.hidden = true;
+  readerView.hidden = true;
+  document.body.classList.remove('reader-open');
+  catalogControls.hidden = false;
+  catalogEl.hidden = false;
+}
+
 async function loadLibrary() {
   try {
     const res = await fetch('media/library.json', { cache: 'no-store' });
@@ -581,7 +607,7 @@ async function openContentTypeSelection(id) {
   const title = cleanTitle(content.title || item.title || getCardTitle(item));
   const meta = `Class ${content.class || item.class || ''} · ${content.subject || item.subject || ''} · ${content.chapter || item.chapter || ''} · ${content.book || item.book || 'NCERT'}`;
 
-  selectedChapterText.innerHTML = `<strong>${escapeHtml(title)}</strong><br><span>${escapeHtml(meta)}</span>`;
+  selectedChapterText.innerHTML = `<span class="selected-chapter-badge">Selected Chapter</span><br><strong>${escapeHtml(title)}</strong><br><span>${escapeHtml(meta)}</span>`;
 
   contentTypeGrid.innerHTML = CONTENT_TYPES.map(type => {
     const available = hasContentType(content, type.key);
@@ -600,25 +626,15 @@ async function openContentTypeSelection(id) {
     card.addEventListener('click', () => openReader(id, card.dataset.type));
   });
 
-  catalogControls.hidden = true;
-  catalogEl.hidden = true;
-  emptyStateEl.hidden = true;
-  contentTypeSection.hidden = false;
-  readerView.hidden = true;
-  document.body.classList.remove('reader-open');
+  showOnlyContentTypePage();
 
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 function backToChapters() {
   activeChapterId = null;
-  activeReaderId = null;
-  activeReaderType = null;
-  contentTypeSection.hidden = true;
-  catalogControls.hidden = false;
-  catalogEl.hidden = false;
-  readerView.hidden = true;
-  document.body.classList.remove('reader-open');
+  clearReaderState();
+  showChapterListPage();
   render();
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
@@ -641,6 +657,11 @@ async function openReader(id, type = 'notes') {
 
   readerContent.innerHTML = contentTypeToHtml(content, type);
 
+  classSelectSection.hidden = true;
+  subjectSelectSection.hidden = true;
+  catalogControls.hidden = true;
+  catalogEl.hidden = true;
+  emptyStateEl.hidden = true;
   contentTypeSection.hidden = true;
   readerView.hidden = false;
   document.body.classList.add('reader-open');
@@ -652,8 +673,7 @@ async function openReader(id, type = 'notes') {
 async function closeReader() {
   readerView.hidden = true;
   document.body.classList.remove('reader-open');
-  activeReaderId = null;
-  activeReaderType = null;
+  clearReaderState();
 
   if (activeChapterId) {
     await openContentTypeSelection(activeChapterId);

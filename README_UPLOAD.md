@@ -8,7 +8,7 @@ This package is ready to upload to GitHub / Vercel.
 - Flamingo prose chapters, Flamingo poems, and Vistas chapters
 - Class cards first, then subject cards, then chapter/poem cards
 - One card per chapter/poem
-- Each card opens the full notes, summary, and Q&A details
+- Each chapter card opens a separate Notes / Summary / Q&A selection screen
 
 ## How to upload
 
@@ -47,3 +47,9 @@ Update included:
 - New flow: Select Class → Select Subject → Select Chapter → Select Notes / Summary / Q&A card.
 - Notes, Summary, and Q&A now open as separate content pages.
 - The PDF button now downloads only the selected content type, for example only Notes or only Q&A.
+
+## Latest chapter-screen update
+- When a chapter card is clicked, the chapter list is hidden completely.
+- A separate selected-chapter page opens with only three cards: Notes, Summary, and Q&A.
+- Added stronger `[hidden]` CSS so hidden chapter cards do not remain visible on any browser.
+- Added “Back to Chapter List” to return from the Notes/Summary/Q&A card screen.
