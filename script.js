@@ -1,6 +1,7 @@
 let library = { chapters: [] };
 let selectedClass = null;
 let selectedSubject = null;
+let selectedBook = null;
 let activeChapterId = null;
 let activeReaderId = null;
 let activeReaderType = null;
@@ -32,9 +33,13 @@ const classSelectSection = document.getElementById('classSelectSection');
 const classGrid = document.getElementById('classGrid');
 const subjectSelectSection = document.getElementById('subjectSelectSection');
 const subjectGrid = document.getElementById('subjectGrid');
+const textbookSelectSection = document.getElementById('textbookSelectSection');
+const textbookGrid = document.getElementById('textbookGrid');
 const catalogControls = document.getElementById('catalogControls');
 const selectedClassText = document.getElementById('selectedClassText');
 const selectedSubjectText = document.getElementById('selectedSubjectText');
+const selectedBookText = document.getElementById('selectedBookText');
+const changeTextbookBtn = document.getElementById('changeTextbookBtn');
 const changeSubjectBtn = document.getElementById('changeSubjectBtn');
 const changeClassBtn = document.getElementById('changeClassBtn');
 const catalogEl = document.getElementById('catalog');
@@ -76,6 +81,10 @@ function getContentTypeInfo(type) {
   return CONTENT_TYPES.find(item => item.key === type) || CONTENT_TYPES[0];
 }
 
+function getBookName(item) {
+  return item.book || 'NCERT';
+}
+
 function clearReaderState() {
   activeReaderId = null;
   activeReaderType = null;
@@ -84,6 +93,7 @@ function clearReaderState() {
 function showOnlyContentTypePage() {
   classSelectSection.hidden = true;
   subjectSelectSection.hidden = true;
+  textbookSelectSection.hidden = true;
   catalogControls.hidden = true;
   catalogEl.hidden = true;
   emptyStateEl.hidden = true;
@@ -95,6 +105,7 @@ function showOnlyContentTypePage() {
 function showChapterListPage() {
   classSelectSection.hidden = true;
   subjectSelectSection.hidden = true;
+  textbookSelectSection.hidden = true;
   contentTypeSection.hidden = true;
   readerView.hidden = true;
   document.body.classList.remove('reader-open');
@@ -113,6 +124,7 @@ async function loadLibrary() {
 
   renderClassSelection();
   subjectSelectSection.hidden = true;
+  textbookSelectSection.hidden = true;
   contentTypeSection.hidden = true;
   catalogEl.innerHTML = '';
   catalogEl.hidden = false;
@@ -166,6 +178,7 @@ function renderClassSelection() {
       </div>
     `;
     subjectSelectSection.hidden = true;
+    textbookSelectSection.hidden = true;
     catalogControls.hidden = true;
     contentTypeSection.hidden = true;
     catalogEl.innerHTML = '';
@@ -190,14 +203,17 @@ function renderClassSelection() {
 function selectClass(cls) {
   selectedClass = cls;
   selectedSubject = null;
+  selectedBook = null;
   activeChapterId = null;
   activeReaderId = null;
   activeReaderType = null;
   selectedClassText.textContent = `Class ${cls}`;
   selectedSubjectText.textContent = 'Subject';
+  selectedBookText.textContent = 'Textbook';
 
   classSelectSection.hidden = true;
   subjectSelectSection.hidden = false;
+  textbookSelectSection.hidden = true;
   catalogControls.hidden = true;
   contentTypeSection.hidden = true;
   readerView.hidden = true;
@@ -216,11 +232,13 @@ function selectClass(cls) {
 function changeClass() {
   selectedClass = null;
   selectedSubject = null;
+  selectedBook = null;
   activeChapterId = null;
   activeReaderId = null;
   activeReaderType = null;
   catalogControls.hidden = true;
   subjectSelectSection.hidden = true;
+  textbookSelectSection.hidden = true;
   contentTypeSection.hidden = true;
   classSelectSection.hidden = false;
   readerView.hidden = true;
@@ -228,6 +246,7 @@ function changeClass() {
   catalogEl.innerHTML = '';
   catalogEl.hidden = false;
   subjectGrid.innerHTML = '';
+  textbookGrid.innerHTML = '';
   contentTypeGrid.innerHTML = '';
   emptyStateEl.hidden = true;
   resultCount.textContent = '0 / 0';
@@ -272,7 +291,7 @@ function getSubjectsForSelectedClass() {
       };
 
       existing.count += 1;
-      if (item.book) existing.books.add(item.book);
+      existing.books.add(getBookName(item));
       subjectMap.set(subject, existing);
     });
 
@@ -313,13 +332,95 @@ function renderSubjectSelection() {
 
 function selectSubject(subject) {
   selectedSubject = subject;
+  selectedBook = null;
   activeChapterId = null;
   activeReaderId = null;
   activeReaderType = null;
   selectedClassText.textContent = `Class ${selectedClass}`;
   selectedSubjectText.textContent = subject;
+  selectedBookText.textContent = 'Textbook';
 
   subjectSelectSection.hidden = true;
+  textbookSelectSection.hidden = false;
+  contentTypeSection.hidden = true;
+  catalogControls.hidden = true;
+  readerView.hidden = true;
+  document.body.classList.remove('reader-open');
+
+  searchInput.value = '';
+  catalogEl.innerHTML = '';
+  catalogEl.hidden = false;
+  emptyStateEl.hidden = true;
+  resultCount.textContent = '0 / 0';
+
+  renderTextbookSelection();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function getBooksForSelectedSubject() {
+  if (!selectedClass || !selectedSubject) return [];
+
+  const bookMap = new Map();
+
+  getCurrentItems()
+    .filter(item => item.class === selectedClass && (item.subject || 'General') === selectedSubject)
+    .forEach(item => {
+      const book = getBookName(item);
+      const existing = bookMap.get(book) || {
+        book,
+        count: 0,
+        icon: item.bookIcon || item.icon || '📘',
+        chapters: new Set()
+      };
+
+      existing.count += 1;
+      if (item.chapter) existing.chapters.add(item.chapter);
+      bookMap.set(book, existing);
+    });
+
+  return [...bookMap.values()].sort((a, b) => a.book.localeCompare(b.book));
+}
+
+function renderTextbookSelection() {
+  const books = getBooksForSelectedSubject();
+
+  if (!books.length) {
+    textbookGrid.innerHTML = `
+      <div class="empty-library">
+        <h3>No textbooks found</h3>
+        <p>Add textbook/book names for Class ${escapeHtml(selectedClass || '')} ${escapeHtml(selectedSubject || '')} in <code>media/library.json</code>.</p>
+      </div>
+    `;
+    return;
+  }
+
+  textbookGrid.innerHTML = books.map(item => {
+    const chapterLabel = item.count === 1 ? 'chapter' : 'chapters';
+    const uniqueChapterCount = item.chapters.size || item.count;
+
+    return `
+      <button class="textbook-card" type="button" data-book="${escapeHtml(item.book)}">
+        <span class="textbook-icon">${item.icon}</span>
+        <strong>${escapeHtml(item.book)}</strong>
+        <small>${uniqueChapterCount} ${chapterLabel}</small>
+        <em>Class ${escapeHtml(selectedClass || '')} · ${escapeHtml(selectedSubject || '')}</em>
+      </button>
+    `;
+  }).join('');
+
+  textbookGrid.querySelectorAll('.textbook-card').forEach(btn => {
+    btn.addEventListener('click', () => selectTextbook(btn.dataset.book));
+  });
+}
+
+function selectTextbook(book) {
+  selectedBook = book;
+  activeChapterId = null;
+  activeReaderId = null;
+  activeReaderType = null;
+  selectedBookText.textContent = book;
+
+  textbookSelectSection.hidden = true;
   contentTypeSection.hidden = true;
   catalogControls.hidden = false;
   readerView.hidden = true;
@@ -331,14 +432,37 @@ function selectSubject(subject) {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
+function changeTextbook() {
+  selectedBook = null;
+  activeChapterId = null;
+  activeReaderId = null;
+  activeReaderType = null;
+  selectedBookText.textContent = 'Textbook';
+  catalogControls.hidden = true;
+  contentTypeSection.hidden = true;
+  textbookSelectSection.hidden = false;
+  readerView.hidden = true;
+  document.body.classList.remove('reader-open');
+  catalogEl.innerHTML = '';
+  catalogEl.hidden = false;
+  emptyStateEl.hidden = true;
+  resultCount.textContent = '0 / 0';
+
+  renderTextbookSelection();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
 function changeSubject() {
   selectedSubject = null;
+  selectedBook = null;
   activeChapterId = null;
   activeReaderId = null;
   activeReaderType = null;
   selectedSubjectText.textContent = 'Subject';
+  selectedBookText.textContent = 'Textbook';
   catalogControls.hidden = true;
   contentTypeSection.hidden = true;
+  textbookSelectSection.hidden = true;
   subjectSelectSection.hidden = false;
   readerView.hidden = true;
   document.body.classList.remove('reader-open');
@@ -352,11 +476,11 @@ function changeSubject() {
 }
 
 function getFiltered() {
-  if (!selectedClass || !selectedSubject) return [];
+  if (!selectedClass || !selectedSubject || !selectedBook) return [];
 
   const items = getCurrentItems().filter(item => {
     const subject = item.subject || 'General';
-    return item.class === selectedClass && subject === selectedSubject;
+    return item.class === selectedClass && subject === selectedSubject && getBookName(item) === selectedBook;
   });
   const q = searchInput.value.trim().toLowerCase();
 
@@ -366,7 +490,7 @@ function getFiltered() {
       ${item.class || ''}
       ${item.subject || ''}
       ${item.chapter || ''}
-      ${item.book || ''}
+      ${getBookName(item)}
       ${item.description || ''}
     `.toLowerCase();
 
@@ -378,7 +502,7 @@ function render() {
   const filtered = getFiltered();
   const items = getCurrentItems().filter(item => {
     const subject = item.subject || 'General';
-    return item.class === selectedClass && subject === selectedSubject;
+    return item.class === selectedClass && subject === selectedSubject && getBookName(item) === selectedBook;
   });
 
   contentTypeSection.hidden = true;
@@ -411,7 +535,7 @@ function render() {
 
           <div class="entry-meta">
             <span>${escapeHtml(item.chapter || '')}</span>
-            <span>${escapeHtml(item.book || 'NCERT')}</span>
+            <span>${escapeHtml(getBookName(item))}</span>
           </div>
         </div>
       </article>
@@ -659,6 +783,7 @@ async function openReader(id, type = 'notes') {
 
   classSelectSection.hidden = true;
   subjectSelectSection.hidden = true;
+  textbookSelectSection.hidden = true;
   catalogControls.hidden = true;
   catalogEl.hidden = true;
   emptyStateEl.hidden = true;
@@ -814,6 +939,7 @@ document.addEventListener('keydown', e => {
 });
 
 homeBtn.addEventListener('click', changeClass);
+changeTextbookBtn.addEventListener('click', changeTextbook);
 changeSubjectBtn.addEventListener('click', changeSubject);
 changeClassBtn.addEventListener('click', changeClass);
 backToChaptersBtn.addEventListener('click', backToChapters);

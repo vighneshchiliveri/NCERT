@@ -92,6 +92,7 @@ button, input, select { font: inherit; }
 
 .class-select-section,
 .subject-select-section,
+.textbook-select-section,
 .content-type-section {
   max-width: 1080px;
   margin: 0 auto;
@@ -107,6 +108,7 @@ button, input, select { font: inherit; }
 }
 .class-select-section h2,
 .subject-select-section h2,
+.textbook-select-section h2,
 .content-type-section h2 {
   font-family: var(--display);
   font-size: clamp(38px, 7vw, 72px);
@@ -115,6 +117,7 @@ button, input, select { font: inherit; }
 }
 .class-select-section p,
 .subject-select-section p,
+.textbook-select-section p,
 .content-type-section p {
   color: var(--ink-soft);
   margin: 14px 0 30px;
@@ -123,6 +126,7 @@ button, input, select { font: inherit; }
 }
 .class-grid,
 .subject-grid,
+.textbook-grid,
 .content-type-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
@@ -130,6 +134,7 @@ button, input, select { font: inherit; }
 }
 .class-card,
 .subject-card,
+.textbook-card,
 .content-type-card {
   min-height: 132px;
   border: 2px solid var(--ink);
@@ -149,32 +154,39 @@ button, input, select { font: inherit; }
 }
 .class-card strong,
 .subject-card strong,
+.textbook-card strong,
 .content-type-card strong {
   display: block;
   font-family: var(--display);
   font-size: 46px;
   margin-top: 8px;
 }
-.subject-grid {
+.subject-grid,
+.textbook-grid {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
-.subject-card {
+.subject-card,
+.textbook-card {
   min-height: 180px;
   text-align: left;
   padding: 20px;
 }
-.subject-card .subject-icon {
+.subject-card .subject-icon,
+.textbook-card .textbook-icon {
   display: block;
   font-size: 46px;
   line-height: 1;
   margin-bottom: 16px;
 }
-.subject-card strong {
+.subject-card strong,
+.textbook-card strong {
   font-size: 32px;
   margin-top: 0;
 }
 .subject-card small,
-.subject-card em {
+.subject-card em,
+.textbook-card small,
+.textbook-card em {
   display: block;
   margin-top: 8px;
   color: var(--ink-soft);
@@ -182,7 +194,8 @@ button, input, select { font: inherit; }
   font-size: 12px;
   font-style: normal;
 }
-.subject-card em {
+.subject-card em,
+.textbook-card em {
   border-top: 1px dashed var(--line);
   padding-top: 10px;
   margin-top: 14px;
@@ -271,6 +284,8 @@ button, input, select { font: inherit; }
 .class-card:focus-visible,
 .subject-card:hover,
 .subject-card:focus-visible,
+.textbook-card:hover,
+.textbook-card:focus-visible,
 .content-type-card:hover,
 .content-type-card:focus-visible {
   transform: translateY(-4px);
@@ -330,6 +345,7 @@ button, input, select { font: inherit; }
   flex-wrap: wrap;
   justify-content: flex-end;
 }
+#changeTextbookBtn,
 #changeSubjectBtn,
 #changeClassBtn,
 #backToChaptersBtn,
@@ -344,6 +360,7 @@ button, input, select { font: inherit; }
   border-radius: 6px;
   cursor: pointer;
 }
+#changeTextbookBtn:hover,
 #changeSubjectBtn:hover,
 #changeClassBtn:hover,
 #backToChaptersBtn:hover,

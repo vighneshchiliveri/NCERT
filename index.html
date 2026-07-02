@@ -36,8 +36,15 @@
     <section class="subject-select-section" id="subjectSelectSection" hidden>
       <span class="section-kicker">Step 2</span>
       <h2>Select Subject</h2>
-      <p>Choose a subject to view its chapter notes, summaries and question answers.</p>
+      <p>Choose a subject to view available NCERT textbooks.</p>
       <div class="subject-grid" id="subjectGrid"></div>
+    </section>
+
+    <section class="textbook-select-section" id="textbookSelectSection" hidden>
+      <span class="section-kicker">Step 3</span>
+      <h2>Select Textbook</h2>
+      <p>Choose a textbook to view its chapter notes, summaries and question answers.</p>
+      <div class="textbook-grid" id="textbookGrid"></div>
     </section>
 
     <section class="catalog-controls" id="catalogControls" hidden>
@@ -50,7 +57,12 @@
           <span class="section-kicker">Selected Subject</span>
           <strong id="selectedSubjectText">Subject</strong>
         </div>
+        <div>
+          <span class="section-kicker">Selected Textbook</span>
+          <strong id="selectedBookText">Textbook</strong>
+        </div>
         <div class="selected-actions">
+          <button id="changeTextbookBtn" type="button">Change Textbook</button>
           <button id="changeSubjectBtn" type="button">Change Subject</button>
           <button id="changeClassBtn" type="button">Change Class</button>
         </div>

@@ -53,3 +53,9 @@ Update included:
 - A separate selected-chapter page opens with only three cards: Notes, Summary, and Q&A.
 - Added stronger `[hidden]` CSS so hidden chapter cards do not remain visible on any browser.
 - Added “Back to Chapter List” to return from the Notes/Summary/Q&A card screen.
+
+## Latest textbook-screen update
+- After selecting a subject, a new textbook selection screen appears.
+- New flow: Select Class → Select Subject → Select Textbook → Select Chapter → Select Notes / Q&A / Summary card.
+- Chapter cards are filtered by the selected textbook only.
+- Added a “Change Textbook” button near “Change Subject” and “Change Class”.
