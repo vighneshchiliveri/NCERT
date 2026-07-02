@@ -33,23 +33,32 @@
       <div class="class-grid" id="classGrid"></div>
     </section>
 
+    <section class="subject-select-section" id="subjectSelectSection" hidden>
+      <span class="section-kicker">Step 2</span>
+      <h2>Select Subject</h2>
+      <p>Choose a subject to view its chapter notes, summaries and question answers.</p>
+      <div class="subject-grid" id="subjectGrid"></div>
+    </section>
+
     <section class="catalog-controls" id="catalogControls" hidden>
       <div class="selected-class-bar">
         <div>
           <span class="section-kicker">Selected Class</span>
           <strong id="selectedClassText">Class</strong>
         </div>
-        <button id="changeClassBtn" type="button">Change Class</button>
+        <div>
+          <span class="section-kicker">Selected Subject</span>
+          <strong id="selectedSubjectText">Subject</strong>
+        </div>
+        <div class="selected-actions">
+          <button id="changeSubjectBtn" type="button">Change Subject</button>
+          <button id="changeClassBtn" type="button">Change Class</button>
+        </div>
       </div>
 
       <div class="search-wrap">
         <input id="searchInput" type="search" placeholder="Search chapter, subject, book..." autocomplete="off" />
         <span class="search-count" id="resultCount">0 / 0</span>
-      </div>
-
-      <div class="subject-switch-wrap" id="subjectSwitchWrap" aria-label="Subject filters">
-        <span class="switch-title">Subjects</span>
-        <div class="switch-list" id="subjectSwitchList"></div>
       </div>
     </section>
 

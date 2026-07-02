@@ -6,9 +6,9 @@ This package is ready to upload to GitHub / Vercel.
 
 - Class 12 English cards generated from `Summaries.docx`
 - Flamingo prose chapters, Flamingo poems, and Vistas chapters
+- Class cards first, then subject cards, then chapter/poem cards
 - One card per chapter/poem
-- Each card opens the full summary and theme details
-- Old Notes / Summaries / Q&A toggle is removed
+- Each card opens the full notes, summary, and Q&A details
 
 ## How to upload
 
@@ -36,3 +36,8 @@ Update included:
 - Added Q&A content from the uploaded DOCX into matching Class 12 English chapter JSON files.
 - Existing notes and summaries were kept.
 - Chapters not present in the DOCX were left unchanged.
+
+## Latest structure update
+- After selecting a class, subject cards are shown first.
+- After selecting a subject, chapter cards are shown for that subject only.
+- Added a “Change Subject” button near “Change Class”.

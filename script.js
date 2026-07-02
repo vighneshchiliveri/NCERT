@@ -1,22 +1,24 @@
 let library = { chapters: [] };
 let selectedClass = null;
+let selectedSubject = null;
 let activeReaderId = null;
-let selectedSubjects = new Set();
 const readerContentVisibility = { notes: true, summary: true, qa: true };
 const contentCache = {};
 
 const homeBtn = document.getElementById('homeBtn');
 const classSelectSection = document.getElementById('classSelectSection');
 const classGrid = document.getElementById('classGrid');
+const subjectSelectSection = document.getElementById('subjectSelectSection');
+const subjectGrid = document.getElementById('subjectGrid');
 const catalogControls = document.getElementById('catalogControls');
 const selectedClassText = document.getElementById('selectedClassText');
+const selectedSubjectText = document.getElementById('selectedSubjectText');
+const changeSubjectBtn = document.getElementById('changeSubjectBtn');
 const changeClassBtn = document.getElementById('changeClassBtn');
 const catalogEl = document.getElementById('catalog');
 const emptyStateEl = document.getElementById('emptyState');
 const searchInput = document.getElementById('searchInput');
 const resultCount = document.getElementById('resultCount');
-const subjectSwitchWrap = document.getElementById('subjectSwitchWrap');
-const subjectSwitchList = document.getElementById('subjectSwitchList');
 
 const readerView = document.getElementById('readerView');
 const readerBack = document.getElementById('readerBack');
@@ -57,6 +59,7 @@ async function loadLibrary() {
   }
 
   renderClassSelection();
+  subjectSelectSection.hidden = true;
   catalogEl.innerHTML = '';
   emptyStateEl.hidden = true;
   resultCount.textContent = '0 / 0';
@@ -107,6 +110,7 @@ function renderClassSelection() {
         <p>Use <code>media/library-template.json</code> and <code>chapter-content-template.json</code> as your copy-paste templates.</p>
       </div>
     `;
+    subjectSelectSection.hidden = true;
     catalogControls.hidden = true;
     catalogEl.innerHTML = '';
     emptyStateEl.hidden = true;
@@ -128,27 +132,36 @@ function renderClassSelection() {
 
 function selectClass(cls) {
   selectedClass = cls;
+  selectedSubject = null;
   selectedClassText.textContent = `Class ${cls}`;
+  selectedSubjectText.textContent = 'Subject';
+
   classSelectSection.hidden = true;
-  catalogControls.hidden = false;
+  subjectSelectSection.hidden = false;
+  catalogControls.hidden = true;
   readerView.hidden = true;
   document.body.classList.remove('reader-open');
 
   searchInput.value = '';
-  selectedSubjects = new Set();
+  catalogEl.innerHTML = '';
+  emptyStateEl.hidden = true;
+  resultCount.textContent = '0 / 0';
 
-  populateSubjects();
-  render();
+  renderSubjectSelection();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 function changeClass() {
   selectedClass = null;
+  selectedSubject = null;
   activeReaderId = null;
   catalogControls.hidden = true;
+  subjectSelectSection.hidden = true;
   classSelectSection.hidden = false;
   readerView.hidden = true;
   document.body.classList.remove('reader-open');
   catalogEl.innerHTML = '';
+  subjectGrid.innerHTML = '';
   emptyStateEl.hidden = true;
   resultCount.textContent = '0 / 0';
 
@@ -156,44 +169,119 @@ function changeClass() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-function populateSubjects() {
-  const items = getCurrentItems().filter(item => !selectedClass || item.class === selectedClass);
-  const subjects = [...new Set(items.map(i => i.subject).filter(Boolean))].sort();
+function getSubjectIcon(subject = '') {
+  const name = subject.toLowerCase();
 
-  selectedSubjects = new Set(subjects);
+  if (name.includes('english')) return '📖';
+  if (name.includes('math')) return '➗';
+  if (name.includes('physics')) return '⚛️';
+  if (name.includes('chem')) return '🧪';
+  if (name.includes('bio')) return '🌿';
+  if (name.includes('science')) return '🔬';
+  if (name.includes('history')) return '🏛️';
+  if (name.includes('geo')) return '🌍';
+  if (name.includes('polit')) return '⚖️';
+  if (name.includes('econom')) return '📊';
+  if (name.includes('hindi')) return '📝';
+  if (name.includes('telugu')) return '✍️';
+
+  return '📚';
+}
+
+function getSubjectsForSelectedClass() {
+  if (!selectedClass) return [];
+
+  const subjectMap = new Map();
+
+  getCurrentItems()
+    .filter(item => item.class === selectedClass)
+    .forEach(item => {
+      const subject = item.subject || 'General';
+      const existing = subjectMap.get(subject) || {
+        subject,
+        count: 0,
+        books: new Set(),
+        icon: getSubjectIcon(subject)
+      };
+
+      existing.count += 1;
+      if (item.book) existing.books.add(item.book);
+      subjectMap.set(subject, existing);
+    });
+
+  return [...subjectMap.values()].sort((a, b) => a.subject.localeCompare(b.subject));
+}
+
+function renderSubjectSelection() {
+  const subjects = getSubjectsForSelectedClass();
 
   if (!subjects.length) {
-    subjectSwitchList.innerHTML = '<span class="muted-note">No subjects found</span>';
+    subjectGrid.innerHTML = `
+      <div class="empty-library">
+        <h3>No subjects found</h3>
+        <p>Add chapter cards for Class ${escapeHtml(selectedClass || '')} in <code>media/library.json</code>.</p>
+      </div>
+    `;
     return;
   }
 
-  subjectSwitchList.innerHTML = subjects.map(subject => `
-    <label class="switch-pill subject-pill">
-      <input type="checkbox" data-subject="${escapeHtml(subject)}" checked />
-      <span class="switch-track" aria-hidden="true"></span>
-      <span>${escapeHtml(subject)}</span>
-    </label>
-  `).join('');
+  subjectGrid.innerHTML = subjects.map(item => {
+    const bookList = [...item.books].join(', ') || 'NCERT';
+    const chapterLabel = item.count === 1 ? 'chapter' : 'chapters';
 
-  subjectSwitchList.querySelectorAll('input[type="checkbox"]').forEach(input => {
-    input.addEventListener('change', () => {
-      const subject = input.dataset.subject;
+    return `
+      <button class="subject-card" type="button" data-subject="${escapeHtml(item.subject)}">
+        <span class="subject-icon">${item.icon}</span>
+        <strong>${escapeHtml(item.subject)}</strong>
+        <small>${item.count} ${chapterLabel}</small>
+        <em>${escapeHtml(bookList)}</em>
+      </button>
+    `;
+  }).join('');
 
-      if (input.checked) {
-        selectedSubjects.add(subject);
-      } else {
-        selectedSubjects.delete(subject);
-      }
-
-      render();
-    });
+  subjectGrid.querySelectorAll('.subject-card').forEach(btn => {
+    btn.addEventListener('click', () => selectSubject(btn.dataset.subject));
   });
 }
 
-function getFiltered() {
-  if (!selectedClass) return [];
+function selectSubject(subject) {
+  selectedSubject = subject;
+  selectedClassText.textContent = `Class ${selectedClass}`;
+  selectedSubjectText.textContent = subject;
 
-  const items = getCurrentItems().filter(item => item.class === selectedClass);
+  subjectSelectSection.hidden = true;
+  catalogControls.hidden = false;
+  readerView.hidden = true;
+  document.body.classList.remove('reader-open');
+
+  searchInput.value = '';
+  render();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function changeSubject() {
+  selectedSubject = null;
+  activeReaderId = null;
+  selectedSubjectText.textContent = 'Subject';
+  catalogControls.hidden = true;
+  subjectSelectSection.hidden = false;
+  readerView.hidden = true;
+  document.body.classList.remove('reader-open');
+  catalogEl.innerHTML = '';
+  emptyStateEl.hidden = true;
+  resultCount.textContent = '0 / 0';
+
+  renderSubjectSelection();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function getFiltered() {
+  if (!selectedClass || !selectedSubject) return [];
+
+  const items = getCurrentItems().filter(item => {
+    const subject = item.subject || 'General';
+    return item.class === selectedClass && subject === selectedSubject;
+  });
   const q = searchInput.value.trim().toLowerCase();
 
   return items.filter(item => {
@@ -206,19 +294,24 @@ function getFiltered() {
       ${item.description || ''}
     `.toLowerCase();
 
-    const matchesSubject = item.subject ? selectedSubjects.has(item.subject) : true;
-    return (!q || haystack.includes(q)) && matchesSubject;
+    return !q || haystack.includes(q);
   });
 }
 
 function render() {
   const filtered = getFiltered();
-  const items = getCurrentItems().filter(item => item.class === selectedClass);
+  const items = getCurrentItems().filter(item => {
+    const subject = item.subject || 'General';
+    return item.class === selectedClass && subject === selectedSubject;
+  });
 
   resultCount.textContent = `${filtered.length} / ${items.length}`;
 
   if (!filtered.length) {
     catalogEl.innerHTML = '';
+    emptyStateEl.textContent = searchInput.value.trim()
+      ? 'No NCERT material matches your search.'
+      : 'No chapters added for this subject yet.';
     emptyStateEl.hidden = false;
     return;
   }
@@ -634,6 +727,7 @@ document.addEventListener('keydown', e => {
 });
 
 homeBtn.addEventListener('click', changeClass);
+changeSubjectBtn.addEventListener('click', changeSubject);
 changeClassBtn.addEventListener('click', changeClass);
 searchInput.addEventListener('input', render);
 readerBack.addEventListener('click', closeReader);
