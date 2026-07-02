@@ -63,6 +63,19 @@
     </section>
 
     <section class="catalog" id="catalog" aria-live="polite"></section>
+
+    <section class="content-type-section" id="contentTypeSection" hidden>
+      <div class="content-type-header">
+        <div>
+          <span class="section-kicker">Step 4</span>
+          <h2>Select Content</h2>
+          <p id="selectedChapterText">Choose Notes, Summary, or Q&A.</p>
+        </div>
+        <button id="backToChaptersBtn" type="button">← Back to Chapters</button>
+      </div>
+      <div class="content-type-grid" id="contentTypeGrid"></div>
+    </section>
+
     <section class="empty-state" id="emptyState" hidden>No NCERT material matches your search.</section>
   </main>
 
@@ -80,24 +93,6 @@
         <p class="reader-kicker" id="readerKicker">#</p>
         <h1 id="readerTitle"></h1>
 
-        <div class="reader-toggle-bar" id="readerToggleBar" aria-label="Choose content sections">
-          <span class="switch-title">Show</span>
-          <label class="switch-pill">
-            <input id="toggleNotes" type="checkbox" checked />
-            <span class="switch-track" aria-hidden="true"></span>
-            <span>Notes</span>
-          </label>
-          <label class="switch-pill">
-            <input id="toggleSummary" type="checkbox" checked />
-            <span class="switch-track" aria-hidden="true"></span>
-            <span>Summary</span>
-          </label>
-          <label class="switch-pill">
-            <input id="toggleQA" type="checkbox" checked />
-            <span class="switch-track" aria-hidden="true"></span>
-            <span>Q&A</span>
-          </label>
-        </div>
 
         <div class="reader-content" id="readerContent"></div>
 

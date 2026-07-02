@@ -1,9 +1,31 @@
 let library = { chapters: [] };
 let selectedClass = null;
 let selectedSubject = null;
+let activeChapterId = null;
 let activeReaderId = null;
-const readerContentVisibility = { notes: true, summary: true, qa: true };
+let activeReaderType = null;
 const contentCache = {};
+
+const CONTENT_TYPES = [
+  {
+    key: 'notes',
+    title: 'Notes',
+    icon: '📝',
+    description: 'Detailed notes and important points'
+  },
+  {
+    key: 'summary',
+    title: 'Summary',
+    icon: '📌',
+    description: 'Short chapter summary for quick revision'
+  },
+  {
+    key: 'qa',
+    title: 'Q&A',
+    icon: '❓',
+    description: 'Questions and answers from the chapter'
+  }
+];
 
 const homeBtn = document.getElementById('homeBtn');
 const classSelectSection = document.getElementById('classSelectSection');
@@ -19,6 +41,10 @@ const catalogEl = document.getElementById('catalog');
 const emptyStateEl = document.getElementById('emptyState');
 const searchInput = document.getElementById('searchInput');
 const resultCount = document.getElementById('resultCount');
+const contentTypeSection = document.getElementById('contentTypeSection');
+const contentTypeGrid = document.getElementById('contentTypeGrid');
+const selectedChapterText = document.getElementById('selectedChapterText');
+const backToChaptersBtn = document.getElementById('backToChaptersBtn');
 
 const readerView = document.getElementById('readerView');
 const readerBack = document.getElementById('readerBack');
@@ -29,9 +55,6 @@ const readerKicker = document.getElementById('readerKicker');
 const readerContent = document.getElementById('readerContent');
 const prevChapterBtn = document.getElementById('prevChapterBtn');
 const nextChapterBtn = document.getElementById('nextChapterBtn');
-const toggleNotes = document.getElementById('toggleNotes');
-const toggleSummary = document.getElementById('toggleSummary');
-const toggleQA = document.getElementById('toggleQA');
 
 function escapeHtml(str = '') {
   const div = document.createElement('div');
@@ -49,6 +72,10 @@ function getCardTitle(item) {
   return item.displayTitle || item.chapterTitle || cleanTitle(item.title || item.chapter || 'Untitled Chapter');
 }
 
+function getContentTypeInfo(type) {
+  return CONTENT_TYPES.find(item => item.key === type) || CONTENT_TYPES[0];
+}
+
 async function loadLibrary() {
   try {
     const res = await fetch('media/library.json', { cache: 'no-store' });
@@ -60,7 +87,9 @@ async function loadLibrary() {
 
   renderClassSelection();
   subjectSelectSection.hidden = true;
+  contentTypeSection.hidden = true;
   catalogEl.innerHTML = '';
+  catalogEl.hidden = false;
   emptyStateEl.hidden = true;
   resultCount.textContent = '0 / 0';
 }
@@ -112,7 +141,9 @@ function renderClassSelection() {
     `;
     subjectSelectSection.hidden = true;
     catalogControls.hidden = true;
+    contentTypeSection.hidden = true;
     catalogEl.innerHTML = '';
+    catalogEl.hidden = false;
     emptyStateEl.hidden = true;
     resultCount.textContent = '0 / 0';
     return;
@@ -133,17 +164,22 @@ function renderClassSelection() {
 function selectClass(cls) {
   selectedClass = cls;
   selectedSubject = null;
+  activeChapterId = null;
+  activeReaderId = null;
+  activeReaderType = null;
   selectedClassText.textContent = `Class ${cls}`;
   selectedSubjectText.textContent = 'Subject';
 
   classSelectSection.hidden = true;
   subjectSelectSection.hidden = false;
   catalogControls.hidden = true;
+  contentTypeSection.hidden = true;
   readerView.hidden = true;
   document.body.classList.remove('reader-open');
 
   searchInput.value = '';
   catalogEl.innerHTML = '';
+  catalogEl.hidden = false;
   emptyStateEl.hidden = true;
   resultCount.textContent = '0 / 0';
 
@@ -154,14 +190,19 @@ function selectClass(cls) {
 function changeClass() {
   selectedClass = null;
   selectedSubject = null;
+  activeChapterId = null;
   activeReaderId = null;
+  activeReaderType = null;
   catalogControls.hidden = true;
   subjectSelectSection.hidden = true;
+  contentTypeSection.hidden = true;
   classSelectSection.hidden = false;
   readerView.hidden = true;
   document.body.classList.remove('reader-open');
   catalogEl.innerHTML = '';
+  catalogEl.hidden = false;
   subjectGrid.innerHTML = '';
+  contentTypeGrid.innerHTML = '';
   emptyStateEl.hidden = true;
   resultCount.textContent = '0 / 0';
 
@@ -246,28 +287,37 @@ function renderSubjectSelection() {
 
 function selectSubject(subject) {
   selectedSubject = subject;
+  activeChapterId = null;
+  activeReaderId = null;
+  activeReaderType = null;
   selectedClassText.textContent = `Class ${selectedClass}`;
   selectedSubjectText.textContent = subject;
 
   subjectSelectSection.hidden = true;
+  contentTypeSection.hidden = true;
   catalogControls.hidden = false;
   readerView.hidden = true;
   document.body.classList.remove('reader-open');
 
   searchInput.value = '';
+  catalogEl.hidden = false;
   render();
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 function changeSubject() {
   selectedSubject = null;
+  activeChapterId = null;
   activeReaderId = null;
+  activeReaderType = null;
   selectedSubjectText.textContent = 'Subject';
   catalogControls.hidden = true;
+  contentTypeSection.hidden = true;
   subjectSelectSection.hidden = false;
   readerView.hidden = true;
   document.body.classList.remove('reader-open');
   catalogEl.innerHTML = '';
+  catalogEl.hidden = false;
   emptyStateEl.hidden = true;
   resultCount.textContent = '0 / 0';
 
@@ -305,6 +355,8 @@ function render() {
     return item.class === selectedClass && subject === selectedSubject;
   });
 
+  contentTypeSection.hidden = true;
+  catalogEl.hidden = false;
   resultCount.textContent = `${filtered.length} / ${items.length}`;
 
   if (!filtered.length) {
@@ -341,12 +393,12 @@ function render() {
   }).join('');
 
   catalogEl.querySelectorAll('.entry-card').forEach(card => {
-    card.addEventListener('click', () => openReader(card.dataset.id));
+    card.addEventListener('click', () => openContentTypeSelection(card.dataset.id));
 
     card.addEventListener('keydown', e => {
       if (e.key === 'Enter' || e.key === ' ') {
         e.preventDefault();
-        openReader(card.dataset.id);
+        openContentTypeSelection(card.dataset.id);
       }
     });
   });
@@ -478,98 +530,118 @@ function hasContent(value) {
   return String(value).trim().length > 0;
 }
 
-function contentToHtml(content) {
-  const sections = [];
+function hasContentType(content, type) {
+  if (!content) return false;
+  if (type === 'notes') return hasContent(content.notes);
+  if (type === 'summary') return hasContent(content.summary);
+  if (type === 'qa') return hasContent(content.qa);
+  return false;
+}
 
-  if (hasContent(content.notes)) {
-    sections.push(`
+function contentTypeToHtml(content, type) {
+  if (type === 'notes') {
+    return `
       <section class="reader-section" data-reader-section="notes">
         <h2>Detailed Notes</h2>
         ${renderNotes(content.notes)}
       </section>
-    `);
+    `;
   }
 
-  if (hasContent(content.summary)) {
-    sections.push(`
+  if (type === 'summary') {
+    return `
       <section class="reader-section" data-reader-section="summary">
         <h2>Summary</h2>
-        ${renderTextBlock(content.summary)}
+        ${hasContent(content.summary) ? renderTextBlock(content.summary) : '<p>No summary added yet.</p>'}
       </section>
-    `);
+    `;
   }
 
-  if (hasContent(content.qa)) {
-    sections.push(`
+  if (type === 'qa') {
+    return `
       <section class="reader-section" data-reader-section="qa">
         <h2>Question & Answers</h2>
         ${renderQA(content.qa)}
       </section>
-    `);
+    `;
   }
 
-  return sections.join('') || '<p>No content added yet.</p>';
+  return '<p>No content added yet.</p>';
 }
 
-function syncReaderToggleInputs() {
-  toggleNotes.checked = readerContentVisibility.notes;
-  toggleSummary.checked = readerContentVisibility.summary;
-  toggleQA.checked = readerContentVisibility.qa;
-}
-
-function applyReaderContentVisibility() {
-  const sections = [...readerContent.querySelectorAll('[data-reader-section]')];
-  let visibleCount = 0;
-
-  sections.forEach(section => {
-    const key = section.dataset.readerSection;
-    const isVisible = readerContentVisibility[key] !== false;
-    section.hidden = !isVisible;
-    if (isVisible) visibleCount += 1;
-  });
-
-  const oldEmpty = readerContent.querySelector('.reader-empty-selection');
-  if (oldEmpty) oldEmpty.remove();
-
-  if (sections.length && visibleCount === 0) {
-    readerContent.insertAdjacentHTML('beforeend', '<p class="reader-empty-selection">Turn on Notes, Summary, or Q&A to view content.</p>');
-  }
-}
-
-function updateReaderToggleAvailability(content) {
-  const availability = {
-    notes: hasContent(content.notes),
-    summary: hasContent(content.summary),
-    qa: hasContent(content.qa)
-  };
-
-  [
-    ['notes', toggleNotes],
-    ['summary', toggleSummary],
-    ['qa', toggleQA]
-  ].forEach(([key, input]) => {
-    input.disabled = !availability[key];
-    input.closest('.switch-pill').classList.toggle('is-disabled', !availability[key]);
-  });
-}
-
-async function openReader(id) {
+async function openContentTypeSelection(id) {
   const item = findItem(id);
   if (!item) return;
 
-  activeReaderId = id;
+  activeChapterId = id;
+  activeReaderId = null;
+  activeReaderType = null;
 
   const content = await loadItemContent(item);
+  const title = cleanTitle(content.title || item.title || getCardTitle(item));
+  const meta = `Class ${content.class || item.class || ''} · ${content.subject || item.subject || ''} · ${content.chapter || item.chapter || ''} · ${content.book || item.book || 'NCERT'}`;
 
-  readerTitle.textContent = cleanTitle(content.title || item.title || getCardTitle(item));
+  selectedChapterText.innerHTML = `<strong>${escapeHtml(title)}</strong><br><span>${escapeHtml(meta)}</span>`;
+
+  contentTypeGrid.innerHTML = CONTENT_TYPES.map(type => {
+    const available = hasContentType(content, type.key);
+    const status = available ? type.description : `${type.title} not added yet`;
+
+    return `
+      <button class="content-type-card ${available ? '' : 'is-disabled'}" type="button" data-type="${type.key}" ${available ? '' : 'disabled'}>
+        <span class="content-type-icon">${type.icon}</span>
+        <strong>${escapeHtml(type.title)}</strong>
+        <small>${escapeHtml(status)}</small>
+      </button>
+    `;
+  }).join('');
+
+  contentTypeGrid.querySelectorAll('.content-type-card:not(.is-disabled)').forEach(card => {
+    card.addEventListener('click', () => openReader(id, card.dataset.type));
+  });
+
+  catalogControls.hidden = true;
+  catalogEl.hidden = true;
+  emptyStateEl.hidden = true;
+  contentTypeSection.hidden = false;
+  readerView.hidden = true;
+  document.body.classList.remove('reader-open');
+
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function backToChapters() {
+  activeChapterId = null;
+  activeReaderId = null;
+  activeReaderType = null;
+  contentTypeSection.hidden = true;
+  catalogControls.hidden = false;
+  catalogEl.hidden = false;
+  readerView.hidden = true;
+  document.body.classList.remove('reader-open');
+  render();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+async function openReader(id, type = 'notes') {
+  const item = findItem(id);
+  if (!item) return;
+
+  activeChapterId = id;
+  activeReaderId = id;
+  activeReaderType = type;
+
+  const content = await loadItemContent(item);
+  const typeInfo = getContentTypeInfo(type);
+  const chapterTitle = cleanTitle(content.title || item.title || getCardTitle(item));
+
+  readerTitle.textContent = `${chapterTitle} — ${typeInfo.title}`;
   readerKicker.textContent =
-    `Class ${content.class || item.class || ''} · ${content.subject || item.subject || ''} · ${content.chapter || item.chapter || ''} · ${content.book || item.book || ''}`;
+    `Class ${content.class || item.class || ''} · ${content.subject || item.subject || ''} · ${content.chapter || item.chapter || ''} · ${content.book || item.book || ''} · ${typeInfo.title}`;
 
-  readerContent.innerHTML = contentToHtml(content);
-  syncReaderToggleInputs();
-  updateReaderToggleAvailability(content);
-  applyReaderContentVisibility();
+  readerContent.innerHTML = contentTypeToHtml(content, type);
 
+  contentTypeSection.hidden = true;
   readerView.hidden = false;
   document.body.classList.add('reader-open');
   updateReaderNav();
@@ -577,10 +649,15 @@ async function openReader(id) {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-function closeReader() {
+async function closeReader() {
   readerView.hidden = true;
   document.body.classList.remove('reader-open');
   activeReaderId = null;
+  activeReaderType = null;
+
+  if (activeChapterId) {
+    await openContentTypeSelection(activeChapterId);
+  }
 }
 
 function getReaderList() {
@@ -599,8 +676,9 @@ async function openAdjacentReader(direction) {
   const list = getReaderList();
   const index = list.findIndex(item => item.id === activeReaderId);
   const next = list[index + direction];
+  const currentType = activeReaderType || 'notes';
 
-  if (next) await openReader(next.id);
+  if (next) await openReader(next.id, currentType);
 }
 
 function addPdfText(doc, text, x, y, maxWidth, lineHeight) {
@@ -650,11 +728,19 @@ function qaToPlainText(qa = []) {
   }).join('\n\n');
 }
 
-async function generatePdfFromId(id) {
+function contentTypeToPlainText(content, type) {
+  if (type === 'notes') return notesToPlainText(content.notes) || 'No notes added yet.';
+  if (type === 'summary') return String(content.summary || 'No summary added yet.');
+  if (type === 'qa') return qaToPlainText(content.qa) || 'No question answers added yet.';
+  return '';
+}
+
+async function generatePdfFromId(id, type = activeReaderType || 'notes') {
   const item = findItem(id);
   if (!item) return;
 
   const content = await loadItemContent(item);
+  const typeInfo = getContentTypeInfo(type);
 
   if (!window.jspdf || !window.jspdf.jsPDF) {
     window.print();
@@ -667,10 +753,11 @@ async function generatePdfFromId(id) {
   const pageWidth = doc.internal.pageSize.width;
   const maxWidth = pageWidth - 28;
   let y = 18;
+  const chapterTitle = cleanTitle(content.title || item.title || getCardTitle(item));
 
   doc.setFont('helvetica', 'bold');
   doc.setFontSize(18);
-  y = addPdfText(doc, cleanTitle(content.title || item.title || getCardTitle(item)), 14, y, maxWidth, 8);
+  y = addPdfText(doc, `${chapterTitle} - ${typeInfo.title}`, 14, y, maxWidth, 8);
 
   doc.setFont('helvetica', 'normal');
   doc.setFontSize(10);
@@ -683,43 +770,23 @@ async function generatePdfFromId(id) {
     6
   );
 
-  if (hasContent(content.notes)) {
-    doc.setFont('helvetica', 'bold');
-    doc.setFontSize(14);
-    y = addPdfText(doc, 'Detailed Notes', 14, y + 8, maxWidth, 7);
+  doc.setFont('helvetica', 'bold');
+  doc.setFontSize(14);
+  y = addPdfText(doc, typeInfo.title === 'Q&A' ? 'Question & Answers' : typeInfo.title, 14, y + 8, maxWidth, 7);
 
-    doc.setFont('helvetica', 'normal');
-    doc.setFontSize(11);
-    y = addPdfText(doc, notesToPlainText(content.notes), 14, y + 2, maxWidth, 6);
-  }
+  doc.setFont('helvetica', 'normal');
+  doc.setFontSize(11);
+  y = addPdfText(doc, contentTypeToPlainText(content, type), 14, y + 2, maxWidth, 6);
 
-  if (hasContent(content.summary)) {
-    doc.setFont('helvetica', 'bold');
-    doc.setFontSize(14);
-    y = addPdfText(doc, 'Summary', 14, y + 8, maxWidth, 7);
-
-    doc.setFont('helvetica', 'normal');
-    doc.setFontSize(11);
-    y = addPdfText(doc, content.summary || '', 14, y + 2, maxWidth, 6);
-  }
-
-  if (hasContent(content.qa)) {
-    doc.setFont('helvetica', 'bold');
-    doc.setFontSize(14);
-    y = addPdfText(doc, 'Question & Answers', 14, y + 8, maxWidth, 7);
-
-    doc.setFont('helvetica', 'normal');
-    doc.setFontSize(11);
-    y = addPdfText(doc, qaToPlainText(content.qa), 14, y + 2, maxWidth, 6);
-  }
-
-  const fileName = `${cleanTitle(content.title || item.title || 'chapter').replace(/[^a-z0-9]+/gi, '-').toLowerCase()}.pdf`;
+  const fileName = `${chapterTitle}-${typeInfo.title}`.replace(/[^a-z0-9]+/gi, '-').toLowerCase() + '.pdf';
   doc.save(fileName);
 }
 
 window.openReader = openReader;
+window.openContentTypeSelection = openContentTypeSelection;
 window.generatePdfFromId = generatePdfFromId;
 
+// Keep PDF text clean if answers contain HTML from copied sources.
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape' && !readerView.hidden) {
     closeReader();
@@ -729,26 +796,16 @@ document.addEventListener('keydown', e => {
 homeBtn.addEventListener('click', changeClass);
 changeSubjectBtn.addEventListener('click', changeSubject);
 changeClassBtn.addEventListener('click', changeClass);
+backToChaptersBtn.addEventListener('click', backToChapters);
 searchInput.addEventListener('input', render);
 readerBack.addEventListener('click', closeReader);
 readerPrint.addEventListener('click', () => window.print());
 
 readerPdf.addEventListener('click', () => {
-  if (activeReaderId) generatePdfFromId(activeReaderId);
+  if (activeReaderId) generatePdfFromId(activeReaderId, activeReaderType || 'notes');
 });
 
 prevChapterBtn.addEventListener('click', () => openAdjacentReader(-1));
 nextChapterBtn.addEventListener('click', () => openAdjacentReader(1));
-
-[
-  ['notes', toggleNotes],
-  ['summary', toggleSummary],
-  ['qa', toggleQA]
-].forEach(([key, input]) => {
-  input.addEventListener('change', () => {
-    readerContentVisibility[key] = input.checked;
-    applyReaderContentVisibility();
-  });
-});
 
 loadLibrary();

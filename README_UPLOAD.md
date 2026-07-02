@@ -41,3 +41,9 @@ Update included:
 - After selecting a class, subject cards are shown first.
 - After selecting a subject, chapter cards are shown for that subject only.
 - Added a “Change Subject” button near “Change Class”.
+
+## Latest UI update
+- Removed the Notes, Summary, and Q&A toggle switches from the reader.
+- New flow: Select Class → Select Subject → Select Chapter → Select Notes / Summary / Q&A card.
+- Notes, Summary, and Q&A now open as separate content pages.
+- The PDF button now downloads only the selected content type, for example only Notes or only Q&A.
