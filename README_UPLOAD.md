@@ -69,3 +69,10 @@ Update included:
 - Added Continue Learning on the home screen.
 - Added PWA/offline support through `manifest.webmanifest` and `sw.js`.
 - The website remains fully static and needs no build command.
+
+## July 2026 Class 12 Notes Update
+- Added 8 Chemistry note chapters under `NCERT Chemistry`.
+- Added 7 Physics note chapters under `NCERT Physics`.
+- Notes are available now; Summary and Q&A remain unavailable where the uploaded JSON files left them empty.
+- Updated the offline cache version so the new chapter catalogue appears after deployment.
+

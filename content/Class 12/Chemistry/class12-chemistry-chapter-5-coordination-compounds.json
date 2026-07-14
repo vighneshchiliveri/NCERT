@@ -1,0 +1,420 @@
+{
+  "title": "Coordination Compounds",
+  "class": "12",
+  "subject": "Chemistry",
+  "chapter": "Chapter 5",
+  "book": "NCERT Chemistry",
+  "notes": [
+    {
+      "heading": "What are Coordination Compounds?",
+      "text": "A coordination compound is a compound in which a central metal atom or ion is surrounded by molecules or ions called ligands. These ligands are attached to the central metal by coordinate bonds. The metal ion acts as the centre and ligands donate electron pairs to it.",
+      "points": [
+        "General idea: Central metal ion + ligands = coordination entity.",
+        "Example: [Co(NH3)6]Cl3 contains the coordination entity [Co(NH3)6]3+.",
+        "In [Co(NH3)6]Cl3, the central metal ion is Co3+, the ligand is NH3, the coordination sphere is [Co(NH3)6]3+, and the counter ions are Cl−.",
+        "The part inside square brackets is called the coordination sphere.",
+        "The ions outside square brackets are called counter ions.",
+        "Example: K4[Fe(CN)6] contains Fe2+ as central metal ion, CN− as ligand, [Fe(CN)6]4− as coordination sphere, and K+ as counter ions.",
+        "Coordination compounds are important in biology and chemistry. Haemoglobin contains an iron coordination compound, chlorophyll contains a magnesium coordination compound, and vitamin B12 contains cobalt.",
+        "Key idea: ligands donate electron pairs to the metal ion and form coordinate bonds."
+      ]
+    },
+    {
+      "heading": "Double Salts and Coordination Compounds",
+      "text": "Double salts and coordination compounds may look similar, but they behave differently in water. Double salts completely dissociate into all their simple ions in solution, while coordination compounds retain their complex ion in solution.",
+      "points": [
+        "A double salt is formed by the combination of two simple salts.",
+        "Double salts completely dissociate in water and lose their identity in solution.",
+        "Example: Mohr's salt, FeSO4·(NH4)2SO4·6H2O, gives Fe2+, NH4+, and SO4 2− ions in water.",
+        "Example: Potash alum, K2SO4·Al2(SO4)3·24H2O, gives K+, Al3+, and SO4 2− ions in water.",
+        "A coordination compound contains a central metal atom or ion surrounded by ligands.",
+        "In water, the coordination sphere of a coordination compound usually remains stable and does not break completely.",
+        "Example: K4[Fe(CN)6] dissociates as K4[Fe(CN)6] → 4K+ + [Fe(CN)6]4−.",
+        "The complex ion [Fe(CN)6]4− does not normally break into Fe2+ and CN− ions in solution.",
+        "Double salt: completely dissociates in water; loses identity in solution.",
+        "Coordination compound: gives counter ions and a stable complex ion; retains identity in solution.",
+        "Important NCERT point: Double salts exist as such mainly in solid state, but coordination compounds retain their identity even in solution."
+      ]
+    },
+    {
+      "heading": "Werner's Theory of Coordination Compounds",
+      "text": "Werner's theory explains the structure and bonding of coordination compounds. Alfred Werner proposed that metal ions have two types of valencies: primary valency and secondary valency.",
+      "points": [
+        "Primary valency is equal to the oxidation state of the metal ion.",
+        "Primary valency is satisfied by negative ions, usually written outside the square bracket.",
+        "Primary valency is ionisable because these ions give ions in solution.",
+        "Example: In [Co(NH3)6]Cl3, cobalt has oxidation state +3, so its primary valency is 3, satisfied by three Cl− ions outside the bracket.",
+        "Ionisation: [Co(NH3)6]Cl3 → [Co(NH3)6]3+ + 3Cl−.",
+        "Secondary valency is equal to the coordination number of the metal ion.",
+        "Secondary valency is satisfied by ligands written inside the square bracket.",
+        "Secondary valency is non-ionisable because these ligands do not ionise separately in solution.",
+        "Example: In [Co(NH3)6]Cl3, cobalt is surrounded by six NH3 ligands, so secondary valency is 6 and coordination number is 6.",
+        "Secondary valencies have fixed directions in space, giving definite shapes such as octahedral, tetrahedral, and square planar.",
+        "For CoCl3·6NH3, Werner's representation is [Co(NH3)6]Cl3.",
+        "Primary valency = oxidation state; secondary valency = coordination number.",
+        "Primary valency is outside the bracket; secondary valency is inside the bracket."
+      ]
+    },
+    {
+      "heading": "Important Terms in Coordination Compounds",
+      "text": "Coordination chemistry uses some basic terms such as coordination entity, central metal ion, ligand, coordination number, coordination sphere, counter ion, oxidation number, homoleptic complex, and heteroleptic complex.",
+      "points": [
+        "Coordination entity: the part of a coordination compound in which the central metal atom or ion is attached to ligands. It is usually written inside square brackets. Example: [Co(NH3)6]3+ in [Co(NH3)6]Cl3.",
+        "Central atom or ion: the metal atom or ion at the centre of the coordination entity. Example: Fe2+ in [Fe(CN)6]4−.",
+        "Ligands: ions or molecules attached to the central metal atom or ion. Ligands donate a lone pair of electrons and form coordinate bonds.",
+        "Neutral ligand examples: NH3, H2O, CO.",
+        "Negative ligand examples: Cl−, CN−, OH−.",
+        "Positive ligand example: NO+.",
+        "Coordination number: the number of donor atoms directly attached to the central metal atom or ion.",
+        "Example: In [Co(NH3)6]3+, six nitrogen atoms from six ammonia molecules are attached to cobalt, so coordination number is 6.",
+        "Example: In [PtCl4]2−, four chloride ions are attached to platinum, so coordination number is 4.",
+        "Coordination sphere: the central metal ion and the ligands attached to it, written inside square brackets. Example: [Fe(CN)6]4− in K4[Fe(CN)6].",
+        "Counter ions: ions written outside the square bracket that balance the charge of the coordination sphere. Examples: Cl− in [Co(NH3)6]Cl3 and K+ in K4[Fe(CN)6].",
+        "Oxidation number: the charge on the central metal ion, calculated from ligand charges and total complex charge.",
+        "Example: In [Fe(CN)6]4−, let Fe be x. x + 6(−1) = −4, so x = +2. Oxidation number of Fe is +2.",
+        "Homoleptic complex: a complex in which the central metal atom or ion is attached to only one type of ligand. Example: [Co(NH3)6]3+.",
+        "Heteroleptic complex: a complex in which the central metal atom or ion is attached to more than one type of ligand. Example: [Co(NH3)4Cl2]+ contains NH3 and Cl− ligands.",
+        "Key formula: Coordination compound = coordination sphere + counter ions."
+      ]
+    },
+    {
+      "heading": "Types of Ligands",
+      "text": "A ligand is an ion or molecule that donates an electron pair to the central metal atom or ion. Ligands are mainly classified according to the number of donor atoms they use to attach to the metal.",
+      "points": [
+        "Unidentate ligand: attaches through one donor atom. Examples: NH3 donates through nitrogen, H2O through oxygen, Cl− through chlorine, and CN− usually through carbon.",
+        "Example of unidentate ligand complex: In [Co(NH3)6]3+, each NH3 is a unidentate ligand.",
+        "Bidentate or didentate ligand: attaches through two donor atoms. Example: ethane-1,2-diamine, en = NH2CH2CH2NH2, has two nitrogen donor atoms.",
+        "Example: In [Co(en)3]3+, three en ligands are attached. Each en uses two donor atoms, so coordination number = 3 × 2 = 6.",
+        "Polydentate ligand: attaches through more than two donor atoms. Example: EDTA4− can attach through six donor atoms and is a hexadentate ligand.",
+        "Example: [Ca(EDTA)]2− contains EDTA attached to calcium through many donor atoms.",
+        "Chelating ligand: attaches through two or more donor atoms and forms a ring-like structure with the metal ion. Examples: en and EDTA4−.",
+        "A complex formed by a chelating ligand is called a chelate. Chelating ligands hold the metal like a claw.",
+        "Ambidentate ligand: has two different possible donor atoms but attaches through only one donor atom at a time.",
+        "Example: NO2− attaches through nitrogen as nitro, M-NO2, or through oxygen as nitrito, M-ONO.",
+        "Example: SCN− can attach through sulphur or nitrogen, giving thiocyanato or isothiocyanato linkage.",
+        "Do not confuse bidentate and ambidentate ligands. Bidentate ligands use two donor atoms at the same time, while ambidentate ligands have two possible donor atoms but use only one at a time.",
+        "Key idea: unidentate = 1 donor atom, bidentate = 2 donor atoms, polydentate = many donor atoms."
+      ]
+    },
+    {
+      "heading": "Coordination Number and Oxidation Number Practice",
+      "text": "Coordination number and oxidation number are different. Coordination number is the number of donor atoms directly attached to the central metal ion. Oxidation number is the charge on the central metal ion.",
+      "points": [
+        "Coordination number of Co in [Co(NH3)6]3+ is 6 because six ammonia molecules are attached through nitrogen atoms.",
+        "Coordination number of Pt in [PtCl4]2− is 4 because four chloride ions are attached to platinum.",
+        "Coordination number of Co in [Co(en)3]3+ is 6 because en is bidentate and 3 × 2 = 6 donor atoms are attached.",
+        "Rule for oxidation number: charge on metal + charge on ligands = charge on complex.",
+        "Example: [Co(NH3)6]Cl3 contains [Co(NH3)6]3+. NH3 is neutral. If Co = x, then x + 6(0) = +3, so Co = +3.",
+        "Example: K4[Fe(CN)6] contains [Fe(CN)6]4−. If Fe = x, then x + 6(−1) = −4, so x = +2.",
+        "Example: [PtCl4]2−. If Pt = x, then x + 4(−1) = −2, so x = +2.",
+        "Example: [Ni(CO)4]. CO is neutral and the complex has no charge. If Ni = x, then x + 4(0) = 0, so Ni = 0.",
+        "Coordination number depends on donor atoms attached to the metal. Oxidation number depends on ligand charges and total complex charge.",
+        "Coordination number is always a positive whole number. Oxidation number can be positive, negative, or zero.",
+        "Important ligand charges: NH3 = 0, H2O = 0, CO = 0, NO = 0, Cl− = −1, CN− = −1, OH− = −1, NO2− = −1, en = 0, EDTA4− = −4.",
+        "Practice: For [Fe(CN)6]3−, let Fe = x. x + 6(−1) = −3, so x = +3.",
+        "Key idea: Coordination number = number of donor atoms. Oxidation number = charge on central metal."
+      ]
+    },
+    {
+      "heading": "Nomenclature of Coordination Compounds",
+      "text": "Nomenclature means the systematic naming of coordination compounds according to IUPAC rules. The compound is named by following a fixed order: cation first, then anion; ligands before metal; oxidation state of metal in Roman numerals.",
+      "points": [
+        "For a coordination compound, name the cation first and then the anion, as in ordinary salts.",
+        "Inside the coordination sphere, ligands are named before the metal.",
+        "Example: In [Co(NH3)6]3+, NH3 is named ammine. Six NH3 ligands are named hexaammine.",
+        "After ligands, write the metal name. Co is cobalt, so [Co(NH3)6]3+ becomes hexaamminecobalt.",
+        "The oxidation state of the metal is written in Roman numerals in brackets.",
+        "Example: [Co(NH3)6]Cl3 has Co in +3 oxidation state, so its name is hexaamminecobalt(III) chloride.",
+        "Common ligand names: NH3 = ammine, H2O = aqua, CO = carbonyl, NO = nitrosyl, Cl− = chlorido, Br− = bromido, I− = iodido, F− = fluorido, CN− = cyanido, OH− = hydroxido, NO2− = nitrito or nitro, SCN− = thiocyanato, en = ethane-1,2-diamine.",
+        "Prefixes: mono = 1, di = 2, tri = 3, tetra = 4, penta = 5, hexa = 6.",
+        "If the complex ion is negative, the metal name ends with -ate.",
+        "Example: K4[Fe(CN)6] contains the negative complex ion [Fe(CN)6]4−. Iron is named ferrate. Fe oxidation state: x + 6(−1) = −4, so x = +2. Name: potassium hexacyanidoferrate(II).",
+        "If the complex ion is positive or neutral, the metal name remains normal. Example: [Co(NH3)6]Cl3 is hexaamminecobalt(III) chloride.",
+        "If more than one type of ligand is present, ligands are named in alphabetical order.",
+        "Example: [Co(NH3)4Cl2]+ contains ammine and chlorido. Ammine comes before chlorido, so the name begins tetraamminedichloridocobalt(III).",
+        "Important examples: [Ni(CO)4] = tetracarbonylnickel(0); [Pt(NH3)2Cl2] = diamminedichloridoplatinum(II).",
+        "Quick naming steps: name cation first, then anion; name ligands before metal; use prefixes; write oxidation state in Roman numerals; use -ate for negative complex ions; arrange different ligands alphabetically."
+      ]
+    },
+    {
+      "heading": "Writing Formulas from IUPAC Names",
+      "text": "Writing formulas from IUPAC names is the reverse of naming. Identify the metal, ligands, number of ligands, charge of the complex, and counter ions, then write the coordination sphere inside square brackets.",
+      "points": [
+        "Basic steps: identify the complex ion, identify the metal, identify the ligands, use prefixes to find the number of ligands, find the charge of the complex, add counter ions to balance charge, and write the coordination sphere in square brackets.",
+        "Example: hexaamminecobalt(III) chloride. Ammine = NH3, hexaammine = 6NH3, cobalt(III) = Co3+. Complex ion = [Co(NH3)6]3+. Three Cl− ions balance the charge, so formula = [Co(NH3)6]Cl3.",
+        "Example: potassium hexacyanidoferrate(II). Potassium = K+, cyanido = CN−, hexacyanido = 6CN−, ferrate(II) = Fe2+ in a negative complex. Complex charge = +2 + 6(−1) = −4, so complex ion = [Fe(CN)6]4−. Four K+ ions balance it, so formula = K4[Fe(CN)6].",
+        "Example: diamminedichloridoplatinum(II). Diammine = 2NH3, dichlorido = 2Cl−, platinum(II) = Pt2+. Total charge = +2 + 2(0) + 2(−1) = 0, so formula = [Pt(NH3)2Cl2].",
+        "Example: tetraaquadichloridochromium(III) chloride. Tetraaqua = 4H2O, dichlorido = 2Cl−, chromium(III) = Cr3+. Complex charge = +3 + 4(0) + 2(−1) = +1. One outside chloride balances it. Formula = [Cr(H2O)4Cl2]Cl.",
+        "Example: potassium tetracyanidonickelate(II). K+ is counter ion, tetracyanido = 4CN−, nickelate(II) = Ni2+. Complex charge = +2 + 4(−1) = −2. Formula = K2[Ni(CN)4].",
+        "Important ligand symbols: ammine = NH3, aqua = H2O, carbonyl = CO, nitrosyl = NO, chlorido = Cl−, bromido = Br−, cyanido = CN−, hydroxido = OH−, ethane-1,2-diamine = en.",
+        "Important prefixes: mono = 1, di = 2, tri = 3, tetra = 4, penta = 5, hexa = 6.",
+        "Practice: pentaamminechloridocobalt(III) chloride. Pentaammine = 5NH3, chlorido = Cl− inside, cobalt(III) = Co3+. Complex charge = +3 + 5(0) + (−1) = +2. Two outside chloride ions are needed. Formula = [Co(NH3)5Cl]Cl2.",
+        "Key idea: chlorido is usually inside the bracket, while chloride at the end is outside the bracket."
+      ]
+    },
+    {
+      "heading": "Isomerism in Coordination Compounds",
+      "text": "Isomerism means compounds have the same molecular formula but different arrangements of atoms or ligands. Coordination compounds show structural isomerism and stereoisomerism.",
+      "points": [
+        "Structural isomerism means compounds have the same formula but different bonding arrangements.",
+        "Important types of structural isomerism: ionisation isomerism, hydrate or solvate isomerism, linkage isomerism, and coordination isomerism.",
+        "Ionisation isomerism: isomers give different ions in solution. It occurs when a ligand inside the coordination sphere exchanges with a counter ion outside the coordination sphere.",
+        "Example: [Co(NH3)5Br]SO4 and [Co(NH3)5SO4]Br. The first gives SO4 2− in solution, while the second gives Br−.",
+        "Hydrate isomerism: water molecules are present differently inside and outside the coordination sphere.",
+        "Examples: [Cr(H2O)6]Cl3, [Cr(H2O)5Cl]Cl2·H2O, and [Cr(H2O)4Cl2]Cl·2H2O.",
+        "Linkage isomerism: occurs due to ambidentate ligands that can attach through different atoms.",
+        "Example: NO2− can attach through nitrogen as M-NO2, called nitro, or through oxygen as M-ONO, called nitrito.",
+        "Example linkage isomers: [Co(NH3)5NO2]Cl2 and [Co(NH3)5ONO]Cl2.",
+        "Coordination isomerism: occurs in compounds containing both complex cation and complex anion. Ligands are exchanged between cationic and anionic complexes.",
+        "Example: [Co(NH3)6][Cr(CN)6] and [Cr(NH3)6][Co(CN)6].",
+        "Stereoisomerism means bonds are the same but spatial arrangement is different.",
+        "Important types of stereoisomerism: geometrical isomerism and optical isomerism.",
+        "Key idea: same formula plus different arrangement gives isomerism. Structural isomerism depends on bonding difference, while stereoisomerism depends on spatial arrangement difference."
+      ]
+    },
+    {
+      "heading": "Geometrical Isomerism: Cis and Trans Isomers",
+      "text": "Geometrical isomerism is a type of stereoisomerism. It occurs when ligands have the same bonding with the metal but occupy different positions in space. The common forms are cis and trans isomers.",
+      "points": [
+        "In a cis isomer, two same or similar ligands are placed next to each other or at adjacent positions.",
+        "Cis means same side or nearby.",
+        "In a trans isomer, two same or similar ligands are placed opposite to each other.",
+        "Trans means opposite side.",
+        "Square planar example: [Pt(NH3)2Cl2] has two NH3 and two Cl− ligands and shows cis and trans forms.",
+        "In cis-[Pt(NH3)2Cl2], the two chloride ligands are adjacent.",
+        "In trans-[Pt(NH3)2Cl2], the two chloride ligands are opposite.",
+        "Octahedral example: [Co(NH3)4Cl2]+ has four NH3 and two Cl− ligands and also shows cis-trans isomerism.",
+        "In cis-[Co(NH3)4Cl2]+, the two chloride ligands are adjacent.",
+        "In trans-[Co(NH3)4Cl2]+, the two chloride ligands are opposite.",
+        "Geometrical isomerism is common in square planar and octahedral complexes.",
+        "Tetrahedral complexes generally do not show geometrical isomerism because all positions are equivalent.",
+        "Important NCERT example: cis-[Pt(NH3)2Cl2], called cisplatin, is used as an anticancer drug.",
+        "Key idea: cis = adjacent; trans = opposite."
+      ]
+    },
+    {
+      "heading": "Optical Isomerism in Coordination Compounds",
+      "text": "Optical isomerism is a type of stereoisomerism. It occurs when two compounds have the same formula and same bonding but their structures are non-superimposable mirror images.",
+      "points": [
+        "Optical isomers are mirror images of each other but cannot be placed exactly over one another.",
+        "Optical isomers are also called enantiomers.",
+        "These isomers rotate plane-polarised light. One rotates light to the right and the other to the left.",
+        "Daily life example: left and right hands are mirror images but cannot be superimposed exactly.",
+        "A complex that has no plane of symmetry is called a chiral complex.",
+        "Chiral complexes show optical isomerism.",
+        "If a complex has a plane of symmetry, it is usually optically inactive.",
+        "Optical isomerism is common in octahedral complexes containing bidentate ligands.",
+        "Example: [Co(en)3]3+ contains three ethane-1,2-diamine ligands. Each en is bidentate and forms rings around cobalt. The complex exists in two optical isomeric forms.",
+        "Example: [Cr(ox)3]3−, where ox is oxalate, also shows optical isomerism because oxalate is bidentate.",
+        "Optical isomerism is not due to different bonding; it is due to different three-dimensional arrangement of ligands.",
+        "Geometrical isomerism gives cis and trans forms, while optical isomerism gives non-superimposable mirror images.",
+        "Key idea: optical isomers = non-superimposable mirror images."
+      ]
+    },
+    {
+      "heading": "Bonding in Coordination Compounds: Valence Bond Theory",
+      "text": "Valence Bond Theory explains how ligands form coordinate bonds with the central metal ion. According to VBT, the central metal ion uses suitable vacant hybrid orbitals to accept lone pairs from ligands.",
+      "points": [
+        "Ligands donate lone pairs of electrons to the central metal ion.",
+        "The metal ion provides vacant hybrid orbitals.",
+        "Coordinate bonds are formed between the metal ion and ligands.",
+        "Important VBT points: the central metal ion provides empty orbitals; ligands donate lone pairs; metal orbitals undergo hybridisation; hybridisation decides the shape; strong ligands may cause pairing; weak ligands usually do not cause pairing.",
+        "Hybridisation and shapes: coordination number 4 with sp3 gives tetrahedral shape; coordination number 4 with dsp2 gives square planar shape; coordination number 6 with d2sp3 gives octahedral inner orbital complex; coordination number 6 with sp3d2 gives octahedral outer orbital complex.",
+        "Inner orbital complex: uses inner (n−1)d orbitals for hybridisation. For coordination number 6, hybridisation is d2sp3. Usually formed with strong field ligands.",
+        "Strong field ligands cause pairing of electrons. Examples: CN−, CO, en.",
+        "Outer orbital complex: uses outer nd orbitals for hybridisation. For coordination number 6, hybridisation is sp3d2. Usually formed with weak field ligands.",
+        "Weak field ligands do not cause pairing. Examples: F−, Cl−, H2O.",
+        "Example: [Fe(CN)6]4−. Fe oxidation state: x + 6(−1) = −4, so x = +2. Fe2+ = [Ar]3d6. CN− is strong field and causes pairing. Two inner 3d orbitals become vacant, hybridisation is d2sp3, shape is octahedral, and the complex is diamagnetic because all electrons are paired.",
+        "Example: [FeF6]4−. Fe oxidation state is +2 and Fe2+ = 3d6. F− is weak field and does not cause pairing. Outer orbitals are used, hybridisation is sp3d2, shape is octahedral, and the complex is paramagnetic because unpaired electrons are present.",
+        "Diamagnetic complex: has no unpaired electrons and is weakly repelled by a magnetic field. Example: [Fe(CN)6]4−.",
+        "Paramagnetic complex: has unpaired electrons and is attracted by a magnetic field. Example: [FeF6]4−.",
+        "Limitations of VBT: it does not clearly explain colour, detailed electronic spectra, why some ligands are strong and some are weak, and exact splitting of d-orbitals.",
+        "Key idea: strong ligand → pairing → inner orbital complex; weak ligand → no pairing → outer orbital complex."
+      ]
+    },
+    {
+      "heading": "Crystal Field Theory",
+      "text": "Crystal Field Theory explains bonding, colour, and magnetic behaviour of coordination compounds. It mainly explains how the d-orbitals of the central metal ion split in the presence of ligands.",
+      "points": [
+        "According to CFT, ligands are considered point charges or dipoles.",
+        "When ligands approach the central metal ion, they create an electric field around it.",
+        "This electric field affects the five d-orbitals of the metal ion.",
+        "In a free metal ion, all five d-orbitals have the same energy and are called degenerate orbitals.",
+        "The five d-orbitals are dxy, dyz, dzx, dx2−y2, and dz2.",
+        "When ligands approach the metal ion, repulsion occurs between ligand electron pairs and d-orbital electrons.",
+        "Some d-orbitals get higher energy and some get lower energy. This is called crystal field splitting.",
+        "Crystal field splitting is the splitting of d-orbitals into different energy levels due to ligands.",
+        "The energy difference between the two sets of d-orbitals is called Δ.",
+        "For octahedral complexes, the splitting energy is written as Δo.",
+        "For tetrahedral complexes, the splitting energy is written as Δt.",
+        "CFT explains shape, magnetic nature, colour, strong and weak ligands, and high spin and low spin complexes.",
+        "Weak field ligands cause small splitting. Examples: I−, Br−, Cl−, F−, H2O. They usually form high spin complexes.",
+        "Strong field ligands cause large splitting. Examples: CN−, CO, NO2−, en. They usually form low spin complexes.",
+        "Spectrochemical series is the arrangement of ligands in increasing order of field strength.",
+        "Important order: I− < Br− < SCN− < Cl− < S2− < F− < OH− < C2O4 2− < H2O < NCS− < edta4− < NH3 < en < CN− < CO.",
+        "High spin complex: when Δ is small, electrons prefer to remain unpaired. Usually formed by weak field ligands. Example: [FeF6]4−.",
+        "Low spin complex: when Δ is large, electrons prefer to pair up. Usually formed by strong field ligands. Example: [Fe(CN)6]4−.",
+        "If a complex has unpaired electrons, it is paramagnetic. If all electrons are paired, it is diamagnetic.",
+        "Many coordination compounds are coloured due to d-d transition, where electrons jump from lower d-orbitals to higher d-orbitals by absorbing visible light.",
+        "Example: [Ti(H2O)6]3+ is violet due to d-d transition.",
+        "Key idea: ligands split d-orbitals of the metal ion; small splitting gives high spin; large splitting gives low spin."
+      ]
+    },
+    {
+      "heading": "Crystal Field Splitting in Octahedral Complexes",
+      "text": "In an octahedral complex, the central metal ion is surrounded by six ligands. The ligands approach along the x, y, and z axes and split the five d-orbitals into two groups: lower t2g and higher eg.",
+      "points": [
+        "Examples of octahedral complexes: [Co(NH3)6]3+, [Fe(CN)6]4−, and [FeF6]4−.",
+        "In octahedral geometry, six ligands occupy positions along +x, −x, +y, −y, +z, and −z axes.",
+        "The five d-orbitals are dxy, dyz, dzx, dx2−y2, and dz2.",
+        "Splitting happens because ligand electron pairs repel d-orbital electrons.",
+        "The orbitals dx2−y2 and dz2 point directly along the axes and face the ligands directly. They experience greater repulsion and have higher energy. These are called eg orbitals.",
+        "The orbitals dxy, dyz, and dzx lie between the axes. They experience less repulsion and have lower energy. These are called t2g orbitals.",
+        "In octahedral splitting: t2g orbitals are lower in energy and eg orbitals are higher in energy.",
+        "Energy order: dxy, dyz, dzx < dx2−y2, dz2.",
+        "The energy gap between t2g and eg is called Δo, or octahedral crystal field splitting energy.",
+        "Energy change: each electron in t2g is stabilised by −0.4Δo. Each electron in eg is destabilised by +0.6Δo.",
+        "Electrons fill split d-orbitals according to Aufbau principle, Hund's rule, and Pauli exclusion principle, but filling also depends on Δo and pairing energy.",
+        "Weak field ligands cause small Δo, so electrons remain more unpaired and form high spin complexes. Example: [FeF6]4−.",
+        "Strong field ligands cause large Δo, so electrons pair up in lower t2g orbitals before entering higher eg orbitals. Example: [Fe(CN)6]4−.",
+        "For Fe2+, d-configuration is d6.",
+        "With weak ligand F− in [FeF6]4−, splitting is small, the complex is high spin and paramagnetic.",
+        "With strong ligand CN− in [Fe(CN)6]4−, splitting is large, the complex is low spin and diamagnetic.",
+        "Key idea: in octahedral complexes, t2g is lower, eg is higher, and Δo is the energy gap between them."
+      ]
+    },
+    {
+      "heading": "Crystal Field Splitting in Tetrahedral Complexes",
+      "text": "In a tetrahedral complex, the central metal ion is surrounded by four ligands. The ligands are arranged at the corners of a tetrahedron and do not approach directly along the x, y, and z axes.",
+      "points": [
+        "Examples of tetrahedral complexes: [NiCl4]2−, [CoCl4]2−, and [Zn(NH3)4]2+.",
+        "In tetrahedral geometry, the bond angle is approximately 109.5°.",
+        "The five d-orbitals split into two groups: e and t2.",
+        "The e set contains dx2−y2 and dz2 orbitals. In tetrahedral complexes, these experience less repulsion and have lower energy.",
+        "The t2 set contains dxy, dyz, and dzx orbitals. These experience more repulsion and have higher energy.",
+        "Energy order in tetrahedral splitting: dx2−y2, dz2 < dxy, dyz, dzx.",
+        "The energy gap between e and t2 is called Δt, or tetrahedral crystal field splitting energy.",
+        "Energy change: each electron in lower e orbitals is stabilised by −0.6Δt. Each electron in higher t2 orbitals is destabilised by +0.4Δt.",
+        "Octahedral order is t2g lower and eg higher, but tetrahedral order is e lower and t2 higher. The order is reversed.",
+        "Relation between splitting energies: Δt = 4/9 Δo, so Δt < Δo.",
+        "Because Δt is small, tetrahedral complexes are usually high spin.",
+        "In tetrahedral complexes, electrons generally do not pair easily and often remain unpaired, so many tetrahedral complexes are paramagnetic.",
+        "Example: [CoCl4]2−. Oxidation state of Co: x + 4(−1) = −2, so x = +2. Co2+ = 3d7. Cl− is a weak field ligand, so [CoCl4]2− is tetrahedral, high spin, and paramagnetic.",
+        "Comparison: octahedral complexes have six ligands and Δo; tetrahedral complexes have four ligands and Δt. Tetrahedral complexes are usually high spin.",
+        "Key idea: in tetrahedral complexes, e orbitals are lower, t2 orbitals are higher, and Δt = 4/9 Δo."
+      ]
+    },
+    {
+      "heading": "Colour in Coordination Compounds",
+      "text": "Many coordination compounds are coloured. Their colour is mainly explained by Crystal Field Theory through d-d transitions between split d-orbitals.",
+      "points": [
+        "Examples: [Ti(H2O)6]3+ is violet and [Cu(H2O)6]2+ is blue.",
+        "In coordination compounds, ligands split the d-orbitals of the metal ion into different energy levels.",
+        "In octahedral complexes, t2g orbitals are lower in energy and eg orbitals are higher in energy.",
+        "When visible light falls on the compound, an electron absorbs energy and jumps from a lower d-orbital to a higher d-orbital. This is called d-d transition.",
+        "For octahedral complexes, d-d transition is t2g → eg.",
+        "The energy required for the jump is equal to Δo.",
+        "If this energy lies in the visible region, the compound appears coloured.",
+        "The compound absorbs one colour from visible light and the observed colour is the complementary colour of the absorbed colour.",
+        "Example: if a compound absorbs red light, it may appear green; if it absorbs orange light, it may appear blue.",
+        "For [Ti(H2O)6]3+, Ti3+ has 3d1 configuration. Its one d-electron is in the lower t2g orbital and can absorb light to jump to eg, causing violet colour.",
+        "A complex may be colourless if d-d transition is not possible.",
+        "d0 metal ions usually form colourless complexes because they have no d-electrons. Example: Sc3+ = 3d0.",
+        "d10 metal ions usually form colourless complexes because d-orbitals are completely filled. Example: Zn2+ = 3d10.",
+        "Important examples: Sc3+ is d0 and colourless; Ti3+ is d1 and coloured; Cu2+ is d9 and coloured; Zn2+ is d10 and colourless.",
+        "Factors affecting colour: nature of metal ion, oxidation state, nature of ligands, crystal field splitting energy, and geometry of the complex.",
+        "Strong field ligands cause larger splitting and weak field ligands cause smaller splitting, so the absorbed energy and observed colour change.",
+        "Key idea: coordination compounds are coloured because of d-d transition, but d0 and d10 complexes are usually colourless."
+      ]
+    },
+    {
+      "heading": "Magnetic Properties of Coordination Compounds",
+      "text": "Coordination compounds show magnetic behaviour depending on the presence or absence of unpaired electrons in the central metal ion.",
+      "points": [
+        "Magnetic nature depends mainly on the number of unpaired electrons.",
+        "If unpaired electrons are present, the compound is attracted by a magnetic field and is paramagnetic.",
+        "If all electrons are paired, the compound is weakly repelled by a magnetic field and is diamagnetic.",
+        "Paramagnetic compound: has one or more unpaired electrons. Example: [FeF6]4− is paramagnetic because Fe2+ has unpaired electrons in this weak field complex.",
+        "Diamagnetic compound: has no unpaired electrons. Example: [Fe(CN)6]4− is diamagnetic because CN− causes pairing of electrons.",
+        "Weak field ligands cause small splitting, so electrons prefer to remain unpaired. These complexes are usually high spin and paramagnetic. Examples: F−, Cl−, H2O.",
+        "Strong field ligands cause large splitting, so electrons prefer to pair up in lower orbitals. These complexes are usually low spin and may be diamagnetic. Examples: CN−, CO, en.",
+        "Spin-only magnetic moment formula: μ = √[n(n+2)] BM, where n is the number of unpaired electrons and BM means Bohr Magneton.",
+        "Magnetic moment values: n = 0 gives 0 BM; n = 1 gives √3 = 1.73 BM; n = 2 gives √8 = 2.83 BM; n = 3 gives √15 = 3.87 BM; n = 4 gives √24 = 4.90 BM; n = 5 gives √35 = 5.92 BM.",
+        "Example: [Fe(CN)6]4−. Fe oxidation state is +2, so Fe2+ = 3d6. CN− is strong field, so electrons pair up. n = 0, μ = √[0(0+2)] = 0 BM. It is diamagnetic.",
+        "Example: [FeF6]4−. Fe oxidation state is +2, so Fe2+ = 3d6. F− is weak field, so electrons remain unpaired. n = 4, μ = √[4(4+2)] = √24 = 4.90 BM. It is paramagnetic.",
+        "Key idea: unpaired electrons → paramagnetic; no unpaired electrons → diamagnetic."
+      ]
+    },
+    {
+      "heading": "Stability of Coordination Compounds",
+      "text": "The stability of a coordination compound means how strongly the ligands are attached to the central metal ion. A stable complex does not break easily in solution.",
+      "points": [
+        "Complex formation can be shown as M + L ⇌ ML, where M is metal ion, L is ligand, and ML is complex.",
+        "If the complex remains intact and does not dissociate easily, it is called a stable complex.",
+        "The stability of a complex is expressed by its formation constant, written as Kf or β.",
+        "For M + L ⇌ ML, formation constant Kf = [ML] / ([M][L]).",
+        "Large Kf means the complex is more stable. Small Kf means the complex is less stable.",
+        "Complex formation may occur step by step: M + L ⇌ ML, ML + L ⇌ ML2, ML2 + L ⇌ ML3.",
+        "Each step has a stability constant K1, K2, K3. Overall formation constant β = K1 × K2 × K3.",
+        "Factor 1: charge on metal ion. Higher positive charge increases attraction towards ligands and increases stability. Example: Fe3+ usually forms more stable complexes than Fe2+.",
+        "Factor 2: size of metal ion. Smaller metal ions form stronger bonds with ligands, so smaller size increases stability.",
+        "Factor 3: nature of ligand. Stronger ligands form stronger metal-ligand bonds. Examples: CN−, CO, en, EDTA4−.",
+        "Factor 4: chelate effect. Complexes containing chelating ligands are more stable because chelating ligands attach through two or more donor atoms and form rings.",
+        "Chelate effect means complexes formed by polydentate ligands are more stable than similar complexes formed by unidentate ligands.",
+        "Example: [Ni(en)3]2+ is more stable than [Ni(NH3)6]2+ because en is bidentate and forms ring structures.",
+        "EDTA4− is a hexadentate ligand and forms very stable complexes. Example: [Ca(EDTA)]2−.",
+        "EDTA complexes are useful in removing calcium ions from hard water and in complexometric titrations.",
+        "Important NCERT idea: stability depends on the strength of metal-ligand bonding. Strong metal-ligand bond gives a stable complex.",
+        "Key idea: higher Kf or β means greater stability; chelating ligands form more stable complexes."
+      ]
+    },
+    {
+      "heading": "Importance and Applications of Coordination Compounds",
+      "text": "Coordination compounds are important in biology, medicine, industry, metallurgy, photography, electroplating, and analytical chemistry.",
+      "points": [
+        "Biology: haemoglobin in blood contains Fe2+ in a coordination compound called haem and helps in transport of oxygen. Oxygen binds reversibly with iron in haemoglobin.",
+        "Biology: chlorophyll is the green pigment in plants and contains Mg2+ at the centre of its coordination structure. It helps in photosynthesis.",
+        "Biology: vitamin B12 contains cobalt as the central metal ion in its coordination structure.",
+        "Medicine: cisplatin, cis-[Pt(NH3)2Cl2], is a square planar coordination compound used as an anticancer drug. The cis form is active, while the trans form is not effective in the same way.",
+        "Medicine: EDTA4− forms stable complexes with metal ions and is used in treatment of heavy metal poisoning such as lead poisoning. EDTA binds the metal ion and helps remove it from the body.",
+        "Analytical chemistry: coordination compounds are used to detect and estimate metal ions.",
+        "Example: Ni2+ ions are detected using dimethylglyoxime, which forms a red coloured complex with nickel.",
+        "Hardness of water is due to Ca2+ and Mg2+ ions. EDTA is used to estimate these ions by complexometric titration.",
+        "Metallurgy: silver and gold form soluble cyanide complexes, helping in extraction from ores.",
+        "Example: Ag + CN− → [Ag(CN)2]−.",
+        "Electroplating: cyanide complexes of silver and gold are used to obtain smooth and uniform metal coatings because the complex controls slow release of metal ions.",
+        "Industry: coordination compounds act as catalysts in many reactions. Example: [Ni(CO)4] is involved in purification of nickel by Mond's process.",
+        "Photography: unreacted silver bromide is removed by sodium thiosulphate because it forms a soluble silver complex.",
+        "Reaction: AgBr + 2S2O3 2− → [Ag(S2O3)2]3− + Br−.",
+        "Key idea: coordination compounds are used in life processes, medicines, analysis, extraction of metals, electroplating, photography, and industry. Important examples are haemoglobin, chlorophyll, cisplatin, and EDTA."
+      ]
+    },
+    {
+      "heading": "NCERT Important Examples and Final Revision of Coordination Compounds",
+      "text": "Important NCERT examples and revision points include formulas, names, oxidation states, coordination numbers, ligand names, bonding theories, isomerism, colour, magnetism, stability, and applications.",
+      "points": [
+        "[Co(NH3)6]Cl3 is named hexaamminecobalt(III) chloride. Co has oxidation state +3, NH3 is ammine ligand, Cl− is counter ion, and coordination number is 6.",
+        "K4[Fe(CN)6] is named potassium hexacyanidoferrate(II). Fe oxidation state: x + 6(−1) = −4, so x = +2. Coordination number is 6 and CN− is a strong field ligand.",
+        "K3[Fe(CN)6] is named potassium hexacyanidoferrate(III). Fe oxidation state: x + 6(−1) = −3, so x = +3.",
+        "[Ni(CO)4] is named tetracarbonylnickel(0). CO is neutral, oxidation state of Ni is 0, and coordination number is 4.",
+        "[Pt(NH3)2Cl2] is named diamminedichloridoplatinum(II). It shows cis-trans isomerism. The cis form is cisplatin and is used as an anticancer drug.",
+        "Important ligand names and charges: NH3 = ammine, 0; H2O = aqua, 0; CO = carbonyl, 0; Cl− = chlorido, −1; CN− = cyanido, −1; OH− = hydroxido, −1; NO2− = nitro/nitrito, −1; SCN− = thiocyanato/isothiocyanato, −1; en = ethane-1,2-diamine, 0; EDTA4− = ethylenediaminetetraacetato, −4.",
+        "Important terms: coordination entity = central metal with attached ligands; central metal ion = metal ion at centre; ligand = electron pair donor; coordination number = number of donor atoms attached to metal; coordination sphere = part inside square bracket; counter ion = ion outside square bracket; homoleptic complex = one type of ligand; heteroleptic complex = more than one type of ligand.",
+        "Werner's theory: primary valency = oxidation state, is ionisable, and is usually satisfied by negative ions outside the bracket. Secondary valency = coordination number, is non-ionisable, and is satisfied by ligands inside the bracket.",
+        "Isomerism: coordination compounds show structural isomerism and stereoisomerism. Structural types include ionisation, hydrate, linkage, and coordination isomerism. Stereoisomerism includes geometrical and optical isomerism.",
+        "Geometrical isomerism gives cis and trans forms. In cis form, similar ligands are adjacent. In trans form, similar ligands are opposite. Example: [Pt(NH3)2Cl2].",
+        "Optical isomers are non-superimposable mirror images. They are common in octahedral complexes with bidentate ligands. Example: [Co(en)3]3+.",
+        "Valence Bond Theory: ligands donate lone pairs to vacant hybrid orbitals of metal ions. Important hybridisations: CN 4 sp3 = tetrahedral; CN 4 dsp2 = square planar; CN 6 d2sp3 = octahedral inner orbital; CN 6 sp3d2 = octahedral outer orbital.",
+        "Strong field ligands such as CN−, CO, and en cause pairing. Weak field ligands such as F−, Cl−, and H2O do not cause pairing.",
+        "Crystal Field Theory: ligands split d-orbitals. In octahedral splitting, t2g is lower and eg is higher, with splitting energy Δo. In tetrahedral splitting, e is lower and t2 is higher, with splitting energy Δt. Relation: Δt = 4/9 Δo.",
+        "Colour: coordination compounds are coloured due to d-d transition. An electron absorbs visible light and jumps from lower d-orbital to higher d-orbital. Observed colour is the complementary colour of absorbed light. d0 and d10 complexes are usually colourless. Examples: Sc3+ = d0 and Zn2+ = d10.",
+        "Magnetism: unpaired electrons give paramagnetism; no unpaired electrons give diamagnetism. Magnetic moment formula: μ = √[n(n+2)] BM, where n is the number of unpaired electrons.",
+        "Stability: stability depends on strength of metal-ligand bond. Large formation constant Kf means greater stability. Chelating ligands such as EDTA4− form very stable complexes.",
+        "Applications: coordination compounds are used in biology, medicine, analysis, metallurgy, photography, electroplating, and industry. Examples include haemoglobin, chlorophyll, vitamin B12, cisplatin, EDTA, cyanide complexes of gold and silver, and thiosulphate complexes in photography.",
+        "Important exam points: calculate oxidation number, find coordination number, learn ligand names, practise IUPAC naming, understand cis-trans isomerism, strong and weak field ligands, octahedral and tetrahedral splitting, colour due to d-d transition, magnetic moment formula, and applications."
+      ]
+    }
+  ],
+  "summary": "",
+  "qa": []
+}

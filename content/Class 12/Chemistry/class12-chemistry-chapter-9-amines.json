@@ -1,0 +1,542 @@
+{
+  "title": "Amines",
+  "class": "12",
+  "subject": "Chemistry",
+  "chapter": "Chapter 9",
+  "book": "NCERT Chemistry",
+  "notes": [
+    {
+      "heading": "Introduction to Amines",
+      "text": "Amines are organic compounds derived from ammonia, NH3. In ammonia, nitrogen is bonded to three hydrogen atoms. When one or more hydrogen atoms of ammonia are replaced by alkyl groups or aryl groups, the compounds formed are called amines. Amines contain the amino group, -NH2, in primary amines. Examples include CH3NH2 (methylamine), C2H5NH2 (ethylamine), C6H5NH2 (aniline), (CH3)2NH (dimethylamine), and (CH3)3N (trimethylamine). Amines are basic because nitrogen has a lone pair of electrons that can accept a proton.",
+      "points": [
+        "Definition: Amines are derivatives of ammonia in which one or more hydrogen atoms are replaced by alkyl or aryl groups.",
+        "General conversion idea: NH3 → RNH2.",
+        "Example: CH3NH2 is methylamine.",
+        "Example: C6H5NH2 is aniline, an important aromatic amine.",
+        "Basic nature: RNH2 + H+ → RNH3+."
+      ]
+    },
+    {
+      "heading": "Classification of Amines",
+      "text": "Amines are classified according to the number of alkyl or aryl groups attached to nitrogen. If one hydrogen atom of ammonia is replaced, a primary amine is formed. If two hydrogen atoms are replaced, a secondary amine is formed. If all three hydrogen atoms are replaced, a tertiary amine is formed. The degree of an amine depends on the number of carbon groups attached to nitrogen, not on the type of carbon atom.",
+      "points": [
+        "Primary amine: RNH2. Example: CH3NH2 (methylamine), C6H5NH2 (aniline).",
+        "Secondary amine: R2NH. Example: (CH3)2NH (dimethylamine).",
+        "Tertiary amine: R3N. Example: (CH3)3N (trimethylamine).",
+        "(CH3)3N is a tertiary amine because nitrogen is attached to three methyl groups."
+      ]
+    },
+    {
+      "heading": "Structure of Amines",
+      "text": "In amines, nitrogen generally forms three sigma bonds and has one lone pair of electrons. Therefore, nitrogen is usually sp3 hybridised. The expected geometry is tetrahedral, but because one position is occupied by a lone pair, the actual shape around nitrogen is pyramidal. The bond angle is slightly less than 109.5° because lone pair-bond pair repulsion is stronger than bond pair-bond pair repulsion.",
+      "points": [
+        "Nitrogen in amines has 3 sigma bonds and 1 lone pair.",
+        "Hybridisation of nitrogen in amines is generally sp3.",
+        "Shape of amines is pyramidal.",
+        "Example: CH3NH2 has nitrogen bonded to one CH3 group, two hydrogen atoms, and one lone pair.",
+        "Example: (CH3)3N also has a pyramidal shape because nitrogen has one lone pair.",
+        "In aniline, C6H5NH2, the lone pair on nitrogen is partly involved in resonance with the benzene ring, so aniline is less basic than aliphatic amines."
+      ]
+    },
+    {
+      "heading": "Nomenclature of Amines",
+      "text": "Amines are named by common naming and IUPAC naming systems. In common names, the alkyl group name is followed by the word amine. In IUPAC names, amines are named as alkanamines by replacing the final -e of the alkane with -amine. Extra alkyl groups attached directly to nitrogen are shown using the prefix N-. Aromatic amine C6H5NH2 is commonly called aniline and its IUPAC name is benzenamine.",
+      "points": [
+        "CH3NH2: common name methylamine; IUPAC name methanamine.",
+        "C2H5NH2: common name ethylamine; IUPAC name ethanamine.",
+        "CH3CH2CH2NH2: common name propylamine; IUPAC name propan-1-amine.",
+        "CH3CH(NH2)CH3: common name isopropylamine; IUPAC name propan-2-amine.",
+        "CH3NHCH2CH3: IUPAC name N-methylethanamine.",
+        "(CH3)2NCH2CH3: IUPAC name N,N-dimethylethanamine.",
+        "C6H5NH2: common name aniline; IUPAC name benzenamine."
+      ]
+    },
+    {
+      "heading": "Preparation of Amines by Reduction of Nitro Compounds",
+      "text": "Nitro compounds contain the -NO2 group. On reduction, nitro compounds give primary amines. This method is especially useful for preparing aromatic amines such as aniline from nitrobenzene.",
+      "points": [
+        "General reaction: RNO2 → RNH2.",
+        "Nitrobenzene to aniline: C6H5NO2 --Sn/HCl--> C6H5NH2.",
+        "Other reducing agents: Fe/HCl and H2/Ni.",
+        "Nitroethane to ethylamine: CH3CH2NO2 → CH3CH2NH2.",
+        "Reduction of nitro compounds gives primary amines."
+      ]
+    },
+    {
+      "heading": "Preparation of Amines by Ammonolysis of Alkyl Halides",
+      "text": "Ammonolysis is the reaction of an alkyl halide with ammonia. In this reaction, the halogen atom of the alkyl halide is replaced by an amino group. The acid HX formed can react with amines, so excess ammonia is used. Since amines are nucleophilic, the primary amine formed may further react with alkyl halide to form secondary amine, tertiary amine, and quaternary ammonium salt.",
+      "points": [
+        "General reaction: RX + NH3 → RNH2 + HX.",
+        "Example: C2H5Br + NH3 → C2H5NH2 + HBr.",
+        "Formation of primary amine: RX + NH3 → RNH2.",
+        "Formation of secondary amine: RNH2 + RX → R2NH.",
+        "Formation of tertiary amine: R2NH + RX → R3N.",
+        "Formation of quaternary ammonium salt: R3N + RX → R4N+X-.",
+        "Example: (CH3)3N + CH3Br → (CH3)4N+Br-.",
+        "Ammonolysis may give a mixture of 1°, 2°, 3° amines and quaternary ammonium salt.",
+        "Excess ammonia is used to obtain mainly primary amine."
+      ]
+    },
+    {
+      "heading": "Preparation of Amines by Reduction of Nitriles and Amides",
+      "text": "Nitriles and amides can be reduced to primary amines using strong reducing agents such as lithium aluminium hydride, LiAlH4. Nitriles contain the -CN group and give primary amines on reduction. Amides contain the -CONH2 group and also give primary amines on reduction.",
+      "points": [
+        "Reduction of nitriles: RCN --LiAlH4--> RCH2NH2.",
+        "Example: CH3CN --LiAlH4--> CH3CH2NH2.",
+        "Starting from alkyl halide, nitrile formation followed by reduction increases the carbon chain by one carbon: RBr → RCN → RCH2NH2.",
+        "Reduction of amides: RCONH2 --LiAlH4--> RCH2NH2.",
+        "Example: CH3CONH2 --LiAlH4--> CH3CH2NH2.",
+        "In amide reduction, the carbonyl group C=O is reduced to CH2.",
+        "Both nitriles and amides give primary amines on reduction."
+      ]
+    },
+    {
+      "heading": "Gabriel Phthalimide Synthesis",
+      "text": "Gabriel phthalimide synthesis is used to prepare pure primary aliphatic amines. Phthalimide reacts with alcoholic KOH to form potassium phthalimide. Potassium phthalimide reacts with an alkyl halide to form N-alkyl phthalimide, which on hydrolysis gives a primary amine. This method is useful because it avoids the mixture formed in ammonolysis.",
+      "points": [
+        "Step 1: Phthalimide + KOH → Potassium phthalimide + H2O.",
+        "Step 2: Potassium phthalimide + RX → N-alkyl phthalimide + KX.",
+        "Step 3: N-alkyl phthalimide --hydrolysis--> RNH2.",
+        "Example: C2H5Br gives C2H5NH2 after reaction with potassium phthalimide and hydrolysis.",
+        "Gabriel synthesis gives primary aliphatic amines.",
+        "It does not give secondary or tertiary amines.",
+        "It is not suitable for preparing aromatic primary amines such as aniline because aryl halides do not undergo nucleophilic substitution easily."
+      ]
+    },
+    {
+      "heading": "Hoffmann Bromamide Degradation Reaction",
+      "text": "Hoffmann bromamide degradation converts amides into primary amines using bromine and alkali. The amine formed contains one carbon atom less than the starting amide because the carbonyl carbon of the amide is lost.",
+      "points": [
+        "Reagents: Br2/KOH or Br2/NaOH.",
+        "General reaction: RCONH2 --Br2/KOH--> RNH2.",
+        "Product has one carbon atom less than the amide.",
+        "Example: CH3CONH2 --Br2/KOH--> CH3NH2.",
+        "Acetamide gives methylamine.",
+        "Example: C6H5CONH2 --Br2/KOH--> C6H5NH2.",
+        "Benzamide gives aniline.",
+        "It is called degradation because the carbon chain becomes shorter by one carbon atom."
+      ]
+    },
+    {
+      "heading": "Physical Properties of Amines",
+      "text": "Lower aliphatic amines are generally gases, while higher amines are liquids or solids. Lower amines have a fishy smell. Lower amines are soluble in water because they can form hydrogen bonds with water. Solubility decreases as molecular mass increases because the hydrophobic hydrocarbon part becomes larger.",
+      "points": [
+        "Lower amines such as CH3NH2 and C2H5NH2 are gases at room temperature.",
+        "Lower amines have fishy smell.",
+        "Amines form hydrogen bonds with water: RNH2···H-OH.",
+        "Solubility order: CH3NH2 > C2H5NH2 > C3H7NH2.",
+        "Amines have higher boiling points than hydrocarbons of similar molecular mass due to intermolecular hydrogen bonding.",
+        "Amines have lower boiling points than alcohols because N-H hydrogen bonding is weaker than O-H hydrogen bonding.",
+        "Boiling point comparison: alcohols > amines > hydrocarbons.",
+        "Primary and secondary amines can form intermolecular hydrogen bonding due to N-H bonds.",
+        "Tertiary amines do not have N-H bonds and cannot form intermolecular hydrogen bonding among themselves."
+      ]
+    },
+    {
+      "heading": "Basic Character of Amines",
+      "text": "Amines are basic because nitrogen has a lone pair of electrons. This lone pair can accept a proton, so amines behave as Lewis bases and Brønsted bases. Aliphatic amines are generally stronger bases than ammonia because alkyl groups show +I effect and increase electron density on nitrogen. Aromatic amines such as aniline are weaker bases than ammonia because the nitrogen lone pair is delocalised into the benzene ring by resonance.",
+      "points": [
+        "Amines accept protons using nitrogen's lone pair.",
+        "General reaction with acid: RNH2 + HCl → RNH3+Cl-.",
+        "Example: CH3NH2 + HCl → CH3NH3+Cl-.",
+        "Aliphatic amines are stronger bases than ammonia due to +I effect of alkyl groups.",
+        "Example order: CH3NH2 > NH3.",
+        "Aniline is weaker than ammonia because nitrogen's lone pair is involved in resonance with benzene.",
+        "Example order: CH3NH2 > NH3 > C6H5NH2.",
+        "In aqueous solution, basicity also depends on solvation of the conjugate acid.",
+        "For methylamines in water: (CH3)2NH > CH3NH2 > (CH3)3N > NH3.",
+        "Secondary amines have good +I effect and good solvation.",
+        "Tertiary amines have strong +I effect but their conjugate acids are less solvated due to steric hindrance."
+      ]
+    },
+    {
+      "heading": "Alkylation of Amines",
+      "text": "Alkylation means addition of an alkyl group. Amines react with alkyl halides to form higher amines. Since nitrogen has a lone pair, amines act as nucleophiles and attack alkyl halides. Repeated alkylation can produce secondary amines, tertiary amines, and quaternary ammonium salts.",
+      "points": [
+        "Primary amine to secondary amine: RNH2 + R'X → RNHR'.",
+        "Example: CH3NH2 + CH3Br → (CH3)2NH.",
+        "Secondary amine to tertiary amine: R2NH + RX → R3N.",
+        "Example: (CH3)2NH + CH3Br → (CH3)3N.",
+        "Tertiary amine to quaternary ammonium salt: R3N + RX → R4N+X-.",
+        "Example: (CH3)3N + CH3Br → (CH3)4N+Br-.",
+        "Alkylation may give a mixture of 1°, 2°, 3° amines and quaternary ammonium salt.",
+        "Sequence: NH3 --CH3Br--> CH3NH2 --CH3Br--> (CH3)2NH --CH3Br--> (CH3)3N --CH3Br--> (CH3)4N+Br-."
+      ]
+    },
+    {
+      "heading": "Acylation of Amines",
+      "text": "Acylation is the introduction of an acyl group, RCO-, into a compound. Primary and secondary amines react with acid chlorides or acid anhydrides to form amides. Tertiary amines do not undergo acylation because they do not have an N-H bond.",
+      "points": [
+        "Acyl group: RCO-. Example: CH3CO- is acetyl group.",
+        "Acylating agents: RCOCl and (RCO)2O.",
+        "Example acylating agents: CH3COCl (acetyl chloride), (CH3CO)2O (acetic anhydride).",
+        "Primary amine acylation: RNH2 + R'COCl → R'CONHR + HCl.",
+        "Example: CH3NH2 + CH3COCl → CH3CONHCH3 + HCl. Product: N-methylacetamide.",
+        "Secondary amine acylation: R2NH + R'COCl → R'CONR2 + HCl.",
+        "Example: (CH3)2NH + CH3COCl → CH3CON(CH3)2 + HCl. Product: N,N-dimethylacetamide.",
+        "Tertiary amines do not undergo acylation because they have no N-H bond.",
+        "Aniline with benzoyl chloride: C6H5NH2 + C6H5COCl → C6H5CONHC6H5 + HCl. Product: benzanilide.",
+        "Acylation reduces the basic character of amines because nitrogen's lone pair becomes involved in resonance with the carbonyl group."
+      ]
+    },
+    {
+      "heading": "Carbylamine Reaction",
+      "text": "Carbylamine reaction is an important test for primary amines. Primary amines are heated with chloroform and alcoholic KOH to form isocyanides, also called carbylamines. Isocyanides have a very unpleasant smell. Secondary and tertiary amines do not give this test.",
+      "points": [
+        "Reagents: CHCl3 + alcoholic KOH.",
+        "General reaction: RNH2 + CHCl3 + 3KOH → RNC + 3KCl + 3H2O.",
+        "Product RNC is an isocyanide or carbylamine.",
+        "Example: CH3NH2 + CHCl3 + 3KOH → CH3NC + 3KCl + 3H2O.",
+        "Example: C6H5NH2 + CHCl3 + 3KOH → C6H5NC + 3KCl + 3H2O.",
+        "Observation: very foul smell.",
+        "Only primary aliphatic and primary aromatic amines give carbylamine reaction.",
+        "Secondary and tertiary amines do not give this reaction because they do not have the required -NH2 group."
+      ]
+    },
+    {
+      "heading": "Reaction of Amines with Nitrous Acid",
+      "text": "Nitrous acid is unstable, so it is prepared in situ using NaNO2 and HCl. Amines react with nitrous acid differently depending on whether they are primary, secondary, or tertiary, and whether they are aliphatic or aromatic.",
+      "points": [
+        "Nitrous acid preparation: NaNO2 + HCl → HNO2 + NaCl.",
+        "Primary aliphatic amines give alcohol with nitrogen gas: RNH2 + HNO2 → ROH + N2 + H2O.",
+        "Example: C2H5NH2 + HNO2 → C2H5OH + N2 + H2O.",
+        "Evolution of N2 gas causes effervescence.",
+        "Primary aromatic amines form diazonium salts at 273-278 K or 0-5°C.",
+        "Aniline reaction: C6H5NH2 + NaNO2 + 2HCl → C6H5N2+Cl- + NaCl + 2H2O.",
+        "The conversion of aniline to benzene diazonium chloride is called diazotisation.",
+        "Secondary amines give N-nitrosoamines: R2NH + HNO2 → R2N-NO + H2O.",
+        "Example: (CH3)2NH + HNO2 → (CH3)2N-NO + H2O.",
+        "Tertiary aliphatic amines form salts in acidic medium and do not evolve nitrogen gas."
+      ]
+    },
+    {
+      "heading": "Diazonium Salts",
+      "text": "Diazonium salts are important compounds formed from primary aromatic amines. They contain the diazonium group -N2+X-. The most important diazonium salt in Class 12 NCERT is benzene diazonium chloride, C6H5N2+Cl-. It is prepared from aniline using NaNO2 and HCl at 0-5°C. Diazonium salts are important intermediates for preparing many aromatic compounds.",
+      "points": [
+        "General formula of diazonium salts: ArN2+X-.",
+        "X- may be Cl-, Br-, or HSO4-.",
+        "Benzene diazonium chloride: C6H5N2+Cl-.",
+        "Preparation: C6H5NH2 + NaNO2 + 2HCl → C6H5N2+Cl- + NaCl + 2H2O.",
+        "Temperature: 273-278 K or 0-5°C.",
+        "Reaction name: diazotisation.",
+        "Low temperature is needed because diazonium salts decompose at higher temperature.",
+        "Aromatic diazonium salts are more stable than aliphatic diazonium salts.",
+        "Benzene diazonium chloride can be converted into chlorobenzene, bromobenzene, phenol, benzonitrile, benzene, iodobenzene, and fluorobenzene."
+      ]
+    },
+    {
+      "heading": "Sandmeyer Reaction",
+      "text": "Sandmeyer reaction is a reaction of benzene diazonium chloride in which the diazonium group is replaced by Cl, Br, or CN using copper(I) salts. Nitrogen gas is evolved during the reaction.",
+      "points": [
+        "Starting compound: C6H5N2+Cl- (benzene diazonium chloride).",
+        "General idea: C6H5N2+Cl- → C6H5X + N2, where X = Cl, Br, or CN.",
+        "Chlorobenzene preparation: C6H5N2+Cl- --CuCl/HCl--> C6H5Cl + N2.",
+        "Bromobenzene preparation: C6H5N2+Cl- --CuBr/HBr--> C6H5Br + N2.",
+        "Benzonitrile preparation: C6H5N2+Cl- --CuCN/KCN--> C6H5CN + N2.",
+        "Reagent table: CuCl/HCl gives chlorobenzene; CuBr/HBr gives bromobenzene; CuCN/KCN gives benzonitrile.",
+        "Sandmeyer reaction is useful for preparing aromatic compounds that are difficult to prepare by direct substitution."
+      ]
+    },
+    {
+      "heading": "Gattermann Reaction",
+      "text": "Gattermann reaction converts benzene diazonium chloride into chlorobenzene or bromobenzene using copper powder and the corresponding acid. The diazonium group is replaced by chlorine or bromine with evolution of nitrogen gas.",
+      "points": [
+        "Chlorobenzene preparation: C6H5N2+Cl- --Cu/HCl--> C6H5Cl + N2.",
+        "Bromobenzene preparation: C6H5N2+Cl- --Cu/HBr--> C6H5Br + N2.",
+        "Gattermann reaction uses copper powder with HCl or HBr.",
+        "Sandmeyer uses cuprous salts such as CuCl, CuBr, and CuCN.",
+        "Gattermann mainly introduces Cl or Br.",
+        "Nitrogen gas is evolved, which helps the reaction proceed."
+      ]
+    },
+    {
+      "heading": "Replacement of Diazonium Group by Iodine and Fluorine",
+      "text": "Benzene diazonium chloride can be converted into iodobenzene and fluorobenzene. Iodobenzene is prepared using potassium iodide. Fluorobenzene is prepared by the Balz-Schiemann reaction using fluoroboric acid followed by heating.",
+      "points": [
+        "Preparation of iodobenzene: C6H5N2+Cl- + KI → C6H5I + KCl + N2.",
+        "For iodine replacement, no copper salt is required.",
+        "Fluorobenzene preparation is done by Balz-Schiemann reaction.",
+        "Step 1: C6H5N2+Cl- + HBF4 → C6H5N2+BF4- + HCl.",
+        "Step 2: C6H5N2+BF4- --heat--> C6H5F + BF3 + N2.",
+        "HBF4 forms benzene diazonium fluoroborate, which decomposes on heating to fluorobenzene.",
+        "Product table: KI gives iodobenzene; HBF4 and heat give fluorobenzene."
+      ]
+    },
+    {
+      "heading": "Replacement of Diazonium Group by Hydroxyl Group and Hydrogen",
+      "text": "Benzene diazonium chloride can be converted into phenol by warming with water, and into benzene by reduction with hypophosphorous acid. These reactions are useful because the diazonium group can be replaced by -OH or -H.",
+      "points": [
+        "Phenol preparation: C6H5N2+Cl- + H2O --warm--> C6H5OH + N2 + HCl.",
+        "Overall conversion to phenol: C6H5NH2 → C6H5N2+Cl- → C6H5OH.",
+        "Benzene preparation: C6H5N2+Cl- + H3PO2 + H2O → C6H6 + N2 + H3PO3 + HCl.",
+        "Hypophosphorous acid, H3PO2, replaces the diazonium group by hydrogen.",
+        "This reaction is useful for removing -NH2 from an aromatic ring.",
+        "Overall removal: C6H5NH2 → C6H5N2+Cl- → C6H6."
+      ]
+    },
+    {
+      "heading": "Coupling Reactions of Diazonium Salts",
+      "text": "Coupling reaction is the reaction of benzene diazonium chloride with electron-rich aromatic compounds such as phenol or aniline to form brightly coloured azo compounds. Azo compounds contain the -N=N- group and are used as dyes.",
+      "points": [
+        "Azo group: -N=N-.",
+        "General idea: diazonium salt + phenol/aniline → azo dye.",
+        "Coupling with phenol gives mainly p-hydroxyazobenzene, an orange-coloured azo dye.",
+        "Phenol coupling occurs in alkaline medium.",
+        "Coupling with aniline gives p-aminoazobenzene.",
+        "Aniline coupling occurs in weakly acidic medium.",
+        "Phenol's -OH group activates the benzene ring and directs substitution mainly to ortho and para positions; para product is usually major due to less steric hindrance.",
+        "Azo compounds are coloured because of the -N=N- group with aromatic rings."
+      ]
+    },
+    {
+      "heading": "Electrophilic Substitution Reactions of Aniline",
+      "text": "Aniline, C6H5NH2, contains the -NH2 group attached to a benzene ring. The -NH2 group is an electron-donating group and increases electron density on the benzene ring by resonance. Therefore, aniline is highly activated towards electrophilic substitution. The -NH2 group is ortho-para directing.",
+      "points": [
+        "In aniline, positions 2 and 6 are ortho, position 4 is para, and positions 3 and 5 are meta.",
+        "Bromination: C6H5NH2 + 3Br2 → C6H2Br3NH2 + 3HBr.",
+        "Product of bromination with bromine water: 2,4,6-tribromoaniline.",
+        "Observation in bromination: white precipitate of 2,4,6-tribromoaniline.",
+        "Aniline gives tribromo product because -NH2 strongly activates the benzene ring.",
+        "Direct nitration of aniline gives a mixture of o-nitroaniline, p-nitroaniline, and a significant amount of m-nitroaniline.",
+        "In acidic nitration medium, aniline forms anilinium ion: C6H5NH2 + H+ → C6H5NH3+.",
+        "Anilinium ion is electron-withdrawing and meta directing, so meta product is also formed.",
+        "To obtain mainly p-nitroaniline, -NH2 is first protected by acetylation to form acetanilide.",
+        "Sulphonation: aniline reacts with concentrated H2SO4 to form anilinium hydrogen sulphate, which on heating gives sulphanilic acid.",
+        "Sulphanilic acid is p-aminobenzenesulphonic acid."
+      ]
+    },
+    {
+      "heading": "Protection of Amino Group in Aniline",
+      "text": "The amino group in aniline is strongly activating and ortho-para directing. Direct electrophilic substitution may give uncontrolled products such as 2,4,6-tribromoaniline in bromination. To control substitution, the -NH2 group is protected by acetylation. Aniline is converted into acetanilide using acetic anhydride or acetyl chloride.",
+      "points": [
+        "Direct bromination of aniline: C6H5NH2 + 3Br2 → C6H2Br3NH2 + 3HBr.",
+        "Protection by acetylation: C6H5NH2 + (CH3CO)2O → C6H5NHCOCH3 + CH3COOH.",
+        "Protected compound: acetanilide, C6H5NHCOCH3.",
+        "In acetanilide, nitrogen's lone pair is involved in resonance with the carbonyl group, so the ring is less activated than aniline.",
+        "Preparation of p-bromoaniline: aniline → acetanilide → p-bromoacetanilide → p-bromoaniline.",
+        "Bromination of acetanilide: C6H5NHCOCH3 --Br2/CH3COOH--> p-bromoacetanilide.",
+        "Hydrolysis of p-bromoacetanilide gives p-bromoaniline.",
+        "Preparation of p-nitroaniline: aniline → acetanilide → p-nitroacetanilide → p-nitroaniline.",
+        "Nitration of acetanilide: C6H5NHCOCH3 --HNO3/H2SO4--> p-nitroacetanilide.",
+        "Hydrolysis of p-nitroacetanilide gives p-nitroaniline.",
+        "Protection helps to get mainly para-substituted products."
+      ]
+    },
+    {
+      "heading": "Hinsberg Test",
+      "text": "Hinsberg test is used to distinguish primary, secondary, and tertiary amines. Hinsberg reagent is benzene sulphonyl chloride, C6H5SO2Cl. It reacts differently with the three classes of amines based on whether the product has an acidic hydrogen and whether it is soluble in alkali.",
+      "points": [
+        "Hinsberg reagent: C6H5SO2Cl, benzene sulphonyl chloride.",
+        "Primary amines form N-alkyl benzene sulphonamide: RNH2 + C6H5SO2Cl → C6H5SO2NHR + HCl.",
+        "The product from primary amine has acidic hydrogen and dissolves in alkali.",
+        "Salt formation: C6H5SO2NHR + NaOH → C6H5SO2NR-Na+ + H2O.",
+        "Secondary amines form N,N-dialkyl benzene sulphonamide: R2NH + C6H5SO2Cl → C6H5SO2NR2 + HCl.",
+        "The secondary amine product has no acidic hydrogen and is insoluble in alkali.",
+        "Tertiary amines do not react with Hinsberg reagent because they have no N-H bond.",
+        "Tertiary amines dissolve in dilute acid by salt formation: R3N + HCl → R3NH+Cl-.",
+        "Observation: 1° amine gives product soluble in alkali; 2° amine gives product insoluble in alkali; 3° amine gives no reaction but dissolves in acid."
+      ]
+    },
+    {
+      "heading": "Important Conversions in Amines",
+      "text": "Many important conversions in amines involve converting aniline into benzene diazonium chloride and then replacing the diazonium group with another group. Benzene diazonium chloride is a key intermediate in aromatic synthesis.",
+      "points": [
+        "Aniline to diazonium salt: C6H5NH2 --NaNO2/HCl, 0-5°C--> C6H5N2+Cl-.",
+        "Aniline to phenol: C6H5NH2 → C6H5N2+Cl- → C6H5OH using warm water.",
+        "Diazonium salt to phenol: C6H5N2+Cl- + H2O --warm--> C6H5OH + N2 + HCl.",
+        "Aniline to chlorobenzene: diazotisation followed by CuCl/HCl.",
+        "Diazonium salt to chlorobenzene: C6H5N2+Cl- --CuCl/HCl--> C6H5Cl + N2.",
+        "Aniline to bromobenzene: diazotisation followed by CuBr/HBr.",
+        "Diazonium salt to bromobenzene: C6H5N2+Cl- --CuBr/HBr--> C6H5Br + N2.",
+        "Aniline to iodobenzene: diazotisation followed by KI.",
+        "Diazonium salt to iodobenzene: C6H5N2+Cl- + KI → C6H5I + KCl + N2.",
+        "Aniline to fluorobenzene: diazotisation followed by HBF4 and heat.",
+        "Aniline to benzene: diazotisation followed by H3PO2.",
+        "Diazonium salt to benzene: C6H5N2+Cl- --H3PO2--> C6H6.",
+        "Aniline to benzonitrile: diazotisation followed by CuCN/KCN.",
+        "Diazonium salt to benzonitrile: C6H5N2+Cl- --CuCN/KCN--> C6H5CN + N2."
+      ]
+    },
+    {
+      "heading": "Distinguishing Tests of Amines",
+      "text": "The three important distinguishing tests for amines are the carbylamine test, Hinsberg test, and nitrous acid test. These tests help identify primary, secondary, and tertiary amines.",
+      "points": [
+        "Carbylamine test is given only by primary amines.",
+        "Carbylamine reagent: CHCl3 + alcoholic KOH.",
+        "Carbylamine reaction: RNH2 + CHCl3 + 3KOH → RNC + 3KCl + 3H2O.",
+        "Observation in carbylamine test: very unpleasant smell due to isocyanide.",
+        "Secondary and tertiary amines do not give carbylamine test.",
+        "Hinsberg test reagent: C6H5SO2Cl.",
+        "Hinsberg observation for primary amines: product soluble in alkali.",
+        "Hinsberg observation for secondary amines: product insoluble in alkali.",
+        "Hinsberg observation for tertiary amines: no reaction with Hinsberg reagent but soluble in dilute acid.",
+        "Nitrous acid reagent: NaNO2 + HCl.",
+        "Primary aliphatic amines with nitrous acid give alcohol and N2 gas.",
+        "Primary aromatic amines with nitrous acid at 0-5°C give diazonium salts.",
+        "Secondary amines with nitrous acid give N-nitrosoamines.",
+        "Tertiary amines mainly form salts in acidic medium."
+      ]
+    },
+    {
+      "heading": "Important Named Reactions in Amines",
+      "text": "Important named reactions in the amines chapter include Gabriel phthalimide synthesis, Hoffmann bromamide degradation, carbylamine reaction, diazotisation, Sandmeyer reaction, Gattermann reaction, Balz-Schiemann reaction, and coupling reaction.",
+      "points": [
+        "Gabriel phthalimide synthesis prepares primary aliphatic amines using potassium phthalimide and alkyl halides.",
+        "Gabriel synthesis does not prepare aromatic amines like aniline.",
+        "Hoffmann bromamide degradation converts amides to primary amines with one carbon less using Br2/KOH: RCONH2 → RNH2.",
+        "Carbylamine reaction is a test for primary amines using CHCl3 and alcoholic KOH to form foul-smelling isocyanides: RNH2 → RNC.",
+        "Diazotisation converts primary aromatic amines into diazonium salts using NaNO2/HCl at 0-5°C.",
+        "Example diazotisation: C6H5NH2 + NaNO2 + 2HCl → C6H5N2+Cl- + NaCl + 2H2O.",
+        "Sandmeyer reaction converts diazonium salts to aryl chlorides, bromides, or nitriles using CuCl/HCl, CuBr/HBr, or CuCN/KCN.",
+        "Gattermann reaction converts diazonium salts to chlorobenzene or bromobenzene using Cu/HCl or Cu/HBr.",
+        "Balz-Schiemann reaction prepares fluorobenzene using HBF4 followed by heating.",
+        "Coupling reactions of diazonium salts with phenol or aniline form azo dyes containing -N=N-."
+      ]
+    },
+    {
+      "heading": "Important Reagents and Their Uses in Amines",
+      "text": "Amines chapter contains many important reagents. Remembering the reagent and its use helps in solving conversion and named reaction questions.",
+      "points": [
+        "Sn/HCl, Fe/HCl, or H2/Ni reduce nitro compounds to amines: RNO2 → RNH2.",
+        "Example: C6H5NO2 --Sn/HCl--> C6H5NH2.",
+        "LiAlH4 reduces nitriles and amides to primary amines: RCN → RCH2NH2 and RCONH2 → RCH2NH2.",
+        "Br2/KOH is used in Hoffmann bromamide degradation: RCONH2 → RNH2.",
+        "CHCl3 + alcoholic KOH is used in carbylamine reaction for primary amines.",
+        "NaNO2/HCl produces nitrous acid and is used for diazotisation.",
+        "Diazotisation: C6H5NH2 --NaNO2/HCl, 0-5°C--> C6H5N2+Cl-.",
+        "CuCl/HCl converts diazonium salt to chlorobenzene.",
+        "CuBr/HBr converts diazonium salt to bromobenzene.",
+        "CuCN/KCN converts diazonium salt to benzonitrile.",
+        "KI converts diazonium salt to iodobenzene.",
+        "HBF4 followed by heat converts diazonium salt to fluorobenzene.",
+        "H3PO2 converts diazonium salt to benzene.",
+        "Warm water converts diazonium salt to phenol.",
+        "C6H5SO2Cl is Hinsberg reagent used to distinguish 1°, 2°, and 3° amines.",
+        "(CH3CO)2O or CH3COCl is used for acetylation and protection of the amino group."
+      ]
+    },
+    {
+      "heading": "Order of Basicity of Amines",
+      "text": "The basicity of amines depends on the availability of the nitrogen lone pair to accept H+. Important factors affecting basicity are +I effect, resonance effect, solvation effect, and steric hindrance. Aliphatic amines are generally more basic than ammonia, while aromatic amines such as aniline are less basic than ammonia.",
+      "points": [
+        "Basicity reaction: RNH2 + H+ → RNH3+.",
+        "Alkyl groups increase basicity by +I effect because they push electron density towards nitrogen.",
+        "Methylamine is more basic than ammonia: CH3NH2 > NH3.",
+        "Aniline is less basic than ammonia because nitrogen's lone pair is delocalised into the benzene ring.",
+        "General order: aliphatic amines > NH3 > aromatic amines.",
+        "Example: CH3NH2 > NH3 > C6H5NH2.",
+        "Basicity of methylamines in aqueous solution: (CH3)2NH > CH3NH2 > (CH3)3N > NH3.",
+        "In water, secondary amine is most basic due to a balance of +I effect and solvation.",
+        "Tertiary amines are not most basic in water because their conjugate acids are less solvated due to steric hindrance.",
+        "Basicity order in gas phase: 3° > 2° > 1° > NH3.",
+        "Example gas phase order: (CH3)3N > (CH3)2NH > CH3NH2 > NH3.",
+        "Electron-donating groups on the benzene ring, such as -CH3 and -OCH3, increase the basicity of substituted anilines.",
+        "Electron-withdrawing groups such as -NO2, -CN, and -COOH decrease the basicity of substituted anilines."
+      ]
+    },
+    {
+      "heading": "Important Exam Answers from Amines",
+      "text": "Important examination content from the amines chapter focuses on definitions, classification, basicity, named reactions, diazonium salt reactions, conversions, and distinguishing tests.",
+      "points": [
+        "Amines are derivatives of ammonia in which one or more hydrogen atoms are replaced by alkyl or aryl groups.",
+        "Classification: primary amine RNH2, secondary amine R2NH, tertiary amine R3N.",
+        "Amines are basic because nitrogen has a lone pair: RNH2 + H+ → RNH3+.",
+        "Aliphatic amines are stronger bases than ammonia due to +I effect of alkyl groups.",
+        "Aniline is less basic than ammonia because its nitrogen lone pair is involved in resonance with the benzene ring.",
+        "Carbylamine reaction: RNH2 + CHCl3 + 3KOH → RNC + 3KCl + 3H2O. It is given only by primary amines.",
+        "Hoffmann bromamide degradation: RCONH2 --Br2/KOH--> RNH2. The amine formed has one carbon less.",
+        "Gabriel phthalimide synthesis prepares primary aliphatic amines and does not prepare aromatic amines.",
+        "Diazotisation converts primary aromatic amines into diazonium salts at 0-5°C.",
+        "Diazotisation of aniline: C6H5NH2 + NaNO2 + 2HCl → C6H5N2+Cl- + NaCl + 2H2O.",
+        "Diazotisation is carried out at low temperature because diazonium salts are stable only at low temperature.",
+        "Sandmeyer reaction converts benzene diazonium chloride into chlorobenzene, bromobenzene, or benzonitrile using copper(I) salts.",
+        "Coupling reaction forms coloured azo compounds containing -N=N-.",
+        "Aniline gives 2,4,6-tribromoaniline with bromine water because -NH2 strongly activates the ring.",
+        "The amino group is protected before nitration by acetylation to avoid uncontrolled substitution and to obtain mainly para product.",
+        "Hinsberg test distinguishes primary, secondary, and tertiary amines using C6H5SO2Cl.",
+        "Basicity order of methylamines in aqueous solution: (CH3)2NH > CH3NH2 > (CH3)3N > NH3."
+      ]
+    },
+    {
+      "heading": "Important Conversions Practice from Amines",
+      "text": "Conversion questions in amines require correct reagents and clear steps. Many conversions use aniline to benzene diazonium chloride as an intermediate. Other conversions use reduction, ammonolysis, Hoffmann bromamide degradation, and protection of the amino group.",
+      "points": [
+        "Nitrobenzene to aniline: C6H5NO2 --Sn/HCl or Fe/HCl--> C6H5NH2.",
+        "Aniline to benzene diazonium chloride: C6H5NH2 --NaNO2/HCl, 0-5°C--> C6H5N2+Cl-.",
+        "Aniline to phenol: C6H5NH2 → C6H5N2+Cl- --H2O, warm--> C6H5OH.",
+        "Aniline to chlorobenzene: C6H5NH2 → C6H5N2+Cl- --CuCl/HCl--> C6H5Cl.",
+        "Aniline to bromobenzene: C6H5NH2 → C6H5N2+Cl- --CuBr/HBr--> C6H5Br.",
+        "Aniline to iodobenzene: C6H5NH2 → C6H5N2+Cl- --KI--> C6H5I.",
+        "Aniline to fluorobenzene: C6H5NH2 → C6H5N2+Cl- --HBF4--> C6H5N2+BF4- --heat--> C6H5F.",
+        "Aniline to benzene: C6H5NH2 → C6H5N2+Cl- --H3PO2--> C6H6.",
+        "Aniline to benzonitrile: C6H5NH2 → C6H5N2+Cl- --CuCN/KCN--> C6H5CN.",
+        "Acetamide to methylamine: CH3CONH2 --Br2/KOH--> CH3NH2.",
+        "Acetonitrile to ethylamine: CH3CN --LiAlH4--> CH3CH2NH2.",
+        "Acetamide to ethylamine: CH3CONH2 --LiAlH4--> CH3CH2NH2.",
+        "Ethyl bromide to ethylamine: C2H5Br + NH3 → C2H5NH2; excess ammonia is used.",
+        "Ethyl bromide to propylamine: C2H5Br --KCN--> C2H5CN --LiAlH4--> C2H5CH2NH2.",
+        "Aniline to p-bromoaniline: C6H5NH2 --(CH3CO)2O--> C6H5NHCOCH3 --Br2/CH3COOH--> p-bromoacetanilide --hydrolysis--> p-bromoaniline.",
+        "Aniline to p-nitroaniline: C6H5NH2 --(CH3CO)2O--> C6H5NHCOCH3 --HNO3/H2SO4--> p-nitroacetanilide --hydrolysis--> p-nitroaniline."
+      ]
+    },
+    {
+      "heading": "Common Mistakes in Amines Chapter",
+      "text": "Students often make mistakes in classification, basicity order, named reactions, products of reactions, and diazonium salt conversions. These points should be revised carefully.",
+      "points": [
+        "The degree of amine depends on the number of alkyl or aryl groups attached to nitrogen, not on the carbon atom.",
+        "Primary amine has nitrogen attached to one carbon group; secondary amine has nitrogen attached to two carbon groups; tertiary amine has nitrogen attached to three carbon groups.",
+        "Tertiary amines do not have N-H bonds.",
+        "Tertiary amines cannot form intermolecular hydrogen bonding among themselves and do not undergo acylation.",
+        "In Hoffmann bromamide degradation, RCONH2 --Br2/KOH--> RNH2, not RCH2NH2.",
+        "Example: CH3CONH2 --Br2/KOH--> CH3NH2.",
+        "Amide reduction with LiAlH4 gives amine with the same carbon number: CH3CONH2 --LiAlH4--> CH3CH2NH2.",
+        "Hoffmann bromamide degradation gives amine with one carbon less.",
+        "Gabriel phthalimide synthesis gives primary aliphatic amines, not aromatic amines like aniline.",
+        "Diazotisation must be done at 0-5°C or 273-278 K.",
+        "Sandmeyer reaction uses cuprous salts: CuCl/HCl, CuBr/HBr, or CuCN/KCN.",
+        "Gattermann reaction uses copper powder with HCl or HBr.",
+        "Carbylamine test is given only by primary amines.",
+        "Basicity order in gas phase is 3° > 2° > 1° > NH3.",
+        "Basicity order of methylamines in aqueous solution is (CH3)2NH > CH3NH2 > (CH3)3N > NH3.",
+        "Aniline is less basic than ammonia due to resonance.",
+        "Direct bromination of aniline gives 2,4,6-tribromoaniline, not p-bromoaniline.",
+        "To prepare p-bromoaniline, first protect -NH2 by acetylation.",
+        "Diazonium salt product table: warm water gives phenol; CuCl/HCl gives chlorobenzene; CuBr/HBr gives bromobenzene; KI gives iodobenzene; HBF4 and heat give fluorobenzene; H3PO2 gives benzene; CuCN/KCN gives benzonitrile."
+      ]
+    },
+    {
+      "heading": "Final Quick Revision of Amines",
+      "text": "Amines are derivatives of ammonia and are basic due to the lone pair on nitrogen. They are classified as primary, secondary, and tertiary amines. They can be prepared by reduction of nitro compounds, ammonolysis of alkyl halides, reduction of nitriles and amides, Gabriel phthalimide synthesis, and Hoffmann bromamide degradation. Aniline and diazonium salts are important parts of the chapter.",
+      "points": [
+        "Definition: amines are derivatives of NH3 in which one or more hydrogens are replaced by alkyl or aryl groups.",
+        "Primary amine: RNH2; secondary amine: R2NH; tertiary amine: R3N.",
+        "Nitrogen in amines is generally sp3 hybridised and has pyramidal shape.",
+        "Basicity: RNH2 + H+ → RNH3+.",
+        "Aliphatic amines are more basic than ammonia due to +I effect.",
+        "Aniline is less basic than ammonia due to resonance.",
+        "Reduction of nitro compounds: RNO2 --Sn/HCl or Fe/HCl--> RNH2.",
+        "Ammonolysis: RX + NH3 → RNH2, but a mixture may be formed.",
+        "Reduction of nitriles: RCN --LiAlH4--> RCH2NH2.",
+        "Reduction of amides: RCONH2 --LiAlH4--> RCH2NH2.",
+        "Gabriel synthesis gives primary aliphatic amines.",
+        "Hoffmann bromamide degradation: RCONH2 --Br2/KOH--> RNH2 with one carbon less.",
+        "Lower amines are gases with fishy smell and are soluble in water due to hydrogen bonding.",
+        "Boiling point comparison: alcohols > amines > hydrocarbons.",
+        "Alkylation gives higher amines and quaternary ammonium salts.",
+        "Acylation of primary and secondary amines gives amides; tertiary amines do not undergo acylation.",
+        "Carbylamine test is given only by primary amines: RNH2 + CHCl3 + 3KOH → RNC + 3KCl + 3H2O.",
+        "Hinsberg reagent is C6H5SO2Cl.",
+        "Nitrous acid reaction: primary aliphatic amines give alcohol and N2; primary aromatic amines give diazonium salts; secondary amines give N-nitrosoamines; tertiary amines form salts.",
+        "Diazotisation: C6H5NH2 --NaNO2/HCl, 0-5°C--> C6H5N2+Cl-.",
+        "Diazonium salt conversions: warm water gives phenol; CuCl/HCl gives chlorobenzene; CuBr/HBr gives bromobenzene; KI gives iodobenzene; HBF4 and heat gives fluorobenzene; H3PO2 gives benzene; CuCN/KCN gives benzonitrile.",
+        "Named reactions: Gabriel synthesis, Hoffmann bromamide degradation, carbylamine reaction, diazotisation, Sandmeyer reaction, Gattermann reaction, Balz-Schiemann reaction, and coupling reaction.",
+        "Aniline undergoes electrophilic substitution easily because -NH2 is activating and ortho-para directing.",
+        "Aniline with bromine water gives 2,4,6-tribromoaniline.",
+        "The amino group is protected by acetylation to prepare p-bromoaniline and p-nitroaniline.",
+        "Important basicity orders: CH3NH2 > NH3 > C6H5NH2; in water, (CH3)2NH > CH3NH2 > (CH3)3N > NH3; in gas phase, (CH3)3N > (CH3)2NH > CH3NH2 > NH3."
+      ]
+    }
+  ],
+  "summary": "",
+  "qa": []
+}

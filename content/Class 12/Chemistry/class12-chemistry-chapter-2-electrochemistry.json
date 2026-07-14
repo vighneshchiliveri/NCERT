@@ -1,0 +1,456 @@
+{
+  "title": "Electrochemistry",
+  "class": "12",
+  "subject": "Chemistry",
+  "chapter": "Chapter 2",
+  "book": "NCERT Chemistry",
+  "notes": [
+    {
+      "heading": "Introduction to Electrochemistry",
+      "text": "Electrochemistry is the branch of chemistry that deals with the relationship between chemical energy and electrical energy. It explains how chemical reactions can produce electricity and how electricity can bring about chemical reactions. Electrochemistry mainly involves redox reactions, because electron transfer is responsible for the production or use of electric current.",
+      "points": [
+        "Chemical energy can be converted into electrical energy in cells and batteries such as dry cells, lead storage batteries and lithium-ion batteries.",
+        "Electrical energy can be converted into chemical change during electrolysis, for example by passing electricity through water to form hydrogen and oxygen.",
+        "Oxidation means loss of electrons. Example: Zn → Zn²⁺ + 2e⁻.",
+        "Reduction means gain of electrons. Example: Cu²⁺ + 2e⁻ → Cu.",
+        "Electric current is related to the movement of electrons. In electrochemical reactions, electrons move from one substance to another.",
+        "In the reaction Zn + Cu²⁺ → Zn²⁺ + Cu, zinc loses electrons and is oxidised, while copper ion gains electrons and is reduced."
+      ]
+    },
+    {
+      "heading": "Electrochemical Cells",
+      "text": "An electrochemical cell is a device in which a chemical reaction is connected with electricity. Electrochemical cells are mainly of two types: galvanic cells and electrolytic cells.",
+      "points": [
+        "A galvanic cell, also called a voltaic cell, converts chemical energy into electrical energy by a spontaneous redox reaction.",
+        "A Daniel cell is an example of a galvanic cell. Batteries are also examples of galvanic cells.",
+        "An electrolytic cell converts electrical energy into chemical energy. It uses electricity to make a non-spontaneous chemical reaction occur.",
+        "Electrolysis of water is an example of a process occurring in an electrolytic cell.",
+        "Main parts of an electrochemical cell are electrodes, electrolyte, external wire and, in galvanic cells, a salt bridge.",
+        "Electrodes are conducting rods through which electrons enter or leave the cell.",
+        "An electrolyte is a solution that conducts electricity due to the presence of ions. Examples are CuSO₄ solution, ZnSO₄ solution and NaCl solution.",
+        "Oxidation always occurs at the anode and reduction always occurs at the cathode.",
+        "Memory trick: An Ox, Red Cat means Anode Oxidation and Reduction Cathode."
+      ]
+    },
+    {
+      "heading": "Galvanic Cell or Daniel Cell",
+      "text": "A galvanic cell converts chemical energy into electrical energy. The Daniel cell is a common example. It consists of a zinc electrode dipped in zinc sulphate solution and a copper electrode dipped in copper sulphate solution. These two half-cells are connected by an external wire and a salt bridge.",
+      "points": [
+        "Zinc half-cell: Zn rod dipped in ZnSO₄ solution.",
+        "Copper half-cell: Cu rod dipped in CuSO₄ solution.",
+        "Cell notation: Zn | Zn²⁺ || Cu²⁺ | Cu.",
+        "A single vertical line | separates electrode and electrolyte.",
+        "A double vertical line || represents the salt bridge.",
+        "At the zinc electrode, oxidation occurs: Zn → Zn²⁺ + 2e⁻. Therefore, zinc acts as the anode.",
+        "At the copper electrode, reduction occurs: Cu²⁺ + 2e⁻ → Cu. Therefore, copper acts as the cathode.",
+        "Overall cell reaction: Zn + Cu²⁺ → Zn²⁺ + Cu.",
+        "Electrons flow from zinc electrode to copper electrode, that is, from anode to cathode.",
+        "The zinc rod slowly becomes thinner because zinc atoms dissolve as Zn²⁺ ions.",
+        "The copper rod becomes heavier because Cu²⁺ ions get deposited as copper metal."
+      ]
+    },
+    {
+      "heading": "Salt Bridge and Its Functions",
+      "text": "A salt bridge is a U-shaped tube containing an inert electrolyte such as KCl, KNO₃ or NH₄NO₃. It connects the two half-cells of a galvanic cell and allows the cell to work continuously.",
+      "points": [
+        "In a Daniel cell, Zn²⁺ ions accumulate in the zinc half-cell because zinc is oxidised. This makes the zinc half-cell positively charged.",
+        "In the copper half-cell, Cu²⁺ ions are removed from solution because they get reduced to copper metal. This creates charge imbalance.",
+        "The salt bridge completes the internal circuit by allowing ion movement.",
+        "The salt bridge maintains electrical neutrality in both half-cells.",
+        "For example, in a KCl salt bridge, Cl⁻ ions move towards the zinc half-cell to balance excess Zn²⁺ ions, while K⁺ ions move towards the copper half-cell.",
+        "The salt bridge prevents direct mixing of ZnSO₄ and CuSO₄ solutions.",
+        "Without a salt bridge, charge imbalance develops, electron flow stops and the cell stops producing current.",
+        "In cell notation, || represents the salt bridge."
+      ]
+    },
+    {
+      "heading": "Electrode Potential",
+      "text": "Electrode potential is the potential difference that develops between an electrode and its ions in solution when a metal is dipped in its salt solution. It shows the tendency of an electrode to lose or gain electrons.",
+      "points": [
+        "When zinc is dipped in zinc sulphate solution, zinc atoms may enter the solution as Zn²⁺ ions: Zn → Zn²⁺ + 2e⁻.",
+        "The metal rod becomes negatively charged because electrons are left on the electrode.",
+        "This separation of charge produces a potential difference called electrode potential.",
+        "Oxidation potential is the tendency of an electrode to lose electrons.",
+        "Reduction potential is the tendency of an electrode to gain electrons.",
+        "In NCERT electrochemistry, electrode potentials are usually written as reduction potentials.",
+        "A single electrode potential cannot be measured directly because oxidation and reduction occur together.",
+        "Electrode potential is measured by comparing one electrode with another electrode.",
+        "The potential difference between two electrodes of a cell is called cell potential or cell emf.",
+        "In a Daniel cell, zinc has greater tendency to lose electrons and copper ions have greater tendency to gain electrons, so electrons flow from zinc to copper."
+      ]
+    },
+    {
+      "heading": "Standard Hydrogen Electrode",
+      "text": "The Standard Hydrogen Electrode, abbreviated as SHE, is a reference electrode used to measure the electrode potentials of other electrodes. Its electrode potential is taken as 0.00 V under standard conditions.",
+      "points": [
+        "A single electrode potential cannot be measured directly, so it is compared with a standard reference electrode.",
+        "SHE contains a platinum electrode coated with finely divided platinum called platinum black.",
+        "Pure hydrogen gas is passed over the platinum electrode at a pressure of 1 bar.",
+        "The platinum electrode is dipped in an acid solution containing H⁺ ions of concentration 1 M.",
+        "Standard temperature for SHE is 298 K.",
+        "Representation of SHE: Pt | H₂(g, 1 bar) | H⁺(aq, 1 M).",
+        "SHE may also be written as H⁺(aq, 1 M) | H₂(g, 1 bar) | Pt.",
+        "As a reduction electrode: 2H⁺ + 2e⁻ → H₂.",
+        "As an oxidation electrode: H₂ → 2H⁺ + 2e⁻.",
+        "The value 0.00 V for SHE is assumed, and other electrode potentials are measured with respect to it."
+      ]
+    },
+    {
+      "heading": "Standard Electrode Potential",
+      "text": "Standard electrode potential is the electrode potential of a half-cell measured under standard conditions by comparing it with the Standard Hydrogen Electrode. It is represented by E°.",
+      "points": [
+        "Standard conditions are ion concentration 1 M, gas pressure 1 bar and temperature 298 K.",
+        "In NCERT, electrode potential values are usually given as standard reduction potentials.",
+        "Standard reduction potential shows the tendency of an electrode to undergo reduction under standard conditions.",
+        "For copper: Cu²⁺ + 2e⁻ → Cu, E°Cu²⁺/Cu = +0.34 V.",
+        "For zinc: Zn²⁺ + 2e⁻ → Zn, E°Zn²⁺/Zn = -0.76 V.",
+        "A positive standard reduction potential means the species has greater tendency to be reduced than hydrogen.",
+        "A negative standard reduction potential means the species has less tendency to be reduced than hydrogen.",
+        "More positive E° means greater reduction tendency.",
+        "More negative E° means greater oxidation tendency.",
+        "Order of reduction tendency among Cu²⁺, H⁺ and Zn²⁺ is: Cu²⁺ > H⁺ > Zn²⁺.",
+        "Order of oxidation tendency among Zn, H₂ and Cu is: Zn > H₂ > Cu."
+      ]
+    },
+    {
+      "heading": "Cell Potential or EMF of a Cell",
+      "text": "Cell potential or emf is the potential difference between the two electrodes of an electrochemical cell. It shows how strongly the cell can push electrons through the external circuit. It is represented as Ecell, and under standard conditions as E°cell.",
+      "points": [
+        "For a galvanic cell: Ecell = Ecathode - Eanode.",
+        "Under standard conditions: E°cell = E°cathode - E°anode.",
+        "In the formula, standard reduction potentials are used for both cathode and anode.",
+        "For Daniel cell: Zn | Zn²⁺ || Cu²⁺ | Cu.",
+        "Zinc is the anode and copper is the cathode.",
+        "E°Zn²⁺/Zn = -0.76 V and E°Cu²⁺/Cu = +0.34 V.",
+        "E°cell = E°cathode - E°anode = 0.34 - (-0.76) = 1.10 V.",
+        "The standard emf of Daniel cell is 1.10 V.",
+        "If Ecell is positive, the cell reaction is spontaneous.",
+        "If Ecell is negative, the reaction is non-spontaneous and needs external electrical energy.",
+        "Electrons flow from anode to cathode. In Daniel cell, electrons flow from Zn to Cu."
+      ]
+    },
+    {
+      "heading": "Nernst Equation",
+      "text": "The Nernst equation is used to calculate cell potential under non-standard conditions. It gives the relation between cell potential and concentration of ions.",
+      "points": [
+        "Standard conditions are 1 M concentration, 1 bar pressure and 298 K temperature.",
+        "For a reaction aA + bB → cC + dD, the reaction quotient is Q = [C]^c[D]^d / [A]^a[B]^b.",
+        "General Nernst equation: Ecell = E°cell - (RT/nF) ln Q.",
+        "At 298 K: Ecell = E°cell - (0.0591/n) log Q.",
+        "Ecell is the cell potential under given conditions.",
+        "E°cell is the standard cell potential.",
+        "R is the gas constant, T is temperature in kelvin, n is the number of electrons transferred, F is the Faraday constant and Q is the reaction quotient.",
+        "For Daniel cell: Zn + Cu²⁺ → Zn²⁺ + Cu.",
+        "For Daniel cell, Q = [Zn²⁺]/[Cu²⁺] because pure solids Zn and Cu are not included.",
+        "For Daniel cell, n = 2 and E°cell = 1.10 V.",
+        "Nernst equation for Daniel cell: Ecell = 1.10 - (0.0591/2) log([Zn²⁺]/[Cu²⁺]).",
+        "Pure solids and pure liquids are not included in Q.",
+        "If product concentration increases, Q increases and Ecell decreases.",
+        "If reactant concentration increases, Q decreases and Ecell increases."
+      ]
+    },
+    {
+      "heading": "Equilibrium Constant and Cell Potential",
+      "text": "Cell potential is related to the equilibrium constant of a cell reaction. This relation is obtained from the Nernst equation.",
+      "points": [
+        "At equilibrium, Ecell = 0 because the reaction has no tendency to move forward or backward.",
+        "At equilibrium, Q = Kc.",
+        "At 298 K, Nernst equation is Ecell = E°cell - (0.0591/n) log Q.",
+        "Putting Ecell = 0 and Q = Kc gives: E°cell = (0.0591/n) log Kc.",
+        "Another form: log Kc = nE°cell / 0.0591.",
+        "If E°cell is positive, Kc is large and the forward reaction is favourable.",
+        "If E°cell is negative, Kc is very small and the forward reaction is not favourable.",
+        "For Daniel cell, E°cell = 1.10 V and n = 2.",
+        "log Kc = (2 × 1.10) / 0.0591 = 2.20 / 0.0591 ≈ 37.2.",
+        "Therefore, Kc = 10^37.2 for the Daniel cell reaction.",
+        "A very large Kc means the reaction strongly proceeds in the forward direction."
+      ]
+    },
+    {
+      "heading": "Gibbs Energy and Cell Potential",
+      "text": "The electrical work done by a cell is related to Gibbs free energy change. This relation helps to decide whether a cell reaction is spontaneous.",
+      "points": [
+        "Gibbs free energy change is represented by ΔG.",
+        "If ΔG is negative, the reaction is spontaneous.",
+        "If ΔG is positive, the reaction is non-spontaneous.",
+        "If ΔG is zero, the reaction is at equilibrium.",
+        "Relation between Gibbs energy and cell potential: ΔG = -nFEcell.",
+        "Under standard conditions: ΔG° = -nFE°cell.",
+        "F is Faraday constant. F = 96487 C mol⁻¹, usually taken as 96500 C mol⁻¹.",
+        "Faraday constant is the charge carried by one mole of electrons.",
+        "If Ecell > 0, then ΔG < 0 and the reaction is spontaneous.",
+        "If Ecell < 0, then ΔG > 0 and the reaction is non-spontaneous.",
+        "If Ecell = 0, then ΔG = 0 and the reaction is at equilibrium.",
+        "For Daniel cell, E°cell = 1.10 V and n = 2.",
+        "ΔG° = -2 × 96500 × 1.10 = -212300 J mol⁻¹ = -212.3 kJ mol⁻¹.",
+        "The negative value of ΔG° shows that the Daniel cell reaction is spontaneous."
+      ]
+    },
+    {
+      "heading": "Conductance of Electrolytic Solutions",
+      "text": "Electrolytic solutions conduct electricity because they contain ions. The ability of a solution to conduct electricity is called conductance.",
+      "points": [
+        "Electrolytes dissociate into ions in water. Example: NaCl → Na⁺ + Cl⁻.",
+        "When electricity is passed, cations move towards the cathode and anions move towards the anode.",
+        "In electrolytic solutions, current is carried by ions, not by electrons.",
+        "In metallic conductors such as copper, iron and aluminium, current is carried by electrons and no chemical change occurs.",
+        "In electrolytic conductors such as NaCl solution, HCl solution and CuSO₄ solution, current is carried by ions and chemical change may occur.",
+        "Resistance is the opposition offered to the flow of current. It is represented by R.",
+        "According to Ohm's law: R = V/I.",
+        "Unit of resistance is ohm, written as Ω.",
+        "Conductance is the reciprocal of resistance. It is represented by G.",
+        "Formula: G = 1/R.",
+        "Unit of conductance is ohm⁻¹ or siemens, written as S.",
+        "1 S = 1 Ω⁻¹.",
+        "Conductance depends on number of ions, mobility of ions, concentration of solution and temperature.",
+        "More ions and greater ionic mobility increase conductance.",
+        "Strong electrolytes such as HCl conduct better than weak electrolytes such as CH₃COOH.",
+        "On increasing temperature, ions move faster and conductance generally increases."
+      ]
+    },
+    {
+      "heading": "Conductivity or Specific Conductance",
+      "text": "Conductivity, also called specific conductance, tells how well an electrolytic solution conducts electricity. It is represented by κ, called kappa.",
+      "points": [
+        "Resistance of a conductor depends on length and area of cross-section.",
+        "Formula: R = ρ × l/A, where R is resistance, ρ is resistivity, l is length and A is area of cross-section.",
+        "Conductance is reciprocal of resistance: G = 1/R.",
+        "Since R = ρ × l/A, G = (1/ρ) × A/l.",
+        "The reciprocal of resistivity is conductivity: κ = 1/ρ.",
+        "Therefore, G = κ × A/l.",
+        "Conductivity formula: κ = G × l/A.",
+        "The ratio l/A is called cell constant.",
+        "Cell constant = l/A.",
+        "Unit of cell constant is cm⁻¹ or m⁻¹.",
+        "Conductivity = Conductance × Cell constant.",
+        "Unit of conductivity is S cm⁻¹ or S m⁻¹.",
+        "Conductivity is the conductance of a solution placed between two electrodes of 1 cm distance and 1 cm² area.",
+        "Conductivity depends on nature of electrolyte, concentration and temperature.",
+        "Strong electrolytes such as HCl, NaCl and KCl have higher conductivity.",
+        "Weak electrolytes such as CH₃COOH and NH₄OH have lower conductivity.",
+        "On dilution, conductivity decreases because the number of ions per unit volume decreases.",
+        "On increasing temperature, conductivity increases because ions move faster."
+      ]
+    },
+    {
+      "heading": "Molar Conductivity",
+      "text": "Molar conductivity is the conducting power of all the ions produced by one mole of an electrolyte in solution. It is represented by Λm.",
+      "points": [
+        "Molar conductivity means conductance due to all ions produced by one mole of electrolyte.",
+        "Formula: Λm = κ/c, where κ is conductivity and c is concentration in mol m⁻³.",
+        "Common Class 12 formula: Λm = κ × 1000 / C.",
+        "In this formula, κ is in S cm⁻¹, C is concentration in mol L⁻¹ and Λm is in S cm² mol⁻¹.",
+        "SI unit of molar conductivity is S m² mol⁻¹.",
+        "On dilution, molar conductivity increases because ions get more space to move freely.",
+        "Dilution decreases interionic attraction and increases ionic mobility.",
+        "Conductivity decreases on dilution because the number of ions per unit volume decreases.",
+        "Molar conductivity increases on dilution because ions move more freely and one mole of electrolyte occupies a larger volume.",
+        "Important memory point: Dilution decreases κ but increases Λm."
+      ]
+    },
+    {
+      "heading": "Variation of Molar Conductivity with Concentration",
+      "text": "Molar conductivity changes with concentration. On dilution, molar conductivity increases, but the increase is different for strong and weak electrolytes.",
+      "points": [
+        "When a solution is diluted, ions get more space to move, interionic attraction decreases and ionic mobility increases.",
+        "For strong electrolytes, ionisation is almost complete even at higher concentration.",
+        "Examples of strong electrolytes are NaCl, KCl, HCl and HNO₃.",
+        "For strong electrolytes, molar conductivity increases slowly on dilution because the number of ions does not increase much.",
+        "For strong electrolytes: Λm = Λ°m - A√c.",
+        "Λ°m is limiting molar conductivity, A is a constant and c is concentration.",
+        "Limiting molar conductivity is the maximum molar conductivity at infinite dilution.",
+        "At infinite dilution, c → 0 and Λm → Λ°m.",
+        "For strong electrolytes, the graph of Λm versus √c is almost a straight line.",
+        "Λ°m of strong electrolytes can be found by extrapolating the straight line to √c = 0.",
+        "Weak electrolytes ionise only partially in water.",
+        "Examples of weak electrolytes are CH₃COOH and NH₄OH.",
+        "For weak electrolytes, molar conductivity increases sharply on dilution because dilution increases degree of ionisation.",
+        "For acetic acid: CH₃COOH ⇌ CH₃COO⁻ + H⁺.",
+        "On dilution, more acetic acid molecules ionise, producing more ions and sharply increasing molar conductivity.",
+        "For weak electrolytes, the graph of Λm versus √c is a curve.",
+        "Λ°m of weak electrolytes cannot be obtained directly by extrapolation; Kohlrausch's law is used."
+      ]
+    },
+    {
+      "heading": "Kohlrausch's Law",
+      "text": "Kohlrausch's law is used to calculate limiting molar conductivity of electrolytes, especially weak electrolytes. It applies at infinite dilution, where ions are far apart and move independently.",
+      "points": [
+        "At infinite dilution, interionic attraction is almost absent and each ion moves independently.",
+        "Statement: At infinite dilution, each ion contributes independently to the total molar conductivity of the electrolyte.",
+        "For an electrolyte AxBy, Λ°m = xλ°+ + yλ°−.",
+        "λ°+ is limiting molar conductivity of the cation.",
+        "λ°− is limiting molar conductivity of the anion.",
+        "x and y are the number of cations and anions produced.",
+        "For NaCl: NaCl → Na⁺ + Cl⁻, so Λ°m(NaCl) = λ°Na⁺ + λ°Cl⁻.",
+        "For CaCl₂: CaCl₂ → Ca²⁺ + 2Cl⁻, so Λ°m(CaCl₂) = λ°Ca²⁺ + 2λ°Cl⁻.",
+        "For acetic acid: CH₃COOH ⇌ H⁺ + CH₃COO⁻, so Λ°m(CH₃COOH) = λ°H⁺ + λ°CH₃COO⁻.",
+        "Important formula: Λ°m(CH₃COOH) = Λ°m(HCl) + Λ°m(CH₃COONa) - Λ°m(NaCl).",
+        "This formula works because adding Λ°m(HCl) and Λ°m(CH₃COONa) gives extra Na⁺ and Cl⁻ ions, which are removed by subtracting Λ°m(NaCl).",
+        "Kohlrausch's law is used to calculate limiting molar conductivity of weak electrolytes.",
+        "It is also used to calculate degree of dissociation.",
+        "Degree of dissociation for a weak electrolyte: α = Λm / Λ°m.",
+        "After α is known, the dissociation constant of a weak electrolyte can be calculated."
+      ]
+    },
+    {
+      "heading": "Electrolysis",
+      "text": "Electrolysis is the process in which electricity is passed through an electrolyte to bring about a chemical reaction. It is a conversion of electrical energy into chemical change.",
+      "points": [
+        "Some chemical reactions are non-spontaneous and do not occur on their own. Electricity is used to make them occur.",
+        "Example: Water can be decomposed into hydrogen and oxygen by passing electricity.",
+        "Overall reaction for electrolysis of water: 2H₂O → 2H₂ + O₂.",
+        "Electrolysis takes place in an electrolytic cell.",
+        "An electrolytic cell contains an electrolyte, two electrodes and an external source of electricity such as a battery.",
+        "At the anode, oxidation occurs and anions move towards the anode.",
+        "At the cathode, reduction occurs and cations move towards the cathode.",
+        "In an electrolytic cell, the cathode is negative and the anode is positive.",
+        "The external battery pushes electrons towards the cathode, so cations gain electrons at the cathode.",
+        "In molten NaCl, ions present are Na⁺ and Cl⁻.",
+        "At cathode during electrolysis of molten NaCl: Na⁺ + e⁻ → Na.",
+        "At anode during electrolysis of molten NaCl: 2Cl⁻ → Cl₂ + 2e⁻.",
+        "Overall reaction: 2NaCl → 2Na + Cl₂.",
+        "In a galvanic cell, chemical energy is converted into electrical energy and the reaction is spontaneous.",
+        "In an electrolytic cell, electrical energy is converted into chemical change and the reaction is non-spontaneous.",
+        "In a galvanic cell, anode is negative and cathode is positive.",
+        "In an electrolytic cell, anode is positive and cathode is negative."
+      ]
+    },
+    {
+      "heading": "Faraday's Laws of Electrolysis",
+      "text": "Faraday's laws of electrolysis explain the relation between the amount of substance deposited or liberated at an electrode and the quantity of electricity passed through the electrolyte.",
+      "points": [
+        "Faraday's first law states that the amount of substance deposited or liberated at an electrode is directly proportional to the quantity of electricity passed through the electrolyte.",
+        "Mathematically: m ∝ Q.",
+        "Formula: m = ZQ, where m is mass deposited or liberated, Q is charge and Z is electrochemical equivalent.",
+        "Quantity of electricity: Q = I × t, where I is current in amperes and t is time in seconds.",
+        "Therefore, m = ZIt.",
+        "Electrochemical equivalent is the mass of substance deposited when 1 coulomb of charge is passed.",
+        "Unit of electrochemical equivalent is g C⁻¹.",
+        "Faraday constant is the charge carried by one mole of electrons.",
+        "F = 96487 C mol⁻¹, commonly taken as 96500 C mol⁻¹.",
+        "Faraday's second law states that when the same quantity of electricity is passed through different electrolytes, the masses of substances deposited or liberated are proportional to their equivalent masses.",
+        "Formula: m₁/m₂ = E₁/E₂.",
+        "Equivalent mass = Molar mass / n-factor.",
+        "For ions, n-factor is the number of electrons gained or lost.",
+        "For Ag⁺ + e⁻ → Ag, n-factor = 1 and equivalent mass of Ag = 108/1 = 108 g.",
+        "For Cu²⁺ + 2e⁻ → Cu, n-factor = 2 and equivalent mass of Cu = 63.5/2 = 31.75 g.",
+        "Important formula: m = (Q × M)/(nF).",
+        "Since Q = It, m = (I × t × M)/(nF).",
+        "For electrolysis of CuSO₄, Cu²⁺ + 2e⁻ → Cu, so n = 2.",
+        "To deposit 1 mole of Cu, 2 moles of electrons are required.",
+        "Charge required to deposit 1 mole of Cu = 2F = 2 × 96500 C = 193000 C.",
+        "Thus, 193000 C deposits 63.5 g of copper.",
+        "1 Faraday = 96500 C.",
+        "1 Faraday deposits 1 mole of Ag from Ag⁺ but only 1/2 mole of Cu from Cu²⁺."
+      ]
+    },
+    {
+      "heading": "Products of Electrolysis",
+      "text": "During electrolysis, products formed at the electrodes depend on the nature of electrolyte, nature of electrodes and concentration of electrolyte.",
+      "points": [
+        "At the cathode, reduction occurs. Cations move to cathode and gain electrons.",
+        "Example cathode reaction: Cu²⁺ + 2e⁻ → Cu.",
+        "At the anode, oxidation occurs. Anions move to anode and lose electrons.",
+        "Example anode reaction: 2Cl⁻ → Cl₂ + 2e⁻.",
+        "In electrolysis of molten NaCl, only Na⁺ and Cl⁻ ions are present.",
+        "Molten NaCl cathode reaction: Na⁺ + e⁻ → Na.",
+        "Molten NaCl anode reaction: 2Cl⁻ → Cl₂ + 2e⁻.",
+        "Overall reaction for molten NaCl: 2NaCl → 2Na + Cl₂.",
+        "Aqueous NaCl contains Na⁺, Cl⁻, H⁺ and OH⁻ ions.",
+        "In aqueous NaCl, water or H⁺ is reduced more easily than Na⁺ at the cathode.",
+        "Cathode reaction in aqueous NaCl: 2H₂O + 2e⁻ → H₂ + 2OH⁻.",
+        "At the anode in concentrated aqueous NaCl: 2Cl⁻ → Cl₂ + 2e⁻.",
+        "Products of aqueous NaCl with inert electrodes are H₂ at cathode and Cl₂ at anode, and the solution becomes basic due to NaOH formation.",
+        "Aqueous CuSO₄ contains Cu²⁺, SO₄²⁻, H⁺ and OH⁻.",
+        "With platinum electrodes in aqueous CuSO₄, Cu²⁺ is reduced at the cathode: Cu²⁺ + 2e⁻ → Cu.",
+        "At the anode with platinum electrodes, water is oxidised because sulphate ions are not easily oxidised: 2H₂O → O₂ + 4H⁺ + 4e⁻.",
+        "Products of aqueous CuSO₄ with platinum electrodes are Cu at cathode and O₂ at anode.",
+        "With copper electrodes in aqueous CuSO₄, copper is deposited at the cathode: Cu²⁺ + 2e⁻ → Cu.",
+        "At the copper anode, copper dissolves: Cu → Cu²⁺ + 2e⁻.",
+        "Using copper electrodes, copper moves from anode into solution and gets deposited at the cathode.",
+        "This principle is used in electroplating and electrorefining of copper.",
+        "Inert electrodes such as platinum and graphite do not take part in the reaction.",
+        "Active electrodes such as copper may take part in the electrode reaction.",
+        "Concentration affects products. Concentrated NaCl solution gives chlorine at the anode, while dilute solution may give oxygen at the anode."
+      ]
+    },
+    {
+      "heading": "Batteries",
+      "text": "A battery is a device that converts chemical energy into electrical energy. It is a combination of one or more electrochemical cells.",
+      "points": [
+        "Batteries are used in torches, watches, mobiles, laptops, cars and inverters.",
+        "In a battery, chemicals undergo redox reactions and produce electricity.",
+        "Primary batteries cannot be recharged. Once the chemicals are used up, the battery stops working.",
+        "Examples of primary batteries are dry cell and mercury cell.",
+        "Secondary batteries can be recharged because their chemical reaction can be reversed by passing electricity.",
+        "Examples of secondary batteries are lead storage battery and lithium-ion battery.",
+        "Dry cell is also called Leclanche cell and is used in torches and clocks.",
+        "In a dry cell, zinc container acts as anode.",
+        "In a dry cell, carbon rod surrounded by MnO₂ and carbon powder acts as cathode.",
+        "Electrolyte in dry cell is a paste of NH₄Cl and ZnCl₂.",
+        "At the anode of a dry cell: Zn → Zn²⁺ + 2e⁻.",
+        "Dry cell gives a voltage of about 1.5 V.",
+        "Mercury cell is used in watches, hearing aids and small electronic devices.",
+        "In mercury cell, anode is zinc-mercury amalgam and cathode is mercuric oxide, HgO.",
+        "Electrolyte in mercury cell is a paste of KOH and ZnO.",
+        "Cell reaction in mercury cell: Zn(Hg) + HgO → ZnO + Hg.",
+        "Mercury cell gives nearly constant voltage of about 1.35 V.",
+        "Lead storage battery is used in automobiles, cars and inverters.",
+        "Each cell of a lead storage battery gives about 2 V.",
+        "A 12 V car battery usually contains 6 cells connected in series.",
+        "In lead storage battery, anode is Pb, cathode is PbO₂ and electrolyte is H₂SO₄.",
+        "During discharge at anode: Pb + SO₄²⁻ → PbSO₄ + 2e⁻.",
+        "During discharge at cathode: PbO₂ + SO₄²⁻ + 4H⁺ + 2e⁻ → PbSO₄ + 2H₂O.",
+        "Overall discharge reaction: Pb + PbO₂ + 2H₂SO₄ → 2PbSO₄ + 2H₂O.",
+        "During discharge, both electrodes get converted into PbSO₄.",
+        "During charging, the reaction is reversed: 2PbSO₄ + 2H₂O → Pb + PbO₂ + 2H₂SO₄.",
+        "Lithium-ion batteries are rechargeable and are used in mobile phones, laptops and electric vehicles.",
+        "In lithium-ion batteries, lithium ions move between the electrodes during working."
+      ]
+    },
+    {
+      "heading": "Fuel Cells",
+      "text": "A fuel cell is a galvanic cell that continuously converts the chemical energy of a fuel into electrical energy. A common example is the hydrogen-oxygen fuel cell.",
+      "points": [
+        "In a hydrogen-oxygen fuel cell, hydrogen acts as the fuel.",
+        "Oxygen acts as the oxidising agent.",
+        "The product formed is water.",
+        "Overall reaction: 2H₂ + O₂ → 2H₂O.",
+        "Fuel cells are highly efficient.",
+        "Fuel cells are less polluting because the main product in the hydrogen-oxygen fuel cell is water."
+      ]
+    },
+    {
+      "heading": "Corrosion",
+      "text": "Corrosion is the slow destruction of metals due to reaction with substances present in the environment. Rusting of iron is the most common example of corrosion.",
+      "points": [
+        "Metals react with oxygen, moisture, carbon dioxide, acids and other substances in the atmosphere.",
+        "Due to these reactions, the metal surface gets damaged.",
+        "Rust is reddish-brown in colour.",
+        "Rust is hydrated ferric oxide: Fe₂O₃ · xH₂O.",
+        "Rusting of iron requires oxygen and water or moisture.",
+        "Iron rusts faster in moist air.",
+        "Corrosion is an electrochemical process because it involves oxidation and reduction.",
+        "Small electrochemical cells are formed on the metal surface.",
+        "Some parts of the metal surface act as anode and some parts act as cathode.",
+        "At the anode in rusting: Fe → Fe²⁺ + 2e⁻.",
+        "At the cathode in acidic medium: O₂ + 4H⁺ + 4e⁻ → 2H₂O.",
+        "At the cathode in neutral or basic medium: O₂ + 2H₂O + 4e⁻ → 4OH⁻.",
+        "Fe²⁺ ions are further oxidised to Fe³⁺ and then form hydrated ferric oxide, Fe₂O₃ · xH₂O.",
+        "Salts and acids increase rusting because they increase conductivity.",
+        "Iron rusts faster near sea water due to dissolved salts.",
+        "Corrosion can be prevented by painting, oiling, greasing, galvanisation, electroplating and cathodic protection.",
+        "Painting prevents contact of metal with air and water.",
+        "Oiling and greasing form a protective layer on metal surfaces.",
+        "In galvanisation, iron is coated with zinc. Zinc protects iron from rusting.",
+        "In electroplating, a metal is coated with another protective metal by electrolysis, such as chromium or nickel coating on iron.",
+        "In cathodic protection, iron is connected with a more reactive metal like magnesium or zinc.",
+        "The more reactive metal gets oxidised instead of iron, so iron is protected.",
+        "Zinc protects iron because zinc is more reactive and loses electrons more easily. This is called sacrificial protection.",
+        "Cathodic protection is used for underground pipelines and ships."
+      ]
+    }
+  ],
+  "summary": "",
+  "qa": []
+}

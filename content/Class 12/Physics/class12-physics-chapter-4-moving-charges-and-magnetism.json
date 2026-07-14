@@ -1,0 +1,367 @@
+{
+  "title": "Moving Charges and Magnetism",
+  "class": "12",
+  "subject": "Physics",
+  "chapter": "Chapter 4",
+  "book": "NCERT Physics",
+  "notes": [
+    {
+      "heading": "Introduction to Moving Charges and Magnetism",
+      "text": "Moving electric charges produce magnetic fields. A charge at rest produces only an electric field, while a moving charge produces both an electric field and a magnetic field. Since electric current is the flow of charges, a current-carrying wire produces a magnetic field around it and behaves like a magnet. This was shown by Oersted's experiment, where a compass needle deflects near a current-carrying wire.",
+      "points": [
+        "A stationary charge produces only an electric field.",
+        "A moving charge produces both electric and magnetic fields.",
+        "Electric current means flow of charges, so current produces magnetic field.",
+        "A compass needle deflects near a current-carrying wire, proving that electric current produces magnetic field.",
+        "The chapter studies how moving charges and currents produce magnetic fields and how magnetic fields exert force on moving charges and current-carrying conductors."
+      ]
+    },
+    {
+      "heading": "Magnetic Force on a Moving Charge",
+      "text": "A charged particle moving in a magnetic field experiences a magnetic force. The vector form is F = q(v × B), and the magnitude is F = qvB sinθ, where θ is the angle between velocity and magnetic field. This force is perpendicular to both velocity and magnetic field. For a negative charge, the direction of force is opposite to that given by the right-hand rule.",
+      "points": [
+        "Formula: F = qvB sinθ.",
+        "Vector form: F = q(v × B).",
+        "If the charge moves parallel to the magnetic field, θ = 0°, so F = 0.",
+        "If the charge moves perpendicular to the magnetic field, θ = 90°, so F = qvB and force is maximum.",
+        "If the charge is at rest, v = 0, so magnetic force is zero.",
+        "Magnetic force is perpendicular to velocity and magnetic field.",
+        "Magnetic force does no work because it is perpendicular to displacement.",
+        "Magnetic force changes direction of motion but not speed or kinetic energy."
+      ]
+    },
+    {
+      "heading": "Motion of Charged Particle in a Magnetic Field",
+      "text": "The path of a charged particle in a magnetic field depends on the angle between its velocity and the magnetic field. If the particle moves parallel to the field, no magnetic force acts and the path remains straight. If it moves perpendicular to the field, magnetic force acts as centripetal force and the particle moves in a circular path. If it enters at an angle, the path is helical.",
+      "points": [
+        "For motion parallel to magnetic field: F = 0 and path is straight.",
+        "For motion perpendicular to magnetic field: F = qvB and path is circular.",
+        "Magnetic force provides centripetal force: qvB = mv²/r.",
+        "Radius of circular path: r = mv/(qB).",
+        "Time period: T = 2πm/(qB).",
+        "Frequency: f = qB/(2πm), called cyclotron frequency.",
+        "Time period does not depend on velocity.",
+        "If velocity has parallel and perpendicular components, the parallel component moves the particle forward while the perpendicular component causes circular motion.",
+        "Motion at an angle to magnetic field produces a helical path."
+      ]
+    },
+    {
+      "heading": "Lorentz Force",
+      "text": "When a charged particle moves in a region where both electric field and magnetic field are present, the total force on the charge is called Lorentz force. Electric force is qE and can act on both stationary and moving charges. Magnetic force is q(v × B) and acts only on moving charges.",
+      "points": [
+        "Electric force: FE = qE.",
+        "Magnetic force: FB = q(v × B).",
+        "Lorentz force: F = q[E + (v × B)].",
+        "Electric force can change speed and kinetic energy.",
+        "Magnetic force generally changes direction and does no work.",
+        "The actual motion of a charged particle depends on the combined effect of electric and magnetic forces."
+      ]
+    },
+    {
+      "heading": "Magnetic Force on a Current-Carrying Conductor",
+      "text": "A current-carrying conductor placed in a magnetic field experiences force because the moving charges inside the conductor experience magnetic force. For a straight conductor of length l carrying current I in magnetic field B, the force is F = I(l × B), and its magnitude is F = IlB sinθ.",
+      "points": [
+        "Formula: F = IlB sinθ.",
+        "Vector form: F = I(l × B).",
+        "l is taken in the direction of current.",
+        "If the conductor is parallel to the magnetic field, θ = 0°, so force is zero.",
+        "If the conductor is perpendicular to the magnetic field, θ = 90°, so force is maximum: F = IlB.",
+        "Direction of force is given by Fleming's left-hand rule.",
+        "Fleming's left-hand rule: forefinger shows magnetic field, middle finger shows current, and thumb shows force or motion.",
+        "This principle is used in electric motors, moving coil galvanometers, and loudspeakers."
+      ]
+    },
+    {
+      "heading": "Motion in Combined Electric and Magnetic Fields and Velocity Selector",
+      "text": "In crossed electric and magnetic fields, the electric and magnetic forces on a charged particle can act in opposite directions. If these forces are equal in magnitude, the particle passes without deflection. This condition is used in a velocity selector.",
+      "points": [
+        "Electric force: FE = qE.",
+        "Magnetic force: FB = qvB.",
+        "For no deflection: qE = qvB.",
+        "Selected velocity: v = E/B.",
+        "A velocity selector allows only particles with velocity E/B to pass undeflected.",
+        "The selected velocity does not depend on charge or mass.",
+        "Particles with speeds other than E/B are deflected."
+      ]
+    },
+    {
+      "heading": "Biot-Savart Law",
+      "text": "Biot-Savart law gives the magnetic field produced at a point by a small current element. For a current element I dl, the magnetic field dB is directly proportional to current, length of current element, and sinθ, and inversely proportional to the square of distance from the current element.",
+      "points": [
+        "Current element is written as I dl.",
+        "Formula: dB = (μ0/4π) I dl sinθ / r².",
+        "Vector form: dB = (μ0/4π) I(dl × r̂)/r².",
+        "μ0/4π = 10⁻⁷ T m A⁻¹.",
+        "If θ = 0°, dB = 0.",
+        "If θ = 90°, dB is maximum.",
+        "The direction of dB is perpendicular to the plane containing dl and r.",
+        "Biot-Savart law is used to calculate magnetic fields due to straight wires, circular loops, and current-carrying coils."
+      ]
+    },
+    {
+      "heading": "Magnetic Field due to a Straight Current-Carrying Wire",
+      "text": "A long straight wire carrying current produces magnetic field lines in the form of concentric circles around the wire. The magnetic field at distance r from a long straight wire carrying current I is B = μ0I/(2πr).",
+      "points": [
+        "Formula: B = μ0I/(2πr).",
+        "Magnetic field is directly proportional to current: B ∝ I.",
+        "Magnetic field is inversely proportional to distance: B ∝ 1/r.",
+        "Field is stronger near the wire and weaker far from the wire.",
+        "Direction of magnetic field is found using right-hand thumb rule.",
+        "Right-hand thumb rule: thumb points in direction of current and curled fingers show magnetic field direction.",
+        "Field lines around a straight wire are circular, concentric, and perpendicular to the wire."
+      ]
+    },
+    {
+      "heading": "Magnetic Field on the Axis of a Circular Current Loop",
+      "text": "A circular current loop produces a magnetic field. The axis of the loop is the line passing through the centre of the loop and perpendicular to its plane. The magnetic field at a point on this axis depends on the radius of the loop, current, and distance from the centre.",
+      "points": [
+        "For one circular loop: B = μ0IR²/[2(R² + x²)^(3/2)].",
+        "For N turns: B = μ0NIR²/[2(R² + x²)^(3/2)].",
+        "At the centre, x = 0, so B = μ0I/(2R).",
+        "For N turns at the centre: B = μ0NI/(2R).",
+        "Direction is found by curling fingers of right hand in the direction of current; thumb gives magnetic field on the axis.",
+        "Anticlockwise current as seen from one side gives magnetic field towards the observer.",
+        "Clockwise current as seen from one side gives magnetic field away from the observer.",
+        "A current loop behaves like a small bar magnet with one face as north pole and the other as south pole."
+      ]
+    },
+    {
+      "heading": "Ampere's Circuital Law",
+      "text": "Ampere's circuital law relates the magnetic field around a closed path to the current enclosed by that path. It is very useful for finding magnetic field in symmetrical situations.",
+      "points": [
+        "Statement: The line integral of magnetic field around a closed path is equal to μ0 times the total current enclosed by the path.",
+        "Formula: ∮ B · dl = μ0 I_enclosed.",
+        "The closed path used is called an Amperian loop.",
+        "Only current enclosed by the closed path is counted.",
+        "Current outside the closed path is not included.",
+        "Ampere's law is useful for long straight wires, solenoids, and toroids.",
+        "For a long straight wire, Ampere's law gives B = μ0I/(2πr)."
+      ]
+    },
+    {
+      "heading": "Magnetic Field due to a Solenoid",
+      "text": "A solenoid is a long cylindrical coil made by winding many turns of insulated wire closely. When current flows through it, each turn acts like a current loop, and the magnetic fields of all turns add together. Inside a long solenoid, the magnetic field is strong and nearly uniform.",
+      "points": [
+        "Magnetic field inside a long solenoid: B = μ0nI.",
+        "n is number of turns per unit length: n = N/l.",
+        "Therefore, B = μ0(N/l)I.",
+        "Magnetic field is directly proportional to current.",
+        "Magnetic field is directly proportional to number of turns per unit length.",
+        "Inside a long solenoid, field lines are straight, parallel, and equally spaced.",
+        "Outside a long solenoid, magnetic field is very weak and nearly zero.",
+        "A current-carrying solenoid behaves like a bar magnet with north and south poles.",
+        "Direction of magnetic field is found by right-hand rule: curled fingers show current and thumb points to north pole."
+      ]
+    },
+    {
+      "heading": "Magnetic Field due to a Toroid",
+      "text": "A toroid is a solenoid bent into a circular ring. When current flows through a toroid, magnetic field is mainly confined inside the body of the toroid and is nearly zero outside.",
+      "points": [
+        "A toroid is a circular solenoid.",
+        "Magnetic field inside the toroid: B = μ0NI/(2πr).",
+        "Since n = N/(2πr), B = μ0nI.",
+        "In the hollow space inside a toroid, magnetic field is zero.",
+        "Inside the body/core of the toroid, magnetic field exists.",
+        "Outside the toroid, magnetic field is almost zero.",
+        "Magnetic field lines remain confined inside the circular core.",
+        "The direction of magnetic field is along the circular path inside the toroid.",
+        "Solenoid is a straight cylindrical coil with two ends; toroid is a circular ring-shaped coil with no free ends."
+      ]
+    },
+    {
+      "heading": "Force Between Two Parallel Current-Carrying Conductors",
+      "text": "Two parallel current-carrying conductors exert forces on each other. Each wire produces a magnetic field, and the other wire experiences force in that magnetic field. Currents in the same direction attract, while currents in opposite directions repel.",
+      "points": [
+        "Force per unit length: F/L = μ0I1I2/(2πd).",
+        "I1 and I2 are the currents in the two wires.",
+        "d is the distance between the wires.",
+        "Same direction currents attract each other.",
+        "Opposite direction currents repel each other.",
+        "Force increases with the product of currents: F ∝ I1I2.",
+        "Force decreases with distance: F ∝ 1/d.",
+        "One ampere is defined using the force between two infinitely long parallel conductors."
+      ]
+    },
+    {
+      "heading": "Definition of Ampere",
+      "text": "The SI unit ampere can be defined using the magnetic force between two long parallel current-carrying conductors placed in vacuum.",
+      "points": [
+        "One ampere is the current which, when flowing through each of two infinitely long straight parallel conductors placed one metre apart in vacuum, produces a force of 2 × 10⁻⁷ N m⁻¹ on each conductor.",
+        "The definition is based on the force per unit length between parallel current-carrying wires.",
+        "The force per unit length for two wires is F/L = μ0I1I2/(2πd)."
+      ]
+    },
+    {
+      "heading": "Torque on a Current Loop in a Magnetic Field",
+      "text": "A current-carrying loop placed in a uniform magnetic field experiences a turning effect called torque. This happens because magnetic forces on opposite sides of the loop are equal and opposite but act at different points, forming a couple.",
+      "points": [
+        "Torque on a current loop: τ = NIAB sinθ.",
+        "N is number of turns, I is current, A is area, B is magnetic field.",
+        "θ is the angle between magnetic moment and magnetic field.",
+        "Magnetic moment of current loop: M = NIA.",
+        "Torque can be written as τ = MB sinθ.",
+        "Vector form: τ = M × B.",
+        "Torque is zero when magnetic moment is parallel or antiparallel to magnetic field.",
+        "Torque is maximum when magnetic moment is perpendicular to magnetic field.",
+        "A current loop tries to rotate so that its magnetic moment becomes parallel to the magnetic field.",
+        "This is the principle behind electric motors and moving coil galvanometers."
+      ]
+    },
+    {
+      "heading": "Moving Coil Galvanometer",
+      "text": "A moving coil galvanometer is an instrument used to detect and measure small electric currents. It works on the principle that a current-carrying coil placed in a magnetic field experiences torque.",
+      "points": [
+        "Main parts: rectangular coil, strong horseshoe magnet, soft iron core, spring, pointer, and scale.",
+        "In a radial magnetic field, deflecting torque is τ = NIAB.",
+        "Restoring torque due to spring is τ = kφ.",
+        "At equilibrium: NIAB = kφ.",
+        "Deflection: φ = NIAB/k.",
+        "Therefore, φ ∝ I; deflection is directly proportional to current.",
+        "Current sensitivity: φ/I = NAB/k.",
+        "Voltage sensitivity: φ/V = NAB/(kR).",
+        "Current sensitivity increases by increasing N, A, or B and by decreasing k.",
+        "A moving coil galvanometer is used to make ammeters and voltmeters."
+      ]
+    },
+    {
+      "heading": "Conversion of Galvanometer into Ammeter",
+      "text": "A galvanometer measures only small currents, while an ammeter measures larger currents. A galvanometer is converted into an ammeter by connecting a low resistance called shunt in parallel with it.",
+      "points": [
+        "Shunt is a low resistance connected in parallel with the galvanometer.",
+        "Most of the current passes through the shunt and only a small safe current passes through the galvanometer.",
+        "Total current is I; galvanometer current is Ig; shunt current is I - Ig.",
+        "Since galvanometer and shunt are in parallel, IgG = (I - Ig)S.",
+        "Shunt resistance: S = IgG/(I - Ig).",
+        "An ammeter has very low resistance.",
+        "An ideal ammeter has zero resistance.",
+        "An ammeter is connected in series with the circuit."
+      ]
+    },
+    {
+      "heading": "Conversion of Galvanometer into Voltmeter",
+      "text": "A galvanometer is converted into a voltmeter by connecting a high resistance in series with it. A voltmeter measures potential difference between two points and is connected in parallel with the component.",
+      "points": [
+        "To make a voltmeter, connect high series resistance with the galvanometer.",
+        "Total resistance of voltmeter is G + R.",
+        "Using Ohm's law: V = Ig(G + R).",
+        "Series resistance: R = V/Ig - G.",
+        "A voltmeter has very high resistance.",
+        "An ideal voltmeter has infinite resistance.",
+        "A voltmeter is connected in parallel across the component.",
+        "High resistance prevents the voltmeter from drawing large current and disturbing the circuit."
+      ]
+    },
+    {
+      "heading": "Magnetic Dipole Moment of a Revolving Electron",
+      "text": "An electron revolving around the nucleus behaves like a small current loop because a moving charge constitutes current. Therefore, a revolving electron has a magnetic dipole moment and behaves like a tiny magnet.",
+      "points": [
+        "Time period of electron in circular orbit: T = 2πr/v.",
+        "Current due to revolving electron: I = e/T = ev/(2πr).",
+        "Area of orbit: A = πr².",
+        "Magnetic dipole moment: M = IA = evr/2.",
+        "Angular momentum of electron: L = mvr.",
+        "Relation: M = (e/2m)L.",
+        "Since electron has negative charge, magnetic moment is opposite to angular momentum.",
+        "Vector relation: M = -(e/2m)L.",
+        "Bohr magneton: μB = eh/(4πm).",
+        "Value of Bohr magneton: 9.27 × 10⁻²⁴ A m²."
+      ]
+    },
+    {
+      "heading": "Cyclotron",
+      "text": "A cyclotron is a device used to accelerate charged particles such as protons, deuterons, and alpha particles to very high speeds. It uses a perpendicular magnetic field to keep the particle moving in a circular path and an alternating electric field to accelerate it across the gap between two dees.",
+      "points": [
+        "Principle: a charged particle moving perpendicular to a magnetic field moves in a circular path.",
+        "Magnetic force provides centripetal force: qvB = mv²/r.",
+        "Radius of path: r = mv/(qB).",
+        "Main parts: two D-shaped metal chambers called dees, strong magnetic field, high-frequency alternating electric field, and source of charged particles.",
+        "Inside a dee, there is no electric field; the particle moves in a semicircle due to magnetic field.",
+        "When the particle crosses the gap between dees, it is accelerated by the electric field.",
+        "As speed increases, radius increases and the particle follows a spiral path.",
+        "Cyclotron frequency: f = qB/(2πm).",
+        "Time period: T = 2πm/(qB), independent of velocity.",
+        "Maximum kinetic energy: K = q²B²R²/(2m).",
+        "Cyclotron cannot accelerate neutral particles such as neutrons.",
+        "Ordinary cyclotron is not suitable for electrons because electrons become relativistic at high speeds and go out of step with the applied alternating field.",
+        "Cyclotrons are used in nuclear reactions, production of radioactive isotopes, and some particle-beam cancer treatments."
+      ]
+    },
+    {
+      "heading": "Quick Revision of Important Formulas",
+      "text": "The chapter can be revised through a set of important formulas connecting magnetic force, magnetic field, torque, galvanometer conversion, revolving electron, and cyclotron.",
+      "points": [
+        "Magnetic force on moving charge: F = qvB sinθ.",
+        "Lorentz force: F = q[E + (v × B)].",
+        "Radius of circular path: r = mv/(qB).",
+        "Time period: T = 2πm/(qB).",
+        "Cyclotron frequency: f = qB/(2πm).",
+        "Velocity selector: v = E/B.",
+        "Biot-Savart law: dB = (μ0/4π) I dl sinθ/r².",
+        "Magnetic field due to long straight wire: B = μ0I/(2πr).",
+        "Magnetic field at centre of circular loop: B = μ0I/(2R).",
+        "Magnetic field inside solenoid: B = μ0nI.",
+        "Magnetic field inside toroid: B = μ0NI/(2πr).",
+        "Force per unit length between parallel wires: F/L = μ0I1I2/(2πd).",
+        "Torque on current loop: τ = NIAB sinθ.",
+        "Magnetic moment of current loop: M = NIA.",
+        "Galvanometer to ammeter: S = IgG/(I - Ig).",
+        "Galvanometer to voltmeter: R = V/Ig - G.",
+        "Magnetic moment of revolving electron: M = evr/2.",
+        "Bohr magneton: μB = eh/(4πm).",
+        "Maximum kinetic energy in cyclotron: K = q²B²R²/(2m)."
+      ]
+    },
+    {
+      "heading": "Numerical 1: Magnetic Force on a Moving Charge",
+      "text": "A charge of 2 × 10⁻⁶ C moves with velocity 3 × 10⁴ m/s perpendicular to a magnetic field of 0.5 T. Since θ = 90°, F = qvB. Substituting values: F = 2 × 10⁻⁶ × 3 × 10⁴ × 0.5 = 3 × 10⁻² N = 0.03 N.",
+      "points": [
+        "Given: q = 2 × 10⁻⁶ C, v = 3 × 10⁴ m/s, B = 0.5 T.",
+        "Formula: F = qvB sinθ.",
+        "For perpendicular motion, sin90° = 1, so F = qvB.",
+        "Answer: F = 0.03 N."
+      ]
+    },
+    {
+      "heading": "Numerical 2: Charge Moving Parallel to Magnetic Field",
+      "text": "If a charged particle moves parallel to a magnetic field, the angle between velocity and magnetic field is 0°. Since magnetic force F = qvB sinθ and sin0° = 0, the force on the charge is zero.",
+      "points": [
+        "Formula: F = qvB sinθ.",
+        "For parallel motion, θ = 0°.",
+        "sin0° = 0.",
+        "Answer: F = 0.",
+        "A charge moving parallel to magnetic field experiences no magnetic force."
+      ]
+    },
+    {
+      "heading": "Numerical 3: Radius of Circular Path of Proton",
+      "text": "A proton of charge 1.6 × 10⁻¹⁹ C and mass 1.67 × 10⁻²⁷ kg moves with speed 2 × 10⁶ m/s perpendicular to a magnetic field of 0.5 T. Using r = mv/(qB), r = (1.67 × 10⁻²⁷ × 2 × 10⁶)/(1.6 × 10⁻¹⁹ × 0.5) = 4.175 × 10⁻² m ≈ 4.2 cm.",
+      "points": [
+        "Given: q = 1.6 × 10⁻¹⁹ C, m = 1.67 × 10⁻²⁷ kg, v = 2 × 10⁶ m/s, B = 0.5 T.",
+        "Formula: r = mv/(qB).",
+        "Answer: r = 0.04175 m.",
+        "Approximate answer: r = 4.2 cm."
+      ]
+    },
+    {
+      "heading": "Numerical 4: Magnetic Field due to Straight Wire",
+      "text": "A long straight wire carries current 10 A. The magnetic field at distance 0.05 m from the wire is calculated using B = μ0I/(2πr). Substituting μ0 = 4π × 10⁻⁷ T m A⁻¹ gives B = (4π × 10⁻⁷ × 10)/(2π × 0.05) = 4 × 10⁻⁵ T.",
+      "points": [
+        "Given: I = 10 A, r = 0.05 m.",
+        "Formula: B = μ0I/(2πr).",
+        "Use μ0 = 4π × 10⁻⁷ T m A⁻¹.",
+        "Answer: B = 4 × 10⁻⁵ T."
+      ]
+    },
+    {
+      "heading": "Numerical 5: Magnetic Field at Centre of Circular Loop",
+      "text": "A circular loop of radius 0.1 m carries current 5 A. The magnetic field at its centre is B = μ0I/(2R). Substituting values gives B = (4π × 10⁻⁷ × 5)/(2 × 0.1) = π × 10⁻⁵ T = 3.14 × 10⁻⁵ T.",
+      "points": [
+        "Given: R = 0.1 m, I = 5 A.",
+        "Formula: B = μ0I/(2R).",
+        "Answer: B = 3.14 × 10⁻⁵ T."
+      ]
+    }
+  ],
+  "summary": "",
+  "qa": []
+}

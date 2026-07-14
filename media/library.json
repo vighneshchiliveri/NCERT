@@ -208,6 +208,171 @@
       "icon": "🌍",
       "description": "Racial discrimination, caste discrimination, cultural suppression, humiliation, resistance, and the power of education.",
       "contentHref": "content/Class 12/English/class12-english-vistas-chapter-8-memories-of-childhood.json"
+    },
+    {
+      "id": "class12-chemistry-chapter-2-electrochemistry",
+      "title": "Electrochemistry",
+      "class": "12",
+      "subject": "Chemistry",
+      "chapter": "Chapter 2",
+      "book": "NCERT Chemistry",
+      "icon": "🧪",
+      "description": "Electrochemistry is the branch of chemistry that deals with the relationship between chemical energy and electrical energy. It explains how chemical reactions can produce electricity and how electricity can bring about che...",
+      "contentHref": "content/Class 12/Chemistry/class12-chemistry-chapter-2-electrochemistry.json"
+    },
+    {
+      "id": "class12-chemistry-chapter-3-chemical-kinetics",
+      "title": "Chemical Kinetics",
+      "class": "12",
+      "subject": "Chemistry",
+      "chapter": "Chapter 3",
+      "book": "NCERT Chemistry",
+      "icon": "🧪",
+      "description": "Chemical kinetics is the branch of chemistry that deals with the speed of chemical reactions and the factors affecting the speed. It explains how fast a reaction happens, why some reactions are fast or slow, and how the sp...",
+      "contentHref": "content/Class 12/Chemistry/class12-chemistry-chapter-3-chemical-kinetics.json"
+    },
+    {
+      "id": "class12-chemistry-chapter-5-coordination-compounds",
+      "title": "Coordination Compounds",
+      "class": "12",
+      "subject": "Chemistry",
+      "chapter": "Chapter 5",
+      "book": "NCERT Chemistry",
+      "icon": "🧪",
+      "description": "A coordination compound is a compound in which a central metal atom or ion is surrounded by molecules or ions called ligands. These ligands are attached to the central metal by coordinate bonds. The metal ion acts as the c...",
+      "contentHref": "content/Class 12/Chemistry/class12-chemistry-chapter-5-coordination-compounds.json"
+    },
+    {
+      "id": "class12-chemistry-chapter-6-haloalkanes-and-haloarenes",
+      "title": "Haloalkanes and Haloarenes",
+      "class": "12",
+      "subject": "Chemistry",
+      "chapter": "Chapter 6",
+      "book": "NCERT Chemistry",
+      "icon": "🧪",
+      "description": "Haloalkanes and haloarenes are organic compounds formed when one or more hydrogen atoms in hydrocarbons are replaced by halogen atoms such as F, Cl, Br or I.",
+      "contentHref": "content/Class 12/Chemistry/class12-chemistry-chapter-6-haloalkanes-and-haloarenes.json"
+    },
+    {
+      "id": "class12-chemistry-chapter-7-alcohols-phenols-and-ethers",
+      "title": "Alcohols, Phenols and Ethers",
+      "class": "12",
+      "subject": "Chemistry",
+      "chapter": "Chapter 7",
+      "book": "NCERT Chemistry",
+      "icon": "🧪",
+      "description": "This chapter deals with organic compounds containing oxygen. Alcohols, phenols and ethers are important classes of organic compounds.",
+      "contentHref": "content/Class 12/Chemistry/class12-chemistry-chapter-7-alcohols-phenols-and-ethers.json"
+    },
+    {
+      "id": "class12-chemistry-chapter-8-aldehydes-ketones-and-carboxylic-acids",
+      "title": "Aldehydes, Ketones and Carboxylic Acids",
+      "class": "12",
+      "subject": "Chemistry",
+      "chapter": "Chapter 8",
+      "book": "NCERT Chemistry",
+      "icon": "🧪",
+      "description": "This chapter deals with organic compounds containing the carbonyl group, >C=O. Aldehydes and ketones are called carbonyl compounds. Carboxylic acids also contain a carbonyl group, but they have an additional hydroxyl group...",
+      "contentHref": "content/Class 12/Chemistry/class12-chemistry-chapter-8-aldehydes-ketones-and-carboxylic-acids.json"
+    },
+    {
+      "id": "class12-chemistry-chapter-9-amines",
+      "title": "Amines",
+      "class": "12",
+      "subject": "Chemistry",
+      "chapter": "Chapter 9",
+      "book": "NCERT Chemistry",
+      "icon": "🧪",
+      "description": "Amines are organic compounds derived from ammonia, NH3. In ammonia, nitrogen is bonded to three hydrogen atoms. When one or more hydrogen atoms of ammonia are replaced by alkyl groups or aryl groups, the compounds formed a...",
+      "contentHref": "content/Class 12/Chemistry/class12-chemistry-chapter-9-amines.json"
+    },
+    {
+      "id": "class12-chemistry-chapter-10-biomolecules",
+      "title": "Biomolecules",
+      "class": "12",
+      "subject": "Chemistry",
+      "chapter": "Chapter 10",
+      "book": "NCERT Chemistry",
+      "icon": "🧪",
+      "description": "Biomolecules are naturally occurring chemical substances present in living organisms. They are essential for life processes such as growth, energy production, repair, protection, reproduction, heredity and regulation of bo...",
+      "contentHref": "content/Class 12/Chemistry/class12-chemistry-chapter-10-biomolecules.json"
+    },
+    {
+      "id": "class12-physics-chapter-3-current-electricity",
+      "title": "Current Electricity",
+      "class": "12",
+      "subject": "Physics",
+      "chapter": "Chapter 3",
+      "book": "NCERT Physics",
+      "icon": "⚛️",
+      "description": "Electric current means the flow of electric charge through a conductor. In a metal wire, the charges that move are free electrons. When a battery is connected, these electrons drift through the wire and current is produced...",
+      "contentHref": "content/Class 12/Physics/class12-physics-chapter-3-current-electricity.json"
+    },
+    {
+      "id": "class12-physics-chapter-4-moving-charges-and-magnetism",
+      "title": "Moving Charges and Magnetism",
+      "class": "12",
+      "subject": "Physics",
+      "chapter": "Chapter 4",
+      "book": "NCERT Physics",
+      "icon": "⚛️",
+      "description": "Moving electric charges produce magnetic fields. A charge at rest produces only an electric field, while a moving charge produces both an electric field and a magnetic field. Since electric current is the flow of charges,...",
+      "contentHref": "content/Class 12/Physics/class12-physics-chapter-4-moving-charges-and-magnetism.json"
+    },
+    {
+      "id": "class12-physics-chapter-6-electromagnetic-induction",
+      "title": "Electromagnetic Induction",
+      "class": "12",
+      "subject": "Physics",
+      "chapter": "Chapter 6",
+      "book": "NCERT Physics",
+      "icon": "⚛️",
+      "description": "Electromagnetic induction is the phenomenon of producing an electric current or emf in a coil or circuit by changing the magnetic field or magnetic flux linked with it. Electricity can produce magnetism, and changing magne...",
+      "contentHref": "content/Class 12/Physics/class12-physics-chapter-6-electromagnetic-induction.json"
+    },
+    {
+      "id": "class12-physics-chapter-8-electromagnetic-waves",
+      "title": "Electromagnetic Waves",
+      "class": "12",
+      "subject": "Physics",
+      "chapter": "Chapter 8",
+      "book": "NCERT Physics",
+      "icon": "⚛️",
+      "description": "Ampere’s circuital law in its original form was incomplete for situations where electric field changes with time, especially during the charging of a capacitor.",
+      "contentHref": "content/Class 12/Physics/class12-physics-chapter-8-electromagnetic-waves.json"
+    },
+    {
+      "id": "class12-physics-chapter-9-ray-optics-and-optical-instruments",
+      "title": "Ray Optics and Optical Instruments",
+      "class": "12",
+      "subject": "Physics",
+      "chapter": "Chapter 9",
+      "book": "NCERT Physics",
+      "icon": "⚛️",
+      "description": "Ray optics, also called geometrical optics, is the branch of optics in which light is treated as travelling in straight lines called rays. It studies how light travels, reflects, refracts, forms images, and works in optica...",
+      "contentHref": "content/Class 12/Physics/class12-physics-chapter-9-ray-optics-and-optical-instruments.json"
+    },
+    {
+      "id": "class12-physics-chapter-12-atoms",
+      "title": "Atoms",
+      "class": "12",
+      "subject": "Physics",
+      "chapter": "Chapter 12",
+      "book": "NCERT Physics",
+      "icon": "⚛️",
+      "description": "After the discovery of the electron, J.J. Thomson proposed a model to explain how positive and negative charges are arranged inside an atom. According to Thomson, an atom is a positively charged sphere in which electrons a...",
+      "contentHref": "content/Class 12/Physics/class12-physics-chapter-12-atoms.json"
+    },
+    {
+      "id": "class12-physics-chapter-13-nuclei",
+      "title": "Nuclei",
+      "class": "12",
+      "subject": "Physics",
+      "chapter": "Chapter 13",
+      "book": "NCERT Physics",
+      "icon": "⚛️",
+      "description": "An atom has a very small central part called the nucleus. Almost the entire mass of the atom is concentrated in the nucleus. The nucleus contains protons and neutrons. Protons and neutrons together are called nucleons.",
+      "contentHref": "content/Class 12/Physics/class12-physics-chapter-13-nuclei.json"
     }
   ]
 }

@@ -1,0 +1,405 @@
+{
+  "title": "Chemical Kinetics",
+  "class": "12",
+  "subject": "Chemistry",
+  "chapter": "Chapter 3",
+  "book": "NCERT Chemistry",
+  "notes": [
+    {
+      "heading": "Introduction to Chemical Kinetics",
+      "text": "Chemical kinetics is the branch of chemistry that deals with the speed of chemical reactions and the factors affecting the speed. It explains how fast a reaction happens, why some reactions are fast or slow, and how the speed of a reaction can be increased or decreased. Thermodynamics tells whether a reaction is possible or not, while chemical kinetics tells how fast the reaction occurs.",
+      "points": [
+        "Chemical kinetics is the study of the rate of chemical reactions and the mechanism by which reactions occur.",
+        "Fast reaction example: AgNO3 + NaCl → AgCl↓ + NaNO3. A white precipitate of silver chloride forms immediately.",
+        "Slow reaction example: 4Fe + 3O2 + xH2O → 2Fe2O3·xH2O. Rusting of iron takes a long time.",
+        "Moderately slow reaction example: CH3COOC2H5 + H2O → CH3COOH + C2H5OH. Hydrolysis of ester takes some time.",
+        "Important topics in chemical kinetics include rate of reaction, order of reaction, molecularity, rate law, effect of concentration, temperature and catalyst, half-life, and activation energy.",
+        "Example: Diamond can convert into graphite because graphite is more stable, but the process is extremely slow. Therefore, diamond remains diamond for a very long time."
+      ]
+    },
+    {
+      "heading": "Rate of a Chemical Reaction",
+      "text": "The rate of a chemical reaction is the speed at which reactants are converted into products. During a reaction, the concentration of reactants decreases and the concentration of products increases with time.",
+      "points": [
+        "For a reaction A → B, A is the reactant and B is the product.",
+        "Rate = decrease in concentration of reactant / time taken.",
+        "Rate = increase in concentration of product / time taken.",
+        "Rate of disappearance of A = -Δ[A]/Δt.",
+        "Rate of appearance of B = +Δ[B]/Δt.",
+        "The negative sign is used for reactants because their concentration decreases with time, but rate is always taken as positive.",
+        "Unit of rate of reaction = mol L^-1 s^-1.",
+        "Example: If concentration of A changes from 0.50 mol L^-1 to 0.30 mol L^-1 in 10 s, then Δ[A] = 0.30 - 0.50 = -0.20 mol L^-1. Rate = -(-0.20)/10 = 0.02 mol L^-1 s^-1.",
+        "Rate of reaction is the change in concentration of reactants or products per unit time."
+      ]
+    },
+    {
+      "heading": "Average Rate and Instantaneous Rate",
+      "text": "The rate of reaction can be studied as average rate or instantaneous rate. Average rate is measured over a time interval, while instantaneous rate is measured at a particular instant of time.",
+      "points": [
+        "Average rate is the rate of reaction during a given time interval.",
+        "For A → B, average rate = -Δ[A]/Δt or +Δ[B]/Δt.",
+        "Example: If concentration of A changes from 0.60 mol L^-1 to 0.40 mol L^-1 in 20 s, then Δ[A] = -0.20 mol L^-1 and average rate = -(-0.20)/20 = 0.01 mol L^-1 s^-1.",
+        "Instantaneous rate is the rate of reaction at a particular instant of time.",
+        "When Δt → 0, average rate becomes instantaneous rate.",
+        "For reactant A, instantaneous rate = -d[A]/dt.",
+        "For product B, instantaneous rate = +d[B]/dt.",
+        "Average rate uses Δ symbol, while instantaneous rate uses d symbol.",
+        "For most chemical reactions, rate is maximum at the beginning because concentration of reactants is high. As time passes, reactant concentration decreases and rate also decreases."
+      ]
+    },
+    {
+      "heading": "Rate of Reaction for Stoichiometric Reactions",
+      "text": "For reactions having stoichiometric coefficients, the rate of reaction is written by dividing the rate of disappearance or appearance of each substance by its coefficient in the balanced equation.",
+      "points": [
+        "For a simple reaction A → B, Rate = -d[A]/dt = +d[B]/dt.",
+        "For a general reaction aA + bB → cC + dD, Rate = -(1/a)d[A]/dt = -(1/b)d[B]/dt = +(1/c)d[C]/dt = +(1/d)d[D]/dt.",
+        "We divide by stoichiometric coefficients because substances may be consumed or formed in different amounts.",
+        "Example: For 2HI → H2 + I2, Rate = -(1/2)d[HI]/dt = +d[H2]/dt = +d[I2]/dt.",
+        "Example: For N2 + 3H2 → 2NH3, Rate = -d[N2]/dt = -(1/3)d[H2]/dt = +(1/2)d[NH3]/dt.",
+        "Example: For 2N2O5 → 4NO2 + O2, Rate = -(1/2)d[N2O5]/dt = +(1/4)d[NO2]/dt = +d[O2]/dt.",
+        "Use negative sign for reactants because their concentration decreases.",
+        "Use positive sign for products because their concentration increases."
+      ]
+    },
+    {
+      "heading": "Factors Affecting Rate of Reaction",
+      "text": "The rate of a chemical reaction depends on several factors such as concentration of reactants, temperature, catalyst, nature of reactants, surface area, and light.",
+      "points": [
+        "Concentration of reactants: Generally, when concentration increases, rate increases because particles collide more frequently.",
+        "Example: Zn + 2HCl → ZnCl2 + H2. Zinc reacts faster with concentrated HCl than with dilute HCl.",
+        "Temperature: Rate increases when temperature increases because particles move faster and collide with more energy.",
+        "For many reactions, rate becomes nearly double for every 10°C rise in temperature.",
+        "Food spoils faster in summer because chemical and biological processes occur faster at higher temperature.",
+        "Catalyst: A catalyst is a substance that changes the rate of reaction without itself being consumed.",
+        "Example: 2KClO3 --MnO2--> 2KCl + 3O2. MnO2 acts as a catalyst.",
+        "Nature of reactants: Ionic reactions are usually fast because ions react quickly in solution. Covalent reactions are usually slower because bonds must break and form.",
+        "Example of fast ionic reaction: Ag+ + Cl- → AgCl↓.",
+        "Surface area: For solid reactants, larger surface area increases the rate of reaction. Powdered substances react faster than large pieces.",
+        "Example: Powdered CaCO3 reacts faster with HCl than marble chips. CaCO3 + 2HCl → CaCl2 + CO2 + H2O.",
+        "Light: Some reactions are affected by light and are called photochemical reactions.",
+        "Example: 2AgCl --sunlight--> 2Ag + Cl2.",
+        "Main NCERT factors: concentration, temperature, catalyst, and nature of reactants."
+      ]
+    },
+    {
+      "heading": "Rate Law and Rate Constant",
+      "text": "Rate law, also called rate equation, expresses the rate of a reaction in terms of the concentration of reactants. It is determined experimentally.",
+      "points": [
+        "For a general reaction aA + bB → products, the rate law may be written as Rate = k[A]^x[B]^y.",
+        "In Rate = k[A]^x[B]^y, [A] and [B] are concentrations, x and y are powers of concentration terms, and k is the rate constant.",
+        "The powers x and y are not always equal to the stoichiometric coefficients a and b. They are found experimentally.",
+        "Example: For 2NO + O2 → 2NO2, the experimentally determined rate law is Rate = k[NO]^2[O2].",
+        "Rate constant k is also called specific reaction rate.",
+        "If the concentration of each reactant is unity, then Rate = k.",
+        "Rate constant is equal to the rate of reaction when concentration of each reactant is unity.",
+        "Characteristics of rate constant: it is constant for a reaction at fixed temperature, changes with temperature, does not change with concentration, depends on the nature of reaction, and has different units for different orders of reaction.",
+        "Example: If Rate = k[A]^2 and concentration of A is doubled, Rate = k[2A]^2 = 4k[A]^2. Therefore, rate becomes four times.",
+        "Rate of reaction changes with concentration, but rate constant does not change with concentration at fixed temperature."
+      ]
+    },
+    {
+      "heading": "Order of Reaction",
+      "text": "Order of reaction tells how the rate of reaction depends on the concentration of reactants. It is obtained from the rate law and not directly from the balanced chemical equation.",
+      "points": [
+        "For a reaction aA + bB → products with rate law Rate = k[A]^x[B]^y, order of reaction = x + y.",
+        "Order of reaction is the sum of powers of concentration terms in the rate law.",
+        "If Rate = k[A], order = 1. It is a first order reaction.",
+        "If Rate = k[A]^2, order = 2. It is a second order reaction.",
+        "If Rate = k[A][B], order = 1 + 1 = 2. It is a second order reaction.",
+        "If Rate = k[A]^2[B], order = 2 + 1 = 3. It is a third order reaction.",
+        "If Rate = k[A]^0, then Rate = k because [A]^0 = 1. This is a zero order reaction.",
+        "In zero order reaction, rate does not depend on the concentration of reactant.",
+        "Order can be fractional, for example Rate = k[A]^(1/2), order = 1/2.",
+        "Order may be zero, whole number, or fractional.",
+        "Order is determined experimentally and cannot be predicted simply from the balanced equation.",
+        "Difference from molecularity: Order is found from rate law and can be zero or fractional, while molecularity is found from reaction mechanism and is always a whole number."
+      ]
+    },
+    {
+      "heading": "Units of Rate Constant",
+      "text": "The unit of rate constant k depends on the order of reaction. For a rate law Rate = k[A]^n, k = Rate/[A]^n.",
+      "points": [
+        "Unit of rate = mol L^-1 s^-1.",
+        "Unit of concentration = mol L^-1.",
+        "For zero order reaction, Rate = k[A]^0 = k. Unit of k = mol L^-1 s^-1.",
+        "For first order reaction, Rate = k[A]. k = Rate/[A]. Unit of k = s^-1.",
+        "For second order reaction, Rate = k[A]^2. k = Rate/[A]^2. Unit of k = L mol^-1 s^-1.",
+        "For third order reaction, Rate = k[A]^3. k = Rate/[A]^3. Unit of k = L^2 mol^-2 s^-1.",
+        "General formula for unit of rate constant for order n: Unit of k = (mol L^-1)^(1-n) s^-1.",
+        "Another general formula: Unit of k = L^(n-1) mol^(1-n) s^-1.",
+        "Only for first order reaction, the unit of rate constant is always s^-1 and does not depend on concentration unit."
+      ]
+    },
+    {
+      "heading": "Molecularity of Reaction",
+      "text": "Molecularity is the number of reacting species taking part in an elementary step of a reaction. Reacting species may be atoms, ions, or molecules.",
+      "points": [
+        "A reaction that occurs in a single step is called an elementary reaction.",
+        "Example: NO + O3 → NO2 + O2. One molecule of NO reacts with one molecule of O3, so molecularity = 2. This is a bimolecular reaction.",
+        "Unimolecular reaction: only one reacting species is involved. Example: NH4NO2 → N2 + 2H2O. Molecularity = 1.",
+        "Bimolecular reaction: two reacting species are involved. Example: 2HI → H2 + I2. Molecularity = 2.",
+        "Another bimolecular example: NO + O3 → NO2 + O2.",
+        "Trimolecular reaction: three reacting species are involved. Example: 2NO + O2 → 2NO2. Molecularity = 3.",
+        "Trimolecular reactions are rare because three particles must collide at the same time.",
+        "Molecularity is always a whole number.",
+        "Molecularity cannot be zero or fractional.",
+        "Molecularity is found from the reaction mechanism.",
+        "Molecularity is used only for elementary reactions, not for complex overall reactions.",
+        "Molecularity usually has values 1, 2, or rarely 3.",
+        "Molecularity represents the actual number of reacting particles, so it cannot be 0, 1/2, or 1.5.",
+        "Order is the sum of powers in the rate law and can be zero or fractional. Molecularity is the number of reacting species in an elementary step and is always a positive whole number."
+      ]
+    },
+    {
+      "heading": "Integrated Rate Equation for Zero Order Reaction",
+      "text": "Integrated rate equations help calculate the concentration of reactants at different times. A zero order reaction is one whose rate does not depend on the concentration of reactant.",
+      "points": [
+        "For A → Products, zero order rate law is Rate = k[A]^0.",
+        "Since [A]^0 = 1, Rate = k. This means rate is constant.",
+        "Differential rate equation for disappearance of A: Rate = -d[A]/dt.",
+        "For zero order reaction: -d[A]/dt = k.",
+        "Integrated rate equation: [A] = [A]0 - kt.",
+        "Here [A] is concentration at time t, [A]0 is initial concentration, k is rate constant, and t is time.",
+        "Rearranged form: kt = [A]0 - [A].",
+        "Rate constant formula: k = ([A]0 - [A])/t.",
+        "Graph of [A] versus t is a straight line with negative slope.",
+        "For [A] = [A]0 - kt, slope = -k and intercept = [A]0.",
+        "Example of zero order reaction: Decomposition of ammonia on platinum surface at high pressure, 2NH3 --Pt--> N2 + 3H2.",
+        "Unit of k for zero order reaction = mol L^-1 s^-1.",
+        "In zero order reaction, the reaction proceeds at a constant rate independent of concentration."
+      ]
+    },
+    {
+      "heading": "Half-life of Zero Order Reaction",
+      "text": "Half-life is the time required for the concentration of a reactant to become half of its initial concentration. It is represented by t1/2.",
+      "points": [
+        "For A → Products, initial concentration is [A]0.",
+        "After half-life, concentration becomes [A]0/2.",
+        "Zero order integrated rate equation: [A] = [A]0 - kt.",
+        "At half-life, t = t1/2 and [A] = [A]0/2.",
+        "Substitution gives [A]0/2 = [A]0 - kt1/2.",
+        "kt1/2 = [A]0 - [A]0/2 = [A]0/2.",
+        "Formula for half-life of zero order reaction: t1/2 = [A]0/(2k).",
+        "For zero order reaction, half-life is directly proportional to initial concentration: t1/2 ∝ [A]0.",
+        "If initial concentration is doubled, half-life also becomes doubled.",
+        "Example: If [A]0 = 0.40 mol L^-1 and k = 0.02 mol L^-1 s^-1, then t1/2 = 0.40/(2 × 0.02) = 0.40/0.04 = 10 s.",
+        "For zero order reaction, [A] versus time graph is a straight line decreasing with time.",
+        "Summary: Rate = k, integrated equation [A] = [A]0 - kt, half-life t1/2 = [A]0/(2k), and unit of k = mol L^-1 s^-1."
+      ]
+    },
+    {
+      "heading": "Integrated Rate Equation for First Order Reaction",
+      "text": "A first order reaction is one whose rate depends on the first power of concentration of one reactant.",
+      "points": [
+        "For A → Products, first order rate law is Rate = k[A].",
+        "Differential rate equation: -d[A]/dt = k[A].",
+        "Integrated rate equation: ln[A] = ln[A]0 - kt.",
+        "Another form: kt = ln([A]0/[A]).",
+        "Rate constant formula using natural log: k = (1/t) ln([A]0/[A]).",
+        "Formula using common logarithm: k = (2.303/t) log([A]0/[A]).",
+        "Graph of ln[A] versus t is a straight line.",
+        "For ln[A] = ln[A]0 - kt, slope = -k and intercept = ln[A]0.",
+        "Using common log: log[A] = log[A]0 - (k/2.303)t.",
+        "For log[A] versus t graph, slope = -k/2.303.",
+        "Unit of k for first order reaction = s^-1.",
+        "Example: If [A]0 = 0.80 mol L^-1, [A] = 0.20 mol L^-1, and t = 40 s, then k = (2.303/40) log(0.80/0.20) = (2.303/40) log 4. Since log 4 = 0.6020, k = (2.303 × 0.6020)/40 = 0.0347 s^-1.",
+        "In first order reaction, rate depends directly on concentration. If concentration is doubled, rate also doubles."
+      ]
+    },
+    {
+      "heading": "Half-life of First Order Reaction",
+      "text": "Half-life of a first order reaction is the time required for the reactant concentration to become half of its initial concentration. It is independent of initial concentration.",
+      "points": [
+        "First order integrated rate equation: k = (2.303/t) log([A]0/[A]).",
+        "At half-life, t = t1/2 and [A] = [A]0/2.",
+        "Substitution gives k = (2.303/t1/2) log([A]0/([A]0/2)).",
+        "This becomes k = (2.303/t1/2) log 2.",
+        "Since log 2 = 0.3010, k = (2.303 × 0.3010)/t1/2 = 0.693/t1/2.",
+        "Formula: t1/2 = 0.693/k.",
+        "For first order reaction, half-life does not depend on initial concentration.",
+        "Example: If k = 0.0231 s^-1, then t1/2 = 0.693/0.0231 = 30 s.",
+        "Comparison: Zero order half-life t1/2 = [A]0/(2k), depends on initial concentration. First order half-life t1/2 = 0.693/k, does not depend on initial concentration.",
+        "For a first order reaction, after every half-life the concentration becomes half: [A]0 → [A]0/2 → [A]0/4 → [A]0/8.",
+        "Example: If initial concentration is 100, after one half-life it becomes 50, after two half-lives 25, and after three half-lives 12.5."
+      ]
+    },
+    {
+      "heading": "Pseudo First Order Reaction",
+      "text": "A pseudo first order reaction is actually a higher order reaction, but it behaves like a first order reaction because one reactant is present in large excess.",
+      "points": [
+        "Consider A + B → Products with actual rate law Rate = k[A][B]. The actual order is 2.",
+        "If B is present in large excess, its concentration remains almost constant during the reaction.",
+        "Then [B] = constant and Rate = k[A][B] becomes Rate = k'[A], where k' = k[B].",
+        "The reaction behaves like a first order reaction, so it is called pseudo first order reaction.",
+        "Pseudo means false or apparent. The reaction is not truly first order but appears first order.",
+        "NCERT example: Hydrolysis of ethyl acetate, CH3COOC2H5 + H2O → CH3COOH + C2H5OH.",
+        "For ester hydrolysis, actual rate law may be Rate = k[CH3COOC2H5][H2O]. Since water is in large excess, Rate = k'[CH3COOC2H5].",
+        "Thus hydrolysis of ester is a pseudo first order reaction.",
+        "Another example: Inversion of cane sugar, C12H22O11 + H2O → C6H12O6 + C6H12O6.",
+        "In inversion of cane sugar, sucrose reacts with water to form glucose and fructose. Water is present in excess, so the reaction behaves like first order.",
+        "Important points: Actual order is higher, usually second order; apparent order is first order; reason is one reactant is in large excess; rate law becomes Rate = k'[A]."
+      ]
+    },
+    {
+      "heading": "Temperature Dependence of Rate of Reaction",
+      "text": "The rate of a chemical reaction increases with increase in temperature because molecules move faster and collide with more energy.",
+      "points": [
+        "For many chemical reactions, rate becomes nearly double for every 10°C rise in temperature.",
+        "At higher temperature, molecules get more kinetic energy.",
+        "At higher temperature, molecules collide more frequently.",
+        "More molecules have enough energy to react.",
+        "Effective collisions increase and reaction becomes faster.",
+        "Effective collision is a collision that leads to product formation.",
+        "A reaction occurs only when colliding molecules have energy equal to or greater than a minimum energy.",
+        "Activation energy is the minimum energy required by reacting molecules to form products. It is represented by Ea.",
+        "Activated complex, also called transition state, is a high-energy unstable intermediate formed during a reaction.",
+        "Reaction path: Reactants → Activated complex → Products.",
+        "Activation energy formula: Ea = Energy of activated complex - Energy of reactants.",
+        "Example analogy: A stone must be pushed over a hill to move to the other side. Similarly, reactant molecules must cross the energy barrier called activation energy.",
+        "Higher temperature allows more molecules to cross the activation energy barrier."
+      ]
+    },
+    {
+      "heading": "Arrhenius Equation",
+      "text": "Arrhenius equation gives the relationship between rate constant, temperature, and activation energy. It explains why the rate of reaction increases when temperature increases.",
+      "points": [
+        "Arrhenius equation: k = Ae^(-Ea/RT).",
+        "In the equation, k is rate constant, A is Arrhenius factor or frequency factor, Ea is activation energy, R is gas constant, T is temperature in Kelvin, and e is a mathematical constant.",
+        "A is called frequency factor or pre-exponential factor. It represents the frequency of collisions between reacting molecules.",
+        "The term e^(-Ea/RT) represents the fraction of molecules having energy equal to or greater than activation energy.",
+        "Logarithmic form using natural log: ln k = ln A - Ea/RT.",
+        "Logarithmic form using common log: log k = log A - Ea/(2.303RT).",
+        "For graph of log k versus 1/T, equation is log k = log A - (Ea/2.303R)(1/T).",
+        "Graph of log k versus 1/T is a straight line.",
+        "Slope of log k versus 1/T graph = -Ea/(2.303R).",
+        "Activation energy from slope: Ea = -2.303R × slope.",
+        "When temperature increases, Ea/RT decreases, e^(-Ea/RT) increases, k increases, and rate increases.",
+        "Higher activation energy decreases k and makes the reaction slower.",
+        "Catalyst increases rate by lowering activation energy.",
+        "A depends on collision frequency and orientation.",
+        "A reaction with low activation energy is faster, while a reaction with high activation energy is slower."
+      ]
+    },
+    {
+      "heading": "Calculation of Activation Energy Using Arrhenius Equation",
+      "text": "Arrhenius equation can be used to calculate activation energy when rate constants are given at two different temperatures.",
+      "points": [
+        "At temperature T1, rate constant is k1: k1 = Ae^(-Ea/RT1).",
+        "At temperature T2, rate constant is k2: k2 = Ae^(-Ea/RT2).",
+        "Two-temperature Arrhenius formula: log(k2/k1) = (Ea/2.303R)[(T2 - T1)/(T1T2)].",
+        "Activation energy formula: Ea = [2.303R log(k2/k1) × T1T2]/(T2 - T1).",
+        "R is usually taken as 8.314 J K^-1 mol^-1.",
+        "Activation energy is obtained in J mol^-1 when R = 8.314 J K^-1 mol^-1 is used.",
+        "To convert J mol^-1 to kJ mol^-1, divide by 1000.",
+        "Temperature must always be in Kelvin.",
+        "Conversion formula: T(K) = T(°C) + 273.",
+        "Example conversions: 27°C = 300 K and 37°C = 310 K.",
+        "Example problem: k1 = 2.0 × 10^-3 s^-1 at T1 = 300 K and k2 = 4.0 × 10^-3 s^-1 at T2 = 310 K.",
+        "For the example, k2/k1 = (4.0 × 10^-3)/(2.0 × 10^-3) = 2.",
+        "log 2 = 0.3010.",
+        "Ea = [2.303 × 8.314 × 0.3010 × 300 × 310]/(310 - 300).",
+        "Ea = [2.303 × 8.314 × 0.3010 × 93000]/10.",
+        "Ea ≈ 53590 J mol^-1 = 53.59 kJ mol^-1.",
+        "Generally, if T2 > T1, then k2 > k1 for most reactions."
+      ]
+    },
+    {
+      "heading": "Effect of Catalyst on Rate of Reaction",
+      "text": "A catalyst is a substance that changes the rate of a chemical reaction without itself being consumed. A catalyst usually increases the rate by providing an alternative pathway with lower activation energy.",
+      "points": [
+        "Definition: A catalyst changes the rate of reaction but remains chemically unchanged at the end of the reaction.",
+        "Example: 2KClO3 --MnO2--> 2KCl + 3O2. MnO2 is the catalyst.",
+        "A catalyst provides an alternative path for the reaction.",
+        "The catalysed path has lower activation energy.",
+        "Without catalyst, activation energy is high and fewer molecules have enough energy to react, so reaction is slow.",
+        "With catalyst, activation energy is lower and more molecules have enough energy to react, so reaction is faster.",
+        "A catalyst does not change the energy of reactants and products.",
+        "A catalyst does not change ΔH or the overall heat of reaction.",
+        "For catalysed reaction, Ea(catalysed) < Ea(uncatalysed).",
+        "According to Arrhenius equation k = Ae^(-Ea/RT), when a catalyst lowers Ea, e^(-Ea/RT) increases and k increases.",
+        "A catalyst increases the rate of both forward and backward reactions equally.",
+        "A catalyst helps the reaction reach equilibrium faster but does not change the equilibrium constant K.",
+        "Important effects: lowers activation energy, provides alternative path, does not change ΔH, does not change equilibrium constant, and decreases reaction time."
+      ]
+    },
+    {
+      "heading": "Collision Theory of Chemical Reactions",
+      "text": "Collision theory explains chemical reactions at the molecular level. According to this theory, a chemical reaction occurs only when reactant molecules collide effectively.",
+      "points": [
+        "Reactant molecules are always moving.",
+        "When molecules collide, reaction may occur, but every collision does not form products.",
+        "Effective collisions are collisions that lead to product formation.",
+        "Two conditions for effective collision are sufficient energy and proper orientation.",
+        "Effective collision = sufficient energy + proper orientation.",
+        "Energy requirement: Reactant molecules must have energy equal to or greater than activation energy, E ≥ Ea.",
+        "If molecules do not have enough energy, they collide and separate without reaction.",
+        "Proper orientation means molecules must collide in the correct direction.",
+        "Even molecules with enough energy may fail to react if orientation is wrong.",
+        "Ineffective collision is a collision that does not produce products.",
+        "Reasons for ineffective collision: molecules have less energy than activation energy or molecules do not have proper orientation.",
+        "Collision frequency is the number of collisions taking place per second per unit volume. It is represented by Z.",
+        "More collision frequency generally means higher rate, but only effective collisions produce products.",
+        "Steric factor accounts for proper orientation of molecules. It is represented by P.",
+        "For a bimolecular reaction A + B → Products, rate according to collision theory can be written as Rate = PZAB e^(-Ea/RT).",
+        "In Rate = PZAB e^(-Ea/RT), P is steric factor, ZAB is collision frequency between A and B, Ea is activation energy, R is gas constant, and T is temperature.",
+        "Arrhenius equation is k = Ae^(-Ea/RT). In collision theory, A = PZ.",
+        "Thus k = PZ e^(-Ea/RT).",
+        "Rate constant depends on collision frequency, proper orientation, activation energy, and temperature."
+      ]
+    },
+    {
+      "heading": "Important Graphs of Chemical Kinetics",
+      "text": "Graphs in chemical kinetics help identify the order of reaction and calculate the rate constant k.",
+      "points": [
+        "Zero order reaction equation: [A] = [A]0 - kt.",
+        "For zero order reaction, graph of [A] versus t is a straight line.",
+        "In zero order graph, slope = -k and intercept = [A]0.",
+        "For zero order reaction, [A] decreases uniformly with time.",
+        "First order reaction equation: ln[A] = ln[A]0 - kt.",
+        "For first order reaction, graph of ln[A] versus t is a straight line.",
+        "In ln[A] versus t graph, slope = -k and intercept = ln[A]0.",
+        "Using common log, log[A] = log[A]0 - (k/2.303)t.",
+        "For log[A] versus t graph, slope = -k/2.303.",
+        "From common log graph, k = -2.303 × slope.",
+        "Arrhenius graph equation: log k = log A - (Ea/2.303R)(1/T).",
+        "Graph of log k versus 1/T is a straight line.",
+        "Slope of Arrhenius graph = -Ea/(2.303R).",
+        "Activation energy from Arrhenius graph: Ea = -2.303R × slope.",
+        "For first order reaction, t1/2 = 0.693/k and half-life is independent of initial concentration.",
+        "For first order reaction, concentration changes as 100 → 50 → 25 → 12.5, and each step takes the same time.",
+        "For zero order reaction, t1/2 = [A]0/(2k), so half-life depends on initial concentration.",
+        "To identify order from graph: if [A] versus t is straight line, reaction is zero order.",
+        "To identify order from graph: if ln[A] versus t is straight line, reaction is first order.",
+        "To identify order from graph: if log[A] versus t is straight line, reaction is first order."
+      ]
+    },
+    {
+      "heading": "Basic Numericals in Chemical Kinetics",
+      "text": "Chemical kinetics numerical problems are mainly based on formulas for rate of reaction, zero order reaction, first order reaction, half-life, and Arrhenius equation.",
+      "points": [
+        "Rate of reaction formula: Rate = -Δ[A]/Δt or Rate = Δ[P]/Δt.",
+        "Numerical 1: If concentration of A decreases from 0.50 mol L^-1 to 0.30 mol L^-1 in 20 s, then Δ[A] = -0.20 mol L^-1. Rate = -(-0.20)/20 = 0.01 mol L^-1 s^-1.",
+        "Zero order formula: [A] = [A]0 - kt.",
+        "Zero order rate constant formula: k = ([A]0 - [A])/t.",
+        "Numerical 2: For a zero order reaction, [A]0 = 0.80 mol L^-1, [A] = 0.40 mol L^-1 after 40 s. k = (0.80 - 0.40)/40 = 0.40/40 = 0.01 mol L^-1 s^-1.",
+        "Half-life of zero order reaction: t1/2 = [A]0/(2k).",
+        "Numerical 3: For a zero order reaction, [A]0 = 0.60 mol L^-1 and k = 0.03 mol L^-1 s^-1. t1/2 = 0.60/(2 × 0.03) = 0.60/0.06 = 10 s.",
+        "First order rate constant formula: k = (2.303/t) log([A]0/[A]).",
+        "Numerical 4: For a first order reaction, [A]0 = 0.50 mol L^-1, [A] = 0.25 mol L^-1, and t = 100 s. k = (2.303/100) log(0.50/0.25) = (2.303/100) log 2 = (2.303 × 0.3010)/100 = 0.00693 s^-1.",
+        "Half-life of first order reaction: t1/2 = 0.693/k.",
+        "Numerical 5: For a first order reaction, k = 0.0231 s^-1. t1/2 = 0.693/0.0231 = 30 s.",
+        "Numerical 6: For a first order reaction, [A]0 = 1.0 mol L^-1, k = 0.693 s^-1, and t = 1 s. Using k = (2.303/t) log([A]0/[A]), 0.693 = 2.303 log(1.0/[A]). Therefore log(1.0/[A]) = 0.693/2.303 = 0.3010 = log 2. So 1.0/[A] = 2 and [A] = 0.50 mol L^-1.",
+        "Important formula summary: Rate = -Δ[A]/Δt.",
+        "Important formula summary: Zero order integrated equation [A] = [A]0 - kt.",
+        "Important formula summary: Zero order k = ([A]0 - [A])/t.",
+        "Important formula summary: Zero order half-life t1/2 = [A]0/(2k).",
+        "Important formula summary: First order k = (2.303/t) log([A]0/[A]).",
+        "Important formula summary: First order half-life t1/2 = 0.693/k.",
+        "Exam tip: If the question says zero order, use [A] = [A]0 - kt.",
+        "Exam tip: If the question says first order, use k = (2.303/t) log([A]0/[A])."
+      ]
+    }
+  ],
+  "summary": "",
+  "qa": []
+}

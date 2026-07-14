@@ -1,0 +1,491 @@
+{
+  "title": "Current Electricity",
+  "class": "12",
+  "subject": "Physics",
+  "chapter": "Chapter 3",
+  "book": "NCERT Physics",
+  "notes": [
+    {
+      "heading": "Electric Current",
+      "text": "Electric current means the flow of electric charge through a conductor. In a metal wire, the charges that move are free electrons. When a battery is connected, these electrons drift through the wire and current is produced. Electric current is defined as charge flowing per unit time: I = Q/t. The SI unit of current is ampere (A). 1 A = 1 C/s, meaning 1 ampere current flows when 1 coulomb of charge passes through a conductor in 1 second. Conventional current is taken from the positive terminal to the negative terminal, while electrons actually move from the negative terminal to the positive terminal. Therefore, electron flow is opposite to conventional current.",
+      "points": [
+        "Formula: I = Q/t.",
+        "SI unit: ampere (A).",
+        "1 A = 1 C/s.",
+        "Conventional current flows from positive to negative terminal.",
+        "Electron flow is from negative to positive terminal.",
+        "Electric current is a scalar quantity because it does not follow vector addition rules.",
+        "Current flows only when there is a closed path and a potential difference.",
+        "A battery or cell provides potential difference in a circuit.",
+        "Example: If Q = 10 C and t = 5 s, then I = 10/5 = 2 A."
+      ]
+    },
+    {
+      "heading": "Electric Current in Conductors and Drift Velocity",
+      "text": "In metals, electric current is mainly due to the movement of free electrons. Without a battery, free electrons move randomly in all directions and the average displacement is zero, so there is no net current. When a battery is connected, an electric field is produced inside the conductor. Due to this electric field, electrons experience a force and begin to move slowly in one direction. This slow average motion of electrons is called drift motion. The average velocity with which free electrons drift through a conductor under the effect of an electric field is called drift velocity and is denoted by v_d. Electrons are negatively charged, so their drift velocity is opposite to the direction of the electric field.",
+      "points": [
+        "Without a battery, electrons move randomly and net current is zero.",
+        "With a battery, an electric field is produced inside the conductor.",
+        "Drift velocity is the average velocity of free electrons under an electric field.",
+        "Formula: I = n A e v_d.",
+        "Here, n = number of free electrons per unit volume, A = area of cross-section, e = charge of electron, v_d = drift velocity.",
+        "Current increases when n, A, or v_d increases.",
+        "Individual electrons move very slowly, but the electric field is established almost instantly throughout the wire.",
+        "Current direction is opposite to electron drift direction."
+      ]
+    },
+    {
+      "heading": "Ohm's Law",
+      "text": "Ohm's law gives the relation between potential difference and current in a conductor. At constant temperature, the current flowing through a conductor is directly proportional to the potential difference across its ends. Thus, I ∝ V or V ∝ I. Removing the proportionality sign gives V = IR, where R is resistance. Resistance is the opposition offered by a conductor to the flow of current. R = V/I. The SI unit of resistance is ohm (Ω). If a potential difference of 1 volt produces a current of 1 ampere, then the resistance is 1 ohm: 1 Ω = 1 V/A.",
+      "points": [
+        "Statement: At constant temperature, current through a conductor is directly proportional to potential difference across it.",
+        "Formula: V = IR.",
+        "Resistance: R = V/I.",
+        "SI unit of resistance: ohm (Ω).",
+        "1 Ω = 1 V/A.",
+        "For an ohmic conductor, the V-I graph is a straight line passing through the origin.",
+        "The slope of the V-I graph gives resistance: slope = V/I = R.",
+        "Ohmic devices obey Ohm's law, for example, a metal wire.",
+        "Non-ohmic devices do not obey Ohm's law, for example, diode and transistor.",
+        "Ohm's law is valid only when physical conditions, especially temperature, remain constant.",
+        "Example: If R = 5 Ω and I = 2 A, then V = IR = 2 × 5 = 10 V."
+      ]
+    },
+    {
+      "heading": "Resistance and Resistivity",
+      "text": "Resistance is the opposition offered by a conductor to the flow of electric current. From Ohm's law, R = V/I. The SI unit of resistance is ohm (Ω). Resistance of a conductor depends on length, area of cross-section, and nature of material. Resistance is directly proportional to length (R ∝ l) and inversely proportional to area of cross-section (R ∝ 1/A). Combining these gives R = ρ l/A, where ρ is resistivity. Resistivity is the resistance of a material of unit length and unit area of cross-section. From R = ρ l/A, ρ = RA/l. The SI unit of resistivity is Ω m.",
+      "points": [
+        "Resistance increases when length increases.",
+        "Longer wire offers more opposition to current.",
+        "Resistance decreases when area of cross-section increases.",
+        "Thicker wire has less resistance; thinner wire has more resistance.",
+        "Different materials have different resistance.",
+        "Copper has low resistance and is used in electric wires.",
+        "Nichrome has high resistance and is used in heaters.",
+        "Formula: R = ρ l/A.",
+        "Formula: ρ = RA/l.",
+        "Unit of resistivity: Ω m.",
+        "Resistance depends on length, area, material, and temperature.",
+        "Resistivity depends only on nature of material and temperature.",
+        "Conductors have low resistivity, for example, copper, silver, and aluminium.",
+        "Insulators have very high resistivity, for example, rubber, glass, and plastic.",
+        "Semiconductors have resistivity between conductors and insulators, for example, silicon and germanium.",
+        "Example: If ρ = 2 × 10^-6 Ω m, l = 4 m, and A = 2 × 10^-6 m², then R = ρl/A = 4 Ω."
+      ]
+    },
+    {
+      "heading": "Temperature Dependence of Resistance",
+      "text": "Resistance of a conductor changes when temperature changes. For most metallic conductors such as copper, aluminium, and silver, resistance increases when temperature increases. This happens because atoms of the metal vibrate more strongly at higher temperature, causing free electrons to collide more often with atoms. Therefore, the motion of electrons becomes difficult and resistance increases. The resistance at temperature T is given by R_T = R_0(1 + α ΔT), where R_T is resistance at final temperature, R_0 is initial resistance, α is the temperature coefficient of resistance, and ΔT is the change in temperature.",
+      "points": [
+        "Formula: R_T = R_0(1 + α ΔT).",
+        "If initial temperature is 0°C, then R_T = R_0(1 + αT).",
+        "Temperature coefficient of resistance tells how much resistance changes per degree rise in temperature.",
+        "Temperature coefficient is denoted by α.",
+        "Unit of α: °C^-1 or K^-1.",
+        "For metals, α > 0, so resistance increases with temperature.",
+        "For semiconductors, α < 0, so resistance decreases with temperature.",
+        "In semiconductors, temperature rise makes more charge carriers available.",
+        "Alloys such as manganin, constantan, and nichrome have small temperature coefficient of resistance.",
+        "Alloys are used in standard resistance coils and heating elements because their resistance changes little with temperature.",
+        "For metals, the resistance-temperature graph is almost a straight line with positive slope.",
+        "Example: If R_0 = 10 Ω, α = 0.004/°C, and ΔT = 50°C, then R_T = 10(1 + 0.004 × 50) = 12 Ω."
+      ]
+    },
+    {
+      "heading": "Electrical Energy and Power",
+      "text": "When electric current flows through a device, electrical energy is converted into other forms of energy. A bulb converts electrical energy into light and heat, a heater converts it into heat, and a motor converts it into mechanical energy. Since V = W/Q, W = VQ. Also, Q = It. Therefore, electrical energy consumed is W = VIt. Electrical power is the rate at which electrical energy is consumed: P = W/t. Since W = VIt, P = VI.",
+      "points": [
+        "Electrical energy: W = VIt.",
+        "Electrical power: P = VI.",
+        "Using Ohm's law V = IR, power can be written as P = I²R.",
+        "Using I = V/R, power can be written as P = V²/R.",
+        "SI unit of power: watt (W).",
+        "1 W = 1 V × 1 A = 1 VA.",
+        "Commercial unit of electrical energy: kilowatt-hour (kWh).",
+        "1 kWh is also called one unit of electricity.",
+        "1 kWh = 1000 W × 3600 s = 3.6 × 10^6 J.",
+        "Joule's law of heating: H = I²Rt.",
+        "Example: A bulb rated 100 W, 220 V consumes 100 J per second at 220 V. Current I = P/V = 100/220 = 0.45 A."
+      ]
+    },
+    {
+      "heading": "Cells, EMF and Internal Resistance",
+      "text": "A cell is a device that converts chemical energy into electrical energy. A cell maintains a potential difference between its terminals so that current can flow in a circuit. EMF means electromotive force. It is the maximum potential difference between the two terminals of a cell when no current is drawn from the cell. It is denoted by E and its unit is volt. EMF is not actually a force; it is the energy supplied by the cell per unit charge: E = W/q. Internal resistance is the opposition inside the cell due to the electrolyte and electrodes. It is denoted by r and measured in ohms.",
+      "points": [
+        "EMF: E = W/q.",
+        "EMF is measured when no current is drawn from the cell.",
+        "Internal resistance is the opposition inside the cell.",
+        "Terminal potential difference is the potential difference between the terminals when current flows.",
+        "When current is drawn, some voltage is lost inside the cell due to internal resistance.",
+        "Voltage lost inside the cell = Ir.",
+        "Terminal voltage during discharge: V = E - Ir.",
+        "If a cell of EMF E and internal resistance r is connected to external resistance R, current is I = E/(R + r).",
+        "Terminal voltage across external resistance: V = IR = ER/(R + r).",
+        "Open circuit: I = 0, so V = E.",
+        "Closed circuit: V = E - Ir, so terminal voltage is less than EMF.",
+        "Short circuit: R = 0, so I = E/r, which can be very large.",
+        "Example: If E = 6 V, r = 1 Ω, and R = 5 Ω, then I = 6/(5 + 1) = 1 A and V = IR = 5 V."
+      ]
+    },
+    {
+      "heading": "Combination of Cells in Series and Parallel",
+      "text": "Cells can be connected together to get the required current or voltage. In series combination, the positive terminal of one cell is connected to the negative terminal of the next cell. For n identical cells in series, total EMF is nE and total internal resistance is nr. The current through external resistance R is I = nE/(R + nr). In parallel combination, all positive terminals are connected together and all negative terminals are connected together. For n identical cells in parallel, total EMF remains E and equivalent internal resistance becomes r/n. The current is I = E/(R + r/n) = nE/(nR + r).",
+      "points": [
+        "Series combination increases total EMF.",
+        "For n identical cells in series: E_total = nE and r_total = nr.",
+        "Current in series: I = nE/(R + nr).",
+        "Series combination is useful when external resistance is large compared to internal resistance: R >> r.",
+        "Example: Three 1.5 V cells in series give 4.5 V.",
+        "Parallel combination keeps EMF the same but decreases internal resistance.",
+        "For n identical cells in parallel: r_eq = r/n.",
+        "Current in parallel: I = nE/(nR + r).",
+        "Parallel combination is useful when external resistance is small compared to internal resistance: R << r.",
+        "Series combination is used when high voltage is required.",
+        "Parallel combination is used when high current capacity is required.",
+        "Example series: Two cells each of E = 2 V and r = 1 Ω connected with R = 4 Ω give I = (2 × 2)/(4 + 2 × 1) = 0.67 A.",
+        "Example parallel: Two cells each of E = 2 V and r = 1 Ω connected with R = 4 Ω give I = (2 × 2)/(2 × 4 + 1) = 0.44 A."
+      ]
+    },
+    {
+      "heading": "Kirchhoff's Laws",
+      "text": "Kirchhoff's laws are used to solve complicated electric circuits. Kirchhoff's Junction Law, also called Kirchhoff's Current Law, states that at any junction in an electric circuit, the total current entering the junction is equal to the total current leaving the junction: ΣI_in = ΣI_out. This is based on conservation of charge. Kirchhoff's Loop Law, also called Kirchhoff's Voltage Law, states that in any closed loop of an electric circuit, the algebraic sum of potential differences is zero: ΣV = 0. This is based on conservation of energy.",
+      "points": [
+        "Junction law: ΣI_in = ΣI_out.",
+        "Charge cannot accumulate at a junction.",
+        "Example: If currents 2 A and 3 A enter a junction, current leaving is 5 A.",
+        "Loop law: ΣV = 0.",
+        "Loop law means sum of voltage rises equals sum of voltage drops.",
+        "When charge moves around a closed loop and returns to the starting point, net change in potential is zero.",
+        "Across a resistor, moving in direction of current gives potential drop -IR.",
+        "Across a resistor, moving opposite to current gives potential rise +IR.",
+        "Across a cell, moving from negative to positive terminal gives potential rise +E.",
+        "Across a cell, moving from positive to negative terminal gives potential drop -E.",
+        "Example: For a cell of EMF E connected to a resistor R, loop law gives E - IR = 0, so I = E/R.",
+        "Junction law is based on conservation of charge.",
+        "Loop law is based on conservation of energy."
+      ]
+    },
+    {
+      "heading": "Wheatstone Bridge",
+      "text": "A Wheatstone bridge is an arrangement of four resistances used to find an unknown resistance accurately. The four resistances are P, Q, R, and S. A galvanometer is connected between the middle points and a battery is connected across the opposite ends. The bridge is balanced when no current flows through the galvanometer, so the galvanometer shows zero deflection. At balance, the condition is P/Q = R/S. At this condition, the two middle points are at the same potential.",
+      "points": [
+        "Balanced bridge means no current through the galvanometer: I_g = 0.",
+        "Balance condition: P/Q = R/S.",
+        "If S is unknown, S = QR/P.",
+        "Wheatstone bridge is used to measure unknown resistance.",
+        "It is the principle behind the meter bridge.",
+        "The resistance of the galvanometer does not affect the balance condition because no current flows through it at balance.",
+        "Example: If P = 10 Ω, Q = 20 Ω, and R = 15 Ω, then 10/20 = 15/S, so S = 30 Ω."
+      ]
+    },
+    {
+      "heading": "Meter Bridge",
+      "text": "A meter bridge is an instrument used to find an unknown resistance. It works on the principle of Wheatstone bridge. It consists of a 1 m long uniform resistance wire, usually made of manganin or constantan, fixed on a wooden board. One gap contains a known resistance and the other gap contains the unknown resistance. A galvanometer is connected with a jockey that can slide along the wire. At the balance point, the galvanometer shows zero deflection.",
+      "points": [
+        "Meter bridge is based on balanced Wheatstone bridge.",
+        "For Wheatstone bridge: P/Q = R/S.",
+        "In a meter bridge, resistance of the wire is proportional to its length.",
+        "Formula: X/R = l/(100 - l).",
+        "Unknown resistance: X = R l/(100 - l).",
+        "Here X = unknown resistance, R = known resistance, l = balancing length in cm.",
+        "At balance point, I_g = 0.",
+        "The wire must be uniform so that resistance is directly proportional to length.",
+        "For best accuracy, balance point should be near 50 cm.",
+        "Good readings usually lie between 30 cm and 70 cm.",
+        "The jockey should be touched gently on the wire.",
+        "Connections should be tight and clean.",
+        "Example: If R = 5 Ω and l = 60 cm, then X = 5 × 60/(100 - 60) = 7.5 Ω."
+      ]
+    },
+    {
+      "heading": "Potentiometer",
+      "text": "A potentiometer is an instrument used to measure potential difference or EMF accurately. It is also used to compare the EMFs of two cells and to find the internal resistance of a cell. The principle of potentiometer is that for a uniform wire carrying steady current, the potential difference across a length of the wire is directly proportional to that length: V ∝ l. Thus, V = kl, where k is the potential gradient.",
+      "points": [
+        "Principle: V ∝ l.",
+        "Formula: V = kl.",
+        "Potential gradient is the fall of potential per unit length of potentiometer wire.",
+        "Potential gradient: k = V/l.",
+        "SI unit of potential gradient: volt per metre (V m^-1).",
+        "A potentiometer has a long uniform wire, battery, key, rheostat, jockey, and galvanometer.",
+        "At balance point, galvanometer shows zero deflection and I_g = 0.",
+        "EMF of a cell: E = kl.",
+        "For two cells: E_1/E_2 = l_1/l_2.",
+        "Internal resistance of a cell: r = R((l_1 - l_2)/l_2).",
+        "Here l_1 is balance length for EMF and l_2 is balance length for terminal voltage with external resistance R.",
+        "A potentiometer is more accurate than a voltmeter because at balance point it draws no current from the cell.",
+        "A voltmeter draws some current and measures terminal potential difference, not exact EMF.",
+        "Example: If l_1 = 80 cm and l_2 = 60 cm, then E_1/E_2 = 80/60 = 4/3."
+      ]
+    },
+    {
+      "heading": "Combination of Resistors in Series and Parallel",
+      "text": "Resistors can be connected in series or parallel. Resistors are in series when they are joined end to end so that the same current flows through each resistor. In series, current is the same through all resistors, but potential difference divides across them. The equivalent resistance in series is R_s = R_1 + R_2 + R_3 + ... + R_n. Resistors are in parallel when their ends are connected to the same two points. In parallel, voltage is the same across all resistors, but current divides through different branches. The equivalent resistance in parallel is 1/R_p = 1/R_1 + 1/R_2 + 1/R_3 + ... + 1/R_n.",
+      "points": [
+        "In series, I_1 = I_2 = I_3 = I.",
+        "Series equivalent resistance: R_s = R_1 + R_2 + R_3 + ... + R_n.",
+        "In series, equivalent resistance is greater than each individual resistance.",
+        "Example series: If R_1 = 2 Ω, R_2 = 3 Ω, and R_3 = 5 Ω, then R_s = 10 Ω.",
+        "In parallel, V_1 = V_2 = V_3 = V.",
+        "Parallel equivalent resistance: 1/R_p = 1/R_1 + 1/R_2 + ... + 1/R_n.",
+        "For two resistors in parallel: R_p = R_1R_2/(R_1 + R_2).",
+        "In parallel, equivalent resistance is less than the smallest individual resistance.",
+        "Example parallel: If R_1 = 2 Ω and R_2 = 3 Ω, then R_p = (2 × 3)/(2 + 3) = 1.2 Ω.",
+        "Series combination is used when more resistance is needed.",
+        "Parallel combination is used when less resistance is needed."
+      ]
+    },
+    {
+      "heading": "Colour Code of Resistors",
+      "text": "In many resistors, the value of resistance is not written in numbers. Instead, it is shown by coloured bands. This is called the colour code of resistors. Small resistors are tiny, so coloured bands are used to represent values like 1000 Ω, 4700 Ω, and 22000 Ω. A four-band resistor has first band for first digit, second band for second digit, third band for multiplier, and fourth band for tolerance. The resistance is calculated as first two digits × 10^(third colour number).",
+      "points": [
+        "Colour code numbers: Black = 0, Brown = 1, Red = 2, Orange = 3, Yellow = 4, Green = 5, Blue = 6, Violet = 7, Grey = 8, White = 9.",
+        "Memory trick: B B ROY Great Britain Very Good Wife.",
+        "First band gives the first digit.",
+        "Second band gives the second digit.",
+        "Third band gives the multiplier.",
+        "Fourth band gives tolerance.",
+        "Formula: Resistance = first two digits × 10^(multiplier).",
+        "Tolerance: Gold = ±5%, Silver = ±10%, No colour = ±20%.",
+        "Example: Brown, Black, Red, Gold gives 10 × 10² = 1000 Ω = 1 kΩ ±5%.",
+        "Example: Yellow, Violet, Orange, Silver gives 47 × 10³ = 47000 Ω = 47 kΩ ±10%.",
+        "Example: Red, Red, Brown, Gold gives 22 × 10¹ = 220 Ω ±5%.",
+        "If resistance is 1000 Ω ±5%, actual value may lie between 950 Ω and 1050 Ω."
+      ]
+    },
+    {
+      "heading": "Limitations of Ohm's Law and Non-Ohmic Conductors",
+      "text": "Ohm's law states V = IR, meaning current is directly proportional to potential difference if temperature and other physical conditions remain constant. However, Ohm's law is not valid for all materials and devices. It is valid only when physical conditions such as temperature, pressure, mechanical strain, and nature of material remain constant. If these conditions change, resistance may change and V may not be directly proportional to I.",
+      "points": [
+        "Ohm's law is valid only when physical conditions remain constant.",
+        "Important physical conditions include temperature, pressure, mechanical strain, and nature of material.",
+        "In metals, resistance increases when temperature increases.",
+        "If current heats the wire, resistance changes and Ohm's law may not be strictly valid.",
+        "Ohm's law is not valid for semiconductors in all conditions.",
+        "Examples of non-ohmic devices: diode, transistor, LED, thermistor, electrolyte.",
+        "Electrolytes may not obey Ohm's law because current is due to ions and chemical changes may occur.",
+        "Vacuum tubes and gas discharge tubes do not obey Ohm's law.",
+        "Ohmic conductors obey Ohm's law and have a straight-line V-I graph through the origin.",
+        "Examples of ohmic conductors: metallic conductor at constant temperature, copper wire, nichrome wire.",
+        "Non-ohmic conductors do not obey Ohm's law and have curved or non-linear V-I graphs.",
+        "A diode allows current easily in one direction only and has a non-linear V-I graph.",
+        "Dynamic resistance for a non-ohmic device: r = dV/dI."
+      ]
+    },
+    {
+      "heading": "Mobility and Relaxation Time",
+      "text": "Inside a conductor, electrons continuously collide with metal ions. Relaxation time is the average time interval between two successive collisions of free electrons with positive ions in a conductor. It is denoted by τ. If collisions are less frequent, relaxation time is more; if collisions are more frequent, relaxation time is less. When temperature increases, metal ions vibrate more strongly and electrons collide more frequently. Therefore, relaxation time decreases and resistance increases.",
+      "points": [
+        "Relaxation time: average time between two successive collisions of free electrons.",
+        "Symbol of relaxation time: τ.",
+        "Temperature increases ⇒ τ decreases.",
+        "Force on electron in electric field: F = -eE.",
+        "Acceleration of electron: a = -eE/m.",
+        "Drift velocity magnitude: v_d = eEτ/m.",
+        "Mobility is drift velocity acquired per unit electric field.",
+        "Mobility symbol: μ.",
+        "Formula: μ = v_d/E.",
+        "Formula: μ = eτ/m.",
+        "SI unit of mobility: m² V^-1 s^-1.",
+        "Current density: J = I/A.",
+        "Using I = nAe v_d, J = ne v_d.",
+        "Since v_d = μE, J = neμE.",
+        "Microscopic Ohm's law: J = σE.",
+        "Conductivity: σ = neμ = ne²τ/m.",
+        "Resistivity: ρ = 1/σ = m/(ne²τ)."
+      ]
+    },
+    {
+      "heading": "Current Density and Microscopic Form of Ohm's Law",
+      "text": "Current density tells how much current flows through unit area of a conductor. It is defined as current flowing per unit area of cross-section and is denoted by J. Formula: J = I/A. Its SI unit is A m^-2. Since I = nAe v_d, dividing by A gives J = ne v_d. Using v_d = eEτ/m, J = ne(eEτ/m) = (ne²τ/m)E. Since σ = ne²τ/m, we get J = σE. This is called the microscopic form of Ohm's law.",
+      "points": [
+        "Current density: J = I/A.",
+        "SI unit of current density: A m^-2.",
+        "Current density in terms of drift velocity: J = ne v_d.",
+        "Drift velocity: v_d = eEτ/m.",
+        "Therefore, J = (ne²τ/m)E.",
+        "Conductivity: σ = ne²τ/m.",
+        "Microscopic Ohm's law: J = σE.",
+        "Resistivity: ρ = 1/σ.",
+        "Another form: E = ρJ.",
+        "Macroscopic Ohm's law: V = IR.",
+        "Microscopic Ohm's law: J = σE or E = ρJ.",
+        "Current I is total charge flow per second and has unit ampere.",
+        "Current density J is current per unit area and has unit A m^-2.",
+        "Current I is scalar; current density J is vector.",
+        "Example: If I = 4 A and A = 2 × 10^-6 m², then J = 4/(2 × 10^-6) = 2 × 10^6 A m^-2."
+      ]
+    },
+    {
+      "heading": "Electrical Conductivity and Classification of Materials",
+      "text": "Different materials allow electric current to pass through them differently. Conductivity is the ability of a material to allow electric current to pass through it. It is denoted by σ and is the reciprocal of resistivity: σ = 1/ρ. The unit of conductivity is Ω^-1 m^-1 or S m^-1. Based on resistivity and conductivity, materials are divided into conductors, insulators, and semiconductors.",
+      "points": [
+        "Conductivity: σ = 1/ρ.",
+        "Unit of conductivity: Ω^-1 m^-1 or S m^-1.",
+        "Conductors allow electric current to pass easily.",
+        "Conductors have low resistivity and high conductivity.",
+        "Examples of conductors: silver, copper, aluminium.",
+        "Metals are good conductors because they have many free electrons.",
+        "Conductors have very low resistivity, approximately 10^-8 Ω m.",
+        "Copper is used in household wiring because it has low resistivity.",
+        "Insulators do not allow current to pass easily.",
+        "Insulators have high resistivity and low conductivity.",
+        "Examples of insulators: rubber, glass, plastic, wood.",
+        "Insulators do not have free electrons available for conduction.",
+        "Insulators have very high resistivity, approximately 10^11 Ω m to 10^16 Ω m.",
+        "Semiconductors have conductivity between conductors and insulators.",
+        "Examples of semiconductors: silicon and germanium.",
+        "For semiconductors, resistance decreases when temperature increases.",
+        "In semiconductors, higher temperature produces more charge carriers.",
+        "For metals, temperature increases ⇒ resistance increases.",
+        "For semiconductors, temperature increases ⇒ resistance decreases.",
+        "Superconductors are materials that show zero resistance below a certain very low temperature.",
+        "In superconducting state, R = 0 and current can flow without energy loss."
+      ]
+    },
+    {
+      "heading": "Carbon Resistors and Colour Code Numericals",
+      "text": "A carbon resistor is a common resistor used in electrical and electronic circuits. It is made by mixing carbon powder with an insulating material. Carbon resistors control current in circuits and are used in radios, televisions, circuits, mobile chargers, and electronic devices. Carbon has fairly high resistance, so it can act as a resistor. Carbon resistors are small, so their values are shown using colour bands.",
+      "points": [
+        "Carbon resistors are used to control current.",
+        "Carbon resistors usually have four colour bands.",
+        "The gold or silver band is usually kept on the right side because it represents tolerance.",
+        "Band 1 gives first significant digit.",
+        "Band 2 gives second significant digit.",
+        "Band 3 gives multiplier.",
+        "Band 4 gives tolerance.",
+        "Colour code: Black = 0, Brown = 1, Red = 2, Orange = 3, Yellow = 4, Green = 5, Blue = 6, Violet = 7, Grey = 8, White = 9.",
+        "Tolerance: Gold = ±5%, Silver = ±10%, No colour = ±20%.",
+        "Formula: R = first two digits × 10^(multiplier).",
+        "Numerical: Brown, Black, Red, Gold gives R = 10 × 10² = 1000 Ω = 1 kΩ ±5%.",
+        "Numerical: Red, Violet, Orange, Silver gives R = 27 × 10³ = 27000 Ω = 27 kΩ ±10%.",
+        "Numerical: Yellow, Violet, Brown, Gold gives R = 47 × 10¹ = 470 Ω ±5%.",
+        "Numerical: Orange, Orange, Black, Gold gives R = 33 × 10⁰ = 33 Ω ±5%.",
+        "If value is 100 Ω ±5%, then 5% of 100 Ω is 5 Ω, so range is 95 Ω to 105 Ω."
+      ]
+    },
+    {
+      "heading": "Cells in Series and Parallel: Numerical Applications",
+      "text": "For n identical cells in series, total EMF is nE, total internal resistance is nr, and current is I = nE/(R + nr). For n identical cells in parallel, total EMF is E, equivalent internal resistance is r/n, and current is I = E/(R + r/n) = nE/(nR + r). Series combination is useful when external resistance is large and more voltage is required. Parallel combination is useful when external resistance is small and more current capacity is required.",
+      "points": [
+        "Series cells: I = nE/(R + nr).",
+        "Parallel cells: I = nE/(nR + r).",
+        "Series combination increases total EMF.",
+        "Parallel combination decreases equivalent internal resistance.",
+        "Series is useful when R >> r.",
+        "Parallel is useful when R << r.",
+        "Numerical series: Three cells each with E = 2 V and r = 0.5 Ω connected to R = 6 Ω give I = (3 × 2)/(6 + 3 × 0.5) = 6/7.5 = 0.8 A.",
+        "Numerical parallel: Three cells each with E = 2 V and r = 0.6 Ω connected to R = 1.8 Ω give I = (3 × 2)/(3 × 1.8 + 0.6) = 6/6 = 1 A.",
+        "Comparison example: For two cells each with E = 1.5 V, r = 0.5 Ω, and R = 10 Ω, series current is 3/(10 + 1) = 0.27 A.",
+        "Comparison example: For the same cells in parallel, current is 3/(20 + 0.5) = 0.146 A.",
+        "When external resistance is large, series combination gives more current."
+      ]
+    },
+    {
+      "heading": "Kirchhoff's Laws: Numerical Problems",
+      "text": "Kirchhoff's laws are useful when circuits cannot be solved easily by simple series and parallel methods. The two laws are junction law, ΣI_in = ΣI_out, and loop law, ΣV = 0. In loop law, signs must be used carefully. Across a resistor, moving in the direction of current gives -IR and moving opposite to current gives +IR. Across a cell, moving from negative to positive terminal gives +E and moving from positive to negative terminal gives -E.",
+      "points": [
+        "Numerical 1: A 12 V cell connected to 2 Ω and 4 Ω resistors in series gives loop equation 12 - 2I - 4I = 0, so I = 2 A.",
+        "Numerical 2: Two cells of 10 V and 4 V in opposition with total resistance 3 Ω have effective EMF 10 - 4 = 6 V, so I = 6/3 = 2 A.",
+        "In opposing cells, current flows in the direction of the stronger cell.",
+        "Numerical 3: At a junction, 3 A and 2 A enter and 4 A leaves. If remaining current leaving is I, then 3 + 2 = 4 + I, so I = 1 A.",
+        "For two-loop circuits, assume loop currents I_1 and I_2 and write separate loop equations.",
+        "For a common resistor, current may be I_1 - I_2 or I_2 - I_1 depending on chosen direction.",
+        "Step 1: Mark assumed current directions in each branch.",
+        "Step 2: Apply junction law at junctions.",
+        "Step 3: Apply loop law in independent closed loops.",
+        "Step 4: Solve equations to find unknown currents.",
+        "If calculated current is negative, actual direction is opposite to the assumed direction.",
+        "Common mistakes: wrong signs of cells, wrong signs of resistors, and incorrect current through common resistor."
+      ]
+    },
+    {
+      "heading": "Wheatstone Bridge and Meter Bridge Numericals",
+      "text": "In a Wheatstone bridge, the bridge is balanced when no current flows through the galvanometer. At balance, P/Q = R/S. In a meter bridge, the balance condition becomes X/R = l/(100 - l), where X is unknown resistance, R is known resistance, and l is the balance length in cm. Therefore, X = Rl/(100 - l).",
+      "points": [
+        "Wheatstone bridge balance condition: P/Q = R/S.",
+        "At balance, I_g = 0.",
+        "Numerical 1: If P = 5 Ω, Q = 10 Ω, and R = 15 Ω, then 5/10 = 15/S, so S = 30 Ω.",
+        "Numerical 2: If P = 2 Ω, Q = 4 Ω, R = 3 Ω, and S = 6 Ω, then P/Q = 1/2 and R/S = 1/2, so bridge is balanced and I_g = 0.",
+        "Numerical 3: If P = 3 Ω, Q = 6 Ω, R = 5 Ω, and S = 8 Ω, then P/Q = 1/2 and R/S = 5/8, so bridge is not balanced.",
+        "Meter bridge formula: X/R = l/(100 - l).",
+        "Unknown resistance: X = Rl/(100 - l).",
+        "Numerical 4: If R = 4 Ω and l = 60 cm, then X = 4 × 60/(100 - 60) = 6 Ω.",
+        "Numerical 5: If X = 3 Ω and R = 2 Ω, then 3/2 = l/(100 - l), so l = 60 cm.",
+        "Numerical 6: If balance length is 40 cm, then after interchanging the resistances, new balance length becomes 100 - 40 = 60 cm.",
+        "For best accuracy in meter bridge, balance length should be near 50 cm.",
+        "Good meter bridge readings usually lie between 30 cm and 70 cm."
+      ]
+    },
+    {
+      "heading": "Potentiometer Numericals",
+      "text": "A potentiometer works on the principle V ∝ l. For a uniform wire carrying steady current, V = kl, where k is the potential gradient and l is the balancing length. Potential gradient is the potential drop per unit length: k = V/l. It is measured in V m^-1 or V cm^-1 depending on the length unit. Potentiometer can be used to find EMF, compare EMFs, and determine internal resistance.",
+      "points": [
+        "Potential gradient: k = V/l.",
+        "Numerical 1: If a 10 m potentiometer wire has 5 V across it, then k = 5/10 = 0.5 V m^-1.",
+        "EMF of a cell: E = kl.",
+        "Numerical 2: If l = 80 cm and k = 0.02 V/cm, then E = 0.02 × 80 = 1.6 V.",
+        "Comparison of EMFs: E_1/E_2 = l_1/l_2.",
+        "Numerical 3: If l_1 = 75 cm and l_2 = 50 cm, then E_1/E_2 = 75/50 = 3/2.",
+        "Numerical 4: If a standard cell of 1.5 V balances at 60 cm and another cell balances at 80 cm, then 1.5/E_2 = 60/80, so E_2 = 2 V.",
+        "Internal resistance: r = R((l_1 - l_2)/l_2).",
+        "Numerical 5: If l_1 = 100 cm, l_2 = 80 cm, and R = 5 Ω, then r = 5((100 - 80)/80) = 1.25 Ω.",
+        "Numerical 6: If R = 10 Ω, l_1 = 120 cm, and l_2 = 100 cm, then r = 10((120 - 100)/100) = 2 Ω.",
+        "At balance point, no current is drawn from the cell, so potentiometer measures EMF accurately.",
+        "A voltmeter draws some current, so it measures terminal potential difference."
+      ]
+    },
+    {
+      "heading": "Important Formulas and Quick Revision of Current Electricity",
+      "text": "The important formulas of Current Electricity are useful for quick exam revision. Electric current is I = Q/t. Current and drift velocity are related by I = nAe v_d. Drift velocity in terms of electric field is v_d = eEτ/m. Mobility is μ = v_d/E = eτ/m. Ohm's law is V = IR. Resistance and resistivity are related by R = ρl/A. Conductivity is σ = 1/ρ. Current density is J = I/A = ne v_d. Microscopic Ohm's law is J = σE or E = ρJ.",
+      "points": [
+        "Electric current: I = Q/t.",
+        "Drift velocity relation: I = nAe v_d.",
+        "Drift velocity: v_d = I/(nAe).",
+        "Drift velocity in electric field: v_d = eEτ/m.",
+        "Mobility: μ = v_d/E = eτ/m.",
+        "Unit of mobility: m² V^-1 s^-1.",
+        "Ohm's law: V = IR.",
+        "Resistance: R = V/I.",
+        "Resistance and resistivity: R = ρl/A.",
+        "Resistivity: ρ = RA/l.",
+        "Unit of resistivity: Ω m.",
+        "Conductivity: σ = 1/ρ.",
+        "Unit of conductivity: Ω^-1 m^-1 or S m^-1.",
+        "Current density: J = I/A.",
+        "Current density in terms of drift velocity: J = ne v_d.",
+        "Microscopic Ohm's law: J = σE or E = ρJ.",
+        "Conductivity in terms of relaxation time: σ = ne²τ/m.",
+        "Resistivity in terms of relaxation time: ρ = m/(ne²τ).",
+        "Temperature dependence: R_T = R_0(1 + αΔT).",
+        "For metals, temperature increases ⇒ resistance increases.",
+        "For semiconductors, temperature increases ⇒ resistance decreases.",
+        "Electrical power: P = VI = I²R = V²/R.",
+        "Electrical energy: W = VIt.",
+        "Heat produced: H = I²Rt.",
+        "Commercial unit: 1 kWh = 3.6 × 10^6 J.",
+        "EMF: E = W/q.",
+        "Terminal potential difference: V = E - Ir.",
+        "Current through external resistance: I = E/(R + r).",
+        "Cells in series: I = nE/(R + nr).",
+        "Cells in parallel: I = nE/(nR + r).",
+        "Resistors in series: R_s = R_1 + R_2 + R_3 + ...",
+        "Resistors in parallel: 1/R_p = 1/R_1 + 1/R_2 + 1/R_3 + ...",
+        "For two resistors in parallel: R_p = R_1R_2/(R_1 + R_2).",
+        "Kirchhoff junction law: ΣI_in = ΣI_out.",
+        "Kirchhoff loop law: ΣV = 0.",
+        "Wheatstone bridge: P/Q = R/S.",
+        "Meter bridge: X/R = l/(100 - l), so X = Rl/(100 - l).",
+        "Potentiometer principle: V ∝ l.",
+        "Potential gradient: k = V/l.",
+        "EMF of cell using potentiometer: E = kl.",
+        "Comparison of EMFs: E_1/E_2 = l_1/l_2.",
+        "Internal resistance using potentiometer: r = R((l_1 - l_2)/l_2).",
+        "Colour code: Black 0, Brown 1, Red 2, Orange 3, Yellow 4, Green 5, Blue 6, Violet 7, Grey 8, White 9.",
+        "Resistor colour code formula: R = first two digits × 10^(multiplier).",
+        "Tolerance: Gold = ±5%, Silver = ±10%, No colour = ±20%."
+      ]
+    }
+  ],
+  "summary": "",
+  "qa": []
+}
