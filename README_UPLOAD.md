@@ -59,3 +59,13 @@ Update included:
 - New flow: Select Class → Select Subject → Select Textbook → Select Chapter → Select Notes / Q&A / Summary card.
 - Chapter cards are filtered by the selected textbook only.
 - Added a “Change Textbook” button near “Change Subject” and “Change Class”.
+
+## July 2026 usability update
+- Added global search across all chapters.
+- Added clickable breadcrumbs and shareable browser URLs.
+- Browser Back and Forward now restore the correct screen.
+- Chapter cards show Notes, Summary, and Q&A availability.
+- Reader includes content tabs, font-size controls, line spacing, paper/sepia/dark themes, reading time, bookmarks, completion tracking, sharing, and improved PDF handling.
+- Added Continue Learning on the home screen.
+- Added PWA/offline support through `manifest.webmanifest` and `sw.js`.
+- The website remains fully static and needs no build command.

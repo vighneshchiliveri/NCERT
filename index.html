@@ -3,11 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NCERT Archive — Notes, Summaries & Q&A</title>
-  <meta name="description" content="NCERT notes, summaries and question answers collection." />
+  <meta name="theme-color" content="#c9a876" />
+  <meta name="description" content="Browse NCERT chapter notes, summaries and question answers by class, subject and textbook." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="NCERT Study Archive" />
+  <meta property="og:description" content="NCERT notes, summaries and question answers for quick study and revision." />
+  <title>NCERT Study Archive — Notes, Summaries &amp; Q&amp;A</title>
+
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="icon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -15,50 +22,79 @@
 
   <header class="site-header">
     <div class="header-inner">
-      <button class="brand" id="homeBtn" type="button" aria-label="Go to home">
-        <span class="brand-mark">N</span>
+      <button class="brand" id="homeBtn" type="button" aria-label="Go to the NCERT Study Archive home page">
+        <span class="brand-mark" aria-hidden="true">N</span>
         <span class="brand-text">
-          <h1>NCERT</h1>
-          <p>notes, summaries, question answers</p>
+          <span class="brand-title">NCERT</span>
+          <span class="brand-subtitle">notes, summaries, question answers</span>
         </span>
       </button>
+
+      <div class="global-search" id="globalSearchWrap">
+        <label class="sr-only" for="globalSearchInput">Search all chapters</label>
+        <input
+          id="globalSearchInput"
+          type="search"
+          placeholder="Search all chapters…"
+          autocomplete="off"
+          aria-controls="globalSearchResults"
+          aria-expanded="false"
+        />
+        <span class="global-search-icon" aria-hidden="true">⌕</span>
+        <div class="global-search-results" id="globalSearchResults" role="listbox" hidden></div>
+      </div>
     </div>
   </header>
 
-  <main>
-    <section class="class-select-section" id="classSelectSection">
+  <nav class="breadcrumb-wrap" id="breadcrumbWrap" aria-label="Breadcrumb" hidden>
+    <ol class="breadcrumb" id="breadcrumb"></ol>
+  </nav>
+
+  <main id="mainContent">
+    <section class="study-dashboard" id="studyDashboard" hidden aria-labelledby="continueTitle">
+      <div class="dashboard-heading">
+        <div>
+          <span class="section-kicker">Your Study</span>
+          <h2 id="continueTitle">Continue Learning</h2>
+        </div>
+        <button class="text-button" id="clearProgressBtn" type="button">Clear saved progress</button>
+      </div>
+      <div class="dashboard-grid" id="dashboardGrid"></div>
+    </section>
+
+    <section class="class-select-section" id="classSelectSection" aria-labelledby="classSelectTitle">
       <span class="section-kicker">Step 1</span>
-      <h2>Select Class</h2>
+      <h1 id="classSelectTitle">Select Class</h1>
       <p>Choose a class to view related NCERT notes, summaries and question answers.</p>
       <div class="class-grid" id="classGrid"></div>
     </section>
 
-    <section class="subject-select-section" id="subjectSelectSection" hidden>
+    <section class="subject-select-section" id="subjectSelectSection" hidden aria-labelledby="subjectSelectTitle">
       <span class="section-kicker">Step 2</span>
-      <h2>Select Subject</h2>
+      <h1 id="subjectSelectTitle">Select Subject</h1>
       <p>Choose a subject to view available NCERT textbooks.</p>
       <div class="subject-grid" id="subjectGrid"></div>
     </section>
 
-    <section class="textbook-select-section" id="textbookSelectSection" hidden>
+    <section class="textbook-select-section" id="textbookSelectSection" hidden aria-labelledby="textbookSelectTitle">
       <span class="section-kicker">Step 3</span>
-      <h2>Select Textbook</h2>
+      <h1 id="textbookSelectTitle">Select Textbook</h1>
       <p>Choose a textbook to view its chapter notes, summaries and question answers.</p>
       <div class="textbook-grid" id="textbookGrid"></div>
     </section>
 
-    <section class="catalog-controls" id="catalogControls" hidden>
+    <section class="catalog-controls" id="catalogControls" hidden aria-label="Chapter catalogue controls">
       <div class="selected-class-bar">
         <div>
-          <span class="section-kicker">Selected Class</span>
+          <span class="section-kicker">Class</span>
           <strong id="selectedClassText">Class</strong>
         </div>
         <div>
-          <span class="section-kicker">Selected Subject</span>
+          <span class="section-kicker">Subject</span>
           <strong id="selectedSubjectText">Subject</strong>
         </div>
         <div>
-          <span class="section-kicker">Selected Textbook</span>
+          <span class="section-kicker">Textbook</span>
           <strong id="selectedBookText">Textbook</strong>
         </div>
         <div class="selected-actions">
@@ -69,19 +105,20 @@
       </div>
 
       <div class="search-wrap">
-        <input id="searchInput" type="search" placeholder="Search chapter, subject, book..." autocomplete="off" />
-        <span class="search-count" id="resultCount">0 / 0</span>
+        <label class="sr-only" for="searchInput">Search chapters in the selected textbook</label>
+        <input id="searchInput" type="search" placeholder="Search chapters in this textbook…" autocomplete="off" />
+        <span class="search-count" id="resultCount" aria-live="polite">0 / 0</span>
       </div>
     </section>
 
-    <section class="catalog" id="catalog" aria-live="polite"></section>
+    <section class="catalog" id="catalog" aria-live="polite" aria-label="Chapter list"></section>
 
-    <section class="content-type-section is-page-screen" id="contentTypeSection" hidden>
+    <section class="content-type-section is-page-screen" id="contentTypeSection" hidden aria-labelledby="contentTypeTitle">
       <div class="content-type-header">
         <div>
           <span class="section-kicker">Chapter Selected</span>
-          <h2>Select Content</h2>
-          <p id="selectedChapterText">Choose Notes, Summary, or Q&A.</p>
+          <h1 id="contentTypeTitle">Select Content</h1>
+          <p id="selectedChapterText">Choose Notes, Summary, or Q&amp;A.</p>
         </div>
         <button id="backToChaptersBtn" type="button">← Back to Chapter List</button>
       </div>
@@ -91,34 +128,57 @@
     <section class="empty-state" id="emptyState" hidden>No NCERT material matches your search.</section>
   </main>
 
-  <section class="reader-view" id="readerView" hidden>
+  <section class="reader-view" id="readerView" hidden aria-label="Chapter reader">
     <div class="reader-shell">
-      <div class="reader-toolbar">
+      <div class="reader-toolbar" aria-label="Reader controls">
         <button id="readerBack" type="button">← Back</button>
-        <div class="reader-actions">
-          <button id="readerPdf" type="button">Open PDF</button>
-          <button id="readerPrint" type="button">Print</button>
+
+        <div class="reader-tools">
+          <div class="reader-pref-group" aria-label="Reading appearance">
+            <button id="decreaseFontBtn" type="button" aria-label="Decrease text size">A−</button>
+            <button id="increaseFontBtn" type="button" aria-label="Increase text size">A+</button>
+            <button id="lineSpacingBtn" type="button" aria-label="Change line spacing">Lines</button>
+            <button id="readerThemeBtn" type="button" aria-label="Change reader theme">Theme</button>
+          </div>
+          <div class="reader-actions">
+            <button id="bookmarkBtn" type="button" aria-pressed="false">☆ Bookmark</button>
+            <button id="completeBtn" type="button" aria-pressed="false">✓ Complete</button>
+            <button id="readerPdf" type="button">Open PDF</button>
+            <button id="readerPrint" type="button">Print</button>
+            <button id="shareBtn" type="button">Share</button>
+          </div>
         </div>
       </div>
 
-      <article class="reader-paper">
+      <article class="reader-paper" id="readerPaper">
         <p class="reader-kicker" id="readerKicker">#</p>
         <h1 id="readerTitle"></h1>
+        <div class="reader-meta-row">
+          <span id="readingTime">1 min read</span>
+          <span id="readerStatus" aria-live="polite"></span>
+        </div>
 
-
+        <div class="reader-type-tabs" id="readerTypeTabs" role="tablist" aria-label="Chapter content types"></div>
         <div class="reader-content" id="readerContent"></div>
 
         <div class="reader-nav">
-          <button id="prevChapterBtn" type="button">← Previous</button>
-          <button id="nextChapterBtn" type="button">Next →</button>
+          <button id="prevChapterBtn" type="button">← Previous Chapter</button>
+          <button id="nextChapterBtn" type="button">Next Chapter →</button>
         </div>
       </article>
     </div>
   </section>
 
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
   <footer class="site-footer">
-    NCERT collection for study use. Created by Chiliveri Vighnesh 
+    <p><strong>NCERT Study Archive</strong> — an independent study resource, not an official NCERT website.</p>
+    <p>Created by Chiliveri Vighnesh · <a href="https://github.com/vighneshchiliveri/NCERT/issues" target="_blank" rel="noopener noreferrer">Report an issue</a></p>
   </footer>
+
+  <noscript>
+    <p class="noscript-message">JavaScript is required to browse the chapter library.</p>
+  </noscript>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" defer></script>
   <script src="script.js" defer></script>
