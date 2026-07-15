@@ -206,8 +206,201 @@ function formatAcademicSegment(segment = '') {
 }
 
 function isCambriaMathSubject() {
-  const subject = String(selectedSubject || '').trim().toLowerCase();
-  return subject === 'chemistry' || subject === 'physics';
+  const subject = String(selectedSubject || readerContent?.dataset?.subject || '').trim().toLowerCase();
+  return subject === 'chemistry' || subject === 'physics' || subject === 'mathematics' || subject === 'maths';
+}
+
+const SUPERSCRIPT_TO_ASCII = {
+  '⁰': '0', '¹': '1', '²': '2', '³': '3', '⁴': '4', '⁵': '5', '⁶': '6', '⁷': '7', '⁸': '8', '⁹': '9',
+  '⁺': '+', '⁻': '-', '⁼': '=', '⁽': '(', '⁾': ')', 'ⁿ': 'n'
+};
+const SUBSCRIPT_TO_ASCII = {
+  '₀': '0', '₁': '1', '₂': '2', '₃': '3', '₄': '4', '₅': '5', '₆': '6', '₇': '7', '₈': '8', '₉': '9',
+  '₊': '+', '₋': '-', '₌': '=', '₍': '(', '₎': ')', 'ₐ': 'a', 'ₑ': 'e', 'ₕ': 'h', 'ᵢ': 'i', 'ⱼ': 'j',
+  'ₖ': 'k', 'ₗ': 'l', 'ₘ': 'm', 'ₙ': 'n', 'ₒ': 'o', 'ₚ': 'p', 'ᵣ': 'r', 'ₛ': 's', 'ₜ': 't', 'ₓ': 'x'
+};
+const MATH_WORDS = new Set([
+  'sin', 'cos', 'tan', 'cot', 'sec', 'cosec', 'log', 'ln', 'exp', 'lim', 'max', 'min',
+  'mol', 'kg', 'cm', 'mm', 'nm', 'pm', 'km', 'ms', 'Hz', 'kHz', 'MHz', 'GHz', 'eV', 'keV', 'MeV',
+  'J', 'kJ', 'C', 'A', 'V', 'W', 'K', 'N', 'Pa', 'S', 'M', 'L', 'm', 's', 'h', 'rad', 'sr', 'T', 'Wb',
+  'Ecell', 'Ecathode', 'Eanode', 'Kc', 'Ka', 'Kb', 'Ksp', 'pH', 'pOH', 'EMF', 'RMS', 'AC', 'DC'
+]);
+const FORMULA_OPERATOR_REGEX = /(⇌|↔|→|⟶|⇒|<=>|<->|->|≤|≥|≈|≠|∝|±|=)/g;
+
+function convertUnicodeScripts(value = '', mode = 'math') {
+  const source = String(value);
+  let output = '';
+  for (let index = 0; index < source.length; index += 1) {
+    const character = source[index];
+    const superscript = SUPERSCRIPT_TO_ASCII[character];
+    const subscript = SUBSCRIPT_TO_ASCII[character];
+    if (superscript !== undefined) {
+      let group = superscript;
+      while (SUPERSCRIPT_TO_ASCII[source[index + 1]] !== undefined) {
+        index += 1;
+        group += SUPERSCRIPT_TO_ASCII[source[index]];
+      }
+      output += mode === 'chemistry' ? `^${group.length > 1 ? `{${group}}` : group}` : `^{${group}}`;
+    } else if (subscript !== undefined) {
+      let group = subscript;
+      while (SUBSCRIPT_TO_ASCII[source[index + 1]] !== undefined) {
+        index += 1;
+        group += SUBSCRIPT_TO_ASCII[source[index]];
+      }
+      output += mode === 'chemistry' ? group : `_{${group}}`;
+    } else {
+      output += character;
+    }
+  }
+  return output;
+}
+
+function chemistryToLatex(value = '') {
+  return convertUnicodeScripts(value, 'chemistry')
+    .replace(/⇌|↔/g, '<=>')
+    .replace(/→|⟶|⇒/g, '->')
+    .replace(/↓/g, ' v')
+    .replace(/↑/g, ' ^')
+    .replace(/−/g, '-')
+    .replace(/·/g, ' * ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function mathToLatex(value = '') {
+  let result = convertUnicodeScripts(value, 'math')
+    .replace(/−/g, '-')
+    .replace(/×/g, String.raw`\times `)
+    .replace(/÷/g, String.raw`\div `)
+    .replace(/·/g, String.raw`\cdot `)
+    .replace(/⇌/g, String.raw`\rightleftharpoons `)
+    .replace(/↔/g, String.raw`\leftrightarrow `)
+    .replace(/→|⟶|⇒/g, String.raw`\to `)
+    .replace(/≤/g, String.raw`\le `)
+    .replace(/≥/g, String.raw`\ge `)
+    .replace(/≈/g, String.raw`\approx `)
+    .replace(/≠/g, String.raw`\ne `)
+    .replace(/∝/g, String.raw`\propto `)
+    .replace(/±/g, String.raw`\pm `)
+    .replace(/∞/g, String.raw`\infty `)
+    .replace(/√\s*\(([^()]+)\)/g, String.raw`\sqrt{$1}`)
+    .replace(/√\s*([A-Za-z0-9_[\]{}]+)/g, String.raw`\sqrt{$1}`)
+    .replace(/Φ/g, String.raw`\Phi `)
+    .replace(/Δ/g, String.raw`\Delta `)
+    .replace(/Ω/g, String.raw`\Omega `)
+    .replace(/λ/g, String.raw`\lambda `)
+    .replace(/ν/g, String.raw`\nu `)
+    .replace(/μ/g, String.raw`\mu `)
+    .replace(/ρ/g, String.raw`\rho `)
+    .replace(/κ/g, String.raw`\kappa `)
+    .replace(/α/g, String.raw`\alpha `)
+    .replace(/β/g, String.raw`\beta `)
+    .replace(/θ/g, String.raw`\theta `)
+    .replace(/π/g, String.raw`\pi `)
+    .replace(/ε/g, String.raw`\varepsilon `)
+    .replace(/°/g, String.raw`^{\circ}`);
+
+  // Convert common ASCII powers such as 10^-19, n^2 and L^-1.
+  result = result.replace(/\^(?!\{)\s*([+\-]?\d+(?:\.\d+)?)/g, '^{$1}');
+
+  // Convert derivatives and common fractions while avoiding superscript/subscript fragments.
+  result = result.replace(/\s+([_^])/g, '$1');
+  result = result.replace(/d(\\?[A-Za-z]+(?:_[A-Za-z0-9{}]+)?)\s*\/\s*d([A-Za-z]+)/g, String.raw`\frac{d$1}{d$2}`);
+  result = result.replace(/((?:\[[^\]]+\]\^[A-Za-z])+)\s*\/\s*((?:\[[^\]]+\]\^[A-Za-z])+)/g, String.raw`\frac{$1}{$2}`);
+  const atom = String.raw`(?:\\sqrt\{(?:[^{}]|\{[^{}]*\})+\}|\\?[A-Za-z]+(?:_\{[^{}]+\}|_?[A-Za-z0-9]+)?(?:\^\{[^{}]+\})?|\d+(?:\.\d+)?(?:\^\{[^{}]+\})?|\([^()]+\)|\[[^\[\]]+\])`;
+  const fractionPattern = new RegExp(`(?<![_^])(${atom})\\s*\\/\\s*(${atom})(?!\\s*\^)`, 'g');
+  for (let pass = 0; pass < 2; pass += 1) {
+    result = result.replace(fractionPattern, String.raw`\frac{$1}{$2}`);
+  }
+
+  // Use readable subscripts for common named quantities.
+  result = result
+    .replace(/E\^\{\\circ\}(cell|cathode|anode)/g, String.raw`E_{\mathrm{$1}}^{\circ}`)
+    .replace(/\bE(cell|cathode|anode)\b/g, String.raw`E_{\mathrm{$1}}`);
+
+  // Roman typography for common units when they are separate tokens.
+  result = result.replace(/\b(mol|kg|cm|mm|nm|pm|km|Hz|kHz|MHz|GHz|eV|keV|MeV|kJ|J|Pa|Wb|rad|sr)\b/g, String.raw`\mathrm{$1}`);
+  result = result.replace(/(\d|\})\s+(m|s|V|A|C|K|L|T|N|S|W)\b/g, String.raw`$1\,\mathrm{$2}`);
+  result = result.replace(/\s+/g, ' ').trim();
+  return result;
+}
+
+function stripTokenPunctuation(token = '') {
+  return String(token).replace(/^[,:;]+/, '').replace(/[,:;.?!]+$/, '');
+}
+
+function isMathToken(token = '') {
+  const value = stripTokenPunctuation(token);
+  if (!value) return false;
+  if (/[0-9₀-₉⁰¹²³⁴⁵⁶⁷⁸⁹=+\-−×÷·/^()[\]{}|°ΔλνμρκαβθπΩ∞↓↑]/.test(value)) return true;
+  if (MATH_WORDS.has(value)) return true;
+  if (/^[A-Za-z]$/.test(value)) return true;
+  if (/^[A-Z][a-z]?$/.test(value)) return true;
+  if (/^[A-Z](?:cell|cathode|anode|higher|lower|initial|final|avg|rms)$/.test(value)) return true;
+  if (/^[A-Za-z]{1,3}_[A-Za-z0-9]+$/.test(value)) return true;
+  if (/^[A-Z][a-z]?[0-9₀-₉]*(?:[A-Z][a-z]?[0-9₀-₉]*)+$/.test(value)) return true;
+  return false;
+}
+
+function formulaRanges(text = '') {
+  const source = String(text);
+  const tokens = [...source.matchAll(/\S+/g)].map(match => ({
+    text: match[0],
+    start: match.index || 0,
+    end: (match.index || 0) + match[0].length
+  }));
+  if (!tokens.length) return [];
+
+  const ranges = [];
+  FORMULA_OPERATOR_REGEX.lastIndex = 0;
+  for (const match of source.matchAll(FORMULA_OPERATOR_REGEX)) {
+    const operatorStart = match.index || 0;
+    const tokenIndex = tokens.findIndex(token => token.start <= operatorStart && token.end >= operatorStart + match[0].length);
+    if (tokenIndex < 0) continue;
+
+    const isReactionOperator = /(?:⇌|↔|→|⟶|⇒|<=>|<->|->)/.test(match[0]);
+    let left = tokenIndex;
+    let right = tokenIndex;
+    while (left > 0 && isMathToken(tokens[left - 1].text)) {
+      if (/[,:;.?!]$/.test(tokens[left - 1].text)) break;
+      left -= 1;
+    }
+    while (right + 1 < tokens.length && isMathToken(tokens[right + 1].text)) {
+      if (/[.;?!]$/.test(tokens[right].text)) break;
+      if (isReactionOperator && /,$/.test(tokens[right].text)) break;
+      right += 1;
+    }
+
+    let start = tokens[left].start;
+    let end = tokens[right].end;
+
+    // A label such as “Formula:” or “Reaction:” is prose, not part of the equation.
+    const colonBeforeOperator = source.lastIndexOf(':', operatorStart);
+    if (colonBeforeOperator >= start) start = colonBeforeOperator + 1;
+    while (start < end && /[,:;\s]/.test(source[start])) start += 1;
+    while (end > start && /[,:;.?!\s]/.test(source[end - 1])) end -= 1;
+
+    if (/^a\s+[A-Z][a-z]?(?:=|≡)/.test(source.slice(start, end).trim())) {
+      start = source.indexOf(' ', start) + 1;
+    }
+
+    const expression = source.slice(start, end).trim();
+    const hasSubstance = /[A-Za-z0-9ΔλνμρκαβθπΩ₀-₉⁰¹²³⁴⁵⁶⁷⁸⁹]/.test(expression);
+    if (hasSubstance && expression.length <= 260) ranges.push({ start, end });
+  }
+
+  ranges.sort((a, b) => a.start - b.start || a.end - b.end);
+  const merged = [];
+  ranges.forEach(range => {
+    const previous = merged[merged.length - 1];
+    if (previous && range.start <= previous.end + 1) previous.end = Math.max(previous.end, range.end);
+    else merged.push({ ...range });
+  });
+  return merged;
+}
+
+function formatPlainScientificText(value = '') {
+  return formatInlineScientificTokens(value);
 }
 
 function formatAcademicText(value = '') {
@@ -215,13 +408,42 @@ function formatAcademicText(value = '') {
   if (!text) return '';
   if (!isCambriaMathSubject()) return escapeHtml(text);
 
-  // Commas and semicolons commonly separate a formula from its explanation.
-  // Keeping the separators outside the span prevents surrounding prose from
-  // unnecessarily switching to the mathematics font.
-  return text
-    .split(/([,;]\s*)/)
-    .map(part => /^[,;]/.test(part) ? escapeHtml(part) : formatAcademicSegment(part))
-    .join('');
+  // Preserve equations that are already written with KaTeX/LaTeX delimiters.
+  if (text.includes('\\(') || text.includes('\\[') || /\$\$[^$]+\$\$|\$[^$]+\$/.test(text)) return escapeHtml(text);
+
+  const ranges = formulaRanges(text);
+  if (!ranges.length) return formatPlainScientificText(text);
+
+  let html = '';
+  let cursor = 0;
+  ranges.forEach(range => {
+    html += formatPlainScientificText(text.slice(cursor, range.start));
+    const expression = text.slice(range.start, range.end);
+    const isReaction = /(?:→|⇌|↔|⟶|⇒|->|<=>|<->)/.test(expression) && String(selectedSubject || readerContent?.dataset?.subject || '').toLowerCase() === 'chemistry';
+    const latex = isReaction
+      ? String.raw`\ce{${chemistryToLatex(expression)}}`
+      : mathToLatex(expression);
+    html += `\\(${escapeHtml(latex)}\\)`;
+    cursor = range.end;
+  });
+  html += formatPlainScientificText(text.slice(cursor));
+  return html;
+}
+
+function renderReaderMath() {
+  if (typeof window.renderMathInElement !== 'function') return;
+  window.renderMathInElement(readerContent, {
+    delimiters: [
+      { left: '$$', right: '$$', display: true },
+      { left: '\\[', right: '\\]', display: true },
+      { left: '\\(', right: '\\)', display: false },
+      { left: '$', right: '$', display: false }
+    ],
+    throwOnError: false,
+    strict: false,
+    trust: false,
+    ignoredTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+  });
 }
 
 function cleanTitle(title = '') {
@@ -850,12 +1072,12 @@ function renderNotes(notes = []) {
   if (!Array.isArray(notes) || !notes.length) return '<p>No notes added yet.</p>';
 
   return `
-    <div class="chat-thread" role="list" aria-label="Notes conversation">
+    <div class="notes-list" aria-label="Chapter notes">
       ${notes.map((note, index) => {
         const isPlainNote = typeof note === 'string';
         const heading = isPlainNote
-          ? `Study Note ${index + 1}`
-          : note.heading || note.title || note.topic || `Study Note ${index + 1}`;
+          ? `Topic ${index + 1}`
+          : note.heading || note.title || note.topic || `Topic ${index + 1}`;
         const text = isPlainNote ? note : note.text || note.description || note.content || '';
         const points = isPlainNote ? [] : note.points || note.subpoints || note.items || [];
         const renderedPoints = Array.isArray(points)
@@ -863,24 +1085,13 @@ function renderNotes(notes = []) {
           : [];
 
         return `
-          <article class="chat-exchange" id="note-topic-${index + 1}" data-topic-anchor role="listitem">
-            <div class="chat-turn chat-turn-user">
-              <div class="chat-message chat-message-user">
-                <span class="chat-message-label">Topic</span>
-                <h3 data-topic-heading>${formatAcademicText(heading)}</h3>
-              </div>
-              <span class="chat-avatar chat-avatar-user" aria-hidden="true">T</span>
+          <section class="note-topic" id="note-topic-${index + 1}" data-topic-anchor>
+            <h3 data-topic-heading>${formatAcademicText(heading)}</h3>
+            <div class="note-topic-content">
+              ${text ? renderTextBlock(text) : ''}
+              ${renderedPoints.length ? `<ul>${renderedPoints.map(point => `<li>${formatAcademicText(point)}</li>`).join('')}</ul>` : ''}
             </div>
-
-            <div class="chat-turn chat-turn-assistant">
-              <span class="chat-avatar chat-avatar-assistant" aria-hidden="true">N</span>
-              <div class="chat-message chat-message-assistant">
-                <span class="chat-message-label">NCERT Assistant</span>
-                ${text ? renderTextBlock(text) : ''}
-                ${renderedPoints.length ? `<ul class="chat-points">${renderedPoints.map(point => `<li>${formatAcademicText(point)}</li>`).join('')}</ul>` : ''}
-              </div>
-            </div>
-          </article>
+          </section>
         `;
       }).join('')}
     </div>
@@ -1189,7 +1400,8 @@ async function openReader(id, type = 'notes', { historyMode = 'push', focus = tr
   readerKicker.textContent = `Class ${content.class || item.class || ''} · ${content.subject || item.subject || ''} · ${content.chapter || item.chapter || ''} · ${content.book || item.book || ''}`;
   readerContent.dataset.subject = String(content.subject || item.subject || '').toLowerCase();
   readerContent.innerHTML = contentTypeToHtml(content, activeReaderType);
-  readingTime.textContent = `${calculateReadingTime(readerContent.innerHTML)} min read`;
+  renderReaderMath();
+  readingTime.textContent = `${calculateReadingTime(readerContent.textContent)} min read`;
   renderReaderTabs(content);
 
   hideAllMainSections();

@@ -84,3 +84,10 @@ Update included:
 - Cambria Math uses the visitor's system font; compatible mathematical serif fallbacks are provided when it is unavailable.
 - Chemistry and Physics PDF actions open the browser print dialog so Save as PDF preserves the mathematical font and symbols.
 - Offline cache updated to v5.
+
+## KaTeX equations and simplified notes update
+- Added KaTeX 0.16.9 auto-rendering for Physics, Chemistry, and Mathematics equations.
+- Added mhchem rendering for chemistry reactions.
+- Equations now use proper fractions, powers, subscripts, superscripts, Greek symbols, and reaction arrows.
+- Removed the chat-style notes display. Notes now show the topic heading followed directly by the content.
+- Updated the service-worker cache to `v8`.
