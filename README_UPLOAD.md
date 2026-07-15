@@ -76,3 +76,11 @@ Update included:
 - Notes are available now; Summary and Q&A remain unavailable where the uploaded JSON files left them empty.
 - Updated the offline cache version so the new chapter catalogue appears after deployment.
 
+
+
+## July 2026 Cambria Math update
+- Physics formulas, chemistry equations, reaction schemes, ionic expressions, polynomial-style expressions, powers, fractions, and substitutions are automatically rendered in Cambria Math.
+- Normal website text remains in Fraunces.
+- Cambria Math uses the visitor's system font; compatible mathematical serif fallbacks are provided when it is unavailable.
+- Chemistry and Physics PDF actions open the browser print dialog so Save as PDF preserves the mathematical font and symbols.
+- Offline cache updated to v5.

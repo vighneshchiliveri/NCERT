@@ -9,6 +9,7 @@ let activeReaderId = null;
 let activeReaderType = null;
 let suppressHistory = false;
 let toastTimer = null;
+let topicObserver = null;
 
 const contentCache = Object.create(null);
 const availabilityCache = Object.create(null);
@@ -76,6 +77,10 @@ const readerTitle = document.getElementById('readerTitle');
 const readerKicker = document.getElementById('readerKicker');
 const readerContent = document.getElementById('readerContent');
 const readerTypeTabs = document.getElementById('readerTypeTabs');
+const readerTopics = document.getElementById('readerTopics');
+const readerTopicsDetails = document.getElementById('readerTopicsDetails');
+const readerTopicsList = document.getElementById('readerTopicsList');
+const readerTopicsCount = document.getElementById('readerTopicsCount');
 const readingTime = document.getElementById('readingTime');
 const readerStatus = document.getElementById('readerStatus');
 const prevChapterBtn = document.getElementById('prevChapterBtn');
@@ -93,6 +98,130 @@ function escapeHtml(value = '') {
   const div = document.createElement('div');
   div.textContent = String(value ?? '');
   return div.innerHTML;
+}
+
+const ACADEMIC_MATH_OPERATOR_PATTERN = /(?:=|→|⇌|↔|⟶|⇒|⟷|->|<->|<=|>=|≤|≥|≈|≠|∝|±|×|÷|√|∫|∑|Σ|∏|∆|Δ)/;
+const ACADEMIC_MATH_NOTATION_PATTERN = /(?:[₀-₉⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻]|[λμνθπρστφψωαβγδεζηκξχ]|\b(?:sin|cos|tan|log|ln)\b|\d+\s*\/\s*[A-Za-z0-9([])/i;
+const CHEMICAL_FORMULA_PATTERN = /(?:\b(?:[A-Z][a-z]?[0-9₀-₉]*){2,}\b|(?:[A-Z][a-z]?[0-9₀-₉]*)(?:[-–—](?:[A-Z][A-Za-z0-9₀-₉()]*)){1,}|\[[A-Z][A-Za-z0-9₀-₉()]+\](?:[0-9₀-₉⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻]+)?)/;
+const FORMULA_LABEL_PATTERN = /\b(?:formula|equation|reaction|structure|notation|representation|expression|law|relation|rate|potential|energy|force|radius|velocity|frequency|wavelength|current|voltage|resistance|capacitance|inductance|power|momentum|charge|field|flux|molarity|molality|conductivity|constant|order|half-life|cell)\b/i;
+const CHEMICAL_ELEMENTS = new Set([
+  'H', 'He', 'Li', 'Be', 'B', 'C', 'N', 'O', 'F', 'Ne', 'Na', 'Mg', 'Al', 'Si', 'P', 'S', 'Cl', 'Ar',
+  'K', 'Ca', 'Sc', 'Ti', 'V', 'Cr', 'Mn', 'Fe', 'Co', 'Ni', 'Cu', 'Zn', 'Ga', 'Ge', 'As', 'Se', 'Br', 'Kr',
+  'Rb', 'Sr', 'Y', 'Zr', 'Nb', 'Mo', 'Tc', 'Ru', 'Rh', 'Pd', 'Ag', 'Cd', 'In', 'Sn', 'Sb', 'Te', 'I', 'Xe',
+  'Cs', 'Ba', 'La', 'Ce', 'Pr', 'Nd', 'Pm', 'Sm', 'Eu', 'Gd', 'Tb', 'Dy', 'Ho', 'Er', 'Tm', 'Yb', 'Lu',
+  'Hf', 'Ta', 'W', 'Re', 'Os', 'Ir', 'Pt', 'Au', 'Hg', 'Tl', 'Pb', 'Bi', 'Po', 'At', 'Rn', 'Fr', 'Ra',
+  'Ac', 'Th', 'Pa', 'U', 'Np', 'Pu', 'Am', 'Cm', 'Bk', 'Cf', 'Es', 'Fm', 'Md', 'No', 'Lr', 'Rf', 'Db',
+  'Sg', 'Bh', 'Hs', 'Mt', 'Ds', 'Rg', 'Cn', 'Nh', 'Fl', 'Mc', 'Lv', 'Ts', 'Og'
+]);
+const INLINE_SCIENTIFIC_TOKEN_PATTERN = /(?:e[⁺⁻−]|[A-Za-z](?:_[A-Za-z0-9]+|[₀-₉⁰¹²³⁴⁵⁶⁷⁸⁹]+)|[λμνθπρστφψωαβγδεζηκξχ](?:_[A-Za-z0-9]+|[₀-₉⁰¹²³⁴⁵⁶⁷⁸⁹]+)?|\[[A-Z][A-Za-z0-9₀-₉()]*\][0-9₀-₉⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻+−-]*|[A-Z][A-Za-z0-9₀-₉()]*[⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻−]*[+-]?)/g;
+
+function isChemicalFormulaToken(token = '') {
+  const value = String(token).replace(/^\[|\]([0-9₀-₉⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻−]*)$/g, '$1');
+  const hasNumberOrCharge = /[0-9₀-₉⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻−]/.test(value);
+  const letters = value.replace(/[0-9₀-₉⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻−()]/g, '');
+  if (!letters || !/^[A-Z]/.test(letters)) return false;
+
+  let index = 0;
+  let elementCount = 0;
+  while (index < letters.length) {
+    const symbol = letters[index] + (/[a-z]/.test(letters[index + 1] || '') ? letters[index + 1] : '');
+    if (!CHEMICAL_ELEMENTS.has(symbol)) return false;
+    elementCount += 1;
+    index += symbol.length;
+  }
+
+  return elementCount >= 2 || hasNumberOrCharge;
+}
+
+function isInlineScientificToken(token = '') {
+  const value = String(token);
+  if (/^e[⁺⁻−]$/.test(value)) return true;
+  if (/^[A-Za-z](?:_[A-Za-z0-9]+|[₀-₉⁰¹²³⁴⁵⁶⁷⁸⁹]+)$/.test(value)) return true;
+  if (/^[λμνθπρστφψωαβγδεζηκξχ](?:_[A-Za-z0-9]+|[₀-₉⁰¹²³⁴⁵⁶⁷⁸⁹]+)?$/.test(value)) return true;
+  return isChemicalFormulaToken(value);
+}
+
+function formatInlineScientificTokens(text = '') {
+  const value = String(text);
+  let html = '';
+  let cursor = 0;
+  INLINE_SCIENTIFIC_TOKEN_PATTERN.lastIndex = 0;
+
+  for (const match of value.matchAll(INLINE_SCIENTIFIC_TOKEN_PATTERN)) {
+    const token = match[0];
+    const index = match.index ?? 0;
+    html += escapeHtml(value.slice(cursor, index));
+    html += isInlineScientificToken(token)
+      ? `<span class="math-expression">${escapeHtml(token)}</span>`
+      : escapeHtml(token);
+    cursor = index + token.length;
+  }
+
+  html += escapeHtml(value.slice(cursor));
+  return html;
+}
+
+function containsValidatedChemicalFormula(text = '') {
+  INLINE_SCIENTIFIC_TOKEN_PATTERN.lastIndex = 0;
+  for (const match of String(text).matchAll(INLINE_SCIENTIFIC_TOKEN_PATTERN)) {
+    if (isChemicalFormulaToken(match[0])) return true;
+  }
+  return false;
+}
+
+function looksLikeAcademicMath(text = '') {
+  const value = String(text).trim();
+  if (!value) return false;
+
+  if (ACADEMIC_MATH_OPERATOR_PATTERN.test(value)) return true;
+  if (FORMULA_LABEL_PATTERN.test(value) && (ACADEMIC_MATH_NOTATION_PATTERN.test(value) || containsValidatedChemicalFormula(value))) return true;
+
+  const compact = value.replace(/\s+/g, '');
+  const words = value.match(/[A-Za-z]{3,}/g) || [];
+  const notationCount = (compact.match(/[0-9₀-₉⁰¹²³⁴⁵⁶⁷⁸⁹+\-*/()[\]{}|.:]/g) || []).length;
+  return words.length <= 3 && notationCount >= 2 && (ACADEMIC_MATH_NOTATION_PATTERN.test(value) || containsValidatedChemicalFormula(value));
+}
+
+function formatAcademicSegment(segment = '') {
+  if (!segment) return '';
+  const leading = segment.match(/^\s*/)?.[0] || '';
+  const trailing = segment.match(/\s*$/)?.[0] || '';
+  const core = segment.slice(leading.length, segment.length - trailing.length);
+  if (!core) return escapeHtml(segment);
+
+  const colonIndex = core.lastIndexOf(':');
+  if (colonIndex >= 0) {
+    const prefix = core.slice(0, colonIndex + 1);
+    const expression = core.slice(colonIndex + 1);
+    if (looksLikeAcademicMath(expression)) {
+      return `${escapeHtml(leading)}${formatInlineScientificTokens(prefix)}<span class="math-expression">${escapeHtml(expression)}</span>${escapeHtml(trailing)}`;
+    }
+  }
+
+  if (looksLikeAcademicMath(core)) {
+    return `${escapeHtml(leading)}<span class="math-expression">${escapeHtml(core)}</span>${escapeHtml(trailing)}`;
+  }
+
+  return `${escapeHtml(leading)}${formatInlineScientificTokens(core)}${escapeHtml(trailing)}`;
+}
+
+function isCambriaMathSubject() {
+  const subject = String(selectedSubject || '').trim().toLowerCase();
+  return subject === 'chemistry' || subject === 'physics';
+}
+
+function formatAcademicText(value = '') {
+  const text = String(value ?? '');
+  if (!text) return '';
+  if (!isCambriaMathSubject()) return escapeHtml(text);
+
+  // Commas and semicolons commonly separate a formula from its explanation.
+  // Keeping the separators outside the span prevents surrounding prose from
+  // unnecessarily switching to the mathematics font.
+  return text
+    .split(/([,;]\s*)/)
+    .map(part => /^[,;]/.test(part) ? escapeHtml(part) : formatAcademicSegment(part))
+    .join('');
 }
 
 function cleanTitle(title = '') {
@@ -266,6 +395,12 @@ function hideAllMainSections() {
 function clearReaderState() {
   activeReaderId = null;
   activeReaderType = null;
+  if (topicObserver) {
+    topicObserver.disconnect();
+    topicObserver = null;
+  }
+  readerTopics.hidden = true;
+  readerTopicsList.innerHTML = '';
 }
 
 function updateBreadcrumb() {
@@ -695,35 +830,61 @@ function showChapterListPage() {
 function renderTextBlock(value) {
   if (!hasContent(value)) return '';
   if (Array.isArray(value)) {
-    return `<ul>${value.map(item => `<li>${escapeHtml(typeof item === 'string' ? item : JSON.stringify(item))}</li>`).join('')}</ul>`;
+    return `<ul>${value.map(item => `<li>${formatAcademicText(typeof item === 'string' ? item : JSON.stringify(item))}</li>`).join('')}</ul>`;
   }
   return String(value)
     .split(/\n+/)
     .map(text => text.trim())
     .filter(Boolean)
-    .map(paragraph => `<p>${escapeHtml(paragraph)}</p>`)
+    .map(paragraph => `<p>${formatAcademicText(paragraph)}</p>`)
     .join('');
+}
+
+function notePointToText(point) {
+  if (typeof point === 'string' || typeof point === 'number') return String(point);
+  if (!point || typeof point !== 'object') return '';
+  return point.text || point.point || point.content || point.description || JSON.stringify(point);
 }
 
 function renderNotes(notes = []) {
   if (!Array.isArray(notes) || !notes.length) return '<p>No notes added yet.</p>';
-  if (notes.every(note => typeof note === 'string')) {
-    return `<ul>${notes.map(note => `<li>${escapeHtml(note)}</li>`).join('')}</ul>`;
-  }
 
-  return notes.map(note => {
-    if (typeof note === 'string') return `<div class="note-block"><p>${escapeHtml(note)}</p></div>`;
-    const heading = note.heading || note.title || note.topic || '';
-    const text = note.text || note.description || note.content || '';
-    const points = note.points || note.subpoints || note.items || [];
-    return `
-      <section class="note-block">
-        ${heading ? `<h3>${escapeHtml(heading)}</h3>` : ''}
-        ${text ? renderTextBlock(text) : ''}
-        ${Array.isArray(points) && points.length ? `<ul>${points.map(point => `<li>${escapeHtml(point)}</li>`).join('')}</ul>` : ''}
-      </section>
-    `;
-  }).join('');
+  return `
+    <div class="chat-thread" role="list" aria-label="Notes conversation">
+      ${notes.map((note, index) => {
+        const isPlainNote = typeof note === 'string';
+        const heading = isPlainNote
+          ? `Study Note ${index + 1}`
+          : note.heading || note.title || note.topic || `Study Note ${index + 1}`;
+        const text = isPlainNote ? note : note.text || note.description || note.content || '';
+        const points = isPlainNote ? [] : note.points || note.subpoints || note.items || [];
+        const renderedPoints = Array.isArray(points)
+          ? points.map(notePointToText).filter(Boolean)
+          : [];
+
+        return `
+          <article class="chat-exchange" id="note-topic-${index + 1}" data-topic-anchor role="listitem">
+            <div class="chat-turn chat-turn-user">
+              <div class="chat-message chat-message-user">
+                <span class="chat-message-label">Topic</span>
+                <h3 data-topic-heading>${formatAcademicText(heading)}</h3>
+              </div>
+              <span class="chat-avatar chat-avatar-user" aria-hidden="true">T</span>
+            </div>
+
+            <div class="chat-turn chat-turn-assistant">
+              <span class="chat-avatar chat-avatar-assistant" aria-hidden="true">N</span>
+              <div class="chat-message chat-message-assistant">
+                <span class="chat-message-label">NCERT Assistant</span>
+                ${text ? renderTextBlock(text) : ''}
+                ${renderedPoints.length ? `<ul class="chat-points">${renderedPoints.map(point => `<li>${formatAcademicText(point)}</li>`).join('')}</ul>` : ''}
+              </div>
+            </div>
+          </article>
+        `;
+      }).join('')}
+    </div>
+  `;
 }
 
 function groupQABySection(qa = []) {
@@ -751,12 +912,12 @@ function renderQA(qa = []) {
   if (!Array.isArray(qa) || !qa.length) return '<p>No question answers added yet.</p>';
   let runningNumber = 0;
   return groupQABySection(qa).map(group => `
-    ${group.section ? `<h3 class="qa-section-title">${escapeHtml(group.section)}</h3>` : ''}
+    ${group.section ? `<h3 class="qa-section-title">${formatAcademicText(group.section)}</h3>` : ''}
     ${group.items.map(item => {
       runningNumber += 1;
       return `
-        <section class="qa-block">
-          <h4 class="qa-question">Q${runningNumber}. ${escapeHtml(item.q || item.question || '')}</h4>
+        <section class="qa-block" id="qa-topic-${runningNumber}" data-topic-anchor>
+          <h4 class="qa-question" data-topic-heading>Q${runningNumber}. ${formatAcademicText(item.q || item.question || '')}</h4>
           <div class="qa-answer">${renderTextBlock(item.a || item.answer || '')}</div>
         </section>
       `;
@@ -776,12 +937,79 @@ function contentTypeToHtml(content, type) {
     return `<section class="reader-section" data-reader-section="notes"><h2>Detailed Notes</h2>${renderNotes(content.notes)}</section>`;
   }
   if (type === 'summary') {
-    return `<section class="reader-section" data-reader-section="summary"><h2>Summary</h2>${hasContent(content.summary) ? renderTextBlock(content.summary) : '<p>No summary added yet.</p>'}</section>`;
+    return `<section class="reader-section" data-reader-section="summary" id="summary-topic" data-topic-anchor><h2 data-topic-heading>Summary</h2>${hasContent(content.summary) ? renderTextBlock(content.summary) : '<p>No summary added yet.</p>'}</section>`;
   }
   if (type === 'qa') {
     return `<section class="reader-section" data-reader-section="qa"><h2>Question &amp; Answers</h2>${renderQA(content.qa)}</section>`;
   }
   return '<p>No content added yet.</p>';
+}
+
+function setActiveReaderTopic(topicId) {
+  readerTopicsList.querySelectorAll('button[data-topic-id]').forEach(button => {
+    const active = button.dataset.topicId === topicId;
+    button.classList.toggle('is-active', active);
+    if (active) button.setAttribute('aria-current', 'location');
+    else button.removeAttribute('aria-current');
+  });
+}
+
+function setupReaderTopics() {
+  if (topicObserver) {
+    topicObserver.disconnect();
+    topicObserver = null;
+  }
+
+  const anchors = [...readerContent.querySelectorAll('[data-topic-anchor]')]
+    .filter(anchor => anchor.querySelector('[data-topic-heading]'));
+
+  readerTopicsList.innerHTML = '';
+
+  if (!anchors.length || (activeReaderType === 'summary' && anchors.length === 1)) {
+    readerTopics.hidden = true;
+    return;
+  }
+
+  anchors.forEach((anchor, index) => {
+    if (!anchor.id) anchor.id = `reader-topic-${index + 1}`;
+    const heading = anchor.querySelector('[data-topic-heading]');
+    const title = heading?.textContent?.trim() || `Topic ${index + 1}`;
+    const item = document.createElement('li');
+    const button = document.createElement('button');
+
+    button.type = 'button';
+    button.dataset.topicId = anchor.id;
+    button.title = title;
+    button.innerHTML = `<span class="reader-topic-number">${index + 1}</span><span class="reader-topic-title"></span>`;
+    button.querySelector('.reader-topic-title').textContent = title;
+    button.addEventListener('click', () => {
+      const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      setActiveReaderTopic(anchor.id);
+      anchor.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'start' });
+      anchor.classList.remove('topic-target-flash');
+      window.requestAnimationFrame(() => anchor.classList.add('topic-target-flash'));
+      window.setTimeout(() => anchor.classList.remove('topic-target-flash'), 1400);
+    });
+
+    item.appendChild(button);
+    readerTopicsList.appendChild(item);
+  });
+
+  readerTopicsCount.textContent = String(anchors.length);
+  readerTopics.hidden = false;
+  readerTopicsDetails.open = window.matchMedia('(min-width: 1181px)').matches;
+  setActiveReaderTopic(anchors[0].id);
+
+  if ('IntersectionObserver' in window) {
+    topicObserver = new IntersectionObserver(entries => {
+      const visible = entries
+        .filter(entry => entry.isIntersecting)
+        .sort((a, b) => b.intersectionRatio - a.intersectionRatio);
+      if (visible[0]) setActiveReaderTopic(visible[0].target.id);
+    }, { rootMargin: '-14% 0px -70% 0px', threshold: [0, 0.15, 0.5, 1] });
+
+    anchors.forEach(anchor => topicObserver.observe(anchor));
+  }
 }
 
 async function openContentTypeSelection(id, { historyMode = 'push', focus = true } = {}) {
@@ -959,6 +1187,7 @@ async function openReader(id, type = 'notes', { historyMode = 'push', focus = tr
   const chapterTitle = cleanTitle(content.title || item.title || getCardTitle(item));
   readerTitle.textContent = `${chapterTitle} — ${typeInfo.title}`;
   readerKicker.textContent = `Class ${content.class || item.class || ''} · ${content.subject || item.subject || ''} · ${content.chapter || item.chapter || ''} · ${content.book || item.book || ''}`;
+  readerContent.dataset.subject = String(content.subject || item.subject || '').toLowerCase();
   readerContent.innerHTML = contentTypeToHtml(content, activeReaderType);
   readingTime.textContent = `${calculateReadingTime(readerContent.innerHTML)} min read`;
   renderReaderTabs(content);
@@ -966,6 +1195,7 @@ async function openReader(id, type = 'notes', { historyMode = 'push', focus = tr
   hideAllMainSections();
   readerView.hidden = false;
   document.body.classList.add('reader-open');
+  setupReaderTopics();
   applyReaderPreferences();
   updateProgressButtons();
   updateReaderNav();
@@ -1183,6 +1413,13 @@ async function generatePdfFromId(id, type = activeReaderType || 'notes') {
   const typeInfo = getContentTypeInfo(type);
   const chapterTitle = cleanTitle(content.title || item.title || getCardTitle(item));
   const bodyText = contentTypeToPlainText(content, type);
+  const subject = String(content.subject || item.subject || '').toLowerCase();
+
+  if (subject === 'chemistry' || subject === 'physics') {
+    showToast('Use Save as PDF in the print window to preserve Cambria Math formulas.');
+    window.print();
+    return;
+  }
 
   if (/[^\u0000-\u00ff]/.test(`${chapterTitle}${bodyText}`)) {
     showToast('For Indian-language text, use Print → Save as PDF to preserve the font.');
