@@ -209,7 +209,7 @@
       "description": "Racial discrimination, caste discrimination, cultural suppression, humiliation, resistance, and the power of education.",
       "contentHref": "content/Class 12/English/class12-english-vistas-chapter-8-memories-of-childhood.json"
     },
-        {
+    {
       "id": "class11-english-hornbill-chapter-1-the-portrait-of-a-lady",
       "title": "The Portrait of a Lady by Khushwant Singh",
       "class": "11",
@@ -218,117 +218,117 @@
       "book": "Hornbill",
       "icon": "👵",
       "description": "The bond between generations, the pain of changing relationships due to modernization, and the dignity of aging and death.",
-      "contentHref": "content/Class 11/English/Hornbill/The_Portrait_of_a_Lady.json"
+      "contentHref": "content/Class 11/English/The_Portrait_of_a_Lady.json"
     },
     {
-      "id": "class11-english-hornbill-chapter-2-a-photograph",
+      "id": "class11-english-hornbill-poetry-1-a-photograph",
       "title": "A Photograph by Shirley Toulson",
+      "class": "11",
+      "subject": "English",
+      "chapter": "Poetry 1",
+      "book": "Hornbill",
+      "icon": "📸",
+      "description": "Human mortality, the transience of life compared to the permanence of nature, and the deep, silent grief of losing a mother.",
+      "contentHref": "content/Class 11/English/A_Photograph.json"
+    },
+    {
+      "id": "class11-english-hornbill-chapter-2-were-not-afraid-to-die",
+      "title": "We're Not Afraid to Die... if We Can All Be Together by Gordon Cook and Alan East",
       "class": "11",
       "subject": "English",
       "chapter": "Chapter 2",
       "book": "Hornbill",
-      "icon": "📸",
-      "description": "Human mortality, the transience of life compared to the permanence of nature, and the deep, silent grief of losing a mother.",
-      "contentHref": "content/Class 11/English/Hornbill/A_Photograph.json"
+      "icon": "⛵",
+      "description": "Unity, family support, unwavering optimism, and presence of mind helping human beings endure and conquer hazardous crises.",
+      "contentHref": "content/Class 11/English/We_Are_Not_Afraid_to_Die.json"
     },
     {
-      "id": "class11-english-hornbill-chapter-3-were-not-afraid-to-die",
-      "title": "We're Not Afraid to Die... if We Can All Be Together by Gordon Cook and Alan East",
+      "id": "class11-english-hornbill-chapter-3-discovering-tut-the-saga-continues",
+      "title": "Discovering Tut: the Saga Continues by A.R. Williams",
       "class": "11",
       "subject": "English",
       "chapter": "Chapter 3",
       "book": "Hornbill",
-      "icon": "⛵",
-      "description": "Unity, family support, unwavering optimism, and presence of mind helping human beings endure and conquer hazardous crises.",
-      "contentHref": "content/Class 11/English/Hornbill/We_Are_Not_Afraid_to_Die.json"
+      "icon": "⚱️",
+      "description": "How modern technology, forensic science, and archaeology come together to uncover long-buried historical secrets.",
+      "contentHref": "content/Class 11/English/Discovering_tut_Saga_continues.json"
     },
     {
-      "id": "class11-english-hornbill-chapter-4-discovering-tut-the-saga-continues",
-      "title": "Discovering Tut: the Saga Continues by A.R. Williams",
+      "id": "class11-english-hornbill-poetry-2-the-laburnum-top",
+      "title": "The Laburnum Top by Ted Hughes",
+      "class": "11",
+      "subject": "English",
+      "chapter": "Poetry 2",
+      "book": "Hornbill",
+      "icon": "🌳",
+      "description": "Mutual dependency and the transience of life explored through a symbiotic relationship between a tree and a bird.",
+      "contentHref": "content/Class 11/English/The_Laburnum_Top.json"
+    },
+    {
+      "id": "class11-english-hornbill-chapter-4-the-ailing-planet-the-green-movements-role",
+      "title": "The Ailing Planet: The Green Movement’s Role by Nani Palkhivala",
       "class": "11",
       "subject": "English",
       "chapter": "Chapter 4",
       "book": "Hornbill",
-      "icon": "⚱️",
-      "description": "How modern technology, forensic science, and archaeology come together to uncover long-buried historical secrets.",
-      "contentHref": "content/Class 11/English/Hornbill/Discovering_Tut_The_Saga_Continues.json"
+      "icon": "🌍",
+      "description": "Deteriorating global health due to human exploitation and shifting perception toward an ecological worldview and sustainable development.",
+      "contentHref": "content/Class 11/English/The_Ailing_Planet.json"
     },
     {
-      "id": "class11-english-hornbill-chapter-5-the-laburnum-top",
-      "title": "The Laburnum Top by Ted Hughes",
+      "id": "class11-english-hornbill-poetry-3-the-voice-of-the-rain",
+      "title": "The Voice of the Rain by Walt Whitman",
+      "class": "11",
+      "subject": "English",
+      "chapter": "Poetry 3",
+      "book": "Hornbill",
+      "icon": "🌧️",
+      "description": "Celebrating the eternal circular cycle of rain and drawing a parallel to how art and nature share a healing, life-giving power.",
+      "contentHref": "content/Class 11/English/The_Voice_of_the_Rain.json"
+    },
+    {
+      "id": "class11-english-hornbill-chapter-5-the-adventure",
+      "title": "The Adventure by Jayant Narlikar",
       "class": "11",
       "subject": "English",
       "chapter": "Chapter 5",
       "book": "Hornbill",
-      "icon": "🌳",
-      "description": "Mutual dependency and the transience of life explored through a symbiotic relationship between a tree and a bird.",
-      "contentHref": "content/Class 11/English/Hornbill/The_Laburnum_Top.json"
+      "icon": "🧪",
+      "description": "Weaving historical speculation with quantum physics to explore parallel realities and transitions in human consciousness.",
+      "contentHref": "content/Class 11/English/The_Adventure.json"
     },
     {
-      "id": "class11-english-hornbill-chapter-6-the-ailing-planet-the-green-movements-role",
-      "title": "The Ailing Planet: The Green Movement’s Role by Nani Palkhivala",
+      "id": "class11-english-hornbill-poetry-4-childhood",
+      "title": "Childhood by Markus Natten",
+      "class": "11",
+      "subject": "English",
+      "chapter": "Poetry 4",
+      "book": "Hornbill",
+      "icon": "🧸",
+      "description": "The loss of childhood innocence, the transition into rational adult life, and the painful realization of adult hypocrisy.",
+      "contentHref": "content/Class 11/English/Childhood.json"
+    },
+    {
+      "id": "class11-english-hornbill-chapter-6-silk-road",
+      "title": "Silk Road by Nick Middleton",
       "class": "11",
       "subject": "English",
       "chapter": "Chapter 6",
       "book": "Hornbill",
-      "icon": "🌍",
-      "description": "Deteriorating global health due to human exploitation and shifting perception toward an ecological worldview and sustainable development.",
-      "contentHref": "content/Class 11/English/Hornbill/The_Ailing_Planet.json"
-    },
-    {
-      "id": "class11-english-hornbill-chapter-7-the-voice-of-the-rain",
-      "title": "The Voice of the Rain by Walt Whitman",
-      "class": "11",
-      "subject": "English",
-      "chapter": "Chapter 7",
-      "book": "Hornbill",
-      "icon": "🌧️",
-      "description": "Celebrating the eternal circular cycle of rain and drawing a parallel to how art and nature share a healing, life-giving power.",
-      "contentHref": "content/Class 11/English/Hornbill/The_Voice_of_the_Rain.json"
-    },
-    {
-      "id": "class11-english-hornbill-chapter-8-the-adventure",
-      "title": "The Adventure by Jayant Narlikar",
-      "class": "11",
-      "subject": "English",
-      "chapter": "Chapter 8",
-      "book": "Hornbill",
-      "icon": "🧪",
-      "description": "Weaving historical speculation with quantum physics to explore parallel realities and transitions in human consciousness.",
-      "contentHref": "content/Class 11/English/Hornbill/The_Adventure.json"
-    },
-    {
-      "id": "class11-english-hornbill-chapter-9-childhood",
-      "title": "Childhood by Markus Natten",
-      "class": "11",
-      "subject": "English",
-      "chapter": "Chapter 9",
-      "book": "Hornbill",
-      "icon": "🧸",
-      "description": "The loss of childhood innocence, the transition into rational adult life, and the painful realization of adult hypocrisy.",
-      "contentHref": "content/Class 11/English/Hornbill/Childhood.json"
-    },
-    {
-      "id": "class11-english-hornbill-chapter-10-silk-road",
-      "title": "Silk Road by Nick Middleton",
-      "class": "11",
-      "subject": "English",
-      "chapter": "Chapter 10",
-      "book": "Hornbill",
       "icon": "🏔️",
       "description": "Geographical harshness and physical challenges faced during high-altitude travel countered by unexpected human companionship.",
-      "contentHref": "content/Class 11/English/Hornbill/Silk_Road.json"
+      "contentHref": "content/Class 11/English/Silk_Road.json"
     },
     {
-      "id": "class11-english-hornbill-chapter-11-father-to-son",
+      "id": "class11-english-hornbill-poetry-5-father-to-son",
       "title": "Father to Son by Elizabeth Jennings",
       "class": "11",
       "subject": "English",
-      "chapter": "Chapter 11",
+      "chapter": "Poetry 5",
       "book": "Hornbill",
       "icon": "👨‍👦",
       "description": "The generational communication gap and emotional alienation inside a familial environment, trapping two perspectives in a deadlock.",
-      "contentHref": "content/Class 11/English/Hornbill/Father_to_Son.json"
+      "contentHref": "content/Class 11/English/Father_to_Son.json"
     },
     {
       "id": "class11-english-snapshots-chapter-1-the-summer-of-the-beautiful-white-horse",
@@ -339,7 +339,7 @@
       "book": "Snapshots",
       "icon": "🐎",
       "description": "Childhood innocence, a shared love for freedom, and how a deep-seated pride in family values dictates moral choices.",
-      "contentHref": "content/Class 11/English/Snapshots/The_Summer_of_the_Beautiful_White_Horse.json"
+      "contentHref": "content/Class 11/English/The_Summer_of_the_Beautiful_White_Horse.json"
     },
     {
       "id": "class11-english-snapshots-chapter-2-the-address",
@@ -350,7 +350,7 @@
       "book": "Snapshots",
       "icon": "🚪",
       "description": "Emotional trauma and material disruption caused by war, showcasing the ultimate futility of clinging to a tragic past.",
-      "contentHref": "content/Class 11/English/Snapshots/The_Address.json"
+      "contentHref": "content/Class 11/English/The_Address.json"
     },
     {
       "id": "class11-english-snapshots-chapter-3-mothers-day",
@@ -361,7 +361,7 @@
       "book": "Snapshots",
       "icon": "🫖",
       "description": "Satirical commentary on the unfair treatment of housewives and the necessity of establishing domestic respect.",
-      "contentHref": "content/Class 11/English/Snapshots/Mothers_Day.json"
+      "contentHref": "content/Class 11/English/Mothers_Day.json"
     },
     {
       "id": "class11-english-snapshots-chapter-4-birth",
@@ -372,18 +372,18 @@
       "book": "Snapshots",
       "icon": "👶",
       "description": "Intense professional dedication and medical instinct triumphing over personal despair to protect human life.",
-      "contentHref": "content/Class 11/English/Snapshots/Birth.json"
+      "contentHref": "content/Class 11/English/Birth.json"
     },
     {
-      "id": "class11-english-snapshots-chapter-5-the-tale-of-melon-city",
+      "id": "class11-english-snapshots-poetry-1-the-tale-of-melon-city",
       "title": "The Tale of Melon City by Vikram Seth",
       "class": "11",
       "subject": "English",
-      "chapter": "Chapter 5",
+      "chapter": "Poetry 1",
       "book": "Snapshots",
       "icon": "🍉",
       "description": "Satirizing arbitrary governance, blind adherence to tradition, and the absurdity of a purely mechanical legal system.",
-      "contentHref": "content/Class 11/English/Snapshots/The_Tale_of_Melon_City.json"
-    } 
+      "contentHref": "content/Class 11/English/The_Tale_of_Melon_City.json"
+    }
   ]
 }
