@@ -91,3 +91,8 @@ Update included:
 - Equations now use proper fractions, powers, subscripts, superscripts, Greek symbols, and reaction arrows.
 - Removed the chat-style notes display. Notes now show the topic heading followed directly by the content.
 - Updated the service-worker cache to `v8`.
+
+## Class 11 content loading fix
+- Class 11 English chapter content files were stored with a `.js` extension even though `media/library.json` loads them as JSON via `.json` paths.
+- The 16 Class 11 English content files have been converted to `.json`, matching their existing `contentHref` entries.
+- Service-worker cache version was bumped to `v9` so deployed browsers can refresh the corrected content catalogue.
