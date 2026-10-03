@@ -45,6 +45,7 @@ const globalSearchResults = document.getElementById('globalSearchResults');
 const studyDashboard = document.getElementById('studyDashboard');
 const dashboardGrid = document.getElementById('dashboardGrid');
 const clearProgressBtn = document.getElementById('clearProgressBtn');
+const welcomeSection = document.getElementById('welcomeSection');
 
 const classSelectSection = document.getElementById('classSelectSection');
 const classGrid = document.getElementById('classGrid');
@@ -524,6 +525,48 @@ function scrollTop(smooth = true) {
   window.scrollTo({ top: 0, behavior: smooth ? 'smooth' : 'auto' });
 }
 
+let classSelectionAnimated = false;
+let classSelectionAnimationFrame = 0;
+
+function animateClassSelectionOnScroll() {
+  if (classSelectionAnimated || classSelectSection.hidden || window.scrollY === 0) return;
+
+  const sectionTop = classSelectSection.getBoundingClientRect().top;
+  if (sectionTop > window.innerHeight * 0.82 || sectionTop < 0) return;
+
+  const items = classSelectSection.querySelectorAll(':scope > .section-kicker, :scope > h1, :scope > p, .class-card, .empty-library');
+  if (!items.length) return;
+
+  classSelectionAnimated = true;
+  window.removeEventListener('scroll', scheduleClassSelectionAnimation);
+  items.forEach((item, index) => {
+    item.animate(
+      [
+        { opacity: 0, transform: 'translateY(20px)' },
+        { opacity: 1, transform: 'translateY(0)' }
+      ],
+      {
+        duration: 560,
+        delay: index < 3 ? index * 90 : 250 + (index - 3) * 65,
+        easing: 'cubic-bezier(0.2, 0.75, 0.25, 1)',
+        fill: 'backwards'
+      }
+    );
+  });
+}
+
+function scheduleClassSelectionAnimation() {
+  if (classSelectionAnimationFrame) return;
+  classSelectionAnimationFrame = window.requestAnimationFrame(() => {
+    classSelectionAnimationFrame = 0;
+    animateClassSelectionOnScroll();
+  });
+}
+
+if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  window.addEventListener('scroll', scheduleClassSelectionAnimation, { passive: true });
+}
+
 function rawItems() {
   if (Array.isArray(library.chapters)) return library.chapters;
   return [
@@ -602,6 +645,7 @@ function updateDocumentMetadata(title, description) {
 }
 
 function hideAllMainSections() {
+  welcomeSection.hidden = true;
   classSelectSection.hidden = true;
   subjectSelectSection.hidden = true;
   textbookSelectSection.hidden = true;
@@ -936,6 +980,7 @@ function showHome({ historyMode = 'push', focus = true } = {}) {
   searchInput.value = '';
 
   hideAllMainSections();
+  welcomeSection.hidden = false;
   classSelectSection.hidden = false;
   catalogEl.innerHTML = '';
   renderClassSelection();
@@ -945,7 +990,7 @@ function showHome({ historyMode = 'push', focus = true } = {}) {
   updateHistory(historyMode);
   if (focus) {
     scrollTop();
-    focusHeading(classSelectSection);
+    focusHeading(welcomeSection);
   }
 }
 
