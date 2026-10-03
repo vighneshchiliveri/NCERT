@@ -1,6 +1,138 @@
 {
   "chapters": [
     {
+      "id": "class9-english-kaveri-how-i-taught-my-grandmother-to-read",
+      "title": "How I Taught My Grandmother to Read",
+      "class": "9",
+      "subject": "English",
+      "chapter": "Chapter 1",
+      "book": "Kaveri",
+      "icon": "📖",
+      "description": "How I Taught My Grandmother to Read by Sudha Murty is a heartwarming autobiographical essay that beautifully illustrates the power of determination, the value of literacy, and the unique bond between a grandmother and her granddau…",
+      "contentHref": "content/Class 9/English/class9-english-kaveri-how-i-taught-my-grandmother-to-read.json"
+    },
+    {
+      "id": "class9-english-kaveri-bharat-our-land",
+      "title": "Bharat Our Land",
+      "class": "9",
+      "subject": "English",
+      "chapter": "Poetry 1",
+      "book": "Kaveri",
+      "icon": "✅",
+      "description": "Bharat Our Land by the legendary Tamil poet and freedom fighter Subramania Bharati (from the Class 9 textbook Kaveri ) is a passionate patriotic ode that celebrates the unparalleled geographical splendour, rich spiritual heritage,…",
+      "contentHref": "content/Class 9/English/class9-english-kaveri-bharat-our-land.json"
+    },
+    {
+      "id": "class9-english-kaveri-the-pot-maker",
+      "title": "The Pot Maker",
+      "class": "9",
+      "subject": "English",
+      "chapter": "Chapter 2",
+      "book": "Kaveri",
+      "icon": "📖",
+      "description": "The Pot Maker by Temsula Ao (from the Class 9 textbook Kaveri ) is a moving story set in a Naga village that explores the theme of preserving cultural heritage, perseverance, and the deep artistic bond between generations. The nar…",
+      "contentHref": "content/Class 9/English/class9-english-kaveri-the-pot-maker.json"
+    },
+    {
+      "id": "class9-english-kaveri-gifts-of-grace-honouring-our-vocations",
+      "title": "Gifts of Grace: Honouring Our Vocations",
+      "class": "9",
+      "subject": "English",
+      "chapter": "Poetry 2",
+      "book": "Kaveri",
+      "icon": "✅",
+      "description": "Gifts of Grace: Honouring Our Vocations (written by an anonymous author from the Class 9 textbook Kaveri ) is a beautiful, celebratory poem that champions the dignity of labour and the profound equality of all professions. The poe…",
+      "contentHref": "content/Class 9/English/class9-english-kaveri-gifts-of-grace-honouring-our-vocations.json"
+    },
+    {
+      "id": "class9-english-kaveri-winds-of-change",
+      "title": "Winds of Change",
+      "class": "9",
+      "subject": "English",
+      "chapter": "Chapter 3",
+      "book": "Kaveri",
+      "icon": "📖",
+      "description": "Winds of Change from the Class 9 Kaveri textbook explores the cultural and historical evolution of the traditional Indian hand fan, or pankha, a word derived from the Sanskrit pankh (feather). Traced back to Ajanta Cave paintings…",
+      "contentHref": "content/Class 9/English/class9-english-kaveri-winds-of-change.json"
+    },
+    {
+      "id": "class9-english-kaveri-canvas-of-soil",
+      "title": "Canvas of Soil",
+      "class": "9",
+      "subject": "English",
+      "chapter": "Poetry 3",
+      "book": "Kaveri",
+      "icon": "✅",
+      "description": "Canvas of Soil by Maya Anthony (from the Class 9 textbook Kaveri ) is a beautiful, deeply imaginative poem that utilizes an extended metaphor to portray the act of gardening as a vibrant and noble form of artistic expression. The…",
+      "contentHref": "content/Class 9/English/class9-english-kaveri-canvas-of-soil.json"
+    },
+    {
+      "id": "class9-english-kaveri-vitamin-m",
+      "title": "Vitamin-M",
+      "class": "9",
+      "subject": "English",
+      "chapter": "Chapter 4",
+      "book": "Kaveri",
+      "icon": "📖",
+      "description": "Vitamin-M by Asha Nehemiah (from the Class 9 textbook Kaveri ) is a heartwarming and humorous story that highlights the themes of elderly dignity, independence, and the importance of respecting senior citizens over confining them.…",
+      "contentHref": "content/Class 9/English/class9-english-kaveri-vitamin-m.json"
+    },
+    {
+      "id": "class9-english-kaveri-i-cannot-remember-my-mother",
+      "title": "I Cannot Remember My Mother",
+      "class": "9",
+      "subject": "English",
+      "chapter": "Poetry 4",
+      "book": "Kaveri",
+      "icon": "✅",
+      "description": "I Cannot Remember My Mother by Rabindranath Tagore is a deeply emotional, nostalgic poem that beautifully explores the concept of memory, loss, and the eternal, spiritual bond between a child and their deceased mother. The poem is…",
+      "contentHref": "content/Class 9/English/class9-english-kaveri-i-cannot-remember-my-mother.json"
+    },
+    {
+      "id": "class9-english-kaveri-the-world-of-limitless-possibilities",
+      "title": "The World of Limitless Possibilities",
+      "class": "9",
+      "subject": "English",
+      "chapter": "Chapter 5",
+      "book": "Kaveri",
+      "icon": "📖",
+      "description": "The World of Limitless Possibilities (from the Class 9 English textbook Kaveri ) is an inspiring, interview-based chapter that introduces the significance of the Paralympic Games and celebrates the monumental resilience, mental fo…",
+      "contentHref": "content/Class 9/English/class9-english-kaveri-the-world-of-limitless-possibilities.json"
+    },
+    {
+      "id": "class9-english-kaveri-nine-gold-medals",
+      "title": "Nine Gold Medals",
+      "class": "9",
+      "subject": "English",
+      "chapter": "Poetry 5",
+      "book": "Kaveri",
+      "icon": "✅",
+      "description": "Nine Gold Medals by David Roth (from the Class 9 textbook Kaveri ) is a deeply inspiring narrative poem that redefines the concept of sportsmanship by prioritizing human compassion and empathy over intense competition. The poem is…",
+      "contentHref": "content/Class 9/English/class9-english-kaveri-nine-gold-medals.json"
+    },
+    {
+      "id": "class9-english-kaveri-twin-melodies",
+      "title": "Twin Melodies",
+      "class": "9",
+      "subject": "English",
+      "chapter": "Chapter 6",
+      "book": "Kaveri",
+      "icon": "📖",
+      "description": "Twin Melodies by Mitra Phukan (from the Class 9 textbook Kaveri ) is a thoughtful three-act play that explores the generation gap, the conflict between tradition and innovation, and the power of music to bridge familial difference…",
+      "contentHref": "content/Class 9/English/class9-english-kaveri-twin-melodies.json"
+    },
+    {
+      "id": "class9-english-kaveri-a-friend-found-in-music",
+      "title": "A Friend Found in Music",
+      "class": "9",
+      "subject": "English",
+      "chapter": "Poetry 6",
+      "book": "Kaveri",
+      "icon": "✅",
+      "description": "A Friend Found in Music by Bryanna T. Perkins (from the Class 9 textbook Kaveri ) is a beautiful, minimalist poem that celebrates the profound therapeutic power of music and portrays it as an indispensable, lifelong companion. The…",
+      "contentHref": "content/Class 9/English/class9-english-kaveri-a-friend-found-in-music.json"
+    },
+    {
       "id": "class10-english-first-flight-a-letter-to-god",
       "title": "A Letter to God",
       "class": "10",
