@@ -1,0 +1,52 @@
+{
+  "title": "Canvas of Soil",
+  "class": "9",
+  "subject": "English",
+  "chapter": "Poetry 3",
+  "book": "Kaveri",
+  "notes": [
+    {
+      "heading": "Word Meanings",
+      "points": [
+        "Palette: A board used by painters to mix colours, representing the rich earth in the poem.",
+        "Canvas: A strong cloth used for painting, representing a blank plot of land.",
+        "Seep: To flow or leak through small openings very slowly.",
+        "Brushstrokes: Marks made by a painter's brush, representing the act of sowing seeds.",
+        "True: Planted correctly, properly, or in perfect alignment.",
+        "Vibrant: Strikingly bright, radiant, and full of energy.",
+        "Hue: A specific shade or variety of a colour.",
+        "Blossoms: Flowers that bloom on trees or plants.",
+        "Till: To dig and prepare the ground for growing crops or plants.",
+        "Portrayed: Described, represented, or shown in a particular artistic way"
+      ]
+    }
+  ],
+  "summary": "Canvas of Soil by   Maya Anthony   (from the Class 9 textbook   Kaveri ) is a beautiful, deeply imaginative poem that utilizes an extended metaphor to portray the act of gardening as a vibrant and noble form of artistic expression. The poet draws a direct parallel between a painter creating a masterpiece on canvas and a gardener cultivating a living workspace in nature. The poem opens by describing the rich, fertile earth as a painter’s   palette , which holds infinite creative potential and is filled with life and possibility. Into this soil, the deep hopes, dreams, and personal investments of the gardener seep and take root. The act of sowing seeds is beautifully compared to  brushstrokes   applied carefully and with pure intentions. These tiny seeds lie dormant beneath the surface, patiently awaiting the arrival of   spring's vibrant hues . When the seasons change, the garden undergoes an explosive transformation as flowers begin to bloom. These blossoms appear as a spectacular painted sight, dynamically dancing and swaying in the gentle morning light. The entire landscape fills up with brilliant, natural shades of green, red, and blue, creating an ever-renewing, living piece of art that surpasses artificial, chemical paintings. Each plot of land becomes a wide canvas where human creativity, hard work, and natural growth coincide seamlessly. Ultimately, the poem celebrates the deep connection between humanity and the earth, delivering the message that true beauty does not just exist inside museums; rather, through patience, dedication, and care, ordinary soil is successfully transformed by the gardener into a timeless, breathing masterpiece.",
+  "qa": [
+    {
+      "section": "Comprehension Check",
+      "q": "Why is soil compared to a canvas?",
+      "a": "Soil is compared to a canvas because it provides a base on which farmers create life by growing crops. Like an artist uses a canvas to create a picture, farmers use soil to produce food and support life."
+    },
+    {
+      "section": "Comprehension Check",
+      "q": "Why is soil important for human beings?",
+      "a": "Soil is important because it supports the growth of crops, plants and trees. It provides food and helps sustain humans, animals and many other forms of life."
+    },
+    {
+      "section": "Comprehension Check",
+      "q": "How do farmers show their relationship with the soil?",
+      "a": "Farmers care for and work with the soil throughout the year. They prepare it, sow seeds, water the crops and protect them. Their hard work turns the soil into a source of food and livelihood."
+    },
+    {
+      "section": "Comprehension Check",
+      "q": "Why should we protect soil?",
+      "a": "We should protect soil because it is a valuable natural resource. Soil erosion, pollution and careless use can reduce its fertility. Protecting it is necessary for agriculture and future generations."
+    },
+    {
+      "section": "Comprehension Check",
+      "q": "What is the main message of the lesson?",
+      "a": "The lesson highlights the importance of soil and the close relationship between humans and nature. It teaches us to respect, care for and protect the soil because our food and survival depend on it."
+    }
+  ]
+}
