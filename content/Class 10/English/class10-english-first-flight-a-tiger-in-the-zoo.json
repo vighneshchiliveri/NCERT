@@ -1,0 +1,54 @@
+{
+  "title": "A Tiger in the Zoo",
+  "class": "10",
+  "subject": "English",
+  "chapter": "Poetry 3",
+  "book": "First Flight",
+  "notes": [
+    {
+      "heading": "Word Meanings",
+      "points": [
+        "Stalks: Follows or walks quietly and menacingly with quiet pride.",
+        "Vivid: Having strikingly bright, intense, and deep colours.",
+        "Stripes: Long, narrow bands of colour on the tiger's fur.",
+        "Pads: The soft, fleshy undersides of the tiger's paws.",
+        "Velvet: A soft, smooth fabric, used here to describe the quiet softness of the paws.",
+        "Rage: Intense, violent, and overwhelming anger.",
+        "Lurking: Hiding quietly in the shadows while waiting to ambush prey.",
+        "Sliding: Moving smoothly, silently, and effortlessly through the grass.",
+        "Plump: Fat, well-fed, and fleshy (referring to the deer).",
+        "Snarl: Making a fierce, aggressive, and deep growling sound with teeth showing.",
+        "Baring: Uncovering, exposing, or showing off something hidden (like teeth or claws).",
+        "Fangs: Long, sharp, and pointed teeth used by predators.",
+        "Concrete cell: A strong cage or small room made completely of cement and stone.",
+        "Stalking: Walking slowly and majestically back and forth across a confined space.",
+        "Ignoring: Paying absolutely no attention to the people passing by.",
+        "Patrolling: Guarding or monitoring an area at regular intervals (referring to the cars).",
+        "Brilliant: Exceptionally bright, shining, and radiant (referring to both the eyes and the stars)."
+      ]
+    }
+  ],
+  "summary": "\"A Tiger in the Zoo\" by Leslie Norris is a poignant poem that contrasts the majestic nature of a wild tiger with its pathetic, restricted existence inside a concrete prison cell, highlighting the cruelty of animal captivity. The poem opens with the tiger stalking quietly inside his cramped cage, his vivid stripes shining brightly as he takes only a few steps along the limited length of his enclosure. His powerful paws, soft like velvet, move in silent fury, suppressed by the iron bars that keep him locked away from his natural habitat. The poet notes that if the tiger were free, he would be lurking in the shadows of the jungle, sliding gracefully through long grass near water holes to ambush plump deer. He would be snarling fiercely around jungle-edge houses, baring his white fangs and sharp claws to terrify village inhabitants, asserting his dominant place as a wild predator. Instead, his magnificent strength is locked behind a concrete wall where he is reduced to a mere spectacle, ignoring visitors as he paces back and forth in boredom. The poem concludes on a heartbreaking note at night, where the captive tiger listens to  the final patrol cars driving past, staring helplessly with his brilliant eyes at the shining stars in the sky, trapped in a silent longing for the vast, unrestricted freedom he belongs to.",
+  "qa": [
+    {
+      "q": "Read the poem again, and work in pairs or groups to do the following tasks. (i) What do you think is the colour of the tiger?",
+      "a": "​ The tiger is described as being bright and yellow in colour, with black stripes. The description creates a clear picture of the tiger’s appearance. (ii) What does the tiger do in the cage? ​ The tiger walks quietly and angrily inside the cage. He moves along the length of the cage but is unable to move freely because he is trapped. (iii) What does the tiger want to do? ​ The tiger wants to live freely in the jungle. He wants to hunt deer, move through the tall grass and enjoy his natural surroundings instead of living in a cage.",
+      "section": "Thinking About the Poem"
+    },
+    {
+      "q": "Why does the tiger ignore the visitors?",
+      "a": "​ The tiger ignores the visitors because he is unhappy and frustrated with his captivity. He has no interest in entertaining people who come to see him. His silence shows his anger and helplessness.",
+      "section": "Thinking About the Poem"
+    },
+    {
+      "q": "How does the tiger respond to the sounds of the patrolling cars?",
+      "a": "​ The tiger hears the sounds of the patrolling cars but does not react to them. He remains inside his cage, watching the stars through the bars. His quiet behaviour reflects his helplessness and loneliness.",
+      "section": "Thinking About the Poem"
+    },
+    {
+      "q": "What message does the poem convey?",
+      "a": "​ The poem conveys that wild animals should live freely in their natural habitats. Keeping them confined in cages takes away their freedom and makes them unhappy. The poem also creates sympathy for animals living in captivity.",
+      "section": "Thinking About the Poem"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "title": "The Midnight Visitor",
+  "class": "10",
+  "subject": "English",
+  "chapter": "Chapter 3",
+  "book": "Footprints Without Feet",
+  "notes": [
+    {
+      "heading": "Word Meanings",
+      "points": [
+        "Musty: Smelling unpleasantly stale, old, moldy, or damp.",
+        "Corridor: A long, narrow passage in a building with rooms on either side.",
+        "Gloomy: Dark, poorly lit, and appearing deeply depressing or frightening.",
+        "Scarcely: Barely, only just, or almost not at all.",
+        "Passably: In a way that is satisfactory, tolerable, or just good enough.",
+        "Espionage: The practice of spying, typically by governments to gather political or military information.",
+        "Envisioned: Imagined, visualized, or pictured as a future possibility.",
+        "Prosaic: Dull, ordinary, and completely lacking excitement or interest.",
+        "Disillusioned: Disappointed and unhappy after discovering the harsh truth about something you respected.",
+        "Authentic: Genuine, real, or completely true to what it claims to be.",
+        "Menacing: Threatening or suggesting the terrifying presence of danger.",
+        "Countenance: A person's face or their clear facial expression.",
+        "Nuisance: Something or someone that causes persistent annoyance or trouble.",
+        "Passkey: A master key given to authorized people to access restricted areas.",
+        "Stammer: To speak with sudden, involuntary pauses and a tendency to repeat initial letters."
+      ]
+    }
+  ],
+  "summary": "\"The Midnight Visitor\" by Robert Arthur is a gripping spy thriller that demonstrates how presence of mind, quick wit, and calm intelligence can triumph over physical strength and armed danger. The story centers around Ausable, a secret agent who does not fit the conventional description of a romanticized spy; he is extremely fat, sloppy, speaks with a heavy American accent despite living in Paris for twenty years, and occupies a small, musty room on the sixth and top floor of a dreary hotel. He is accompanied by Fowler, a young and romantic writer who has come to interview him but feels deeply disappointed and bored by Ausable's dull, unglamorous appearance. The atmosphere changes dramatically when they step into the dark room and switch on the light, only to find a slender, sharp-faced man named Max standing in the center of the room holding a small automatic pistol. Max, a rival secret agent, has broken in using a passkey to hijack a highly confidential report concerning some new missiles that Ausable is expecting later that night. Remaining completely calm despite the deadly threat, Ausable immediately structures a brilliant psychological trap. He sits down heavily in an armchair and begins to complain furiously about the hotel management, spinning a convincing, fabricated story about a non-existent balcony directly underneath his window through which, he claims, another intruder had broken into his room the previous month. Max, who had entered via the door, regrets not knowing about this convenient balcony. As they wait tensely for the report, a sudden,  loud knocking echoes at the door. Capitalizing on Max's growing nervousness, Ausable cleverly lies that it must be the police, whom he had proactively summoned to protect such a critical document. Terrified of being caught, a panicked Max decides to hide on the balcony until the police leave; he backs towards the window, drops his pistol, and steps out into the dark night, letting out a single, piercing scream as he drops straight down six floors to his death, since the balcony never existed. Ausable calmly opens the door to reveal a waiter named Henry, who has simply brought the drinks Ausable had ordered before returning to the hotel. The story concludes with a stunned and amazed Fowler realizing that a true secret agent’s greatest weapon is his sharp, analytical mind rather than a glamorous lifestyle.",
+  "qa": [
+    {
+      "q": "How is Ausable different from other secret agents?",
+      "a": "​ Ausable does not look like a typical secret agent. He is short, fat and ordinary-looking, unlike the smart and adventurous agents often seen in stories. However, he is intelligent, calm and clever.",
+      "section": "Read and Find Out"
+    },
+    {
+      "q": "Who is Fowler and what is his first authentic thrill of the day?",
+      "a": "​ Fowler is a young writer who wants to write about secret agents. His first real thrill comes when he sees Max, a man with a pistol, waiting in Ausable’s room.",
+      "section": "Read and Find Out"
+    },
+    {
+      "q": "How does Ausable outwit Max?",
+      "a": "​ Ausable tricks Max by inventing a story about a balcony outside his window. When there is a knock at the door, Ausable tells Max that it is the police. Max becomes frightened and jumps through the window onto the supposed balcony, but there is actually no balcony, so he falls.",
+      "section": "Read and Find Out"
+    },
+    {
+      "q": "How does Ausable outwit Max?",
+      "a": "​ Ausable remains calm and creates a believable story about a balcony outside the window. He then tells Max that the police have arrived. Frightened, Max tries to escape through the window using the imaginary balcony and falls.",
+      "section": "Think About It"
+    },
+    {
+      "q": "How does Ausable convince Max that there is a balcony?",
+      "a": "​ Ausable confidently tells Max that the balcony has been used by people to enter his room before. He also complains about the balcony as though it is a normal feature of the hotel. His confident manner makes Max believe the story.",
+      "section": "Think About It"
+    },
+    {
+      "q": "Why does Fowler find Ausable’s apartment different from what he expected?",
+      "a": "​ Fowler expected a secret agent’s room to be mysterious and exciting. Instead, Ausable’s room is in an ordinary-looking French hotel and does not appear special. This surprises Fowler because Ausable himself also looks like an ordinary man.",
+      "section": "Think About It"
+    },
+    {
+      "q": "What makes Ausable an intelligent secret agent?",
+      "a": "​ Ausable is intelligent because he remains calm even when Max threatens him with a gun. He quickly invents a believable story and uses Max’s fear against him. His presence of mind allows him to defeat Max without using force.",
+      "section": "Think About It"
+    }
+  ]
+}

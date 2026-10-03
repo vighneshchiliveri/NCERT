@@ -1,0 +1,76 @@
+{
+  "title": "A Triumph of Surgery",
+  "class": "10",
+  "subject": "English",
+  "chapter": "Chapter 1",
+  "book": "Footprints Without Feet",
+  "notes": [
+    {
+      "heading": "Word Meanings",
+      "points": [
+        "Bloated: Excessively fat, swollen, or puffed up.",
+        "Sausage: An item of minced meat encased in a cylindrical skin.",
+        "Rheumy: Watery, particularly when describing weak or infected eyes.",
+        "Bloodshot: Eyes that look red and inflamed due to tiredness or illness.",
+        "Lolled: Hung or dropped out in a lazy, relaxed way.",
+        "Hastened: Moved or acted with a very quick, rushed speed.",
+        "Listless: Lacking any physical energy, spirit, or enthusiasm.",
+        "Malnutrition: Bad health resulting from a severe lack of proper food or nutrients.",
+        "Lumbago: A sharp, aching muscular pain in the lower back.",
+        "Wrung: Squeezed, twisted, or pressed tightly with the hands out of worry.",
+        "Regime: A strictly regulated course of medical treatment, diet, or routine.",
+        "Tottering: Walking or moving forward in a very feeble, weak, and unsteady way.",
+        "Distraught: Extremely troubled, worried, and deeply upset.",
+        "Bouts: Short, intense periods of an illness or a specific activity.",
+        "Swoon: To suddenly faint or completely lose consciousness.",
+        "Fortnight: A time period lasting exactly two weeks.",
+        "Convalescing: A gradual and steady recovery of health after an illness.",
+        "Scrimmage: A rough, confused struggle or a playful dog fight.",
+        "Lithe: Moving in a highly flexible, thin, and graceful manner."
+      ]
+    }
+  ],
+  "summary": "\"A Triumph of Surgery\" by James Herriot (from the supplementary reader Footprints Without Feet) is a charming and instructive story that highlights how overindulgence and misplaced affection can harm a pet, while proving that practical common sense is often the best cure. The narrative centers on Tricki, a small, highly pampered dog belonging to a fabulously wealthy, foolishly indulgent lady named Mrs. Pumphrey. Out of immense love, Mrs. Pumphrey constantly overfeeds Tricki with rich delicacies like cream cakes, chocolates, cod-liver oil, and bowls of Horlicks between meals, while  completely neglecting his physical exercise. Consequently, Tricki becomes dangerously obese, looking like a bloated sausage with a leg at each corner, and turns completely listless, refusing to eat his favorite dishes and suffering from frequent bouts of vomiting. Deeply concerned, Mrs. Pumphrey consults James Herriot, a wise and practical veterinary surgeon, who realizes that the dog's only fault is greed and that no medicine will work unless he is removed from his owner's spoiling environment. Herriot takes a firm stand, telling a heartbroken Mrs. Pumphrey that Tricki must be hospitalized for a fortnight. Upon arriving at the surgery, the other household dogs inspect the motionless Tricki and find him uninteresting, but Herriot implements a strict, natural regime: for the first two days, Tricki is given absolutely no food, but plenty of water. By the third day, the dog begins to show interest in his surroundings, and soon, he joins the other dogs in their high-energy, friendly scrambles and bowl-licking competitions, fighting for his share of food and burning off excess fat naturally. The plot takes a humorous turn when Mrs. Pumphrey, learning of his recovery, starts sending dozens of fresh eggs, bottles of wine, and brandy to enrich Tricki’s blood; Herriot and his partners, however, choose to keep these items for themselves, thoroughly enjoying luxurious breakfasts and dinners at the dog's expense. After two weeks, a completely transformed, lean, and muscular Tricki is returned to his owner. The moment he sees Mrs. Pumphrey, he takes a tremendous leap out of Herriot's arms and sails into her lap, licking her face in pure joy. Seeing her healthy, energetic pet, a tearful Mrs. Pumphrey enthusiastically declares this successful natural healing to be a true \"triumph of surgery.\"",
+  "qa": [
+    {
+      "q": "Why was Tricki ill?",
+      "a": "​ Tricki was ill because he was overfed and got very little exercise. Mrs Pumphrey gave him too many sweets, cakes and other rich foods. As a result, he became extremely fat and unhealthy.",
+      "section": "Read and Find Out"
+    },
+    {
+      "q": "What did Mrs Pumphrey do to make Tricki healthy?",
+      "a": "​ Mrs Pumphrey tried to make Tricki healthy by giving him extra food and medicines. However, her excessive love and overfeeding actually made him more unhealthy.",
+      "section": "Read and Find Out"
+    },
+    {
+      "q": "What was the main cause of Tricki’s problem?",
+      "a": "​ The main cause was overfeeding and lack of exercise. Mrs Pumphrey treated Tricki like a human child and gave him whatever food he wanted, which made him overweight and lazy.",
+      "section": "Read and Find Out"
+    },
+    {
+      "q": "What kind of a person do you think Mrs Pumphrey was?",
+      "a": "​ Mrs Pumphrey was a loving and caring but overprotective woman. She loved Tricki so much that she spoiled him with rich food and constant attention. Her excessive affection was harmful to his health.",
+      "section": "Think About It"
+    },
+    {
+      "q": "Is the narrator as rich as Tricki’s mistress?",
+      "a": "​ No, the narrator, Mr Herriot, is not as rich as Mrs Pumphrey. He is a veterinary doctor who lives a simple life. However, he is practical and understands what is best for Tricki’s health.",
+      "section": "Think About It"
+    },
+    {
+      "q": "How was Tricki treated in the first two days at the surgery?",
+      "a": "​ For the first two days, Tricki was given no food. He was kept with the other dogs and allowed to exercise and play with them. This simple routine helped him recover quickly.",
+      "section": "Think About It"
+    },
+    {
+      "q": "What made Mrs Pumphrey think Tricki had recovered?",
+      "a": "​ Mrs Pumphrey saw that Tricki had become active and energetic again. When she heard that he was playing and enjoying himself with the other dogs, she believed that he had completely recovered.",
+      "section": "Think About It"
+    },
+    {
+      "q": "Why did Mrs Pumphrey think the recovery was a triumph of surgery?",
+      "a": "​ Mrs Pumphrey believed that Tricki’s recovery was due to Mr Herriot’s medical treatment and surgery. In reality, Tricki recovered mainly because he was given a controlled diet, exercise and the company of other dogs.",
+      "section": "Think About It"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "title": "From the Diary of Anne Frank",
+  "class": "10",
+  "subject": "English",
+  "chapter": "Chapter 4",
+  "book": "First Flight",
+  "notes": [
+    {
+      "heading": "Word Meanings",
+      "points": [
+        "Musings: A period of deep, quiet reflection or thought.",
+        "Listless: Lacking any energy, enthusiasm, or interest.",
+        "Brooding: Thinking deeply about something that makes you sad, anxious, or angry.",
+        "Prompted: Caused, provoked, or encouraged someone to take action.",
+        "Confide: To share personal secrets or private thoughts with someone you trust.",
+        "Jot down: To write something down very quickly and briefly.",
+        "Plunge: To jump, dive, or throw oneself into something quickly.",
+        "Plunked down: Put or dropped down heavily and abruptly.",
+        "Emigrate: To leave one's own country to go and settle permanently in another.",
+        "Solemn: Marked by deep sincerity, seriousness, or gravity.",
+        "At stake: At risk of being won or lost.",
+        "Glance: A very brief, quick, or hurried look.",
+        "Outburst: A sudden, loud expression of a strong emotion like anger.",
+        "Old fogey: An old-fashioned, dull, or conservative person.",
+        "Chatterbox: A person who talks excessively and incessantly.",
+        "Ramble: To talk or write at great length in a confused or purposeless way.",
+        "Trait: A distinguishing quality or personal characteristic.",
+        "Incorrigible: Someone or something that is impossible to change, correct, or reform.",
+        "Contrary: Completely opposite in nature, direction, or meaning.",
+        "Inherit: To receive money, property, or genetic traits from your ancestors.",
+        "Ingenuity: The quality of being clever, original, and highly inventive."
+      ]
+    }
+  ],
+  "summary": "\"From the Diary of Anne Frank\" is a poignant autobiographical excerpt from the world-famous diary of a thirteen-year-old Jewish girl, Anne Frank, written while she was hiding with her family in Amsterdam during the Nazi occupation of World War II. The narrative begins with Anne reflecting on her decision to keep a diary, noting the strange feeling of writing her thoughts down as a young student, but finding solace in  the profound realization that \"paper has more patience than people.\" Feeling lonely despite having loving parents, an elder sister, and about thirty people she could call friends, Anne lacks a true, intimate confidant with whom she can share her deepest secrets, prompting her to treat her diary as her closest friend, whom she affectionately names Kitty. To provide context for her future readers, she sketches a brief background of her family, detailing her father's migration to Holland and her close bond with her grandmother, whose death in 1942 left a deep void in her heart. The extract then jumps to a specific entry dated June 20, 1942, where Anne describes the tense atmosphere in her classroom, where students are nervously shaking in their boots awaiting the teachers' meeting to decide who will move up to the next form and who will be kept back. Anne is confident about her performance in all subjects except mathematics, a class where she frequently gets into trouble with her old maths teacher, Mr. Keesing, due to her unstoppable habit of talking during lectures. As a punishment, Mr. Keesing assigns her an extra essay on the topic \"A Chatterbox.\" Anne approaches the task creatively, arguing that talking is a natural student trait and an incurable inheritance from her mother. Amused by her arguments, Mr. Keesing laughs but assigns her a second essay titled \"An Incorrigible Chatterbox\" when she continues to talk, followed by a third ridiculous topic, \"Quack, Quack, Quack, Said Mistress Chatterbox.\" Determined to make the joke turn on the teacher himself, Anne writes a brilliant poem with the help of her friend Sanne about a mother duck and a father swan who bite their three baby ducklings to death because they quacked too much. Mr. Keesing takes the joke in the right spirit, reads the poem aloud to the entire class, and finally allows Anne to talk during lessons without assigning any more extra homework, beautifully turning a strict punishment into a legendary, lighthearted bond.",
+  "qa": [
+    {
+      "q": "What makes writing in a diary a strange experience for Anne Frank?",
+      "a": "​ Writing in a diary was strange for Anne because she had never written a diary before. She felt that she had no real friend with whom she could share her private thoughts and feelings. Therefore, she decided to treat her diary as a close friend.",
+      "section": "Oral Comprehension Check"
+    },
+    {
+      "q": "Why does Anne want to keep a diary?",
+      "a": "​ Anne wants to keep a diary because she feels lonely and wants someone to whom she can share her thoughts and feelings. She hopes that her diary will become a true friend and keep her secrets.",
+      "section": "Oral Comprehension Check"
+    },
+    {
+      "q": "Why does Anne think she can confide more in her diary than in people?",
+      "a": "​ Anne thinks she can confide more in her diary because it listens silently and never judges or interrupts her. She feels that people may not understand her feelings, whereas her diary can safely hold all her secrets.",
+      "section": "Oral Comprehension Check"
+    },
+    {
+      "q": "Why does Anne provide a brief sketch of her life?",
+      "a": "​ Anne provides a brief sketch of her life because she wants her diary to understand her background. She writes about her family, school, friends and early childhood so that her diary can know her better.",
+      "section": "Oral Comprehension Check"
+    },
+    {
+      "q": "Why did Anne need to give a brief sketch about her life?",
+      "a": "​ Anne gave a brief sketch of her life because she considered her diary a new friend. She wanted to introduce herself properly and tell it about her family, childhood, school and friends before sharing her deeper thoughts.",
+      "section": "Thinking About the Text"
+    },
+    {
+      "q": "What tells you that Anne loved her grandmother?",
+      "a": "​ Anne loved her grandmother deeply. She remembered her with affection and kept her memory alive even after her death. She also celebrated her birthday by lighting candles for her grandmother.",
+      "section": "Thinking About the Text"
+    },
+    {
+      "q": "Why was the entire class anxious about the result?",
+      "a": "​ The entire class was anxious because the teachers were going to decide which students would be promoted to the next class. The students were uncertain about their results and feared that some might have to repeat the year.",
+      "section": "Thinking About the Text"
+    },
+    {
+      "q": "Who was Mr Keesing? What did he do?",
+      "a": "​ Mr Keesing was Anne’s mathematics teacher. He was annoyed by Anne’s habit of talking in class and punished her by giving her extra homework. He asked her to write essays on the subject of being a chatterbox.",
+      "section": "Thinking About the Text"
+    },
+    {
+      "q": "What did Anne write in her third essay to prove the necessity of talking?",
+      "a": "​ In her third essay, Anne argued that talking is a student’s natural habit and that she had inherited it from her mother. She also humorously suggested that talking was a trait that could not easily be cured. Her clever argument impressed Mr Keesing.",
+      "section": "Thinking About the Text"
+    }
+  ]
+}

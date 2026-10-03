@@ -1,0 +1,80 @@
+{
+  "title": "Madam Rides the Bus",
+  "class": "10",
+  "subject": "English",
+  "chapter": "Chapter 7",
+  "book": "First Flight",
+  "notes": [
+    {
+      "heading": "Word Meanings",
+      "points": [
+        "Wistfully: Having or showing a feeling of vague or regretful longing.",
+        "Kindle: To spark, excite, or set a feeling alight.",
+        "Overwhelming: A feeling so immense or strong that it is completely too much to handle.",
+        "Discreet questions: Careful, tactful, and guarded questions asked to avoid offending anyone.",
+        "Commandingly: Speaking or acting in a highly authoritative and controlling tone.",
+        "Slack time: A slow period of the day when there is not much work to be done.",
+        "Devoured: Absorbed, read, or looked at something quickly and eagerly.",
+        "Haughtily: Behaving in an extremely proud, arrogant, or superior way.",
+        "Chimed in: Suddenly breaking into a conversation to express an opinion.",
+        "Mimicking: Copying or imitating someone's voice, actions, or behavior.",
+        "Repulsive: Causing a strong feeling of intense dislike or disgust.",
+        "Drivel: Complete nonsense or silly, unnecessary talking.",
+        "Thriftily (Thrifty): Spending money very carefully to save up as much as possible.",
+        "Resolutely stifled: Determinedly suppressed or forced down a desire or reaction.",
+        "Ventured out: Cautiously and courageously going out into an unknown place.",
+        "Hamlet: A very small settlement or tiny village.",
+        "Thoroughfare: A busy main road or public highway used by traffic and pedestrians.",
+        "Merchandise: Goods, items, or products that are explicitly for sale."
+      ]
+    }
+  ],
+  "summary": "\"Madam Rides the Bus\" by Vallikkannan is a heartwarming and sensitive story about an eight-year-old Tamil girl named Valliammai (Valli), who satisfies her intense desire to experience a bus ride while undergoing a mature realization about the nature of life and  death. Valli is a curious girl with no playmates, whose favorite pastime is standing in her front doorway to watch the hustle and bustle of the street, particularly the hourly bus traveling between her village and the nearest town. Overwhelmed by a desire to ride that bus, she meticulously gathers information by listening to neighbors, discovering that the town is six miles away, the trip takes forty-five minutes, and the one-way fare is thirty paise. Displaying immense self-control, Valli secretly saves sixty paise by resisting temptations to buy peppermints, toys, and merry-go-round rides. She plans her secret excursion during her mother's afternoon nap from one to four o'clock. Boarding the bus, Valli's confident, independent demeanor amuses both the conductor, who jokingly addresses her as \"Madam,\" and the fellow passengers. She refuses any help and stands up on her seat to fully enjoy the outside view of canal water, palm trees, mountains, and green fields. Her joy peaks when she spots a young cow running frantically right in front of the bus, a hilarious sight that makes her laugh until tears come to her eyes. Upon reaching the town, Valli responsibly refuses to leave the bus or accept a free cold drink from the conductor, choosing instead to save her remaining coins for the return journey. The mood of the story shifts dramatically on the way back when Valli looks out the window and spots the exact same cow lying dead by the roadside, struck down by a fast-moving vehicle. This sudden encounter with death dampens her spirits, filling her with deep sadness and wiping away her previous excitement. She sits silently for the rest of the journey, reflecting on how quickly a vibrant, lovable creature can be reduced to a horrific, lifeless form. Arriving back home just in time, she slips into her house unnoticed by her mother, carrying within her a newfound, mature understanding of the mysterious world beyond her village.",
+  "qa": [
+    {
+      "q": "What was Valli’s favourite pastime?",
+      "a": "​ Valli’s favourite pastime was standing at the front doorway of her house and watching the bus travel between her village and the nearby town. She enjoyed observing the passengers and the activities around the bus.",
+      "section": "Oral Comprehension Check"
+    },
+    {
+      "q": "What was a source of unending joy for Valli? What was her overwhelming desire?",
+      "a": "​ The bus journey was a source of great joy for Valli. Watching the bus made her curious about the town. Her greatest desire was to take a ride on the bus and experience the journey herself.",
+      "section": "Oral Comprehension Check"
+    },
+    {
+      "q": "What was the plan she had made?",
+      "a": "​ Valli planned to travel to the town alone by bus. She carefully learned the bus timings and fare and saved money for the journey. She planned to go during the afternoon when her mother would be asleep.",
+      "section": "Oral Comprehension Check"
+    },
+    {
+      "q": "What did Valli find on her way that made her laugh?",
+      "a": "​ Valli saw a young cow running in front of the bus. The cow kept running in the middle of the road, making the bus slow down. Valli found the sight very funny and laughed loudly.",
+      "section": "Oral Comprehension Check"
+    },
+    {
+      "q": "Why does the conductor refer to Valli as “madam”?",
+      "a": "​ The conductor calls Valli “madam” in a playful and respectful way because she behaves confidently and independently. She refuses help and insists on paying her own fare, which makes him treat her like a grown-up.",
+      "section": "Thinking About the Text"
+    },
+    {
+      "q": "Why does Valli stand up on the seat? What does she see now?",
+      "a": "​ Valli stands up on the seat because she is too short to see outside through the window. From there, she gets a clear view of the road, fields, shops and other sights along the journey.",
+      "section": "Thinking About the Text"
+    },
+    {
+      "q": "What does Valli mean when she says, “I was just agreeing with what you said about things happening without our knowledge”?",
+      "a": "​ Valli means that she had secretly planned and carried out her bus journey without telling her mother. She agrees that many things happen without people knowing about them.",
+      "section": "Thinking About the Text"
+    },
+    {
+      "q": "How did Valli feel when she saw the dead cow?",
+      "a": "​ Valli felt shocked and sad when she saw the same cow lying dead on the road. Earlier, she had enjoyed watching it run happily. Seeing it dead made her realise that life can suddenly change and made her lose her excitement.",
+      "section": "Thinking About the Text"
+    },
+    {
+      "q": "What was Valli’s favourite sight on her bus journey?",
+      "a": "​ Valli’s favourite sight was the young cow running along the road in front of the bus. She found its playful movement amusing and enjoyed watching it during her journey.",
+      "section": "Thinking About the Text"
+    }
+  ]
+}

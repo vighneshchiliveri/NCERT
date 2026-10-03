@@ -1,0 +1,70 @@
+{
+  "title": "The Book That Saved the Earth",
+  "class": "10",
+  "subject": "English",
+  "chapter": "Chapter 9",
+  "book": "Footprints Without Feet",
+  "notes": [
+    {
+      "heading": "Word Meanings",
+      "points": [
+        "Era: A long, distinct, and significant period of time in history.",
+        "Invasion: An aggressive attack by an armed force to conquer or take over a country or planet.",
+        "Apprentice: A person who works under a skilled expert to learn a trade or profession.",
+        "Easel: A wooden frame or stand used by artists to support a picture or display board.",
+        "Peevish: Easily annoyed, irritated, or bad-tempered.",
+        "Space probe: An unmanned exploratory spacecraft designed to gather scientific information in deep space.",
+        "Primitive: Belonging to an early, basic, or ancient stage of historical development.",
+        "Earthling: A term used in science fiction by aliens to refer to a human inhabitant of Earth.",
+        "Riffle: To turn over the pages of a book very quickly.",
+        "Haberdashery: A shop or business that sells men's clothing, accessories, or sewing items.",
+        "Pantomime: A dramatic entertainment or communication expressed entirely through exaggerated silent mime.",
+        "Haughtily: Behaving in a proud, arrogant, and superior manner.",
+        "Intently: Giving something your absolute, undivided attention and deep focus.",
+        "Decipher: To successfully convert, unpack, or discover the meaning of a difficult or coded text.",
+        "Simultaneously: Two or more actions happening at the exact same time.",
+        "Transcribe: To convert spoken words or recorded data into a fully written or printed format.",
+        "Levity: A lack of appropriate seriousness, or treating a grave matter with humor.",
+        "Bungler: A highly clumsy, incompetent person who constantly makes foolish mistakes."
+      ]
+    }
+  ],
+  "summary": "\"The Book That Saved the Earth\" by Claire Boiko is a humorous, science-fiction satirical play set in the twenty-fifth century that demonstrates how a simple book of nursery rhymes successfully saved the planet Earth from a Martian invasion. The narrative is framed by a Historian at the Museum of Ancient History who takes the audience back in time to the twenty-first century, an era she comically labels the \"Age of Books.\" The core plot revolves around Think-Tank, the arrogant, bulbous-headed Commander-in-Chief of Mars, who considers himself the most intelligent creature in the universe and views Earthlings as primitive, mud-dwelling creatures. From his Mars Space Control, Think-Tank commands a manned space mission—consisting of Captain Omega, Lieutenant Iota, and Sergeant Oop—to invade and conquer Earth. The Martian crew lands inside the Centerville Public Library, a place filled with objects they have never seen before. Confused by the thousands of books, they contact Think-Tank for guidance. Displaying his ridiculous ignorance, Think-Tank first declares that the books are unique items of clothing, before correcting himself to state they are \"sandwiches\" meant for human consumption, forcing a hesitant Sergeant Oop to bite into a book. When his brilliant apprentice, Noodle, subtly suggests that these objects  might be communication devices instead, Think-Tank orders the crew to ingest special vitamins to increase their intelligence so they can decipher the mysterious \"code\" written inside. Captain Omega opens a book of nursery rhymes titled Mother Goose and begins reading aloud. The literal-minded Martians completely misinterpret the simple rhymes as terrifying military facts: the poem \"Mistress Mary\" convinces Think-Tank that Earthlings have discovered how to grow high explosives and metals like silver in gardens; \"Humpty Dumpty\" terrifies him further because the illustration of the cracked egg bears an uncanny, bulbous resemblance to Think-Tank himself, leading him to believe that humans are planning a catastrophic attack to capture Mars. Paralyzed by fear, the cowardly Think-Tank immediately cancels the invasion, orders his crew to leave Earth without a trace, and evacuates his entire civilization to Alpha Centauri, a hundred million miles away. The play concludes with the Historian revealing that in the modern era, humans and Martians have become close friends, and a democratic Mars is now ruled by the wise Noodle, proving that the power of literature can outsmart the most arrogant invaders.",
+  "qa": [
+    {
+      "q": "Why was the twentieth century called the Era of the Book?",
+      "a": "​ The twentieth century was called the Era of the Book because books were everywhere and people read them for knowledge, entertainment and information. Books were an important part of everyday life.",
+      "section": "Read and Find Out"
+    },
+    {
+      "q": "Who was Think-Tank?",
+      "a": "​ Think-Tank was the ruler of Mars. He considered himself extremely intelligent and powerful. He planned to invade Earth but misunderstood a book of nursery rhymes and became frightened.",
+      "section": "Read and Find Out"
+    },
+    {
+      "q": "What did Think-Tank think the books were?",
+      "a": "​ Think-Tank thought that the books were some kind of communication device or a source of dangerous information. He could not understand their real purpose because he had never seen books before.",
+      "section": "Read and Find Out"
+    },
+    {
+      "q": "How did the book save the Earth?",
+      "a": "​ The book of nursery rhymes made Think-Tank believe that Earth was inhabited by powerful and dangerous creatures. He became frightened and cancelled the planned invasion of Earth. Thus, the book indirectly saved the Earth.",
+      "section": "Think About It"
+    },
+    {
+      "q": "Why did Think-Tank order the Martians to leave Earth?",
+      "a": "​ Think-Tank misunderstood the nursery rhymes and believed that humans were preparing to attack Mars. He became afraid of Earth's supposed power and ordered the Martians to leave immediately.",
+      "section": "Think About It"
+    },
+    {
+      "q": "How does the play make fun of Think-Tank?",
+      "a": "​ The play makes fun of Think-Tank by showing that he considers himself very intelligent but repeatedly makes foolish mistakes. His misunderstanding of simple nursery rhymes creates humour and shows that his pride is not supported by real intelligence.",
+      "section": "Think About It"
+    },
+    {
+      "q": "What is the main message of the play?",
+      "a": "​ The play shows the importance of knowledge, books and clear understanding. It also humorously suggests that overconfidence and misunderstanding can lead to foolish decisions.",
+      "section": "Think About It"
+    }
+  ]
+}

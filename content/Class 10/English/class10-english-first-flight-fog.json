@@ -1,0 +1,43 @@
+{
+  "title": "Fog",
+  "class": "10",
+  "subject": "English",
+  "chapter": "Poetry 8",
+  "book": "First Flight",
+  "notes": [
+    {
+      "heading": "Word Meanings",
+      "points": [
+        "Fog: A thick cloud of tiny water droplets suspended in the air near the earth's surface that limits visibility.",
+        "Little cat feet: A metaphor describing how the fog arrives quietly, silently, and stealthily without making any noise.",
+        "Harbour: A secure, sheltered dock or port area where ships anchor.",
+        "Haunches: The hips, buttocks, and upper thighs of an animal.",
+        "On silent haunches: Sitting quietly on bent back legs, just like a cat watching its surroundings.",
+        "Moves on: Leaves or disappears slowly and quietly after a brief stay."
+      ]
+    }
+  ],
+  "summary": "\"Fog\" by Carl Sandburg is a beautifully concise, six-line poem that captures the silent arrival, brief stay, and quiet departure of fog over a harbor and city using an extended metaphor. The poet masterfully compares the natural phenomenon of fog to a cat, highlighting the striking similarities in their stealthy, silent movements and unpredictable nature. The poem opens with the description of the fog arriving \"on little cat feet,\" indicating that just like a cat sneaks into a room without making a sound or alerting anyone, the dense fog blankets the landscape quietly, taking the bustling city by surprise. Sandburg then describes the fog as it \"sits looking over harbor and city,\" capturing its motionless presence. It mimics a cat that chooses a high vantage point to curl up and silently observe its surroundings with an air of calm detachment. The fog rests over the water and urban structures on its \"silent haunches,\" reinforcing this posture of alert yet peaceful rest. Finally, just as a cat suddenly changes its mind and slips away into the shadows without leaving a trace or a sound, the fog gently rolls back and \"moves on,\" vanishing into the atmosphere. Through this minimal yet deeply evocative imagery, Sandburg transforms a simple weather condition into a living, breathing entity, illustrating the transient, mysterious, and soothing beauty of the natural world.",
+  "qa": [
+    {
+      "q": "What is the metaphor used in the poem?",
+      "a": "​ The poet compares the fog to a cat. The fog comes quietly, sits over the city and harbour, watches everything silently, and then moves away just like a cat.",
+      "section": "Thinking About the Poem"
+    },
+    {
+      "q": "What does the poet mean by “It sits looking over harbour and city”?",
+      "a": "​ The poet means that the fog covers the harbour and city and stays there silently for some time. It seems to watch everything around it like a cat sitting quietly.",
+      "section": "Thinking About the Poem"
+    },
+    {
+      "q": "How does the fog come and go?",
+      "a": "​ The fog comes silently and slowly, just like a cat. It stays for a short time and then quietly comparing it to a cat, the poet makes the natural phenomenon easy to imagine and shows its silent and moves away without making any sound.",
+      "section": "Thinking About the Poem"
+    },
+    {
+      "q": "What is the central idea of the poem?",
+      "a": "​ The poem describes the quiet and mysterious movement of fog. By comparing it to a cat, the poet makes the natural phenomenon easy to imagine and shows its silent and unpredictable nature.",
+      "section": "Thinking About the Poem"
+    }
+  ]
+}

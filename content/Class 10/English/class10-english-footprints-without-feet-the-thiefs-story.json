@@ -1,0 +1,73 @@
+{
+  "title": "The Thief's Story",
+  "class": "10",
+  "subject": "English",
+  "chapter": "Chapter 2",
+  "book": "Footprints Without Feet",
+  "notes": [
+    {
+      "heading": "Word Meanings",
+      "points": [
+        "Flattery: Insincere or excessive praise used to please or manipulate someone.",
+        "Easy-going: Having a relaxed, calm, and tolerant attitude.",
+        "Fairly successful hand: An idiom meaning to be highly experienced and skilled at a particular crime or job.",
+        "Modestly: Behaving or speaking in a humble way without boasting.",
+        "Grunting: Making low, short, guttural sounds usually due to physical effort or pain.",
+        "Appealing: Highly attractive, pleasing, or interesting.",
+        "By fits and starts: An idiom meaning working irregularly, inconsistently, or in short intervals.",
+        "Queer: Strange, odd, or unusual.",
+        "Tuck: To push, fold, or hide something securely into a small space.",
+        "Crept up: Moved slowly, silently, and stealthily toward something without being noticed.",
+        "Startled: Suddenly surprised, shocked, or slightly frightened.",
+        "Deserted: An empty place that is completely abandoned and has no people in it.",
+        "Drizzle: A very light, fine rain consisting of tiny water droplets.",
+        "Damp: Slightly wet, moist, and uncomfortable.",
+        "Unlined: Showing no signs of worry, anxiety, or wrinkles on the face.",
+        "Conscience: A person's inner moral sense of what is right and wrong"
+      ]
+    }
+  ],
+  "summary": "\"The Thief's Story\" by Ruskin Bond is a deeply moving narrative that explores the themes of trust, friendship, and the transformative power of human kindness over a life of crime. The story is narrated by a 15-year-old thief who adopts the fake name Hari Singh to evade the police and his former employers. Hari meets Anil, a tall, lean, and easygoing 25-year-old writer, at a wrestling match and targets him as his next victim. Using his most appealing smile, Hari begs for a job, and though Anil cannot afford to pay him regular wages, he agrees to feed him if Hari knows how to cook. On his very first night, Hari cooks a terrible meal that Anil gives to stray dogs, but instead of throwing the boy out, a patient Anil teaches him how to cook, write his name, and add numbers. Hari enjoys working for Anil; he makes a steady profit of about a rupee a day while buying the daily supplies, an unpunished theft that Anil is fully aware of but chooses to ignore. Anil's income is erratic, as he earns money by fits and starts through writing for magazines, yet his trusting nature makes him the most difficult target Hari  has ever encountered. The climax arrives when Anil returns home with a bundle of notes worth six hundred rupees earned from selling a book to a publisher and tucks the money safely under his mattress. Overcome by his criminal instincts, Hari creeps under the mattress at night, steals the cash, and dashes to the railway station to catch the Lucknow Express. However, as he stands on the platform, his conscience stalls him, and he lets the train depart without him; he realizes that while stealing from a greedy man is easy, breaking the trust of a genuinely careless and kind soul like Anil would destroy a rare relationship. More importantly, Hari realizes that learning to read and write under Anil's guidance holds the potential to make him a respected, successful man, which is worth far more than a few stolen notes. Walking back through the rain, he returns to the room and carefully slips the damp money back under the mattress. The next morning, Anil wakes up early, makes tea, and hand Hari a fifty-rupee note, promising to pay him regularly from then on. Though the note is still wet from the rain, proving Anil knows everything about the attempted theft, he does not show a single sign of anger or betrayal, choosing instead to save the boy with silent forgiveness and love.",
+  "qa": [
+    {
+      "q": "Who does Iqbal live with?",
+      "a": "​ The story does not mention Iqbal. The thief, Hari Singh, lives with Anil, a young writer. Anil gives him food, shelter and a chance to learn.",
+      "section": "Read and Find Out"
+    },
+    {
+      "q": "What does Anil do for a living?",
+      "a": "​ Anil is a young writer. He earns money by writing for magazines and occasionally receiving payments for his work. He lives a simple and relaxed life.",
+      "section": "Read and Find Out"
+    },
+    {
+      "q": "What did Hari Singh plan to do?",
+      "a": "​ Hari Singh planned to steal the money Anil had saved. After stealing it, he intended to catch a train and leave the town.",
+      "section": "Read and Find Out"
+    },
+    {
+      "q": "Why did Hari Singh change his name every month?",
+      "a": "​ Hari Singh changed his name frequently because he was a thief. Changing his name helped him avoid being recognised and caught by the police or by people he had cheated.",
+      "section": "Think About It"
+    },
+    {
+      "q": "Why did Hari Singh decide to return the stolen money?",
+      "a": "​ Hari Singh decided to return the money because he realised that Anil trusted him and was teaching him to read and write. He understood that education and an honest life could give him a better future than stealing.",
+      "section": "Think About It"
+    },
+    {
+      "q": "How did Anil treat Hari Singh?",
+      "a": "​ Anil treated Hari Singh kindly and trusted him. He gave him food, shelter and work, and promised to teach him how to read, write and do simple calculations. His kindness helped Hari change his ways.",
+      "section": "Think About It"
+    },
+    {
+      "q": "Why did Hari Singh not board the train?",
+      "a": "​ Hari Singh did not board the train because he felt guilty about betraying Anil’s trust. He also realised that education could change his life. He returned to Anil and decided to start living honestly.",
+      "section": "Think About It"
+    },
+    {
+      "q": "What is the main message of the story?",
+      "a": "​ The story shows that trust, kindness and education can bring positive change in a person’s life. Anil’s trust gives Hari Singh a chance to leave his dishonest ways and choose a better future.",
+      "section": "Think About It"
+    }
+  ]
+}

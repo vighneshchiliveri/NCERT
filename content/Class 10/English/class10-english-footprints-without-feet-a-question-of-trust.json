@@ -1,0 +1,74 @@
+{
+  "title": "A Question of Trust",
+  "class": "10",
+  "subject": "English",
+  "chapter": "Chapter 4",
+  "book": "Footprints Without Feet",
+  "notes": [
+    {
+      "heading": "Word Meanings",
+      "points": [
+        "Meticulously: Doing something with great care, immense attention to detail, and absolute precision.",
+        "Hay fever: An allergic reaction to pollen causing sneezing, watery eyes, and an itchy nose.",
+        "Burglary: The criminal act of illegally breaking into a building to steal valuable items.",
+        "Safe: A strong, lockable iron box used for securely storing money and expensive valuables.",
+        "Grange: A country house, large farmhouse, or rural estate with surrounding outbuildings.",
+        "Tickle: A tingling or irritating sensation in the throat or nose that makes you cough or sneeze.",
+        "Hindrance: A barrier, obstruction, or person that delays, blocks, or prevents progress.",
+        "Coax: To gently or persistently persuade someone or an animal to do something.",
+        "Amuse: To cause someone to find something funny, highly entertaining, or pleasing.",
+        "Charming: Incredibly pleasant, highly attractive, and completely delightful in appearance or manner.",
+        "Jewels: High-value ornaments, precious stones, or gems like diamonds and rubies.",
+        "Frightened: Feeling a sudden sense of deep fear, panic, or anxiety.",
+        "Generosity: The kind quality of being giving, helpful, and completely selfless.",
+        "Sharply: Speaking in a very stern, severe, harsh, or direct tone.",
+        "Insolent: Showing a rude, arrogant, and total lack of respect towards others.",
+        "Prone: Having a natural tendency or inclination to be affected by something unpleasant.",
+        "Grudge: A deep feeling of resentment, anger, or ill-will held over a past grievance."
+      ]
+    }
+  ],
+  "summary": "\"A Question of Trust\" by Victor Canning is a clever, ironic story about a theft that highlights the classic proverb \"honor among thieves\" while demonstrating how overconfidence can lead to an unexpected downfall. The narrative follows Horace Danby, a fifty-year-old unmarried man who runs a successful lock-making business and enjoys a good reputation in his community. However, Horace harbors a secret criminal life: he robs one wealthy safe every year to fund his expensive passion for buying rare, valuable books. He plans his burglaries meticulously, and his latest target is Shotover Grange, a grand manor whose owners are away in London. Horace spends weeks studying the house's layout, wiring, and even the paths of the family dog, Sherry. He breaks in smoothly through the kitchen, but his operation is hindered by a sudden bout of hay fever caused by a bowl of flowers in the room, making him sneeze loudly. This noise attracts a young, elegant woman dressed in red who walks into the room, confidently handling the dog and acting exactly like the mistress of the house. She speaks to Horace with calm authority, telling him she surprised the burglar but offers him a compromise: she will let him escape without calling the police if he opens the safe for her, claiming she forgot the combination and needs her jewels for a party that night. Caught in a panic and completely deceived by her sophisticated acting, Horace eagerly agrees to her terms to save himself; he takes off his gloves, cracks the safe open in an hour, hands her the jewels, and happily walks away. The ultimate twist occurs two days later when Horace is arrested by the police for the Shotover Grange robbery. His fingerprints are found all over the safe because he foolishly opened it without his gloves. He is shocked to discover that the real mistress of the house is actually a sixty-year-old gray-haired woman, and the charming lady in red was simply a clever, rival thief who completely outsmarted him by exploiting his trust. The story ends ironically with Horace serving as the assistant librarian in prison, feeling  deeply enraged whenever anyone mentions the phrase \"honor among thieves,\" as he was thoroughly tricked by a member of his own profession.",
+  "qa": [
+    {
+      "q": "What does Horace Danby like to collect?",
+      "a": "​ Horace Danby likes to collect rare and expensive books. He is not a regular criminal; he steals once a year to get enough money to buy books for his collection.",
+      "section": "Read and Find Out"
+    },
+    {
+      "q": "Why does Horace Danby steal every year?",
+      "a": "​ Horace steals every year because he needs money to buy rare books. He considers himself a respectable person, but he commits theft to satisfy his love for collecting books.",
+      "section": "Read and Find Out"
+    },
+    {
+      "q": "Who is the woman in red?",
+      "a": "​ The woman in red is another thief who pretends to be the owner of the house. She tricks Horace into opening the safe for her and then takes the jewels herself.",
+      "section": "Read and Find Out"
+    },
+    {
+      "q": "What does Horace Danby learn from his experience?",
+      "a": "​ Horace learns that appearances can be deceptive and that a thief can also be tricked by another thief. He trusted the woman in red and was caught because of her clever deception.",
+      "section": "Think About It"
+    },
+    {
+      "q": "Why does Horace Danby become so sure that the woman is the owner of the house?",
+      "a": "​ Horace believes she is the owner because she behaves confidently and speaks as if she knows everything about the house. She also tells him that she needs the jewels from the safe, convincing him that she is telling the truth.",
+      "section": "Think About It"
+    },
+    {
+      "q": "What was Horace’s plan for the robbery?",
+      "a": "​ Horace carefully studied the house before attempting the robbery. He wore gloves to avoid leaving fingerprints and planned to open the safe and steal the jewels without being noticed.",
+      "section": "Think About It"
+    },
+    {
+      "q": "Why was Horace arrested?",
+      "a": "​ Horace was arrested because the woman in red tricked him into opening the safe. She took the jewels and escaped, while Horace was later caught because his fingerprints were found at the scene.",
+      "section": "Think About It"
+    },
+    {
+      "q": "What is the main message of the story?",
+      "a": "​ The story shows that dishonesty can lead to unexpected trouble. It also teaches that appearances can be misleading and that even a careful person can be deceived when he places trust in the wrong person.",
+      "section": "Think About It"
+    }
+  ]
+}

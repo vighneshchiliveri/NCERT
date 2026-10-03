@@ -1,0 +1,67 @@
+{
+  "title": "The Making of a Scientist",
+  "class": "10",
+  "subject": "English",
+  "chapter": "Chapter 6",
+  "book": "Footprints Without Feet",
+  "notes": [
+    {
+      "heading": "Word Meanings",
+      "points": [
+        "Scout: A member of an organization for young people that teaches outdoor skills and citizenship.",
+        "Leagues: Collections of sports teams or groups that compete against one another.",
+        "Astronomy: The scientific study of stars, planets, and other celestial bodies in space.",
+        "Tagging: Attaching a small label or marker to an animal for tracking or research.",
+        "Tedious: A task that is incredibly boring, tiring, and slow to complete.",
+        "Monarch: A large, brightly coloured orange and black migratory butterfly.",
+        "Viceroy: A type of butterfly that closely copies the appearance of the Monarch to protect itself from birds.",
+        "Starling: A common European bird known for eating insects and fruits.",
+        "Hormone: A chemical substance produced in the body that controls the growth or development of cells.",
+        "Incubate: To keep eggs warm so that they can hatch safely.",
+        "Culture: A laboratory preparation for growing microorganisms, tissue cells, or bacteria.",
+        "Blueprint: A detailed technical design, photographic print, or plan for a structure.",
+        "Competitive: Having a strong desire to be more successful, faster, or better than others.",
+        "Pioneer: A person who is among the first to explore, develop, or research a new area of study.",
+        "Ingredients: The necessary parts, qualities, or elements that mix together to form a result."
+      ]
+    }
+  ],
+  "summary": "\"The Making of a Scientist\" by Robert W. Peterson is an inspiring biographical account that traces the journey of Richard Ebright, a brilliant molecular biologist whose curiosity, dedication, and scientific acumen transformed him into a world-renowned scientist. Growing up as an only child in Reading, Pennsylvania, Ebright’s journey began  with his childhood passion for collecting things, particularly butterflies, coins, fossils, and rocks. His mother played a pivotal role in his early education, acting as his driving force by buying him microscopes, telescopes, and cameras, and companionably guiding his learning. The true turning point in his life came when his mother gifted him a children's book titled The Travels of Monarch X, which opened the world of science to him by detailing the migration of Monarch butterflies to Central America. This led him to participate in a research project by Dr. Frederick A. Urquhart, where he spent years tagging butterflies. When he entered the County Science Fair in seventh grade and lost, he realized that real science is not just about a neat display but about conducting real experiments. This failure pushed him to perform actual research: in eighth grade, he investigated a viral disease killing Monarch caterpillars, and in high school, he proved that Viceroy butterflies copy Monarchs to avoid being eaten by birds, earning him top honors. His most groundbreaking discovery occurred during his junior year in college when he cracked the puzzle of cell life. Alongside his roommate James R. Wong, Ebright identified how a cell reads the blueprint of its DNA. This monumental discovery was triggered by his earlier curiosity regarding the purpose of the twelve tiny gold spots on a Monarch pupa, proving that they were not merely decorative but secreted a hormone vital to the butterfly's full development. Beyond biology, Ebright was a multifaceted individual—a champion debater, an expert public speaker, and a keen outdoor photographer. He was highly praised by his social studies teacher, Richard A. Weiherer, for his competitive spirit to do his best rather than winning for the sake of prizes. Ultimately, the narrative highlights that the making of a true scientist requires a rare combination of a first-rate mind, intense curiosity, and the unwavering will to win for the right reasons.",
+  "qa": [
+    {
+      "q": "How did a book become a turning point in Richard Ebright’s life?",
+      "a": "​ A book called The Travels of Monarch X became a turning point in Richard Ebright’s life. It introduced him to the world of butterflies and encouraged him to collect and study them. This developed his interest in science.",
+      "section": "Read and Find Out"
+    },
+    {
+      "q": "How did his mother help him?",
+      "a": "​ Richard’s mother encouraged his curiosity and helped him develop good habits. She provided him with books and equipment, took interest in his projects and encouraged him to participate in science fairs. Her support helped him become a successful scientist.",
+      "section": "Read and Find Out"
+    },
+    {
+      "q": "What was Richard Ebright’s first important scientific achievement?",
+      "a": "​ Richard’s first important achievement was his discovery that the gold spots on a monarch pupa were connected with the production of the butterfly’s hormones. This research became an important step in his scientific career.",
+      "section": "Read and Find Out"
+    },
+    {
+      "q": "What qualities helped Richard Ebright become a scientist?",
+      "a": "​ Richard Ebright became a scientist because he was curious, hardworking, intelligent and determined. He observed things carefully, conducted experiments and learned from his mistakes. His mother’s encouragement also helped him develop these qualities.",
+      "section": "Think About It"
+    },
+    {
+      "q": "What role did his mother play in his success?",
+      "a": "​ His mother played a very important role in his success. She encouraged his interest in science, provided him with books and learning opportunities and guided him throughout his childhood. She also taught him to be hardworking and confident.",
+      "section": "Think About It"
+    },
+    {
+      "q": "How did Richard’s interest in butterflies develop?",
+      "a": "​ Richard first became interested in butterflies when he collected them as a child. After reading The Travels of Monarch X, his interest became more serious. He began studying butterflies scientifically and conducting experiments related to them.",
+      "section": "Think About It"
+    },
+    {
+      "q": "What is the main message of the chapter?",
+      "a": "​ The chapter shows that curiosity, hard work, determination and proper guidance can help a person achieve great success. Richard Ebright’s journey shows how a simple childhood interest can develop into a successful scientific career.",
+      "section": "Think About It"
+    }
+  ]
+}

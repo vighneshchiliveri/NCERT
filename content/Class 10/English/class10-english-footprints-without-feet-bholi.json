@@ -1,0 +1,70 @@
+{
+  "title": "Bholi",
+  "class": "10",
+  "subject": "English",
+  "chapter": "Chapter 8",
+  "book": "Footprints Without Feet",
+  "notes": [
+    {
+      "heading": "Word Meanings",
+      "points": [
+        "Stammered: Spoke with sudden, involuntary pauses and a tendency to repeat initial letters.",
+        "Mimicked: Copied, imitated, or mocked someone's voice, actions, or behaviour.",
+        "Pockmarks: Permanent, small pits or scars left on the skin by smallpox.",
+        "Prosperous: Wealthy, successful, and financially well-off.",
+        "Tehsildar: A local government administrative tax officer in charge of a sub-district.",
+        "Console: To comfort someone at a time of deep grief, disappointment, or sadness.",
+        "Matted: Hair that is tangled, knotted, and pressed into a thick, dirty mass.",
+        "Scurried: Moved or ran away quickly with small, short, and hurried steps.",
+        "Squatting: Sitting flat on the ground with knees bent close to the chest or body.",
+        "Fascinated: Strongly attracted, enchanted, or deeply interested by something.",
+        "Sobbed: Cried noisily while taking sudden, sharp, and convulsive breaths.",
+        "Sighed: Let out a long, deep, and audible breath expressing sadness, relief, or exhaustion.",
+        "Contempt: A strong feeling of deep dislike, disrespect, or disapproval.",
+        "Muttered: Spoke or complained in a low, quiet, and barely audible voice.",
+        "Humiliation: A deep feeling of embarrassment or a complete loss of pride.",
+        "Heartless: Lacking all kindness, warmth, or human empathy.",
+        "Poised: Completely calm, dignified, balanced, and self-assured.",
+        "Contemplating: Thinking about or looking at something thoughtfully for a long time."
+      ]
+    }
+  ],
+  "summary": "\"Bholi\" by K.A. Abbas is a deeply moving and inspirational story that traces the transformative journey of a neglected, marginalized girl from a state of low self-esteem to becoming a confident, self-reliant individual through the power of education. The protagonist, Sulekha, is the fourth daughter of a prosperous village official, Numberdar Ramlal. A series of childhood misfortunes shape her early life: at ten months, she falls off her cot, damaging a part of her brain, which leaves her a slow learner, earning her the nickname \"Bholi\" (the simpleton). Furthermore, a severe attack of smallpox at age two leaves her entire body permanently disfigured with deep black pockmarks, and a late development of speech causes her to stammer, making her the butt of cruel ridicule. Her life takes a significant turn when the sub-divisional magistrate (Tehsildar) inaugurates a primary school for girls in the village and commands Ramlal to set an example by sending his daughters. Fearing societal backlash but eager to obey  the official, Ramlal and his wife decide to send Bholi, thinking her low marriage prospects mean she has nothing to lose. On her first day, clean clothes and oiled hair give Bholi a rare sense of hope. At school, she is deeply comforted by her kind-hearted, compassionate schoolteacher, who treats her with immense love, encourages her to overcome her stammer, and promises that education will make her the most learned person in the village. Years pass, the village turns into a small town, and Bholi grows into an educated young woman. The climax arrives when her parents arrange her marriage to Bishamber Nath, a wealthy but limping, middle-aged widower with grown-up children, who demands a staggering dowry of five thousand rupees upon spotting Bholi's pockmarked face at the wedding altar. To save his family's honor, a humiliated Ramlal places his turban at Bishamber's feet and hands over the money. However, as Bishamber triumphantly steps forward to garland her, a transformed Bholi boldly strikes the garland away into the sacred fire, speaking out in a clear, loud, and completely un-stammering voice. She fiercely rejects the greedy, heartless coward, declaring that she will not marry him to protect her family's pride. Returning the dowry, she announces her decision to live independently, care for her aging parents in their old age, and teach in the very same school that gave her a voice, earning the silent admiration of her teacher who witnesses this triumph of dignity over societal oppression.",
+  "qa": [
+    {
+      "q": "Why is Bholi called a backward child?",
+      "a": "​ Bholi is called a backward child because she is slow in learning and has difficulty speaking clearly. She also has pockmarks on her face, which makes her feel shy and different from others.",
+      "section": "Read and Find Out"
+    },
+    {
+      "q": "Why does Bholi’s teacher ask her to speak in a normal voice?",
+      "a": "​ Bholi’s teacher encourages her to speak without fear. She patiently helps Bholi gain confidence and assures her that she can learn to speak properly.",
+      "section": "Read and Find Out"
+    },
+    {
+      "q": "Why does Bholi’s father decide to send her to school?",
+      "a": "​ Bholi’s father sends her to school because a new school has opened in the village. The teacher advises him to send Bholi there, believing that education will help her improve.",
+      "section": "Read and Find Out"
+    },
+    {
+      "q": "Why is Bholi’s teacher important in her life?",
+      "a": "​ Bholi’s teacher changes her life through kindness, patience and encouragement. She teaches Bholi to speak confidently and helps her understand her own worth. Education gives Bholi courage and independence.",
+      "section": "Think About It"
+    },
+    {
+      "q": "Why does Bholi refuse to marry Bishamber?",
+      "a": "​ Bholi refuses to marry Bishamber because he demands money as dowry after seeing the pockmarks on her face. She realises that he does not respect her and confidently refuses to marry him.",
+      "section": "Think About It"
+    },
+    {
+      "q": "How does Bholi’s education change her life?",
+      "a": "​ Education gives Bholi confidence and self-respect. She learns to speak clearly, think independently and stand up for herself. She finally refuses an unfair marriage and decides to serve her parents and teach at the same school.",
+      "section": "Think About It"
+    },
+    {
+      "q": "What is the main message of the story?",
+      "a": "​ The story shows that education can give a person confidence, courage and independence. It also teaches us not to judge people by their appearance and to stand against injustice and dowry.",
+      "section": "Think About It"
+    }
+  ]
+}

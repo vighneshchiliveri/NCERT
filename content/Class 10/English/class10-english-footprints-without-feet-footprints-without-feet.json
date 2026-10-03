@@ -1,0 +1,77 @@
+{
+  "title": "Footprints Without Feet",
+  "class": "10",
+  "subject": "English",
+  "chapter": "Chapter 5",
+  "book": "Footprints Without Feet",
+  "notes": [
+    {
+      "heading": "Word Meanings",
+      "points": [
+        "Bewilderment: A state of being completely puzzled, confused, or deeply uncertain.",
+        "Imprint: A clear mark or outline made by pressing something onto a softer surface.",
+        "Gazed: Looked steadily, intently, and fixedly in wonder, surprise, or deep thought.",
+        "Remarkable: Highly unusual, striking, and surprising.",
+        "Progressing: Moving steadily ahead or advancing forward.",
+        "Fascinated: Strongly attracted, enchanted, or deeply interested by something.",
+        "Transparent: Clear, see-through, and easy to look through.",
+        "Invisible: Completely impossible to be seen by the naked eye.",
+        "Swallowed: Gulping or causing something to pass down the throat without chewing.",
+        "Lawless man: An individual who intentionally goes against the law or does illegal activities.",
+        "Eject: To forcefully evict, expel, or make someone leave a particular place.",
+        "Garment: A formal term for an item of clothing or apparel.",
+        "Wanderer: Someone who travels around from place to place without a fixed home or purpose.",
+        "Brim: The projecting bottom edge or rim of a hat that sticks out all around.",
+        "Blundered: Moved around clumsily, awkwardly, or made a careless mistake.",
+        "Shiver: Shaking or trembling slightly and uncontrollably due to intense cold or fear.",
+        "Solitude: The peaceful state or condition of being completely alone.",
+        "Eccentric: A person whose behaviour is highly unconventional, strange, or odd.",
+        "Clergyman: A Christian priest, minister, or a religious leader in a church.",
+        "Witchcraft: The practice of magic, sorcery, or supernatural elements."
+      ]
+    }
+  ],
+  "summary": "\"Footprints Without Feet\" by H.G. Wells is an intriguing story about a brilliant but lawless scientist named Griffin who discovers a formula to make the human body completely invisible, only to misuse his scientific breakthrough for personal mischief and criminal activities rather than the benefit of society. After swallowing certain rare drugs, Griffin's body becomes as transparent as a sheet of glass, though it remains as solid as physical glass. He immediately plunges into lawlessness, setting fire to his landlord's house in a fit of revenge after the landlord tries to eject him. To escape the police without being seen, he is forced to take off all his clothes, becoming a homeless wanderer in the bitter January cold of London. His presence is first noticed by two young boys in London who are astonished to see fresh, muddy footprints appearing mysteriously on a staircase without any visible feet creating them. Seeking warmth, Griffin breaks into a large London store where he dresses himself in warm clothes, eats cold meat, and sleeps on a pile of quilts, but he is forced to flee the next morning when the store assistants arrive and spot him. He then robs a theatrical company to get bandages for his face and a false nose to disguise himself. Desperate to escape the crowded city, Griffin takes a train to the remote village of Iping, booking two rooms at a local inn managed by Mrs. Hall. Though Mrs. Hall tries to be friendly, Griffin behaves eccentrically, demanding absolute privacy and claiming his bandaged face is the result of an accident. When his stolen money runs out, he robs a local clergyman's study, where the clergyman and his wife hear the chinking of money but find the room completely empty. Suspicion falls heavily on the strange scientist when Mrs. Hall finds his room empty, only for the furniture to suddenly come alive and attack her. The climax arrives when a village constable, Mr. Jaffers, is summoned to arrest the headless stranger. A violent, chaotic fight breaks out as Griffin strips off his bandages and clothes one by one to become completely invisible, knocking the helpless constable unconscious and escaping into the air, proving that science without a conscience turns a man into a dangerous monster.",
+  "qa": [
+    {
+      "q": "How did Griffin become invisible?",
+      "a": "​ Griffin was a brilliant scientist who discovered a way to make the human body transparent. He experimented on himself and successfully became invisible. However, he used his scientific discovery mainly for selfish and criminal purposes.",
+      "section": "Read and Find Out"
+    },
+    {
+      "q": "Why did Griffin have to remove his clothes to become invisible?",
+      "a": "​ Griffin’s body became transparent, but his clothes did not. Therefore, if he wore clothes, people could see them even though they could not see his body. To remain completely invisible, he had to remove his clothes.",
+      "section": "Read and Find Out"
+    },
+    {
+      "q": "Why was Griffin wandering the streets of London without clothes?",
+      "a": "​ Griffin had set fire to his landlord’s house after a disagreement. He had to escape quickly and became invisible by removing his clothes. As a result, he was forced to wander through the streets without clothes.",
+      "section": "Read and Find Out"
+    },
+    {
+      "q": "What kind of scientist was Griffin?",
+      "a": "​ Griffin was a brilliant and inventive scientist, but he was also selfish and lawless. Instead of using his discovery for the benefit of people, he used his invisibility to steal, frighten others and commit crimes.",
+      "section": "Think About It"
+    },
+    {
+      "q": "Why does Mrs Hall find Griffin strange?",
+      "a": "​ Mrs Hall finds Griffin strange because he keeps his face covered, wears dark glasses and gloves, and does not allow anyone to see his face. His unusual appearance and secretive behaviour make her suspicious.",
+      "section": "Think About It"
+    },
+    {
+      "q": "Why does Griffin leave the inn?",
+      "a": "​ Griffin leaves the inn because the police are searching for him. When his identity and strange activities begin to attract attention, he removes his clothes and escapes by becoming invisible.",
+      "section": "Think About It"
+    },
+    {
+      "q": "How did Griffin become a homeless wanderer?",
+      "a": "​ Griffin misused his scientific discovery and committed several crimes. He had no money, clothes or safe place to stay. As a result, he kept moving from one place to another and became a homeless wanderer.",
+      "section": "Think About It"
+    },
+    {
+      "q": "What message does the story convey?",
+      "a": "​ The story shows that scientific knowledge without morality can be dangerous. Griffin’s discovery could have been useful, but his selfish and criminal behaviour turned it into a source of trouble for himself and others.",
+      "section": "Think About It"
+    }
+  ]
+}

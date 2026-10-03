@@ -1,0 +1,58 @@
+{
+  "title": "Amanda!",
+  "class": "10",
+  "subject": "English",
+  "chapter": "Poetry 6",
+  "book": "First Flight",
+  "notes": [
+    {
+      "heading": "Word Meanings",
+      "points": [
+        "Hunch: To bend one's shoulders and back forward in a poor posture.",
+        "Languid: Relaxed, peaceful, moving slowly, and lacking energy.",
+        "Emerald: A bright green precious stone, used here to describe the rich green sea.",
+        "Sole: Being the only person, inhabitant, or single individual in a place.",
+        "Blissfully: In a manner full of complete, supreme happiness and peace.",
+        "Drifting: Moving smoothly, gently, and aimlessly along a current of water or air.",
+        "Orphan: A child whose parents are no longer alive.",
+        "Husked: Quiet, silent, and peaceful (referring to the silent dust).",
+        "Bare: Naked, uncovered, or completely exposed without shoes.",
+        "Acne: A common skin condition causing pimples and red spots on the face.",
+        "Rapunzel: A famous fairy-tale princess who lived alone inside a tall tower.",
+        "Tranquil: Deeply calm, peaceful, quiet, and free from disturbance.",
+        "Rare: Highly uncommon, unique, and exceptionally valuable.",
+        "Sulking: Being silent, moody, and bad-tempered out of anger or annoyance.",
+        "Moody: Having unpredictable, sudden shifts in mood or temper.",
+        "Nagged: Constantly harassed, scolded, or criticized with repeated complaints."
+      ]
+    }
+  ],
+  "summary": "\"Amanda!\" by Robin Klein is a touching poem that explores the tension between parental control and a child’s desire for freedom, highlighting the psychological impact of constant nagging on young minds. The poem alternates between the strict, authoritative instructions given by a parent (likely the mother) and the vivid, escapist daydreams of a young schoolgirl named Amanda. The parent constantly chides Amanda for her habits, commanding her not to bite her nails, hunch her shoulders, or slouch while sitting. In response to this suffocating control, Amanda retreats into her own imagination, picturing herself as a solitary mermaid drifting blissfully in a calm, emerald sea, away from all human interference. The parent’s nagging continues as she questions Amanda about finishing her homework, tidying her bedroom, and cleaning her shoes. To escape this intrusion, Amanda imagines herself as an orphan roaming  the streets in complete freedom, relishing the silence and tracing quiet patterns in the soft dust with her bare, unguided feet. The mother then forbids Amanda from eating chocolate to prevent acne, reminding her to look straight at her when spoken to. This drives Amanda to imagine herself as Rapunzel, living peacefully inside a tranquil, isolated tower where she resolves never to let down her bright hair for any intruder. The poem concludes with the mother scolding Amanda for being moody and sulking, warning her that people will think she is being continuously harassed, while Amanda retreats into a silent withdrawal. Through these contrasting stanzas, the poem beautifully captures a child’s desperate quest for creative space and independence against the overbearing expectations of adult supervision.",
+  "qa": [
+    {
+      "q": "How old do you think Amanda is? How do you know?",
+      "a": "​ Amanda seems to be a young girl, probably a teenager. Her desire for freedom, dislike of constant instructions and wish to be alone suggest that she is growing up and becoming more independent.",
+      "section": "Thinking About the Poem"
+    },
+    {
+      "q": "Who do you think is speaking to Amanda?",
+      "a": "​ An adult, most probably Amanda’s mother, is speaking to her. The speaker repeatedly gives Amanda instructions about her behaviour, manners, homework and appearance.",
+      "section": "Thinking About the Poem"
+    },
+    {
+      "q": "Why does Amanda want to be an orphan?",
+      "a": "​ Amanda wants to be an orphan because she feels troubled by the constant instructions and scolding. She imagines that an orphan would be free from such restrictions and could live peacefully.",
+      "section": "Thinking About the Poem"
+    },
+    {
+      "q": "What does Amanda wish to be when she imagines herself as a mermaid?",
+      "a": "​ Amanda imagines herself as a mermaid living freely in the sea. She wants to enjoy a peaceful and independent life without anyone controlling or instructing her.",
+      "section": "Thinking About the Poem"
+    },
+    {
+      "q": "What is the central idea of the poem?",
+      "a": "​ The poem highlights a child’s desire for freedom and independence. Amanda feels irritated by constant instructions from adults and escapes into her imagination. It also shows the need for parents to understand children’s feelings instead of constantly correcting them.",
+      "section": "Thinking About the Poem"
+    }
+  ]
+}
