@@ -1990,6 +1990,21 @@ button:not(.brand):not(.text-button):focus-visible {
   border-color: rgba(255, 255, 255, 0.14);
 }
 
+.reader-paper[data-theme='dark'] #readerTitle,
+.reader-paper[data-theme='dark'] .reader-content,
+.reader-paper[data-theme='dark'] .reader-content h2,
+.reader-paper[data-theme='dark'] .reader-content h3,
+.reader-paper[data-theme='dark'] .reader-content h4,
+.reader-paper[data-theme='dark'] .reader-content p,
+.reader-paper[data-theme='dark'] .reader-content li {
+  color: #f4efe5;
+}
+
+.reader-paper[data-theme='dark'] .reader-kicker,
+.reader-paper[data-theme='dark'] .reader-meta-row {
+  color: #c5bdaf;
+}
+
 .reader-type-tab {
   border-color: rgba(255, 255, 255, 0.6);
   background: rgba(255, 255, 255, 0.45);
