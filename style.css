@@ -1867,6 +1867,12 @@ button:not(.brand):not(.text-button):focus-visible {
   box-shadow: 0 8px 22px rgba(99, 102, 241, 0.32), 0 1px 0 rgba(255, 255, 255, 0.35) inset;
 }
 
+#readerThemeBtn:hover,
+#readerThemeBtn:focus-visible {
+  background: rgba(255, 255, 255, 0.94);
+  color: #4f46e5;
+}
+
 #completeBtn[aria-pressed='true'],
 .reader-toolbar button.is-active {
   background: var(--color-success);
@@ -1910,13 +1916,13 @@ button:not(.brand):not(.text-button):focus-visible {
 
 @media (max-width: 980px) {
   .selected-class-bar {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .selected-actions {
     grid-column: 1 / -1;
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr));
   }
 }
 
