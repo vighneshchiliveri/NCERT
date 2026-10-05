@@ -1840,7 +1840,7 @@ button:not(.brand):not(.text-button):focus-visible {
 #changeSubjectBtn,
 #changeClassBtn,
 #backToChaptersBtn,
-.reader-toolbar button,
+.reader-toolbar button:not(.brand):not(.text-button):not(.is-active),
 .reader-nav button,
 #completeBtn {
   border-width: 1px;
@@ -1858,19 +1858,13 @@ button:not(.brand):not(.text-button):focus-visible {
 #changeClassBtn:focus-visible,
 #backToChaptersBtn:hover,
 #backToChaptersBtn:focus-visible,
-.reader-toolbar button:hover:not(:disabled),
-.reader-toolbar button:focus-visible,
+.reader-toolbar button:not(.brand):not(.text-button):not(.is-active):hover:not(:disabled),
+.reader-toolbar button:not(.brand):not(.text-button):not(.is-active):focus-visible,
 .reader-nav button:hover:not(:disabled),
 .reader-nav button:focus-visible {
   background: #4f46e5;
   color: #fff;
   box-shadow: 0 8px 22px rgba(99, 102, 241, 0.32), 0 1px 0 rgba(255, 255, 255, 0.35) inset;
-}
-
-#readerThemeBtn:hover,
-#readerThemeBtn:focus-visible {
-  background: rgba(255, 255, 255, 0.94);
-  color: #4f46e5;
 }
 
 #completeBtn[aria-pressed='true'],
@@ -1916,7 +1910,7 @@ button:not(.brand):not(.text-button):focus-visible {
 
 @media (max-width: 980px) {
   .selected-class-bar {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .selected-actions {
@@ -1999,6 +1993,7 @@ button:not(.brand):not(.text-button):focus-visible {
 .reader-paper[data-theme='dark'] .reader-content li {
   color: #f4efe5;
 }
+
 .reader-paper[data-theme='dark'] .reader-kicker,
 .reader-paper[data-theme='dark'] .reader-meta-row {
   color: #c5bdaf;
