@@ -32,7 +32,9 @@
   "qa": [
     {
       "q": "Read the poem again, and work in pairs or groups to do the following tasks. (i) What do you think is the colour of the tiger? (ii) What does the tiger do in the cage? (iii) What does the tiger want to do? ​ ",
-      "a": "​ (i)The tiger is described as being bright and yellow in colour, with black stripes. The description creates a clear picture of the tiger’s appearance. (ii)  The tiger walks quietly and angrily inside the cage. He moves along the length of the cage but is unable to move freely because he is trapped. (iii) The tiger wants to live freely in the jungle. He wants to hunt deer, move through the tall grass and enjoy his natural surroundings instead of living in a cage.",
+      "a": ["​ (i)The tiger is described as being bright and yellow in colour, with black stripes. The description creates a clear picture of the tiger’s appearance. ",
+             "(ii)  The tiger walks quietly and angrily inside the cage. He moves along the length of the cage but is unable to move freely because he is trapped. ",
+             "(iii) The tiger wants to live freely in the jungle. He wants to hunt deer, move through the tall grass and enjoy his natural surroundings instead of living in a cage.",]
       "section": "Thinking About the Poem"
     },
     {
