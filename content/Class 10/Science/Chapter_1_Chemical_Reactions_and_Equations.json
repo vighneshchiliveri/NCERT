@@ -1,0 +1,931 @@
+﻿{
+    "title":  "Chemical Reactions and Equations",
+    "class":  "10",
+    "subject":  "Science",
+    "chapter":  "Chapter 1",
+    "book":  "NCERT Science",
+    "notes":  [
+                  {
+                      "heading":  "Chemical Reaction",
+                      "blocks":  [
+                                     {
+                                         "type":  "text",
+                                         "text":  "A \u003cstrong\u003echemical reaction\u003c/strong\u003e is a process in which one or more substances change into new substances with different properties.\n\nThe substances that take part in a chemical reaction are called \u003cstrong\u003ereactants\u003c/strong\u003e, and the new substances formed are called \u003cstrong\u003eproducts\u003c/strong\u003e."
+                                     },
+                                     {
+                                         "type":  "heading",
+                                         "text":  "Example"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "When magnesium burns in oxygen:"
+                                     },
+                                     {
+                                         "type":  "equation",
+                                         "text":  "\\[\\text{Magnesium + Oxygen} \\longrightarrow \\text{Magnesium oxide}\\]"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "Here:"
+                                     },
+                                     {
+                                         "type":  "list",
+                                         "items":  [
+                                                       "Reactants = Magnesium + Oxygen",
+                                                       "Product = Magnesium oxide"
+                                                   ]
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "A chemical reaction may be identified by:"
+                                     },
+                                     {
+                                         "type":  "list",
+                                         "items":  [
+                                                       "Change in colour",
+                                                       "Change in temperature",
+                                                       "Formation of a gas",
+                                                       "Formation of a precipitate",
+                                                       "Change in physical state"
+                                                   ]
+                                     }
+                                 ]
+                  },
+                  {
+                      "heading":  "Chemical Equation",
+                      "blocks":  [
+                                     {
+                                         "type":  "text",
+                                         "text":  "A \u003cstrong\u003echemical equation\u003c/strong\u003e is a short representation of a chemical reaction using the \u003cstrong\u003esymbols and chemical formulae\u003c/strong\u003e of the substances involved."
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "For example:"
+                                     },
+                                     {
+                                         "type":  "equation",
+                                         "text":  "\\[\\ce{Mg + O2 -\u003e MgO}\\]"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "This represents the reaction:"
+                                     },
+                                     {
+                                         "type":  "equation",
+                                         "text":  "\\[\\text{Magnesium + Oxygen} \\longrightarrow \\text{Magnesium oxide}\\]"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "So, remember:\nChemical Reaction = Actual process\nChemical Equation = Symbolic representation of the process"
+                                     }
+                                 ]
+                  },
+                  {
+                      "heading":  "1.1 Chemical Equations",
+                      "blocks":  [
+                                     {
+                                         "type":  "text",
+                                         "text":  "A \u003cstrong\u003echemical equation\u003c/strong\u003e is a symbolic representation of a chemical reaction.\nInstead of writing the names of substances, we use their \u003cstrong\u003echemical symbols and formulae\u003c/strong\u003e."
+                                     },
+                                     {
+                                         "type":  "heading",
+                                         "text":  "Example"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "The reaction between hydrogen and oxygen to form water can be written as:"
+                                     },
+                                     {
+                                         "type":  "equation",
+                                         "text":  "\\[\\text{Hydrogen + Oxygen} \\longrightarrow \\text{Water}\\]"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "Using chemical formulae:"
+                                     },
+                                     {
+                                         "type":  "equation",
+                                         "text":  "\\[\\ce{H2 + O2 -\u003e H2O}\\]"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "Here:"
+                                     },
+                                     {
+                                         "type":  "list",
+                                         "items":  [
+                                                       "\\(\\ce{H2}\\) and \\(\\ce{O2}\\) are the \u003cstrong\u003ereactants\u003c/strong\u003e.",
+                                                       "\\(\\ce{H2O}\\) is the \u003cstrong\u003eproduct\u003c/strong\u003e.",
+                                                       "The arrow ⟶ means \u003cstrong\u003e“forms”\u003c/strong\u003e or \u003cstrong\u003e“gives”\u003c/strong\u003e."
+                                                   ]
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "A chemical equation gives us information about \u003cstrong\u003ewhich substances react and which substances are formed\u003c/strong\u003e."
+                                     }
+                                 ]
+                  },
+                  {
+                      "heading":  "1.1.1 Writing a Chemical Equation",
+                      "blocks":  [
+                                     {
+                                         "type":  "text",
+                                         "text":  "A \u003cstrong\u003echemical equation\u003c/strong\u003e represents a chemical reaction using the \u003cstrong\u003esymbols and formulae\u003c/strong\u003e of the substances involved."
+                                     },
+                                     {
+                                         "type":  "heading",
+                                         "text":  "Steps for writing a chemical equation"
+                                     },
+                                     {
+                                         "type":  "list",
+                                         "ordered":  true,
+                                         "items":  [
+                                                       "Write the \u003cstrong\u003ereactants\u003c/strong\u003e on the left-hand side.",
+                                                       "Write the \u003cstrong\u003eproducts\u003c/strong\u003e on the right-hand side.",
+                                                       "Separate reactants and products using an arrow ⟶."
+                                                   ]
+                                     },
+                                     {
+                                         "type":  "heading",
+                                         "text":  "Example"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "When magnesium reacts with oxygen, magnesium oxide is formed.\nIn words:"
+                                     },
+                                     {
+                                         "type":  "equation",
+                                         "text":  "\\[\\text{Magnesium + Oxygen} \\longrightarrow \\text{Magnesium oxide}\\]"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "Using chemical formulae:"
+                                     },
+                                     {
+                                         "type":  "equation",
+                                         "text":  "\\[\\ce{Mg + O2 -\u003e MgO}\\]"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "Here:"
+                                     },
+                                     {
+                                         "type":  "list",
+                                         "items":  [
+                                                       "\\(\\ce{Mg}\\), \\(\\ce{O2}\\) = Reactants",
+                                                       "\\(\\ce{MgO}\\) = Product"
+                                                   ]
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "This equation is called a \u003cstrong\u003eskeletal chemical equation\u003c/strong\u003e because it represents the reaction but is \u003cstrong\u003enot balanced\u003c/strong\u003e."
+                                     },
+                                     {
+                                         "type":  "heading",
+                                         "text":  "General form"
+                                     },
+                                     {
+                                         "type":  "equation",
+                                         "text":  "\\[\\text{Reactants} \\longrightarrow \\text{Products}\\]"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "\u003cstrong\u003eRemember:\u003c/strong\u003e Reactants are written on the \u003cstrong\u003eleft-hand side\u003c/strong\u003e, and products are written on the \u003cstrong\u003eright-hand side\u003c/strong\u003e."
+                                     }
+                                 ]
+                  },
+                  {
+                      "heading":  "1.1.2 Balanced Chemical Equations",
+                      "blocks":  [
+                                     {
+                                         "type":  "text",
+                                         "text":  "A \u003cstrong\u003ebalanced chemical equation\u003c/strong\u003e is an equation in which the \u003cstrong\u003enumber of atoms of each element is equal on both sides\u003c/strong\u003e of the equation.\n\nThis is based on the \u003cstrong\u003eLaw of Conservation of Mass\u003c/strong\u003e, which states that \u003cstrong\u003emass can neither be created nor destroyed in a chemical reaction\u003c/strong\u003e."
+                                     },
+                                     {
+                                         "type":  "heading",
+                                         "text":  "Example"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "Consider:"
+                                     },
+                                     {
+                                         "type":  "equation",
+                                         "text":  "\\[\\ce{Mg + O2 -\u003e MgO}\\]"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "Count the atoms:"
+                                     },
+                                     {
+                                         "type":  "table",
+                                         "label":  "Atom counts in the unbalanced equation",
+                                         "headers":  [
+                                                         "Element",
+                                                         "Left side",
+                                                         "Right side"
+                                                     ],
+                                         "rows":  [
+                                                      [
+                                                          "Mg",
+                                                          "1",
+                                                          "1"
+                                                      ],
+                                                      [
+                                                          "O",
+                                                          "2",
+                                                          "1"
+                                                      ]
+                                                  ]
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "The number of oxygen atoms is not equal, so the equation is \u003cstrong\u003enot balanced\u003c/strong\u003e.\nWe balance it by putting suitable numbers called \u003cstrong\u003ecoefficients\u003c/strong\u003e before the formulae:"
+                                     },
+                                     {
+                                         "type":  "equation",
+                                         "text":  "\\[\\ce{2Mg + O2 -\u003e 2MgO}\\]"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "Now:"
+                                     },
+                                     {
+                                         "type":  "table",
+                                         "label":  "Atom counts in the balanced equation",
+                                         "headers":  [
+                                                         "Element",
+                                                         "Left side",
+                                                         "Right side"
+                                                     ],
+                                         "rows":  [
+                                                      [
+                                                          "Mg",
+                                                          "2",
+                                                          "2"
+                                                      ],
+                                                      [
+                                                          "O",
+                                                          "2",
+                                                          "2"
+                                                      ]
+                                                  ]
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "Therefore, the equation is \u003cstrong\u003ebalanced\u003c/strong\u003e."
+                                     },
+                                     {
+                                         "type":  "heading",
+                                         "text":  "Important Rule"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "While balancing an equation, we change only the \u003cstrong\u003ecoefficients\u003c/strong\u003e, not the chemical formulae.\nFor example, we can write:"
+                                     },
+                                     {
+                                         "type":  "equation",
+                                         "text":  "\\[\\ce{2H2 + O2 -\u003e 2H2O}\\]"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "But we should \u003cstrong\u003enot\u003c/strong\u003e change \\(\\ce{H2O}\\) into another formula just to balance the equation."
+                                     },
+                                     {
+                                         "type":  "heading",
+                                         "text":  "In short"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "Number of atoms of each element on LHS = Number of atoms on RHS\n\nA balanced chemical equation obeys the \u003cstrong\u003elaw of conservation of mass\u003c/strong\u003e."
+                                     }
+                                 ]
+                  },
+                  {
+                      "heading":  "1.2 Types of Chemical Reactions",
+                      "blocks":  [
+                                     {
+                                         "type":  "text",
+                                         "text":  "Chemical reactions can be classified into different types depending on \u003cstrong\u003ehow the reactants change into products\u003c/strong\u003e.\nThe main types are:"
+                                     },
+                                     {
+                                         "type":  "list",
+                                         "ordered":  true,
+                                         "items":  [
+                                                       "Combination reaction",
+                                                       "Decomposition reaction",
+                                                       "Displacement reaction",
+                                                       "Double displacement reaction",
+                                                       "Oxidation and reduction reactions"
+                                                   ]
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "These reactions have different patterns, which help us identify them easily."
+                                     }
+                                 ]
+                  },
+                  {
+                      "heading":  "1.2.1 Combination Reaction",
+                      "blocks":  [
+                                     {
+                                         "type":  "text",
+                                         "text":  "A \u003cstrong\u003ecombination reaction\u003c/strong\u003e is a reaction in which \u003cstrong\u003etwo or more substances combine to form a single product\u003c/strong\u003e."
+                                     },
+                                     {
+                                         "type":  "heading",
+                                         "text":  "General form"
+                                     },
+                                     {
+                                         "type":  "equation",
+                                         "text":  "\\[\\ce{A + B -\u003e AB}\\]"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "Here, two or more reactants combine to form \u003cstrong\u003eonly one product\u003c/strong\u003e."
+                                     },
+                                     {
+                                         "type":  "heading",
+                                         "text":  "Example 1: Formation of Calcium Oxide"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "Calcium reacts with oxygen to form calcium oxide:"
+                                     },
+                                     {
+                                         "type":  "equation",
+                                         "text":  "\\[\\ce{2Ca + O2 -\u003e 2CaO}\\]"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "Here, calcium and oxygen combine to form \u003cstrong\u003eone product, calcium oxide\u003c/strong\u003e."
+                                     },
+                                     {
+                                         "type":  "heading",
+                                         "text":  "Example 2: Formation of Water"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "Hydrogen reacts with oxygen to form water:"
+                                     },
+                                     {
+                                         "type":  "equation",
+                                         "text":  "\\[\\ce{2H2 + O2 -\u003e 2H2O}\\]"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "Again, two reactants combine to form one product."
+                                     },
+                                     {
+                                         "type":  "heading",
+                                         "text":  "Example 3: Burning of Coal"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "Carbon combines with oxygen to form carbon dioxide:"
+                                     },
+                                     {
+                                         "type":  "equation",
+                                         "text":  "\\[\\ce{C + O2 -\u003e CO2}\\]"
+                                     },
+                                     {
+                                         "type":  "heading",
+                                         "text":  "Key Point"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "The easiest way to identify a combination reaction is:"
+                                     },
+                                     {
+                                         "type":  "equation",
+                                         "text":  "\\[\\text{Two or more reactants} \\longrightarrow \\text{One product}\\]"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "So, \u003cstrong\u003emany substances combine to give one substance\u003c/strong\u003e."
+                                     }
+                                 ]
+                  },
+                  {
+                      "heading":  "1.2.2 Decomposition Reaction",
+                      "blocks":  [
+                                     {
+                                         "type":  "text",
+                                         "text":  "A \u003cstrong\u003edecomposition reaction\u003c/strong\u003e is a reaction in which \u003cstrong\u003eone compound breaks down into two or more simpler substances\u003c/strong\u003e.\nIt is the \u003cstrong\u003eopposite of a combination reaction\u003c/strong\u003e."
+                                     },
+                                     {
+                                         "type":  "heading",
+                                         "text":  "General form"
+                                     },
+                                     {
+                                         "type":  "equation",
+                                         "text":  "\\[\\ce{AB -\u003e A + B}\\]"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "Here, \u003cstrong\u003eone reactant\u003c/strong\u003e breaks down to form \u003cstrong\u003etwo or more products\u003c/strong\u003e."
+                                     },
+                                     {
+                                         "type":  "heading",
+                                         "text":  "Example 1: Decomposition of Calcium Carbonate"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "On heating calcium carbonate, it decomposes into calcium oxide and carbon dioxide:"
+                                     },
+                                     {
+                                         "type":  "equation",
+                                         "text":  "\\[\\ce{CaCO3 -\u003e[\\Delta] CaO + CO2}\\]"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "Here, Δ represents \u003cstrong\u003eheat\u003c/strong\u003e."
+                                     },
+                                     {
+                                         "type":  "heading",
+                                         "text":  "Example 2: Decomposition of Water"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "Water can be decomposed into hydrogen and oxygen by passing electricity through it:"
+                                     },
+                                     {
+                                         "type":  "equation",
+                                         "text":  "\\[\\ce{2H2O -\u003e[electricity] 2H2 + O2}\\]"
+                                     },
+                                     {
+                                         "type":  "heading",
+                                         "text":  "Types of Decomposition Reactions"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "Decomposition can occur due to:"
+                                     },
+                                     {
+                                         "type":  "list",
+                                         "items":  [
+                                                       "\u003cstrong\u003eHeat\u003c/strong\u003e → Thermal decomposition",
+                                                       "\u003cstrong\u003eElectricity\u003c/strong\u003e → Electrolytic decomposition",
+                                                       "\u003cstrong\u003eLight\u003c/strong\u003e → Photolytic decomposition"
+                                                   ]
+                                     },
+                                     {
+                                         "type":  "heading",
+                                         "text":  "Key Point"
+                                     },
+                                     {
+                                         "type":  "equation",
+                                         "text":  "\\[\\text{One reactant} \\longrightarrow \\text{Two or more products}\\]"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "So, in a \u003cstrong\u003edecomposition reaction\u003c/strong\u003e, one compound breaks down into simpler substances."
+                                     }
+                                 ]
+                  },
+                  {
+                      "heading":  "1.2.3 Displacement Reaction",
+                      "blocks":  [
+                                     {
+                                         "type":  "text",
+                                         "text":  "A \u003cstrong\u003edisplacement reaction\u003c/strong\u003e is a reaction in which a \u003cstrong\u003emore reactive element displaces a less reactive element\u003c/strong\u003e from its compound."
+                                     },
+                                     {
+                                         "type":  "heading",
+                                         "text":  "General form"
+                                     },
+                                     {
+                                         "type":  "equation",
+                                         "text":  "\\[\\ce{A + BC -\u003e AC + B}\\]"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "Here, element \\(A\\) is more reactive than \\(B\\), so \\(A\\) displaces \\(B\\) from the compound \\(BC\\)."
+                                     },
+                                     {
+                                         "type":  "heading",
+                                         "text":  "Example"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "Zinc reacts with copper sulphate solution:"
+                                     },
+                                     {
+                                         "type":  "equation",
+                                         "text":  "\\[\\ce{Zn + CuSO4 -\u003e ZnSO4 + Cu}\\]"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "Here:"
+                                     },
+                                     {
+                                         "type":  "list",
+                                         "items":  [
+                                                       "Zinc (Zn) is \u003cstrong\u003emore reactive\u003c/strong\u003e than copper (Cu).",
+                                                       "Zinc displaces copper from copper sulphate.",
+                                                       "Zinc sulphate and copper are formed."
+                                                   ]
+                                     },
+                                     {
+                                         "type":  "heading",
+                                         "text":  "Another example"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "Iron displaces copper from copper sulphate:"
+                                     },
+                                     {
+                                         "type":  "equation",
+                                         "text":  "\\[\\ce{Fe + CuSO4 -\u003e FeSO4 + Cu}\\]"
+                                     },
+                                     {
+                                         "type":  "heading",
+                                         "text":  "Key Point"
+                                     },
+                                     {
+                                         "type":  "equation",
+                                         "text":  "\\[\\text{More reactive element + Compound} \\longrightarrow \\text{New compound + Less reactive element}\\]"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "\u003cstrong\u003eRemember:\u003c/strong\u003e A displacement reaction involves the displacement of \u003cstrong\u003eone element by another more reactive element\u003c/strong\u003e."
+                                     }
+                                 ]
+                  },
+                  {
+                      "heading":  "1.2.4 Double Displacement Reaction",
+                      "blocks":  [
+                                     {
+                                         "type":  "text",
+                                         "text":  "A \u003cstrong\u003edouble displacement reaction\u003c/strong\u003e is a reaction in which \u003cstrong\u003etwo compounds exchange their ions\u003c/strong\u003e to form \u003cstrong\u003etwo new compounds\u003c/strong\u003e."
+                                     },
+                                     {
+                                         "type":  "heading",
+                                         "text":  "General form"
+                                     },
+                                     {
+                                         "type":  "equation",
+                                         "text":  "\\[\\ce{AB + CD -\u003e AD + CB}\\]"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "Here, the ions of the two compounds \u003cstrong\u003eexchange places\u003c/strong\u003e."
+                                     },
+                                     {
+                                         "type":  "heading",
+                                         "text":  "Example"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "When sodium sulphate reacts with barium chloride:"
+                                     },
+                                     {
+                                         "type":  "equation",
+                                         "text":  "\\[\\ce{Na2SO4 + BaCl2 -\u003e BaSO4 + 2NaCl}\\]"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "Here:"
+                                     },
+                                     {
+                                         "type":  "list",
+                                         "items":  [
+                                                       "\\(\\ce{Na2SO4}\\) and \\(\\ce{BaCl2}\\) are the reactants.",
+                                                       "\\(\\ce{BaSO4}\\) and \\(\\ce{NaCl}\\) are the products.",
+                                                       "\\(\\ce{BaSO4}\\) is an insoluble white solid called a \u003cstrong\u003eprecipitate\u003c/strong\u003e."
+                                                   ]
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "Therefore, this reaction is also called a \u003cstrong\u003eprecipitation reaction\u003c/strong\u003e."
+                                     },
+                                     {
+                                         "type":  "heading",
+                                         "text":  "Key Point"
+                                     },
+                                     {
+                                         "type":  "equation",
+                                         "text":  "\\[\\text{Two compounds} \\longrightarrow \\text{Two new compounds}\\]"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "The compounds \u003cstrong\u003eexchange their ions\u003c/strong\u003e during the reaction."
+                                     }
+                                 ]
+                  },
+                  {
+                      "heading":  "Oxidation and Reduction",
+                      "blocks":  [
+                                     {
+                                         "type":  "text",
+                                         "text":  "\u003cstrong\u003eOxidation\u003c/strong\u003e and \u003cstrong\u003ereduction\u003c/strong\u003e are chemical processes that often occur \u003cstrong\u003etogether\u003c/strong\u003e in a reaction."
+                                     },
+                                     {
+                                         "type":  "heading",
+                                         "text":  "Oxidation"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "Oxidation can be understood as:"
+                                     },
+                                     {
+                                         "type":  "list",
+                                         "items":  [
+                                                       "\u003cstrong\u003eAddition of oxygen\u003c/strong\u003e",
+                                                       "\u003cstrong\u003eRemoval of hydrogen\u003c/strong\u003e",
+                                                       "\u003cstrong\u003eLoss of electrons\u003c/strong\u003e"
+                                                   ]
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "For example:"
+                                     },
+                                     {
+                                         "type":  "equation",
+                                         "text":  "\\[\\ce{2Cu + O2 -\u003e 2CuO}\\]"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "Copper combines with oxygen, so \u003cstrong\u003ecopper is oxidised\u003c/strong\u003e."
+                                     },
+                                     {
+                                         "type":  "heading",
+                                         "text":  "Reduction"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "Reduction can be understood as:"
+                                     },
+                                     {
+                                         "type":  "list",
+                                         "items":  [
+                                                       "\u003cstrong\u003eRemoval of oxygen\u003c/strong\u003e",
+                                                       "\u003cstrong\u003eAddition of hydrogen\u003c/strong\u003e",
+                                                       "\u003cstrong\u003eGain of electrons\u003c/strong\u003e"
+                                                   ]
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "For example:"
+                                     },
+                                     {
+                                         "type":  "equation",
+                                         "text":  "\\[\\ce{CuO + H2 -\u003e Cu + H2O}\\]"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "Oxygen is removed from copper oxide, so \u003cstrong\u003ecopper oxide is reduced\u003c/strong\u003e."
+                                     },
+                                     {
+                                         "type":  "heading",
+                                         "text":  "Oxidation and Reduction Together"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "When oxidation and reduction occur in the \u003cstrong\u003esame reaction\u003c/strong\u003e, the reaction is called a \u003cstrong\u003eredox reaction\u003c/strong\u003e.\nFor example:"
+                                     },
+                                     {
+                                         "type":  "equation",
+                                         "text":  "\\[\\ce{CuO + H2 -\u003e Cu + H2O}\\]"
+                                     },
+                                     {
+                                         "type":  "list",
+                                         "items":  [
+                                                       "\\(\\ce{CuO}\\) loses oxygen → \u003cstrong\u003eReduction\u003c/strong\u003e",
+                                                       "\\(\\ce{H2}\\) gains oxygen → \u003cstrong\u003eOxidation\u003c/strong\u003e"
+                                                   ]
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "Thus, oxidation and reduction occur \u003cstrong\u003esimultaneously\u003c/strong\u003e."
+                                     },
+                                     {
+                                         "type":  "heading",
+                                         "text":  "Easy way to remember"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "Oxidation = Addition of Oxygen\nReduction = Removal of Oxygen\nAnd:\nOxidation + Reduction = Redox Reaction"
+                                     }
+                                 ]
+                  },
+                  {
+                      "heading":  "1.3 Effects of Oxidation Reactions in Everyday Life",
+                      "blocks":  [
+                                     {
+                                         "type":  "text",
+                                         "text":  "Oxidation reactions do not occur only in laboratories. They also happen \u003cstrong\u003earound us in everyday life\u003c/strong\u003e.\nTwo important effects of oxidation are:"
+                                     },
+                                     {
+                                         "type":  "list",
+                                         "items":  [
+                                                       "\u003cstrong\u003eCorrosion\u003c/strong\u003e",
+                                                       "\u003cstrong\u003eRancidity\u003c/strong\u003e"
+                                                   ]
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "These processes can cause damage to metals and food."
+                                     }
+                                 ]
+                  },
+                  {
+                      "heading":  "1.3.1 Corrosion",
+                      "blocks":  [
+                                     {
+                                         "type":  "text",
+                                         "text":  "\u003cstrong\u003eCorrosion\u003c/strong\u003e is the process in which a metal is gradually \u003cstrong\u003edestroyed or damaged due to reactions with substances present in the environment\u003c/strong\u003e, such as oxygen, moisture, acids, etc."
+                                     },
+                                     {
+                                         "type":  "heading",
+                                         "text":  "Example: Rusting of Iron"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "Iron reacts with oxygen and moisture present in air to form rust."
+                                     },
+                                     {
+                                         "type":  "equation",
+                                         "text":  "\\[\\text{Iron + Oxygen + Water} \\longrightarrow \\text{Rust}\\]"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "Rust is mainly \u003cstrong\u003ehydrated iron(III) oxide\u003c/strong\u003e."
+                                     },
+                                     {
+                                         "type":  "equation",
+                                         "text":  "\\[\\ce{Fe2O3 . xH2O}\\]"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "The reddish-brown coating seen on iron objects is rust."
+                                     },
+                                     {
+                                         "type":  "heading",
+                                         "text":  "Other Examples of Corrosion"
+                                     },
+                                     {
+                                         "type":  "list",
+                                         "items":  [
+                                                       "\u003cstrong\u003eCopper\u003c/strong\u003e develops a green coating of basic copper carbonate.",
+                                                       "\u003cstrong\u003eSilver\u003c/strong\u003e develops a black coating of silver sulphide."
+                                                   ]
+                                     },
+                                     {
+                                         "type":  "heading",
+                                         "text":  "Prevention of Corrosion"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "Corrosion can be prevented by protecting the metal from contact with air and moisture.\nCommon methods include:"
+                                     },
+                                     {
+                                         "type":  "list",
+                                         "items":  [
+                                                       "\u003cstrong\u003ePainting\u003c/strong\u003e",
+                                                       "\u003cstrong\u003eOiling or greasing\u003c/strong\u003e",
+                                                       "\u003cstrong\u003eGalvanisation\u003c/strong\u003e",
+                                                       "\u003cstrong\u003eAlloying\u003c/strong\u003e"
+                                                   ]
+                                     },
+                                     {
+                                         "type":  "heading",
+                                         "text":  "Key Point"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "Corrosion = Gradual damage of a metal due to environmental reactions\nRusting of iron is one of the most common examples of corrosion."
+                                     }
+                                 ]
+                  },
+                  {
+                      "heading":  "1.3.2 Rancidity",
+                      "blocks":  [
+                                     {
+                                         "type":  "text",
+                                         "text":  "\u003cstrong\u003eRancidity\u003c/strong\u003e is the process in which \u003cstrong\u003efood containing fats and oils gets oxidised\u003c/strong\u003e, causing an unpleasant \u003cstrong\u003esmell and taste\u003c/strong\u003e."
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "For example, when oily food is left exposed to air for a long time, it may develop a bad smell and taste. This happens because the fats and oils in the food undergo oxidation."
+                                     },
+                                     {
+                                         "type":  "heading",
+                                         "text":  "Prevention of Rancidity"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "Rancidity can be prevented or slowed down by:"
+                                     },
+                                     {
+                                         "type":  "list",
+                                         "items":  [
+                                                       "\u003cstrong\u003eAdding antioxidants\u003c/strong\u003e to food.",
+                                                       "Keeping food in \u003cstrong\u003eairtight containers\u003c/strong\u003e to prevent contact with oxygen.",
+                                                       "\u003cstrong\u003eRefrigerating\u003c/strong\u003e food, which slows down oxidation.",
+                                                       "Packing some foods using \u003cstrong\u003enitrogen gas\u003c/strong\u003e instead of oxygen."
+                                                   ]
+                                     },
+                                     {
+                                         "type":  "heading",
+                                         "text":  "Example"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "Chips packets are often filled with \u003cstrong\u003enitrogen gas\u003c/strong\u003e. Nitrogen prevents the oils in the chips from coming into contact with oxygen and becoming rancid."
+                                     },
+                                     {
+                                         "type":  "heading",
+                                         "text":  "Key Point"
+                                     },
+                                     {
+                                         "type":  "text",
+                                         "text":  "Rancidity = Oxidation of fats and oils causing unpleasant smell and taste"
+                                     }
+                                 ]
+                  }
+              ],
+    "summary":  "The chapter explains chemical reactions, chemical equations, balancing of equations, types of chemical reactions, oxidation and reduction, redox reactions, and the effects of oxidation in everyday life such as corrosion and rancidity.",
+    "qa":  [
+               {
+                   "q":  "What is a chemical reaction?",
+                   "a":  "A chemical reaction is a process in which one or more substances change into new substances with different properties.",
+                   "section":  "Chemical Reaction"
+               },
+               {
+                   "q":  "What is a chemical equation?",
+                   "a":  "A chemical equation is a short representation of a chemical reaction using the symbols and chemical formulae of the substances involved.",
+                   "section":  "Chemical Equation"
+               },
+               {
+                   "q":  "What is a skeletal chemical equation?",
+                   "a":  "A skeletal chemical equation represents a reaction but is not balanced.",
+                   "section":  "Skeletal Chemical Equation"
+               },
+               {
+                   "q":  "What is a balanced chemical equation?",
+                   "a":  "A balanced chemical equation is an equation in which the number of atoms of each element is equal on both sides of the equation.",
+                   "section":  "1.1.2 Balanced Chemical Equations"
+               },
+               {
+                   "q":  "What is a combination reaction?",
+                   "a":  "A combination reaction is a reaction in which two or more substances combine to form a single product.",
+                   "section":  "1.2.1 Combination Reaction"
+               },
+               {
+                   "q":  "What is a decomposition reaction?",
+                   "a":  "A decomposition reaction is a reaction in which one compound breaks down into two or more simpler substances.",
+                   "section":  "1.2.2 Decomposition Reaction"
+               },
+               {
+                   "q":  "What is a displacement reaction?",
+                   "a":  "A displacement reaction is a reaction in which a more reactive element displaces a less reactive element from its compound.",
+                   "section":  "1.2.3 Displacement Reaction"
+               },
+               {
+                   "q":  "What is a double displacement reaction?",
+                   "a":  "A double displacement reaction is a reaction in which two compounds exchange their ions to form two new compounds.",
+                   "section":  "1.2.4 Double Displacement Reaction"
+               },
+               {
+                   "q":  "What is oxidation?",
+                   "a":  "Oxidation can be understood as addition of oxygen, removal of hydrogen, or loss of electrons.",
+                   "section":  "Oxidation"
+               },
+               {
+                   "q":  "What is reduction?",
+                   "a":  "Reduction can be understood as removal of oxygen, addition of hydrogen, or gain of electrons.",
+                   "section":  "Reduction"
+               },
+               {
+                   "q":  "What is a redox reaction?",
+                   "a":  "When oxidation and reduction occur in the same reaction, the reaction is called a redox reaction.",
+                   "section":  "Oxidation and Reduction Together"
+               },
+               {
+                   "q":  "What are the two important effects of oxidation in everyday life?",
+                   "a":  "Corrosion and rancidity.",
+                   "section":  "1.3 Effects of Oxidation Reactions in Everyday Life"
+               },
+               {
+                   "q":  "What is corrosion?",
+                   "a":  "Corrosion is the process in which a metal is gradually destroyed or damaged due to reactions with substances present in the environment, such as oxygen, moisture, acids, etc.",
+                   "section":  "1.3.1 Corrosion"
+               },
+               {
+                   "q":  "What is rust mainly?",
+                   "a":  "Rust is mainly hydrated iron(III) oxide, \\(\\ce{Fe2O3.xH2O}\\).",
+                   "section":  "1.3.1 Corrosion"
+               },
+               {
+                   "q":  "What is rancidity?",
+                   "a":  "Rancidity is the process in which food containing fats and oils gets oxidised, causing an unpleasant smell and taste.",
+                   "section":  "1.3.2 Rancidity"
+               },
+               {
+                   "q":  "Why are chips packets filled with nitrogen gas?",
+                   "a":  "Nitrogen prevents the oils in the chips from coming into contact with oxygen and becoming rancid.",
+                   "section":  "1.3.2 Rancidity"
+               }
+           ]
+}
