@@ -1,0 +1,1482 @@
+{
+  "title": "Metals and Non-metals",
+  "class": "10",
+  "subject": "Science",
+  "chapter": "Chapter 3",
+  "book": "NCERT Science",
+  "notes": [
+    {
+      "heading": "3.1 Physical Properties",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Metals and non-metals are two major groups of elements. They <strong>differ</strong> in their physical and chemical properties.\n\nMetals generally have properties such as lustre, hardness, malleability, ductility, and good conductivity.\n\nNon-metals generally show the opposite properties, although there are some exceptions."
+        }
+      ]
+    },
+    {
+      "heading": "3.1.1 Metals",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Metals are elements that generally have a shiny appearance and are good conductors of heat and electricity."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Physical Properties of Metals</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Lustrous:</strong> Metals generally have a shiny surface.",
+            "<strong>Malleable:</strong> Metals can be beaten into thin sheets.",
+            "<strong>Ductile:</strong> Metals can be drawn into thin wires.",
+            "<strong>Good conductors:</strong> Metals generally conduct heat and electricity well.",
+            "<strong>Sonorous:</strong> Metals produce a ringing sound when struck.",
+            "<strong>Hard:</strong> Most metals are hard and strong.",
+            "<strong>High melting and boiling points:</strong> Most metals have high melting and boiling points."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Malleability</strong> = Ability to be beaten into thin sheets\n<strong>Ductility</strong> = Ability to be drawn into thin wires"
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Exceptions</strong>"
+        },
+        {
+          "type": "text",
+          "text": "Some metals have unusual properties:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Mercury (Hg) is a liquid at room temperature.",
+            "Gallium (Ga) and caesium (Cs) have very low melting points.",
+            "Sodium (Na) and potassium (K) are soft and can be cut with a knife."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Key Point</strong>"
+        },
+        {
+          "type": "text",
+          "text": "Metals are generally lustrous, malleable, ductile, sonorous and good conductors."
+        }
+      ]
+    },
+    {
+      "heading": "3.1.2 Non-metals",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Non-metals are elements that generally do not show the typical physical properties of metals."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Physical Properties of Non-metals</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Generally dull:</strong> Most non-metals do not have a shiny surface.",
+            "<strong>Brittle:</strong> Solid non-metals are generally brittle and break easily when beaten.",
+            "<strong>Not malleable:</strong> They cannot be beaten into thin sheets.",
+            "<strong>Not ductile:</strong> They cannot generally be drawn into wires.",
+            "<strong>Poor conductors:</strong> Most non-metals are poor conductors of heat and electricity.",
+            "<strong>Not sonorous:</strong> They generally do not produce a ringing sound when struck.",
+            "<strong>Low melting and boiling points:</strong> Many non-metals have relatively low melting and boiling points."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Exceptions</strong>"
+        },
+        {
+          "type": "text",
+          "text": "Some non-metals have unusual properties:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Iodine (I₂) is lustrous.",
+            "Graphite, a form of carbon, is a good conductor of electricity.",
+            "Diamond, another form of carbon, is extremely hard.",
+            "Bromine (Br₂) is a liquid at room temperature."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Key Point</strong>"
+        },
+        {
+          "type": "text",
+          "text": "Non-metals are generally dull, brittle and poor conductors."
+        }
+      ]
+    },
+    {
+      "heading": "3.2 Chemical Properties of Metals",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Metals react with different substances such as oxygen, water, acids, and solutions of other metal salts.\n\nThe reactions help us understand the reactivity of metals.\n\nSome metals are highly reactive, while others are less reactive.\n\nFor example:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{K, Na, Ca}\\]"
+        },
+        {
+          "type": "text",
+          "text": "are highly reactive metals, while:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Cu, Ag, Au}\\]"
+        },
+        {
+          "type": "text",
+          "text": "are much less reactive."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>The important chemical reactions of metals are:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Reaction with air or oxygen",
+            "Reaction with water",
+            "Reaction with acids",
+            "Reaction with solutions of other metal salts"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The relative reactivity of different metals is arranged in the <strong>reactivity series</strong>."
+        }
+      ]
+    },
+    {
+      "heading": "3.2.1 What Happens When Metals Are Burnt in Air?",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "When metals are heated or burnt in air, they react with oxygen to form metal oxides."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>General reaction</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Metal + Oxygen} \\to \\text{Metal oxide}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Most metal oxides are basic in nature."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Example: Magnesium</strong>"
+        },
+        {
+          "type": "text",
+          "text": "Magnesium burns in air with a dazzling white flame and forms magnesium oxide."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2Mg + O2 -> 2MgO}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Magnesium oxide is a basic oxide.\nIt reacts with water to form magnesium hydroxide:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{MgO + H2O -> Mg(OH)2}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Example: Copper</strong>"
+        },
+        {
+          "type": "text",
+          "text": "Copper reacts slowly with oxygen when heated:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2Cu + O2 -> 2CuO}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The copper surface becomes coated with black copper(II) oxide."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Amphoteric Oxides</strong>"
+        },
+        {
+          "type": "text",
+          "text": "Some metal oxides can react with both acids and bases. Such oxides are called <strong>amphoteric oxides</strong>."
+        },
+        {
+          "type": "text",
+          "text": "<strong>Examples:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Al2O3, ZnO}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Key Point</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Metal + Oxygen} \\to \\text{Metal oxide}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Most metal oxides are basic, while some, such as \\(\\ce{Al2O3}\\) and \\(\\ce{ZnO}\\), are amphoteric."
+        }
+      ]
+    },
+    {
+      "heading": "3.2.2 What Happens When Metals React with Water?",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Different metals react with water in different ways. Some react very quickly, while some react slowly or do not react at all."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>General Reaction</strong>"
+        },
+        {
+          "type": "text",
+          "text": "When a reactive metal reacts with water, it generally forms a metal hydroxide and hydrogen gas."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Metal + Water} \\to \\text{Metal hydroxide + H2}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "<strong>1. Sodium and Potassium</strong>"
+        },
+        {
+          "type": "text",
+          "text": "Sodium and potassium react very vigorously with cold water."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2Na + 2H2O -> 2NaOH + H2}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The reaction produces a lot of heat, so the hydrogen produced may catch fire."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>2. Calcium</strong>"
+        },
+        {
+          "type": "text",
+          "text": "Calcium reacts less violently with cold water."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Ca + 2H2O -> Ca(OH)2 + H2}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The calcium floats because hydrogen bubbles stick to its surface."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>3. Magnesium</strong>"
+        },
+        {
+          "type": "text",
+          "text": "Magnesium reacts very slowly with cold water but reacts faster with hot water.\nWith steam, it reacts more readily:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Mg + H2O(g) -> MgO + H2}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "<strong>4. Iron</strong>"
+        },
+        {
+          "type": "text",
+          "text": "Iron does not react with cold or hot water, but it reacts with steam:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{3Fe + 4H2O(g) -> Fe3O4 + 4H2}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "<strong>5. Copper</strong>"
+        },
+        {
+          "type": "text",
+          "text": "Copper does not react with water."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Reactivity with Water</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{K > Na > Ca > Mg > Al > Zn > Fe > Pb > H > Cu}\\]"
+        },
+        {
+          "type": "text",
+          "text": "This shows that metals differ greatly in their reactivity with water."
+        }
+      ]
+    },
+    {
+      "heading": "3.2.3 What Happens When Metals React with Acids?",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Most metals react with dilute acids to form a salt and hydrogen gas."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>General Reaction</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Metal + Dilute Acid} \\to \\text{Salt + H2}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Example: Zinc with Hydrochloric Acid</strong>"
+        },
+        {
+          "type": "text",
+          "text": "Zinc reacts with dilute hydrochloric acid to form zinc chloride and hydrogen gas:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Zn + 2HCl -> ZnCl2 + H2}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The hydrogen gas produced can be identified by bringing a burning matchstick near it. It burns with a characteristic ‘pop’ sound."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Example: Magnesium with Hydrochloric Acid</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Mg + 2HCl -> MgCl2 + H2}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Magnesium reacts more rapidly than zinc because it is more reactive."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Important Exception</strong>"
+        },
+        {
+          "type": "text",
+          "text": "Some metals such as copper, silver and gold do not react with dilute hydrochloric acid or dilute sulphuric acid because they are below hydrogen in the reactivity series."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Key Point</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Metal + Dilute Acid} \\to \\text{Salt + Hydrogen}\\]"
+        },
+        {
+          "type": "text",
+          "text": "A metal must be above hydrogen in the reactivity series to generally displace hydrogen from dilute acids."
+        }
+      ]
+    },
+    {
+      "heading": "3.2.4 How Do Metals React with Solutions of Other Metal Salts?",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "A more reactive metal can displace a less reactive metal from its salt solution.\nThis is called a <strong>displacement reaction</strong>."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>General Reaction</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{More reactive metal + Salt of less reactive metal} \\to \\text{Salt of more reactive metal + Less reactive metal}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Example: Zinc and Copper Sulphate</strong>"
+        },
+        {
+          "type": "text",
+          "text": "When a zinc strip is placed in copper sulphate solution:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Zn + CuSO4 -> ZnSO4 + Cu}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Zinc is more reactive than copper, so it displaces copper from copper sulphate.\n\nThe blue colour of the copper sulphate solution gradually fades because \\(\\ce{CuSO4}\\) is converted into colourless \\(\\ce{ZnSO4}\\).\n\nCopper gets deposited on the zinc strip."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Example: Iron and Copper Sulphate</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Fe + CuSO4 -> FeSO4 + Cu}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Iron is more reactive than copper, so it displaces copper."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Important Point</strong>"
+        },
+        {
+          "type": "text",
+          "text": "A less reactive metal cannot displace a more reactive metal from its salt solution."
+        },
+        {
+          "type": "text",
+          "text": "For example, copper cannot displace zinc from zinc sulphate:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Cu + ZnSO4 ->[No\\ reaction]}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Key Idea</strong>"
+        },
+        {
+          "type": "text",
+          "text": "More reactive metal displaces less reactive metal from its salt solution."
+        }
+      ]
+    },
+    {
+      "heading": "3.2.5 The Reactivity Series",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The reactivity series is a list of metals arranged in <strong>decreasing order of their reactivity</strong>.\nThe most reactive metals are placed at the top, and the least reactive metals are placed at the bottom."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Reactivity Series</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{K > Na > Ca > Mg > Al > Zn > Fe > Pb > H > Cu > Hg > Ag > Au}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>An easy way to remember the order is:</strong>\nKids Need Chocolate More; All Zebras Feel Pain; Horses Can Happily Sing Always."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Important Points</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Potassium (K) is among the most reactive metals.",
+            "Sodium (Na) is highly reactive.",
+            "Gold (Au) is one of the least reactive metals.",
+            "Metals above hydrogen can generally displace hydrogen from dilute acids.",
+            "A metal higher in the series can displace a metal lower in the series from its salt solution."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Example</strong>"
+        },
+        {
+          "type": "text",
+          "text": "Zinc is above copper:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Zn > Cu}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Therefore, zinc can displace copper from copper sulphate:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Zn + CuSO4 -> ZnSO4 + Cu}\\]"
+        },
+        {
+          "type": "text",
+          "text": "But copper cannot displace zinc:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Cu + ZnSO4 ->[No\\ reaction]}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Higher in the series</strong> = More reactive\n<strong>Lower in the series</strong> = Less reactive"
+        }
+      ]
+    },
+    {
+      "heading": "3.3 How Do Metals and Non-metals React?",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Metals and non-metals react with each other by <strong>transfer of electrons</strong>."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Metals generally lose electrons and form positive ions (cations).",
+            "Non-metals generally gain electrons and form negative ions (anions)."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The oppositely charged ions attract each other and form an <strong>ionic compound</strong>."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Example: Formation of Sodium Chloride</strong>"
+        },
+        {
+          "type": "text",
+          "text": "Sodium has one electron in its outermost shell. It loses this electron:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Na -> Na+ + e-}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Chlorine needs one electron to complete its outer shell. It gains the electron:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Cl + e- -> Cl-}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The resulting ions attract each other:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Na+ + Cl- -> NaCl}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Thus, sodium chloride is formed."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Formation of Magnesium Chloride</strong>"
+        },
+        {
+          "type": "text",
+          "text": "Magnesium loses two electrons:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Mg -> Mg2+ + 2e-}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Each chlorine atom gains one electron:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2Cl + 2e- -> 2Cl-}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Therefore:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Mg2+ + 2Cl- -> MgCl2}\\]"
+        }
+      ]
+    },
+    {
+      "heading": "3.3.1 Properties of Ionic Compounds",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "<strong>Key Point</strong>"
+        },
+        {
+          "type": "text",
+          "text": "Metal loses electrons → Positive ion\nNon-metal gains electrons → Negative ion\nPositive ion + Negative ion → Ionic compound"
+        },
+        {
+          "type": "text",
+          "text": "Ionic compounds are compounds formed by the <strong>strong electrostatic attraction</strong> between positive ions (cations) and negative ions (anions)."
+        },
+        {
+          "type": "text",
+          "text": "<strong>Examples:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{NaCl, MgCl2, CaCl2}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Properties of Ionic Compounds</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>They are generally hard and brittle</strong>\nIonic compounds have strong forces of attraction between their ions. When pressure is applied, the layers of ions shift and similar charges may come close together, causing the compound to break.",
+            "<strong>They have high melting and boiling points</strong>\nA large amount of energy is required to overcome the strong attraction between the ions.",
+            "<strong>They are generally soluble in water</strong>\nMany ionic compounds dissolve in water because water molecules can separate the ions.",
+            "<strong>They conduct electricity in the molten state</strong>\nWhen an ionic compound is melted, its ions are free to move and carry electric charge.",
+            "<strong>They conduct electricity in aqueous solution</strong>\nWhen dissolved in water, the ions become free to move."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "For example:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{NaCl(s) ->[H2O] Na+(aq) + Cl-(aq)}\\]"
+        },
+        {
+          "type": "text",
+          "text": "However, solid ionic compounds do not conduct electricity because their ions are fixed in position."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Key Points</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Ionic compounds have high melting and boiling points.",
+            "They conduct electricity when molten or dissolved in water.",
+            "They generally do not conduct electricity in the solid state."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "3.4 Occurrence of Metals",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Metals are found in the Earth's crust in different forms.\nSome metals are found in the free state, while others are found in the form of compounds."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Minerals</strong>"
+        },
+        {
+          "type": "text",
+          "text": "A naturally occurring substance containing a metal or its compounds is called a <strong>mineral</strong>."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Ores</strong>"
+        },
+        {
+          "type": "text",
+          "text": "Some minerals contain a sufficiently high percentage of a metal and can be used to extract the metal economically. These are called <strong>ores</strong>.\n\nOres are minerals from which metals can be extracted profitably."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Metals in the Free State</strong>"
+        },
+        {
+          "type": "text",
+          "text": "Metals that are very low in the reactivity series are often found in the free state because they do not react easily."
+        },
+        {
+          "type": "text",
+          "text": "<strong>Examples:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Gold",
+            "Silver",
+            "Platinum"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Metals in the Combined State</strong>"
+        },
+        {
+          "type": "text",
+          "text": "More reactive metals are generally found as compounds.\nFor example:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Aluminium → bauxite",
+            "Iron → haematite",
+            "Zinc → zinc blende",
+            "Copper → copper glance"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Key Point</strong>"
+        },
+        {
+          "type": "text",
+          "text": "Less reactive metals may occur in the free state, while reactive metals occur mainly as compounds."
+        }
+      ]
+    },
+    {
+      "heading": "3.4.1 Extraction of Metals",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The process of obtaining a pure metal from its ore is called <strong>extraction of metals</strong> or <strong>metallurgy</strong>.\n\nThe method used depends mainly on the reactivity of the metal."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Main Steps</strong>"
+        },
+        {
+          "type": "text",
+          "text": "The extraction of a metal generally involves:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Ore} \\to \\text{Concentration} \\to \\text{Extraction} \\to \\text{Refining}\\]"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Concentration of Ore</strong>\nThe ore contains unwanted materials called gangue.\nThe process of removing gangue from the ore is called concentration or enrichment of ore.",
+            "<strong>Extraction of Metal</strong>\nThe concentrated ore is converted into a suitable form and then the metal is extracted.\nThe method depends on the position of the metal in the reactivity series.\n• Low-reactivity metals → extracted by heating or reduction.\n• Middle-reactivity metals → usually extracted by reduction with carbon.\n• Highly reactive metals → extracted by electrolysis.",
+            "<strong>Refining</strong>\nThe extracted metal may contain impurities. These are removed to obtain pure metal."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Extraction method depends on the reactivity of the metal."
+        }
+      ]
+    },
+    {
+      "heading": "3.4.2 Enrichment of Ores",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The ore obtained from the Earth contains unwanted materials such as soil, sand, and rocky substances. These impurities are called <strong>gangue</strong>.\n\nThe process of removing gangue from an ore is called <strong>enrichment or concentration of the ore</strong>."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Ore + Gangue} \\xrightarrow{\\text{Enrichment}} \\text{Concentrated Ore}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Why is enrichment needed?</strong>"
+        },
+        {
+          "type": "text",
+          "text": "Enrichment increases the percentage of the desired metal compound in the ore and makes further extraction easier and more economical."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Example</strong>"
+        },
+        {
+          "type": "text",
+          "text": "If an ore contains a large amount of unwanted rocky material, the gangue is separated using suitable methods such as:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Hydraulic washing",
+            "Magnetic separation",
+            "Froth flotation"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The method used depends on the physical and chemical properties of the ore and gangue."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Key Point</strong>"
+        },
+        {
+          "type": "text",
+          "text": "Enrichment of ore = Removal of gangue from the ore"
+        }
+      ]
+    },
+    {
+      "heading": "3.4.3 Extracting Metals Low in the Activity Series",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Metals low in the activity series are less reactive. Their compounds can often be converted into metals by heating or by reduction.\n\nSome metals occur in the free state because they do not react easily."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Example: Mercury</strong>"
+        },
+        {
+          "type": "text",
+          "text": "Mercury is obtained from its ore cinnabar (HgS).\n\nFirst, cinnabar is heated in air:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2HgS + 3O2 ->[\\Delta] 2HgO + 2SO2}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Then mercury(II) oxide is heated:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2HgO ->[\\Delta] 2Hg + O2}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Thus, metallic mercury is obtained."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Example: Copper</strong>"
+        },
+        {
+          "type": "text",
+          "text": "Copper can be obtained from copper(I) sulphide by heating:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2Cu2S + 3O2 ->[\\Delta] 2Cu2O + 2SO2}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Then:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2Cu2O + Cu2S ->[\\Delta] 6Cu + SO2}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Key Point</strong>"
+        },
+        {
+          "type": "text",
+          "text": "Low-reactivity metals can often be extracted by heating their ores."
+        },
+        {
+          "type": "text",
+          "text": "Some of these metals require only simple reduction or heating, unlike highly reactive metals that require electrolysis."
+        }
+      ]
+    },
+    {
+      "heading": "3.4.4 Extracting Metals in the Middle of the Activity Series",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Metals in the middle of the activity series are moderately reactive. Examples include:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Zn, Fe, Pb, Cu}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Their ores are generally converted into oxides and then reduced to obtain the metal."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Step 1: Conversion of Ore into Oxide</strong>"
+        },
+        {
+          "type": "text",
+          "text": "Sulphide ores are converted into oxides by roasting."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Sulphide\\ ore + O2 ->[heat] Metal\\ oxide}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Carbonate ores are converted into oxides by calcination."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Carbonate\\ ore ->[heat] Metal\\ oxide + CO2}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Step 2: Reduction of Metal Oxide</strong>"
+        },
+        {
+          "type": "text",
+          "text": "The metal oxide is then reduced using a suitable reducing agent, such as carbon.\n\nFor example, zinc oxide is reduced by carbon:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{ZnO + C ->[\\Delta] Zn + CO}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Another example is iron:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Fe2O3 + 3CO ->[\\Delta] 2Fe + 3CO2}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Key Point</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Ore} \\to \\text{Metal oxide} \\to \\text{Metal}\\]"
+        },
+        {
+          "type": "text",
+          "text": "For metals in the middle of the activity series, reduction of their oxides is an important step in extraction."
+        }
+      ]
+    },
+    {
+      "heading": "3.4.5 Extracting Metals towards the Top of the Activity Series",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Metals near the top of the activity series are highly reactive."
+        },
+        {
+          "type": "text",
+          "text": "<strong>Examples include:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{K, Na, Ca, Mg, Al}\\]"
+        },
+        {
+          "type": "text",
+          "text": "These metals have a strong <strong>affinity for oxygen</strong>, so their compounds cannot be reduced easily using carbon.\n\nTherefore, they are extracted by electrolysis."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Example: Extraction of Sodium</strong>"
+        },
+        {
+          "type": "text",
+          "text": "Sodium is obtained from molten sodium chloride by electrolysis.\n\nAt the cathode:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Na+ + e- -> Na}\\]"
+        },
+        {
+          "type": "text",
+          "text": "At the anode:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2Cl- -> Cl2 + 2e-}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Overall reaction:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2NaCl(l) ->[electrolysis] 2Na(l) + Cl2(g)}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Example: Extraction of Aluminium</strong>"
+        },
+        {
+          "type": "text",
+          "text": "Aluminium is extracted from aluminium oxide \\(\\ce{Al2O3}\\) by electrolysis.\nThe molten aluminium oxide is electrolysed to obtain aluminium."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Key Point</strong>"
+        },
+        {
+          "type": "text",
+          "text": "Highly reactive metals are extracted by electrolysis."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{K, Na, Ca, Mg, Al -> Electrolysis}\\]"
+        }
+      ]
+    },
+    {
+      "heading": "3.4.6 Refining of Metals",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The metal obtained after extraction usually contains some impurities. The process of removing these impurities to obtain a pure metal is called <strong>refining</strong>.\n\nOne of the most common methods is electrolytic refining."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Electrolytic Refining</strong>"
+        },
+        {
+          "type": "text",
+          "text": "In this process, three things are used:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Anode:</strong> Impure metal",
+            "<strong>Cathode:</strong> Thin strip of pure metal",
+            "<strong>Electrolyte:</strong> Solution containing a salt of the metal"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Example: Refining of Copper</strong>"
+        },
+        {
+          "type": "text",
+          "text": "For copper refining:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Anode → Impure copper",
+            "Cathode → Pure copper",
+            "Electrolyte → Acidified copper(II) sulphate solution"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "When electricity is passed through the solution:"
+        },
+        {
+          "type": "text",
+          "text": "<strong>At the anode:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Cu -> Cu2+ + 2e-}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Copper from the impure anode dissolves into the solution."
+        },
+        {
+          "type": "text",
+          "text": "<strong>At the cathode:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Cu2+ + 2e- -> Cu}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Pure copper gets deposited on the cathode."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Anode Mud</strong>"
+        },
+        {
+          "type": "text",
+          "text": "The insoluble impurities settle at the bottom of the electrolytic tank.\nThis is called <strong>anode mud</strong>.\n\nIt may contain valuable metals such as:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Au, Ag}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Key Point</strong>"
+        },
+        {
+          "type": "text",
+          "text": "Refining = Removal of impurities from an extracted metal\nElectrolytic refining is commonly used to obtain very pure metals."
+        }
+      ]
+    },
+    {
+      "heading": "3.5 Corrosion",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Corrosion is the gradual destruction of a metal due to its reaction with substances in the environment, such as oxygen, moisture, acids, etc."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Example: Rusting of Iron</strong>"
+        },
+        {
+          "type": "text",
+          "text": "Iron reacts with oxygen and moisture to form rust."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Iron + Oxygen + Water -> Rust}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Rust is mainly hydrated iron(III) oxide:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Fe2O3.xH2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The reddish-brown coating seen on iron objects is rust."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Other Examples</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Copper develops a green coating due to corrosion.",
+            "Silver develops a black coating due to the formation of silver sulphide."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Effects of Corrosion</strong>"
+        },
+        {
+          "type": "text",
+          "text": "Corrosion can:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Damage metal objects.",
+            "Reduce the strength of metals.",
+            "Cause economic loss.",
+            "Damage structures such as bridges, pipelines and vehicles."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Key Point</strong>"
+        },
+        {
+          "type": "text",
+          "text": "Corrosion = Gradual destruction of a metal by environmental reactions"
+        }
+      ]
+    },
+    {
+      "heading": "3.5.1 Prevention of Corrosion",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Corrosion can be prevented by protecting the metal from contact with air, moisture, or other substances that cause corrosion."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>1. Painting</strong>"
+        },
+        {
+          "type": "text",
+          "text": "A layer of paint prevents the metal surface from coming into contact with oxygen and moisture."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Paint coating} \\to \\text{Prevents contact with air and moisture}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong> Iron gates and bridges are often painted."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>2. Oiling or Greasing</strong>"
+        },
+        {
+          "type": "text",
+          "text": "Applying oil or grease forms a protective layer on the metal surface.\nIt is commonly used for machine parts and moving parts."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>3. Galvanisation</strong>"
+        },
+        {
+          "type": "text",
+          "text": "Galvanisation is the process of coating iron or steel with a thin layer of zinc.\nThe zinc coating prevents the iron from coming into contact with oxygen and moisture."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>4. Alloying</strong>"
+        },
+        {
+          "type": "text",
+          "text": "An alloy is a homogeneous mixture of two or more metals, or a metal and a non-metal.\nAlloying can improve the resistance of metals to corrosion.\nFor example, stainless steel is more resistant to corrosion than ordinary iron."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>5. Electroplating</strong>"
+        },
+        {
+          "type": "text",
+          "text": "A thin layer of another metal is deposited on the surface of a metal using electricity.\nThis provides protection against corrosion and can also improve the appearance of the object."
+        },
+        {
+          "type": "heading",
+          "text": "<strong>Key Point</strong>"
+        },
+        {
+          "type": "text",
+          "text": "Corrosion can be prevented by painting, oiling, galvanisation, alloying and electroplating."
+        }
+      ]
+    }
+  ],
+  "summary": "Chapter 3 explains the physical and chemical properties of metals and non-metals, including their reactions with oxygen, water, acids and metal salt solutions. It introduces the reactivity series and explains how metals and non-metals form ionic compounds through transfer of electrons. The chapter describes the properties of ionic compounds and the occurrence, enrichment, extraction and refining of metals according to their reactivity. It also explains corrosion, its effects, and methods of prevention such as painting, oiling or greasing, galvanisation, alloying and electroplating.",
+  "qa": [
+    {
+      "q": "What are the general physical properties of metals?",
+      "a": "Metals are generally lustrous, malleable, ductile, sonorous, hard and good conductors of heat and electricity. Most also have high melting and boiling points.",
+      "section": "3.1.1 Metals"
+    },
+    {
+      "q": "What are the general physical properties of non-metals?",
+      "a": "Non-metals are generally dull, brittle, not malleable, not ductile, poor conductors and not sonorous. Many have relatively low melting and boiling points.",
+      "section": "3.1.2 Non-metals"
+    },
+    {
+      "q": "What happens when metals are burnt in air?",
+      "a": "They react with oxygen to form metal oxides.",
+      "section": "3.2.1 What Happens When Metals Are Burnt in Air?"
+    },
+    {
+      "q": "What are amphoteric oxides?",
+      "a": "Some metal oxides can react with both acids and bases. Such oxides are called amphoteric oxides.",
+      "section": "3.2.1 What Happens When Metals Are Burnt in Air?"
+    },
+    {
+      "q": "How do reactive metals generally react with water?",
+      "a": "They generally form a metal hydroxide and hydrogen gas.",
+      "section": "3.2.2 What Happens When Metals React with Water?"
+    },
+    {
+      "q": "How do metals react with dilute acids?",
+      "a": "Most metals react with dilute acids to form a salt and hydrogen gas.",
+      "section": "3.2.3 What Happens When Metals React with Acids?"
+    },
+    {
+      "q": "Which metals do not generally react with dilute hydrochloric or sulphuric acid?",
+      "a": "Copper, silver and gold do not react with dilute hydrochloric acid or dilute sulphuric acid because they are below hydrogen in the reactivity series.",
+      "section": "3.2.3 What Happens When Metals React with Acids?"
+    },
+    {
+      "q": "What is a displacement reaction involving metals?",
+      "a": "A more reactive metal can displace a less reactive metal from its salt solution. This is called a displacement reaction.",
+      "section": "3.2.4 How Do Metals React with Solutions of Other Metal Salts?"
+    },
+    {
+      "q": "What is the reactivity series?",
+      "a": "The reactivity series is a list of metals arranged in decreasing order of their reactivity.",
+      "section": "3.2.5 The Reactivity Series"
+    },
+    {
+      "q": "What is the reactivity series given in the chapter?",
+      "a": "\\[\\ce{K > Na > Ca > Mg > Al > Zn > Fe > Pb > H > Cu > Hg > Ag > Au}\\]",
+      "section": "3.2.5 The Reactivity Series"
+    },
+    {
+      "q": "How do metals and non-metals react with each other?",
+      "a": "They react by transfer of electrons. Metals generally lose electrons and form positive ions, while non-metals generally gain electrons and form negative ions.",
+      "section": "3.3 How Do Metals and Non-metals React?"
+    },
+    {
+      "q": "What is an ionic compound?",
+      "a": "An ionic compound is formed by the strong electrostatic attraction between positive ions (cations) and negative ions (anions).",
+      "section": "3.3.1 Properties of Ionic Compounds"
+    },
+    {
+      "q": "Why are ionic compounds generally hard and brittle?",
+      "a": "Ionic compounds have strong forces of attraction between their ions. When pressure is applied, the layers of ions shift and similar charges may come close together, causing the compound to break.",
+      "section": "3.3.1 Properties of Ionic Compounds"
+    },
+    {
+      "q": "Why do ionic compounds have high melting and boiling points?",
+      "a": "A large amount of energy is required to overcome the strong attraction between the ions.",
+      "section": "3.3.1 Properties of Ionic Compounds"
+    },
+    {
+      "q": "Why do ionic compounds conduct electricity when molten or dissolved in water?",
+      "a": "When molten or dissolved in water, their ions are free to move and carry electric charge.",
+      "section": "3.3.1 Properties of Ionic Compounds"
+    },
+    {
+      "q": "Why do solid ionic compounds not conduct electricity?",
+      "a": "Their ions are fixed in position.",
+      "section": "3.3.1 Properties of Ionic Compounds"
+    },
+    {
+      "q": "What is a mineral?",
+      "a": "A naturally occurring substance containing a metal or its compounds is called a mineral.",
+      "section": "3.4 Occurrence of Metals"
+    },
+    {
+      "q": "What are ores?",
+      "a": "Ores are minerals from which metals can be extracted profitably.",
+      "section": "3.4 Occurrence of Metals"
+    },
+    {
+      "q": "Where are less reactive metals generally found?",
+      "a": "Metals that are very low in the reactivity series are often found in the free state because they do not react easily.",
+      "section": "3.4 Occurrence of Metals"
+    },
+    {
+      "q": "What is metallurgy?",
+      "a": "The process of obtaining a pure metal from its ore is called extraction of metals or metallurgy.",
+      "section": "3.4.1 Extraction of Metals"
+    },
+    {
+      "q": "What are the general steps in extraction of a metal?",
+      "a": "\\[\\text{Ore} \\to \\text{Concentration} \\to \\text{Extraction} \\to \\text{Refining}\\]",
+      "section": "3.4.1 Extraction of Metals"
+    },
+    {
+      "q": "What is gangue?",
+      "a": "Gangue consists of unwanted materials or impurities present with the ore, such as soil, sand and rocky substances.",
+      "section": "3.4.2 Enrichment of Ores"
+    },
+    {
+      "q": "What is enrichment of ore?",
+      "a": "The process of removing gangue from an ore is called enrichment or concentration of the ore.",
+      "section": "3.4.2 Enrichment of Ores"
+    },
+    {
+      "q": "Name some methods used to separate gangue from an ore.",
+      "a": "Hydraulic washing, magnetic separation and froth flotation.",
+      "section": "3.4.2 Enrichment of Ores"
+    },
+    {
+      "q": "How are low-reactivity metals often extracted?",
+      "a": "Their compounds can often be converted into metals by heating or by reduction.",
+      "section": "3.4.3 Extracting Metals Low in the Activity Series"
+    },
+    {
+      "q": "How are metals in the middle of the activity series generally extracted?",
+      "a": "Their ores are generally converted into oxides and then reduced to obtain the metal.",
+      "section": "3.4.4 Extracting Metals in the Middle of the Activity Series"
+    },
+    {
+      "q": "What is roasting?",
+      "a": "Sulphide ores are converted into oxides by roasting.",
+      "section": "3.4.4 Extracting Metals in the Middle of the Activity Series"
+    },
+    {
+      "q": "What is calcination?",
+      "a": "Carbonate ores are converted into oxides by calcination.",
+      "section": "3.4.4 Extracting Metals in the Middle of the Activity Series"
+    },
+    {
+      "q": "Why are highly reactive metals extracted by electrolysis?",
+      "a": "They have a strong affinity for oxygen, so their compounds cannot be reduced easily using carbon.",
+      "section": "3.4.5 Extracting Metals towards the Top of the Activity Series"
+    },
+    {
+      "q": "How is sodium extracted?",
+      "a": "Sodium is obtained from molten sodium chloride by electrolysis.",
+      "section": "3.4.5 Extracting Metals towards the Top of the Activity Series"
+    },
+    {
+      "q": "What is refining of metals?",
+      "a": "The process of removing impurities from the metal obtained after extraction to obtain a pure metal is called refining.",
+      "section": "3.4.6 Refining of Metals"
+    },
+    {
+      "q": "What are the three things used in electrolytic refining?",
+      "a": "Anode: impure metal; Cathode: thin strip of pure metal; Electrolyte: solution containing a salt of the metal.",
+      "section": "3.4.6 Refining of Metals"
+    },
+    {
+      "q": "What is anode mud?",
+      "a": "The insoluble impurities that settle at the bottom of the electrolytic tank are called anode mud. It may contain valuable metals such as Au and Ag.",
+      "section": "3.4.6 Refining of Metals"
+    },
+    {
+      "q": "What is corrosion?",
+      "a": "Corrosion is the gradual destruction of a metal due to its reaction with substances in the environment, such as oxygen, moisture and acids.",
+      "section": "3.5 Corrosion"
+    },
+    {
+      "q": "What is rust mainly?",
+      "a": "Rust is mainly hydrated iron(III) oxide, \\(\\ce{Fe2O3.xH2O}\\).",
+      "section": "3.5 Corrosion"
+    },
+    {
+      "q": "What are the effects of corrosion?",
+      "a": "Corrosion can damage metal objects, reduce the strength of metals, cause economic loss, and damage structures such as bridges, pipelines and vehicles.",
+      "section": "3.5 Corrosion"
+    },
+    {
+      "q": "How can corrosion be prevented?",
+      "a": "By painting, oiling or greasing, galvanisation, alloying and electroplating.",
+      "section": "3.5.1 Prevention of Corrosion"
+    },
+    {
+      "q": "What is galvanisation?",
+      "a": "Galvanisation is the process of coating iron or steel with a thin layer of zinc.",
+      "section": "3.5.1 Prevention of Corrosion"
+    },
+    {
+      "q": "What is an alloy?",
+      "a": "An alloy is a homogeneous mixture of two or more metals, or a metal and a non-metal.",
+      "section": "3.5.1 Prevention of Corrosion"
+    }
+  ]
+}
