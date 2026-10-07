@@ -824,6 +824,17 @@
       "icon": "🍉",
       "description": "Satirizing arbitrary governance, blind adherence to tradition, and the absurdity of a purely mechanical legal system.",
       "contentHref": "content/Class 11/English/The_Tale_of_Melon_City.json"
+    },
+    {
+      "id": "Chemical_Reactions_and_Equations",
+      "title": "Chemical Reactions and Equations",
+      "class": "10",
+      "subject": "Science",
+      "chapter": "Chapter 1",
+      "book": "Science",
+      "icon": "⚛️",
+      "description": "It explains how substances transform into new products and teaches how to write, balance, and classify chemical equations.",
+      "contentHref": "content/Class 10/Science/Chemical_Reactions_and_Equations_Chapter_1_Notes.json"
     }
   ]
 }
