@@ -94,6 +94,13 @@ const bookmarkBtn = document.getElementById('bookmarkBtn');
 const completeBtn = document.getElementById('completeBtn');
 const shareBtn = document.getElementById('shareBtn');
 const toast = document.getElementById('toast');
+const reportIssueBtn = document.getElementById('reportIssueBtn');
+const issueDialog = document.getElementById('issueDialog');
+const issueForm = document.getElementById('issueForm');
+const issueTitle = document.getElementById('issueTitle');
+const issueDescription = document.getElementById('issueDescription');
+const closeIssueDialogBtn = document.getElementById('closeIssueDialogBtn');
+const cancelIssueBtn = document.getElementById('cancelIssueBtn');
 
 function escapeHtml(value = '') {
   const div = document.createElement('div');
@@ -1798,6 +1805,27 @@ async function loadLibrary() {
 }
 
 homeBtn.addEventListener('click', () => goHome());
+reportIssueBtn.addEventListener('click', () => {
+  issueDialog.showModal();
+  issueTitle.focus();
+});
+closeIssueDialogBtn.addEventListener('click', () => issueDialog.close());
+cancelIssueBtn.addEventListener('click', () => issueDialog.close());
+issueDialog.addEventListener('click', event => {
+  if (event.target === issueDialog) issueDialog.close();
+});
+issueForm.addEventListener('submit', event => {
+  event.preventDefault();
+  const title = issueTitle.value.trim();
+  const description = issueDescription.value.trim();
+  if (!title || !description) return;
+
+  const body = `${description}\n\n---\nReported from: ${window.location.href}`;
+  const issueUrl = new URL('https://github.com/vighneshchiliveri/NCERT/issues/new');
+  issueUrl.searchParams.set('title', title);
+  issueUrl.searchParams.set('body', body);
+  window.location.assign(issueUrl);
+});
 changeTextbookBtn.addEventListener('click', changeTextbook);
 changeSubjectBtn.addEventListener('click', changeSubject);
 changeClassBtn.addEventListener('click', changeClass);

@@ -205,8 +205,29 @@
 
   <footer class="site-footer">
     <p><strong>NCERT Study Archive</strong> — an independent study resource, not an official NCERT website.</p>
-    <p>Created by Chiliveri Vighnesh · <a href="https://github.com/vighneshchiliveri/NCERT/issues" target="_blank" rel="noopener noreferrer">Report an issue</a></p>
+    <p>Created by Chiliveri Vighnesh · <button class="footer-link-button" id="reportIssueBtn" type="button">Report an issue</button></p>
   </footer>
+
+  <dialog class="issue-dialog" id="issueDialog" aria-labelledby="issueDialogTitle">
+    <form id="issueForm">
+      <div class="issue-dialog-header">
+        <div>
+          <span class="section-kicker">Help improve the archive</span>
+          <h2 id="issueDialogTitle">Report an issue</h2>
+        </div>
+        <button class="issue-dialog-close" id="closeIssueDialogBtn" type="button" aria-label="Close report issue form">×</button>
+      </div>
+      <label for="issueTitle">Issue title</label>
+      <input id="issueTitle" name="title" type="text" maxlength="120" required />
+      <label for="issueDescription">What went wrong?</label>
+      <textarea id="issueDescription" name="body" rows="6" maxlength="2000" required></textarea>
+      <p class="issue-dialog-note">You’ll review and submit the report on GitHub. Sign in to your GitHub account if prompted.</p>
+      <div class="issue-dialog-actions">
+        <button id="cancelIssueBtn" type="button">Cancel</button>
+        <button class="issue-submit-button" type="submit">Continue to GitHub</button>
+      </div>
+    </form>
+  </dialog>
 
   <noscript>
     <p class="noscript-message">JavaScript is required to browse the chapter library.</p>

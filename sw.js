@@ -1,6 +1,6 @@
 'use strict';
 
-const CACHE_NAME = 'ncert-study-archive-v10';
+const CACHE_NAME = 'ncert-study-archive-v11';
 const APP_SHELL = [
   './',
   './index.html',
