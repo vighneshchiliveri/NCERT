@@ -846,6 +846,128 @@
       "icon": "⚛️",
       "description": "It explores the chemical properties, reactions, and pH scales of acidic and basic substances, along with the formation and practical uses of various salts.",
       "contentHref": "content/Class 10/Science/Chapter_2_Acids_Bases_and_Salts_COMPLETE.json"
-    }
+    },
+    {
+    "id": "Metals_and_Non_Metals",
+    "title": "Metals and Non-Metals",
+    "class": "10",
+    "subject": "Science",
+    "chapter": "Chapter 3",
+    "book": "Science",
+    "icon": "🧪",
+    "description": "It covers the physical and chemical properties of metals and non-metals, ionic bond formation, and basic metallurgical extraction processes.",
+    "contentHref": "content/Class 10/Science/Chapter_3_Metals_and_Non_Metals.json"
+  },
+  {
+    "id": "Carbon_and_its_Compounds",
+    "title": "Carbon and its Compounds",
+    "class": "10",
+    "subject": "Science",
+    "chapter": "Chapter 4",
+    "book": "Science",
+    "icon": "💎",
+    "description": "It explores the versatile bonding nature of carbon, hydrocarbons, functional groups, homologous series, and the chemistry of soaps and detergents.",
+    "contentHref": ""
+  },
+  {
+    "id": "Life_Processes",
+    "title": "Life Processes",
+    "class": "10",
+    "subject": "Science",
+    "chapter": "Chapter 5",
+    "book": "Science",
+    "icon": "🫁",
+    "description": "It explains the fundamental biological mechanisms required to maintain life, including nutrition, respiration, transportation, and excretion in living organisms.",
+    "contentHref": ""
+  },
+  {
+    "id": "Control_and_Coordination",
+    "title": "Control and Coordination",
+    "class": "10",
+    "subject": "Science",
+    "chapter": "Chapter 6",
+    "book": "Science",
+    "icon": "🧠",
+    "description": "It investigates how animals and plants respond to external stimuli using nervous systems, involuntary reflex actions, and chemical hormones.",
+    "contentHref": ""
+  },
+  {
+    "id": "How_do_Organisms_Reproduce",
+    "title": "How do Organisms Reproduce?",
+    "class": "10",
+    "subject": "Science",
+    "chapter": "Chapter 7",
+    "book": "Science",
+    "icon": "🌱",
+    "description": "It details asexual and sexual modes of reproduction across different species alongside a focus on human reproductive systems and reproductive health.",
+    "contentHref": ""
+  },
+  {
+    "id": "Heredity",
+    "title": "Heredity",
+    "class": "10",
+    "subject": "Science",
+    "chapter": "Chapter 8",
+    "book": "Science",
+    "icon": "🧬",
+    "description": "It introduces basic genetics, tracking how traits are passed down through generations alongside Mendel's laws of inheritance and genetic sex determination.",
+    "contentHref": ""
+  },
+  {
+    "id": "Light_Reflection_and_Refraction",
+    "title": "Light – Reflection and Refraction",
+    "class": "10",
+    "subject": "Science",
+    "chapter": "Chapter 9",
+    "book": "Science",
+    "icon": "🔍",
+    "description": "It analyzes the phenomena of light reflection using spherical mirrors and refraction through lenses using numerical ray-tracking math.",
+    "contentHref": ""
+  },
+  {
+    "id": "The_Human_Eye_and_the_Colourful_World",
+    "title": "The Human Eye and the Colourful World",
+    "class": "10",
+    "subject": "Science",
+    "chapter": "Chapter 10",
+    "book": "Science",
+    "icon": "👁️",
+    "description": "It examines the anatomy of human vision, vision defects like myopia, and natural light scattering effects like rainbows and blue skies.",
+    "contentHref": ""
+  },
+  {
+    "id": "Electricity",
+    "title": "Electricity",
+    "class": "10",
+    "subject": "Science",
+    "chapter": "Chapter 11",
+    "book": "Science",
+    "icon": "⚡",
+    "description": "It defines current, potential difference, Ohm's law, electrical resistance factors, circuit configurations, and the heating effects of power.",
+    "contentHref": ""
+  },
+  {
+    "id": "Magnetic_Effects_of_Electric_Current",
+    "title": "Magnetic Effects of Electric Current",
+    "class": "10",
+    "subject": "Science",
+    "chapter": "Chapter 12",
+    "book": "Science",
+    "icon": "🧲",
+    "description": "It explains electromagnetic fields, magnetic force rules on conductors, solenoids, domestic circuits, and alternating vs direct current setups.",
+    "contentHref": ""
+  },
+  {
+    "id": "Our_Environment",
+    "title": "Our Environment",
+    "class": "10",
+    "subject": "Science",
+    "chapter": "Chapter 13",
+    "book": "Science",
+    "icon": "🌍",
+    "description": "It dissects ecosystem components, food chains, energy flow, and major environmental concerns such as ozone layer depletion and waste management.",
+    "contentHref": ""
+  }
+    
   ]
 }
