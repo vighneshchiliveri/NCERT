@@ -1282,6 +1282,8 @@ button.dashboard-card:focus-visible {
   width: 38px;
   height: 38px;
   padding: 0;
+  display: grid;
+  place-items: center;
   font-size: 24px;
   line-height: 1;
 }
