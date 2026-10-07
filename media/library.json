@@ -835,6 +835,17 @@
       "icon": "⚛️",
       "description": "It explains how substances transform into new products and teaches how to write, balance, and classify chemical equations.",
       "contentHref": "content/Class 10/Science/Chemical_Reactions_and_Equations_Chapter_1_Notes.json"
+    },
+    {
+      "id": "Acids_Bases_and_Salts",
+      "title": "Acids Bases and Salts",
+      "class": "10",
+      "subject": "Science",
+      "chapter": "Chapter 2",
+      "book": "Science",
+      "icon": "⚛️",
+      "description": "It explores the chemical properties, reactions, and pH scales of acidic and basic substances, along with the formation and practical uses of various salts.",
+      "contentHref": "content/Class 10/Science/Chapter_2_Acids_Bases_and_Salts_COMPLETE.json"
     }
   ]
 }
