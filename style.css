@@ -1034,6 +1034,38 @@ button.dashboard-card:focus-visible {
 .note-topic-content ol {
   margin-top: 14px;
 }
+.note-table-scroll {
+  max-width: 100%;
+  margin: 12px 0 18px;
+  overflow-x: auto;
+}
+.note-data-table {
+  width: min(100%, 480px);
+  border-collapse: collapse;
+  text-align: left;
+  font-variant-numeric: tabular-nums;
+}
+.note-data-table th,
+.note-data-table td {
+  padding: 9px 12px;
+}
+.note-data-table th {
+  border-bottom: 1px solid var(--line);
+  font-weight: 700;
+}
+.note-data-table tbody th {
+  border-bottom: 0;
+  font-weight: 400;
+  text-align: left;
+}
+.note-data-table th:first-child,
+.note-data-table td:first-child {
+  padding-left: 4px;
+}
+.note-data-table tbody tr + tr th,
+.note-data-table tbody tr + tr td {
+  border-top: 1px solid color-mix(in srgb, var(--line) 55%, transparent);
+}
 .note-example {
   margin-top: 18px;
 }

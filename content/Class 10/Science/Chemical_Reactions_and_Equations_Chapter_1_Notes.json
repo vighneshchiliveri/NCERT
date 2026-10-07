@@ -50,7 +50,7 @@
         "Write the <strong>products</strong> on the right-hand side.",
         "Separate reactants and products using an arrow ⟶."
       ],
-      "example": "<strong>Example</strong>\nWhen magnesium reacts with oxygen, magnesium oxide is formed.\nIn words:\nMagnesium + Oxygen ⟶ Magnesium oxide\nUsing chemical formulae:\n\\[\\ce{Mg + O2 -> MgO}\\]\nHere:\n\\(\\ce{Mg}\\), \\(\\ce{O2}\\) = Reactants\n\\(\\ce{MgO}\\) = Product"
+      "example": "When magnesium reacts with oxygen, magnesium oxide is formed.\nIn words:\nMagnesium + Oxygen ⟶ Magnesium oxide\nUsing chemical formulae:\n\\[\\ce{Mg + O2 -> MgO}\\]\nHere:\n\\(\\ce{Mg}\\), \\(\\ce{O2}\\) = Reactants\n\\(\\ce{MgO}\\) = Product"
     },
     {
       "heading": "Skeletal Chemical Equation",
@@ -65,15 +65,85 @@
     {
       "heading": "1.1.2 Balanced Chemical Equations",
       "text": "A <strong>balanced chemical equation</strong> is an equation in which the <strong>number of atoms of each element is equal on both sides</strong> of the equation.\n\nThis is based on the <strong>Law of Conservation of Mass</strong>, which states that <strong>mass can neither be created nor destroyed in a chemical reaction</strong>.",
-      "points": [
-        "<strong>Example</strong>\nConsider:",
-        "Count the atoms:\nElement    Left side    Right side\nMg         1            1\nO          2            1",
-        "The number of oxygen atoms is not equal, so the equation is <strong>not balanced</strong>.",
-        "We balance it by putting suitable numbers called <strong>coefficients</strong> before the formulae:",
-        "Now:\nElement    Left side    Right side\nMg         2            2\nO          2            2\nTherefore, the equation is <strong>balanced</strong>."
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Example</strong>\nConsider:"
+        },
+        {
+          "type": "text",
+          "text": "\\[\\ce{Mg + O2 -> MgO}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Count the atoms:"
+        },
+        {
+          "type": "table",
+          "label": "Atom counts in the unbalanced equation",
+          "headers": [
+            "Element",
+            "Left side",
+            "Right side"
+          ],
+          "rows": [
+            [
+              "Mg",
+              "1",
+              "1"
+            ],
+            [
+              "O",
+              "2",
+              "1"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The number of oxygen atoms is not equal, so the equation is <strong>not balanced</strong>."
+        },
+        {
+          "type": "text",
+          "text": "We balance it by putting suitable numbers called <strong>coefficients</strong> before the formulae:"
+        },
+        {
+          "type": "text",
+          "text": "\\[\\boxed{\\ce{2Mg + O2 -> 2MgO}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Now:"
+        },
+        {
+          "type": "table",
+          "label": "Atom counts in the balanced equation",
+          "headers": [
+            "Element",
+            "Left side",
+            "Right side"
+          ],
+          "rows": [
+            [
+              "Mg",
+              "2",
+              "2"
+            ],
+            [
+              "O",
+              "2",
+              "2"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Therefore, the equation is <strong>balanced</strong>."
+        }
       ],
+      "points": [],
       "numberedPoints": [],
-      "example": "\\[\\ce{Mg + O2 -> MgO}\\]\n\n\\[\\ce{2Mg + O2 -> 2MgO}\\]"
+      "example": ""
     },
     {
       "heading": "Important Rule",

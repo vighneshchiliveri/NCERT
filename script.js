@@ -1143,6 +1143,30 @@ function notePointToText(point) {
   return point.text || point.point || point.content || point.description || JSON.stringify(point);
 }
 
+function renderNoteBlocks(blocks = []) {
+  if (!Array.isArray(blocks)) return '';
+  return blocks.map(block => {
+    if (block?.type === 'text' && hasContent(block.text)) {
+      return renderTextBlock(block.text);
+    }
+    if (block?.type === 'table' && Array.isArray(block.headers) && Array.isArray(block.rows)) {
+      return `
+        <div class="note-table-scroll" role="region" aria-label="${escapeHtml(block.label || 'Data table')}" tabindex="0">
+          <table class="note-data-table">
+            <thead><tr>${block.headers.map(header => `<th scope="col">${formatAcademicText(header)}</th>`).join('')}</tr></thead>
+            <tbody>${block.rows.map(row => `
+              <tr>${block.headers.map((_, index) => index === 0
+                ? `<th scope="row">${formatAcademicText(row?.[index] ?? '')}</th>`
+                : `<td>${formatAcademicText(row?.[index] ?? '')}</td>`).join('')}</tr>
+            `).join('')}</tbody>
+          </table>
+        </div>
+      `;
+    }
+    return '';
+  }).join('');
+}
+
 function renderNotes(notes = []) {
   if (!Array.isArray(notes) || !notes.length) return '<p>No notes added yet.</p>';
 
@@ -1157,6 +1181,7 @@ function renderNotes(notes = []) {
         const points = isPlainNote ? [] : note.points || note.subpoints || note.items || [];
         const numberedPoints = isPlainNote ? [] : note.numberedPoints || note.numbered || [];
         const example = isPlainNote ? '' : note.example || '';
+        const blocks = isPlainNote ? null : note.blocks;
         const renderedPoints = Array.isArray(points)
           ? points.map(notePointToText).filter(Boolean)
           : [];
@@ -1169,9 +1194,13 @@ function renderNotes(notes = []) {
             <h3 data-topic-heading>${formatAcademicText(heading)}</h3>
             <div class="note-topic-content">
               ${text ? renderTextBlock(text) : ''}
-              ${renderedPoints.length ? `<ul>${renderedPoints.map(point => `<li>${formatMultilineAcademicText(point)}</li>`).join('')}</ul>` : ''}
-              ${renderedNumberedPoints.length ? `<ol>${renderedNumberedPoints.map(point => `<li>${formatMultilineAcademicText(point)}</li>`).join('')}</ol>` : ''}
-              ${hasContent(example) ? `<div class="note-example"><h4>Example</h4>${renderTextBlock(example)}</div>` : ''}
+              ${Array.isArray(blocks)
+                ? renderNoteBlocks(blocks)
+                : `
+                  ${renderedPoints.length ? `<ul>${renderedPoints.map(point => `<li>${formatMultilineAcademicText(point)}</li>`).join('')}</ul>` : ''}
+                  ${renderedNumberedPoints.length ? `<ol>${renderedNumberedPoints.map(point => `<li>${formatMultilineAcademicText(point)}</li>`).join('')}</ol>` : ''}
+                  ${hasContent(example) ? `<div class="note-example"><h4>Example</h4>${renderTextBlock(example)}</div>` : ''}
+                `}
             </div>
           </section>
         `;
