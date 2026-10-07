@@ -1,6 +1,6 @@
 {
-  "name": "NCERT Study Archive",
-  "short_name": "NCERT Archive",
+  "name": "NCERT One Stop",
+  "short_name": "NCERT O.S.",
   "description": "NCERT chapter notes, summaries and question answers.",
   "start_url": "./",
   "scope": "./",
