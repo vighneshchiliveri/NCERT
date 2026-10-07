@@ -1149,6 +1149,19 @@ function renderNoteBlocks(blocks = []) {
     if (block?.type === 'text' && hasContent(block.text)) {
       return renderTextBlock(block.text);
     }
+    if (block?.type === 'heading' && hasContent(block.text)) {
+      return `<h4 class="note-block-heading">${formatAcademicText(block.text)}</h4>`;
+    }
+    if (block?.type === 'equation' && hasContent(block.text)) {
+      return `<div class="note-equation">${renderTextBlock(block.text)}</div>`;
+    }
+    if (block?.type === 'list' && Array.isArray(block.items)) {
+      const tag = block.ordered ? 'ol' : 'ul';
+      const items = block.items
+        .map(item => `<li>${formatMultilineAcademicText(notePointToText(item))}</li>`)
+        .join('');
+      return `<${tag}>${items}</${tag}>`;
+    }
     if (block?.type === 'table' && Array.isArray(block.headers) && Array.isArray(block.rows)) {
       return `
         <div class="note-table-scroll" role="region" aria-label="${escapeHtml(block.label || 'Data table')}" tabindex="0">
@@ -1193,10 +1206,10 @@ function renderNotes(notes = []) {
           <section class="note-topic" id="note-topic-${index + 1}" data-topic-anchor>
             <h3 data-topic-heading>${formatAcademicText(heading)}</h3>
             <div class="note-topic-content">
-              ${text ? renderTextBlock(text) : ''}
               ${Array.isArray(blocks)
-                ? renderNoteBlocks(blocks)
+                ? `${text ? renderTextBlock(text) : ''}${renderNoteBlocks(blocks)}`
                 : `
+                  ${text ? renderTextBlock(text) : ''}
                   ${renderedPoints.length ? `<ul>${renderedPoints.map(point => `<li>${formatMultilineAcademicText(point)}</li>`).join('')}</ul>` : ''}
                   ${renderedNumberedPoints.length ? `<ol>${renderedNumberedPoints.map(point => `<li>${formatMultilineAcademicText(point)}</li>`).join('')}</ol>` : ''}
                   ${hasContent(example) ? `<div class="note-example"><h4>Example</h4>${renderTextBlock(example)}</div>` : ''}
@@ -1689,7 +1702,22 @@ function notesToPlainText(notes = []) {
     const heading = note.heading || note.title || note.topic || '';
     const text = note.text || note.description || note.content || '';
     const points = note.points || note.subpoints || note.items || [];
-    return [heading, text, ...(Array.isArray(points) ? points.map(point => `- ${point}`) : [])]
+    const blocks = Array.isArray(note.blocks)
+      ? note.blocks.map(block => {
+        if (block.type === 'table') {
+          return [
+            block.label,
+            block.headers?.join(' | '),
+            ...(Array.isArray(block.rows) ? block.rows.map(row => row.join(' | ')) : [])
+          ].filter(Boolean).join('\n');
+        }
+        if (block.type === 'list' && Array.isArray(block.items)) {
+          return block.items.map((item, index) => `${block.ordered ? `${index + 1}.` : '-'} ${item}`).join('\n');
+        }
+        return block.text || '';
+      })
+      : [];
+    return [heading, text, ...(Array.isArray(points) ? points.map(point => `- ${point}`) : []), ...blocks]
       .filter(Boolean)
       .join('\n');
   }).join('\n\n');
@@ -1712,7 +1740,13 @@ function contentTypeToPlainText(content, type) {
   const stripInlineFormatting = text => String(text)
     .replace(/<strong>([\s\S]+?)<\/strong>/gi, '$1')
     .replace(/\*\*([\s\S]+?)\*\*/g, '$1');
-  if (type === 'notes') return stripInlineFormatting(notesToPlainText(content.notes) || 'No notes added yet.');
+  const stripMathMarkup = text => String(text)
+    .replace(/\\(?:\[|\]|\(|\))/g, '')
+    .replace(/\\(?:ce|text)\{([^{}]*)\}/g, '$1')
+    .replace(/\\boxed\{([^{}]*)\}/g, '$1')
+    .replace(/\\(?:longrightarrow|rightarrow)/g, '→')
+    .replace(/\\Delta/g, 'Δ');
+  if (type === 'notes') return stripInlineFormatting(stripMathMarkup(notesToPlainText(content.notes) || 'No notes added yet.'));
   if (type === 'summary') return stripInlineFormatting(content.summary || 'No summary added yet.');
   if (type === 'qa') return stripInlineFormatting(qaToPlainText(content.qa) || 'No question answers added yet.');
   return '';

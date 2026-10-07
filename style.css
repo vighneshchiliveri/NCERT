@@ -1034,6 +1034,17 @@ button.dashboard-card:focus-visible {
 .note-topic-content ol {
   margin-top: 14px;
 }
+.note-block-heading {
+  margin: 18px 0 8px;
+  font-size: 1.05em;
+}
+.note-equation {
+  margin: 12px 0;
+  text-align: center;
+}
+.note-equation p {
+  margin-bottom: 0.65em;
+}
 .note-table-scroll {
   max-width: 100%;
   margin: 12px 0 18px;
