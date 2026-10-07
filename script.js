@@ -414,12 +414,14 @@ function formatPlainScientificText(value = '') {
 function formatAcademicText(value = '') {
   const text = String(value ?? '');
   if (!text) return '';
-  const segments = text.split(/(\*\*[\s\S]+?\*\*)/g);
+  const segments = text.split(/(\*\*[\s\S]+?\*\*|<strong>[\s\S]+?<\/strong>)/gi);
   if (segments.length > 1) {
     return segments.map(segment => {
       if (segment.startsWith('**') && segment.endsWith('**')) {
         return `<strong>${formatAcademicText(segment.slice(2, -2))}</strong>`;
       }
+      const strongMatch = /^<strong>([\s\S]+)<\/strong>$/i.exec(segment);
+      if (strongMatch) return `<strong>${formatAcademicText(strongMatch[1])}</strong>`;
       return formatAcademicTextSegment(segment);
     }).join('');
   }
@@ -1678,9 +1680,12 @@ function qaToPlainText(qa = []) {
 }
 
 function contentTypeToPlainText(content, type) {
-  if (type === 'notes') return notesToPlainText(content.notes) || 'No notes added yet.';
-  if (type === 'summary') return String(content.summary || 'No summary added yet.');
-  if (type === 'qa') return qaToPlainText(content.qa) || 'No question answers added yet.';
+  const stripInlineFormatting = text => String(text)
+    .replace(/<strong>([\s\S]+?)<\/strong>/gi, '$1')
+    .replace(/\*\*([\s\S]+?)\*\*/g, '$1');
+  if (type === 'notes') return stripInlineFormatting(notesToPlainText(content.notes) || 'No notes added yet.');
+  if (type === 'summary') return stripInlineFormatting(content.summary || 'No summary added yet.');
+  if (type === 'qa') return stripInlineFormatting(qaToPlainText(content.qa) || 'No question answers added yet.');
   return '';
 }
 

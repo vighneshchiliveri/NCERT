@@ -9,7 +9,7 @@
       "heading": "1.1 Main Topic Name",
       "text": "Write detailed explanation here.",
       "points": [
-        "A bullet point. Use **double asterisks** for bold text.",
+        "A bullet point. Use <strong>HTML strong tags</strong> or **double asterisks** for bold text.",
         "This is one point with a line break.\nThe second line remains within the same bullet."
       ],
       "numberedPoints": [
