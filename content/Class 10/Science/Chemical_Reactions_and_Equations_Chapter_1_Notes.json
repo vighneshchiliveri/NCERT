@@ -9,195 +9,480 @@
       "heading": "Chemical Reaction",
       "text": "A chemical reaction is a process in which one or more substances change into new substances with different properties. The substances that take part in a chemical reaction are called reactants, and the new substances formed are called products.",
       "points": [
-        "Reactants are the substances that take part in a chemical reaction.",
-        "Products are the new substances formed in a chemical reaction.",
-        "A chemical reaction may be identified by a change in colour, change in temperature, formation of a gas, formation of a precipitate, or change in physical state.",
-        "Example: Magnesium burns in oxygen to form magnesium oxide: \\(\\ce{Mg + O2 -> MgO}\\)."
-      ]
+        "Example",
+        "When magnesium burns in oxygen:",
+        "Magnesium + Oxygen ⟶ Magnesium oxide",
+        "Here:",
+        "Reactants = Magnesium + Oxygen",
+        "Product = Magnesium oxide",
+        "A chemical reaction may be identified by:",
+        "Change in colour",
+        "Change in temperature",
+        "Formation of a gas",
+        "Formation of a precipitate",
+        "Change in physical state"
+      ],
+      "numberedPoints": [],
+      "example": "When magnesium burns in oxygen: Magnesium + Oxygen ⟶ Magnesium oxide. Here: Reactants = Magnesium + Oxygen; Product = Magnesium oxide."
     },
     {
       "heading": "Chemical Equation",
-      "text": "A chemical equation is a short symbolic representation of a chemical reaction using the symbols and chemical formulae of the substances involved.",
+      "text": "A chemical equation is a short representation of a chemical reaction using the symbols and chemical formulae of the substances involved.",
       "points": [
-        "A chemical equation tells us which substances react and which substances are formed.",
-        "Example: Hydrogen and oxygen form water: \\(\\ce{H2 + O2 -> H2O}\\).",
-        "The substances on the left side of the arrow are reactants.",
-        "The substances on the right side of the arrow are products.",
-        "The arrow means 'forms' or 'gives'.",
-        "Chemical Reaction = Actual process.",
-        "Chemical Equation = Symbolic representation of the process."
-      ]
+        "For example:",
+        "Mg + O₂ ⟶ MgO",
+        "This represents the reaction:",
+        "Magnesium + Oxygen ⟶ Magnesium oxide",
+        "So, remember:",
+        "Chemical Reaction = Actual process",
+        "Chemical Equation = Symbolic representation of the process"
+      ],
+      "numberedPoints": [],
+      "example": "Mg + O₂ ⟶ MgO"
     },
     {
       "heading": "1.1 Chemical Equations",
-      "text": "A chemical equation is a symbolic representation of a chemical reaction. Instead of writing the names of substances, their chemical symbols and formulae are used.",
+      "text": "A chemical equation is a symbolic representation of a chemical reaction. Instead of writing the names of substances, we use their chemical symbols and formulae.",
       "points": [
-        "Example: Hydrogen + Oxygen → Water.",
-        "Using chemical formulae: \\(\\ce{H2 + O2 -> H2O}\\).",
-        "\\(\\ce{H2}\\) and \\(\\ce{O2}\\) are the reactants.",
-        "\\(\\ce{H2O}\\) is the product.",
-        "The arrow means 'forms' or 'gives'."
-      ]
+        "Example",
+        "The reaction between hydrogen and oxygen to form water can be written as:",
+        "Hydrogen + Oxygen ⟶ Water",
+        "Using chemical formulae:",
+        "H₂ + O₂ ⟶ H₂O",
+        "Here:",
+        "H₂ and O₂ are the reactants.",
+        "H₂O is the product.",
+        "The arrow ⟶ means “forms” or “gives”.",
+        "A chemical equation gives us information about which substances react and which substances are formed."
+      ],
+      "numberedPoints": [],
+      "example": "The reaction between hydrogen and oxygen to form water can be written as: Hydrogen + Oxygen ⟶ Water. Using chemical formulae: H₂ + O₂ ⟶ H₂O."
     },
     {
       "heading": "1.1.1 Writing a Chemical Equation",
       "text": "A chemical equation represents a chemical reaction using the symbols and formulae of the substances involved.",
       "points": [
+        "Steps for writing a chemical equation"
+      ],
+      "numberedPoints": [
         "Write the reactants on the left-hand side.",
         "Write the products on the right-hand side.",
-        "Separate reactants and products using an arrow.",
-        "Example: Magnesium + Oxygen → Magnesium oxide.",
-        "Using chemical formulae: \\(\\ce{Mg + O2 -> MgO}\\).",
-        "\\(\\ce{Mg}\\) and \\(\\ce{O2}\\) are reactants, while \\(\\ce{MgO}\\) is the product.",
-        "A skeletal chemical equation represents the reaction but is not balanced.",
-        "General form: \\(\\ce{Reactants -> Products}\\)."
-      ]
+        "Separate reactants and products using an arrow ⟶."
+      ],
+      "example": "When magnesium reacts with oxygen, magnesium oxide is formed. In words: Magnesium + Oxygen ⟶ Magnesium oxide. Using chemical formulae: Mg + O₂ ⟶ MgO. Here: Mg, O₂ = Reactants; MgO = Product."
+    },
+    {
+      "heading": "Skeletal Chemical Equation",
+      "text": "This equation is called a skeletal chemical equation because it represents the reaction but is not balanced.",
+      "points": [
+        "General form",
+        "Reactants ⟶ Products",
+        "Remember: Reactants are written on the left-hand side, and products are written on the right-hand side."
+      ],
+      "numberedPoints": [],
+      "example": "Reactants ⟶ Products"
     },
     {
       "heading": "1.1.2 Balanced Chemical Equations",
       "text": "A balanced chemical equation is an equation in which the number of atoms of each element is equal on both sides of the equation. This is based on the Law of Conservation of Mass, which states that mass can neither be created nor destroyed in a chemical reaction.",
       "points": [
-        "Example of an unbalanced equation: \\(\\ce{Mg + O2 -> MgO}\\).",
-        "There are 2 oxygen atoms on the left but only 1 oxygen atom on the right.",
-        "The balanced equation is: \\(\\ce{2Mg + O2 -> 2MgO}\\).",
-        "The number of atoms of every element must be equal on both sides.",
-        "While balancing an equation, change only the coefficients, not the chemical formulae.",
-        "Example: \\(\\ce{2H2 + O2 -> 2H2O}\\).",
-        "Number of atoms on LHS = Number of atoms on RHS.",
+        "Example",
+        "Consider:",
+        "Mg + O₂ ⟶ MgO",
+        "Count the atoms:",
+        "Mg — Left side 1, Right side 1",
+        "O — Left side 2, Right side 1",
+        "The number of oxygen atoms is not equal, so the equation is not balanced.",
+        "We balance it by putting suitable numbers called coefficients before the formulae:",
+        "2Mg + O₂ ⟶ 2MgO",
+        "Now:",
+        "Mg — Left side 2, Right side 2",
+        "O — Left side 2, Right side 2",
+        "Therefore, the equation is balanced."
+      ],
+      "numberedPoints": [],
+      "example": "Consider: Mg + O₂ ⟶ MgO. Count the atoms: Mg — Left side 1, Right side 1; O — Left side 2, Right side 1. We balance it by putting suitable numbers called coefficients before the formulae: 2Mg + O₂ ⟶ 2MgO. Now: Mg — Left side 2, Right side 2; O — Left side 2, Right side 2. Therefore, the equation is balanced."
+    },
+    {
+      "heading": "Important Rule",
+      "text": "While balancing an equation, we change only the coefficients, not the chemical formulae.",
+      "points": [
+        "For example, we can write:",
+        "2H₂ + O₂ ⟶ 2H₂O",
+        "But we should not change H₂O into another formula just to balance the equation.",
+        "In short",
+        "Number of atoms of each element on LHS = Number of atoms on RHS",
         "A balanced chemical equation obeys the law of conservation of mass."
-      ]
+      ],
+      "numberedPoints": [],
+      "example": "2H₂ + O₂ ⟶ 2H₂O"
     },
     {
       "heading": "1.2 Types of Chemical Reactions",
-      "text": "Chemical reactions can be classified into different types depending on how the reactants change into products.",
+      "text": "Chemical reactions can be classified into different types depending on how the reactants change into products. The main types are:",
       "points": [
-        "Combination reaction.",
-        "Decomposition reaction.",
-        "Displacement reaction.",
-        "Double displacement reaction.",
-        "Oxidation and reduction reactions."
-      ]
+        "These reactions have different patterns, which help us identify them easily."
+      ],
+      "numberedPoints": [
+        "Combination reaction",
+        "Decomposition reaction",
+        "Displacement reaction",
+        "Double displacement reaction",
+        "Oxidation and reduction reactions"
+      ],
+      "example": ""
     },
     {
       "heading": "1.2.1 Combination Reaction",
       "text": "A combination reaction is a reaction in which two or more substances combine to form a single product.",
       "points": [
-        "General form: \\(\\ce{A + B -> AB}\\).",
-        "Two or more reactants combine to form only one product.",
-        "Calcium reacts with oxygen to form calcium oxide: \\(\\ce{2Ca + O2 -> 2CaO}\\).",
-        "Hydrogen reacts with oxygen to form water: \\(\\ce{2H2 + O2 -> 2H2O}\\).",
-        "Carbon combines with oxygen to form carbon dioxide: \\(\\ce{C + O2 -> CO2}\\).",
-        "Easy identification: Two or more reactants → One product."
-      ]
+        "General form",
+        "A + B ⟶ AB",
+        "Here, two or more reactants combine to form only one product.",
+        "Example 1: Formation of Calcium Oxide",
+        "Calcium reacts with oxygen to form calcium oxide:",
+        "2Ca + O₂ ⟶ 2CaO",
+        "Here, calcium and oxygen combine to form one product, calcium oxide."
+      ],
+      "numberedPoints": [],
+      "example": "Example 1: Formation of Calcium Oxide. Calcium reacts with oxygen to form calcium oxide: 2Ca + O₂ ⟶ 2CaO. Here, calcium and oxygen combine to form one product, calcium oxide."
+    },
+    {
+      "heading": "Combination Reaction — Examples 2 and 3",
+      "text": "Again, two reactants combine to form one product.",
+      "points": [
+        "Example 2: Formation of Water",
+        "Hydrogen reacts with oxygen to form water:",
+        "2H₂ + O₂ ⟶ 2H₂O",
+        "Example 3: Burning of Coal",
+        "Carbon combines with oxygen to form carbon dioxide:",
+        "C + O₂ ⟶ CO₂",
+        "Key Point",
+        "The easiest way to identify a combination reaction is:",
+        "Two or more reactants ⟶ One product",
+        "So, many substances combine to give one substance."
+      ],
+      "numberedPoints": [],
+      "example": "Example 2: Formation of Water — Hydrogen reacts with oxygen to form water: 2H₂ + O₂ ⟶ 2H₂O. Example 3: Burning of Coal — Carbon combines with oxygen to form carbon dioxide: C + O₂ ⟶ CO₂."
     },
     {
       "heading": "1.2.2 Decomposition Reaction",
       "text": "A decomposition reaction is a reaction in which one compound breaks down into two or more simpler substances. It is the opposite of a combination reaction.",
       "points": [
-        "General form: \\(\\ce{AB -> A + B}\\).",
-        "One reactant breaks down to form two or more products.",
-        "On heating calcium carbonate: \\(\\ce{CaCO3 ->[heat] CaO + CO2}\\).",
-        "Water can be decomposed by electricity: \\(\\ce{2H2O ->[electricity] 2H2 + O2}\\).",
-        "Heat causes thermal decomposition.",
-        "Electricity causes electrolytic decomposition.",
-        "Light causes photolytic decomposition.",
-        "Easy identification: One reactant → Two or more products."
-      ]
+        "General form",
+        "AB ⟶ A + B",
+        "Here, one reactant breaks down to form two or more products.",
+        "Example 1: Decomposition of Calcium Carbonate",
+        "On heating calcium carbonate, it decomposes into calcium oxide and carbon dioxide:",
+        "CaCO₃ —Δ→ CaO + CO₂",
+        "Here, Δ represents heat.",
+        "Example 2: Decomposition of Water",
+        "Water can be decomposed into hydrogen and oxygen by passing electricity through it:",
+        "2H₂O —electricity→ 2H₂ + O₂",
+        "Types of Decomposition Reactions",
+        "Decomposition can occur due to:",
+        "Heat → Thermal decomposition"
+      ],
+      "numberedPoints": [],
+      "example": "Example 1: Decomposition of Calcium Carbonate — On heating calcium carbonate, it decomposes into calcium oxide and carbon dioxide: CaCO₃ —Δ→ CaO + CO₂. Here, Δ represents heat. Example 2: Decomposition of Water — Water can be decomposed into hydrogen and oxygen by passing electricity through it: 2H₂O —electricity→ 2H₂ + O₂."
+    },
+    {
+      "heading": "Types of Decomposition Reactions",
+      "text": "Decomposition can occur due to:",
+      "points": [
+        "Electricity → Electrolytic decomposition",
+        "Light → Photolytic decomposition",
+        "Key Point",
+        "One reactant ⟶ Two or more products",
+        "So, in a decomposition reaction, one compound breaks down into simpler substances."
+      ],
+      "numberedPoints": [],
+      "example": ""
     },
     {
       "heading": "1.2.3 Displacement Reaction",
       "text": "A displacement reaction is a reaction in which a more reactive element displaces a less reactive element from its compound.",
       "points": [
-        "General form: \\(\\ce{A + BC -> AC + B}\\).",
-        "Element A is more reactive than element B and therefore displaces B.",
-        "Zinc reacts with copper sulphate: \\(\\ce{Zn + CuSO4 -> ZnSO4 + Cu}\\).",
-        "Zinc is more reactive than copper.",
-        "Iron displaces copper from copper sulphate: \\(\\ce{Fe + CuSO4 -> FeSO4 + Cu}\\).",
-        "Easy identification: More reactive element + Compound → New compound + Less reactive element."
-      ]
+        "General form",
+        "A + BC ⟶ AC + B",
+        "Here, element A is more reactive than B, so A displaces B from the compound BC.",
+        "Example",
+        "Zinc reacts with copper sulphate solution:",
+        "Zn + CuSO₄ ⟶ ZnSO₄ + Cu",
+        "Here:",
+        "Zinc (Zn) is more reactive than copper (Cu).",
+        "Zinc displaces copper from copper sulphate.",
+        "Zinc sulphate and copper are formed.",
+        "Another example",
+        "Iron displaces copper from copper sulphate:",
+        "Fe + CuSO₄ ⟶ FeSO₄ + Cu",
+        "Key Point",
+        "More reactive element + Compound ⟶ New compound + Less reactive element",
+        "Remember: A displacement reaction involves the displacement of one element by another more reactive element."
+      ],
+      "numberedPoints": [],
+      "example": "Zinc reacts with copper sulphate solution: Zn + CuSO₄ ⟶ ZnSO₄ + Cu. Another example: Iron displaces copper from copper sulphate: Fe + CuSO₄ ⟶ FeSO₄ + Cu."
     },
     {
       "heading": "1.2.4 Double Displacement Reaction",
       "text": "A double displacement reaction is a reaction in which two compounds exchange their ions to form two new compounds.",
       "points": [
-        "General form: \\(\\ce{AB + CD -> AD + CB}\\).",
-        "The ions of the two compounds exchange places.",
-        "Sodium sulphate reacts with barium chloride: \\(\\ce{Na2SO4 + BaCl2 -> BaSO4 + 2NaCl}\\).",
-        "\\(\\ce{BaSO4}\\) is an insoluble white solid called a precipitate.",
-        "A double displacement reaction that forms a precipitate is also called a precipitation reaction.",
-        "Easy identification: Two compounds → Two new compounds."
-      ]
+        "General form",
+        "AB + CD ⟶ AD + CB",
+        "Here, the ions of the two compounds exchange places.",
+        "Example",
+        "When sodium sulphate reacts with barium chloride:",
+        "Na₂SO₄ + BaCl₂ ⟶ BaSO₄ + 2NaCl",
+        "Here:",
+        "Na₂SO₄ and BaCl₂ are the reactants.",
+        "BaSO₄ and NaCl are the products.",
+        "BaSO₄ is an insoluble white solid called a precipitate.",
+        "Therefore, this reaction is also called a precipitation reaction.",
+        "Key Point",
+        "Two compounds ⟶ Two new compounds",
+        "The compounds exchange their ions during the reaction."
+      ],
+      "numberedPoints": [],
+      "example": "When sodium sulphate reacts with barium chloride: Na₂SO₄ + BaCl₂ ⟶ BaSO₄ + 2NaCl. BaSO₄ is an insoluble white solid called a precipitate."
+    },
+    {
+      "heading": "Oxidation and Reduction",
+      "text": "Oxidation and reduction are chemical processes that often occur together in a reaction.",
+      "points": [],
+      "numberedPoints": [],
+      "example": ""
     },
     {
       "heading": "Oxidation",
-      "text": "Oxidation can be understood as the addition of oxygen, removal of hydrogen, or loss of electrons.",
+      "text": "Oxidation can be understood as:",
       "points": [
-        "Addition of oxygen is oxidation.",
-        "Removal of hydrogen is oxidation.",
-        "Loss of electrons is oxidation.",
-        "Example: \\(\\ce{2Cu + O2 -> 2CuO}\\).",
+        "Addition of oxygen",
+        "Removal of hydrogen",
+        "Loss of electrons",
+        "For example:",
+        "2Cu + O₂ ⟶ 2CuO",
         "Copper combines with oxygen, so copper is oxidised."
-      ]
+      ],
+      "numberedPoints": [],
+      "example": "2Cu + O₂ ⟶ 2CuO"
     },
     {
       "heading": "Reduction",
-      "text": "Reduction can be understood as the removal of oxygen, addition of hydrogen, or gain of electrons.",
+      "text": "Reduction can be understood as:",
       "points": [
-        "Removal of oxygen is reduction.",
-        "Addition of hydrogen is reduction.",
-        "Gain of electrons is reduction.",
-        "Example: \\(\\ce{CuO + H2 -> Cu + H2O}\\).",
+        "Removal of oxygen",
+        "Addition of hydrogen",
+        "Gain of electrons",
+        "For example:",
+        "CuO + H₂ ⟶ Cu + H₂O",
         "Oxygen is removed from copper oxide, so copper oxide is reduced."
-      ]
+      ],
+      "numberedPoints": [],
+      "example": "CuO + H₂ ⟶ Cu + H₂O"
     },
     {
-      "heading": "Oxidation and Reduction Together — Redox Reaction",
+      "heading": "Oxidation and Reduction Together",
       "text": "When oxidation and reduction occur in the same reaction, the reaction is called a redox reaction.",
       "points": [
-        "Example: \\(\\ce{CuO + H2 -> Cu + H2O}\\).",
-        "\\(\\ce{CuO}\\) loses oxygen → Reduction.",
-        "\\(\\ce{H2}\\) gains oxygen → Oxidation.",
-        "Oxidation and reduction occur simultaneously.",
-        "Oxidation + Reduction = Redox Reaction."
-      ]
+        "For example:",
+        "CuO + H₂ ⟶ Cu + H₂O",
+        "CuO loses oxygen → Reduction",
+        "H₂ gains oxygen → Oxidation",
+        "Thus, oxidation and reduction occur simultaneously.",
+        "Easy way to remember",
+        "Oxidation = Addition of Oxygen",
+        "Reduction = Removal of Oxygen",
+        "And:",
+        "Oxidation + Reduction = Redox Reaction"
+      ],
+      "numberedPoints": [],
+      "example": "CuO + H₂ ⟶ Cu + H₂O"
     },
     {
       "heading": "1.3 Effects of Oxidation Reactions in Everyday Life",
-      "text": "Oxidation reactions also occur in everyday life. Two important effects of oxidation are corrosion and rancidity.",
+      "text": "Oxidation reactions do not occur only in laboratories. They also happen around us in everyday life.",
       "points": [
-        "Corrosion can cause damage to metals.",
-        "Rancidity can affect food containing fats and oils.",
-        "The two important effects are corrosion and rancidity."
-      ]
+        "Two important effects of oxidation are:",
+        "Corrosion",
+        "Rancidity",
+        "These processes can cause damage to metals and food."
+      ],
+      "numberedPoints": [],
+      "example": ""
     },
     {
       "heading": "1.3.1 Corrosion",
-      "text": "Corrosion is the process in which a metal is gradually destroyed or damaged due to reactions with substances present in the environment, such as oxygen, moisture and acids.",
+      "text": "Corrosion is the process in which a metal is gradually destroyed or damaged due to reactions with substances present in the environment, such as oxygen, moisture, acids, etc.",
       "points": [
-        "Rusting of iron is a common example of corrosion.",
-        "Iron reacts with oxygen and moisture to form rust.",
-        "Rust is mainly hydrated iron(III) oxide: \\(\\ce{Fe2O3.xH2O}\\).",
+        "Example: Rusting of Iron",
+        "Iron reacts with oxygen and moisture present in air to form rust.",
+        "Iron + Oxygen + Water ⟶ Rust",
+        "Rust is mainly hydrated iron(III) oxide.",
+        "Fe₂O₃ · xH₂O",
         "The reddish-brown coating seen on iron objects is rust.",
+        "Other Examples of Corrosion",
         "Copper develops a green coating of basic copper carbonate.",
         "Silver develops a black coating of silver sulphide.",
+        "Prevention of Corrosion",
         "Corrosion can be prevented by protecting the metal from contact with air and moisture.",
-        "Common methods include painting, oiling or greasing, galvanisation and alloying.",
-        "Corrosion = Gradual damage of a metal due to environmental reactions."
-      ]
+        "Common methods include:",
+        "Painting",
+        "Oiling or greasing",
+        "Galvanisation",
+        "Alloying",
+        "Key Point",
+        "Corrosion = Gradual damage of a metal due to environmental reactions",
+        "Rusting of iron is one of the most common examples of corrosion."
+      ],
+      "numberedPoints": [],
+      "example": "Example: Rusting of Iron — Iron reacts with oxygen and moisture present in air to form rust. Iron + Oxygen + Water ⟶ Rust. Rust is mainly hydrated iron(III) oxide: Fe₂O₃ · xH₂O."
     },
     {
       "heading": "1.3.2 Rancidity",
       "text": "Rancidity is the process in which food containing fats and oils gets oxidised, causing an unpleasant smell and taste.",
       "points": [
-        "When oily food is exposed to air for a long time, it may develop a bad smell and taste.",
-        "This happens because fats and oils undergo oxidation.",
-        "Rancidity can be prevented or slowed down by adding antioxidants to food.",
-        "Keeping food in airtight containers reduces contact with oxygen.",
-        "Refrigeration slows down oxidation.",
-        "Some foods are packed using nitrogen gas instead of oxygen.",
-        "Chips packets are often filled with nitrogen gas to prevent the oils from coming into contact with oxygen.",
-        "Rancidity = Oxidation of fats and oils causing unpleasant smell and taste."
-      ]
+        "For example, when oily food is left exposed to air for a long time, it may develop a bad smell and taste. This happens because the fats and oils in the food undergo oxidation.",
+        "Prevention of Rancidity",
+        "Rancidity can be prevented or slowed down by:",
+        "Adding antioxidants to food.",
+        "Keeping food in airtight containers to prevent contact with oxygen.",
+        "Refrigerating food, which slows down oxidation.",
+        "Packing some foods using nitrogen gas instead of oxygen.",
+        "Example",
+        "Chips packets are often filled with nitrogen gas. Nitrogen prevents the oils in the chips from coming into contact with oxygen and becoming rancid.",
+        "Key Point",
+        "Rancidity = Oxidation of fats and oils causing unpleasant smell and taste"
+      ],
+      "numberedPoints": [],
+      "example": "Chips packets are often filled with nitrogen gas. Nitrogen prevents the oils in the chips from coming into contact with oxygen and becoming rancid."
+    }
+  ],
+  "summary": "Chapter 1 explains chemical reactions and their symbolic representation as chemical equations. It covers chemical reactions, reactants and products, chemical equations, skeletal equations, balanced chemical equations and the Law of Conservation of Mass. It then explains combination, decomposition, displacement and double displacement reactions. Oxidation and reduction are introduced and their simultaneous occurrence is described as a redox reaction. The chapter also explains the effects of oxidation in everyday life, namely corrosion and rancidity, along with common methods of preventing corrosion and slowing down rancidity.",
+  "qa": [
+    {
+      "q": "What is a chemical reaction?",
+      "a": "A chemical reaction is a process in which one or more substances change into new substances with different properties.",
+      "section": "Chemical Reaction"
+    },
+    {
+      "q": "What are reactants and products?",
+      "a": "The substances that take part in a chemical reaction are called reactants, and the new substances formed are called products.",
+      "section": "Chemical Reaction"
+    },
+    {
+      "q": "By what changes may a chemical reaction be identified?",
+      "a": "A chemical reaction may be identified by change in colour, change in temperature, formation of a gas, formation of a precipitate, or change in physical state.",
+      "section": "Chemical Reaction"
+    },
+    {
+      "q": "What is a chemical equation?",
+      "a": "A chemical equation is a short representation of a chemical reaction using the symbols and chemical formulae of the substances involved.",
+      "section": "Chemical Equation"
+    },
+    {
+      "q": "What is a skeletal chemical equation?",
+      "a": "A skeletal chemical equation represents the reaction but is not balanced.",
+      "section": "Skeletal Chemical Equation"
+    },
+    {
+      "q": "What is a balanced chemical equation?",
+      "a": "A balanced chemical equation is an equation in which the number of atoms of each element is equal on both sides of the equation.",
+      "section": "1.1.2 Balanced Chemical Equations"
+    },
+    {
+      "q": "Which law is followed by a balanced chemical equation?",
+      "a": "A balanced chemical equation obeys the law of conservation of mass.",
+      "section": "Important Rule"
+    },
+    {
+      "q": "What should be changed while balancing an equation?",
+      "a": "Only the coefficients should be changed, not the chemical formulae.",
+      "section": "Important Rule"
+    },
+    {
+      "q": "What is a combination reaction?",
+      "a": "A combination reaction is a reaction in which two or more substances combine to form a single product.",
+      "section": "1.2.1 Combination Reaction"
+    },
+    {
+      "q": "What is the general form of a combination reaction?",
+      "a": "A + B ⟶ AB",
+      "section": "1.2.1 Combination Reaction"
+    },
+    {
+      "q": "What is a decomposition reaction?",
+      "a": "A decomposition reaction is a reaction in which one compound breaks down into two or more simpler substances.",
+      "section": "1.2.2 Decomposition Reaction"
+    },
+    {
+      "q": "What are the types of decomposition mentioned in the chapter?",
+      "a": "Thermal decomposition, electrolytic decomposition and photolytic decomposition.",
+      "section": "Types of Decomposition Reactions"
+    },
+    {
+      "q": "What is a displacement reaction?",
+      "a": "A displacement reaction is a reaction in which a more reactive element displaces a less reactive element from its compound.",
+      "section": "1.2.3 Displacement Reaction"
+    },
+    {
+      "q": "What is a double displacement reaction?",
+      "a": "A double displacement reaction is a reaction in which two compounds exchange their ions to form two new compounds.",
+      "section": "1.2.4 Double Displacement Reaction"
+    },
+    {
+      "q": "Why is the sodium sulphate and barium chloride reaction called a precipitation reaction?",
+      "a": "Because BaSO₄ is an insoluble white solid called a precipitate.",
+      "section": "1.2.4 Double Displacement Reaction"
+    },
+    {
+      "q": "What is oxidation?",
+      "a": "Oxidation can be understood as addition of oxygen, removal of hydrogen, or loss of electrons.",
+      "section": "Oxidation"
+    },
+    {
+      "q": "What is reduction?",
+      "a": "Reduction can be understood as removal of oxygen, addition of hydrogen, or gain of electrons.",
+      "section": "Reduction"
+    },
+    {
+      "q": "What is a redox reaction?",
+      "a": "When oxidation and reduction occur in the same reaction, the reaction is called a redox reaction.",
+      "section": "Oxidation and Reduction Together"
+    },
+    {
+      "q": "What are the two important effects of oxidation in everyday life?",
+      "a": "Corrosion and rancidity.",
+      "section": "1.3 Effects of Oxidation Reactions in Everyday Life"
+    },
+    {
+      "q": "What is corrosion?",
+      "a": "Corrosion is the process in which a metal is gradually destroyed or damaged due to reactions with substances present in the environment, such as oxygen, moisture, acids, etc.",
+      "section": "1.3.1 Corrosion"
+    },
+    {
+      "q": "What is rust mainly?",
+      "a": "Rust is mainly hydrated iron(III) oxide, Fe₂O₃ · xH₂O.",
+      "section": "1.3.1 Corrosion"
+    },
+    {
+      "q": "How can corrosion be prevented?",
+      "a": "Corrosion can be prevented by protecting the metal from contact with air and moisture. Common methods include painting, oiling or greasing, galvanisation and alloying.",
+      "section": "1.3.1 Corrosion"
+    },
+    {
+      "q": "What is rancidity?",
+      "a": "Rancidity is the process in which food containing fats and oils gets oxidised, causing an unpleasant smell and taste.",
+      "section": "1.3.2 Rancidity"
+    },
+    {
+      "q": "How can rancidity be prevented or slowed down?",
+      "a": "By adding antioxidants to food, keeping food in airtight containers to prevent contact with oxygen, refrigerating food, and packing some foods using nitrogen gas instead of oxygen.",
+      "section": "1.3.2 Rancidity"
+    },
+    {
+      "q": "Why are chips packets filled with nitrogen gas?",
+      "a": "Nitrogen prevents the oils in the chips from coming into contact with oxygen and becoming rancid.",
+      "section": "1.3.2 Rancidity"
     }
   ]
 }
