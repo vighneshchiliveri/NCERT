@@ -414,6 +414,20 @@ function formatPlainScientificText(value = '') {
 function formatAcademicText(value = '') {
   const text = String(value ?? '');
   if (!text) return '';
+  const segments = text.split(/(\*\*[\s\S]+?\*\*)/g);
+  if (segments.length > 1) {
+    return segments.map(segment => {
+      if (segment.startsWith('**') && segment.endsWith('**')) {
+        return `<strong>${formatAcademicText(segment.slice(2, -2))}</strong>`;
+      }
+      return formatAcademicTextSegment(segment);
+    }).join('');
+  }
+  return formatAcademicTextSegment(text);
+}
+
+function formatAcademicTextSegment(text) {
+  if (!text) return '';
   if (!isCambriaMathSubject()) return escapeHtml(text);
 
   // Preserve equations that are already written with KaTeX/LaTeX delimiters.
@@ -436,6 +450,13 @@ function formatAcademicText(value = '') {
   });
   html += formatPlainScientificText(text.slice(cursor));
   return html;
+}
+
+function formatMultilineAcademicText(value = '') {
+  return String(value ?? '')
+    .split(/\r?\n/)
+    .map(line => formatAcademicText(line))
+    .join('<br>');
 }
 
 function renderReaderMath() {
@@ -1104,7 +1125,7 @@ function showChapterListPage() {
 function renderTextBlock(value) {
   if (!hasContent(value)) return '';
   if (Array.isArray(value)) {
-    return `<ul>${value.map(item => `<li>${formatAcademicText(typeof item === 'string' ? item : JSON.stringify(item))}</li>`).join('')}</ul>`;
+    return `<ul>${value.map(item => `<li>${formatMultilineAcademicText(typeof item === 'string' ? item : JSON.stringify(item))}</li>`).join('')}</ul>`;
   }
   return String(value)
     .split(/\n+/)
@@ -1132,8 +1153,13 @@ function renderNotes(notes = []) {
           : note.heading || note.title || note.topic || `Topic ${index + 1}`;
         const text = isPlainNote ? note : note.text || note.description || note.content || '';
         const points = isPlainNote ? [] : note.points || note.subpoints || note.items || [];
+        const numberedPoints = isPlainNote ? [] : note.numberedPoints || note.numbered || [];
+        const example = isPlainNote ? '' : note.example || '';
         const renderedPoints = Array.isArray(points)
           ? points.map(notePointToText).filter(Boolean)
+          : [];
+        const renderedNumberedPoints = Array.isArray(numberedPoints)
+          ? numberedPoints.map(notePointToText).filter(Boolean)
           : [];
 
         return `
@@ -1141,7 +1167,9 @@ function renderNotes(notes = []) {
             <h3 data-topic-heading>${formatAcademicText(heading)}</h3>
             <div class="note-topic-content">
               ${text ? renderTextBlock(text) : ''}
-              ${renderedPoints.length ? `<ul>${renderedPoints.map(point => `<li>${formatAcademicText(point)}</li>`).join('')}</ul>` : ''}
+              ${renderedPoints.length ? `<ul>${renderedPoints.map(point => `<li>${formatMultilineAcademicText(point)}</li>`).join('')}</ul>` : ''}
+              ${renderedNumberedPoints.length ? `<ol>${renderedNumberedPoints.map(point => `<li>${formatMultilineAcademicText(point)}</li>`).join('')}</ol>` : ''}
+              ${hasContent(example) ? `<div class="note-example"><h4>Example</h4>${renderTextBlock(example)}</div>` : ''}
             </div>
           </section>
         `;

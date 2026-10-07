@@ -6,20 +6,17 @@
   "book": "NCERT Science",
   "notes": [
     {
-      "heading": "Main Topic Name",
+      "heading": "1.1 Main Topic Name",
       "text": "Write detailed explanation here.",
       "points": [
-        "Important point 1",
-        "Important point 2",
-        "Important point 3"
-      ]
-    },
-    {
-      "heading": "Another Topic",
-      "text": "Write more notes here.",
-      "points": [
-        "Another important point"
-      ]
+        "A bullet point. Use **double asterisks** for bold text.",
+        "This is one point with a line break.\nThe second line remains within the same bullet."
+      ],
+      "numberedPoints": [
+        "First numbered step.",
+        "Second numbered step."
+      ],
+      "example": "Write an example here. Equations can use LaTeX, for example \\(\\ce{2H2 + O2 -> 2H2O}\\)."
     }
   ],
   "summary": "Write complete chapter summary here.",

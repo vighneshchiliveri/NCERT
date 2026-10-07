@@ -1034,6 +1034,15 @@ button.dashboard-card:focus-visible {
 .note-topic-content ol {
   margin-top: 14px;
 }
+.note-example {
+  margin-top: 18px;
+}
+.note-example h4 {
+  margin: 0 0 8px;
+}
+.note-example > :last-child {
+  margin-bottom: 0;
+}
 .note-topic-content li::marker {
   font-weight: 700;
 }
