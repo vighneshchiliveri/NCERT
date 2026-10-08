@@ -1,0 +1,952 @@
+{
+  "title": "Carbon and Its Compounds",
+  "class": "10",
+  "subject": "Science",
+  "chapter": "Chapter 4",
+  "book": "NCERT Science",
+  "notes": [
+    {
+      "heading": "4.1 Bonding in Carbon – The Covalent Bond",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Carbon has atomic number 6, so its electronic configuration is 2, 4. This means carbon has 4 electrons in its outermost shell. To become stable, it needs 4 more electrons."
+        },
+        {
+          "type": "text",
+          "text": "Carbon cannot easily:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Lose 4 electrons because it requires a lot of energy.",
+            "Gain 4 electrons because its nucleus cannot hold 10 electrons easily."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "So, carbon achieves stability by sharing electrons with other atoms. This sharing of electrons forms a covalent bond."
+        },
+        {
+          "type": "heading",
+          "text": "Covalent bond"
+        },
+        {
+          "type": "text",
+          "text": "A <strong>covalent bond</strong> is a bond formed by the sharing of electrons between atoms. For example, in methane (CH₄), carbon shares electrons with four hydrogen atoms:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\begin{array}{c} \\ce{H} \\\\ | \\\\ \\ce{H-C-H} \\\\ | \\\\ \\ce{H} \\end{array}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Carbon can form:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Single bond: C—C",
+            "Double bond: C=C",
+            "Triple bond: C≡C"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Carbon forms a very large number of compounds because of its ability to form strong bonds with other carbon atoms as well as many other elements. The two important properties responsible for this are <strong>tetravalency</strong> and <strong>catenation</strong>."
+        },
+        {
+          "type": "heading",
+          "text": "Allotropes of Carbon"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Allotropes</strong> are different forms of the same element that have different structures and properties. Carbon has several allotropes. The important ones are:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Diamond:</strong> Each carbon atom is bonded to four other carbon atoms, making a very strong three-dimensional structure. It is very hard, has a high melting point, does not conduct electricity, and is used for cutting glass and in jewellery.",
+            "<strong>Graphite:</strong> Each carbon atom is bonded to three other carbon atoms. The atoms form layers that can slide over one another. Graphite is soft and slippery, conducts electricity, and is used in pencils and as a lubricant.",
+            "<strong>Fullerenes:</strong> Carbon molecules in which carbon atoms form closed structures. An important example is C₆₀, called buckminsterfullerene. It has a shape similar to a football."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "So, the main difference is: diamond is very hard and does not conduct electricity; graphite is soft and conducts electricity; fullerene has a closed cage-like structure."
+        }
+      ]
+    },
+    {
+      "heading": "4.2 Versatile Nature of Carbon",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Carbon is called a versatile element because it forms a very large number of compounds. This is mainly due to two properties:"
+        },
+        {
+          "type": "heading",
+          "text": "1. Tetravalency"
+        },
+        {
+          "type": "text",
+          "text": "Carbon has valency 4, so it can form four covalent bonds with other atoms. For example, methane:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\begin{array}{c} \\ce{H} \\\\ | \\\\ \\ce{H-C-H} \\\\ | \\\\ \\ce{H} \\end{array}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Carbon can bond with elements such as hydrogen, oxygen, nitrogen, sulphur and chlorine, as well as with other carbon atoms."
+        },
+        {
+          "type": "heading",
+          "text": "2. Catenation"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Catenation</strong> is the ability of carbon atoms to form bonds with other carbon atoms. Carbon can form:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Long chains",
+            "Branched chains",
+            "Rings"
+          ]
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C-C-C-C-C}\\]"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C-C(-C)-C}\\]"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\begin{array}{ccccc} && \\ce{C} && \\\\ & / && \\backslash & \\\\ \\ce{C} &&&& \\ce{C} \\\\ | &&&& | \\\\ \\ce{C} &&&& \\ce{C} \\\\ & \\backslash && / & \\\\ && \\ce{C} && \\end{array}\\]"
+        },
+        {
+          "type": "text",
+          "text": "A branched-chain example is 2-methylpropane:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3-CH(CH3)-CH3}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Because of tetravalency and catenation, carbon can form millions of different compounds."
+        }
+      ]
+    },
+    {
+      "heading": "4.2.1 Saturated and Unsaturated Carbon Compounds",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Carbon compounds can be divided into saturated and unsaturated compounds based on the type of bonds between carbon atoms."
+        },
+        {
+          "type": "heading",
+          "text": "Saturated Carbon Compounds"
+        },
+        {
+          "type": "text",
+          "text": "Carbon compounds containing only single bonds between carbon atoms are called <strong>saturated carbon compounds</strong>. Example: ethane."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3-CH3}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Here, the carbon atoms are joined by a single bond (—). Saturated compounds are also called <strong>alkanes</strong>. Examples:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "CH₄ — Methane",
+            "CH₃—CH₃ — Ethane",
+            "CH₃—CH₂—CH₃ — Propane"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Unsaturated Carbon Compounds"
+        },
+        {
+          "type": "text",
+          "text": "Carbon compounds containing double or triple bonds between carbon atoms are called <strong>unsaturated carbon compounds</strong>. There are two types:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Double bond — alkenes. Example: ethene, \\(\\ce{CH2=CH2}\\).",
+            "Triple bond — alkynes. Example: ethyne, \\(\\ce{HC#CH}\\)."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "So, a single bond indicates a saturated compound, while a double or triple bond indicates an unsaturated compound. The presence of double or triple bonds makes these compounds more reactive than saturated compounds."
+        }
+      ]
+    },
+    {
+      "heading": "4.2.2 Chains, Branches and Rings",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Carbon atoms have the ability to join with one another through covalent bonds. Therefore, carbon compounds can have different arrangements of carbon atoms."
+        },
+        {
+          "type": "heading",
+          "text": "1. Chains"
+        },
+        {
+          "type": "text",
+          "text": "Carbon atoms can join together to form long chains. Example: butane."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3-CH2-CH2-CH3}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The carbon atoms are arranged in a straight chain. Chains can be short or long depending on the number of carbon atoms."
+        },
+        {
+          "type": "heading",
+          "text": "2. Branches"
+        },
+        {
+          "type": "text",
+          "text": "A carbon chain can have branches attached to the main chain. Example: 2-methylpropane."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3-CH(CH3)-CH3}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Here, one carbon group is attached as a branch to the main carbon chain."
+        },
+        {
+          "type": "heading",
+          "text": "3. Rings"
+        },
+        {
+          "type": "text",
+          "text": "Carbon atoms can also join together to form closed chains called rings. Example: cyclohexane."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\begin{array}{ccccc} && \\ce{CH2} && \\\\ & / && \\backslash & \\\\ \\ce{CH2} &&&& \\ce{CH2} \\\\ | &&&& | \\\\ \\ce{CH2} &&&& \\ce{CH2} \\\\ & \\backslash && / & \\\\ && \\ce{CH2} && \\end{array}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Thus, carbon compounds can have straight chains, branched chains and rings. This ability of carbon to form different structures contributes to the versatile nature of carbon."
+        }
+      ]
+    },
+    {
+      "heading": "4.2.3 Will You Be My Friend? — Introduction to Functional Groups",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "A carbon compound may contain atoms or groups of atoms that replace hydrogen atoms in a carbon chain. These atoms or groups are called <strong>functional groups</strong>."
+        },
+        {
+          "type": "heading",
+          "text": "Functional Group"
+        },
+        {
+          "type": "text",
+          "text": "A <strong>functional group</strong> is an atom or group of atoms present in a carbon compound that determines its characteristic chemical properties. For example, the —OH group is called the alcohol group. \\(\\ce{CH3-OH}\\) is methanol."
+        },
+        {
+          "type": "heading",
+          "text": "Important functional groups"
+        },
+        {
+          "type": "table",
+          "label": "Important functional groups and examples",
+          "headers": [
+            "Functional group",
+            "Name",
+            "Example"
+          ],
+          "rows": [
+            [
+              "—OH",
+              "Alcohol",
+              "CH₃—OH"
+            ],
+            [
+              "—CHO",
+              "Aldehyde",
+              "CH₃—CHO"
+            ],
+            [
+              ">C=O",
+              "Ketone",
+              "CH₃—CO—CH₃"
+            ],
+            [
+              "—COOH",
+              "Carboxylic acid",
+              "CH₃—COOH"
+            ],
+            [
+              "—X",
+              "Halo group",
+              "CH₃—Cl"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Here, X represents a halogen such as F, Cl, Br or I. Functional groups are important because they give carbon compounds their specific chemical properties."
+        }
+      ]
+    },
+    {
+      "heading": "4.2.4 Homologous Series",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "A <strong>homologous series</strong> is a group of carbon compounds having:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "The same functional group.",
+            "The same general formula.",
+            "Similar chemical properties.",
+            "Successive members differing by a —CH₂— unit."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Example: Homologous series of alkanes"
+        },
+        {
+          "type": "list",
+          "items": [
+            "CH₄ — Methane",
+            "CH₃—CH₃ — Ethane",
+            "CH₃—CH₂—CH₃ — Propane",
+            "CH₃—CH₂—CH₂—CH₃ — Butane"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Notice that each successive compound differs by —CH₂—:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH4 -> CH3-CH3 -> CH3-CH2-CH3}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Each step adds one —CH₂— unit. The molecular mass of successive members also increases by 14 u because C = 12 u and H₂ = 2 u; therefore, CH₂ = 14 u."
+        },
+        {
+          "type": "heading",
+          "text": "Example: Alcohols"
+        },
+        {
+          "type": "list",
+          "items": [
+            "CH₃—OH — Methanol",
+            "CH₃—CH₂—OH — Ethanol",
+            "CH₃—CH₂—CH₂—OH — Propanol"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Each successive member differs by —CH₂—. So, the key idea is: same functional group + same general formula + successive members differ by —CH₂— = homologous series."
+        }
+      ]
+    },
+    {
+      "heading": "4.2.5 Nomenclature of Carbon Compounds",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Nomenclature</strong> means the systematic naming of carbon compounds. The names of carbon compounds are decided mainly by the number of carbon atoms in the longest chain, the type of bond present and the functional group present."
+        },
+        {
+          "type": "heading",
+          "text": "1. Names based on the number of carbon atoms"
+        },
+        {
+          "type": "table",
+          "label": "Prefixes for the number of carbon atoms",
+          "headers": [
+            "Number of carbon atoms",
+            "Name"
+          ],
+          "rows": [
+            [
+              "1",
+              "Meth-"
+            ],
+            [
+              "2",
+              "Eth-"
+            ],
+            [
+              "3",
+              "Prop-"
+            ],
+            [
+              "4",
+              "But-"
+            ],
+            [
+              "5",
+              "Pent-"
+            ],
+            [
+              "6",
+              "Hex-"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "2. Names based on the type of bond"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Single bond → -ane",
+            "Double bond → -ene",
+            "Triple bond → -yne"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Examples:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "CH₃—CH₃: 2 carbon atoms + single bond → Ethane",
+            "CH₂=CH₂: 2 carbon atoms + double bond → Ethene",
+            "HC≡CH: 2 carbon atoms + triple bond → Ethyne"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "3. Naming compounds with functional groups"
+        },
+        {
+          "type": "text",
+          "text": "The functional group is given an appropriate suffix. For example, for \\(\\ce{CH3-CH2-OH}\\), 2 carbon atoms → Eth- and the alcohol group (—OH) → -ol; therefore, the name is Ethanol."
+        },
+        {
+          "type": "text",
+          "text": "Another example: for \\(\\ce{CH3-COOH}\\), 2 carbon atoms → Eth- and the carboxylic acid group (—COOH) → -oic acid; therefore, the name is Ethanoic acid."
+        },
+        {
+          "type": "heading",
+          "text": "Basic pattern"
+        },
+        {
+          "type": "text",
+          "text": "Number of carbons + type of bond + functional group. For Class 10, remember the important prefixes: Meth-, Eth-, Prop-, But-, Pent-, Hex-."
+        }
+      ]
+    },
+    {
+      "heading": "4.3 Chemical Properties of Carbon Compounds",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Carbon compounds undergo different types of chemical reactions. The important reactions discussed in this chapter are:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Combustion",
+            "Oxidation",
+            "Addition reaction",
+            "Substitution reaction"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "These reactions help us understand how carbon compounds behave when they react with other substances."
+        },
+        {
+          "type": "heading",
+          "text": "4.3.1 Combustion"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Combustion</strong> is a chemical reaction in which a substance reacts with oxygen and produces heat and light. Carbon compounds generally burn in oxygen to produce carbon dioxide and water, along with heat and light."
+        },
+        {
+          "type": "heading",
+          "text": "Example: Methane"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH4 + 2O2 -> CO2 + 2H2O} + \\text{Heat}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "Example: Ethanol"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C2H5OH + 3O2 -> 2CO2 + 3H2O} + \\text{Heat}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Carbon compounds are commonly used as fuels because their combustion releases a large amount of energy."
+        },
+        {
+          "type": "heading",
+          "text": "Complete and incomplete combustion"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Sufficient oxygen: complete combustion occurs, producing mainly carbon dioxide and water.",
+            "Insufficient oxygen: incomplete combustion may produce carbon monoxide (CO) or carbon (soot). Carbon monoxide is poisonous."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "In short:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Carbon compound} + \\ce{O2 -> CO2 + H2O} + \\text{Heat}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "4.3.2 Oxidation"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Oxidation</strong> is a chemical reaction in which a substance gains oxygen or loses hydrogen. In carbon compounds, alcohols can be oxidised to carboxylic acids. For example, ethanol is oxidised to ethanoic acid:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3CH2OH + 2O -> CH3COOH + H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "This oxidation can be carried out using oxidising agents such as alkaline potassium permanganate (KMnO₄) or acidified potassium dichromate (K₂Cr₂O₇). Thus, ethanol is oxidised to ethanoic acid."
+        },
+        {
+          "type": "heading",
+          "text": "4.3.3 Addition Reaction"
+        },
+        {
+          "type": "text",
+          "text": "An <strong>addition reaction</strong> is a reaction in which an unsaturated carbon compound combines with another substance to form a single product. It usually occurs in compounds containing a double bond or triple bond."
+        },
+        {
+          "type": "heading",
+          "text": "Example: Addition of hydrogen to ethene"
+        },
+        {
+          "type": "text",
+          "text": "Ethene contains a double bond: \\(\\ce{CH2=CH2}\\). When hydrogen is added in the presence of nickel (Ni) catalyst, ethene forms ethane:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH2=CH2 + H2 ->[Ni] CH3-CH3}\\]"
+        },
+        {
+          "type": "text",
+          "text": "This is called <strong>hydrogenation</strong>. Hydrogenation is used in the manufacture of vegetable ghee from vegetable oils."
+        },
+        {
+          "type": "heading",
+          "text": "Important point"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Unsaturated compound} + \\ce{H2} \\longrightarrow \\text{Saturated compound}\\]"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C=C + H2 -> C-C}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The double bond becomes a single bond."
+        },
+        {
+          "type": "heading",
+          "text": "4.3.4 Substitution Reaction"
+        },
+        {
+          "type": "text",
+          "text": "A <strong>substitution reaction</strong> is a reaction in which one atom or group of atoms in a compound is replaced by another atom or group of atoms. Substitution reactions are commonly shown by saturated hydrocarbons."
+        },
+        {
+          "type": "heading",
+          "text": "Example: Chlorination of methane"
+        },
+        {
+          "type": "text",
+          "text": "Methane reacts with chlorine in the presence of sunlight."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH4 + Cl2 ->[sunlight] CH3Cl + HCl}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Here, one hydrogen atom of methane is replaced by a chlorine atom, forming \\(\\ce{CH3-Cl}\\). The reaction can continue further if excess chlorine is present."
+        },
+        {
+          "type": "text",
+          "text": "<strong>Key point:</strong> In a substitution reaction, an atom or group in a compound is replaced by another atom or group."
+        }
+      ]
+    },
+    {
+      "heading": "4.4 Some Important Carbon Compounds – Ethanol and Ethanoic Acid",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Two important carbon compounds discussed in this chapter are ethanol and ethanoic acid."
+        },
+        {
+          "type": "heading",
+          "text": "Ethanol"
+        },
+        {
+          "type": "text",
+          "text": "Ethanol is an alcohol with the molecular formula C₂H₅OH. Its structure is:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3-CH2-OH}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The —OH group is the functional group of alcohols."
+        },
+        {
+          "type": "heading",
+          "text": "Ethanoic acid"
+        },
+        {
+          "type": "text",
+          "text": "Ethanoic acid is a carboxylic acid with the molecular formula CH₃COOH. Its structure is:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3-COOH}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The —COOH group is the functional group of carboxylic acids. Both ethanol and ethanoic acid are important carbon compounds with many uses and characteristic chemical properties."
+        },
+        {
+          "type": "heading",
+          "text": "4.4.1 Properties of Ethanol"
+        },
+        {
+          "type": "text",
+          "text": "Ethanol is an alcohol with the molecular formula C₂H₅OH. Structure: \\(\\ce{CH3-CH2-OH}\\)."
+        },
+        {
+          "type": "heading",
+          "text": "Physical properties"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ethanol is a colourless liquid.",
+            "It is soluble in water.",
+            "It has a characteristic smell.",
+            "It has a low melting point and boiling point compared with many ionic compounds.",
+            "Ethanol is flammable and burns with a clean flame."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Chemical properties"
+        },
+        {
+          "type": "heading",
+          "text": "1. Reaction with sodium"
+        },
+        {
+          "type": "text",
+          "text": "Ethanol reacts with sodium to produce sodium ethoxide and hydrogen gas."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2C2H5OH + 2Na -> 2C2H5ONa + H2}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Hydrogen gas is released during the reaction."
+        },
+        {
+          "type": "heading",
+          "text": "2. Oxidation"
+        },
+        {
+          "type": "text",
+          "text": "Ethanol can be oxidised to ethanoic acid."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3CH2OH + 2O -> CH3COOH + H2O}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "3. Dehydration"
+        },
+        {
+          "type": "text",
+          "text": "When ethanol is heated with concentrated sulphuric acid at 443 K, it loses water and forms ethene:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C2H5OH -> C2H4 + H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Structure of ethene: \\(\\ce{CH2=CH2}\\). This reaction is called <strong>dehydration</strong> because water is removed from ethanol."
+        }
+      ]
+    },
+    {
+      "heading": "4.4.2 Properties of Ethanoic Acid",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Ethanoic acid is a carboxylic acid with the molecular formula CH₃COOH. Structure: \\(\\ce{CH3-COOH}\\). The —COOH group is called the carboxylic acid group."
+        },
+        {
+          "type": "heading",
+          "text": "Physical properties"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ethanoic acid is a colourless liquid.",
+            "It has a pungent smell.",
+            "It is soluble in water.",
+            "Pure ethanoic acid freezes at about 290 K (16.6°C). Therefore, in cold weather, it can freeze and form ice-like crystals. This is why pure ethanoic acid is called glacial acetic acid."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Chemical properties"
+        },
+        {
+          "type": "heading",
+          "text": "1. Reaction with sodium"
+        },
+        {
+          "type": "text",
+          "text": "Ethanoic acid reacts with sodium to produce sodium ethanoate and hydrogen gas."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2CH3COOH + 2Na -> 2CH3COONa + H2}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "2. Reaction with sodium hydroxide"
+        },
+        {
+          "type": "text",
+          "text": "Ethanoic acid reacts with sodium hydroxide to form sodium ethanoate and water."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3COOH + NaOH -> CH3COONa + H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "This is a neutralisation reaction."
+        },
+        {
+          "type": "heading",
+          "text": "3. Reaction with sodium hydrogen carbonate"
+        },
+        {
+          "type": "text",
+          "text": "Ethanoic acid reacts with sodium hydrogen carbonate to produce sodium ethanoate, carbon dioxide and water."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3COOH + NaHCO3 -> CH3COONa + CO2 + H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The effervescence observed is due to the release of carbon dioxide gas."
+        },
+        {
+          "type": "heading",
+          "text": "4. Esterification"
+        },
+        {
+          "type": "text",
+          "text": "Ethanoic acid reacts with ethanol in the presence of concentrated sulphuric acid to form an ester and water."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3COOH + C2H5OH -> CH3COOC2H5 + H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The ester formed is ethyl ethanoate, which has a sweet smell. This reaction is called <strong>esterification</strong>."
+        }
+      ]
+    },
+    {
+      "heading": "4.5 Soaps and Detergents",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Soaps"
+        },
+        {
+          "type": "text",
+          "text": "Soaps are the sodium or potassium salts of long-chain carboxylic acids. A soap molecule has two parts: a hydrophobic tail and a hydrophilic head."
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Hydrophobic tail:</strong> Long hydrocarbon chain; does not mix with water but attaches to oil and grease.",
+            "<strong>Hydrophilic head:</strong> Ionic part; mixes with water."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Example of a soap molecule:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3-(CH2)16-COO^- Na+}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The hydrocarbon chain is the hydrophobic part, while —COO⁻Na⁺ is the hydrophilic part."
+        },
+        {
+          "type": "heading",
+          "text": "Detergents"
+        },
+        {
+          "type": "text",
+          "text": "Detergents are generally ammonium or sulphonate salts of long-chain hydrocarbons. Example:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3-(CH2)11-SO3^- Na+}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Detergents can work effectively even in hard water, whereas soaps do not work well in hard water."
+        },
+        {
+          "type": "heading",
+          "text": "Soap in hard water"
+        },
+        {
+          "type": "text",
+          "text": "Hard water contains calcium and magnesium ions. These ions react with soap to form an insoluble substance called scum."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2RCOONa + Ca^{2+} -> Ca(RCOO)2 v + 2Na+}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Because of the formation of scum, soap produces less lather and becomes less effective in hard water."
+        },
+        {
+          "type": "heading",
+          "text": "Micelles"
+        },
+        {
+          "type": "text",
+          "text": "When soap is added to water, soap molecules arrange themselves into a spherical structure called a <strong>micelle</strong>. A soap molecule is \\(\\ce{CH3-(CH2)16-COO^- Na+}\\)."
+        },
+        {
+          "type": "list",
+          "items": [
+            "The long hydrocarbon chain is the hydrophobic tail. It is attracted to oil and grease and repelled by water.",
+            "The ionic end is the hydrophilic head. It is attracted to water."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Formation of a micelle"
+        },
+        {
+          "type": "text",
+          "text": "When soap surrounds an oil or grease particle, the hydrophobic tails point towards the grease, while the hydrophilic heads point towards the water:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Hydrophilic heads} \\longrightarrow \\text{water} \\quad \\text{Hydrophobic tails} \\longrightarrow \\text{grease}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The grease gets trapped inside the micelle. When the cloth is washed with water, the micelles carrying the grease are removed. Thus, soap helps remove oily dirt from clothes because of micelle formation."
+        }
+      ]
+    }
+  ],
+  "summary": "Carbon forms covalent bonds by sharing electrons. Its valency of four (tetravalency) and ability to bond with itself (catenation) allow it to form many compounds with straight chains, branches and rings. Carbon occurs as diamond, graphite and fullerenes, and its compounds may be saturated or unsaturated. Functional groups, homologous series and carbon-chain length and bonding are used to classify and name carbon compounds. Important reactions include combustion, oxidation, addition and substitution. Ethanol and ethanoic acid have characteristic structures and reactions, including dehydration, neutralisation and esterification. Soaps and detergents clean through their interaction with grease; soap forms micelles, while hard-water ions form scum with soap.",
+  "qa": [
+    {
+      "q": "Why does carbon form covalent bonds?",
+      "a": "Carbon has four electrons in its outermost shell. Losing or gaining four electrons is difficult, so it achieves stability by sharing electrons with other atoms."
+    },
+    {
+      "q": "What are tetravalency and catenation?",
+      "a": "Tetravalency is carbon's ability to form four covalent bonds. Catenation is the ability of carbon atoms to bond with one another."
+    },
+    {
+      "q": "How do saturated and unsaturated carbon compounds differ?",
+      "a": "Saturated compounds contain only single bonds between carbon atoms; unsaturated compounds contain double or triple carbon-carbon bonds."
+    },
+    {
+      "q": "What is a functional group?",
+      "a": "It is an atom or group of atoms in a carbon compound that determines its characteristic chemical properties."
+    },
+    {
+      "q": "What is a homologous series?",
+      "a": "It is a group of carbon compounds with the same functional group and general formula, similar chemical properties, and successive members that differ by a —CH₂— unit."
+    },
+    {
+      "q": "What is hydrogenation?",
+      "a": "It is an addition reaction in which hydrogen is added to an unsaturated compound, such as ethene, in the presence of a nickel catalyst to form a saturated compound."
+    },
+    {
+      "q": "What forms when ethanoic acid reacts with sodium hydrogen carbonate?",
+      "a": "Sodium ethanoate, carbon dioxide and water form; the released carbon dioxide causes effervescence."
+    },
+    {
+      "q": "Why is soap less effective in hard water?",
+      "a": "Calcium and magnesium ions in hard water react with soap to form insoluble scum, so soap produces less lather and becomes less effective."
+    },
+    {
+      "q": "How does a soap micelle help remove grease?",
+      "a": "The hydrophobic tails point towards and trap grease, while the hydrophilic heads point towards water. The micelles carrying grease can then be removed during washing."
+    }
+  ]
+}
