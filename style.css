@@ -883,6 +883,7 @@ button.dashboard-card:focus-visible {
 
 .reader-paper {
   grid-area: paper;
+  min-width: 0;
   --reader-font-size: 18px;
   --reader-line-height: 1.75;
   min-height: 70vh;
@@ -959,6 +960,7 @@ button.dashboard-card:focus-visible {
   cursor: not-allowed;
 }
 .reader-content {
+  min-width: 0;
   font-family: var(--content-font);
   font-size: var(--reader-font-size);
   line-height: var(--reader-line-height);
@@ -978,10 +980,16 @@ button.dashboard-card:focus-visible {
   font-size: 25px;
 }
 .reader-content h4 { font-size: 20px; }
-.reader-content p { margin: 0 0 1.1em; }
+.reader-content p {
+  margin: 0 0 1.1em;
+  overflow-wrap: anywhere;
+}
 .reader-content ul,
 .reader-content ol { padding-left: 1.5em; }
-.reader-content li { margin-bottom: 0.55em; }
+.reader-content li {
+  margin-bottom: 0.55em;
+  overflow-wrap: anywhere;
+}
 
 /* Mathematical and scientific notation */
 .math-expression {
