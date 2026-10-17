@@ -20,6 +20,7 @@
   --radius-card: 1.5rem;
   --radius-control: 1rem;
   --radius-pill: 9999px;
+  --space-md: 1rem;
   --space-lg: 1.5rem;
   --space-xl: 2rem;
   --paper: var(--color-canvas);
@@ -1550,8 +1551,24 @@ button.dashboard-card:focus-visible {
     font-size: 12px;
   }
   .reader-paper {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
     padding: 25px 19px;
     box-shadow: 5px 5px 0 var(--shadow);
+  }
+  .reader-content,
+  .reader-content > *,
+  .notes-list,
+  .note-topic,
+  .note-topic-content {
+    min-width: 0;
+    max-width: 100%;
+  }
+  .reader-content h2,
+  .reader-content h3,
+  .reader-content h4 {
+    overflow-wrap: anywhere;
   }
   .reader-meta-row {
     align-items: flex-start;
