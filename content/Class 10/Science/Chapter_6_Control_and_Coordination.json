@@ -1,0 +1,555 @@
+{
+  "title": "Control and Coordination",
+  "class": "10",
+  "subject": "Science",
+  "chapter": "Chapter 6",
+  "book": "NCERT Science",
+  "notes": [
+    {
+      "heading": "6.1 Animals – Nervous System",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Animals need to respond to changes in their surroundings. These changes are called <strong>stimuli</strong>. For example:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Touching a hot object → quickly pulling the hand away.",
+            "Seeing food → salivating.",
+            "Hearing a loud sound → turning towards it."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The <strong>nervous system</strong> controls and coordinates these responses. In humans, the nervous system consists mainly of:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Brain</strong>",
+            "<strong>Spinal cord</strong>",
+            "<strong>Nerves</strong>"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The basic unit of the nervous system is the <strong>neuron</strong> or nerve cell. A neuron receives information, processes it and transmits messages as <strong>electrical impulses</strong>."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\underset{\\text{Receive signal}}{\\text{Dendrites}} \\longrightarrow \\underset{\\text{Process signal}}{\\text{Cell body}} \\longrightarrow \\underset{\\text{Carry signal}}{\\text{Axon}} \\longrightarrow \\text{Nerve endings}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The nervous system allows the body to detect stimuli, process information and produce an appropriate response."
+        }
+      ]
+    },
+    {
+      "heading": "6.1.1 What Happens in Reflex Actions?",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "A <strong>reflex action</strong> is a quick, automatic and involuntary response to a stimulus. For example, when we touch a hot object, we immediately pull our hand away."
+        },
+        {
+          "type": "text",
+          "text": "The pathway followed by nerve impulses during a reflex action is called a <strong>reflex arc</strong>."
+        },
+        {
+          "type": "heading",
+          "text": "Reflex arc"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Stimulus} \\longrightarrow \\text{Receptor in skin} \\longrightarrow \\text{Sensory neuron} \\longrightarrow \\text{Spinal cord} \\longrightarrow \\text{Motor neuron} \\longrightarrow \\text{Muscle} \\longrightarrow \\text{Response}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "How does it happen?"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "The <strong>receptor</strong> in the skin detects the stimulus, such as heat.",
+            "A nerve impulse travels through the <strong>sensory neuron</strong> to the spinal cord.",
+            "The <strong>spinal cord</strong> processes the information and sends an impulse through a motor neuron.",
+            "The <strong>motor neuron</strong> carries the impulse to the muscle.",
+            "The <strong>muscle</strong> contracts and the hand is pulled away."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The brain is informed about the response after or during the reflex action, but the immediate response is coordinated mainly by the <strong>spinal cord</strong>. Reflex actions help protect the body from harmful stimuli."
+        }
+      ]
+    },
+    {
+      "heading": "6.1.2 Human Brain",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The <strong>brain</strong> is the main coordinating centre of the nervous system. It receives information from different parts of the body, processes it and controls responses. The brain is protected by the <strong>skull</strong>."
+        },
+        {
+          "type": "text",
+          "text": "The human brain has three major parts:"
+        },
+        {
+          "type": "heading",
+          "text": "1. Forebrain"
+        },
+        {
+          "type": "text",
+          "text": "The forebrain is the main thinking part of the brain. It is responsible for:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Thinking and reasoning",
+            "Memory",
+            "Learning",
+            "Emotions",
+            "Receiving information from sense organs",
+            "Controlling voluntary actions"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The <strong>cerebrum</strong> is the major part of the forebrain."
+        },
+        {
+          "type": "heading",
+          "text": "2. Midbrain"
+        },
+        {
+          "type": "text",
+          "text": "The midbrain controls some involuntary responses, especially those related to visual and auditory stimuli. For example, it helps in the movement of the eyes and the turning of the head in response to a sound."
+        },
+        {
+          "type": "heading",
+          "text": "3. Hindbrain"
+        },
+        {
+          "type": "text",
+          "text": "The hindbrain contains:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Cerebellum</strong>",
+            "<strong>Pons</strong>",
+            "<strong>Medulla</strong>"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The <strong>cerebellum</strong> helps maintain balance, posture and coordination of movements. The <strong>medulla</strong> controls involuntary activities such as:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Breathing",
+            "Heartbeat",
+            "Blood pressure",
+            "Vomiting"
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Overview of the Human Brain",
+          "headers": [
+            "Major Part",
+            "Sub-part",
+            "Main Functions"
+          ],
+          "rows": [
+            [
+              "Forebrain",
+              "Cerebrum",
+              "Thinking, memory, voluntary actions"
+            ],
+            [
+              "Midbrain",
+              "—",
+              "Visual and auditory reflexes"
+            ],
+            [
+              "Hindbrain",
+              "Cerebellum",
+              "Balance and coordination"
+            ],
+            [
+              "Hindbrain",
+              "Pons",
+              "Regulation of breathing"
+            ],
+            [
+              "Hindbrain",
+              "Medulla",
+              "Involuntary activities (breathing, heartbeat, blood pressure, vomiting)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "6.1.3 How are these Tissues Protected?",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The brain and spinal cord are delicate organs, so they need protection from physical damage."
+        },
+        {
+          "type": "heading",
+          "text": "Protection of the brain"
+        },
+        {
+          "type": "text",
+          "text": "The brain is protected by the <strong>skull</strong>, which is a hard bony structure surrounding the brain. Inside the skull, the brain is surrounded by a fluid called <strong>cerebrospinal fluid (CSF)</strong>. CSF:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Acts as a shock absorber.",
+            "Protects the brain from mechanical injury.",
+            "Provides a protective cushion around the brain."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Protection of the spinal cord"
+        },
+        {
+          "type": "text",
+          "text": "The spinal cord is protected by the <strong>vertebral column</strong>, also called the <strong>backbone</strong>."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Skull protects Brain} \\quad \\text{and} \\quad \\text{Vertebral column protects Spinal cord}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Thus, the skull protects the brain, while the vertebral column protects the spinal cord."
+        }
+      ]
+    },
+    {
+      "heading": "6.1.4 How does the Nervous Tissue cause Action?",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The nervous tissue helps the body respond to stimuli by transmitting messages in the form of <strong>electrical impulses</strong>. The basic unit of nervous tissue is the <strong>neuron</strong>."
+        },
+        {
+          "type": "heading",
+          "text": "Structure of a neuron"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Dendrites} \\longrightarrow \\text{Cell body} \\longrightarrow \\text{Axon} \\longrightarrow \\text{Nerve endings}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "How does a neuron transmit information?"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Dendrites</strong> receive information from a receptor or another neuron.",
+            "The information is converted into an <strong>electrical impulse</strong>.",
+            "The impulse travels through the <strong>cell body</strong> and <strong>axon</strong>.",
+            "At the end of the axon, the electrical impulse causes the release of <strong>chemicals</strong>.",
+            "These chemicals cross the small gap between two neurons, called a <strong>synapse</strong>.",
+            "The chemicals start a new electrical impulse in the next neuron."
+          ]
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Neuron 1 (Dendrites \\(\\to\\) Cell body \\(\\to\\) Axon \\(\\to\\) Nerve ending)} \\longrightarrow \\text{Chemicals across Synapse} \\longrightarrow \\text{Neuron 2 (Dendrites \\(\\to \\dots\\))}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The impulse may ultimately reach a muscle or gland, causing it to produce a response. For example, when we touch something hot:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Stimulus} \\longrightarrow \\text{Receptor} \\longrightarrow \\text{Sensory neuron} \\longrightarrow \\text{CNS} \\longrightarrow \\text{Motor neuron} \\longrightarrow \\text{Muscle} \\longrightarrow \\text{Response}\\]"
+        },
+        {
+          "type": "text",
+          "text": "This is how the nervous system coordinates actions and responses in the body."
+        }
+      ]
+    },
+    {
+      "heading": "6.2 Coordination in Plants",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Plants do not have a nervous system or brain like animals. However, plants still need to respond to changes in their surroundings, such as:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Light",
+            "Gravity",
+            "Water",
+            "Touch",
+            "Chemicals"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Plants coordinate their responses mainly through <strong>plant hormones</strong> and by changes in the growth of their cells. Plant responses are generally slower than animal responses because plants do not have specialised nervous tissue."
+        },
+        {
+          "type": "text",
+          "text": "There are two important types of responses:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Immediate response to stimulus</strong> — occurs without growth.",
+            "<strong>Movement due to growth</strong> — occurs because some parts of the plant grow faster than others."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "6.2.1 Immediate Response to Stimulus",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Plants can show immediate responses to certain stimuli even though they do not have a nervous system. These responses occur because of changes in the cells."
+        },
+        {
+          "type": "heading",
+          "text": "Example: Touch-me-not plant"
+        },
+        {
+          "type": "text",
+          "text": "The <strong>Mimosa pudica</strong> plant, commonly called the <strong>touch-me-not plant</strong>, folds its leaves when touched. The movement does not occur due to growth. When the plant is touched, certain cells change their water content, causing them to lose or gain water. This changes the shape of the affected part and causes the leaves to fold."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Touch} \\longrightarrow \\text{Change in water content of cells} \\longrightarrow \\text{Change in cell shape} \\longrightarrow \\text{Leaf folding}\\]"
+        },
+        {
+          "type": "text",
+          "text": "This is an example of a <strong>rapid response to a stimulus without growth</strong>."
+        }
+      ]
+    },
+    {
+      "heading": "6.2.2 Movement Due to Growth",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Plants also respond to stimuli by changing the direction or rate of their growth. These movements are called <strong>tropic movements</strong>. A <strong>tropic movement</strong> is the directional growth of a plant part in response to an external stimulus."
+        },
+        {
+          "type": "heading",
+          "text": "1. Phototropism"
+        },
+        {
+          "type": "text",
+          "text": "Growth in response to light is called <strong>phototropism</strong>. The shoot of a plant generally grows towards light, so it shows <strong>positive phototropism</strong>."
+        },
+        {
+          "type": "heading",
+          "text": "2. Geotropism"
+        },
+        {
+          "type": "text",
+          "text": "Growth in response to gravity is called <strong>geotropism</strong> or <strong>gravitropism</strong>:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Roots grow towards gravity → <strong>positive geotropism</strong>",
+            "Shoots grow away from gravity → <strong>negative geotropism</strong>"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "3. Hydrotropism"
+        },
+        {
+          "type": "text",
+          "text": "Growth in response to water is called <strong>hydrotropism</strong>. Roots generally grow towards a source of water."
+        },
+        {
+          "type": "heading",
+          "text": "4. Chemotropism"
+        },
+        {
+          "type": "text",
+          "text": "Growth in response to chemicals is called <strong>chemotropism</strong>. A common example is the growth of the <strong>pollen tube towards the ovule</strong> due to chemical substances."
+        },
+        {
+          "type": "heading",
+          "text": "Role of auxin"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Auxin</strong> is a plant hormone that promotes growth. In shoots, when light comes from one side, auxin moves towards the shaded side. Cells on that side grow faster, causing the shoot to bend towards the light. Thus, plant growth can produce movements in response to environmental stimuli."
+        }
+      ]
+    },
+    {
+      "heading": "6.3 Hormones in Animals",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Animals use <strong>hormones</strong> to control and coordinate many activities of the body. Hormones are chemical substances secreted by <strong>endocrine glands</strong>. They are released directly into the bloodstream and carried to specific target organs or tissues."
+        },
+        {
+          "type": "text",
+          "text": "Hormones help control processes such as:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Growth",
+            "Development",
+            "Metabolism",
+            "Reproduction",
+            "Response to stressful situations"
+          ]
+        },
+        {
+          "type": "table",
+          "label": "Important hormones and their functions",
+          "headers": [
+            "Endocrine gland",
+            "Hormone",
+            "Main function"
+          ],
+          "rows": [
+            [
+              "Pituitary gland",
+              "Growth hormone",
+              "Controls growth"
+            ],
+            [
+              "Thyroid gland",
+              "Thyroxine",
+              "Controls metabolism"
+            ],
+            [
+              "Adrenal gland",
+              "Adrenaline",
+              "Prepares the body for emergencies"
+            ],
+            [
+              "Pancreas",
+              "Insulin",
+              "Controls blood sugar level"
+            ],
+            [
+              "Testes",
+              "Testosterone",
+              "Development of male secondary sexual characteristics"
+            ],
+            [
+              "Ovaries",
+              "Oestrogen",
+              "Development of female secondary sexual characteristics"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Adrenaline"
+        },
+        {
+          "type": "text",
+          "text": "When a person is frightened, angry or in danger, the adrenal glands release <strong>adrenaline</strong>. Adrenaline increases:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Heart rate",
+            "Breathing rate",
+            "Blood flow to muscles"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "This prepares the body to deal with an emergency. This is commonly called the <strong>“fight or flight” response</strong>."
+        },
+        {
+          "type": "heading",
+          "text": "Plant hormones vs animal hormones"
+        },
+        {
+          "type": "text",
+          "text": "Both plants and animals use hormones for coordination, but animals also have a nervous system that allows much faster responses. Thus, coordination in animals takes place through both the <strong>nervous system</strong> and the <strong>endocrine system</strong>."
+        }
+      ]
+    }
+  ],
+  "summary": "Animals coordinate responses to stimuli through the nervous system (brain, spinal cord and nerves) and the endocrine system (hormones). Neurons transmit electrical impulses from dendrites through the cell body and axon to nerve endings, crossing synapses via chemical signals. Reflex actions are rapid, involuntary responses coordinated mainly by the spinal cord along a reflex arc. The human brain consists of the forebrain (cerebrum for thinking, memory and voluntary actions), midbrain (visual and auditory reflexes) and hindbrain (cerebellum for balance, pons for breathing regulation, and medulla for involuntary actions); it is protected by the skull and cerebrospinal fluid, while the vertebral column protects the spinal cord. Plants coordinate responses through changes in cell water content (immediate response without growth, as in Mimosa pudica) and directional growth or tropic movements (phototropism, geotropism, hydrotropism, chemotropism) mediated by plant hormones such as auxin. In animals, endocrine glands secrete hormones like growth hormone, thyroxine, adrenaline, insulin, testosterone and oestrogen into the bloodstream to regulate growth, metabolism, blood sugar, reproduction and emergency 'fight or flight' responses.",
+  "qa": [
+    {
+      "q": "What is the basic functional unit of the nervous system, and how does a signal travel through it?",
+      "a": "The neuron (nerve cell) is the basic unit of the nervous system. Information is received by the dendrites, processed in the cell body, and carried as an electrical impulse along the axon to the nerve endings.",
+      "section": "6.1 Animals – Nervous System"
+    },
+    {
+      "q": "What is a reflex action? Trace the sequence of events in a reflex arc.",
+      "a": "A reflex action is a quick, automatic and involuntary response to a stimulus, coordinated mainly by the spinal cord. The reflex arc pathway is: Stimulus → Receptor in skin → Sensory neuron → Spinal cord → Motor neuron → Muscle (effector) → Response.",
+      "section": "6.1.1 What Happens in Reflex Actions?"
+    },
+    {
+      "q": "State the functions of the forebrain, midbrain, cerebellum, pons and medulla in the human brain.",
+      "a": "Forebrain (cerebrum): thinking, memory, learning, emotions, sensory reception and voluntary actions. Midbrain: visual and auditory reflexes. Cerebellum: balance, posture and coordination of movements. Pons: regulation of breathing. Medulla: involuntary actions like heartbeat, breathing, blood pressure and vomiting.",
+      "section": "6.1.2 Human Brain"
+    },
+    {
+      "q": "How are the brain and spinal cord protected from mechanical injury?",
+      "a": "The brain is enclosed inside a hard bony skull and surrounded by cerebrospinal fluid (CSF), which acts as a shock-absorbing cushion. The spinal cord is protected by the bony vertebral column (backbone).",
+      "section": "6.1.3 How are these Tissues Protected?"
+    },
+    {
+      "q": "What is a synapse, and how does an impulse cross it?",
+      "a": "A synapse is the small gap between two adjacent neurons. When an electrical impulse reaches the end of an axon, it triggers the release of chemicals that diffuse across the synapse and start a new electrical impulse in the dendrites of the next neuron.",
+      "section": "6.1.4 How does the Nervous Tissue cause Action?"
+    },
+    {
+      "q": "What are the two main types of movements shown by plants in response to stimuli?",
+      "a": "Plants show (1) immediate response to stimulus without growth (by changing water content in cells) and (2) movement due to directional growth (tropic movements).",
+      "section": "6.2 Coordination in Plants"
+    },
+    {
+      "q": "How does the touch-me-not plant (Mimosa pudica) fold its leaves when touched?",
+      "a": "When Mimosa pudica is touched, plant cells change their water content, losing or gaining water to alter cell shape and cause the leaves to fold rapidly without involving growth.",
+      "section": "6.2.1 Immediate Response to Stimulus"
+    },
+    {
+      "q": "Define phototropism, geotropism, hydrotropism and chemotropism, and explain the role of auxin in phototropism.",
+      "a": "Phototropism is growth in response to light; geotropism is growth in response to gravity; hydrotropism is growth in response to water; chemotropism is growth in response to chemicals (e.g., pollen tube growing towards an ovule). When light falls on one side of a shoot, auxin diffuses to the shaded side and stimulates cells there to grow longer, bending the shoot towards light.",
+      "section": "6.2.2 Movement Due to Growth"
+    },
+    {
+      "q": "Name the hormones secreted by the pituitary, thyroid, adrenal, pancreas, testes and ovaries, and state how adrenaline prepares the body for emergencies.",
+      "a": "Pituitary: growth hormone (growth); Thyroid: thyroxine (metabolism); Adrenal: adrenaline (emergencies); Pancreas: insulin (blood sugar control); Testes: testosterone (male secondary sexual traits); Ovaries: oestrogen (female secondary sexual traits). Adrenaline increases heart rate, breathing rate and blood flow to muscles for the 'fight or flight' response.",
+      "section": "6.3 Hormones in Animals"
+    }
+  ]
+}

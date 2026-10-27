@@ -1,0 +1,646 @@
+{
+  "title": "Electricity",
+  "class": "10",
+  "subject": "Science",
+  "chapter": "Chapter 11",
+  "book": "NCERT Science",
+  "notes": [
+    {
+      "heading": "11.1 Electric Current and Circuit",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Electric current</strong> is the rate of flow of electric charges through a conductor.",
+            "Electric current is represented by \\(I\\).",
+            "If a charge \\(Q\\) flows through a conductor in time \\(t\\), then:"
+          ]
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{I = \\frac{Q}{t}}\\]"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>SI unit of electric current:</strong> <strong>ampere (A)</strong>.",
+            "<strong>1 ampere</strong> is the current when <strong>1 coulomb</strong> of charge flows through a conductor in <strong>1 second</strong>."
+          ]
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{1\\text{ A} = 1\\text{ C s}^{-1}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Electric current flows through a conductor only when there is a <strong>closed conducting path</strong>."
+        },
+        {
+          "type": "heading",
+          "text": "Electric Circuit"
+        },
+        {
+          "type": "text",
+          "text": "An <strong>electric circuit</strong> is a continuous and closed path through which electric current flows. A simple electric circuit consists of:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Electric cell/battery</strong> – provides electrical energy.",
+            "<strong>Connecting wires</strong> – provide a path for current.",
+            "<strong>Switch</strong> – opens or closes the circuit.",
+            "<strong>Electric appliance/load</strong> – uses electrical energy."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Conventional direction of current:</strong> From the <strong>positive terminal to the negative terminal</strong> of a cell through the external circuit.",
+            "The <strong>actual flow of electrons</strong> is <strong>opposite</strong> to the conventional direction of current."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "11.2 Electric Potential and Potential Difference",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Electric potential:</strong> The electric potential at a point is the work done in bringing a unit positive charge from infinity to that point.",
+            "Electric potential is represented by \\(V\\):"
+          ]
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{V = \\frac{W}{Q}}\\]"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Where \\(V\\) = electric potential, \\(W\\) = work done, and \\(Q\\) = charge.",
+            "<strong>SI unit of electric potential:</strong> <strong>volt (V)</strong>."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Potential Difference"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Potential difference</strong> between two points is the work done to move a unit charge from one point to another:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{V = \\frac{W}{Q}}\\]"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "The SI unit of potential difference is <strong>volt (V)</strong>.",
+            "<strong>1 volt</strong> is the potential difference when <strong>1 joule</strong> of work is done to move <strong>1 coulomb</strong> of charge:"
+          ]
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{1\\text{ V} = 1\\text{ J C}^{-1}}\\]"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Potential difference is measured using a <strong>voltmeter</strong>.",
+            "A voltmeter is connected in <strong>parallel</strong> across the component whose potential difference is to be measured.",
+            "A cell or battery provides the potential difference needed to make electric current flow in a circuit."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "11.3 Circuit Diagram",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "A <strong>circuit diagram</strong> is a graphical representation of an electric circuit using standard electrical symbols."
+        },
+        {
+          "type": "heading",
+          "text": "Common Circuit Symbols"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Electric cell:</strong> Represents a source of electrical energy.",
+            "<strong>Battery:</strong> Combination of two or more cells.",
+            "<strong>Switch:</strong> Used to open or close the circuit.",
+            "<strong>Bulb:</strong> Converts electrical energy into light and heat.",
+            "<strong>Resistor:</strong> Offers resistance to the flow of electric current.",
+            "<strong>Ammeter:</strong> Measures electric current and is connected in <strong>series</strong>.",
+            "<strong>Voltmeter:</strong> Measures potential difference and is connected in <strong>parallel</strong>."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Important Points"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "A <strong>closed circuit</strong> allows electric current to flow.",
+            "An <strong>open circuit</strong> does not allow electric current to flow.",
+            "Circuit diagrams make electrical circuits easy to understand and analyse."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "11.4 Ohm’s Law",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Ohm’s law:</strong> At constant temperature, the current flowing through a conductor is directly proportional to the potential difference across its ends."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{V \\propto I}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Therefore:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{V = IR}\\]"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(V\\) = potential difference (volt)",
+            "\\(I\\) = electric current (ampere)",
+            "\\(R\\) = resistance (ohm)"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Resistance can be calculated as:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{R = \\frac{V}{I}}\\]"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "The SI unit of resistance is <strong>ohm (\\(\\Omega\\))</strong>.",
+            "A conductor has a resistance of \\(1\\ \\Omega\\) if a potential difference of \\(1\\text{ V}\\) produces a current of \\(1\\text{ A}\\) through it:"
+          ]
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{1\\ \\Omega = 1\\text{ V A}^{-1}}\\]"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "The \\(V\\text{–}I\\) graph for an ohmic conductor is a <strong>straight line passing through the origin</strong>.",
+            "Ohm's law is valid when the <strong>temperature and other physical conditions remain constant</strong>."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "11.5 Factors on which the Resistance of the Conductor Depends",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The resistance of a conductor depends on the following factors:"
+        },
+        {
+          "type": "heading",
+          "text": "1. Length of the conductor"
+        },
+        {
+          "type": "text",
+          "text": "Resistance is directly proportional to the length of the conductor:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{R \\propto l}\\]"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Longer conductor → greater resistance.",
+            "Shorter conductor → smaller resistance."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "2. Area of cross-section"
+        },
+        {
+          "type": "text",
+          "text": "Resistance is inversely proportional to the area of cross-section:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{R \\propto \\frac{1}{A}}\\]"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Thicker conductor → smaller resistance.",
+            "Thinner conductor → greater resistance."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "3. Nature of the material"
+        },
+        {
+          "type": "text",
+          "text": "Different materials have different resistances. This property is represented by <strong>resistivity (\\(\\rho\\))</strong>."
+        },
+        {
+          "type": "heading",
+          "text": "4. Temperature"
+        },
+        {
+          "type": "text",
+          "text": "The resistance of most metallic conductors increases when temperature increases."
+        },
+        {
+          "type": "heading",
+          "text": "Formula for Resistance"
+        },
+        {
+          "type": "text",
+          "text": "Combining the above factors:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{R = \\rho \\frac{l}{A}}\\]"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(R\\) = resistance",
+            "\\(\\rho\\) = resistivity of the material",
+            "\\(l\\) = length of conductor",
+            "\\(A\\) = area of cross-section"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Resistivity"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Resistivity</strong> is a property of a material that indicates how strongly it opposes the flow of electric current.",
+            "<strong>SI unit of resistivity</strong> is <strong>ohm-metre (\\(\\Omega\\text{ m}\\))</strong>.",
+            "Resistivity depends on the <strong>nature of the material and temperature</strong>, but <strong>not</strong> on the length or thickness of the conductor."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "11.6 Resistance of a System of Resistors",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "In an electric circuit, two or more resistors can be connected in different ways. The two common methods are:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Series combination</strong>",
+            "<strong>Parallel combination</strong>"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "The overall resistance of the combination is called <strong>equivalent resistance</strong> or <strong>effective resistance</strong>.",
+            "Equivalent resistance is the resistance that can replace the entire combination without changing the current and voltage relationship in the circuit."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "11.6.1 Resistors in Series",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Resistors are said to be connected in <strong>series</strong> when they are connected one after another in a single path.",
+            "The <strong>same current</strong> flows through every resistor.",
+            "The total potential difference is the sum of the potential differences across each resistor:"
+          ]
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{V = V_1 + V_2 + V_3}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Equivalent resistance is:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{R_s = R_1 + R_2 + R_3}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Therefore, <strong>resistance in series is greater than the resistance of any individual resistor</strong>."
+        }
+      ]
+    },
+    {
+      "heading": "11.6.2 Resistors in Parallel",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Resistors are said to be connected in <strong>parallel</strong> when their ends are connected to the same two points of a circuit.",
+            "The <strong>same potential difference</strong> acts across each resistor.",
+            "The total current is the sum of the currents through the individual resistors:"
+          ]
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{I = I_1 + I_2 + I_3}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Equivalent resistance is given by:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{\\frac{1}{R_p} = \\frac{1}{R_1} + \\frac{1}{R_2} + \\frac{1}{R_3}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The <strong>equivalent resistance in parallel is less than the smallest individual resistance</strong>."
+        }
+      ]
+    },
+    {
+      "heading": "11.7 Heating Effect of Electric Current",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "When an electric current flows through a resistance, electrical energy is converted into <strong>heat energy</strong>.",
+            "This is called the <strong>heating effect of electric current</strong>."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Joule's Law of Heating"
+        },
+        {
+          "type": "text",
+          "text": "The heat produced in a resistor is given by:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{H = I^2 R t}\\]"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(H\\) = heat produced",
+            "\\(I\\) = current",
+            "\\(R\\) = resistance",
+            "\\(t\\) = time"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Using Ohm's law, \\(V = IR\\), the heat produced can also be written as:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{H = VIt} \\quad \\text{or} \\quad \\boxed{H = \\frac{V^2 t}{R}}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "Factors affecting heat produced"
+        },
+        {
+          "type": "text",
+          "text": "From \\(H = I^2 R t\\), heat produced depends on:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Square of current (\\(I^2\\))</strong> — greater current → greater heat produced.",
+            "<strong>Resistance (\\(R\\))</strong> — greater resistance → greater heat produced.",
+            "<strong>Time (\\(t\\))</strong> — longer time → greater heat produced."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "11.7.1 Practical Applications of Heating Effect of Electric Current",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The heating effect of electric current is used in many electrical appliances."
+        },
+        {
+          "type": "heading",
+          "text": "Electric Heater and Electric Iron"
+        },
+        {
+          "type": "text",
+          "text": "Appliances such as electric heaters, electric irons and toasters use heating elements made of materials having high resistance. <strong>Nichrome</strong> is commonly used for heating elements because:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "It has <strong>high resistivity</strong>.",
+            "It has a <strong>high melting point</strong>.",
+            "It <strong>does not oxidise easily</strong> at high temperature."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Electric Fuse"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "An <strong>electric fuse</strong> is a safety device used to protect electrical circuits from excessive current.",
+            "It contains a wire made of a material having <strong>high resistance and low melting point</strong>.",
+            "When excessive current flows, the fuse wire becomes very hot and melts, breaking the circuit.",
+            "This prevents damage to electrical appliances and wiring."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Important"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Heater/iron/toaster</strong> → Heating effect",
+            "<strong>Nichrome</strong> → Heating element",
+            "<strong>Fuse</strong> → Safety device",
+            "<strong>Excess current</strong> → Fuse melts → Circuit breaks"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "11.8 Electric Power",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Electric power</strong> is the rate at which electrical energy is consumed or converted into another form of energy:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{P = \\frac{W}{t}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Where \\(P\\) = electric power, \\(W\\) = electrical energy, and \\(t\\) = time. Using \\(V = IR\\), electric power can also be written as:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{P = VI} \\quad , \\quad \\boxed{P = I^2 R} \\quad , \\quad \\boxed{P = \\frac{V^2}{R}}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "SI Unit"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "The SI unit of electric power is <strong>watt (W)</strong>.",
+            "<strong>1 watt</strong> is the power consumed when <strong>1 ampere</strong> of current flows through a potential difference of <strong>1 volt</strong>:"
+          ]
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{1\\text{ W} = 1\\text{ V} \\times 1\\text{ A}}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "Commercial Unit of Electrical Energy"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "The commercial unit of electrical energy is <strong>kilowatt-hour (kWh)</strong>.",
+            "It is commonly called <strong>one unit</strong> of electricity:"
+          ]
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{1\\text{ kWh} = 3.6 \\times 10^6\\text{ J}} \\quad (\\text{1 unit} = 1\\text{ kWh})\\]"
+        },
+        {
+          "type": "text",
+          "text": "Electrical energy consumed can be calculated using:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{E = Pt}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Where \\(E\\) is electrical energy, \\(P\\) is power and \\(t\\) is time."
+        }
+      ]
+    }
+  ],
+  "summary": "Electric current (I = Q/t, in amperes) is the rate of flow of electric charge in a closed circuit, driven by potential difference (V = W/Q, in volts). An ammeter is connected in series to measure current, while a voltmeter is connected in parallel to measure potential difference. By Ohm's law, V = IR at constant temperature, where resistance R (in ohms, Ω) depends on conductor length, cross-sectional area, material and temperature according to R = ρl/A (with resistivity ρ in Ω m). Resistors in series carry the same current and have equivalent resistance R_s = R_1 + R_2 + R_3, while resistors in parallel share the same voltage and obey 1/R_p = 1/R_1 + 1/R_2 + 1/R_3. By Joule's law of heating, heat produced in a resistor is H = I²Rt = VIt = V²t/R, which is applied in nichrome heating elements (electric heaters, irons, toasters) and safety fuses. Electric power is P = W/t = VI = I²R = V²/R (in watts, W), and electrical energy E = Pt is measured commercially in kilowatt-hours (1 kWh = 1 unit = 3.6 × 10⁶ J).",
+  "qa": [
+    {
+      "q": "Define electric current and 1 ampere, and state the relationship between conventional current and electron flow.",
+      "a": "Electric current is the rate of flow of electric charges through a conductor (I = Q/t). One ampere is constituted by the flow of 1 coulomb of charge per second (1 A = 1 C s⁻¹). Conventional current flows from the positive terminal to the negative terminal, opposite to the actual flow of electrons.",
+      "section": "11.1 Electric Current and Circuit"
+    },
+    {
+      "q": "Define potential difference between two points and 1 volt. How is a voltmeter connected in a circuit?",
+      "a": "Potential difference (V = W/Q) is the work done to move a unit charge from one point to another. It is 1 volt when 1 joule of work is done to move 1 coulomb of charge (1 V = 1 J C⁻¹). A voltmeter is always connected in parallel across the component.",
+      "section": "11.2 Electric Potential and Potential Difference"
+    },
+    {
+      "q": "How are an ammeter and a voltmeter connected in an electric circuit, and what does each measure?",
+      "a": "An ammeter measures electric current and is connected in series in the circuit. A voltmeter measures potential difference and is connected in parallel across the two points.",
+      "section": "11.3 Circuit Diagram"
+    },
+    {
+      "q": "State Ohm's law, define 1 ohm, and describe the nature of the V–I graph for an ohmic conductor.",
+      "a": "Ohm's law states that at constant temperature, the current flowing through a conductor is directly proportional to the potential difference across its ends (V = IR). One ohm (1 Ω = 1 V A⁻¹) is the resistance of a conductor when 1 V potential difference produces 1 A current. Its V–I graph is a straight line passing through the origin.",
+      "section": "11.4 Ohm’s Law"
+    },
+    {
+      "q": "List the four factors on which the resistance of a conductor depends and write the formula relating resistance to resistivity.",
+      "a": "Resistance depends on (1) length of the conductor (R ∝ l), (2) area of cross-section (R ∝ 1/A), (3) nature of the material (resistivity ρ), and (4) temperature. Combining these gives R = ρ(l/A), where resistivity ρ has SI unit ohm-metre (Ω m).",
+      "section": "11.5 Factors on which the Resistance of the Conductor Depends"
+    },
+    {
+      "q": "What is meant by the equivalent resistance of a system of resistors?",
+      "a": "Equivalent (or effective) resistance is the single resistance that can replace a series or parallel combination of resistors without changing the total current and voltage relationship in the circuit.",
+      "section": "11.6 Resistance of a System of Resistors"
+    },
+    {
+      "q": "Write the formula for the equivalent resistance of three resistors connected in series and state which physical quantity remains constant across them.",
+      "a": "In series, the same electric current flows through every resistor, the total voltage is V = V₁ + V₂ + V₃, and the equivalent resistance is R_s = R₁ + R₂ + R₃ (which is greater than any individual resistor).",
+      "section": "11.6.1 Resistors in Series"
+    },
+    {
+      "q": "Write the formula for the equivalent resistance of three resistors connected in parallel and state which physical quantity remains the same across them.",
+      "a": "In parallel, the same potential difference acts across each resistor, the total current is I = I₁ + I₂ + I₃, and the reciprocal of equivalent resistance is 1/R_p = 1/R₁ + 1/R₂ + 1/R₃ (so R_p is smaller than the smallest individual resistor).",
+      "section": "11.6.2 Resistors in Parallel"
+    },
+    {
+      "q": "State Joule's law of heating and write the expressions for heat produced in a resistor.",
+      "a": "According to Joule's law of heating, the heat produced in a resistor is directly proportional to the square of the current (I²), the resistance (R), and the time (t) for which current flows: H = I²Rt = VIt = V²t/R.",
+      "section": "11.7 Heating Effect of Electric Current"
+    },
+    {
+      "q": "Why is nichrome used for heating elements, and how does an electric fuse protect a circuit?",
+      "a": "Nichrome has high resistivity, a high melting point, and does not oxidise easily at high temperatures. An electric fuse has a wire of high resistance and low melting point; when excessive current flows, it melts and breaks the circuit to prevent damage.",
+      "section": "11.7.1 Practical Applications of Heating Effect of Electric Current"
+    },
+    {
+      "q": "Define electric power and its SI unit, and convert 1 kilowatt-hour (1 unit) into joules.",
+      "a": "Electric power is the rate at which electrical energy is consumed: P = W/t = VI = I²R = V²/R. Its SI unit is watt (1 W = 1 V × 1 A). The commercial unit of electrical energy is kilowatt-hour (kWh), where 1 kWh = 1 unit = 3.6 × 10⁶ J.",
+      "section": "11.8 Electric Power"
+    }
+  ]
+}

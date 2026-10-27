@@ -483,11 +483,12 @@
         {
           "type": "text",
           "text": "These reactions help us understand how carbon compounds behave when they react with other substances."
-        },
-        {
-          "type": "heading",
-          "text": "4.3.1 Combustion"
-        },
+        }
+      ]
+    },
+    {
+      "heading": "4.3.1 Combustion",
+      "blocks": [
         {
           "type": "text",
           "text": "<strong>Combustion</strong> is a chemical reaction in which a substance reacts with oxygen and produces heat and light. Carbon compounds generally burn in oxygen to produce carbon dioxide and water, along with heat and light."
@@ -530,27 +531,29 @@
         {
           "type": "equation",
           "text": "\\[\\text{Carbon compound} + \\ce{O2 -> CO2 + H2O} + \\text{Heat}\\]"
-        },
-        {
-          "type": "heading",
-          "text": "4.3.2 Oxidation"
-        },
+        }
+      ]
+    },
+    {
+      "heading": "4.3.2 Oxidation",
+      "blocks": [
         {
           "type": "text",
           "text": "<strong>Oxidation</strong> is a chemical reaction in which a substance gains oxygen or loses hydrogen. In carbon compounds, alcohols can be oxidised to carboxylic acids. For example, ethanol is oxidised to ethanoic acid:"
         },
         {
           "type": "equation",
-          "text": "\\[\\ce{CH3CH2OH + 2O -> CH3COOH + H2O}\\]"
+          "text": "\\[\\ce{CH3CH2OH + 2[O] ->[\\text{Alkaline } KMnO4 \\text{ or Acidified } K2Cr2O7] CH3COOH + H2O}\\]"
         },
         {
           "type": "text",
           "text": "This oxidation can be carried out using oxidising agents such as alkaline potassium permanganate (KMnO₄) or acidified potassium dichromate (K₂Cr₂O₇). Thus, ethanol is oxidised to ethanoic acid."
-        },
-        {
-          "type": "heading",
-          "text": "4.3.3 Addition Reaction"
-        },
+        }
+      ]
+    },
+    {
+      "heading": "4.3.3 Addition Reaction",
+      "blocks": [
         {
           "type": "text",
           "text": "An <strong>addition reaction</strong> is a reaction in which an unsaturated carbon compound combines with another substance to form a single product. It usually occurs in compounds containing a double bond or triple bond."
@@ -586,11 +589,12 @@
         {
           "type": "text",
           "text": "The double bond becomes a single bond."
-        },
-        {
-          "type": "heading",
-          "text": "4.3.4 Substitution Reaction"
-        },
+        }
+      ]
+    },
+    {
+      "heading": "4.3.4 Substitution Reaction",
+      "blocks": [
         {
           "type": "text",
           "text": "A <strong>substitution reaction</strong> is a reaction in which one atom or group of atoms in a compound is replaced by another atom or group of atoms. Substitution reactions are commonly shown by saturated hydrocarbons."
@@ -655,11 +659,12 @@
         {
           "type": "text",
           "text": "The —COOH group is the functional group of carboxylic acids. Both ethanol and ethanoic acid are important carbon compounds with many uses and characteristic chemical properties."
-        },
-        {
-          "type": "heading",
-          "text": "4.4.1 Properties of Ethanol"
-        },
+        }
+      ]
+    },
+    {
+      "heading": "4.4.1 Properties of Ethanol",
+      "blocks": [
         {
           "type": "text",
           "text": "Ethanol is an alcohol with the molecular formula C₂H₅OH. Structure: \\(\\ce{CH3-CH2-OH}\\)."
@@ -708,7 +713,7 @@
         },
         {
           "type": "equation",
-          "text": "\\[\\ce{CH3CH2OH + 2O -> CH3COOH + H2O}\\]"
+          "text": "\\[\\ce{CH3CH2OH + 2[O] ->[\\text{Alkaline } KMnO4 \\text{ or Acidified } K2Cr2O7] CH3COOH + H2O}\\]"
         },
         {
           "type": "heading",
@@ -720,7 +725,7 @@
         },
         {
           "type": "equation",
-          "text": "\\[\\ce{C2H5OH -> C2H4 + H2O}\\]"
+          "text": "\\[\\ce{C2H5OH ->[443\\text{ K}][\\text{conc. } H2SO4] C2H4 + H2O}\\]"
         },
         {
           "type": "text",
@@ -806,7 +811,7 @@
         },
         {
           "type": "equation",
-          "text": "\\[\\ce{CH3COOH + C2H5OH -> CH3COOC2H5 + H2O}\\]"
+          "text": "\\[\\ce{CH3COOH + C2H5OH ->[\\text{conc. } H2SO4] CH3COOC2H5 + H2O}\\]"
         },
         {
           "type": "text",
@@ -913,40 +918,89 @@
   "summary": "Carbon forms covalent bonds by sharing electrons. Its valency of four (tetravalency) and ability to bond with itself (catenation) allow it to form many compounds with straight chains, branches and rings. Carbon occurs as diamond, graphite and fullerenes, and its compounds may be saturated or unsaturated. Functional groups, homologous series and carbon-chain length and bonding are used to classify and name carbon compounds. Important reactions include combustion, oxidation, addition and substitution. Ethanol and ethanoic acid have characteristic structures and reactions, including dehydration, neutralisation and esterification. Soaps and detergents clean through their interaction with grease; soap forms micelles, while hard-water ions form scum with soap.",
   "qa": [
     {
-      "q": "Why does carbon form covalent bonds?",
-      "a": "Carbon has four electrons in its outermost shell. Losing or gaining four electrons is difficult, so it achieves stability by sharing electrons with other atoms."
+      "q": "Why does carbon form covalent bonds instead of ionic bonds?",
+      "a": "Carbon has 4 electrons in its outermost shell (electronic configuration 2, 4). Losing 4 electrons requires a large amount of energy, and gaining 4 electrons makes it difficult for the nucleus with 6 protons to hold 10 electrons. Therefore, carbon achieves stability by sharing electrons to form covalent bonds.",
+      "section": "4.1 Bonding in Carbon – The Covalent Bond"
     },
     {
-      "q": "What are tetravalency and catenation?",
-      "a": "Tetravalency is carbon's ability to form four covalent bonds. Catenation is the ability of carbon atoms to bond with one another."
+      "q": "Compare the structures and properties of diamond, graphite and fullerenes.",
+      "a": "In diamond, each carbon atom is bonded to four other carbon atoms in a rigid 3D structure, making it very hard and a non-conductor of electricity. In graphite, each carbon atom is bonded to three others in hexagonal layers that slide over one another, making it soft, slippery and a good conductor of electricity. Fullerenes (such as C₆₀ buckminsterfullerene) form closed cage-like structures shaped like a football.",
+      "section": "4.1 Bonding in Carbon – The Covalent Bond"
+    },
+    {
+      "q": "What are the two main properties responsible for the versatile nature of carbon?",
+      "a": "Tetravalency (carbon's valency of 4 allowing it to bond with four other atoms) and catenation (the self-linking ability of carbon atoms to form long straight chains, branched chains and rings).",
+      "section": "4.2 Versatile Nature of Carbon"
     },
     {
       "q": "How do saturated and unsaturated carbon compounds differ?",
-      "a": "Saturated compounds contain only single bonds between carbon atoms; unsaturated compounds contain double or triple carbon-carbon bonds."
+      "a": "Saturated carbon compounds (alkanes) contain only single covalent bonds between carbon atoms (e.g., ethane, CH₃—CH₃) and are less reactive. Unsaturated carbon compounds contain double bonds (alkenes, e.g., ethene, CH₂=CH₂) or triple bonds (alkynes, e.g., ethyne, HC≡CH) between carbon atoms and are more reactive.",
+      "section": "4.2.1 Saturated and Unsaturated Carbon Compounds"
     },
     {
-      "q": "What is a functional group?",
-      "a": "It is an atom or group of atoms in a carbon compound that determines its characteristic chemical properties."
+      "q": "Give one example each of a straight-chain, a branched-chain and a ring carbon compound.",
+      "a": "Straight-chain: butane (CH₃—CH₂—CH₂—CH₃); branched-chain: 2-methylpropane (CH₃—CH(CH₃)—CH₃); ring: cyclohexane (C₆H₁₂).",
+      "section": "4.2.2 Chains, Branches and Rings"
     },
     {
-      "q": "What is a homologous series?",
-      "a": "It is a group of carbon compounds with the same functional group and general formula, similar chemical properties, and successive members that differ by a —CH₂— unit."
+      "q": "What is a functional group? Give four examples with their formulas.",
+      "a": "A functional group is an atom or group of atoms in a carbon compound that replaces hydrogen and determines its characteristic chemical properties. Examples: alcohol (—OH), aldehyde (—CHO), ketone (>C=O), carboxylic acid (—COOH), and halo group (—X).",
+      "section": "4.2.3 Will You Be My Friend? — Introduction to Functional Groups"
     },
     {
-      "q": "What is hydrogenation?",
-      "a": "It is an addition reaction in which hydrogen is added to an unsaturated compound, such as ethene, in the presence of a nickel catalyst to form a saturated compound."
+      "q": "What is a homologous series? By how much do two successive members differ in formula and molecular mass?",
+      "a": "A homologous series is a family of carbon compounds having the same functional group, the same general formula and similar chemical properties. Successive members differ by a —CH₂— unit and by 14 u in molecular mass.",
+      "section": "4.2.4 Homologous Series"
     },
     {
-      "q": "What forms when ethanoic acid reacts with sodium hydrogen carbonate?",
-      "a": "Sodium ethanoate, carbon dioxide and water form; the released carbon dioxide causes effervescence."
+      "q": "How are carbon compounds named systematically according to chain length, bond type and functional group?",
+      "a": "The prefix indicates the number of carbon atoms (Meth- for 1, Eth- for 2, Prop- for 3, But- for 4, Pent- for 5, Hex- for 6), followed by the bond suffix (-ane for single, -ene for double, -yne for triple) and the functional group suffix (such as -ol for alcohol or -oic acid for carboxylic acid).",
+      "section": "4.2.5 Nomenclature of Carbon Compounds"
     },
     {
-      "q": "Why is soap less effective in hard water?",
-      "a": "Calcium and magnesium ions in hard water react with soap to form insoluble scum, so soap produces less lather and becomes less effective."
+      "q": "What are the four major types of chemical reactions shown by carbon compounds?",
+      "a": "The four major chemical reactions of carbon compounds are combustion, oxidation, addition reaction and substitution reaction.",
+      "section": "4.3 Chemical Properties of Carbon Compounds"
     },
     {
-      "q": "How does a soap micelle help remove grease?",
-      "a": "The hydrophobic tails point towards and trap grease, while the hydrophilic heads point towards water. The micelles carrying grease can then be removed during washing."
+      "q": "What happens during complete and incomplete combustion of carbon compounds?",
+      "a": "In sufficient oxygen, complete combustion occurs to produce carbon dioxide, water, heat and light (e.g., CH₄ + 2O₂ → CO₂ + 2H₂O + Heat). In insufficient oxygen, incomplete combustion occurs, producing poisonous carbon monoxide (CO) or carbon (soot).",
+      "section": "4.3.1 Combustion"
+    },
+    {
+      "q": "How is ethanol converted into ethanoic acid by oxidation?",
+      "a": "When ethanol (CH₃CH₂OH) is heated with an oxidising agent such as alkaline potassium permanganate (KMnO₄) or acidified potassium dichromate (K₂Cr₂O₇), it gains oxygen and is oxidised to ethanoic acid (CH₃COOH) and water.",
+      "section": "4.3.2 Oxidation"
+    },
+    {
+      "q": "What is hydrogenation, and what is its industrial application?",
+      "a": "Hydrogenation is an addition reaction in which hydrogen is added to an unsaturated hydrocarbon (such as ethene) in the presence of a nickel (Ni) catalyst to form a saturated hydrocarbon (ethane). It is used to convert unsaturated vegetable oils into vegetable ghee.",
+      "section": "4.3.3 Addition Reaction"
+    },
+    {
+      "q": "Explain substitution reaction in saturated hydrocarbons with an example.",
+      "a": "In a substitution reaction, one atom or group of atoms in a saturated hydrocarbon is replaced by another atom or group. For example, in the presence of sunlight, chlorine replaces hydrogen in methane: CH₄ + Cl₂ → CH₃Cl + HCl.",
+      "section": "4.3.4 Substitution Reaction"
+    },
+    {
+      "q": "Write the molecular formulas and functional groups of ethanol and ethanoic acid.",
+      "a": "Ethanol has the molecular formula C₂H₅OH (CH₃—CH₂—OH) with the alcohol functional group (—OH). Ethanoic acid has the molecular formula CH₃COOH (CH₃—COOH) with the carboxylic acid functional group (—COOH).",
+      "section": "4.4 Some Important Carbon Compounds – Ethanol and Ethanoic Acid"
+    },
+    {
+      "q": "What happens when ethanol reacts with (a) sodium metal and (b) concentrated sulphuric acid at 443 K?",
+      "a": "(a) Ethanol reacts with sodium to form sodium ethoxide and release hydrogen gas: 2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂. (b) Heating ethanol with concentrated H₂SO₄ at 443 K causes dehydration, removing water to form ethene (C₂H₄).",
+      "section": "4.4.1 Properties of Ethanol"
+    },
+    {
+      "q": "Why is pure ethanoic acid called glacial acetic acid, and what is esterification?",
+      "a": "Pure ethanoic acid freezes at about 290 K (16.6°C) in cold weather to form ice-like crystals, so it is called glacial acetic acid. When ethanoic acid reacts with ethanol in the presence of concentrated H₂SO₄, it forms a sweet-smelling ester (ethyl ethanoate) and water; this is called esterification.",
+      "section": "4.4.2 Properties of Ethanoic Acid"
+    },
+    {
+      "q": "How does a soap micelle help remove oily dirt, and why is soap less effective in hard water?",
+      "a": "A soap molecule has a hydrophobic hydrocarbon tail that attaches to oil/grease and a hydrophilic ionic head (—COO⁻Na⁺) that faces water, forming spherical micelles that trap grease and wash away with water. In hard water, Ca²⁺ and Mg²⁺ ions react with soap to form insoluble scum, reducing lather and cleaning efficiency.",
+      "section": "4.5 Soaps and Detergents"
     }
   ]
 }

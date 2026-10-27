@@ -1,0 +1,919 @@
+{
+  "title": "Light - Reflection and Refraction",
+  "class": "10",
+  "subject": "Science",
+  "chapter": "Chapter 9",
+  "book": "NCERT Science",
+  "notes": [
+    {
+      "heading": "9.1 Reflection of Light",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Reflection of light</strong> is the phenomenon in which light bounces back into the same medium after falling on a surface.",
+            "The surface on which light falls is called the <strong>reflecting surface</strong>.",
+            "The ray of light that falls on the surface is called the <strong>incident ray</strong>.",
+            "The ray of light that bounces back is called the <strong>reflected ray</strong>.",
+            "The perpendicular line drawn to the reflecting surface at the point where light falls is called the <strong>normal</strong>."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Laws of Reflection"
+        },
+        {
+          "type": "text",
+          "text": "There are two laws of reflection:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "The <strong>angle of incidence</strong> is equal to the <strong>angle of reflection</strong>: \\(\\angle i = \\angle r\\).",
+            "The <strong>incident ray, reflected ray and normal</strong> all lie in the <strong>same plane</strong>."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Reflection can occur from different surfaces.",
+            "A smooth and polished surface gives <strong>regular reflection</strong>, while a rough surface gives <strong>irregular reflection</strong>."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "9.2 Spherical Mirrors",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "A <strong>spherical mirror</strong> is a mirror whose reflecting surface is a part of a hollow sphere. There are two types of spherical mirrors:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Concave mirror</strong> – its reflecting surface is curved inwards.",
+            "<strong>Convex mirror</strong> – its reflecting surface is curved outwards."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Important Terms"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Pole (\\(P\\)):</strong> The centre of the reflecting surface of a spherical mirror.",
+            "<strong>Centre of curvature (\\(C\\)):</strong> The centre of the sphere of which the mirror is a part.",
+            "<strong>Radius of curvature (\\(R\\)):</strong> The distance between the pole and the centre of curvature."
+          ]
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{R = PC}\\]"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Principal axis:</strong> The straight line passing through the pole (\\(P\\)) and centre of curvature (\\(C\\)).",
+            "<strong>Principal focus (\\(F\\)):</strong> The point on the principal axis where rays parallel to the principal axis meet or appear to meet after reflection.",
+            "<strong>Focal length (\\(f\\)):</strong> The distance between the pole and the principal focus."
+          ]
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{f = PF}\\]"
+        },
+        {
+          "type": "text",
+          "text": "For a spherical mirror:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{f = \\frac{R}{2}}\\]"
+        }
+      ]
+    },
+    {
+      "heading": "9.2.1 Image Formation by Spherical Mirrors",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "When light rays coming from an object fall on a spherical mirror and are reflected, they may meet at a point or appear to meet at a point.",
+            "The image formed at this point is called the <strong>image of the object</strong>."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Types of Images"
+        },
+        {
+          "type": "text",
+          "text": "There are two types of images formed by spherical mirrors:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Real image:</strong> Formed when reflected light rays actually meet; it can be obtained on a screen; it is generally inverted.",
+            "<strong>Virtual image:</strong> Formed when reflected light rays appear to meet but do not actually meet; it cannot be obtained on a screen; it is generally erect."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Image Formation by a Concave Mirror"
+        },
+        {
+          "type": "text",
+          "text": "A <strong>concave mirror</strong> can form <strong>real or virtual images</strong>, depending on the position of the object. The position of the object can be:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Beyond \\(C\\)",
+            "At \\(C\\)",
+            "Between \\(C\\) and \\(F\\)",
+            "At \\(F\\)",
+            "Between \\(F\\) and \\(P\\)"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The size and position of the image change according to the position of the object."
+        },
+        {
+          "type": "heading",
+          "text": "Image Formation by a Convex Mirror"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "A <strong>convex mirror</strong> always forms a <strong>virtual, erect and diminished image</strong>.",
+            "The image is formed <strong>behind the mirror</strong>, between \\(P\\) and \\(F\\)."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "9.2.2 Representation of Images Formed by Spherical Mirrors Using Ray Diagrams",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Ray diagrams</strong> are used to find the position, size and nature of an image formed by a spherical mirror.",
+            "We use some important rays whose paths after reflection are known."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Important Rays for a Concave Mirror"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "A ray <strong>parallel to the principal axis</strong> is reflected through the <strong>principal focus \\(F\\)</strong>.",
+            "A ray passing through the <strong>principal focus \\(F\\)</strong> is reflected <strong>parallel to the principal axis</strong>.",
+            "A ray passing through the <strong>centre of curvature \\(C\\)</strong> is reflected back along the <strong>same path</strong>.",
+            "A ray striking the <strong>pole \\(P\\)</strong> is reflected according to the <strong>laws of reflection</strong>."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Important Ray for a Convex Mirror"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "A ray parallel to the principal axis is reflected in such a way that it <strong>appears to come from the principal focus \\(F\\)</strong> behind the mirror.",
+            "To locate an image, we usually draw <strong>at least two reflected rays</strong>. The point where the rays meet, or appear to meet, gives the position of the image."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "9.2.3 Sign Convention for Reflection by Spherical Mirrors",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "NCERT uses the <strong>New Cartesian Sign Convention</strong> for spherical mirrors.",
+            "The <strong>pole \\(P\\)</strong> of the mirror is taken as the <strong>origin</strong>.",
+            "The <strong>principal axis</strong> is taken as the \\(x\\)-axis."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Sign Rules"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "All distances are measured from the <strong>pole \\(P\\)</strong>.",
+            "Distances measured in the <strong>direction of incident light</strong> are taken as <strong>positive</strong>.",
+            "Distances measured in the <strong>opposite direction of incident light</strong> are taken as <strong>negative</strong>.",
+            "Heights measured <strong>above the principal axis</strong> are <strong>positive</strong>.",
+            "Heights measured <strong>below the principal axis</strong> are <strong>negative</strong>."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "For a Concave Mirror"
+        },
+        {
+          "type": "text",
+          "text": "Since the object is usually placed in front of the mirror:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{u < 0}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The focus and centre of curvature are also in front of the mirror:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{f < 0, \\quad R < 0}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "For a Convex Mirror"
+        },
+        {
+          "type": "text",
+          "text": "The focus and centre of curvature are behind the mirror:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{f > 0, \\quad R > 0}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The sign convention helps us use the mirror formula correctly in numerical problems."
+        }
+      ]
+    },
+    {
+      "heading": "9.2.4 Mirror Formula and Magnification",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Mirror Formula"
+        },
+        {
+          "type": "text",
+          "text": "The relationship between the object distance \\(u\\), image distance \\(v\\) and focal length \\(f\\) of a spherical mirror is called the <strong>mirror formula</strong>:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{\\frac{1}{f} = \\frac{1}{v} + \\frac{1}{u}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Where:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(u\\) = object distance from the pole",
+            "\\(v\\) = image distance from the pole",
+            "\\(f\\) = focal length of the mirror"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Magnification"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Magnification</strong> tells us how large or small the image is compared with the object. It is represented by \\(m\\):"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{m = \\frac{h_i}{h_o}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "For a spherical mirror:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{m = -\\frac{v}{u}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Where:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(h_i\\) = height of the image",
+            "\\(h_o\\) = height of the object",
+            "\\(v\\) = image distance",
+            "\\(u\\) = object distance"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Meaning of Magnification"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "If \\(|m| > 1\\), the image is <strong>larger</strong> than the object.",
+            "If \\(|m| < 1\\), the image is <strong>smaller</strong> than the object.",
+            "If \\(|m| = 1\\), the image is the <strong>same size</strong> as the object.",
+            "A <strong>positive \\(m\\)</strong> indicates an <strong>erect</strong> image.",
+            "A <strong>negative \\(m\\)</strong> indicates an <strong>inverted</strong> image."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "9.3 Refraction of Light",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Refraction of light</strong> is the change in the direction of light when it passes from one transparent medium to another.",
+            "Refraction occurs because the <strong>speed of light changes</strong> when it enters a different medium.",
+            "For example, when light travels from air to glass, its speed decreases and its direction changes."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Important Points"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "When light travels from a <strong>rarer medium to a denser medium</strong>, it bends <strong>towards the normal</strong>.",
+            "When light travels from a <strong>denser medium to a rarer medium</strong>, it bends <strong>away from the normal</strong>.",
+            "If light falls <strong>normally</strong> on the surface, it does not change its direction, although its speed changes."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong> A pencil partly immersed in water appears bent due to refraction of light."
+        }
+      ]
+    },
+    {
+      "heading": "9.3.1 Refraction through a Rectangular Glass Slab",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "When a ray of light passes through a rectangular glass slab, it undergoes refraction at <strong>both surfaces</strong> of the slab.",
+            "When light travels from <strong>air to glass</strong>, it bends <strong>towards the normal</strong> because glass is optically denser than air.",
+            "When light travels from <strong>glass to air</strong>, it bends <strong>away from the normal</strong>.",
+            "The ray coming out of the glass slab is called the <strong>emergent ray</strong>.",
+            "The emergent ray is <strong>parallel to the incident ray</strong>, but it is shifted sideways.",
+            "This sideways shift is called <strong>lateral displacement</strong>."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The amount of lateral displacement depends on:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Thickness of the glass slab",
+            "Angle of incidence",
+            "Refractive index of the glass"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Important Point"
+        },
+        {
+          "type": "text",
+          "text": "Although the light ray changes direction inside the glass slab, the <strong>emergent ray remains parallel to the incident ray</strong>."
+        }
+      ]
+    },
+    {
+      "heading": "9.3.2 The Refractive Index",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "The <strong>refractive index</strong> of a medium tells us how much the speed of light changes when it enters that medium.",
+            "It is represented by the symbol \\(\\mu\\) (mu)."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Formula"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{\\mu = \\frac{c}{v}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Where:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(c\\) = speed of light in vacuum",
+            "\\(v\\) = speed of light in the given medium",
+            "The refractive index has <strong>no unit</strong> because it is a ratio of two speeds."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Meaning"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "A medium with a <strong>higher refractive index</strong> is called <strong>optically denser</strong>.",
+            "A medium with a <strong>lower refractive index</strong> is called <strong>optically rarer</strong>."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "For example:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{\\mu_{\\text{glass}} > \\mu_{\\text{air}}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Therefore, glass is optically denser than air."
+        },
+        {
+          "type": "heading",
+          "text": "Refractive Index Using Angles"
+        },
+        {
+          "type": "text",
+          "text": "According to <strong>Snell's law</strong>:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{\\frac{\\sin i}{\\sin r} = \\mu}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Where \\(i\\) = angle of incidence and \\(r\\) = angle of refraction. Thus, refractive index helps us understand how strongly a medium bends light."
+        }
+      ]
+    },
+    {
+      "heading": "9.3.3 Refraction by Spherical Lenses",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "A <strong>lens</strong> is a transparent material, usually made of glass or plastic, bounded by two surfaces, at least one of which is curved.",
+            "A <strong>spherical lens</strong> has surfaces that are part of a sphere.",
+            "There are two main types of spherical lenses:"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "1. Convex Lens"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "A convex lens is <strong>thicker at the centre</strong> and thinner at the edges.",
+            "It <strong>converges</strong> parallel rays of light.",
+            "Therefore, it is also called a <strong>converging lens</strong>."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "2. Concave Lens"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "A concave lens is <strong>thinner at the centre</strong> and thicker at the edges.",
+            "It <strong>diverges</strong> parallel rays of light.",
+            "Therefore, it is also called a <strong>diverging lens</strong>."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Important Terms"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Optical centre (\\(O\\)):</strong> The central point of a lens through which a ray of light passes without changing its direction significantly.",
+            "<strong>Principal axis:</strong> The straight line passing through the optical centre and the centres of curvature of the lens surfaces.",
+            "<strong>Principal focus (\\(F\\)):</strong> The point on the principal axis where parallel rays meet or appear to meet after refraction.",
+            "<strong>Focal length (\\(f\\)):</strong> The distance between the optical centre \\(O\\) and the principal focus \\(F\\)."
+          ]
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{f = OF}\\]"
+        }
+      ]
+    },
+    {
+      "heading": "9.3.4 Image Formation by Spherical Lenses",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "When light rays from an object pass through a spherical lens, they are refracted and may meet at a point or appear to meet at a point.",
+            "The point where the rays meet, or appear to meet, is called the <strong>image</strong>."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Convex Lens"
+        },
+        {
+          "type": "text",
+          "text": "A <strong>convex lens</strong> can form <strong>real or virtual images</strong>, depending on the position of the object:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "When the object is placed <strong>beyond the focal point</strong>, a <strong>real and inverted image</strong> is generally formed.",
+            "When the object is placed <strong>between the optical centre \\(O\\) and the focus \\(F\\)</strong>, a <strong>virtual, erect and magnified image</strong> is formed."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Concave Lens"
+        },
+        {
+          "type": "text",
+          "text": "A <strong>concave lens</strong> always forms:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "A <strong>virtual image</strong>",
+            "An <strong>erect image</strong>",
+            "A <strong>diminished image</strong>"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The image is formed between the <strong>optical centre \\(O\\)</strong> and the <strong>principal focus \\(F\\)</strong> on the same side of the lens as the object."
+        }
+      ]
+    },
+    {
+      "heading": "9.3.5 Representation of Image Formation in Lenses Using Ray Diagrams",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Ray diagrams</strong> are used to find the position, size and nature of the image formed by a lens."
+        },
+        {
+          "type": "heading",
+          "text": "Important Rays for a Convex Lens"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "A ray <strong>parallel to the principal axis</strong> passes through the <strong>principal focus \\(F\\)</strong> after refraction.",
+            "A ray passing through the <strong>principal focus \\(F\\)</strong> emerges <strong>parallel to the principal axis</strong>.",
+            "A ray passing through the <strong>optical centre \\(O\\)</strong> passes through the lens <strong>without changing its direction</strong>."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Important Rays for a Concave Lens"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "A ray <strong>parallel to the principal axis</strong> appears to come from the <strong>principal focus \\(F\\)</strong> after refraction.",
+            "A ray <strong>directed towards the principal focus \\(F\\)</strong> emerges <strong>parallel to the principal axis</strong>.",
+            "A ray passing through the <strong>optical centre \\(O\\)</strong> passes through the lens <strong>without changing its direction</strong>."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "To locate the image, we usually draw <strong>two rays</strong> from the object.",
+            "The point where the refracted rays meet, or appear to meet, gives the position of the image."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "9.3.6 Sign Convention for Spherical Lenses",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "The <strong>optical centre \\(O\\)</strong> of the lens is taken as the <strong>origin</strong>.",
+            "The <strong>principal axis</strong> is taken as the \\(x\\)-axis."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Sign Rules"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "All distances are measured from the <strong>optical centre \\(O\\)</strong>.",
+            "Distances measured in the <strong>direction of incident light</strong> are taken as <strong>positive</strong>.",
+            "Distances measured in the <strong>opposite direction of incident light</strong> are taken as <strong>negative</strong>.",
+            "Heights measured <strong>above the principal axis</strong> are <strong>positive</strong>.",
+            "Heights measured <strong>below the principal axis</strong> are <strong>negative</strong>."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "For a Convex Lens"
+        },
+        {
+          "type": "text",
+          "text": "Since the principal focus is on the side opposite to the incident light:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{f > 0}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "For a Concave Lens"
+        },
+        {
+          "type": "text",
+          "text": "Since the principal focus is on the same side as the incident light:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{f < 0}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The sign convention is important for using the lens formula and solving numerical problems."
+        }
+      ]
+    },
+    {
+      "heading": "9.3.7 Lens Formula and Magnification",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Lens Formula"
+        },
+        {
+          "type": "text",
+          "text": "The relationship between the object distance \\(u\\), image distance \\(v\\) and focal length \\(f\\) of a spherical lens is called the <strong>lens formula</strong>:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{\\frac{1}{f} = \\frac{1}{v} - \\frac{1}{u}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Where:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(u\\) = object distance from the optical centre",
+            "\\(v\\) = image distance from the optical centre",
+            "\\(f\\) = focal length of the lens"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Magnification"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Magnification</strong> tells us how large or small the image is compared with the object. It is represented by \\(m\\):"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{m = \\frac{h_i}{h_o}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "For a spherical lens:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{m = \\frac{v}{u}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Where:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(h_i\\) = height of the image",
+            "\\(h_o\\) = height of the object",
+            "\\(v\\) = image distance",
+            "\\(u\\) = object distance"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Meaning of Magnification"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "If \\(|m| > 1\\), the image is <strong>larger</strong> than the object.",
+            "If \\(|m| < 1\\), the image is <strong>smaller</strong> than the object.",
+            "If \\(|m| = 1\\), the image is the <strong>same size</strong> as the object.",
+            "<strong>Positive \\(m\\)</strong> → image is <strong>erect</strong>.",
+            "<strong>Negative \\(m\\)</strong> → image is <strong>inverted</strong>."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "9.3.8 Power of a Lens",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "The <strong>power of a lens</strong> tells us the ability of a lens to converge or diverge light.",
+            "It is represented by the symbol \\(P\\)."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Formula"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{P = \\frac{1}{f}}\\]"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Here, \\(f\\) is the focal length of the lens <strong>in metres</strong>.",
+            "The SI unit of power is <strong>dioptre (D)</strong>."
+          ]
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{1\\text{ D} = 1\\text{ m}^{-1}}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "Sign of Power"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Convex lens</strong> has positive focal length, so its power is <strong>positive</strong>: \\(\\boxed{P > 0}\\).",
+            "<strong>Concave lens</strong> has negative focal length, so its power is <strong>negative</strong>: \\(\\boxed{P < 0}\\)."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Example"
+        },
+        {
+          "type": "text",
+          "text": "If the focal length of a convex lens is \\(20\\text{ cm}\\):"
+        },
+        {
+          "type": "equation",
+          "text": "\\[f = 20\\text{ cm} = 0.20\\text{ m}\\]"
+        },
+        {
+          "type": "equation",
+          "text": "\\[P = \\frac{1}{0.20} = \\boxed{+5\\text{ D}}\\]"
+        }
+      ]
+    }
+  ],
+  "summary": "Light reflects from surfaces obeying the two laws of reflection (∠i = ∠r, and the incident ray, reflected ray and normal lie in the same plane). Spherical mirrors are either concave (converging, f < 0) or convex (diverging, f > 0), with focal length f = R/2, governed by the mirror formula 1/f = 1/v + 1/u and magnification m = h_i/h_o = -v/u under the New Cartesian Sign Convention. Refraction is the bending of light when passing from one transparent medium to another due to a change in speed, governed by Snell's law (sin i / sin r = μ = c/v). A rectangular glass slab shifts light laterally while keeping the emergent ray parallel to the incident ray. Spherical lenses — convex (converging, f > 0, P > 0) and concave (diverging, f < 0, P < 0) — form images described by the lens formula 1/f = 1/v - 1/u, magnification m = h_i/h_o = v/u, and lens power P = 1/f (in dioptres, where f is in metres).",
+  "qa": [
+    {
+      "q": "State the two laws of reflection of light.",
+      "a": "(1) The angle of incidence is equal to the angle of reflection (∠i = ∠r). (2) The incident ray, the reflected ray and the normal to the reflecting surface at the point of incidence all lie in the same plane.",
+      "section": "9.1 Reflection of Light"
+    },
+    {
+      "q": "Define pole, centre of curvature, principal focus and focal length of a spherical mirror, and state the relation between R and f.",
+      "a": "The pole (P) is the centre of the reflecting surface; the centre of curvature (C) is the centre of the hollow sphere of which the mirror is a part; the principal focus (F) is the point on the principal axis where parallel rays meet or appear to meet after reflection; and the focal length (f = PF) is half the radius of curvature (f = R/2).",
+      "section": "9.2 Spherical Mirrors"
+    },
+    {
+      "q": "Differentiate between real and virtual images, and state the nature of the image formed by a convex mirror.",
+      "a": "A real image forms when reflected rays actually meet, can be obtained on a screen, and is inverted. A virtual image forms when rays only appear to meet, cannot be obtained on a screen, and is erect. A convex mirror always forms a virtual, erect and diminished image behind the mirror between P and F.",
+      "section": "9.2.1 Image Formation by Spherical Mirrors"
+    },
+    {
+      "q": "State the four standard rays used to draw ray diagrams for image formation by a concave mirror.",
+      "a": "(1) A ray parallel to the principal axis reflects through the focus F. (2) A ray passing through F reflects parallel to the principal axis. (3) A ray passing through the centre of curvature C reflects back along the same path. (4) A ray striking the pole P reflects such that ∠i = ∠r.",
+      "section": "9.2.2 Representation of Images Formed by Spherical Mirrors Using Ray Diagrams"
+    },
+    {
+      "q": "According to the New Cartesian Sign Convention, what are the signs of u, f and R for a concave mirror and a convex mirror?",
+      "a": "Distances are measured from the pole P. Since the object is placed in front of the mirror, u < 0. For a concave mirror, the focus and centre of curvature lie in front of the mirror, so f < 0 and R < 0. For a convex mirror, they lie behind the mirror, so f > 0 and R > 0.",
+      "section": "9.2.3 Sign Convention for Reflection by Spherical Mirrors"
+    },
+    {
+      "q": "Write the mirror formula and the magnification formula for a spherical mirror, and explain what the sign and magnitude of m indicate.",
+      "a": "Mirror formula: 1/f = 1/v + 1/u. Magnification: m = h_i / h_o = -v / u. If |m| > 1 the image is magnified, if |m| < 1 it is diminished, and if |m| = 1 it is the same size. A positive m means a virtual, erect image; a negative m means a real, inverted image.",
+      "section": "9.2.4 Mirror Formula and Magnification"
+    },
+    {
+      "q": "Why does a ray of light bend when it travels obliquely from one transparent medium to another?",
+      "a": "Refraction occurs because the speed of light changes from one medium to another. Light bends towards the normal when going from an optically rarer to a denser medium, and away from the normal when going from a denser to a rarer medium.",
+      "section": "9.3 Refraction of Light"
+    },
+    {
+      "q": "What is lateral displacement in a rectangular glass slab, and on what factors does it depend?",
+      "a": "When light passes through a rectangular glass slab, the emergent ray is parallel to the incident ray but shifted sideways; this sideways shift is called lateral displacement. It depends on the thickness of the glass slab, the angle of incidence and the refractive index of the glass.",
+      "section": "9.3.1 Refraction through a Rectangular Glass Slab"
+    },
+    {
+      "q": "Define the refractive index of a medium in terms of the speed of light and state Snell's law.",
+      "a": "The refractive index (μ) of a medium is the ratio of the speed of light in vacuum (c) to the speed of light in that medium (v): μ = c/v. By Snell's law, the ratio of the sine of the angle of incidence to the sine of the angle of refraction is constant: sin i / sin r = μ.",
+      "section": "9.3.2 The Refractive Index"
+    },
+    {
+      "q": "Distinguish between a convex lens and a concave lens.",
+      "a": "A convex lens is thicker at the centre than at the edges and converges parallel light rays (converging lens). A concave lens is thinner at the centre than at the edges and diverges parallel light rays (diverging lens).",
+      "section": "9.3.3 Refraction by Spherical Lenses"
+    },
+    {
+      "q": "Under what condition does a convex lens form a virtual image, and what kind of image does a concave lens always form?",
+      "a": "A convex lens forms a virtual, erect and magnified image when the object is placed between the optical centre O and the principal focus F. A concave lens always forms a virtual, erect and diminished image on the same side as the object between O and F.",
+      "section": "9.3.4 Image Formation by Spherical Lenses"
+    },
+    {
+      "q": "State the three standard rays used to draw ray diagrams for a convex lens.",
+      "a": "(1) A ray parallel to the principal axis passes through the principal focus F after refraction. (2) A ray passing through F emerges parallel to the principal axis. (3) A ray passing through the optical centre O goes straight without deviation.",
+      "section": "9.3.5 Representation of Image Formation in Lenses Using Ray Diagrams"
+    },
+    {
+      "q": "What is the sign of the focal length f for a convex lens and for a concave lens?",
+      "a": "All distances are measured from the optical centre O. A convex lens has a positive focal length (f > 0), whereas a concave lens has a negative focal length (f < 0).",
+      "section": "9.3.6 Sign Convention for Spherical Lenses"
+    },
+    {
+      "q": "Write the lens formula and magnification formula for a spherical lens.",
+      "a": "Lens formula: 1/f = 1/v - 1/u. Magnification: m = h_i / h_o = v / u.",
+      "section": "9.3.7 Lens Formula and Magnification"
+    },
+    {
+      "q": "Define the power of a lens, state its SI unit, and find the power of a convex lens of focal length 20 cm.",
+      "a": "The power of a lens (P) is the reciprocal of its focal length in metres: P = 1/f. Its SI unit is dioptre (1 D = 1 m⁻¹). For f = 20 cm = 0.20 m, P = 1 / 0.20 = +5 D.",
+      "section": "9.3.8 Power of a Lens"
+    }
+  ]
+}
