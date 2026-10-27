@@ -878,7 +878,7 @@
       "book": "Science",
       "icon": "🫁",
       "description": "It explains the fundamental biological mechanisms required to maintain life, including nutrition, respiration, transportation, and excretion in living organisms.",
-      "contentHref": ""
+      "contentHref": "content/Class 10/Science/Chapter_5_Life_Processes.json"
     },
     {
       "id": "Control_and_Coordination",
@@ -889,7 +889,7 @@
       "book": "Science",
       "icon": "🧠",
       "description": "It investigates how animals and plants respond to external stimuli using nervous systems, involuntary reflex actions, and chemical hormones.",
-      "contentHref": ""
+      "contentHref": "content/Class 10/Science/Chapter_6_Control_and_Coordination.json"
     },
     {
       "id": "How_do_Organisms_Reproduce",
@@ -900,7 +900,7 @@
       "book": "Science",
       "icon": "🌱",
       "description": "It details asexual and sexual modes of reproduction across different species alongside a focus on human reproductive systems and reproductive health.",
-      "contentHref": ""
+      "contentHref": "content/Class 10/Science/Chapter_7_How_do_Organisms_Reproduce.json"
     },
     {
       "id": "Heredity",
@@ -911,7 +911,7 @@
       "book": "Science",
       "icon": "🧬",
       "description": "It introduces basic genetics, tracking how traits are passed down through generations alongside Mendel's laws of inheritance and genetic sex determination.",
-      "contentHref": ""
+      "contentHref": "content/Class 10/Science/Chapter_8_Heredity.json"
     },
     {
       "id": "Light_Reflection_and_Refraction",
@@ -922,7 +922,7 @@
       "book": "Science",
       "icon": "🔍",
       "description": "It analyzes the phenomena of light reflection using spherical mirrors and refraction through lenses using numerical ray-tracking math.",
-      "contentHref": ""
+      "contentHref": "content/Class 10/Science/Chapter_9_Light_Reflection_and_Refraction.json"
     },
     {
       "id": "The_Human_Eye_and_the_Colourful_World",
@@ -933,7 +933,7 @@
       "book": "Science",
       "icon": "👁️",
       "description": "It examines the anatomy of human vision, vision defects like myopia, and natural light scattering effects like rainbows and blue skies.",
-      "contentHref": ""
+      "contentHref": "content/Class 10/Science/Chapter_10_The_Human_Eye_and_the_Colourful_World.json"
     },
     {
       "id": "Electricity",
@@ -944,7 +944,7 @@
       "book": "Science",
       "icon": "⚡",
       "description": "It defines current, potential difference, Ohm's law, electrical resistance factors, circuit configurations, and the heating effects of power.",
-      "contentHref": ""
+      "contentHref": "content/Class 10/Science/Chapter_11_Electricity.json"
     },
     {
       "id": "Magnetic_Effects_of_Electric_Current",
@@ -955,7 +955,7 @@
       "book": "Science",
       "icon": "🧲",
       "description": "It explains electromagnetic fields, magnetic force rules on conductors, solenoids, domestic circuits, and alternating vs direct current setups.",
-      "contentHref": ""
+      "contentHref": "content/Class 10/Science/Chapter_12_Magnetic_Effects_of_Electric_Current.json"
     },
     {
       "id": "Our_Environment",
@@ -966,7 +966,7 @@
       "book": "Science",
       "icon": "🌍",
       "description": "It dissects ecosystem components, food chains, energy flow, and major environmental concerns such as ozone layer depletion and waste management.",
-      "contentHref": ""
+      "contentHref": "content/Class 10/Science/Chapter_13_Our_Environment.json"
     },
     {
       "id": "Solutions",
