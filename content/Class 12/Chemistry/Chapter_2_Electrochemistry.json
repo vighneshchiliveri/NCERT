@@ -1,0 +1,1987 @@
+{
+  "title": "Electrochemistry",
+  "class": "12",
+  "subject": "Chemistry",
+  "chapter": "Chapter 2",
+  "book": "NCERT Chemistry",
+  "notes": [
+    {
+      "heading": "2.1 Electrochemical Cells",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "An <strong>electrochemical cell</strong> is a device in which chemical energy is converted into electrical energy or electrical energy is used to bring about a chemical reaction.\n\nElectrochemical cells are classified into two types:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Galvanic cells (Voltaic cells):</strong> Convert chemical energy into electrical energy through a spontaneous redox reaction.",
+            "<strong>Electrolytic cells:</strong> Use electrical energy to bring about a non-spontaneous chemical reaction."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Redox Reaction"
+        },
+        {
+          "type": "text",
+          "text": "A <strong>redox reaction</strong> is a chemical reaction in which oxidation and reduction occur simultaneously."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Oxidation:</strong> Loss of electrons.",
+            "<strong>Reduction:</strong> Gain of electrons."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "For example,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Zn -> Zn^2+ + 2e-}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Zinc loses electrons, so it undergoes oxidation."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Cu^2+ + 2e- -> Cu}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Copper ions gain electrons, so they undergo reduction."
+        },
+        {
+          "type": "heading",
+          "text": "Working Principle of an Electrochemical Cell"
+        },
+        {
+          "type": "text",
+          "text": "In a galvanic cell, oxidation and reduction occur at separate electrodes. The electrons released during oxidation travel through an external wire to the electrode where reduction occurs. This flow of electrons produces an electric current.\n\nThe two electrodes are connected through an external wire, while the electrolytic solutions are connected through a salt bridge in a conventional galvanic cell.\n\nThe main components are:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Anode:</strong> The electrode where oxidation takes place.",
+            "<strong>Cathode:</strong> The electrode where reduction takes place.",
+            "<strong>Electrolyte:</strong> A solution or molten substance containing mobile ions that conduct electricity.",
+            "<strong>Salt bridge:</strong> Connects the two half-cells and maintains electrical neutrality by allowing ions to migrate."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Illustration of a galvanic cell showing electrodes, salt bridge and electron flow."
+        },
+        {
+          "type": "heading",
+          "text": "Important Features"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Oxidation always occurs at the anode.",
+            "Reduction always occurs at the cathode.",
+            "In a galvanic cell, the anode is negative and the cathode is positive.",
+            "Electrons flow through the external circuit from the anode to the cathode.",
+            "Electric current in the external circuit flows in the opposite direction to electron flow.",
+            "The salt bridge completes the internal circuit and maintains electrical neutrality."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "2.2 Galvanic Cells",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "A <strong>galvanic cell</strong> is an electrochemical cell that converts the chemical energy of a spontaneous redox reaction into electrical energy.\n\nA common example is the <strong>Daniell cell</strong>, which consists of a zinc electrode dipped in zinc sulphate solution and a copper electrode dipped in copper sulphate solution."
+        },
+        {
+          "type": "heading",
+          "text": "Construction of a Daniell Cell"
+        },
+        {
+          "type": "text",
+          "text": "The Daniell cell consists of two half-cells:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Anode (Zinc electrode):</strong> A zinc rod dipped in \\(\\ce{ZnSO4}\\) solution.",
+            "<strong>Cathode (Copper electrode):</strong> A copper rod dipped in \\(\\ce{CuSO4}\\) solution."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The two solutions are connected by a salt bridge, and the electrodes are connected externally by a conducting wire."
+        },
+        {
+          "type": "heading",
+          "text": "Working of a Daniell Cell"
+        },
+        {
+          "type": "heading",
+          "text": "1. At the anode — Oxidation"
+        },
+        {
+          "type": "text",
+          "text": "Zinc loses two electrons and forms zinc ions. These electrons flow through the external wire towards the copper electrode."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Zn(s) -> Zn^2+(aq) + 2e-}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "2. At the cathode — Reduction"
+        },
+        {
+          "type": "text",
+          "text": "Copper ions gain two electrons and are deposited as copper metal on the copper electrode."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Cu^2+(aq) + 2e- -> Cu(s)}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "3. Overall cell reaction"
+        },
+        {
+          "type": "text",
+          "text": "Adding the two half-cell reactions gives the overall reaction:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Zn(s) + Cu^2+(aq) -> Zn^2+(aq) + Cu(s)}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Thus, zinc dissolves into the solution, while copper is deposited on the copper electrode."
+        },
+        {
+          "type": "heading",
+          "text": "Functions of the Salt Bridge"
+        },
+        {
+          "type": "text",
+          "text": "The salt bridge usually contains an inert electrolyte such as \\(\\ce{KCl}\\) or \\(\\ce{KNO3}\\).\n\nIts main functions are:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "It completes the electrical circuit by allowing ions to migrate.",
+            "It maintains electrical neutrality in both half-cells.",
+            "It prevents direct mixing of the two electrolyte solutions.",
+            "It minimises the liquid junction potential."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Representation of a Galvanic Cell"
+        },
+        {
+          "type": "text",
+          "text": "A galvanic cell is represented using the following notation:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Zn(s) | Zn^2+(aq) || Cu^2+(aq) | Cu(s)}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Here,"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "A single vertical line (\\(|\\)) represents a phase boundary.",
+            "A double vertical line (\\(\\parallel\\)) represents the salt bridge.",
+            "The anode is written on the left and the cathode on the right."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Important Points"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "The Daniell cell converts chemical energy into electrical energy.",
+            "Zinc acts as the negative anode, and copper acts as the positive cathode.",
+            "Electrons flow from zinc to copper through the external wire.",
+            "The cell reaction is spontaneous under standard conditions."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "2.2.1 Measurement of Electrode Potential",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Electrode potential</strong> is the potential difference developed between an electrode and the electrolyte in which it is dipped due to the tendency of the electrode to lose or gain electrons.\n\nFor example, when a zinc rod is dipped in a solution containing \\(\\ce{Zn^2+}\\) ions, some zinc atoms may enter the solution as ions, leaving electrons behind on the rod. This produces a potential difference between the electrode and the solution.\n\nSimilarly, metal ions may gain electrons and get deposited on an electrode."
+        },
+        {
+          "type": "heading",
+          "text": "Standard Electrode Potential"
+        },
+        {
+          "type": "text",
+          "text": "The <strong>standard electrode potential</strong> is the electrode potential measured under standard conditions:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Concentration of ions: \\(1\\text{ M}\\)",
+            "Gas pressure: \\(1\\text{ bar}\\)",
+            "Temperature: generally \\(298\\text{ K}\\)"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The electrode potential cannot be measured directly for a single electrode. It is measured relative to a reference electrode."
+        },
+        {
+          "type": "heading",
+          "text": "Standard Hydrogen Electrode (SHE)"
+        },
+        {
+          "type": "text",
+          "text": "The <strong>Standard Hydrogen Electrode (SHE)</strong> is used as the primary reference electrode for measuring electrode potentials.\n\nIts standard electrode potential is assigned a value of zero volts."
+        },
+        {
+          "type": "equation",
+          "text": "\\[E_{\\ce{H+/H2}}^\\circ = 0.00\\text{ V}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The standard hydrogen electrode consists of:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "A platinum electrode coated with platinum black.",
+            "A solution containing hydrogen ions of concentration \\(1\\text{ M}\\).",
+            "Pure hydrogen gas passed over the platinum electrode at a pressure of \\(1\\text{ bar}\\).",
+            "A temperature of \\(298\\text{ K}\\)."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The electrode reaction is"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2H+(aq) + 2e- <=> H2(g)}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The direction of the reaction depends on the other electrode connected to it."
+        },
+        {
+          "type": "heading",
+          "text": "Measurement of Electrode Potential"
+        },
+        {
+          "type": "text",
+          "text": "To measure the standard electrode potential of zinc, a zinc electrode is connected to a standard hydrogen electrode under standard conditions.\n\nIf zinc acts as the anode and SHE acts as the cathode, the cell reaction is"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Zn(s) + 2H+(aq) -> Zn^2+(aq) + H2(g)}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The standard cell potential is related to the electrode potentials by"
+        },
+        {
+          "type": "equation",
+          "text": "\\[E_{\\text{cell}}^\\circ = E_{\\text{cathode}}^\\circ - E_{\\text{anode}}^\\circ\\]"
+        },
+        {
+          "type": "text",
+          "text": "Since the standard electrode potential of SHE is zero,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[E_{\\text{cell}}^\\circ = 0 - E_{\\ce{Zn^2+/Zn}}^\\circ\\]"
+        },
+        {
+          "type": "text",
+          "text": "The standard cell potential for this cell is approximately \\(0.76\\text{ V}\\). Therefore,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[E_{\\ce{Zn^2+/Zn}}^\\circ = -0.76\\text{ V}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Thus, the standard reduction potential of zinc is negative, indicating that zinc has a greater tendency to undergo oxidation than hydrogen under standard conditions."
+        },
+        {
+          "type": "heading",
+          "text": "Standard Electrode Potentials of Some Electrodes"
+        },
+        {
+          "type": "table",
+          "label": "Standard Electrode Potentials of Some Electrodes",
+          "headers": [
+            "Electrode reaction",
+            "\\(E^\\circ\\text{ (V)}\\)"
+          ],
+          "rows": [
+            [
+              "\\(\\ce{Li+ + e- -> Li}\\)",
+              "−3.04"
+            ],
+            [
+              "\\(\\ce{Zn^2+ + 2e- -> Zn}\\)",
+              "−0.76"
+            ],
+            [
+              "\\(\\ce{2H+ + 2e- -> H2}\\)",
+              "0.00"
+            ],
+            [
+              "\\(\\ce{Cu^2+ + 2e- -> Cu}\\)",
+              "+0.34"
+            ],
+            [
+              "\\(\\ce{Ag+ + e- -> Ag}\\)",
+              "+0.80"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Significance of Electrode Potential"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "A more positive standard reduction potential indicates a greater tendency to undergo reduction.",
+            "A more negative standard reduction potential indicates a greater tendency for the reverse oxidation process.",
+            "The electrode with the higher reduction potential acts as the cathode in a galvanic cell.",
+            "The electrode with the lower reduction potential acts as the anode."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "2.3 Nernst Equation",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The electrode potential depends on the concentration of ions in the solution, gas pressure and temperature. Therefore, the electrode potential under non-standard conditions differs from the standard electrode potential.\n\nThe <strong>Nernst equation</strong> is used to calculate the electrode potential or cell potential under non-standard conditions."
+        },
+        {
+          "type": "heading",
+          "text": "Derivation of the Nernst Equation"
+        },
+        {
+          "type": "text",
+          "text": "For a general cell reaction,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[aA + bB \\to cC + dD\\]"
+        },
+        {
+          "type": "text",
+          "text": "the Gibbs energy change is related to the reaction quotient by"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\Delta G = \\Delta G^\\circ + RT \\ln Q\\]"
+        },
+        {
+          "type": "text",
+          "text": "For an electrochemical cell,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\Delta G = -nF E_{\\text{cell}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "and"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\Delta G^\\circ = -nF E_{\\text{cell}}^\\circ\\]"
+        },
+        {
+          "type": "text",
+          "text": "Substituting these relations gives"
+        },
+        {
+          "type": "equation",
+          "text": "\\[-nF E_{\\text{cell}} = -nF E_{\\text{cell}}^\\circ + RT \\ln Q\\]"
+        },
+        {
+          "type": "text",
+          "text": "Rearranging,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[E_{\\text{cell}} = E_{\\text{cell}}^\\circ - \\frac{RT}{nF} \\ln Q\\]"
+        },
+        {
+          "type": "text",
+          "text": "This is the Nernst equation.\n\nAt \\(298\\text{ K}\\), converting the natural logarithm into the common logarithm gives"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{E_{\\text{cell}} = E_{\\text{cell}}^\\circ - \\frac{0.0591}{n} \\log Q}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Here,"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(E_{\\text{cell}}\\) = cell potential under given conditions",
+            "\\(E_{\\text{cell}}^\\circ\\) = standard cell potential",
+            "\\(n\\) = number of electrons transferred in the balanced cell reaction",
+            "\\(R\\) = gas constant",
+            "\\(T\\) = temperature in kelvin",
+            "\\(F\\) = Faraday constant, approximately \\(96485\\text{ C mol}^{-1}\\)",
+            "\\(Q\\) = reaction quotient"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "For a general reaction,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[aA + bB \\to cC + dD\\]"
+        },
+        {
+          "type": "text",
+          "text": "the reaction quotient is"
+        },
+        {
+          "type": "equation",
+          "text": "\\[Q = \\frac{[C]^c[D]^d}{[A]^a[B]^b}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Pure solids and pure liquids are omitted from the reaction quotient."
+        },
+        {
+          "type": "heading",
+          "text": "Nernst Equation for an Electrode"
+        },
+        {
+          "type": "text",
+          "text": "For the reduction reaction"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{M^{n+} + ne- -> M(s)}\\]"
+        },
+        {
+          "type": "text",
+          "text": "the Nernst equation is"
+        },
+        {
+          "type": "equation",
+          "text": "\\[E = E^\\circ - \\frac{0.0591}{n} \\log \\frac{1}{[\\ce{M^{n+}}]}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Therefore,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{E = E^\\circ + \\frac{0.0591}{n} \\log [\\ce{M^{n+}}]}\\]"
+        },
+        {
+          "type": "text",
+          "text": "This equation shows that the electrode potential depends on the concentration of metal ions in the solution."
+        },
+        {
+          "type": "heading",
+          "text": "Application to a Daniell Cell"
+        },
+        {
+          "type": "text",
+          "text": "The overall reaction is"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Zn(s) + Cu^2+(aq) -> Zn^2+(aq) + Cu(s)}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The reaction quotient is"
+        },
+        {
+          "type": "equation",
+          "text": "\\[Q = \\frac{[\\ce{Zn^2+}]}{[\\ce{Cu^2+}]}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Since two electrons are transferred, \\(n = 2\\). Hence, at \\(298\\text{ K}\\),"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{E_{\\text{cell}} = E_{\\text{cell}}^\\circ - \\frac{0.0591}{2} \\log \\frac{[\\ce{Zn^2+}]}{[\\ce{Cu^2+}]}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "For the Daniell cell, \\(E_{\\text{cell}}^\\circ \\approx 1.10\\text{ V}\\).\n\nWhen both ion concentrations are \\(1\\text{ M}\\), \\(Q = 1\\) and \\(\\log 1 = 0\\). Thus,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[E_{\\text{cell}} = E_{\\text{cell}}^\\circ = 1.10\\text{ V}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "Significance of the Nernst Equation"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "It calculates electrode and cell potentials under non-standard conditions.",
+            "It shows how cell potential changes with ion concentration and gas pressure.",
+            "It helps determine the equilibrium constant of a cell reaction.",
+            "It is used to calculate the Gibbs energy change of an electrochemical reaction."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "2.3.1 Equilibrium Constant from Nernst Equation",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The <strong>equilibrium constant (\\(K\\))</strong> expresses the extent to which a chemical reaction proceeds towards products at equilibrium.\n\nThe Nernst equation can be used to calculate the equilibrium constant of an electrochemical cell reaction.\n\nFor a general cell reaction, the Nernst equation at \\(298\\text{ K}\\) is"
+        },
+        {
+          "type": "equation",
+          "text": "\\[E_{\\text{cell}} = E_{\\text{cell}}^\\circ - \\frac{0.0591}{n} \\log Q\\]"
+        },
+        {
+          "type": "text",
+          "text": "At equilibrium, the cell reaction has no net tendency to proceed in either direction. Therefore,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[E_{\\text{cell}} = 0\\]"
+        },
+        {
+          "type": "text",
+          "text": "and the reaction quotient becomes equal to the equilibrium constant:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[Q = K\\]"
+        },
+        {
+          "type": "text",
+          "text": "Substituting these values into the Nernst equation,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[0 = E_{\\text{cell}}^\\circ - \\frac{0.0591}{n} \\log K\\]"
+        },
+        {
+          "type": "text",
+          "text": "Rearranging,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\frac{0.0591}{n} \\log K = E_{\\text{cell}}^\\circ\\]"
+        },
+        {
+          "type": "text",
+          "text": "Therefore,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{\\log K = \\frac{n E_{\\text{cell}}^\\circ}{0.0591}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Or,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{K = 10^{\\frac{n E_{\\text{cell}}^\\circ}{0.0591}}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Here,"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(K\\) = equilibrium constant",
+            "\\(n\\) = number of electrons transferred in the balanced cell reaction",
+            "\\(E_{\\text{cell}}^\\circ\\) = standard cell potential in volts"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Significance"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "If \\(E_{\\text{cell}}^\\circ > 0\\), then \\(K > 1\\), and products are favoured at equilibrium.",
+            "If \\(E_{\\text{cell}}^\\circ < 0\\), then \\(K < 1\\), and reactants are favoured at equilibrium.",
+            "A large positive standard cell potential indicates a very large equilibrium constant, meaning the reaction strongly favours products."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "2.3.2 Electrochemical Cell and Gibbs Energy of the Reaction",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Gibbs energy change (\\(\\Delta G\\))</strong> indicates whether a chemical reaction is spontaneous under given conditions.\n\nIn an electrochemical cell, the Gibbs energy change is related to the electrical work produced by the cell.\n\nThe relationship is"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{\\Delta G = -nF E_{\\text{cell}}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Under standard conditions,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{\\Delta G^\\circ = -nF E_{\\text{cell}}^\\circ}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Here,"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(\\Delta G\\) = Gibbs energy change",
+            "\\(\\Delta G^\\circ\\) = standard Gibbs energy change",
+            "\\(n\\) = number of electrons transferred in the balanced cell reaction",
+            "\\(F\\) = Faraday constant (\\(96485\\text{ C mol}^{-1}\\))",
+            "\\(E_{\\text{cell}}\\) = cell potential",
+            "\\(E_{\\text{cell}}^\\circ\\) = standard cell potential"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Relationship Between Cell Potential and Spontaneity"
+        },
+        {
+          "type": "text",
+          "text": "The spontaneity of a cell reaction depends on the sign of its Gibbs energy change.\n\n- When \\(E_{\\text{cell}} > 0\\):"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\Delta G < 0\\]"
+        },
+        {
+          "type": "text",
+          "text": "The reaction is spontaneous.\n\n- When \\(E_{\\text{cell}} < 0\\):"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\Delta G > 0\\]"
+        },
+        {
+          "type": "text",
+          "text": "The reaction is non-spontaneous in the forward direction.\n\n- When \\(E_{\\text{cell}} = 0\\):"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\Delta G = 0\\]"
+        },
+        {
+          "type": "text",
+          "text": "The reaction is at equilibrium."
+        },
+        {
+          "type": "heading",
+          "text": "Relation Between Gibbs Energy and Equilibrium Constant"
+        },
+        {
+          "type": "text",
+          "text": "Combining the Gibbs energy equation with the Nernst equation gives"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\Delta G^\\circ = -RT \\ln K\\]"
+        },
+        {
+          "type": "text",
+          "text": "Using the common logarithm,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{\\Delta G^\\circ = -2.303 RT \\log K}\\]"
+        },
+        {
+          "type": "text",
+          "text": "This equation relates the standard Gibbs energy change to the equilibrium constant."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "If \\(K > 1\\), then \\(\\Delta G^\\circ < 0\\), and products are favoured at equilibrium.",
+            "If \\(K < 1\\), then \\(\\Delta G^\\circ > 0\\), and reactants are favoured at equilibrium.",
+            "If \\(K = 1\\), then \\(\\Delta G^\\circ = 0\\)."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Thus, the cell potential, Gibbs energy change and equilibrium constant are interconnected and help predict the direction and spontaneity of an electrochemical reaction."
+        }
+      ]
+    },
+    {
+      "heading": "2.4 Conductance of Electrolytic Solutions",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Electrolytic solutions conduct electricity due to the movement of ions. The ability of an electrolytic solution to conduct electricity depends on the number of ions present, their charges, and their mobility."
+        },
+        {
+          "type": "heading",
+          "text": "Electrical Conductance"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Conductance</strong> is the measure of the ease with which an electrical current passes through a conductor.\n\nIt is the reciprocal of resistance."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{G = \\frac{1}{R}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Here,"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(G\\) = conductance",
+            "\\(R\\) = resistance"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The SI unit of conductance is <strong>siemens (S)</strong>."
+        },
+        {
+          "type": "heading",
+          "text": "Conductivity"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Conductivity (\\(\\kappa\\))</strong> is the conductance of a solution having a unit length and unit cross-sectional area.\n\nIt is related to the resistance by"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{\\kappa = \\frac{l}{RA}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Since \\(G = 1/R\\),"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{\\kappa = G \\frac{l}{A}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Here,"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(\\kappa\\) = conductivity",
+            "\\(l\\) = distance between the electrodes",
+            "\\(A\\) = cross-sectional area of the electrodes",
+            "\\(R\\) = resistance of the solution"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The SI unit of conductivity is \\(\\text{S m}^{-1}\\). It is also commonly expressed in \\(\\text{S cm}^{-1}\\)."
+        },
+        {
+          "type": "heading",
+          "text": "Cell Constant"
+        },
+        {
+          "type": "text",
+          "text": "The ratio of the distance between the electrodes to their cross-sectional area is called the <strong>cell constant</strong>."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{\\text{Cell constant} = \\frac{l}{A}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Therefore,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{\\kappa = \\frac{\\text{Cell constant}}{R}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The unit of cell constant is \\(\\text{m}^{-1}\\) or \\(\\text{cm}^{-1}\\), depending on the units used."
+        },
+        {
+          "type": "heading",
+          "text": "Molar Conductivity"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Molar conductivity (\\(\\Lambda_m\\))</strong> is the conductance of the volume of solution containing one mole of an electrolyte when placed between two electrodes separated by a unit distance.\n\nIt is calculated using"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{\\Lambda_m = \\frac{\\kappa}{c}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "when \\(c\\) is expressed in \\(\\text{mol m}^{-3}\\).\n\nWhen concentration is expressed in \\(\\text{mol L}^{-1}\\) and conductivity in \\(\\text{S cm}^{-1}\\),"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{\\Lambda_m = \\frac{\\kappa \\times 1000}{C}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Here, \\(C\\) is the molar concentration of the solution.\n\nThe SI unit of molar conductivity is \\(\\text{S m}^2\\text{ mol}^{-1}\\). A commonly used unit is \\(\\text{S cm}^2\\text{ mol}^{-1}\\)."
+        },
+        {
+          "type": "heading",
+          "text": "Factors Affecting Conductivity"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Concentration:</strong> Conductivity generally increases with increasing concentration because more ions are present per unit volume.",
+            "<strong>Nature of electrolyte:</strong> Strong electrolytes ionise almost completely, whereas weak electrolytes ionise only partially.",
+            "<strong>Temperature:</strong> Conductivity generally increases with temperature because ions move more easily through the solution.",
+            "<strong>Nature of ions:</strong> Ions differ in charge, size and mobility, affecting their contribution to electrical conduction."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Conductivity and molar conductivity vary differently with concentration. Their variation and the behaviour of strong and weak electrolytes are explained in the next topic."
+        }
+      ]
+    },
+    {
+      "heading": "2.4.1 Measurement of the Conductivity of Ionic Solutions",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The conductivity of an ionic solution is measured using a device called a <strong>conductivity cell</strong>, which consists of two electrodes immersed in the solution."
+        },
+        {
+          "type": "heading",
+          "text": "Conductivity Cell"
+        },
+        {
+          "type": "text",
+          "text": "A conductivity cell generally contains two platinum electrodes coated with platinum black. The electrodes are placed at a fixed distance from each other and have a known area.\n\nThe resistance of the solution between the electrodes is measured using a conductivity meter. The conductivity is then calculated using the cell constant."
+        },
+        {
+          "type": "heading",
+          "text": "Measurement of Conductivity"
+        },
+        {
+          "type": "text",
+          "text": "The conductivity of an ionic solution is determined in the following steps:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "The conductivity cell is cleaned and rinsed with the solution to be tested.",
+            "The cell is filled with the ionic solution.",
+            "The resistance \\(R\\) of the solution is measured using a conductivity meter.",
+            "The cell constant is determined using a standard solution of known conductivity.",
+            "The conductivity of the solution is calculated using the following equation."
+          ]
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{\\kappa = \\frac{\\text{Cell constant}}{R}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Since the cell constant is"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Cell constant} = \\frac{l}{A}\\]"
+        },
+        {
+          "type": "text",
+          "text": "conductivity can also be expressed as"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{\\kappa = \\frac{l}{RA}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Here, \\(l\\) is the distance between the electrodes and \\(A\\) is their effective area."
+        },
+        {
+          "type": "heading",
+          "text": "Calibration of a Conductivity Cell"
+        },
+        {
+          "type": "text",
+          "text": "The cell constant is usually determined using a standard \\(\\ce{KCl}\\) solution whose conductivity is known at a specified temperature."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{\\text{Cell constant} = \\kappa R}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Once the cell constant is known, it can be used to determine the conductivity of other solutions measured with the same cell."
+        },
+        {
+          "type": "heading",
+          "text": "Important Points"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Platinum electrodes are commonly used because they are chemically resistant.",
+            "Platinum black increases the effective surface area of the electrodes.",
+            "Conductivity measurements are generally performed using alternating current to minimise electrode polarisation and electrolysis.",
+            "Temperature must be controlled because conductivity changes with temperature.",
+            "Conductivity is expressed in \\(\\text{S m}^{-1}\\) or \\(\\text{S cm}^{-1}\\)."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "2.4.2 Variation of Conductivity and Molar Conductivity with Concentration (Kohlrausch's Law)",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The conductivity and molar conductivity of an electrolyte change with its concentration. Their behaviour is different for strong and weak electrolytes."
+        },
+        {
+          "type": "heading",
+          "text": "1. Variation of Conductivity with Concentration"
+        },
+        {
+          "type": "text",
+          "text": "Conductivity (\\(\\kappa\\)) generally increases with increasing concentration because the number of ions present per unit volume increases.\n\nOn dilution, conductivity decreases because the number of ions per unit volume decreases."
+        },
+        {
+          "type": "heading",
+          "text": "2. Variation of Molar Conductivity with Concentration"
+        },
+        {
+          "type": "text",
+          "text": "Molar conductivity (\\(\\Lambda_m\\)) increases with dilution because the ions can move more freely, and the degree of ionisation may increase.\n\nThe increase in molar conductivity is different for strong and weak electrolytes.\n\n<strong>Strong electrolytes:</strong>\nStrong electrolytes, such as \\(\\ce{NaCl}\\) and \\(\\ce{KCl}\\), ionise almost completely in solution. Their molar conductivity increases gradually on dilution because interionic attractions decrease, allowing ions to move more freely.\n\n<strong>Weak electrolytes:</strong>\nWeak electrolytes, such as \\(\\ce{CH3COOH}\\), ionise only partially in solution. Their molar conductivity increases sharply on dilution because both ionic mobility and the degree of ionisation increase."
+        },
+        {
+          "type": "heading",
+          "text": "3. Limiting Molar Conductivity"
+        },
+        {
+          "type": "text",
+          "text": "The molar conductivity at infinite dilution, when the concentration approaches zero, is called <strong>limiting molar conductivity (\\(\\Lambda_m^\\circ\\))</strong>.\n\nAt infinite dilution, the ions behave independently, and the influence of interionic attractions becomes negligible.\n\nFor strong electrolytes, the variation of molar conductivity with concentration is approximately described by"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{\\Lambda_m = \\Lambda_m^\\circ - A\\sqrt{C}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Here,"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(\\Lambda_m\\) = molar conductivity at concentration \\(C\\)",
+            "\\(\\Lambda_m^\\circ\\) = limiting molar conductivity",
+            "\\(A\\) = a constant that depends on the electrolyte, solvent and temperature",
+            "\\(C\\) = molar concentration"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "This relationship is useful for strong electrolytes, but it is not directly applicable to weak electrolytes."
+        },
+        {
+          "type": "heading",
+          "text": "4. Kohlrausch's Law of Independent Migration of Ions"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Kohlrausch's law</strong> states that at infinite dilution, each ion contributes independently to the total limiting molar conductivity of an electrolyte, regardless of the nature of the other ion present.\n\nFor an electrolyte such as \\(\\ce{A_xB_y}\\),"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{\\Lambda_m^\\circ = x\\lambda_+^\\circ + y\\lambda_-^\\circ}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Here,"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(\\Lambda_m^\\circ\\) = limiting molar conductivity of the electrolyte",
+            "\\(\\lambda_+^\\circ\\) = limiting ionic conductivity of the cation",
+            "\\(\\lambda_-^\\circ\\) = limiting ionic conductivity of the anion",
+            "\\(x\\) and \\(y\\) = numbers of cations and anions in the formula unit"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "For example, for \\(\\ce{NaCl}\\),"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{\\Lambda_m^\\circ(\\ce{NaCl}) = \\lambda_{\\ce{Na+}}^\\circ + \\lambda_{\\ce{Cl-}}^\\circ}\\]"
+        },
+        {
+          "type": "text",
+          "text": "For \\(\\ce{CaCl2}\\),"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{\\Lambda_m^\\circ(\\ce{CaCl2}) = \\lambda_{\\ce{Ca^2+}}^\\circ + 2\\lambda_{\\ce{Cl-}}^\\circ}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "5. Applications of Kohlrausch's Law"
+        },
+        {
+          "type": "text",
+          "text": "Kohlrausch's law is used to:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Calculate the limiting molar conductivity of weak electrolytes.",
+            "Determine the degree of ionisation of weak electrolytes.",
+            "Calculate the dissociation constant of weak electrolytes.",
+            "Determine the solubility of sparingly soluble salts."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "For a weak electrolyte, the degree of ionisation can be calculated using"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{\\alpha = \\frac{\\Lambda_m}{\\Lambda_m^\\circ}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "where \\(\\alpha\\) is the degree of ionisation, \\(\\Lambda_m\\) is the molar conductivity at a given concentration, and \\(\\Lambda_m^\\circ\\) is the limiting molar conductivity."
+        }
+      ]
+    },
+    {
+      "heading": "2.5 Electrolytic Cells and Electrolysis",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "An <strong>electrolytic cell</strong> is a device in which electrical energy is used to bring about a non-spontaneous chemical reaction.\n\nThe process of using electrical energy to produce a chemical change in an electrolyte is called <strong>electrolysis</strong>.\n\nFor example, when an electric current is passed through molten sodium chloride, it decomposes into sodium metal and chlorine gas."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2NaCl(l) ->[\\text{electricity}] 2Na(l) + Cl2(g)}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "Construction of an Electrolytic Cell"
+        },
+        {
+          "type": "text",
+          "text": "An electrolytic cell consists of:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Electrolyte:</strong> A molten ionic compound or an ionic solution that conducts electricity through mobile ions.",
+            "<strong>Anode:</strong> The electrode connected to the positive terminal of the external power source.",
+            "<strong>Cathode:</strong> The electrode connected to the negative terminal of the external power source.",
+            "<strong>Battery or power supply:</strong> Provides the electrical energy required for the chemical reaction."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Working of an Electrolytic Cell"
+        },
+        {
+          "type": "text",
+          "text": "When an electric current passes through the electrolyte:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Positively charged ions (cations) move towards the cathode and gain electrons. Hence, reduction occurs at the cathode.",
+            "Negatively charged ions (anions) move towards the anode and lose electrons. Hence, oxidation occurs at the anode.",
+            "Electrical energy drives the non-spontaneous chemical reaction."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Differences Between Galvanic and Electrolytic Cells"
+        },
+        {
+          "type": "table",
+          "label": "Differences Between Galvanic and Electrolytic Cells",
+          "headers": [
+            "Galvanic cell",
+            "Electrolytic cell"
+          ],
+          "rows": [
+            [
+              "Converts chemical energy into electrical energy.",
+              "Converts electrical energy into chemical energy."
+            ],
+            [
+              "The reaction is spontaneous.",
+              "The reaction is non-spontaneous."
+            ],
+            [
+              "Anode is negative.",
+              "Anode is positive."
+            ],
+            [
+              "Cathode is positive.",
+              "Cathode is negative."
+            ],
+            [
+              "No external power supply is required to drive the reaction.",
+              "An external power supply is required."
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Applications of Electrolysis"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Extraction of reactive metals such as sodium and aluminium.",
+            "Purification of metals such as copper.",
+            "Electroplating objects with metals such as chromium, silver and nickel.",
+            "Manufacture of chemicals such as chlorine and sodium hydroxide."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Remember:</strong> Oxidation always occurs at the anode, and reduction always occurs at the cathode, regardless of the type of electrochemical cell."
+        }
+      ]
+    },
+    {
+      "heading": "2.5.1 Quantitative Aspects of Electrolysis (Faraday's Laws)",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The amount of substance deposited or liberated during electrolysis depends on the quantity of electricity passed through the electrolyte.\n\n<strong>Faraday's laws of electrolysis</strong> describe the relationship between the quantity of electricity and the amount of chemical change produced."
+        },
+        {
+          "type": "heading",
+          "text": "Faraday's First Law of Electrolysis"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Statement:</strong> The mass of a substance deposited or liberated at an electrode is directly proportional to the quantity of electricity passed through the electrolyte."
+        },
+        {
+          "type": "equation",
+          "text": "\\[m \\propto Q\\]"
+        },
+        {
+          "type": "text",
+          "text": "Since the quantity of electricity is given by"
+        },
+        {
+          "type": "equation",
+          "text": "\\[Q = It\\]"
+        },
+        {
+          "type": "text",
+          "text": "we get"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{m = ZIt}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Here,"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(m\\) = mass of substance deposited or liberated",
+            "\\(Z\\) = electrochemical equivalent of the substance",
+            "\\(I\\) = current in amperes",
+            "\\(t\\) = time in seconds",
+            "\\(Q\\) = quantity of electricity in coulombs"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The <strong>electrochemical equivalent \\(Z\\)</strong> is the mass of a substance deposited by one coulomb of electricity."
+        },
+        {
+          "type": "heading",
+          "text": "Faraday's Second Law of Electrolysis"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Statement:</strong> When the same quantity of electricity passes through different electrolytes, the masses of substances deposited or liberated are proportional to their equivalent masses."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{\\frac{m_1}{m_2} = \\frac{E_1}{E_2}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Here, \\(m_1\\) and \\(m_2\\) are the masses deposited, while \\(E_1\\) and \\(E_2\\) are their respective equivalent masses.\n\nThe equivalent mass is calculated as"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{E = \\frac{M}{n}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "where \\(M\\) is the molar mass and \\(n\\) is the number of electrons required per ion in the electrode reaction."
+        },
+        {
+          "type": "heading",
+          "text": "Faraday Constant"
+        },
+        {
+          "type": "text",
+          "text": "One mole of electrons carries approximately 96485 coulombs of charge. This quantity is called the <strong>Faraday constant</strong>."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{F \\approx 96485\\text{ C mol}^{-1}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Therefore, the quantity of electricity required to deposit one mole of a substance is related to the number of electrons involved in its electrode reaction."
+        },
+        {
+          "type": "heading",
+          "text": "General Formula for Electrolysis"
+        },
+        {
+          "type": "text",
+          "text": "Combining Faraday's laws gives"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{m = \\frac{MIt}{nF}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "This equation is used to calculate the mass of a substance deposited or liberated during electrolysis.\n\nHere,"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(m\\) = mass deposited or liberated in grams",
+            "\\(M\\) = molar mass in \\(\\text{g mol}^{-1}\\)",
+            "\\(I\\) = current in amperes",
+            "\\(t\\) = time in seconds",
+            "\\(n\\) = number of electrons transferred per ion",
+            "\\(F\\) = Faraday constant"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Important Points"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Increasing the current increases the mass deposited if the time remains constant.",
+            "Increasing the time increases the mass deposited if the current remains constant.",
+            "For the same quantity of electricity, the deposited masses depend on the equivalent masses of the substances.",
+            "These equations assume that the current efficiency is 100% and that the stated electrode reaction is the only relevant reaction."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "2.6 Batteries",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "A <strong>battery</strong> is a device consisting of one or more electrochemical cells that converts chemical energy into electrical energy.\n\nBatteries are widely used in mobile phones, watches, vehicles, calculators and other electronic devices.\n\nA battery operates through redox reactions. Oxidation occurs at the anode, and reduction occurs at the cathode, producing electrical energy."
+        },
+        {
+          "type": "heading",
+          "text": "Types of Batteries"
+        },
+        {
+          "type": "text",
+          "text": "Batteries are classified into two main types:"
+        },
+        {
+          "type": "heading",
+          "text": "1. Primary batteries"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Primary batteries</strong> cannot be recharged easily because their chemical reactions are essentially irreversible under normal operating conditions. Once the reactants are consumed, the battery is discarded.\n\n<strong>Examples:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Dry cell",
+            "Mercury cell"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "2. Secondary batteries"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Secondary batteries</strong> can be recharged by passing an external electric current through them. During charging, the chemical reactions are driven in the reverse direction, restoring the reactants.\n\n<strong>Examples:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Lead storage battery",
+            "Nickel-cadmium cell"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Characteristics of a Good Battery"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "It should provide a steady voltage for a reasonable period.",
+            "It should have a high energy density.",
+            "It should be safe, reliable and easy to use.",
+            "It should have a long service life.",
+            "It should be economical for its intended application."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The main difference between primary and secondary batteries is that primary batteries are generally used until their reactants are consumed, whereas secondary batteries can be recharged and reused."
+        }
+      ]
+    },
+    {
+      "heading": "2.6.1 Primary Batteries (Dry Cell and Mercury Cell)",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Primary batteries are electrochemical cells in which the chemical reactions are essentially irreversible under normal operating conditions. Therefore, they cannot be recharged easily and are generally discarded after use."
+        },
+        {
+          "type": "heading",
+          "text": "1. Dry Cell (Leclanché Cell)"
+        },
+        {
+          "type": "text",
+          "text": "A <strong>dry cell</strong> is a primary battery commonly used in torches, wall clocks, remote controls and toys.\n\n<strong>Construction:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Anode:</strong> The zinc container acts as the negative electrode.",
+            "<strong>Cathode:</strong> A carbon rod surrounded by a mixture of manganese dioxide \\(\\ce{MnO2}\\) and carbon powder.",
+            "<strong>Electrolyte:</strong> A moist paste containing ammonium chloride \\(\\ce{NH4Cl}\\) and zinc chloride \\(\\ce{ZnCl2}\\)."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Working:</strong>\n\nZinc undergoes oxidation and releases electrons."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Zn(s) -> Zn^2+ + 2e-}\\]"
+        },
+        {
+          "type": "text",
+          "text": "At the cathode, manganese dioxide participates in the reduction process. The exact cathode chemistry depends on the electrolyte composition and operating conditions.\n\nThe dry cell produces a voltage of approximately \\(1.5\\text{ V}\\).\n\n<strong>Uses:</strong> Torches, clocks, remote controls and other low-power electronic devices."
+        },
+        {
+          "type": "heading",
+          "text": "2. Mercury Cell"
+        },
+        {
+          "type": "text",
+          "text": "A <strong>mercury cell</strong> is a primary battery that provides a nearly constant voltage during its useful life. It was traditionally used in watches, calculators and small electronic instruments.\n\n<strong>Construction:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Anode:</strong> Zinc amalgam.",
+            "<strong>Cathode:</strong> A mixture of mercury(II) oxide \\(\\ce{HgO}\\) and carbon.",
+            "<strong>Electrolyte:</strong> Potassium hydroxide \\(\\ce{KOH}\\) or sodium hydroxide \\(\\ce{NaOH}\\)."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Working:</strong>\n\nAt the anode, zinc is oxidised:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Zn + 2OH- -> ZnO + H2O + 2e-}\\]"
+        },
+        {
+          "type": "text",
+          "text": "At the cathode, mercury(II) oxide is reduced:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{HgO + H2O + 2e- -> Hg + 2OH-}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The overall cell reaction is"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Zn + HgO -> ZnO + Hg}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The mercury cell produces a nearly constant voltage of approximately \\(1.35\\text{ V}\\).\n\n<strong>Uses:</strong> Traditionally used in watches, calculators and hearing aids. Its use has declined because mercury is toxic and environmentally hazardous."
+        },
+        {
+          "type": "heading",
+          "text": "Differences Between Dry Cell and Mercury Cell"
+        },
+        {
+          "type": "table",
+          "label": "Differences Between Dry Cell and Mercury Cell",
+          "headers": [
+            "Dry cell",
+            "Mercury cell"
+          ],
+          "rows": [
+            [
+              "Uses zinc as the anode and manganese dioxide in the cathode mixture.",
+              "Uses zinc as the anode and mercury(II) oxide as the cathode material."
+            ],
+            [
+              "Produces approximately 1.5 V.",
+              "Produces approximately 1.35 V."
+            ],
+            [
+              "Voltage may decrease during use.",
+              "Provides nearly constant voltage during use."
+            ],
+            [
+              "Commonly used in torches and remote controls.",
+              "Historically used in watches and small electronic devices."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "2.6.2 Secondary Batteries (Lead Storage Battery and Nickel-Cadmium Cell)",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Secondary batteries are electrochemical cells that can be recharged by passing an external electric current through them. During charging, the chemical reactions are driven in the reverse direction, allowing the battery to be used repeatedly."
+        },
+        {
+          "type": "heading",
+          "text": "1. Lead Storage Battery"
+        },
+        {
+          "type": "text",
+          "text": "A <strong>lead storage battery</strong> is a rechargeable battery commonly used in automobiles and backup power systems.\n\n<strong>Construction:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Anode during discharge:</strong> Lead \\(\\ce{Pb}\\).",
+            "<strong>Cathode during discharge:</strong> Lead dioxide \\(\\ce{PbO2}\\).",
+            "<strong>Electrolyte:</strong> Aqueous sulphuric acid \\(\\ce{H2SO4}\\)."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Working During Discharge</strong>\n\nAt the anode, lead is oxidised:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Pb + SO4^2- -> PbSO4 + 2e-}\\]"
+        },
+        {
+          "type": "text",
+          "text": "At the cathode, lead dioxide is reduced:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{PbO2 + 4H+ + SO4^2- + 2e- -> PbSO4 + 2H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The overall cell reaction is"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Pb + PbO2 + 2H2SO4 -> 2PbSO4 + 2H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "During discharge, both electrodes are converted partly into lead sulphate, and the concentration of sulphuric acid decreases.\n\n<strong>Charging:</strong> When an external direct current is applied in the reverse direction, the reactions reverse, regenerating lead and lead dioxide and increasing the sulphuric acid concentration.\n\nEach lead storage cell produces approximately \\(2\\text{ V}\\). Six cells connected in series provide approximately \\(12\\text{ V}\\).\n\n<strong>Uses:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Automobile starting batteries",
+            "Inverters and emergency power supplies",
+            "Backup power systems"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "2. Nickel-Cadmium Cell"
+        },
+        {
+          "type": "text",
+          "text": "A <strong>nickel-cadmium (Ni-Cd) cell</strong> is a rechargeable battery that uses nickel oxyhydroxide as the positive electrode material and cadmium as the negative electrode material.\n\n<strong>Construction:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Negative electrode during discharge:</strong> Cadmium \\(\\ce{Cd}\\).",
+            "<strong>Positive electrode during discharge:</strong> Nickel oxyhydroxide \\(\\ce{NiO(OH)}\\).",
+            "<strong>Electrolyte:</strong> Aqueous potassium hydroxide \\(\\ce{KOH}\\)."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Working During Discharge</strong>\n\nAt the negative electrode, cadmium is oxidised:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Cd + 2OH- -> Cd(OH)2 + 2e-}\\]"
+        },
+        {
+          "type": "text",
+          "text": "At the positive electrode, nickel oxyhydroxide is reduced:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2NiO(OH) + 2H2O + 2e- -> 2Ni(OH)2 + 2OH-}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The overall cell reaction is"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Cd + 2NiO(OH) + 2H2O -> Cd(OH)2 + 2Ni(OH)2}\\]"
+        },
+        {
+          "type": "text",
+          "text": "During charging, the reactions proceed in the reverse direction.\n\nA nickel-cadmium cell typically provides approximately \\(1.2\\text{ V}\\).\n\n<strong>Uses:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Rechargeable emergency lighting",
+            "Some cordless tools",
+            "Certain industrial and backup applications"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Cadmium is toxic, so nickel-cadmium batteries require proper collection and recycling."
+        },
+        {
+          "type": "heading",
+          "text": "Differences Between Lead Storage and Nickel-Cadmium Batteries"
+        },
+        {
+          "type": "table",
+          "label": "Differences Between Lead Storage and Nickel-Cadmium Batteries",
+          "headers": [
+            "Lead storage battery",
+            "Nickel-cadmium cell"
+          ],
+          "rows": [
+            [
+              "Uses lead and lead dioxide as electrode materials.",
+              "Uses cadmium and nickel oxyhydroxide as electrode materials."
+            ],
+            [
+              "Uses sulphuric acid as the electrolyte.",
+              "Uses potassium hydroxide as the electrolyte."
+            ],
+            [
+              "Produces approximately 2.0 V per cell.",
+              "Produces approximately 1.2 V per cell."
+            ],
+            [
+              "Commonly used in automobiles and inverters.",
+              "Used in certain portable and industrial applications."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "2.7 Fuel Cells",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "A <strong>fuel cell</strong> is an electrochemical cell that converts the chemical energy of a fuel and an oxidising agent directly into electrical energy.\n\nUnlike conventional batteries, fuel cells can continue to produce electricity as long as fuel and the oxidising agent are supplied continuously."
+        },
+        {
+          "type": "heading",
+          "text": "Hydrogen–Oxygen Fuel Cell"
+        },
+        {
+          "type": "text",
+          "text": "A <strong>hydrogen–oxygen fuel cell</strong> uses hydrogen as the fuel and oxygen as the oxidising agent. It produces electricity, with water as the overall reaction product."
+        },
+        {
+          "type": "heading",
+          "text": "Construction"
+        },
+        {
+          "type": "text",
+          "text": "The hydrogen–oxygen fuel cell consists of:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Anode:</strong> The electrode where hydrogen is oxidised.",
+            "<strong>Cathode:</strong> The electrode where oxygen is reduced.",
+            "<strong>Electrolyte:</strong> A medium that allows ions to move between the electrodes.",
+            "<strong>Fuel supply:</strong> Hydrogen is continuously supplied to the anode.",
+            "<strong>Oxidant supply:</strong> Oxygen is continuously supplied to the cathode."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Porous carbon electrodes with suitable catalysts are commonly used in the conventional alkaline hydrogen–oxygen fuel cell."
+        },
+        {
+          "type": "heading",
+          "text": "Working"
+        },
+        {
+          "type": "text",
+          "text": "In an alkaline hydrogen–oxygen fuel cell, the electrode reactions are as follows.\n\n<strong>At the anode — Oxidation</strong>\nHydrogen reacts with hydroxide ions to produce water and electrons."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2H2 + 4OH- -> 4H2O + 4e-}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>At the cathode — Reduction</strong>\nOxygen reacts with water and electrons to produce hydroxide ions."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{O2 + 2H2O + 4e- -> 4OH-}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Overall cell reaction</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{\\ce{2H2 + O2 -> 2H2O}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The electrons released at the anode flow through an external circuit to the cathode, producing electrical energy."
+        },
+        {
+          "type": "heading",
+          "text": "Advantages of Fuel Cells"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "They convert chemical energy directly into electrical energy.",
+            "They can operate continuously when fuel and oxygen are supplied.",
+            "Hydrogen–oxygen fuel cells produce water as the main reaction product.",
+            "They can have high energy-conversion efficiency.",
+            "They can be used where reliable electricity is required."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Applications"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Spacecraft and space missions",
+            "Fuel-cell electric vehicles",
+            "Stationary electricity generation",
+            "Backup power systems"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Important:</strong> A fuel cell differs from a conventional battery because its fuel and oxidising agent are supplied continuously from outside rather than being stored entirely within the cell."
+        }
+      ]
+    },
+    {
+      "heading": "2.8 Corrosion",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Corrosion</strong> is the slow destruction of a metal due to its chemical or electrochemical reaction with its surroundings.\n\nA common example is the rusting of iron in the presence of oxygen and moisture.\n\nOther examples include the formation of a green coating on copper and the tarnishing of silver."
+        },
+        {
+          "type": "heading",
+          "text": "Electrochemical Theory of Corrosion"
+        },
+        {
+          "type": "text",
+          "text": "Corrosion of iron occurs through the formation of tiny anodic and cathodic regions on its surface in the presence of moisture."
+        },
+        {
+          "type": "heading",
+          "text": "Mechanism of Rusting of Iron"
+        },
+        {
+          "type": "heading",
+          "text": "1. Formation of anodic region"
+        },
+        {
+          "type": "text",
+          "text": "Iron loses electrons and forms ferrous ions. Oxidation occurs at the anodic region."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Fe(s) -> Fe^2+(aq) + 2e-}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "2. Formation of cathodic region"
+        },
+        {
+          "type": "text",
+          "text": "In the presence of dissolved oxygen and water, oxygen is reduced in the cathodic region under neutral or alkaline conditions."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{O2 + 2H2O + 4e- -> 4OH-}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "3. Formation of iron(II) hydroxide"
+        },
+        {
+          "type": "text",
+          "text": "The ferrous ions react with hydroxide ions to form iron(II) hydroxide."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Fe^2+ + 2OH- -> Fe(OH)2}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "4. Formation of rust"
+        },
+        {
+          "type": "text",
+          "text": "Iron(II) hydroxide is further oxidised by oxygen to form iron(III) hydroxide, which undergoes further changes to produce hydrated iron(III) oxide, commonly called <strong>rust</strong>.\n\nRust is represented approximately as"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{\\ce{Fe2O3 \\cdot xH2O}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Rust is porous and does not protect the underlying iron effectively. Therefore, corrosion can continue."
+        },
+        {
+          "type": "heading",
+          "text": "Factors Affecting Corrosion"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Moisture:</strong> The presence of water generally promotes corrosion.",
+            "<strong>Oxygen:</strong> Oxygen supports the cathodic reaction involved in rusting.",
+            "<strong>Electrolytes:</strong> Dissolved salts increase the conductivity of moisture and can accelerate corrosion.",
+            "<strong>Acidic conditions:</strong> Acids often increase the rate of corrosion of iron.",
+            "<strong>Contact with dissimilar metals:</strong> Electrical contact between different metals in the presence of an electrolyte can accelerate corrosion of the more active metal."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Prevention of Corrosion"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Painting:</strong> A paint coating prevents contact between the metal and its surroundings.",
+            "<strong>Oiling and greasing:</strong> These form a protective layer that reduces contact with moisture and oxygen.",
+            "<strong>Galvanisation:</strong> Iron is coated with zinc, which protects the iron from corrosion.",
+            "<strong>Electroplating:</strong> A thin layer of another metal, such as chromium or tin, is deposited on the surface.",
+            "<strong>Alloying:</strong> Corrosion-resistant alloys, such as stainless steel, are produced by combining iron with suitable elements, particularly chromium.",
+            "<strong>Cathodic protection:</strong> The metal to be protected is made the cathode by connecting it to a more reactive sacrificial metal, such as zinc or magnesium."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Importance of Preventing Corrosion"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Increases the service life of metal structures and equipment.",
+            "Reduces maintenance and replacement costs.",
+            "Improves the safety of bridges, pipelines, vehicles and storage tanks.",
+            "Prevents material loss and damage caused by corrosion."
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": "Chapter 2 covers electrochemical cells, distinguishing between galvanic cells (which convert chemical energy of spontaneous redox reactions into electrical energy) and electrolytic cells (which use electrical energy to drive non-spontaneous reactions). It explains the Daniell cell, salt bridge functions, cell notation, standard electrode potential measured using the Standard Hydrogen Electrode (SHE), and the Nernst equation along with its relationships to the equilibrium constant and Gibbs energy change. The chapter also details electrical conductance, conductivity, cell constant, molar conductivity, their variation with concentration for strong and weak electrolytes, and Kohlrausch's law of independent migration of ions. Finally, it examines electrolysis, Faraday's first and second laws, primary batteries (dry cell, mercury cell), secondary batteries (lead storage battery, nickel-cadmium cell), hydrogen–oxygen fuel cells, and the electrochemical mechanism and prevention of corrosion.",
+  "qa": [
+    {
+      "q": "What is the main difference between a galvanic cell and an electrolytic cell?",
+      "a": "A galvanic cell converts chemical energy into electrical energy through a spontaneous redox reaction (with a negative anode and positive cathode), whereas an electrolytic cell uses electrical energy from an external power supply to drive a non-spontaneous chemical reaction (with a positive anode and negative cathode).",
+      "section": "2.1 Electrochemical Cells"
+    },
+    {
+      "q": "What are the main functions of a salt bridge in a galvanic cell?",
+      "a": "A salt bridge completes the electrical circuit by allowing ions to migrate, maintains electrical neutrality in both half-cells, prevents direct mixing of the two electrolyte solutions, and minimises the liquid junction potential.",
+      "section": "2.2 Galvanic Cells"
+    },
+    {
+      "q": "How is a Daniell cell represented in standard cell notation?",
+      "a": "A Daniell cell is represented as \\(\\ce{Zn(s) | Zn^2+(aq) || Cu^2+(aq) | Cu(s)}\\), where a single vertical line represents a phase boundary, a double vertical line represents the salt bridge, the anode is on the left, and the cathode is on the right.",
+      "section": "2.2 Galvanic Cells"
+    },
+    {
+      "q": "What is the Standard Hydrogen Electrode (SHE) and what is its standard potential?",
+      "a": "The Standard Hydrogen Electrode (SHE) is the primary reference electrode consisting of a platinum electrode coated with platinum black dipped in \\(1\\text{ M } \\ce{H+}\\) solution with pure \\(\\ce{H2}\\) gas at \\(1\\text{ bar}\\) and \\(298\\text{ K}\\). Its standard electrode potential is assigned as \\(0.00\\text{ V}\\).",
+      "section": "2.2.1 Measurement of Electrode Potential"
+    },
+    {
+      "q": "Write the Nernst equation for a cell at 298 K.",
+      "a": "At 298 K, the Nernst equation is \\(E_{\\text{cell}} = E_{\\text{cell}}^\\circ - \\frac{0.0591}{n} \\log Q\\), where \\(n\\) is the number of electrons transferred and \\(Q\\) is the reaction quotient.",
+      "section": "2.3 Nernst Equation"
+    },
+    {
+      "q": "How is the standard cell potential related to the equilibrium constant and standard Gibbs energy change?",
+      "a": "At 298 K, \\(\\log K = \\frac{n E_{\\text{cell}}^\\circ}{0.0591}\\) and \\(\\Delta G^\\circ = -nF E_{\\text{cell}}^\\circ = -2.303 RT \\log K\\). When \\(E_{\\text{cell}}^\\circ > 0\\), \\(\\Delta G^\\circ < 0\\) and \\(K > 1\\), meaning the reaction is spontaneous and favours products.",
+      "section": "2.3.2 Electrochemical Cell and Gibbs Energy of the Reaction"
+    },
+    {
+      "q": "How do conductivity and molar conductivity vary with dilution?",
+      "a": "On dilution, conductivity (\\(\\kappa\\)) decreases because the number of ions per unit volume decreases, whereas molar conductivity (\\(\\Lambda_m\\)) increases because ions move more freely and the degree of ionisation increases.",
+      "section": "2.4.2 Variation of Conductivity and Molar Conductivity with Concentration (Kohlrausch's Law)"
+    },
+    {
+      "q": "State Kohlrausch's law of independent migration of ions.",
+      "a": "Kohlrausch's law states that at infinite dilution, each ion contributes independently to the total limiting molar conductivity of an electrolyte, regardless of the nature of the other ion present: \\(\\Lambda_m^\\circ = x\\lambda_+^\\circ + y\\lambda_-^\\circ\\).",
+      "section": "2.4.2 Variation of Conductivity and Molar Conductivity with Concentration (Kohlrausch's Law)"
+    },
+    {
+      "q": "State Faraday's first and second laws of electrolysis.",
+      "a": "Faraday's first law states that the mass of a substance deposited or liberated at an electrode is directly proportional to the quantity of electricity passed (\\(m = ZIt = \\frac{MIt}{nF}\\)). Faraday's second law states that when the same quantity of electricity passes through different electrolytes, the masses deposited are proportional to their equivalent masses (\\(\\frac{m_1}{m_2} = \\frac{E_1}{E_2}\\)).",
+      "section": "2.5.1 Quantitative Aspects of Electrolysis (Faraday's Laws)"
+    },
+    {
+      "q": "Why does a mercury cell provide a constant voltage throughout its life unlike a dry cell?",
+      "a": "The overall reaction of a mercury cell (\\(\\ce{Zn + HgO -> ZnO + Hg}\\)) does not involve any ion in solution whose concentration changes during operation, so it provides a nearly constant voltage of about 1.35 V.",
+      "section": "2.6.1 Primary Batteries (Dry Cell and Mercury Cell)"
+    },
+    {
+      "q": "What is the overall cell reaction in a lead storage battery during discharge?",
+      "a": "During discharge, lead at the anode and lead dioxide at the cathode react with sulphuric acid to form lead sulphate and water: \\(\\ce{Pb + PbO2 + 2H2SO4 -> 2PbSO4 + 2H2O}\\).",
+      "section": "2.6.2 Secondary Batteries (Lead Storage Battery and Nickel-Cadmium Cell)"
+    },
+    {
+      "q": "What is a fuel cell and what are its main advantages?",
+      "a": "A fuel cell is an electrochemical cell that converts the chemical energy of a continuously supplied fuel (like \\(\\ce{H2}\\)) and oxidant (like \\(\\ce{O2}\\)) directly into electrical energy. It operates continuously, has high efficiency, and produces non-polluting water as the main product.",
+      "section": "2.7 Fuel Cells"
+    },
+    {
+      "q": "What is corrosion and how is rusting of iron prevented?",
+      "a": "Corrosion is the slow destruction of a metal due to chemical or electrochemical reaction with its surroundings, such as the rusting of iron to form \\(\\ce{Fe2O3 \\cdot xH2O}\\). It is prevented by painting, oiling/greasing, galvanisation, electroplating, alloying, and cathodic protection.",
+      "section": "2.8 Corrosion"
+    }
+  ]
+}

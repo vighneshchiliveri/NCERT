@@ -1,0 +1,1075 @@
+{
+  "title": "Chemical Kinetics",
+  "class": "12",
+  "subject": "Chemistry",
+  "chapter": "Chapter 3",
+  "book": "NCERT Chemistry",
+  "notes": [
+    {
+      "heading": "3.1 Rate of a Chemical Reaction",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The <strong>rate of a chemical reaction</strong> is the change in concentration of a reactant or product per unit time.\n\nDuring a chemical reaction, the concentration of reactants generally decreases, while the concentration of products increases.\n\nFor a general reaction,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[aA + bB \\to cC + dD\\]"
+        },
+        {
+          "type": "text",
+          "text": "the rate of reaction can be expressed as:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Rate} = -\\frac{1}{a}\\frac{\\Delta [A]}{\\Delta t} = -\\frac{1}{b}\\frac{\\Delta [B]}{\\Delta t} = \\frac{1}{c}\\frac{\\Delta [C]}{\\Delta t} = \\frac{1}{d}\\frac{\\Delta [D]}{\\Delta t}\\]"
+        },
+        {
+          "type": "text",
+          "text": "where:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\([A]\\), \\([B]\\), \\([C]\\) and \\([D]\\) represent the molar concentrations of the substances.",
+            "\\(\\Delta [A]\\), \\(\\Delta [B]\\), \\(\\Delta [C]\\) and \\(\\Delta [D]\\) represent the changes in their concentrations.",
+            "\\(\\Delta t\\) represents the time interval.",
+            "\\(a\\), \\(b\\), \\(c\\) and \\(d\\) are the stoichiometric coefficients of the balanced chemical equation."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The negative sign is used for reactants because their concentrations decrease with time, whereas the positive sign is used for products because their concentrations increase."
+        },
+        {
+          "type": "heading",
+          "text": "Average Rate of Reaction"
+        },
+        {
+          "type": "text",
+          "text": "The <strong>average rate of reaction</strong> is the change in concentration of a reactant or product over a given time interval.\n\nFor a reaction \\(A \\to B\\),"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Average rate} = -\\frac{[A]_2 - [A]_1}{t_2 - t_1}\\]"
+        },
+        {
+          "type": "text",
+          "text": "or"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Average rate} = \\frac{[B]_2 - [B]_1}{t_2 - t_1}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The average rate gives the overall change in concentration during a specified time interval."
+        },
+        {
+          "type": "heading",
+          "text": "Instantaneous Rate of Reaction"
+        },
+        {
+          "type": "text",
+          "text": "The <strong>instantaneous rate of reaction</strong> is the rate of reaction at a particular instant of time.\n\nFor the reaction \\(A \\to B\\),"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Rate} = -\\frac{d[A]}{dt} = \\frac{d[B]}{dt}\\]"
+        },
+        {
+          "type": "text",
+          "text": "It represents the rate at a specific moment and is obtained from the slope of the tangent to the concentration–time curve at that instant."
+        },
+        {
+          "type": "heading",
+          "text": "Units of Rate of Reaction"
+        },
+        {
+          "type": "text",
+          "text": "The rate of reaction is expressed as concentration divided by time.\n\nIts commonly used SI-compatible unit is:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{mol L}^{-1}\\text{ s}^{-1}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The rate of a chemical reaction generally decreases with time because the concentration of reactants decreases as the reaction proceeds."
+        }
+      ]
+    },
+    {
+      "heading": "3.2 Factors Influencing Rate of a Reaction",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The rate of a chemical reaction depends on several factors that affect the frequency of collisions between reactant particles and the number of effective collisions.\n\nThe main factors influencing the rate of a reaction are:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Concentration of reactants:</strong> Increasing the concentration of reactants generally increases the rate of reaction because more particles are available for collisions.",
+            "<strong>Temperature:</strong> Increasing the temperature generally increases the rate of reaction because particles move faster and more particles acquire sufficient energy to react.",
+            "<strong>Catalyst:</strong> A catalyst increases the rate of a reaction by providing an alternative pathway with lower activation energy.",
+            "<strong>Surface area of reactants:</strong> Increasing the surface area of a solid reactant increases the rate of reaction by exposing more particles for collisions.",
+            "<strong>Nature of reactants:</strong> Reactions involving ionic substances in aqueous solutions are generally faster than those involving covalent substances because the former often require fewer bond-breaking steps.",
+            "<strong>Pressure:</strong> Increasing pressure generally increases the rate of reactions involving gases by increasing their effective concentration."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "These factors influence the frequency of collisions or the fraction of collisions that are effective, thereby changing the rate of a chemical reaction."
+        }
+      ]
+    },
+    {
+      "heading": "3.2.1 Rate Expression and Rate Constant",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Rate Expression"
+        },
+        {
+          "type": "text",
+          "text": "The <strong>rate expression</strong> is an expression that relates the rate of a chemical reaction to the molar concentrations of the reactants, each raised to a suitable power.\n\nFor a general reaction,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[aA + bB \\to \\text{Products}\\]"
+        },
+        {
+          "type": "text",
+          "text": "the rate expression is written as:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Rate} = k[A]^m[B]^n\\]"
+        },
+        {
+          "type": "text",
+          "text": "where:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(k\\) is the rate constant.",
+            "\\([A]\\) and \\([B]\\) are the molar concentrations of reactants.",
+            "\\(m\\) and \\(n\\) are the powers of the concentrations in the rate expression."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The values of \\(m\\) and \\(n\\) are determined experimentally and are not necessarily equal to the stoichiometric coefficients \\(a\\) and \\(b\\)."
+        },
+        {
+          "type": "heading",
+          "text": "Rate Constant"
+        },
+        {
+          "type": "text",
+          "text": "The <strong>rate constant</strong> is the proportionality constant in the rate expression. It is numerically equal to the rate of reaction when the molar concentrations of all reactants in the rate expression are unity.\n\nFor the reaction,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[aA + bB \\to \\text{Products}\\]"
+        },
+        {
+          "type": "text",
+          "text": "the rate expression is:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Rate} = k[A]^m[B]^n\\]"
+        },
+        {
+          "type": "text",
+          "text": "When \\([A] = [B] = 1\\text{ mol L}^{-1}\\),"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Rate} = k\\]"
+        },
+        {
+          "type": "text",
+          "text": "Thus, the rate constant is independent of the concentrations of reactants at a given temperature, but its value changes with temperature and may also change in the presence of a catalyst."
+        },
+        {
+          "type": "heading",
+          "text": "Units of Rate Constant"
+        },
+        {
+          "type": "text",
+          "text": "The unit of the rate constant depends on the overall order of the reaction.\n\nIf the overall order is \\(n\\), then:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[[k] = (\\text{mol L}^{-1})^{1-n}\\text{ s}^{-1}\\]"
+        },
+        {
+          "type": "text",
+          "text": "For example:\n\n- Zero-order reaction:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[[k] = \\text{mol L}^{-1}\\text{ s}^{-1}\\]"
+        },
+        {
+          "type": "text",
+          "text": "- First-order reaction:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[[k] = \\text{s}^{-1}\\]"
+        },
+        {
+          "type": "text",
+          "text": "- Second-order reaction:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[[k] = \\text{L mol}^{-1}\\text{ s}^{-1}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The rate constant is useful for comparing the rates of reactions of the same order under the same conditions. A larger rate constant generally indicates a faster reaction under those conditions."
+        },
+        {
+          "type": "heading",
+          "text": "Order of a Reaction"
+        },
+        {
+          "type": "text",
+          "text": "The <strong>order of a reaction</strong> is the sum of the powers of the concentrations of the reactants in the experimentally determined rate expression.\n\nFor a reaction,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[aA + bB \\to \\text{Products}\\]"
+        },
+        {
+          "type": "text",
+          "text": "if the rate expression is"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Rate} = k[A]^m[B]^n\\]"
+        },
+        {
+          "type": "text",
+          "text": "then the overall order of the reaction is:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{\\text{Order} = m + n}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Here, \\(m\\) and \\(n\\) are the individual orders with respect to reactants \\(A\\) and \\(B\\), respectively."
+        },
+        {
+          "type": "heading",
+          "text": "Examples"
+        },
+        {
+          "type": "text",
+          "text": "1. First-order reaction"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Rate} = k[A]\\]"
+        },
+        {
+          "type": "text",
+          "text": "\\(\\text{Order} = 1\\)\n\n2. Second-order reaction"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Rate} = k[A]^2\\]"
+        },
+        {
+          "type": "text",
+          "text": "\\(\\text{Order} = 2\\)\n\n3. Zero-order reaction"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Rate} = k[A]^0 = k\\]"
+        },
+        {
+          "type": "text",
+          "text": "\\(\\text{Order} = 0\\)\n\n4. Mixed-order reaction"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Rate} = k[A]^2[B]\\]"
+        },
+        {
+          "type": "text",
+          "text": "\\(\\text{Order} = 2 + 1 = 3\\)"
+        },
+        {
+          "type": "heading",
+          "text": "Characteristics of Order of Reaction"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Order may be zero, a positive integer, or a fractional value.",
+            "It is determined experimentally.",
+            "It may be equal to, greater than, or less than the stoichiometric coefficients of the reactants.",
+            "It helps determine the relationship between reactant concentration and reaction rate."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "3.2.3 Molecularity of a Reaction",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Molecularity</strong> is the number of reacting species (atoms, ions or molecules) that participate simultaneously in a single elementary reaction step.\n\nMolecularity is always a positive integer and is determined from the mechanism of an elementary reaction."
+        },
+        {
+          "type": "heading",
+          "text": "Types of Molecularity"
+        },
+        {
+          "type": "heading",
+          "text": "1. Unimolecular Reaction"
+        },
+        {
+          "type": "text",
+          "text": "A reaction in which only one reacting species is involved in a single elementary step.\n\n<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{NH4NO2 -> N2 + 2H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "\\(\\text{Molecularity} = 1\\)"
+        },
+        {
+          "type": "heading",
+          "text": "2. Bimolecular Reaction"
+        },
+        {
+          "type": "text",
+          "text": "A reaction in which two reacting species participate in a single elementary step.\n\n<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{H2 + I2 -> 2HI}\\]"
+        },
+        {
+          "type": "text",
+          "text": "\\(\\text{Molecularity} = 2\\)"
+        },
+        {
+          "type": "heading",
+          "text": "3. Termolecular Reaction"
+        },
+        {
+          "type": "text",
+          "text": "A reaction in which three reacting species participate simultaneously in a single elementary step.\n\n<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2NO + O2 -> 2NO2}\\]"
+        },
+        {
+          "type": "text",
+          "text": "\\(\\text{Molecularity} = 3\\), provided the reaction occurs as a single elementary step."
+        },
+        {
+          "type": "heading",
+          "text": "Difference Between Order and Molecularity"
+        },
+        {
+          "type": "table",
+          "label": "Difference Between Order and Molecularity",
+          "headers": [
+            "Order of reaction",
+            "Molecularity"
+          ],
+          "rows": [
+            [
+              "Determined experimentally.",
+              "Obtained from an elementary reaction step."
+            ],
+            [
+              "May be zero, fractional or a positive integer.",
+              "Always a positive integer."
+            ],
+            [
+              "Applies to the experimentally determined rate expression.",
+              "Applies only to an elementary reaction step."
+            ],
+            [
+              "May or may not equal the stoichiometric coefficients.",
+              "Equals the number of reacting species in that elementary step."
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Molecularity is not assigned to an overall complex reaction because such reactions generally occur through multiple elementary steps."
+        }
+      ]
+    },
+    {
+      "heading": "3.3 Integrated Rate Equations",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The <strong>integrated rate equation</strong> expresses the concentration of a reactant in terms of time and the rate constant of a reaction.\n\nIt is obtained by integrating the differential rate equation of a chemical reaction.\n\nIntegrated rate equations are used to calculate the concentration of reactants at a particular time, determine the rate constant, and study how the rate of a reaction changes with time.\n\nDepending on the order of the reaction, the integrated rate equations are classified into:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Zero-order reactions",
+            "First-order reactions"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "These equations also help determine the order of a reaction by studying the relationship between concentration and time."
+        }
+      ]
+    },
+    {
+      "heading": "3.3.1 Zero Order Reactions",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "A <strong>zero-order reaction</strong> is a reaction whose rate is independent of the concentration of the reactant.\n\nFor a reaction,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{A} \\to \\text{Products}\\]"
+        },
+        {
+          "type": "text",
+          "text": "the rate law is:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[-\\frac{d[A]}{dt} = k[A]^0\\]"
+        },
+        {
+          "type": "text",
+          "text": "Since \\([A]^0 = 1\\),"
+        },
+        {
+          "type": "equation",
+          "text": "\\[-\\frac{d[A]}{dt} = k\\]"
+        },
+        {
+          "type": "heading",
+          "text": "Integrated Rate Equation"
+        },
+        {
+          "type": "text",
+          "text": "Rearranging the rate equation,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[-d[A] = k\\,dt\\]"
+        },
+        {
+          "type": "text",
+          "text": "Integrating between the initial concentration \\([A]_0\\) at \\(t = 0\\) and concentration \\([A]_t\\) at time \\(t\\),"
+        },
+        {
+          "type": "equation",
+          "text": "\\[-\\int_{[A]_0}^{[A]_t} d[A] = k \\int_0^t dt\\]"
+        },
+        {
+          "type": "text",
+          "text": "Therefore,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[-([A]_t - [A]_0) = kt\\]"
+        },
+        {
+          "type": "text",
+          "text": "Hence, the integrated rate equation is:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{[A]_t = [A]_0 - kt}\\]"
+        },
+        {
+          "type": "text",
+          "text": "where:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\([A]_0\\) is the initial concentration.",
+            "\\([A]_t\\) is the concentration at time \\(t\\).",
+            "\\(k\\) is the zero-order rate constant.",
+            "\\(t\\) is the time elapsed."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The rate constant can be calculated as:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{k = \\frac{[A]_0 - [A]_t}{t}}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "Characteristics of Zero Order Reactions"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "The rate of reaction remains constant and is independent of the reactant concentration.",
+            "The concentration decreases linearly with time.",
+            "A plot of \\([A]_t\\) against time gives a straight line with slope \\(-k\\) and intercept \\([A]_0\\).",
+            "The unit of the rate constant is: \\(\\text{mol L}^{-1}\\text{ s}^{-1}\\).",
+            "The half-life of a zero-order reaction depends on its initial concentration."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Half-Life of a Zero Order Reaction"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Half-life (\\(t_{1/2}\\))</strong> is the time required for the concentration of a reactant to become half of its initial value.\n\nAt \\(t = t_{1/2}\\),"
+        },
+        {
+          "type": "equation",
+          "text": "\\[[A]_t = \\frac{[A]_0}{2}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Using the integrated rate equation,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\frac{[A]_0}{2} = [A]_0 - k t_{1/2}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Rearranging,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{t_{1/2} = \\frac{[A]_0}{2k}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Thus, the half-life of a zero-order reaction is directly proportional to its initial concentration."
+        }
+      ]
+    },
+    {
+      "heading": "3.3.2 First Order Reactions",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "A <strong>first-order reaction</strong> is a reaction whose rate depends on the first power of the concentration of one reactant.\n\nFor a reaction,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{A} \\to \\text{Products}\\]"
+        },
+        {
+          "type": "text",
+          "text": "the rate law is:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[-\\frac{d[A]}{dt} = k[A]\\]"
+        },
+        {
+          "type": "heading",
+          "text": "Integrated Rate Equation"
+        },
+        {
+          "type": "text",
+          "text": "Rearranging the rate equation,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[-\\frac{d[A]}{[A]} = k\\,dt\\]"
+        },
+        {
+          "type": "text",
+          "text": "Integrating between the initial concentration \\([A]_0\\) at \\(t = 0\\) and concentration \\([A]_t\\) at time \\(t\\),"
+        },
+        {
+          "type": "equation",
+          "text": "\\[-\\int_{[A]_0}^{[A]_t} \\frac{d[A]}{[A]} = k \\int_0^t dt\\]"
+        },
+        {
+          "type": "text",
+          "text": "Therefore,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[-\\ln\\left(\\frac{[A]_t}{[A]_0}\\right) = kt\\]"
+        },
+        {
+          "type": "text",
+          "text": "Hence,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ln\\left(\\frac{[A]_0}{[A]_t}\\right) = kt\\]"
+        },
+        {
+          "type": "text",
+          "text": "Converting into common logarithms,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{k = \\frac{2.303}{t} \\log\\left(\\frac{[A]_0}{[A]_t}\\right)}\\]"
+        },
+        {
+          "type": "text",
+          "text": "This is the integrated rate equation for a first-order reaction.\n\nIt can also be written as:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{[A]_t = [A]_0 e^{-kt}}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "Characteristics of First Order Reactions"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "The rate is directly proportional to the concentration of the reactant.",
+            "The concentration decreases exponentially with time.",
+            "A plot of \\(\\ln[A]_t\\) against time gives a straight line with slope \\(-k\\).",
+            "The unit of the rate constant is: \\(\\text{s}^{-1}\\).",
+            "The half-life is independent of the initial concentration."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Half-Life of a First Order Reaction"
+        },
+        {
+          "type": "text",
+          "text": "The half-life (\\(t_{1/2}\\)) is the time required for the concentration of a reactant to become half of its initial value.\n\nAt \\(t = t_{1/2}\\),"
+        },
+        {
+          "type": "equation",
+          "text": "\\[[A]_t = \\frac{[A]_0}{2}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Using the integrated rate equation,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[k = \\frac{2.303}{t_{1/2}} \\log\\left(\\frac{[A]_0}{[A]_0 / 2}\\right)\\]"
+        },
+        {
+          "type": "text",
+          "text": "Simplifying,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[k = \\frac{2.303}{t_{1/2}} \\log 2\\]"
+        },
+        {
+          "type": "text",
+          "text": "Therefore,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{t_{1/2} = \\frac{0.693}{k}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Thus, the half-life of a first-order reaction depends only on the rate constant and remains constant at a given temperature, irrespective of the initial concentration."
+        }
+      ]
+    },
+    {
+      "heading": "3.3.3 Half-Life of a Reaction",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The <strong>half-life of a reaction</strong> is the time required for the concentration of a reactant to become half of its initial concentration.\n\nIt is represented by \\(t_{1/2}\\)."
+        },
+        {
+          "type": "heading",
+          "text": "Half-Life of a First Order Reaction"
+        },
+        {
+          "type": "text",
+          "text": "For a first-order reaction, the integrated rate equation is:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[k = \\frac{2.303}{t} \\log \\frac{[A]_0}{[A]_t}\\]"
+        },
+        {
+          "type": "text",
+          "text": "At half-life,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[[A]_t = \\frac{[A]_0}{2}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Substituting these values,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[k = \\frac{2.303}{t_{1/2}} \\log 2\\]"
+        },
+        {
+          "type": "text",
+          "text": "Therefore,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{t_{1/2} = \\frac{0.693}{k}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "This equation shows that the half-life of a first-order reaction is independent of its initial concentration."
+        },
+        {
+          "type": "heading",
+          "text": "Half-Life of a Zero Order Reaction"
+        },
+        {
+          "type": "text",
+          "text": "For a zero-order reaction, the integrated rate equation is:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[[A]_t = [A]_0 - kt\\]"
+        },
+        {
+          "type": "text",
+          "text": "At half-life,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[[A]_t = \\frac{[A]_0}{2}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Substituting,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\frac{[A]_0}{2} = [A]_0 - k t_{1/2}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Therefore,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{t_{1/2} = \\frac{[A]_0}{2k}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Thus, the half-life of a zero-order reaction is directly proportional to the initial concentration."
+        },
+        {
+          "type": "heading",
+          "text": "Successive Half-Lives in a First Order Reaction"
+        },
+        {
+          "type": "text",
+          "text": "In a first-order reaction, equal intervals of half-life are required for the concentration to reduce successively to half its previous value."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "After one half-life: \\(\\frac{[A]_0}{2}\\) remains.",
+            "After two half-lives: \\(\\frac{[A]_0}{4}\\) remains.",
+            "After three half-lives: \\(\\frac{[A]_0}{8}\\) remains.",
+            "After four half-lives: \\(\\frac{[A]_0}{16}\\) remains."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "This property makes half-life useful for determining the rate constant and studying the progress of first-order reactions."
+        }
+      ]
+    },
+    {
+      "heading": "3.4 Pseudo First Order Reaction",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "A <strong>pseudo first order reaction</strong> is a reaction that is actually of higher order but behaves like a first-order reaction because the concentration of one reactant is present in large excess and remains nearly constant during the reaction.\n\nConsider the hydrolysis of ethyl acetate in the presence of water:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3COOC2H5 + H2O -> CH3COOH + C2H5OH}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The rate expression is:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Rate} = k[\\ce{CH3COOC2H5}][\\ce{H2O}]\\]"
+        },
+        {
+          "type": "text",
+          "text": "Since water is present in large excess, its concentration remains approximately constant.\n\nTherefore, \\(k[\\ce{H2O}]\\) can be combined into a new constant \\(k'\\)."
+        },
+        {
+          "type": "equation",
+          "text": "\\[k' = k[\\ce{H2O}]\\]"
+        },
+        {
+          "type": "text",
+          "text": "Hence, the rate expression becomes:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Rate} = k'[\\ce{CH3COOC2H5}]\\]"
+        },
+        {
+          "type": "text",
+          "text": "This expression follows first-order kinetics, even though the original rate expression involves two reactants.\n\nThus, the reaction behaves as a first-order reaction under these conditions.\n\n<strong>Example:</strong> Hydrolysis of ethyl acetate in excess water is a pseudo first order reaction."
+        }
+      ]
+    },
+    {
+      "heading": "3.5 Temperature Dependence of the Rate of a Reaction",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The rate of a chemical reaction generally increases with an increase in temperature because the kinetic energy of the reacting particles increases.\n\nAt higher temperatures, a greater fraction of reacting molecules possesses energy equal to or greater than the activation energy. As a result, the number of effective collisions increases, and the reaction proceeds faster.\n\nThe rate constant of a reaction depends on temperature and is expressed by the <strong>Arrhenius equation</strong>:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{k = A e^{-E_a / (RT)}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "where:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(k\\) is the rate constant.",
+            "\\(A\\) is the frequency factor or pre-exponential factor.",
+            "\\(E_a\\) is the activation energy.",
+            "\\(R\\) is the universal gas constant.",
+            "\\(T\\) is the absolute temperature in kelvin."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Taking the natural logarithm of both sides,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ln k = \\ln A - \\frac{E_a}{RT}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Converting into common logarithms,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{\\log k = \\log A - \\frac{E_a}{2.303 RT}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "This is the logarithmic form of the Arrhenius equation."
+        },
+        {
+          "type": "heading",
+          "text": "Activation Energy"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Activation energy</strong> is the minimum additional energy that reacting molecules must acquire to reach the activated state and undergo a chemical reaction.\n\nA reaction with lower activation energy generally proceeds faster than a reaction with higher activation energy at the same temperature, assuming comparable frequency factors."
+        },
+        {
+          "type": "heading",
+          "text": "Effect of Temperature on Rate Constant"
+        },
+        {
+          "type": "text",
+          "text": "For two different temperatures \\(T_1\\) and \\(T_2\\), the Arrhenius equation gives:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{\\log \\frac{k_2}{k_1} = \\frac{E_a}{2.303 R}\\left(\\frac{1}{T_1} - \\frac{1}{T_2}\\right)}\\]"
+        },
+        {
+          "type": "text",
+          "text": "where \\(k_1\\) and \\(k_2\\) are the rate constants at temperatures \\(T_1\\) and \\(T_2\\), respectively.\n\nFor many reactions, the rate approximately doubles or triples when the temperature increases by \\(10\\,^\\circ\\text{C}\\). However, this is an empirical approximation, not a universal rule.\n\nThe Arrhenius equation helps determine activation energy and predict how the rate constant changes with temperature."
+        }
+      ]
+    },
+    {
+      "heading": "3.5.1 Effect of Catalyst",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "A <strong>catalyst</strong> is a substance that increases the rate of a chemical reaction by providing an alternative reaction pathway with lower activation energy. It remains chemically unchanged at the end of the reaction.\n\nA catalyst increases the rate of reaction by allowing a greater fraction of reacting molecules to overcome the activation energy barrier at a given temperature.\n\nThe effect of a catalyst can be understood as follows:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "It provides an alternative pathway with lower activation energy.",
+            "It increases the rate constant of the reaction at a given temperature.",
+            "It does not change the overall enthalpy change (\\(\\Delta H\\)) of the reaction.",
+            "It does not change the equilibrium constant or the equilibrium composition; it helps the system reach equilibrium faster.",
+            "It does not alter the Gibbs free energy change of the overall reaction."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong> In the decomposition of hydrogen peroxide, manganese dioxide (\\(\\ce{MnO2}\\)) acts as a catalyst."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2H2O2 ->[\\ce{MnO2}] 2H2O + O2}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The catalyst lowers the activation energy of the reaction, thereby increasing its rate."
+        }
+      ]
+    },
+    {
+      "heading": "3.6 Collision Theory of Chemical Reactions",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The <strong>collision theory</strong> explains the rate of a chemical reaction in terms of collisions between reacting molecules.\n\nAccording to this theory, a chemical reaction occurs when reactant molecules collide with one another with sufficient energy and proper orientation."
+        },
+        {
+          "type": "heading",
+          "text": "Effective and Ineffective Collisions"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Effective collisions</strong> are collisions that result in the formation of products. For a collision to be effective, the following conditions must be satisfied:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Sufficient energy:</strong> The colliding molecules must possess energy equal to or greater than the activation energy (\\(E_a\\)).",
+            "<strong>Proper orientation:</strong> The molecules must collide in a suitable orientation so that the necessary bonds can break and new bonds can form."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Ineffective collisions</strong> are collisions that do not result in the formation of products because the molecules lack sufficient energy or do not have the proper orientation."
+        },
+        {
+          "type": "heading",
+          "text": "Activation Energy and Reaction Rate"
+        },
+        {
+          "type": "text",
+          "text": "Activation energy is the minimum energy barrier that reacting molecules must overcome for a reaction to occur.\n\nWhen the temperature increases, the fraction of molecules possessing sufficient energy increases. Consequently, the number of effective collisions increases, and the reaction rate generally becomes faster.\n\nSimilarly, increasing the concentration of reactants increases the frequency of collisions, which generally increases the rate of reaction."
+        },
+        {
+          "type": "heading",
+          "text": "Limitations of Collision Theory"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "It is most suitable for simple gaseous reactions.",
+            "It does not accurately explain the behaviour of all complex reactions.",
+            "It treats molecular collisions in a simplified manner and may not fully account for the detailed reaction mechanism."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Thus, collision theory helps explain how collision frequency, activation energy and molecular orientation influence the rate of a chemical reaction."
+        }
+      ]
+    }
+  ],
+  "summary": "Chapter 3 explains the rate of a chemical reaction, including average and instantaneous rates, and the factors affecting reaction rates such as concentration, temperature, catalyst, surface area, nature of reactants, and pressure. It introduces the rate expression, rate constant and its units, order of a reaction, and molecularity of elementary reactions. The chapter derives the integrated rate equations and half-life expressions for zero-order and first-order reactions, explains pseudo first-order reactions such as the hydrolysis of ethyl acetate, describes the temperature dependence of reaction rates using the Arrhenius equation and activation energy, outlines the role of catalysts, and concludes with the collision theory of chemical reactions.",
+  "qa": [
+    {
+      "q": "Define the rate of a chemical reaction and state its common SI-compatible unit.",
+      "a": "The rate of a chemical reaction is the change in concentration of a reactant or product per unit time. Its commonly used unit is \\(\\text{mol L}^{-1}\\text{ s}^{-1}\\).",
+      "section": "3.1 Rate of a Chemical Reaction"
+    },
+    {
+      "q": "How does average rate differ from instantaneous rate of a reaction?",
+      "a": "The average rate is the change in concentration of a reactant or product over a finite time interval (\\(\\Delta c / \\Delta t\\)), whereas the instantaneous rate is the rate at a specific moment in time (\\(dc / dt\\)), obtained from the slope of the tangent to the concentration–time curve at that instant.",
+      "section": "3.1 Rate of a Chemical Reaction"
+    },
+    {
+      "q": "What are the main factors that influence the rate of a chemical reaction?",
+      "a": "The main factors influencing the rate of a chemical reaction are concentration of reactants, temperature, presence of a catalyst, surface area of solid reactants, nature of reactants, and pressure (for gaseous reactions).",
+      "section": "3.2 Factors Influencing Rate of a Reaction"
+    },
+    {
+      "q": "What is the order of a reaction and what are the units of the rate constant for zero-, first-, and second-order reactions?",
+      "a": "The order of a reaction is the sum of the powers of the reactant concentrations in the experimentally determined rate law (\\(\\text{Order} = m + n\\)). The general unit of \\(k\\) is \\((\\text{mol L}^{-1})^{1-n}\\text{ s}^{-1}\\): for zero-order it is \\(\\text{mol L}^{-1}\\text{ s}^{-1}\\), for first-order it is \\(\\text{s}^{-1}\\), and for second-order it is \\(\\text{L mol}^{-1}\\text{ s}^{-1}\\).",
+      "section": "3.2.1 Rate Expression and Rate Constant"
+    },
+    {
+      "q": "How does order of a reaction differ from molecularity?",
+      "a": "Order of a reaction is an experimental quantity that can be zero, fractional, or a positive integer and applies to the overall rate law, whereas molecularity is the number of reacting species colliding simultaneously in a single elementary step and is always a positive integer.",
+      "section": "3.2.3 Molecularity of a Reaction"
+    },
+    {
+      "q": "Write the integrated rate equation and half-life formula for a zero-order reaction.",
+      "a": "For a zero-order reaction, the integrated rate equation is \\([A]_t = [A]_0 - kt\\) (or \\(k = \\frac{[A]_0 - [A]_t}{t}\\)), and the half-life is \\(t_{1/2} = \\frac{[A]_0}{2k}\\), which is directly proportional to the initial concentration.",
+      "section": "3.3.1 Zero Order Reactions"
+    },
+    {
+      "q": "Write the integrated rate equation and half-life formula for a first-order reaction.",
+      "a": "For a first-order reaction, the integrated rate equation is \\(k = \\frac{2.303}{t} \\log\\left(\\frac{[A]_0}{[A]_t}\\right)\\) (or \\([A]_t = [A]_0 e^{-kt}\\)), and the half-life is \\(t_{1/2} = \\frac{0.693}{k}\\), which is independent of the initial concentration.",
+      "section": "3.3.2 First Order Reactions"
+    },
+    {
+      "q": "What is a pseudo first order reaction? Give an example.",
+      "a": "A pseudo first order reaction is a reaction of higher true order that behaves as a first-order reaction because one reactant is present in large excess so its concentration remains nearly constant. An example is the acid hydrolysis of ethyl acetate in excess water.",
+      "section": "3.4 Pseudo First Order Reaction"
+    },
+    {
+      "q": "Write the Arrhenius equation and its two-temperature logarithmic form.",
+      "a": "The Arrhenius equation is \\(k = A e^{-E_a / (RT)}\\). For two temperatures \\(T_1\\) and \\(T_2\\), its logarithmic form is \\(\\log\\frac{k_2}{k_1} = \\frac{E_a}{2.303 R}\\left(\\frac{1}{T_1} - \\frac{1}{T_2}\\right)\\).",
+      "section": "3.5 Temperature Dependence of the Rate of a Reaction"
+    },
+    {
+      "q": "How does a catalyst increase the rate of a chemical reaction?",
+      "a": "A catalyst provides an alternative reaction pathway with lower activation energy, allowing a larger fraction of reacting molecules to cross the energy barrier at a given temperature without altering \\(\\Delta H\\), \\(\\Delta G\\), or the equilibrium constant.",
+      "section": "3.5.1 Effect of Catalyst"
+    },
+    {
+      "q": "What are the two conditions required for an effective collision according to collision theory?",
+      "a": "For a collision to be effective and form products, the colliding molecules must possess energy equal to or greater than the activation energy (\\(E_a\\)) and must collide with proper orientation.",
+      "section": "3.6 Collision Theory of Chemical Reactions"
+    }
+  ]
+}

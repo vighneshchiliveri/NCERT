@@ -1,0 +1,1795 @@
+{
+  "title": "Aldehydes, Ketones and Carboxylic Acids",
+  "class": "12",
+  "subject": "Chemistry",
+  "chapter": "Chapter 8",
+  "book": "NCERT Chemistry",
+  "notes": [
+    {
+      "heading": "8.1.1 Nomenclature",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Aldehydes</strong> and <strong>ketones</strong> are organic compounds containing the carbonyl group, \\(\\ce{>C=O}\\). Their nomenclature is based on the longest carbon chain containing the carbonyl group."
+        },
+        {
+          "type": "heading",
+          "text": "1. Nomenclature of Aldehydes"
+        },
+        {
+          "type": "text",
+          "text": "Aldehydes contain the functional group \\(\\ce{-CHO}\\), in which the carbonyl carbon is bonded to at least one hydrogen atom.\n\n<strong>IUPAC rules:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Select the longest carbon chain containing the \\(\\ce{-CHO}\\) group.",
+            "Replace the final -e of the corresponding alkane with -al.",
+            "The aldehyde carbon is always numbered 1, so its position need not be mentioned.",
+            "Name and number the substituents according to the usual rules."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Examples:</strong>"
+        },
+        {
+          "type": "table",
+          "label": "IUPAC names of aldehydes",
+          "headers": [
+            "Formula",
+            "IUPAC name"
+          ],
+          "rows": [
+            [
+              "\\(\\ce{HCHO}\\)",
+              "Methanal"
+            ],
+            [
+              "\\(\\ce{CH3CHO}\\)",
+              "Ethanal"
+            ],
+            [
+              "\\(\\ce{CH3CH2CHO}\\)",
+              "Propanal"
+            ],
+            [
+              "\\(\\ce{CH3CH2CH2CHO}\\)",
+              "Butanal"
+            ],
+            [
+              "\\(\\ce{CH3CH(CH3)CHO}\\)",
+              "2-Methylpropanal"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "2. Nomenclature of Ketones"
+        },
+        {
+          "type": "text",
+          "text": "Ketones contain the functional group \\(\\ce{-CO-}\\), in which the carbonyl carbon is bonded to two carbon atoms.\n\n<strong>IUPAC rules:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Select the longest carbon chain containing the carbonyl group.",
+            "Replace the final -e of the corresponding alkane with -one.",
+            "Number the chain from the end nearest to the carbonyl group.",
+            "Mention the position of the carbonyl group and the substituents, if present."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Examples:</strong>"
+        },
+        {
+          "type": "table",
+          "label": "IUPAC names of ketones",
+          "headers": [
+            "Formula",
+            "IUPAC name"
+          ],
+          "rows": [
+            [
+              "\\(\\ce{CH3COCH3}\\)",
+              "Propanone"
+            ],
+            [
+              "\\(\\ce{CH3COCH2CH3}\\)",
+              "Butan-2-one"
+            ],
+            [
+              "\\(\\ce{CH3CH2COCH2CH3}\\)",
+              "Pentan-3-one"
+            ],
+            [
+              "\\(\\ce{CH3COCH(CH3)CH3}\\)",
+              "3-Methylbutan-2-one"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "3. Common Names"
+        },
+        {
+          "type": "text",
+          "text": "Aldehydes are commonly named by replacing the suffix -ic acid of the corresponding carboxylic acid with -aldehyde in traditional nomenclature.\n\n<strong>Examples:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(\\ce{HCHO}\\) — Formaldehyde",
+            "\\(\\ce{CH3CHO}\\) — Acetaldehyde",
+            "\\(\\ce{CH3CH2CHO}\\) — Propionaldehyde"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ketones are commonly named by writing the names of the two alkyl groups attached to the carbonyl carbon, followed by the word ketone.\n\n<strong>Examples:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(\\ce{CH3COCH3}\\) — Acetone (dimethyl ketone)",
+            "\\(\\ce{CH3COCH2CH3}\\) — Ethyl methyl ketone"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "8.1.2 Structure of the Carbonyl Group",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The carbonyl group consists of a carbon atom double-bonded to an oxygen atom.\n\n<strong>Structure of the carbonyl group</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "The carbonyl carbon is \\(sp^2\\)-hybridised.",
+            "The carbonyl group is planar, with bond angles approximately \\(120^\\circ\\).",
+            "The \\(\\ce{C=O}\\) double bond consists of one sigma (\\(\\sigma\\)) bond and one pi (\\(\\pi\\)) bond.",
+            "Oxygen is more electronegative than carbon, making the carbonyl bond polar."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The polarity of the carbonyl group is represented as:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C^{\\delta+} = O^{\\delta-}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Due to this polarity, the carbonyl carbon is electron-deficient and is attacked by nucleophiles, whereas the oxygen atom is electron-rich.\n\nAldehydes have the general formula \\(\\ce{R-CHO}\\), while ketones have the general formula \\(\\ce{R-CO-R'}\\), where \\(R\\) and \\(R'\\) represent alkyl or aryl groups."
+        }
+      ]
+    },
+    {
+      "heading": "8.2 Preparation of Aldehydes and Ketones",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Aldehydes and ketones are prepared by several methods involving the oxidation, reduction, hydration, or controlled cleavage of organic compounds."
+        }
+      ]
+    },
+    {
+      "heading": "8.2.1 Preparation of Aldehydes and Ketones",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. By Oxidation of Alcohols"
+        },
+        {
+          "type": "text",
+          "text": "Primary and secondary alcohols give aldehydes and ketones, respectively, on oxidation.\n\n<strong>(a) Primary alcohols give aldehydes</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCH2OH ->[[O]] RCHO + H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3CH2OH ->[[O]] CH3CHO + H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Pyridinium chlorochromate (PCC) is used to oxidise primary alcohols to aldehydes without further oxidation under suitable conditions.\n\n<strong>(b) Secondary alcohols give ketones</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{R2CHOH ->[[O]] R2CO + H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3CHOHCH3 ->[[O]] CH3COCH3 + H2O}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "2. By Dehydrogenation of Alcohols"
+        },
+        {
+          "type": "text",
+          "text": "When alcohol vapours are passed over heated copper at \\(573\\text{ K}\\), they undergo dehydrogenation.\n\nPrimary alcohols:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCH2OH ->[\\ce{Cu}][573\\text{ K}] RCHO + H2}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Secondary alcohols:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{R2CHOH ->[\\ce{Cu}][573\\text{ K}] R2CO + H2}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Primary alcohols form aldehydes, whereas secondary alcohols form ketones."
+        }
+      ]
+    },
+    {
+      "heading": "8.2.2 Preparation of Aldehydes",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. From Acyl Chlorides — Rosenmund Reduction"
+        },
+        {
+          "type": "text",
+          "text": "Acyl chlorides are reduced to aldehydes using hydrogen in the presence of palladium supported on barium sulphate. The catalyst is poisoned to prevent further reduction."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCOCl + H2 ->[\\ce{Pd/BaSO4}] RCHO + HCl}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3COCl + H2 -> CH3CHO + HCl}\\]"
+        },
+        {
+          "type": "text",
+          "text": "This reaction is known as the <strong>Rosenmund reduction</strong>."
+        },
+        {
+          "type": "heading",
+          "text": "2. From Nitriles — Stephen Reaction"
+        },
+        {
+          "type": "text",
+          "text": "Nitriles are reduced using stannous chloride and hydrochloric acid, followed by hydrolysis, to produce aldehydes."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCN ->[\\ce{SnCl2/HCl}] RCH=NH \\cdot HCl}\\]"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCH=NH \\cdot HCl ->[\\ce{H2O}] RCHO}\\]"
+        },
+        {
+          "type": "text",
+          "text": "This method is known as the <strong>Stephen reaction</strong>."
+        },
+        {
+          "type": "heading",
+          "text": "3. From Toluene and Other Alkylbenzenes"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Etard reaction:</strong> Toluene is oxidised with chromyl chloride in a suitable solvent, followed by hydrolysis, to give benzaldehyde."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C6H5CH3 ->[\\ce{CrO2Cl2}][\\text{hydrolysis}] C6H5CHO}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Side-chain chlorination followed by hydrolysis:</strong> Under suitable conditions, the side chain of toluene can be converted into benzaldehyde through controlled chlorination and hydrolysis."
+        },
+        {
+          "type": "heading",
+          "text": "4. By Controlled Reduction of Esters"
+        },
+        {
+          "type": "text",
+          "text": "Esters can be reduced to aldehydes using suitable specialised reducing agents under controlled conditions."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCOOR' ->[\\text{controlled reduction}] RCHO}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The exact reagent and conditions depend on the ester and the desired product."
+        }
+      ]
+    },
+    {
+      "heading": "8.2.3 Preparation of Ketones",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. From Acyl Chlorides"
+        },
+        {
+          "type": "text",
+          "text": "Acyl chlorides react with dialkylcadmium to give ketones."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2RCOCl + R'_2Cd -> 2RCOR' + CdCl2}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Dialkylcadmium reacts selectively with acyl chlorides, preventing further addition to the ketone under suitable conditions."
+        },
+        {
+          "type": "heading",
+          "text": "2. From Nitriles"
+        },
+        {
+          "type": "text",
+          "text": "Nitriles react with Grignard reagents in dry ether, followed by hydrolysis, to give ketones."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCN + R'MgX -> \\text{imine magnesium salt}}\\]"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Imine magnesium salt} \\xrightarrow{\\ce{H3O+}} \\ce{RCOR'}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "3. From Benzene and Substituted Benzenes — Friedel–Crafts Acylation"
+        },
+        {
+          "type": "text",
+          "text": "Benzene reacts with an acyl chloride in the presence of anhydrous aluminium chloride to form an aromatic ketone."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C6H6 + RCOCl ->[\\text{anhyd. }\\ce{AlCl3}] C6H5COR + HCl}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C6H6 + CH3COCl ->[\\ce{AlCl3}] C6H5COCH3 + HCl}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The product is acetophenone."
+        },
+        {
+          "type": "heading",
+          "text": "4. By Hydration of Alkynes"
+        },
+        {
+          "type": "text",
+          "text": "Alkynes undergo hydration in the presence of \\(\\ce{H2SO4}\\) and \\(\\ce{HgSO4}\\). The initially formed enol rearranges to a carbonyl compound.\n\nFor ethyne, the product is ethanal:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{HC#CH + H2O ->[\\ce{HgSO4/H2SO4}] CH3CHO}\\]"
+        },
+        {
+          "type": "text",
+          "text": "For propyne, the product is propanone:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3C#CH + H2O ->[\\ce{HgSO4/H2SO4}] CH3COCH3}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The product depends on the structure of the alkyne."
+        }
+      ]
+    },
+    {
+      "heading": "8.3 Physical Properties",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Physical State:</strong> Methanal is a gas at room temperature, whereas ethanal is a volatile liquid. Higher aldehydes and ketones are generally liquids or solids, depending on their molecular masses.",
+            "<strong>Nature and Odour:</strong> Lower aldehydes and ketones generally have pungent odours, while many higher members have characteristic pleasant or strong odours.",
+            "<strong>Polarity:</strong> Aldehydes and ketones contain the polar carbonyl group (\\(\\ce{C=O}\\)). Therefore, they possess dipole–dipole interactions between their molecules.",
+            "<strong>Boiling Points:</strong> Their boiling points are higher than those of hydrocarbons and ethers of comparable molecular masses because of dipole–dipole interactions. However, their boiling points are lower than those of alcohols because aldehydes and ketones do not form intermolecular hydrogen bonds with themselves.",
+            "<strong>Solubility in Water:</strong> Lower aldehydes and ketones are soluble in water because the oxygen atom of the carbonyl group forms hydrogen bonds with water molecules. Their solubility decreases as the length of the hydrocarbon chain increases.",
+            "<strong>Solubility in Organic Solvents:</strong> Most aldehydes and ketones are soluble in common organic solvents such as ether and benzene.",
+            "<strong>Density:</strong> Many simple aldehydes and ketones have densities lower than that of water, although density varies with molecular structure."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "8.4 Chemical Reactions",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Aldehydes and ketones undergo various chemical reactions due to the polar nature of the carbonyl group (\\(\\ce{C=O}\\)). The important reactions include nucleophilic addition, reduction, oxidation, reactions involving \\(\\alpha\\)-hydrogen, and electrophilic substitution."
+        }
+      ]
+    },
+    {
+      "heading": "8.4.1 Nucleophilic Addition Reactions",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The carbonyl carbon carries a partial positive charge (\\(\\delta^+\\)) because oxygen is more electronegative than carbon. Therefore, it is attacked by nucleophiles.\n\nThe general reaction is:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{R2C=O + Nu- -> R2C(O-)Nu}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The intermediate is then protonated to form the addition product."
+        },
+        {
+          "type": "heading",
+          "text": "1. Addition of Hydrogen Cyanide (HCN)"
+        },
+        {
+          "type": "text",
+          "text": "Aldehydes and ketones react with \\(\\ce{HCN}\\) to form <strong>cyanohydrins</strong>."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCHO + HCN -> RCH(OH)CN}\\]"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{R2CO + HCN -> R2C(OH)CN}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3CHO + HCN -> CH3CH(OH)CN}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "2. Addition of Sodium Hydrogen Sulphite"
+        },
+        {
+          "type": "text",
+          "text": "Aldehydes and many ketones react with sodium hydrogen sulphite to form crystalline addition compounds."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCHO + NaHSO3 -> RCH(OH)SO3Na}\\]"
+        },
+        {
+          "type": "text",
+          "text": "This reaction is useful for the separation and purification of certain carbonyl compounds."
+        },
+        {
+          "type": "heading",
+          "text": "3. Addition of Grignard Reagents"
+        },
+        {
+          "type": "text",
+          "text": "Grignard reagents (\\(\\ce{RMgX}\\)) react with aldehydes and ketones in dry ether, followed by hydrolysis, to form alcohols.\n\n<strong>With methanal:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{HCHO + RMgX ->[\\text{dry ether}] RCH2OMgX}\\]"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCH2OMgX ->[\\ce{H3O+}] RCH2OH}\\]"
+        },
+        {
+          "type": "text",
+          "text": "A primary alcohol is formed.\n\n<strong>With other aldehydes:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{R'CHO + RMgX ->[\\text{dry ether}] R'CH(OMgX)R}\\]"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{->[\\ce{H3O+}] R'CH(OH)R}\\]"
+        },
+        {
+          "type": "text",
+          "text": "A secondary alcohol is formed.\n\n<strong>With ketones:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{R'COR'' + RMgX ->[\\text{dry ether}] R'C(OMgX)(R)R''}\\]"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{->[\\ce{H3O+}] R'C(OH)(R)R''}\\]"
+        },
+        {
+          "type": "text",
+          "text": "A tertiary alcohol is formed."
+        },
+        {
+          "type": "heading",
+          "text": "4. Addition of Alcohols"
+        },
+        {
+          "type": "text",
+          "text": "Aldehydes react with one molecule of alcohol to form <strong>hemiacetals</strong>. Further reaction with alcohol in the presence of an acid catalyst produces <strong>acetals</strong>."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCHO + R'OH <=> RCH(OH)OR'}\\]"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCH(OH)OR' + R'OH ->[\\ce{H+}] RCH(OR')2 + H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Ketones similarly form hemiketals and ketals."
+        },
+        {
+          "type": "heading",
+          "text": "5. Addition of Ammonia Derivatives"
+        },
+        {
+          "type": "text",
+          "text": "Aldehydes and ketones react with ammonia derivatives, generally represented as \\(\\ce{H2N-Z}\\), to form compounds containing a carbon–nitrogen double bond, with the elimination of water."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{R2C=O + H2N-Z -> R2C=N-Z + H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Important examples include:"
+        },
+        {
+          "type": "table",
+          "label": "Products of reaction with ammonia derivatives",
+          "headers": [
+            "Reagent",
+            "Product"
+          ],
+          "rows": [
+            [
+              "Hydroxylamine (\\(\\ce{NH2OH}\\))",
+              "Oxime"
+            ],
+            [
+              "Hydrazine (\\(\\ce{NH2NH2}\\))",
+              "Hydrazone"
+            ],
+            [
+              "Phenylhydrazine (\\(\\ce{C6H5NHNH2}\\))",
+              "Phenylhydrazone"
+            ],
+            [
+              "2,4-Dinitrophenylhydrazine",
+              "2,4-DNP derivative"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "These reactions are useful for identifying carbonyl compounds."
+        }
+      ]
+    },
+    {
+      "heading": "8.4.2 Reduction",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Aldehydes and ketones undergo reduction to form alcohols. The carbonyl group can also be reduced to a methylene group under suitable conditions."
+        },
+        {
+          "type": "heading",
+          "text": "1. Reduction to Alcohols"
+        },
+        {
+          "type": "text",
+          "text": "Aldehydes form primary alcohols, whereas ketones form secondary alcohols."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCHO + 2[H] ->[\\ce{NaBH4}] RCH2OH}\\]"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{R2CO + 2[H] ->[\\ce{NaBH4}] R2CHOH}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Common reducing agents include sodium borohydride (\\(\\ce{NaBH4}\\)), lithium aluminium hydride (\\(\\ce{LiAlH4}\\)), and hydrogen in the presence of a suitable catalyst."
+        },
+        {
+          "type": "heading",
+          "text": "2. Reduction to Hydrocarbons"
+        },
+        {
+          "type": "text",
+          "text": "The carbonyl group of aldehydes and ketones can be reduced to a methylene group (\\(\\ce{-CH2-}\\)) or a methyl group at the terminal carbon.\n\n<strong>(a) Clemmensen reduction</strong>\nThe carbonyl group is reduced using zinc amalgam (\\(\\ce{Zn-Hg}\\)) and concentrated hydrochloric acid."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{R2C=O ->[\\ce{Zn-Hg/HCl}] R2CH2}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3COCH3 ->[\\ce{Zn-Hg/HCl}] CH3CH2CH3}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>(b) Wolff–Kishner reduction</strong>\nThe carbonyl compound is heated with hydrazine (\\(\\ce{NH2NH2}\\)) and a strong base, usually \\(\\ce{KOH}\\), in a high-boiling solvent."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{R2C=O ->[\\ce{NH2NH2, KOH}][\\Delta] R2CH2}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Both methods convert the carbonyl group into a hydrocarbon group."
+        }
+      ]
+    },
+    {
+      "heading": "8.4.3 Oxidation",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Oxidation of Aldehydes"
+        },
+        {
+          "type": "text",
+          "text": "Aldehydes are readily oxidised to carboxylic acids by mild oxidising agents."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCHO + [O] -> RCOOH}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Common oxidising agents include acidified potassium dichromate, potassium permanganate, and Tollens' reagent.\n\n<strong>Tollens' test:</strong> Aldehydes reduce Tollens' reagent to metallic silver, producing a silver mirror on the inner wall of a clean test tube."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCHO ->[\\text{Tollens' reagent}] RCOO-}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Fehling's test:</strong> Aliphatic aldehydes generally reduce Fehling's solution to form a brick-red precipitate of cuprous oxide (\\(\\ce{Cu2O}\\)). Aromatic aldehydes generally do not give this test."
+        },
+        {
+          "type": "heading",
+          "text": "2. Oxidation of Ketones"
+        },
+        {
+          "type": "text",
+          "text": "Ketones are comparatively resistant to oxidation by mild oxidising agents. Under vigorous conditions, they undergo carbon–carbon bond cleavage to form smaller carboxylic acids."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCOR' ->[\\text{strong }[\\text{O}]] \\text{smaller carboxylic acids}}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "3. Difference Between Aldehydes and Ketones"
+        },
+        {
+          "type": "text",
+          "text": "Aldehydes are readily oxidised because they contain a hydrogen atom attached to the carbonyl carbon. Ketones lack this hydrogen and resist mild oxidation."
+        }
+      ]
+    },
+    {
+      "heading": "8.4.4 Reactions Due to α-Hydrogen",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The hydrogen atom attached to the carbon adjacent to the carbonyl group is called the <strong>\\(\\alpha\\)-hydrogen</strong>.\n\nThe \\(\\alpha\\)-hydrogen is relatively acidic because the conjugate base formed after its removal is stabilised by resonance."
+        },
+        {
+          "type": "heading",
+          "text": "1. Aldol Condensation"
+        },
+        {
+          "type": "text",
+          "text": "Aldehydes and ketones containing at least one \\(\\alpha\\)-hydrogen undergo <strong>aldol condensation</strong> in the presence of a dilute base.\n\nTwo molecules combine to form a \\(\\beta\\)-hydroxy aldehyde or ketone, which may subsequently lose water on heating to form an \\(\\alpha, \\beta\\)-unsaturated carbonyl compound.\n\n<strong>Example: Ethanal</strong>\n\nStep 1: Aldol formation"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2CH3CHO ->[\\text{dil. }\\ce{NaOH}] CH3CH(OH)CH2CHO}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The product is 3-hydroxybutanal, commonly called aldol.\n\nStep 2: Dehydration"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3CH(OH)CH2CHO ->[\\Delta] CH3CH=CHCHO + H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The product is but-2-enal."
+        },
+        {
+          "type": "heading",
+          "text": "2. Cannizzaro Reaction"
+        },
+        {
+          "type": "text",
+          "text": "Aldehydes that do not contain an \\(\\alpha\\)-hydrogen undergo self-oxidation and self-reduction in the presence of concentrated alkali.\n\nOne molecule is oxidised to a carboxylate salt, while another is reduced to an alcohol.\n\n<strong>Example: Benzaldehyde</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2C6H5CHO + NaOH -> C6H5COONa + C6H5CH2OH}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Products:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Sodium benzoate",
+            "Benzyl alcohol"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Formaldehyde also undergoes the Cannizzaro reaction because it has no \\(\\alpha\\)-carbon and therefore no \\(\\alpha\\)-hydrogen."
+        }
+      ]
+    },
+    {
+      "heading": "8.4.5 Electrophilic Substitution Reactions",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Aromatic aldehydes and ketones undergo electrophilic substitution reactions on the benzene ring. The carbonyl group withdraws electrons from the ring and deactivates it towards electrophilic substitution. Therefore, the incoming electrophile generally enters the <strong>meta position</strong>."
+        },
+        {
+          "type": "heading",
+          "text": "1. Nitration"
+        },
+        {
+          "type": "text",
+          "text": "Benzaldehyde reacts with a nitrating mixture of concentrated nitric acid and concentrated sulphuric acid to form m-nitrobenzaldehyde as the major product."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C6H5CHO ->[\\text{conc. }\\ce{HNO3/H2SO4}] \\textit{m}-NO2C6H4CHO}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "2. Halogenation"
+        },
+        {
+          "type": "text",
+          "text": "Benzaldehyde undergoes halogenation in the presence of a suitable halogenating reagent to produce a meta-substituted product."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C6H5CHO ->[\\ce{X2},\\text{ suitable conditions}] \\textit{m}-XC6H4CHO}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Here, \\(X\\) represents a halogen."
+        },
+        {
+          "type": "heading",
+          "text": "3. Sulphonation"
+        },
+        {
+          "type": "text",
+          "text": "Under suitable conditions, aromatic aldehydes undergo sulphonation to form predominantly meta-substituted products."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C6H5CHO ->[\\text{fuming }\\ce{H2SO4}] \\textit{m}-SO3H-C6H4CHO}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The meta-directing effect is due to the electron-withdrawing nature of the \\(\\ce{-CHO}\\) and \\(\\ce{-COR}\\) groups."
+        }
+      ]
+    },
+    {
+      "heading": "8.5 Uses of Aldehydes and Ketones",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Aldehydes and ketones are widely used in industries, laboratories, medicines, perfumes, and the manufacture of several organic compounds."
+        },
+        {
+          "type": "heading",
+          "text": "1. Uses of Methanal (Formaldehyde)"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Used in the manufacture of plastics, resins, and adhesives.",
+            "Its aqueous solution, called <strong>formalin</strong>, is used for preserving biological specimens.",
+            "Used in the manufacture of various industrial chemicals."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "2. Uses of Ethanal (Acetaldehyde)"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Used as an intermediate in the preparation of acetic acid and other organic compounds.",
+            "Used in the manufacture of perfumes, dyes, and pharmaceuticals."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "3. Uses of Benzaldehyde"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Used in perfumes and flavouring compositions because of its characteristic almond-like smell.",
+            "Used in the manufacture of dyes, pharmaceuticals, and other aromatic compounds."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "4. Uses of Acetone (Propanone)"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Used as a solvent for paints, varnishes, oils, and resins.",
+            "Used in the manufacture of plastics and other chemicals.",
+            "Used in laboratories and industries for cleaning and dissolving organic substances."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "5. Uses of Butanone"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Used as an industrial solvent in coatings, adhesives, and printing inks.",
+            "Used in the manufacture of various chemical products."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "6. Uses of Higher Aldehydes and Ketones"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Used in perfumes and fragrance compositions.",
+            "Used in the flavour and fragrance industries.",
+            "Used as intermediates in the manufacture of pharmaceuticals and other organic compounds."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "8.6.1 Nomenclature",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Carboxylic acids</strong> are organic compounds containing the carboxyl functional group (\\(\\ce{-COOH}\\)). Their general formula is \\(\\ce{R-COOH}\\), where \\(R\\) represents an alkyl or aryl group."
+        },
+        {
+          "type": "heading",
+          "text": "1. IUPAC Nomenclature"
+        },
+        {
+          "type": "text",
+          "text": "The following rules are used to name carboxylic acids:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Select the longest carbon chain containing the \\(\\ce{-COOH}\\) group.",
+            "Replace the final -e of the corresponding alkane with -oic acid.",
+            "The carboxyl carbon is always numbered 1, so its position is not mentioned.",
+            "Name and number substituents according to the usual rules."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Examples:</strong>"
+        },
+        {
+          "type": "table",
+          "label": "IUPAC names of carboxylic acids",
+          "headers": [
+            "Formula",
+            "IUPAC name"
+          ],
+          "rows": [
+            [
+              "\\(\\ce{HCOOH}\\)",
+              "Methanoic acid"
+            ],
+            [
+              "\\(\\ce{CH3COOH}\\)",
+              "Ethanoic acid"
+            ],
+            [
+              "\\(\\ce{CH3CH2COOH}\\)",
+              "Propanoic acid"
+            ],
+            [
+              "\\(\\ce{CH3CH2CH2COOH}\\)",
+              "Butanoic acid"
+            ],
+            [
+              "\\(\\ce{CH3CH(CH3)COOH}\\)",
+              "2-Methylpropanoic acid"
+            ],
+            [
+              "\\(\\ce{C6H5COOH}\\)",
+              "Benzoic acid"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "2. Common Names"
+        },
+        {
+          "type": "text",
+          "text": "Many carboxylic acids are commonly named according to their natural sources or historical usage."
+        },
+        {
+          "type": "table",
+          "label": "Common names and sources of carboxylic acids",
+          "headers": [
+            "Formula",
+            "Common name",
+            "Source or association"
+          ],
+          "rows": [
+            [
+              "\\(\\ce{HCOOH}\\)",
+              "Formic acid",
+              "Ants"
+            ],
+            [
+              "\\(\\ce{CH3COOH}\\)",
+              "Acetic acid",
+              "Vinegar"
+            ],
+            [
+              "\\(\\ce{CH3CH2COOH}\\)",
+              "Propionic acid",
+              "Greek protos and pion"
+            ],
+            [
+              "\\(\\ce{CH3CH2CH2COOH}\\)",
+              "Butyric acid",
+              "Butter"
+            ],
+            [
+              "\\(\\ce{C6H5COOH}\\)",
+              "Benzoic acid",
+              "Benzoin resin"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "3. Naming Dicarboxylic Acids"
+        },
+        {
+          "type": "text",
+          "text": "Compounds containing two carboxyl groups are named using the suffix -dioic acid.\n\n<strong>Examples:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(\\ce{HOOC-COOH}\\) — Ethanedioic acid (oxalic acid)",
+            "\\(\\ce{HOOC-CH2-COOH}\\) — Propanedioic acid (malonic acid)",
+            "\\(\\ce{HOOC-CH2-CH2-COOH}\\) — Butanedioic acid (succinic acid)"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "8.6.2 Structure of Carboxyl Group",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The carboxyl group (\\(\\ce{-COOH}\\)) consists of a carbonyl group (\\(\\ce{C=O}\\)) and a hydroxyl group (\\(\\ce{-OH}\\)) attached to the same carbon atom.\n\n<strong>Structure of the carboxyl functional group</strong>\n\nThe general structure is:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{R-C(=O)-OH}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The carboxyl group exhibits the following characteristics:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "The carbon atom is \\(sp^2\\)-hybridised, and the group is approximately planar.",
+            "The carbonyl bond (\\(\\ce{C=O}\\)) is polar because oxygen is more electronegative than carbon.",
+            "The carboxyl group shows resonance, which contributes to its stability.",
+            "The hydrogen atom of the \\(\\ce{-OH}\\) group can be released as \\(\\ce{H+}\\), giving carboxylic acids their acidic character."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The acidic nature of carboxylic acids is explained by the formation of a resonance-stabilised carboxylate ion:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCOOH <=> RCOO- + H+}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The negative charge in the carboxylate ion is delocalised over the two oxygen atoms, making the ion more stable."
+        }
+      ]
+    },
+    {
+      "heading": "8.7 Methods of Preparation of Carboxylic Acids",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Carboxylic acids can be prepared by the oxidation of primary alcohols and aldehydes, hydrolysis of nitriles and other derivatives, and reactions involving Grignard reagents."
+        },
+        {
+          "type": "heading",
+          "text": "1. Oxidation of Primary Alcohols"
+        },
+        {
+          "type": "text",
+          "text": "Primary alcohols undergo oxidation to form carboxylic acids using strong oxidising agents such as acidified potassium permanganate (\\(\\ce{KMnO4}\\)) or potassium dichromate (\\(\\ce{K2Cr2O7}\\))."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCH2OH + 2[O] -> RCOOH + H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3CH2OH + 2[O] -> CH3COOH + H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Ethanol is oxidised to ethanoic acid."
+        },
+        {
+          "type": "heading",
+          "text": "2. Oxidation of Aldehydes"
+        },
+        {
+          "type": "text",
+          "text": "Aldehydes are readily oxidised to carboxylic acids using suitable oxidising agents."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCHO + [O] -> RCOOH}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3CHO + [O] -> CH3COOH}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Ethanal forms ethanoic acid."
+        },
+        {
+          "type": "heading",
+          "text": "3. Oxidation of Alkylbenzenes"
+        },
+        {
+          "type": "text",
+          "text": "Alkylbenzenes containing at least one benzylic hydrogen are oxidised by strong oxidising agents to give benzoic acid, irrespective of the length of the side chain."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C6H5CH3 + 3[O] -> C6H5COOH + H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong> Toluene gives benzoic acid on oxidation with hot alkaline \\(\\ce{KMnO4}\\), followed by acidification."
+        },
+        {
+          "type": "heading",
+          "text": "4. Hydrolysis of Nitriles"
+        },
+        {
+          "type": "text",
+          "text": "Nitriles undergo hydrolysis in the presence of dilute acids or bases to form carboxylic acids or their salts.\n\nAcidic hydrolysis:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCN + 2H2O + H+ -> RCOOH + NH4+}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3CN + 2H2O + H+ -> CH3COOH + NH4+}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Alkaline hydrolysis:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCN + H2O + OH- -> RCOO- + NH3}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The carboxylate salt gives the corresponding carboxylic acid on acidification."
+        },
+        {
+          "type": "heading",
+          "text": "5. Hydrolysis of Amides"
+        },
+        {
+          "type": "text",
+          "text": "Amides undergo hydrolysis with dilute acids or alkalis on heating.\n\nAcidic hydrolysis:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCONH2 + H2O + H+ -> RCOOH + NH4+}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Alkaline hydrolysis:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCONH2 + OH- -> RCOO- + NH3}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Acidification of the carboxylate salt produces the corresponding carboxylic acid."
+        },
+        {
+          "type": "heading",
+          "text": "6. From Grignard Reagents"
+        },
+        {
+          "type": "text",
+          "text": "Grignard reagents react with carbon dioxide in dry ether to form magnesium carboxylate salts. Hydrolysis with dilute acid gives carboxylic acids."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RMgX + CO2 ->[\\text{dry ether}] RCOOMgX}\\]"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCOOMgX + H3O+ -> RCOOH}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3MgBr + CO2 -> CH3COOMgBr}\\]"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3COOMgBr ->[\\ce{H3O+}] CH3COOH}\\]"
+        },
+        {
+          "type": "text",
+          "text": "This method increases the carbon chain by one carbon atom."
+        },
+        {
+          "type": "heading",
+          "text": "7. Hydrolysis of Esters"
+        },
+        {
+          "type": "text",
+          "text": "Esters undergo hydrolysis to produce carboxylic acids and alcohols in acidic medium."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCOOR' + H2O <=>[\\ce{H+}] RCOOH + R'OH}\\]"
+        },
+        {
+          "type": "text",
+          "text": "In alkaline medium, the reaction produces a carboxylate salt and an alcohol."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCOOR' + NaOH -> RCOONa + R'OH}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Acidification of the salt gives the corresponding carboxylic acid."
+        },
+        {
+          "type": "heading",
+          "text": "8. From Acyl Chlorides and Acid Anhydrides"
+        },
+        {
+          "type": "text",
+          "text": "Acyl chlorides and acid anhydrides react with water to form carboxylic acids.\n\nFrom acyl chlorides:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCOCl + H2O -> RCOOH + HCl}\\]"
+        },
+        {
+          "type": "text",
+          "text": "From acid anhydrides:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{(RCO)2O + H2O -> 2RCOOH}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Both reactions involve hydrolysis of the respective carboxylic acid derivatives."
+        }
+      ]
+    },
+    {
+      "heading": "8.8 Physical Properties of Carboxylic Acids",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Physical State:</strong> Lower carboxylic acids are colourless liquids with sharp or pungent odours. Higher carboxylic acids are generally waxy solids at room temperature.",
+            "<strong>Polarity:</strong> Carboxylic acids contain the polar carboxyl group (\\(\\ce{-COOH}\\)), which contributes to their intermolecular attractions.",
+            "<strong>Hydrogen Bonding:</strong> Carboxylic acid molecules form strong intermolecular hydrogen bonds. Two molecules often associate to form a cyclic dimer containing two hydrogen bonds.",
+            "<strong>Boiling Points:</strong> Carboxylic acids have relatively high boiling points compared with alcohols, aldehydes, ketones and hydrocarbons of comparable molecular masses because of strong intermolecular hydrogen bonding and dimer formation.",
+            "<strong>Solubility in Water:</strong> Lower carboxylic acids are highly soluble in water because they form hydrogen bonds with water molecules. Solubility decreases as the hydrocarbon chain becomes longer.",
+            "<strong>Solubility in Organic Solvents:</strong> Carboxylic acids are generally soluble in many organic solvents, depending on their molecular structure.",
+            "<strong>Acidic Nature:</strong> Carboxylic acids are weak acids. They ionise partially in water to produce hydronium ions and carboxylate ions."
+          ]
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCOOH + H2O <=> RCOO- + H3O+}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>8. Effect of Substituents on Acidity:</strong> Electron-withdrawing groups increase the acidity of carboxylic acids by stabilising the carboxylate ion, whereas electron-donating groups generally decrease acidity.\n\nFor example, chloroacetic acid is stronger than acetic acid because chlorine exerts an electron-withdrawing inductive effect."
+        }
+      ]
+    },
+    {
+      "heading": "8.9 Chemical Reactions of Carboxylic Acids",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Carboxylic acids undergo reactions due to the cleavage of the O–H bond, cleavage of the C–OH bond, reactions involving the \\(\\ce{-COOH}\\) group, and substitution reactions in the hydrocarbon part."
+        }
+      ]
+    },
+    {
+      "heading": "8.9.1 Reactions Involving Cleavage of O–H Bond",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The O–H bond of carboxylic acids can break to release a proton (\\(\\ce{H+}\\)). These reactions demonstrate the acidic nature of carboxylic acids."
+        },
+        {
+          "type": "heading",
+          "text": "1. Reaction with Metals"
+        },
+        {
+          "type": "text",
+          "text": "Carboxylic acids react with active metals such as sodium to form salts and liberate hydrogen gas."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2RCOOH + 2Na -> 2RCOONa + H2 ^}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2CH3COOH + 2Na -> 2CH3COONa + H2 ^}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "2. Reaction with Alkalis"
+        },
+        {
+          "type": "text",
+          "text": "Carboxylic acids react with bases such as sodium hydroxide to form salts and water. This is a neutralisation reaction."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCOOH + NaOH -> RCOONa + H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3COOH + NaOH -> CH3COONa + H2O}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "3. Reaction with Carbonates and Bicarbonates"
+        },
+        {
+          "type": "text",
+          "text": "Carboxylic acids react with sodium carbonate and sodium bicarbonate to form salts, carbon dioxide, and water.\n\nWith sodium carbonate:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2RCOOH + Na2CO3 -> 2RCOONa + CO2 + H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "With sodium bicarbonate:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCOOH + NaHCO3 -> RCOONa + CO2 + H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The brisk effervescence of \\(\\ce{CO2}\\) helps distinguish carboxylic acids from many other organic compounds."
+        }
+      ]
+    },
+    {
+      "heading": "8.9.2 Reactions Involving Cleavage of C–OH Bond",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "In these reactions, the hydroxyl group of the carboxyl group is replaced by another group."
+        },
+        {
+          "type": "heading",
+          "text": "1. Formation of Acid Chlorides"
+        },
+        {
+          "type": "text",
+          "text": "Carboxylic acids react with thionyl chloride (\\(\\ce{SOCl2}\\)), phosphorus pentachloride (\\(\\ce{PCl5}\\)), or phosphorus trichloride (\\(\\ce{PCl3}\\)) to form acid chlorides."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCOOH + SOCl2 -> RCOCl + SO2 + HCl}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Thionyl chloride is particularly useful because the gaseous by-products escape, helping to purify the product."
+        },
+        {
+          "type": "heading",
+          "text": "2. Formation of Esters — Esterification"
+        },
+        {
+          "type": "text",
+          "text": "Carboxylic acids react with alcohols in the presence of concentrated sulphuric acid to form esters and water."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCOOH + R'OH <=>[\\text{conc. }\\ce{H2SO4}] RCOOR' + H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3COOH + C2H5OH <=> CH3COOC2H5 + H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Ethanoic acid reacts with ethanol to form ethyl ethanoate, which has a characteristic fruity odour."
+        },
+        {
+          "type": "heading",
+          "text": "3. Formation of Amides"
+        },
+        {
+          "type": "text",
+          "text": "Carboxylic acids react with ammonia to form ammonium carboxylate salts. On heating, these salts lose water to form amides."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCOOH + NH3 -> RCOONH4}\\]"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCOONH4 ->[\\Delta] RCONH2 + H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3COOH + NH3 -> CH3COONH4}\\]"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3COONH4 ->[\\Delta] CH3CONH2 + H2O}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "4. Reduction to Primary Alcohols"
+        },
+        {
+          "type": "text",
+          "text": "Carboxylic acids are reduced to primary alcohols using lithium aluminium hydride (\\(\\ce{LiAlH4}\\)), followed by hydrolysis."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCOOH ->[\\ce{LiAlH4}][\\text{then }\\ce{H2O}] RCH2OH}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3COOH ->[\\ce{LiAlH4}][\\text{then }\\ce{H2O}] CH3CH2OH}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "5. Decarboxylation"
+        },
+        {
+          "type": "text",
+          "text": "When the sodium salt of a carboxylic acid is heated with soda lime (\\(\\ce{NaOH + CaO}\\)), it forms an alkane containing one carbon atom less than the original acid."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCOONa + NaOH ->[\\ce{CaO},\\,\\Delta] RH + Na2CO3}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3COONa + NaOH ->[\\ce{CaO},\\,\\Delta] CH4 + Na2CO3}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Sodium ethanoate gives methane."
+        },
+        {
+          "type": "heading",
+          "text": "6. Kolbe's Electrolysis"
+        },
+        {
+          "type": "text",
+          "text": "Electrolysis of an aqueous solution of the sodium or potassium salt of a carboxylic acid produces an alkane containing twice the number of carbon atoms in the alkyl groups."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2RCOO- -> R-R + 2CO2 + 2e-}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2CH3COONa + 2H2O ->[\\text{electrolysis}] C2H6 + 2CO2 + H2 + 2NaOH}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Ethane is obtained from the electrolysis of aqueous sodium ethanoate."
+        }
+      ]
+    },
+    {
+      "heading": "8.9.3 Reactions Involving the –COOH Group",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Formation of Acid Anhydrides"
+        },
+        {
+          "type": "text",
+          "text": "On heating suitable carboxylic acids with a dehydrating agent, two molecules can combine to form an acid anhydride."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2RCOOH ->[\\ce{P2O5},\\,\\Delta] (RCO)2O + H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2CH3COOH ->[\\ce{P2O5},\\,\\Delta] (CH3CO)2O + H2O}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "2. Hell–Volhard–Zelinsky (HVZ) Reaction"
+        },
+        {
+          "type": "text",
+          "text": "Carboxylic acids containing at least one \\(\\alpha\\)-hydrogen undergo halogenation at the \\(\\alpha\\)-carbon in the presence of red phosphorus and chlorine or bromine."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCH2COOH ->[\\ce{Br2}/\\text{red P}] RCHBrCOOH}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3CH2COOH ->[\\ce{Br2}/\\text{red P}] CH3CHBrCOOH}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Propanoic acid forms 2-bromopropanoic acid."
+        },
+        {
+          "type": "heading",
+          "text": "3. Reduction of Carboxylic Acids"
+        },
+        {
+          "type": "text",
+          "text": "Carboxylic acids can be reduced to primary alcohols by strong reducing agents such as \\(\\ce{LiAlH4}\\)."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCOOH ->[\\ce{LiAlH4}] RCH2OH}\\]"
+        },
+        {
+          "type": "text",
+          "text": "This reaction involves the conversion of the carboxyl group into a primary alcohol group."
+        }
+      ]
+    },
+    {
+      "heading": "8.9.4 Substitution Reactions in the Hydrocarbon Part",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Hell–Volhard–Zelinsky Reaction"
+        },
+        {
+          "type": "text",
+          "text": "The HVZ reaction replaces an \\(\\alpha\\)-hydrogen of a carboxylic acid with a halogen atom. It is applicable to carboxylic acids containing an \\(\\alpha\\)-hydrogen."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCH2COOH ->[\\ce{Br2}/\\text{red P}] RCHBrCOOH}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The reaction proceeds through formation of an acyl halide, followed by halogenation and hydrolysis."
+        },
+        {
+          "type": "heading",
+          "text": "2. Electrophilic Substitution in Aromatic Carboxylic Acids"
+        },
+        {
+          "type": "text",
+          "text": "The \\(\\ce{-COOH}\\) group withdraws electrons from the benzene ring by inductive and resonance effects. Therefore, it deactivates the ring towards electrophilic substitution and directs incoming electrophiles mainly to the <strong>meta position</strong>.\n\n<strong>(a) Nitration</strong>\nBenzoic acid reacts with a nitrating mixture of concentrated nitric acid and concentrated sulphuric acid to form meta-nitrobenzoic acid."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C6H5COOH ->[\\text{conc. }\\ce{HNO3/H2SO4}] \\textit{m}-NO2C6H4COOH}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>(b) Halogenation</strong>\nBenzoic acid undergoes halogenation under suitable conditions to form predominantly meta-halobenzoic acid."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C6H5COOH ->[\\ce{X2},\\text{ suitable conditions}] \\textit{m}-XC6H4COOH}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>(c) Sulphonation</strong>\nBenzoic acid undergoes sulphonation with fuming sulphuric acid to produce meta-sulphobenzoic acid as the major product."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C6H5COOH ->[\\text{fuming }\\ce{H2SO4}] \\textit{m}-SO3H-C6H4COOH}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The meta-directing effect is due to the electron-withdrawing nature of the carboxyl group."
+        }
+      ]
+    },
+    {
+      "heading": "8.10 Uses of Carboxylic Acids",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Carboxylic acids are widely used in the food industry, pharmaceutical industry, manufacture of polymers, and preparation of perfumes and other organic compounds."
+        },
+        {
+          "type": "heading",
+          "text": "1. Uses of Formic Acid (Methanoic Acid)"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Used in the leather and textile industries.",
+            "Used in the processing of rubber and leather.",
+            "Used as a preservative and antibacterial agent in certain industrial and agricultural applications."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "2. Uses of Acetic Acid (Ethanoic Acid)"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Used in the manufacture of vinegar.",
+            "Used in the preparation of esters, which are used in perfumes and flavouring agents.",
+            "Used in the manufacture of plastics, dyes, and pharmaceuticals."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "3. Uses of Benzoic Acid"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Used as a food preservative in the form of benzoic acid and its salts, such as sodium benzoate.",
+            "Used in the manufacture of dyes, perfumes, and medicines.",
+            "Used as an intermediate in the preparation of other organic compounds."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "4. Uses of Citric Acid"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Used as an acidulant and flavouring agent in foods and beverages.",
+            "Used to regulate acidity in food products.",
+            "Used in pharmaceutical preparations and cleaning products."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "5. Uses of Oxalic Acid"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Used for removing rust and certain stains.",
+            "Used in textile processing and bleaching.",
+            "Used in laboratories for analytical purposes."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "6. Uses of Higher Carboxylic Acids"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Higher fatty acids, such as palmitic acid and stearic acid, are used in the manufacture of soaps and cosmetics.",
+            "Fatty acids are important components in the production of detergents, lubricants, and other industrial products.",
+            "Long-chain carboxylic acids are used in the manufacture of candles and personal-care products."
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": "Chapter 8 covers aldehydes, ketones, and carboxylic acids. It explains the IUPAC and common nomenclature and planar sp² structure of the polar carbonyl group (>C=O), and details methods for preparing aldehydes and ketones including oxidation and dehydrogenation of alcohols, Rosenmund reduction, Stephen reaction, Etard reaction, dialkylcadmium reaction with acyl chlorides, Grignard addition to nitriles, Friedel–Crafts acylation, and alkyne hydration. It describes their physical properties and chemical reactions—nucleophilic addition (HCN, NaHSO₃, Grignard reagents, alcohols, and ammonia derivatives), reduction (to alcohols and Clemmensen/Wolff–Kishner reductions to hydrocarbons), oxidation (Tollens' and Fehling's tests), aldol condensation, Cannizzaro reaction, and meta-directing electrophilic substitution. Finally, it examines the nomenclature, resonance-stabilised structure, preparation, high boiling points (due to cyclic dimer formation), acidity trends, reactions (O–H and C–OH cleavage, decarboxylation, Kolbe's electrolysis, anhydride formation, and Hell–Volhard–Zelinsky reaction), and uses of carboxylic acids.",
+  "qa": [
+    {
+      "q": "Explain the Rosenmund reduction and Stephen reaction for preparing aldehydes.",
+      "a": "In the Rosenmund reduction, an acyl chloride is hydrogenated over a poisoned palladium catalyst supported on barium sulphate (\\(\\ce{RCOCl + H2 ->[\\ce{Pd/BaSO4}] RCHO + HCl}\\)). In the Stephen reaction, a nitrile is reduced with stannous chloride and hydrochloric acid (\\(\\ce{SnCl2/HCl}\\)) to an imine hydrochloride, which on hydrolysis gives an aldehyde.",
+      "section": "8.2.2 Preparation of Aldehydes"
+    },
+    {
+      "q": "What is the Etard reaction?",
+      "a": "The Etard reaction is the oxidation of toluene with chromyl chloride (\\(\\ce{CrO2Cl2}\\)) in a suitable solvent to form a chromium complex, which on hydrolysis yields benzaldehyde (\\(\\ce{C6H5CHO}\\)).",
+      "section": "8.2.2 Preparation of Aldehydes"
+    },
+    {
+      "q": "Compare Clemmensen reduction and Wolff–Kishner reduction.",
+      "a": "Both reduce the carbonyl group (\\(\\ce{>C=O}\\)) of aldehydes and ketones to a methylene group (\\(\\ce{-CH2-}\\)): Clemmensen reduction uses zinc amalgam and concentrated hydrochloric acid (\\(\\ce{Zn-Hg/HCl}\\)), whereas Wolff–Kishner reduction heats the carbonyl compound with hydrazine (\\(\\ce{NH2NH2}\\)) and a strong base like \\(\\ce{KOH}\\) in a high-boiling solvent.",
+      "section": "8.4.2 Reduction"
+    },
+    {
+      "q": "How are Tollens' test and Fehling's test used to distinguish aldehydes from ketones?",
+      "a": "Aldehydes reduce Tollens' reagent (ammoniacal silver nitrate) to metallic silver (forming a silver mirror) and aliphatic aldehydes reduce Fehling's solution to a brick-red precipitate of \\(\\ce{Cu2O}\\). Ketones do not respond to either test because they lack a hydrogen atom attached to the carbonyl carbon.",
+      "section": "8.4.3 Oxidation"
+    },
+    {
+      "q": "Distinguish between aldol condensation and the Cannizzaro reaction.",
+      "a": "Aldol condensation occurs in aldehydes and ketones having at least one acidic \\(\\alpha\\)-hydrogen in the presence of dilute base to form a \\(\\beta\\)-hydroxy aldehyde/ketone (which dehydrates to an \\(\\alpha,\\beta\\)-unsaturated carbonyl compound). The Cannizzaro reaction occurs in aldehydes lacking an \\(\\alpha\\)-hydrogen (like \\(\\ce{HCHO}\\) and \\(\\ce{C6H5CHO}\\)) in concentrated alkali, where one molecule is reduced to an alcohol and another is oxidised to a carboxylate salt.",
+      "section": "8.4.4 Reactions Due to α-Hydrogen"
+    },
+    {
+      "q": "Why do carboxylic acids have higher boiling points than alcohols of comparable molecular mass?",
+      "a": "Carboxylic acid molecules form stronger intermolecular hydrogen bonds than alcohols and associate into stable cyclic dimers held together by two hydrogen bonds.",
+      "section": "8.8 Physical Properties of Carboxylic Acids"
+    },
+    {
+      "q": "How do electron-withdrawing and electron-donating substituents affect the acidity of carboxylic acids?",
+      "a": "Electron-withdrawing groups (like \\(\\ce{-Cl}\\), \\(\\ce{-F}\\), \\(\\ce{-NO2}\\)) stabilise the carboxylate anion by dispersing the negative charge and therefore increase acidity (e.g., chloroacetic acid is stronger than acetic acid). Electron-donating alkyl groups intensify the negative charge and decrease acidity.",
+      "section": "8.8 Physical Properties of Carboxylic Acids"
+    },
+    {
+      "q": "What is the Hell–Volhard–Zelinsky (HVZ) reaction?",
+      "a": "Carboxylic acids having an \\(\\alpha\\)-hydrogen react with chlorine or bromine in the presence of a small amount of red phosphorus to give \\(\\alpha\\)-halocarboxylic acids: \\(\\ce{RCH2COOH ->[\\ce{Br2}/\\text{red P}] RCHBrCOOH}\\).",
+      "section": "8.9.3 Reactions Involving the –COOH Group"
+    }
+  ]
+}

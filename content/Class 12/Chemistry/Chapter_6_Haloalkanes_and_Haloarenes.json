@@ -1,0 +1,1153 @@
+{
+  "title": "Haloalkanes and Haloarenes",
+  "class": "12",
+  "subject": "Chemistry",
+  "chapter": "Chapter 6",
+  "book": "NCERT Chemistry",
+  "notes": [
+    {
+      "heading": "6.1 Classification",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Haloalkanes</strong> and <strong>haloarenes</strong> are organic compounds in which one or more hydrogen atoms of hydrocarbons are replaced by halogen atoms such as fluorine (F), chlorine (Cl), bromine (Br) or iodine (I).\n\nThey are classified on the basis of the number of halogen atoms present and the nature of the carbon atom to which the halogen is attached."
+        }
+      ]
+    },
+    {
+      "heading": "6.1.1 On the Basis of Number of Halogen Atoms",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Depending on the number of halogen atoms present in a molecule, these compounds are classified as follows:"
+        },
+        {
+          "type": "heading",
+          "text": "1. Monohalo compounds"
+        },
+        {
+          "type": "text",
+          "text": "These compounds contain only one halogen atom.\n\n<strong>Examples:</strong> \\(\\ce{CH3Cl}\\) (chloromethane), \\(\\ce{C2H5Br}\\) (bromoethane)."
+        },
+        {
+          "type": "heading",
+          "text": "2. Dihalo compounds"
+        },
+        {
+          "type": "text",
+          "text": "These compounds contain two halogen atoms. They are of two types:\n\n- <strong>Geminal dihalides:</strong> Both halogen atoms are attached to the same carbon atom.\n\n<strong>Example:</strong> \\(\\ce{CH3CHCl2}\\) (1,1-dichloroethane).\n\n- <strong>Vicinal dihalides:</strong> The two halogen atoms are attached to adjacent carbon atoms.\n\n<strong>Example:</strong> \\(\\ce{CH2ClCH2Cl}\\) (1,2-dichloroethane)."
+        },
+        {
+          "type": "heading",
+          "text": "3. Trihalo compounds"
+        },
+        {
+          "type": "text",
+          "text": "These compounds contain three halogen atoms.\n\n<strong>Example:</strong> \\(\\ce{CHCl3}\\) (trichloromethane)."
+        },
+        {
+          "type": "heading",
+          "text": "4. Polyhalo compounds"
+        },
+        {
+          "type": "text",
+          "text": "These compounds contain more than three halogen atoms.\n\n<strong>Example:</strong> \\(\\ce{CCl4}\\) (tetrachloromethane)."
+        }
+      ]
+    },
+    {
+      "heading": "6.1.2 Compounds Containing sp³ C—X Bond",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "In these compounds, the halogen atom is attached to an \\(sp^3\\)-hybridised carbon atom. The carbon atom is generally bonded through single bonds."
+        },
+        {
+          "type": "heading",
+          "text": "A. Haloalkanes"
+        },
+        {
+          "type": "text",
+          "text": "Haloalkanes are obtained by replacing one or more hydrogen atoms of an aliphatic alkane with halogen atoms.\n\nDepending on the nature of the carbon atom bonded to the halogen, monohaloalkanes are classified into three types.\n\n<strong>1. Primary (1°) haloalkanes:</strong> The carbon atom attached to the halogen is bonded to only one other carbon atom.\n\nGeneral formula: \\(\\ce{R-CH2-X}\\)\n\n<strong>Example:</strong> \\(\\ce{CH3CH2Cl}\\) (chloroethane).\n\n<strong>2. Secondary (2°) haloalkanes:</strong> The carbon atom attached to the halogen is bonded to two other carbon atoms.\n\nGeneral formula: \\(\\ce{R-CH(X)-R'}\\)\n\n<strong>Example:</strong> \\(\\ce{CH3CHClCH3}\\) (2-chloropropane).\n\n<strong>3. Tertiary (3°) haloalkanes:</strong> The carbon atom attached to the halogen is bonded to three other carbon atoms.\n\nGeneral formula: \\(\\ce{R3C-X}\\)\n\n<strong>Example:</strong> \\(\\ce{(CH3)3CCl}\\) (2-chloro-2-methylpropane).\n\nHere, \\(X\\) represents a halogen atom, and \\(R\\) represents an alkyl group."
+        },
+        {
+          "type": "heading",
+          "text": "B. Allylic Halides"
+        },
+        {
+          "type": "text",
+          "text": "In <strong>allylic halides</strong>, the halogen atom is attached to an \\(sp^3\\)-hybridised carbon atom adjacent to a carbon–carbon double bond.\n\n<strong>Example:</strong> \\(\\ce{CH2=CH-CH2Cl}\\) (3-chloroprop-1-ene)."
+        },
+        {
+          "type": "heading",
+          "text": "C. Benzylic Halides"
+        },
+        {
+          "type": "text",
+          "text": "In <strong>benzylic halides</strong>, the halogen atom is attached to an \\(sp^3\\)-hybridised carbon atom directly bonded to an aromatic ring.\n\n<strong>Example:</strong> \\(\\ce{C6H5CH2Cl}\\) (benzyl chloride)."
+        },
+        {
+          "type": "heading",
+          "text": "D. Alkyl Halides with More Than One Halogen Atom"
+        },
+        {
+          "type": "text",
+          "text": "These compounds contain two or more halogen atoms attached to carbon atoms of an aliphatic chain.\n\n<strong>Examples:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(\\ce{CH2Cl2}\\) — dichloromethane.",
+            "\\(\\ce{CHCl3}\\) — trichloromethane.",
+            "\\(\\ce{CCl4}\\) — tetrachloromethane."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "6.1.3 Compounds Containing sp² C—X Bond",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "In these compounds, the halogen atom is directly attached to an \\(sp^2\\)-hybridised carbon atom.\n\nThey are classified into two main types.\n\n<strong>1. Vinylic halides:</strong> In these compounds, the halogen atom is directly attached to a carbon atom of a carbon–carbon double bond.\n\n<strong>Example:</strong> \\(\\ce{CH2=CHCl}\\) (chloroethene or vinyl chloride).\n\n<strong>2. Aryl halides:</strong> In these compounds, the halogen atom is directly attached to an \\(sp^2\\)-hybridised carbon atom of an aromatic ring.\n\n<strong>Example:</strong> \\(\\ce{C6H5Cl}\\) (chlorobenzene).\n\n<strong>Difference between allylic and vinylic halides:</strong> In allylic halides, the halogen is attached to the carbon atom adjacent to a double bond, whereas in vinylic halides, it is attached directly to a carbon atom of the double bond.\n\nSimilarly, in benzylic halides, the halogen is attached to a carbon atom outside the aromatic ring, whereas in aryl halides, it is attached directly to the aromatic ring."
+        }
+      ]
+    },
+    {
+      "heading": "6.2 Nomenclature",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Haloalkanes and haloarenes are named according to the IUPAC system and common naming system."
+        },
+        {
+          "type": "heading",
+          "text": "1. Common System of Nomenclature"
+        },
+        {
+          "type": "text",
+          "text": "In the common system, the name of the alkyl or aryl group is written first, followed by the name of the halide.\n\n<strong>Examples:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(\\ce{CH3Cl}\\) — Methyl chloride",
+            "\\(\\ce{C2H5Br}\\) — Ethyl bromide",
+            "\\(\\ce{C6H5Cl}\\) — Phenyl chloride (common name: chlorobenzene is preferred)"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "2. IUPAC System of Nomenclature"
+        },
+        {
+          "type": "text",
+          "text": "In the IUPAC system, halogens are treated as substituents and are named using the prefixes fluoro-, chloro-, bromo- and iodo-.\n\nThe name is formed by identifying the longest carbon chain, numbering it appropriately and indicating the position of the halogen atom."
+        },
+        {
+          "type": "heading",
+          "text": "Rules for Naming Haloalkanes"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Rule 1: Select the longest carbon chain.</strong>\nThe longest continuous carbon chain is selected as the parent hydrocarbon.\n\n<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3CH2CH2Cl}\\]"
+        },
+        {
+          "type": "text",
+          "text": "IUPAC name: 1-chloropropane\n\n<strong>Rule 2: Number the carbon chain.</strong>\nNumber the chain from the end nearest to the substituent so that it receives the lowest possible locant.\n\n<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3CHClCH3}\\]"
+        },
+        {
+          "type": "text",
+          "text": "IUPAC name: 2-chloropropane\n\n<strong>Rule 3: Use the appropriate prefix for the halogen.</strong>"
+        },
+        {
+          "type": "table",
+          "label": "Halogen prefixes in IUPAC nomenclature",
+          "headers": [
+            "Halogen",
+            "Prefix"
+          ],
+          "rows": [
+            [
+              "Fluorine (F)",
+              "Fluoro-"
+            ],
+            [
+              "Chlorine (Cl)",
+              "Chloro-"
+            ],
+            [
+              "Bromine (Br)",
+              "Bromo-"
+            ],
+            [
+              "Iodine (I)",
+              "Iodo-"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Rule 4:</strong> When identical halogen atoms are present, use prefixes such as di-, tri- and tetra-.\n\n<strong>Examples:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(\\ce{CH2Cl2}\\) — Dichloromethane",
+            "\\(\\ce{CHCl3}\\) — Trichloromethane",
+            "\\(\\ce{CCl4}\\) — Tetrachloromethane"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Rule 5:</strong> When different substituents are present, arrange their prefixes alphabetically.\n\nPrefixes such as di-, tri- and tetra- are not considered when determining alphabetical order.\n\n<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3CH(Br)CH(Cl)CH3}\\]"
+        },
+        {
+          "type": "text",
+          "text": "IUPAC name: 2-bromo-3-chlorobutane"
+        },
+        {
+          "type": "heading",
+          "text": "Nomenclature of Haloarenes"
+        },
+        {
+          "type": "text",
+          "text": "In haloarenes, the halogen atom is directly attached to an aromatic ring.\n\nFor a benzene ring containing one halogen atom, the halogen prefix is followed by the word benzene.\n\n<strong>Examples:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(\\ce{C6H5F}\\) — Fluorobenzene",
+            "\\(\\ce{C6H5Cl}\\) — Chlorobenzene",
+            "\\(\\ce{C6H5Br}\\) — Bromobenzene",
+            "\\(\\ce{C6H5I}\\) — Iodobenzene"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "When two identical halogen atoms are present on the benzene ring, their positions are indicated by numbers.\n\n<strong>Examples:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "1,2-dichlorobenzene",
+            "1,3-dichlorobenzene",
+            "1,4-dichlorobenzene"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "These three compounds are also represented by the prefixes ortho (o-), meta (m-) and para (p-), respectively."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Ortho (o-):</strong> Substituents are at positions 1 and 2.",
+            "<strong>Meta (m-):</strong> Substituents are at positions 1 and 3.",
+            "<strong>Para (p-):</strong> Substituents are at positions 1 and 4."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Thus, correct IUPAC nomenclature identifies the parent hydrocarbon, the position of each substituent and the appropriate halogen prefix."
+        }
+      ]
+    },
+    {
+      "heading": "6.3 Nature of C—X Bond",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "In haloalkanes and haloarenes, the halogen atom is attached to carbon through a covalent bond called the <strong>carbon–halogen (\\(\\ce{C-X}\\)) bond</strong>.\n\nHalogens are more electronegative than carbon. Therefore, the shared electron pair is attracted more towards the halogen atom, making the \\(\\ce{C-X}\\) bond polar."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C^{\\delta+} - X^{\\delta-}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Here, \\(\\delta^+\\) and \\(\\delta^-\\) represent partial positive and partial negative charges, respectively."
+        },
+        {
+          "type": "heading",
+          "text": "1. Bond Length"
+        },
+        {
+          "type": "text",
+          "text": "The bond length of the \\(\\ce{C-X}\\) bond increases with the size of the halogen atom."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C-F < C-Cl < C-Br < C-I}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Fluorine has the smallest atomic size, whereas iodine has the largest atomic size among these halogens. Hence, the \\(\\ce{C-F}\\) bond is the shortest and the \\(\\ce{C-I}\\) bond is the longest."
+        },
+        {
+          "type": "heading",
+          "text": "2. Bond Strength"
+        },
+        {
+          "type": "text",
+          "text": "The strength of the \\(\\ce{C-X}\\) bond generally decreases as the size of the halogen atom increases."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C-F > C-Cl > C-Br > C-I}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The \\(\\ce{C-F}\\) bond is the strongest because it is short and has strong orbital overlap. The \\(\\ce{C-I}\\) bond is the weakest because it is longer and has weaker orbital overlap."
+        },
+        {
+          "type": "heading",
+          "text": "3. Bond Polarity"
+        },
+        {
+          "type": "text",
+          "text": "The polarity of the \\(\\ce{C-X}\\) bond depends on the difference in electronegativity between carbon and the halogen."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C-F > C-Cl > C-Br > C-I}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The \\(\\ce{C-F}\\) bond has the greatest electronegativity difference, while the \\(\\ce{C-I}\\) bond has the smallest among these bonds."
+        },
+        {
+          "type": "heading",
+          "text": "4. Reactivity of Haloalkanes"
+        },
+        {
+          "type": "text",
+          "text": "Haloalkanes undergo many reactions because the polar \\(\\ce{C-X}\\) bond can break during a chemical reaction. In nucleophilic substitution reactions, the halogen leaves as a halide ion, while a nucleophile forms a new bond with carbon."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{R-X + Nu- -> R-Nu + X-}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The reactivity of haloalkanes generally follows the order:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{R-I > R-Br > R-Cl > R-F}\\]"
+        },
+        {
+          "type": "text",
+          "text": "This order is mainly due to the decreasing strength of the carbon–halogen bond. The weaker \\(\\ce{C-I}\\) bond breaks more readily than the stronger \\(\\ce{C-F}\\) bond."
+        }
+      ]
+    },
+    {
+      "heading": "6.4 Methods of Preparation of Haloalkanes",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Haloalkanes can be prepared by several methods, mainly from alcohols and hydrocarbons, and by halogen exchange reactions."
+        }
+      ]
+    },
+    {
+      "heading": "6.4.1 From Alcohols",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Alcohols are converted into haloalkanes by replacing the hydroxyl group (\\(\\ce{-OH}\\)) with a halogen atom."
+        },
+        {
+          "type": "heading",
+          "text": "1. Reaction with Hydrogen Halides"
+        },
+        {
+          "type": "text",
+          "text": "Alcohols react with hydrogen halides (\\(\\ce{HX}\\)) to form haloalkanes and water."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{R-OH + HX -> R-X + H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C2H5OH + HBr -> C2H5Br + H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Ethanol reacts with hydrogen bromide to form bromoethane.\n\nThe reactivity of hydrogen halides follows the order:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{HI > HBr > HCl}\\]"
+        },
+        {
+          "type": "text",
+          "text": "For the preparation of alkyl chlorides, concentrated hydrochloric acid is often used in the presence of anhydrous zinc chloride (\\(\\ce{ZnCl2}\\)), which acts as a catalyst."
+        },
+        {
+          "type": "heading",
+          "text": "2. Reaction with Phosphorus Halides"
+        },
+        {
+          "type": "text",
+          "text": "Alcohols react with phosphorus halides to form haloalkanes.\n\nUsing phosphorus trichloride:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{3R-OH + PCl3 -> 3R-Cl + H3PO3}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Using phosphorus pentachloride:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{R-OH + PCl5 -> R-Cl + POCl3 + HCl}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Using phosphorus tribromide:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{3R-OH + PBr3 -> 3R-Br + H3PO3}\\]"
+        },
+        {
+          "type": "text",
+          "text": "These reactions are useful for preparing alkyl chlorides and bromides from alcohols."
+        },
+        {
+          "type": "heading",
+          "text": "3. Reaction with Thionyl Chloride"
+        },
+        {
+          "type": "text",
+          "text": "Alcohols react with thionyl chloride (\\(\\ce{SOCl2}\\)) to form alkyl chlorides."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{R-OH + SOCl2 -> R-Cl + SO2 + HCl}\\]"
+        },
+        {
+          "type": "text",
+          "text": "This method is preferred because the by-products, sulphur dioxide (\\(\\ce{SO2}\\)) and hydrogen chloride (\\(\\ce{HCl}\\)), escape as gases, leaving the alkyl chloride relatively pure."
+        }
+      ]
+    },
+    {
+      "heading": "6.4.2 From Hydrocarbons",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Haloalkanes can be prepared from hydrocarbons by free-radical halogenation of alkanes or by the addition of hydrogen halides to alkenes."
+        },
+        {
+          "type": "heading",
+          "text": "1. From Alkanes"
+        },
+        {
+          "type": "text",
+          "text": "Alkanes react with chlorine or bromine in the presence of ultraviolet light or sunlight. A hydrogen atom is replaced by a halogen atom.\n\n<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH4 + Cl2 ->[h\\nu] CH3Cl + HCl}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Methane reacts with chlorine to form chloromethane.\n\nFurther substitution may occur, producing di-, tri- and tetrahalogenated compounds. Therefore, this method may give a mixture of products."
+        },
+        {
+          "type": "heading",
+          "text": "2. From Alkenes"
+        },
+        {
+          "type": "text",
+          "text": "Alkenes react with hydrogen halides (\\(\\ce{HX}\\)) to form haloalkanes by addition across the carbon–carbon double bond.\n\n<strong>Addition according to Markovnikov's rule:</strong>\nIn the addition of \\(\\ce{HX}\\) to an unsymmetrical alkene, hydrogen generally attaches to the carbon already having more hydrogen atoms, while the halogen attaches to the other carbon.\n\n<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3CH=CH2 + HBr -> CH3CHBrCH3}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Propene reacts with hydrogen bromide to form 2-bromopropane.\n\n<strong>Addition in the presence of peroxide:</strong>\nIn the presence of peroxide, hydrogen bromide adds to an unsymmetrical alkene according to the anti-Markovnikov rule."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3CH=CH2 + HBr ->[\\text{peroxide}] CH3CH2CH2Br}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The product is 1-bromopropane. This peroxide effect is observed with \\(\\ce{HBr}\\), not with \\(\\ce{HCl}\\) or \\(\\ce{HI}\\)."
+        }
+      ]
+    },
+    {
+      "heading": "6.4.3 Halogen Exchange",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "In halogen exchange reactions, one halogen atom in a haloalkane is replaced by another halogen atom."
+        },
+        {
+          "type": "heading",
+          "text": "1. Finkelstein Reaction"
+        },
+        {
+          "type": "text",
+          "text": "Alkyl chlorides or bromides react with sodium iodide in dry acetone to form alkyl iodides."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{R-Cl + NaI ->[\\text{dry acetone}] R-I + NaCl}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Similarly,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{R-Br + NaI ->[\\text{dry acetone}] R-I + NaBr}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The reaction proceeds because sodium chloride or sodium bromide precipitates in dry acetone, driving the reaction forward."
+        },
+        {
+          "type": "heading",
+          "text": "2. Swarts Reaction"
+        },
+        {
+          "type": "text",
+          "text": "Alkyl chlorides or bromides are converted into alkyl fluorides by heating them with metallic fluorides such as silver fluoride (\\(\\ce{AgF}\\)), mercurous fluoride (\\(\\ce{Hg2F2}\\)) or antimony trifluoride (\\(\\ce{SbF3}\\)).\n\n<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{R-Cl + AgF -> R-F + AgCl}\\]"
+        },
+        {
+          "type": "text",
+          "text": "This reaction is known as the <strong>Swarts reaction</strong> and is used for the preparation of alkyl fluorides."
+        }
+      ]
+    },
+    {
+      "heading": "6.5 Preparation of Haloarenes",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Haloarenes are aromatic compounds in which one or more hydrogen atoms directly attached to an aromatic ring are replaced by halogen atoms.\n\nThey can be prepared mainly by electrophilic substitution of aromatic hydrocarbons and by Sandmeyer’s reaction using aromatic amines."
+        }
+      ]
+    },
+    {
+      "heading": "6.5.1 From Hydrocarbons by Electrophilic Substitution",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Aromatic hydrocarbons such as benzene react with chlorine or bromine in the presence of a Lewis acid catalyst to form haloarenes."
+        },
+        {
+          "type": "heading",
+          "text": "1. Chlorination of Benzene"
+        },
+        {
+          "type": "text",
+          "text": "Benzene reacts with chlorine in the presence of anhydrous ferric chloride (\\(\\ce{FeCl3}\\)) to form chlorobenzene."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C6H6 + Cl2 ->[\\text{anhyd. }\\ce{FeCl3}] C6H5Cl + HCl}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "2. Bromination of Benzene"
+        },
+        {
+          "type": "text",
+          "text": "Benzene reacts with bromine in the presence of iron or ferric bromide to form bromobenzene."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C6H6 + Br2 ->[\\ce{Fe/FeBr3}] C6H5Br + HBr}\\]"
+        },
+        {
+          "type": "text",
+          "text": "These reactions are called electrophilic substitution reactions because a hydrogen atom of the benzene ring is replaced by a halogen atom."
+        }
+      ]
+    },
+    {
+      "heading": "6.5.2 From Amines by Sandmeyer’s Reaction",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Aromatic primary amines, such as aniline, are converted into diazonium salts by treatment with nitrous acid at low temperature. The diazonium group is then replaced by a halogen atom."
+        },
+        {
+          "type": "heading",
+          "text": "1. Formation of Benzene Diazonium Chloride"
+        },
+        {
+          "type": "text",
+          "text": "Aniline reacts with sodium nitrite and hydrochloric acid at \\(273\\text{–}278\\text{ K}\\) to form benzene diazonium chloride."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C6H5NH2 + NaNO2 + 2HCl ->[273-278\\text{ K}] C6H5N2+Cl- + NaCl + 2H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "This process is called <strong>diazotisation</strong>."
+        },
+        {
+          "type": "heading",
+          "text": "2. Preparation of Chlorobenzene"
+        },
+        {
+          "type": "text",
+          "text": "Benzene diazonium chloride reacts with cuprous chloride (\\(\\ce{CuCl}\\)) to form chlorobenzene with the release of nitrogen gas."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C6H5N2+Cl- ->[\\ce{CuCl}] C6H5Cl + N2 ^}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "3. Preparation of Bromobenzene"
+        },
+        {
+          "type": "text",
+          "text": "Benzene diazonium chloride reacts with cuprous bromide (\\(\\ce{CuBr}\\)) in the presence of \\(\\ce{HBr}\\) to form bromobenzene."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C6H5N2+Cl- ->[\\ce{CuBr/HBr}] C6H5Br + N2 ^}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The replacement of the diazonium group by chlorine or bromine using cuprous salts is known as <strong>Sandmeyer’s reaction</strong>. It is an important method for preparing haloarenes from aromatic primary amines."
+        }
+      ]
+    },
+    {
+      "heading": "6.6 Physical Properties",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The physical properties of haloalkanes and haloarenes depend on their molecular mass, molecular structure and the nature of the halogen atom."
+        },
+        {
+          "type": "heading",
+          "text": "1. Physical State and Smell"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Many lower members of haloalkanes are gases, while higher members are liquids or solids.",
+            "Haloarenes are generally colourless liquids or solids.",
+            "Many haloalkanes and haloarenes have a characteristic sweetish smell."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "2. Melting and Boiling Points"
+        },
+        {
+          "type": "text",
+          "text": "Haloalkanes generally have higher boiling points than the corresponding hydrocarbons of comparable molecular mass because haloalkanes have greater molecular mass and stronger intermolecular attractions.\n\nThe boiling points of haloalkanes generally increase with increasing molecular mass.\n\nFor the same alkyl group, the boiling points usually follow the order:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{R-F < R-Cl < R-Br < R-I}\\]"
+        },
+        {
+          "type": "text",
+          "text": "This is mainly due to the increasing size and polarisability of the halogen atom.\n\n<strong>Effect of branching:</strong> Among isomeric haloalkanes, the boiling point generally decreases with increasing branching because branching reduces the effective surface area of the molecule and weakens van der Waals forces.\n\nThe melting points depend on molecular symmetry and crystal packing. Therefore, they do not always follow the same order as boiling points."
+        },
+        {
+          "type": "heading",
+          "text": "3. Density"
+        },
+        {
+          "type": "text",
+          "text": "The density of haloalkanes generally increases with increasing molecular mass of the halogen.\n\nFor the same alkyl group, the density generally increases in the order:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{R-F < R-Cl < R-Br < R-I}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Many bromides and iodides are denser than water, whereas most lower alkyl fluorides and chlorides are less dense than water."
+        },
+        {
+          "type": "heading",
+          "text": "4. Solubility"
+        },
+        {
+          "type": "text",
+          "text": "Haloalkanes and haloarenes are generally insoluble or only slightly soluble in water but dissolve readily in organic solvents such as benzene, ether and chloroform.\n\nAlthough the carbon–halogen bond is polar, these compounds do not form sufficiently strong hydrogen bonds with water to compensate for the energy required to separate water molecules."
+        },
+        {
+          "type": "heading",
+          "text": "5. Dipole Moment"
+        },
+        {
+          "type": "text",
+          "text": "Haloalkanes possess a polar carbon–halogen bond due to the difference in electronegativity between carbon and halogen.\n\nThe dipole moment depends on both the polarity of individual bonds and the overall molecular geometry. Therefore, the dipole moment of a molecule cannot always be predicted from bond polarity alone.\n\nFor example, chloromethane has a non-zero dipole moment because its bond dipoles do not cancel."
+        }
+      ]
+    },
+    {
+      "heading": "6.7 Chemical Reactions",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Haloalkanes and haloarenes undergo different chemical reactions due to the presence of the carbon–halogen (\\(\\ce{C-X}\\)) bond. The major reactions include nucleophilic substitution, elimination, electrophilic substitution and reactions with metals."
+        }
+      ]
+    },
+    {
+      "heading": "6.7.1 Reactions of Haloalkanes",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Nucleophilic Substitution Reactions"
+        },
+        {
+          "type": "text",
+          "text": "In these reactions, a nucleophile replaces the halogen atom in a haloalkane.\n\nA <strong>nucleophile</strong> is an electron-rich species that donates an electron pair to form a covalent bond.\n\n<strong>General reaction:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{R-X + Nu- -> R-Nu + X-}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Here, \\(\\ce{R-X}\\) is the haloalkane, \\(\\ce{Nu-}\\) is the nucleophile and \\(\\ce{X-}\\) is the halide ion.\n\n<strong>Examples</strong>\n\n<strong>(a) Hydrolysis:</strong> Haloalkanes react with aqueous potassium hydroxide to form alcohols."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C2H5Br + KOH(aq) -> C2H5OH + KBr}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>(b) Formation of nitriles:</strong> Haloalkanes react with alcoholic potassium cyanide to form alkyl cyanides or nitriles."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C2H5Br + KCN ->[\\text{alcohol}] C2H5CN + KBr}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The carbon atom of the cyanide group becomes part of the carbon chain.\n\n<strong>(c) Formation of isocyanides:</strong> Haloalkanes react with silver cyanide to form isocyanides."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C2H5Br + AgCN -> C2H5NC + AgBr}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>(d) Formation of nitroalkanes:</strong> Haloalkanes react with silver nitrite to form nitroalkanes."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C2H5Br + AgNO2 -> C2H5NO2 + AgBr}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>(e) Formation of alkyl nitrites:</strong> Haloalkanes react with potassium nitrite to form alkyl nitrites."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C2H5Br + KNO2 -> C2H5ONO + KBr}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>(f) Formation of ethers:</strong> Haloalkanes react with sodium alkoxides to form ethers. This reaction is known as <strong>Williamson ether synthesis</strong>."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C2H5Br + NaOC2H5 -> C2H5OC2H5 + NaBr}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "2. Mechanism of Nucleophilic Substitution"
+        },
+        {
+          "type": "text",
+          "text": "Nucleophilic substitution reactions generally occur by two mechanisms: \\(\\text{S}_{\\text{N}}1\\) and \\(\\text{S}_{\\text{N}}2\\).\n\n<strong>(a) \\(\\text{S}_{\\text{N}}1\\) mechanism</strong>\nThe \\(\\text{S}_{\\text{N}}1\\) mechanism is a two-step process in which the leaving group departs first, forming a carbocation. The nucleophile then attacks the carbocation.\n\n<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{(CH3)3CBr -> (CH3)3C+ + Br-}\\]"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{(CH3)3C+ + OH- -> (CH3)3COH}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The rate depends only on the concentration of the haloalkane."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Rate} = k[\\ce{R-X}]\\]"
+        },
+        {
+          "type": "text",
+          "text": "This mechanism is favoured by tertiary haloalkanes because they form relatively stable carbocations.\n\n<strong>(b) \\(\\text{S}_{\\text{N}}2\\) mechanism</strong>\nThe \\(\\text{S}_{\\text{N}}2\\) mechanism occurs in a single step. The nucleophile attacks the carbon atom from the side opposite to the leaving group while the carbon–halogen bond breaks simultaneously."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{OH- + CH3Br -> CH3OH + Br-}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The rate depends on the concentrations of both the haloalkane and the nucleophile."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Rate} = k[\\ce{R-X}][\\ce{Nu-}]\\]"
+        },
+        {
+          "type": "text",
+          "text": "This mechanism is favoured by primary haloalkanes because the carbon atom is less sterically hindered."
+        },
+        {
+          "type": "heading",
+          "text": "3. Stereochemical Aspects of Nucleophilic Substitution"
+        },
+        {
+          "type": "text",
+          "text": "Stereochemistry describes the spatial arrangement of atoms in a molecule.\n\n<strong>(a) Inversion of configuration:</strong> In an \\(\\text{S}_{\\text{N}}2\\) reaction, the nucleophile attacks from the opposite side of the leaving group, causing inversion of configuration at a chiral carbon. This is known as <strong>Walden inversion</strong>.\n\n<strong>(b) Racemisation:</strong> In an \\(\\text{S}_{\\text{N}}1\\) reaction, a planar carbocation is formed. The nucleophile can attack from either side, often producing a mixture of stereoisomers. When the products are equal amounts of two enantiomers, the mixture is called a <strong>racemic mixture</strong>."
+        },
+        {
+          "type": "heading",
+          "text": "4. Elimination Reactions"
+        },
+        {
+          "type": "text",
+          "text": "When haloalkanes are heated with alcoholic potassium hydroxide, a hydrogen atom and a halogen atom are removed from adjacent carbon atoms, forming an alkene. This reaction is called <strong>dehydrohalogenation</strong>.\n\n<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3CH2Br + KOH ->[\\text{alcohol, heat}] CH2=CH2 + KBr + H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The major product generally follows <strong>Saytzeff's rule</strong>: the more substituted alkene is formed preferentially when more than one alkene is possible."
+        },
+        {
+          "type": "heading",
+          "text": "5. Reaction with Metals"
+        },
+        {
+          "type": "text",
+          "text": "<strong>(a) Wurtz reaction:</strong> Haloalkanes react with sodium metal in dry ether to form higher alkanes."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2CH3Br + 2Na ->[\\text{dry ether}] C2H6 + 2NaBr}\\]"
+        },
+        {
+          "type": "text",
+          "text": "This reaction is mainly useful for preparing symmetrical alkanes.\n\n<strong>(b) Formation of Grignard reagents:</strong> Haloalkanes react with magnesium in dry ether to form Grignard reagents."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{R-X + Mg ->[\\text{dry ether}] R-MgX}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Grignard reagents are important in organic synthesis because they react with many compounds to form new carbon–carbon bonds."
+        }
+      ]
+    },
+    {
+      "heading": "6.7.2 Reactions of Haloarenes",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Nucleophilic Substitution Reactions"
+        },
+        {
+          "type": "text",
+          "text": "Haloarenes are generally less reactive towards nucleophilic substitution than haloalkanes because of resonance between the halogen and the aromatic ring. This gives the carbon–halogen bond partial double-bond character, making it shorter and stronger.\n\n<strong>Example: Formation of phenol</strong>\nChlorobenzene reacts with aqueous sodium hydroxide at high temperature and pressure to form sodium phenoxide, which gives phenol on acidification."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C6H5Cl + NaOH ->[623\\text{ K}][\\text{high pressure}] C6H5ONa + NaCl}\\]"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C6H5ONa + HCl -> C6H5OH + NaCl}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The presence of electron-withdrawing groups such as \\(\\ce{-NO2}\\) at the ortho or para position increases the reactivity of haloarenes towards nucleophilic substitution."
+        },
+        {
+          "type": "heading",
+          "text": "2. Electrophilic Substitution Reactions"
+        },
+        {
+          "type": "text",
+          "text": "The halogen atom in haloarenes is deactivating but ortho- and para-directing. It decreases the overall reactivity of the benzene ring towards electrophilic substitution, while directing the incoming substituent mainly to the ortho and para positions.\n\n<strong>(a) Nitration</strong>\nChlorobenzene reacts with concentrated nitric acid in the presence of concentrated sulphuric acid to form a mixture of ortho- and para-nitrochlorobenzene."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C6H5Cl + HNO3 ->[\\text{conc. }\\ce{H2SO4}] \\textit{o}-ClC6H4NO2 + \\textit{p}-ClC6H4NO2 + H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>(b) Halogenation</strong>\nChlorobenzene reacts with chlorine in the presence of ferric chloride to form ortho- and para-dichlorobenzene."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C6H5Cl + Cl2 ->[\\ce{FeCl3}] \\textit{o}-C6H4Cl2 + \\textit{p}-C6H4Cl2 + HCl}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>(c) Sulphonation</strong>\nChlorobenzene reacts with fuming sulphuric acid to form ortho- and para-chlorobenzenesulphonic acid."
+        },
+        {
+          "type": "heading",
+          "text": "3. Reaction with Metals"
+        },
+        {
+          "type": "text",
+          "text": "<strong>(a) Fittig reaction:</strong> Aryl halides react with sodium metal in dry ether to form biaryl compounds."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2C6H5Cl + 2Na ->[\\text{dry ether}] C6H5-C6H5 + 2NaCl}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The product is biphenyl.\n\n<strong>(b) Wurtz–Fittig reaction:</strong> An aryl halide and an alkyl halide react with sodium in dry ether to form an alkyl-substituted aromatic compound."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C6H5Cl + CH3Cl + 2Na ->[\\text{dry ether}] C6H5CH3 + 2NaCl}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The product is toluene."
+        }
+      ]
+    },
+    {
+      "heading": "6.8 Polyhalogen Compounds",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Polyhalogen compounds</strong> are organic compounds containing two or more halogen atoms in their molecules. Many of these compounds have important industrial applications, but some are harmful to human health and the environment."
+        }
+      ]
+    },
+    {
+      "heading": "6.8.1 Dichloromethane (Methylene Chloride)",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Dichloromethane has the molecular formula \\(\\ce{CH2Cl2}\\).\n\n<strong>Properties and uses:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "It is a colourless, volatile liquid with a sweetish smell.",
+            "It is used as a solvent in paint removers, pharmaceutical manufacturing and metal cleaning.",
+            "It is used in the extraction of oils, fats and other substances.",
+            "Exposure to its vapours can affect the central nervous system, and prolonged exposure may be harmful."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "6.8.2 Trichloromethane (Chloroform)",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Chloroform has the molecular formula \\(\\ce{CHCl3}\\).\n\n<strong>Properties and uses:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "It is a colourless, volatile liquid with a characteristic sweet smell.",
+            "It was formerly used as a general anaesthetic, but its use for this purpose was discontinued because of its toxic effects.",
+            "It is used as a solvent for fats, oils, alkaloids and other organic compounds.",
+            "It is stored in dark-coloured, tightly closed bottles because exposure to air and light can lead to the formation of poisonous phosgene (\\(\\ce{COCl2}\\))."
+          ]
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2CHCl3 + O2 ->[\\text{light}] 2COCl2 + 2HCl}\\]"
+        }
+      ]
+    },
+    {
+      "heading": "6.8.3 Tetrachloromethane (Carbon Tetrachloride)",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Tetrachloromethane has the molecular formula \\(\\ce{CCl4}\\).\n\n<strong>Properties and uses:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "It is a colourless, volatile liquid.",
+            "It was formerly used in fire extinguishers, dry cleaning and as a solvent for oils and fats.",
+            "Its use has been greatly restricted because of its toxicity and harmful environmental effects.",
+            "It can damage the liver and other organs, and its vapours are harmful when inhaled."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "6.8.4 Iodoform",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Iodoform has the molecular formula \\(\\ce{CHI3}\\).\n\n<strong>Properties and uses:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "It is a yellow crystalline solid with a characteristic unpleasant smell.",
+            "It was formerly used as an antiseptic for dressing wounds.",
+            "Its antiseptic action is mainly associated with the slow release of iodine-containing species.",
+            "Its use has declined because more effective and less irritating antiseptics are available."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "6.8.5 Freons",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Freons</strong> are chlorofluorocarbon (CFC) compounds containing carbon, chlorine and fluorine. An example is Freon-12, with the molecular formula \\(\\ce{CCl2F2}\\).\n\n<strong>Properties and uses:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Many Freons are chemically stable, non-flammable and relatively unreactive under ordinary conditions.",
+            "They were widely used as refrigerants in refrigerators and air conditioners.",
+            "They were also used as aerosol propellants and in foam manufacturing.",
+            "In the stratosphere, ultraviolet radiation breaks down CFCs and releases chlorine radicals, which catalytically destroy ozone."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ozone depletion reduces the protection provided by the ozone layer against harmful ultraviolet radiation. Therefore, the use of many ozone-depleting CFCs has been phased out under international agreements."
+        }
+      ]
+    },
+    {
+      "heading": "6.8.6 p,p′-Dichlorodiphenyltrichloroethane (DDT)",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "DDT has the molecular formula \\(\\ce{C14H9Cl5}\\).\n\n<strong>Properties and uses:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "It is a synthetic insecticide that was widely used to control mosquitoes and agricultural pests.",
+            "It is chemically stable and does not readily decompose in the environment.",
+            "It accumulates in the fatty tissues of organisms and can undergo biomagnification through food chains.",
+            "It is harmful to wildlife, particularly birds, and can cause eggshell thinning in certain bird species.",
+            "Due to its persistence and environmental risks, its use has been heavily restricted in many countries. Under the Stockholm Convention, its use is generally restricted, with limited exemptions for disease-vector control under specified conditions."
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": "Chapter 6 covers the classification, nomenclature, C–X bond nature, preparation, physical properties, and chemical reactions of haloalkanes and haloarenes. It explains classification based on the number of halogen atoms (mono-, di-, tri-, and polyhalo compounds) and hybridization of the carbon atom (sp³ alkyl, allylic, and benzylic halides versus sp² vinylic and aryl halides), along with IUPAC naming rules. It details preparation from alcohols (using HX, phosphorus halides, and thionyl chloride), hydrocarbons (free-radical halogenation, Markovnikov and anti-Markovnikov addition), halogen exchange (Finkelstein and Swarts reactions), electrophilic substitution of arenes, and Sandmeyer's reaction. It examines SN1 and SN2 nucleophilic substitution mechanisms and their stereochemistry (Walden inversion and racemisation), Saytzeff elimination, reactions with metals (Wurtz, Grignard, Fittig, and Wurtz–Fittig reactions), reactions of haloarenes, and the uses and environmental impacts of polyhalogen compounds (dichloromethane, chloroform, carbon tetrachloride, iodoform, Freons, and DDT).",
+  "qa": [
+    {
+      "q": "Differentiate between geminal and vicinal dihalides with an example of each.",
+      "a": "In geminal dihalides, both halogen atoms are attached to the same carbon atom, such as 1,1-dichloroethane (\\(\\ce{CH3CHCl2}\\)). In vicinal dihalides, the two halogen atoms are attached to adjacent carbon atoms, such as 1,2-dichloroethane (\\(\\ce{CH2ClCH2Cl}\\)).",
+      "section": "6.1.1 On the Basis of Number of Halogen Atoms"
+    },
+    {
+      "q": "What is the difference between allylic and vinylic halides?",
+      "a": "In allylic halides, the halogen atom is bonded to an \\(sp^3\\)-hybridised carbon atom adjacent to a carbon–carbon double bond (e.g., \\(\\ce{CH2=CH-CH2Cl}\\)), whereas in vinylic halides, the halogen atom is bonded directly to an \\(sp^2\\)-hybridised carbon atom of a carbon–carbon double bond (e.g., \\(\\ce{CH2=CHCl}\\)).",
+      "section": "6.1.3 Compounds Containing sp² C—X Bond"
+    },
+    {
+      "q": "Why does the reactivity of haloalkanes follow the order R–I > R–Br > R–Cl > R–F?",
+      "a": "As halogen atomic size increases from F to I, the \\(\\ce{C-X}\\) bond length increases and bond dissociation enthalpy (bond strength) decreases. Since the \\(\\ce{C-I}\\) bond is the weakest, it cleaves most readily during nucleophilic substitution.",
+      "section": "6.3 Nature of C—X Bond"
+    },
+    {
+      "q": "Why is thionyl chloride (SOCl₂) preferred for preparing alkyl chlorides from alcohols?",
+      "a": "When an alcohol reacts with \\(\\ce{SOCl2}\\), the by-products formed are \\(\\ce{SO2}\\) and \\(\\ce{HCl}\\), both of which are escapable gases, leaving behind the pure alkyl chloride.",
+      "section": "6.4.1 From Alcohols"
+    },
+    {
+      "q": "Distinguish between the Finkelstein reaction and the Swarts reaction.",
+      "a": "The Finkelstein reaction prepares alkyl iodides by reacting alkyl chlorides or bromides with \\(\\ce{NaI}\\) in dry acetone (\\(\\ce{R-X + NaI -> R-I + NaX}\\)). The Swarts reaction prepares alkyl fluorides by heating alkyl chlorides or bromides with metallic fluorides such as \\(\\ce{AgF}\\), \\(\\ce{Hg2F2}\\), or \\(\\ce{SbF3}\\).",
+      "section": "6.4.3 Halogen Exchange"
+    },
+    {
+      "q": "Why do haloalkanes react with KCN to give alkyl cyanides (nitriles) as the main product, while AgCN gives isocyanides?",
+      "a": "\\(\\ce{KCN}\\) is predominantly ionic and provides cyanide ions in solution where attack occurs mainly through the carbon atom to form stable C–C bonds (nitriles). \\(\\ce{AgCN}\\) is mainly covalent, so nitrogen donates its lone pair to form isocyanides (\\(\\ce{R-NC}\\)).",
+      "section": "6.7.1 Reactions of Haloalkanes"
+    },
+    {
+      "q": "Compare the SN1 and SN2 mechanisms of nucleophilic substitution.",
+      "a": "\\(\\text{S}_{\\text{N}}1\\) is a two-step unimolecular process (\\(\\text{Rate} = k[\\ce{R-X}]\\)) proceeding via a planar carbocation intermediate, favoured by tertiary halides and accompanied by racemisation. \\(\\text{S}_{\\text{N}}2\\) is a single-step bimolecular process (\\(\\text{Rate} = k[\\ce{R-X}][\\ce{Nu-}]\\)) with backside attack, favoured by primary halides and causing Walden inversion of configuration.",
+      "section": "6.7.1 Reactions of Haloalkanes"
+    },
+    {
+      "q": "Why are haloarenes less reactive towards nucleophilic substitution than haloalkanes?",
+      "a": "In haloarenes, resonance between the lone pair on the halogen and the benzene ring gives the \\(\\ce{C-X}\\) bond partial double-bond character, making it shorter and stronger than the single \\(\\ce{C-X}\\) bond in haloalkanes.",
+      "section": "6.7.2 Reactions of Haloarenes"
+    },
+    {
+      "q": "Distinguish between Wurtz, Fittig, and Wurtz–Fittig reactions.",
+      "a": "All three react halides with sodium metal in dry ether: the Wurtz reaction couples two alkyl halides to form a higher alkane (\\(\\ce{2R-X + 2Na -> R-R + 2NaX}\\)); the Fittig reaction couples two aryl halides to form a biaryl such as biphenyl; and the Wurtz–Fittig reaction couples an aryl halide and an alkyl halide to form an alkylarene such as toluene.",
+      "section": "6.7.2 Reactions of Haloarenes"
+    },
+    {
+      "q": "Why is chloroform stored in dark-coloured, tightly closed bottles?",
+      "a": "In the presence of air and light, chloroform (\\(\\ce{CHCl3}\\)) is slowly oxidised to form phosgene (\\(\\ce{COCl2}\\)), which is an extremely poisonous gas: \\(\\ce{2CHCl3 + O2 ->[\\text{light}] 2COCl2 + 2HCl}\\).",
+      "section": "6.8.2 Trichloromethane (Chloroform)"
+    }
+  ]
+}
