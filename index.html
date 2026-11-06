@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#f8fafc" />
+  <meta name="theme-color" content="#ffe600" />
   <meta name="description" content="Browse NCERT chapter notes, summaries and question answers by class, subject and textbook." />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="NCERT Study Archive" />
@@ -14,9 +14,10 @@
   <link rel="icon" href="icon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Space+Grotesk:wght@500;700&amp;family=Bangers&amp;display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="comic-theme.css" />
 </head>
 <body>
   <div class="grain" aria-hidden="true"></div>
@@ -29,6 +30,7 @@
           <span class="brand-title">NCERT</span>
           <span class="brand-subtitle">notes, summaries, question answers</span>
           <span class="brand-subtitle"> <strong>More Chapters On The Way! </strong> Stay tuned for updates</span>
+        </span>
       </button>
 
       <div class="global-search" id="globalSearchWrap">
@@ -47,6 +49,10 @@
     </div>
   </header>
 
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track"><span>Vol. 2026 · Issue #01 — Approved by top scholars</span><span class="ticker-pop">KAPOW!</span><span>More chapters on the way! Stay tuned for updates</span><span class="ticker-pop cyan">REVISION BLAST!</span><span>Notes · Chapter summaries · Q&amp;A solutions — ready to crush exams</span><span>Vol. 2026 · Issue #01 — Approved by top scholars</span><span class="ticker-pop">KAPOW!</span><span>More chapters on the way! Stay tuned for updates</span><span class="ticker-pop cyan">REVISION BLAST!</span><span>Notes · Chapter summaries · Q&amp;A solutions — ready to crush exams</span></div>
+  </div>
+
   <nav class="breadcrumb-wrap" id="breadcrumbWrap" aria-label="Breadcrumb" hidden>
     <ol class="breadcrumb" id="breadcrumb"></ol>
   </nav>
@@ -54,10 +60,11 @@
   <main id="mainContent">
     <section class="welcome-section" id="welcomeSection" aria-labelledby="welcomeTitle">
       <div class="welcome-copy">
-        <span class="section-kicker">Your learning starts here</span>
+        <span class="section-kicker">⚡ Your learning starts here!</span>
         <h1 id="welcomeTitle">NCERT <span>One Stop</span></h1>
         <p class="welcome-description">A simple place for NCERT notes, chapter summaries, and question answers—made to make studying easier.</p>
         <a class="welcome-action" href="#classSelectSection">Explore classes <span aria-hidden="true">↓</span></a>
+        <ul class="welcome-badges"><li>Free forever</li><li>Direct to point</li><li>Exemplar-style Q&amp;A</li></ul>
       </div>
       <div class="welcome-art" aria-hidden="true">
         <div class="welcome-orbit welcome-orbit-outer"></div>
@@ -72,8 +79,8 @@
     </section>
 
     <section class="class-select-section" id="classSelectSection" aria-labelledby="classSelectTitle">
-      <span class="section-kicker">Step 1</span>
-      <h1 id="classSelectTitle">Select Class</h1>
+      <span class="section-kicker">Mission phase 01</span>
+      <h1 id="classSelectTitle">Step 1: Select Class!</h1>
       <p>Choose a class to view related NCERT notes, summaries and question answers.</p>
       <div class="class-grid" id="classGrid"></div>
     </section>
