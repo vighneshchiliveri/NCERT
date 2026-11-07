@@ -1,13 +1,15 @@
 'use strict';
 
-const CACHE_NAME = 'ncert-study-archive-v13';
+const CACHE_NAME = 'ncert-study-archive-v14';
 const APP_SHELL = [
   './',
   './index.html',
   './style.css',
   './comic-theme.css',
+  './presentation.css',
   './script.js',
   './comic-fx.js',
+  './presentation.js',
   './manifest.webmanifest',
   './icon.svg',
   './media/library.json'

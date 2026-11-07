@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="comic-theme.css" />
+  <link rel="stylesheet" href="presentation.css" />
 </head>
 <body>
   <div class="grain" aria-hidden="true"></div>
@@ -168,6 +169,7 @@
             <button id="readerThemeBtn" type="button" aria-label="Change reader theme">Theme</button>
           </div>
           <div class="reader-actions">
+            <button id="presentBtn" type="button" hidden>▶ Present</button>
             <button id="bookmarkBtn" type="button" aria-pressed="false">☆ Bookmark</button>
             <button id="completeBtn" type="button" aria-pressed="false">✓ Complete</button>
             <button id="readerPdf" type="button">Open PDF</button>
@@ -212,7 +214,7 @@
 
   <footer class="site-footer">
     <p><strong>NCERT One Stop</strong> — an independent study resource, not an official NCERT website.</p>
-    <p>Created by <strong>Chiliveri Vighnesh </strong> · <strong>chiliverivignesh@gmail.com</strong>  · <button class="footer-link-button" id="reportIssueBtn" type="button">Report an issue</button></p>
+    <p>Created by <strong>Chiliveri Vighnesh </strong> · <button class="footer-link-button" id="reportIssueBtn" type="button">Report an issue</button></p>
   </footer>
 
   <dialog class="issue-dialog" id="issueDialog" aria-labelledby="issueDialogTitle">
@@ -246,6 +248,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" defer></script>
   <script src="script.js" defer></script>
   <script src="comic-fx.js" defer></script>
+  <script src="presentation.js" defer></script>
   <!-- Vercel Web Analytics Tracking Script -->
   <script defer src="/_vercel/insights/script.js"></script>
 </body>
