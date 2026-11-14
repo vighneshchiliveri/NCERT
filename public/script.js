@@ -740,7 +740,7 @@ function renderClassSelection() {
     classGrid.innerHTML = `
       <div class="empty-library">
         <h2>No chapters added yet</h2>
-        <p>Add chapter cards in <code>media/library.json</code> and chapter content files inside <code>content/</code>.</p>
+        <p>Add chapter cards in <code>public/media/library.json</code> and chapter content files inside <code>public/content/</code>.</p>
       </div>
     `;
     return;
@@ -787,7 +787,7 @@ function getSubjectsForSelectedClass() {
 function renderSubjectSelection() {
   const subjects = getSubjectsForSelectedClass();
   if (!subjects.length) {
-    subjectGrid.innerHTML = '<div class="empty-library"><h2>No subjects found</h2><p>Add chapters for this class in <code>media/library.json</code>.</p></div>';
+    subjectGrid.innerHTML = '<div class="empty-library"><h2>No subjects found</h2><p>Add chapters for this class in <code>public/media/library.json</code>.</p></div>';
     return;
   }
 
@@ -830,7 +830,7 @@ function getBooksForSelectedSubject() {
 function renderTextbookSelection() {
   const books = getBooksForSelectedSubject();
   if (!books.length) {
-    textbookGrid.innerHTML = '<div class="empty-library"><h2>No textbooks found</h2><p>Add a book name to each chapter in <code>media/library.json</code>.</p></div>';
+    textbookGrid.innerHTML = '<div class="empty-library"><h2>No textbooks found</h2><p>Add a book name to each chapter in <code>public/media/library.json</code>.</p></div>';
     return;
   }
 

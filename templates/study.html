@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#ffe600" />
+  <meta name="description" content="Browse NCERT chapter notes, summaries and question answers by class, subject and textbook." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="NCERT Study Archive" />
+  <meta property="og:description" content="NCERT notes, summaries and question answers for quick study and revision." />
+  <title>NCERT One Stop — Notes, Summaries &amp; Q&amp;A</title>
+
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="icon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Space+Grotesk:wght@500;700&amp;family=Bangers&amp;display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="comic-theme.css" />
+  <link rel="stylesheet" href="presentation.css" />
+  
+
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <button class="brand" id="homeBtn" type="button" aria-label="Go to the NCERT Study Archive home page">
+        <span class="brand-mark" aria-hidden="true">N</span>
+        <span class="brand-text">
+          <span class="brand-title">NCERT</span>
+          <span class="brand-subtitle">notes, summaries, question answers</span>
+          <span class="brand-subtitle"> <strong>More Chapters On The Way! </strong> Stay tuned for updates</span>
+        </span>
+      </button>
+
+      <div class="global-search" id="globalSearchWrap">
+        <label class="sr-only" for="globalSearchInput">Search all chapters</label>
+        <input
+          id="globalSearchInput"
+          type="search"
+          placeholder="Search all chapters…"
+          autocomplete="off"
+          aria-controls="globalSearchResults"
+          aria-expanded="false"
+        />
+        <span class="global-search-icon" aria-hidden="true">⌕</span>
+        <div class="global-search-results" id="globalSearchResults" role="listbox" hidden></div>
+      </div>
+      <a class="header-account-link" href="/logout">Sign out</a>
+    </div>
+  </header>
+
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track"><span>Vol. 2026 · Issue #01 — Approved by top scholars</span><span class="ticker-pop">KAPOW!</span><span>More chapters on the way! Stay tuned for updates</span><span class="ticker-pop cyan">REVISION BLAST!</span><span>Notes · Chapter summaries · Q&amp;A solutions — ready to crush exams</span><span>Vol. 2026 · Issue #01 — Approved by top scholars</span><span class="ticker-pop">KAPOW!</span><span>More chapters on the way! Stay tuned for updates</span><span class="ticker-pop cyan">REVISION BLAST!</span><span>Notes · Chapter summaries · Q&amp;A solutions — ready to crush exams</span></div>
+  </div>
+
+  <nav class="breadcrumb-wrap" id="breadcrumbWrap" aria-label="Breadcrumb" hidden>
+    <ol class="breadcrumb" id="breadcrumb"></ol>
+  </nav>
+
+  <main id="mainContent">
+    <section class="welcome-section" id="welcomeSection" aria-labelledby="welcomeTitle">
+      <div class="welcome-copy">
+        <span class="section-kicker">⚡ Your learning starts here!</span>
+        <h1 id="welcomeTitle">NCERT <span>One Stop</span></h1>
+        <p class="welcome-description">A simple place for NCERT notes, chapter summaries, and question answers—made to make studying easier.</p>
+        <a class="welcome-action" href="#classSelectSection">Explore classes <span aria-hidden="true">↓</span></a>
+        <ul class="welcome-badges"><li>Free forever</li><li>Direct to point</li><li>Exemplar-style Q&amp;A</li></ul>
+      </div>
+      <div class="welcome-art" aria-hidden="true">
+        <div class="welcome-orbit welcome-orbit-outer"></div>
+        <div class="welcome-orbit welcome-orbit-inner"></div>
+        <div class="welcome-note welcome-note-main">
+          <span class="welcome-note-icon">✦</span>
+          <strong>Study, made simpler</strong>
+          <span>Notes · Summaries · Q&amp;A</span>
+        </div>
+        <div class="welcome-note welcome-note-small">Your next chapter awaits</div>
+      </div>
+    </section>
+
+    <section class="class-select-section" id="classSelectSection" aria-labelledby="classSelectTitle">
+      <span class="section-kicker">Mission phase 01</span>
+      <h1 id="classSelectTitle">Step 1: Select Class!</h1>
+      <p>Choose a class to view related NCERT notes, summaries and question answers.</p>
+      <div class="class-grid" id="classGrid"></div>
+    </section>
+
+    <section class="study-dashboard" id="studyDashboard" hidden aria-labelledby="continueTitle">
+      <div class="dashboard-heading">
+        <div>
+          <span class="section-kicker">Your Study</span>
+          <h2 id="continueTitle">Continue Learning</h2>
+        </div>
+        <button class="text-button" id="clearProgressBtn" type="button">Clear saved progress</button>
+      </div>
+      <div class="dashboard-grid" id="dashboardGrid"></div>
+    </section>
+
+    <section class="subject-select-section" id="subjectSelectSection" hidden aria-labelledby="subjectSelectTitle">
+      <span class="section-kicker">Step 2</span>
+      <h1 id="subjectSelectTitle">Select Subject</h1>
+      <p>Choose a subject to view available NCERT textbooks.</p>
+      <div class="subject-grid" id="subjectGrid"></div>
+    </section>
+
+    <section class="textbook-select-section" id="textbookSelectSection" hidden aria-labelledby="textbookSelectTitle">
+      <span class="section-kicker">Step 3</span>
+      <h1 id="textbookSelectTitle">Select Textbook</h1>
+      <p>Choose a textbook to view its chapter notes, summaries and question answers.</p>
+      <div class="textbook-grid" id="textbookGrid"></div>
+    </section>
+
+    <section class="catalog-controls" id="catalogControls" hidden aria-label="Chapter catalogue controls">
+      <div class="selected-class-bar">
+        <div>
+          <span class="section-kicker">Class</span>
+          <strong id="selectedClassText">Class</strong>
+        </div>
+        <div>
+          <span class="section-kicker">Subject</span>
+          <strong id="selectedSubjectText">Subject</strong>
+        </div>
+        <div>
+          <span class="section-kicker">Textbook</span>
+          <strong id="selectedBookText">Textbook</strong>
+        </div>
+        <div class="selected-actions">
+          <button id="changeTextbookBtn" type="button">Change Textbook</button>
+          <button id="changeSubjectBtn" type="button">Change Subject</button>
+          <button id="changeClassBtn" type="button">Change Class</button>
+        </div>
+      </div>
+
+      <div class="search-wrap">
+        <label class="sr-only" for="searchInput">Search chapters in the selected textbook</label>
+        <input id="searchInput" type="search" placeholder="Search chapters in this textbook…" autocomplete="off" />
+        <span class="search-count" id="resultCount" aria-live="polite">0 / 0</span>
+      </div>
+    </section>
+
+    <section class="catalog" id="catalog" aria-live="polite" aria-label="Chapter list"></section>
+
+    <section class="content-type-section is-page-screen" id="contentTypeSection" hidden aria-labelledby="contentTypeTitle">
+      <div class="content-type-header">
+        <div>
+          <span class="section-kicker">Chapter Selected</span>
+          <h1 id="contentTypeTitle">Select Content</h1>
+          <p id="selectedChapterText">Choose Notes, Summary, or Q&amp;A.</p>
+        </div>
+        <button id="backToChaptersBtn" type="button">← Back to Chapter List</button>
+      </div>
+      <div class="content-type-grid" id="contentTypeGrid"></div>
+    </section>
+
+    <section class="empty-state" id="emptyState" hidden>No NCERT material matches your search.</section>
+  </main>
+
+  <section class="reader-view" id="readerView" hidden aria-label="Chapter reader">
+    <div class="reader-shell">
+      <div class="reader-toolbar" aria-label="Reader controls">
+        <button id="readerBack" type="button">← Back</button>
+
+        <div class="reader-tools">
+          <div class="reader-pref-group" aria-label="Reading appearance">
+            <button id="decreaseFontBtn" type="button" aria-label="Decrease text size">A−</button>
+            <button id="increaseFontBtn" type="button" aria-label="Increase text size">A+</button>
+            <button id="lineSpacingBtn" type="button" aria-label="Change line spacing">Lines</button>
+            <button id="readerThemeBtn" type="button" aria-label="Change reader theme">Theme</button>
+          </div>
+          <div class="reader-actions">
+            <button id="presentBtn" type="button" hidden>▶ Present</button>
+            <button id="bookmarkBtn" type="button" aria-pressed="false">☆ Bookmark</button>
+            <button id="completeBtn" type="button" aria-pressed="false">✓ Complete</button>
+            <button id="readerPdf" type="button">Open PDF</button>
+            <button id="readerPrint" type="button">Print</button>
+            <button id="shareBtn" type="button">Share</button>
+          </div>
+        </div>
+      </div>
+
+      <article class="reader-paper" id="readerPaper">
+        <p class="reader-kicker" id="readerKicker">#</p>
+        <h1 id="readerTitle"></h1>
+        <div class="reader-meta-row">
+          <span id="readingTime">1 min read</span>
+          <span id="readerStatus" aria-live="polite"></span>
+        </div>
+
+        <div class="reader-type-tabs" id="readerTypeTabs" role="tablist" aria-label="Chapter content types"></div>
+        <div class="reader-content" id="readerContent"></div>
+
+        <div class="reader-nav">
+          <button id="prevChapterBtn" type="button">← Previous Chapter</button>
+          <button id="nextChapterBtn" type="button">Next Chapter →</button>
+        </div>
+      </article>
+
+      <aside class="reader-topics" id="readerTopics" aria-label="Topics in this content" hidden>
+        <details id="readerTopicsDetails" open>
+          <summary>
+            <span>Topics</span>
+            <span class="reader-topics-count" id="readerTopicsCount" aria-label="Topic count"></span>
+          </summary>
+          <nav class="reader-topics-nav" aria-label="Jump to a topic">
+            <ol id="readerTopicsList"></ol>
+          </nav>
+        </details>
+      </aside>
+    </div>
+  </section>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <footer class="site-footer">
+    <p><strong>NCERT One Stop</strong> — an independent study resource, not an official NCERT website.</p>
+    <p>Created by <strong>Chiliveri Vighnesh </strong> · chiliverivignesh@gmail.com · <button class="footer-link-button" id="reportIssueBtn" type="button">Report an issue</button></p>
+  </footer>
+
+  <dialog class="issue-dialog" id="issueDialog" aria-labelledby="issueDialogTitle">
+    <form id="issueForm">
+      <div class="issue-dialog-header">
+        <div>
+          <span class="section-kicker">Help improve the archive</span>
+          <h2 id="issueDialogTitle">Report an issue</h2>
+        </div>
+        <button class="issue-dialog-close" id="closeIssueDialogBtn" type="button" aria-label="Close report issue form">×</button>
+      </div>
+      <label for="issueTitle">Issue title</label>
+      <input id="issueTitle" name="title" type="text" maxlength="120" required />
+      <label for="issueDescription">What went wrong?</label>
+      <textarea id="issueDescription" name="body" rows="6" maxlength="2000" required></textarea>
+      <p class="issue-dialog-note">You’ll review and submit the report on GitHub. Sign in to your GitHub account if prompted.</p>
+      <div class="issue-dialog-actions">
+        <button id="cancelIssueBtn" type="button">Cancel</button>
+        <button class="issue-submit-button" type="submit">Continue to GitHub</button>
+      </div>
+    </form>
+  </dialog>
+
+  <noscript>
+    <p class="noscript-message">JavaScript is required to browse the chapter library.</p>
+  </noscript>
+
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/mhchem.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" defer></script>
+  <script src="script.js" defer></script>
+  <script src="comic-fx.js" defer></script>
+  <script src="presentation.js" defer></script>
+  <!-- Vercel Web Analytics Tracking Script -->
+  <script defer src="/_vercel/insights/script.js"></script>
+</body>
+</html>
