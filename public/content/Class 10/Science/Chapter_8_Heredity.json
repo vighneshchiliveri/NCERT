@@ -1,0 +1,242 @@
+{
+  "title": "Heredity",
+  "class": "10",
+  "subject": "Science",
+  "chapter": "Chapter 8",
+  "book": "NCERT Science",
+  "notes": [
+    {
+      "heading": "8.1 Accumulation of Variation during Reproduction",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Variation</strong> means the differences between individuals of the same species.",
+            "During reproduction, <strong>DNA is copied</strong> and passed from parents to offspring.",
+            "DNA copying is not always completely accurate, so <strong>small changes</strong> can occur.",
+            "These changes produce <strong>variations</strong> in the offspring.",
+            "In <strong>asexual reproduction</strong>, variations are usually small because only one parent is involved.",
+            "In <strong>sexual reproduction</strong>, variations are greater because DNA from two parents is combined.",
+            "Variations are important because they help organisms <strong>survive and adapt</strong> to changes in their environment.",
+            "These variations can <strong>accumulate over many generations</strong>."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong> Children may look different from their parents or from their brothers and sisters because of variations."
+        }
+      ]
+    },
+    {
+      "heading": "8.2 Heredity",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Heredity</strong> is the process by which characteristics or traits are passed from parents to their offspring.",
+            "The traits of an organism are controlled by <strong>genes</strong>.",
+            "Genes are present on <strong>chromosomes</strong>, which are found in the nucleus of cells.",
+            "Because of heredity, children often have characteristics similar to their parents.",
+            "For example, <strong>eye colour, hair type, height and blood group</strong> can be inherited from parents."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "8.2.1 Inherited Traits",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Inherited traits</strong> are characteristics that are passed from parents to their offspring through genes.",
+            "These traits are received from <strong>both the mother and father</strong>.",
+            "Examples of inherited traits are <strong>eye colour, hair colour, skin colour, blood group and height</strong>.",
+            "Inherited traits are different from traits that are <strong>acquired</strong> during a person's lifetime.",
+            "For example, learning to ride a bicycle is an <strong>acquired trait</strong> because it is not passed to children through genes.",
+            "Thus, <strong>genes</strong> are responsible for the inheritance of traits from parents to offspring."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "8.2.2 Rules for the Inheritance of Traits – Mendel’s Contributions",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Gregor Johann Mendel</strong> is known as the <strong>Father of Genetics</strong>.",
+            "He studied the inheritance of traits using <strong>pea plants</strong>.",
+            "He selected pea plants because they had many clear and easily observable traits, such as <strong>tall/short plants</strong> and <strong>round/wrinkled seeds</strong>."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Mendel’s Experiment"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Mendel crossed a <strong>tall pea plant (TT)</strong> with a <strong>short pea plant (tt)</strong>.",
+            "The first generation (<strong>F₁ generation</strong>) produced <strong>only tall plants (Tt)</strong>.",
+            "This showed that the <strong>tall trait was dominant</strong> over the short trait."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Dominant and Recessive Traits"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "A <strong>dominant trait</strong> is expressed even when only one copy of the trait is present.",
+            "A <strong>recessive trait</strong> is expressed only when both copies are recessive."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>T</strong> = Tall (dominant)",
+            "<strong>t</strong> = Short (recessive)",
+            "<strong>TT</strong> = Tall",
+            "<strong>Tt</strong> = Tall",
+            "<strong>tt</strong> = Short"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Mendel’s Main Conclusion"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Traits are controlled by <strong>factors</strong>, which we now call <strong>genes</strong>.",
+            "An offspring receives <strong>one factor from each parent</strong> for a particular trait.",
+            "The factors for different traits can be <strong>inherited independently</strong> of one another."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "8.2.3 How do these Traits get Expressed?",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "The information for a particular trait is present in the form of <strong>genes</strong>.",
+            "Genes are present on <strong>DNA</strong>.",
+            "DNA contains information for making <strong>proteins</strong>.",
+            "These proteins help control the characteristics or traits of an organism."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Example: Height in Plants"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Suppose a gene controls the production of a <strong>plant growth hormone</strong>.",
+            "If the gene produces <strong>enough</strong> of this hormone, the plant will grow <strong>tall</strong>.",
+            "If the gene produces <strong>less</strong> of the hormone, the plant will remain <strong>short</strong>."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "So, the expression of a trait can be understood as:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Gene} \\longrightarrow \\text{Protein} \\longrightarrow \\text{Function} \\longrightarrow \\text{Trait}\\]"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Therefore, genes control traits by controlling the <strong>production of proteins</strong>.",
+            "Sometimes, a trait is also affected by <strong>environmental conditions</strong>. For example, the height of a plant depends on both its genes and the availability of nutrients."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "8.2.4 Sex Determination",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Sex determination</strong> is the process by which the sex of a baby is determined.",
+            "In humans, sex is determined by the <strong>sex chromosomes</strong>.",
+            "<strong>Females</strong> have <strong>XX</strong> sex chromosomes.",
+            "<strong>Males</strong> have <strong>XY</strong> sex chromosomes."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "How is the sex of a child determined?"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "The <strong>mother’s egg</strong> always contains an <strong>X chromosome</strong>.",
+            "The <strong>father</strong> produces two types of sperms: one carrying an <strong>X chromosome</strong> and one carrying a <strong>Y chromosome</strong>.",
+            "If an <strong>X-carrying sperm</strong> fertilises the egg: \\(\\text{X (mother)} + \\text{X (father)} = \\text{XX} \\longrightarrow \\mathbf{Girl}\\).",
+            "If a <strong>Y-carrying sperm</strong> fertilises the egg: \\(\\text{X (mother)} + \\text{Y (father)} = \\text{XY} \\longrightarrow \\mathbf{Boy}\\)."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Therefore, the <strong>father’s sperm determines the sex of the child</strong>, because the mother always contributes an X chromosome."
+        }
+      ]
+    }
+  ],
+  "summary": "Variations arise from inaccuracies during DNA copying in reproduction and are greater in sexual reproduction than in asexual reproduction, enabling species to adapt over generations. Heredity is the transmission of inherited traits from parents to offspring through genes located on chromosomes. Gregor Johann Mendel demonstrated the rules of inheritance using pea plants, showing that traits are controlled by paired factors (genes), one inherited from each parent, where dominant traits (such as tallness, T) mask recessive traits (shortness, t) in the F₁ generation (Tt), and different traits are inherited independently. Genes express traits by coding for specific proteins or enzymes that control biological functions (Gene → Protein → Function → Trait). In humans, sex determination is governed by sex chromosomes (XX in females, XY in males); because the mother always contributes an X chromosome, the father's sperm (carrying either X or Y) determines whether the child is a girl (XX) or a boy (XY).",
+  "qa": [
+    {
+      "q": "Why does sexual reproduction produce greater variation than asexual reproduction?",
+      "a": "In asexual reproduction, only one parent is involved and variations arise only from small inaccuracies in DNA copying. In sexual reproduction, DNA from two different parents is combined, producing much greater variation that accumulates over generations.",
+      "section": "8.1 Accumulation of Variation during Reproduction"
+    },
+    {
+      "q": "What is heredity, and where are the factors controlling heredity located?",
+      "a": "Heredity is the process by which characteristics or traits are passed from parents to their offspring. Traits are controlled by genes located on chromosomes inside the nucleus of cells.",
+      "section": "8.2 Heredity"
+    },
+    {
+      "q": "Differentiate between inherited traits and acquired traits with examples.",
+      "a": "Inherited traits are passed from parents to offspring through genes (e.g., eye colour, hair colour, blood group, height). Acquired traits are developed during an individual's lifetime and are not passed on through genes (e.g., learning to ride a bicycle).",
+      "section": "8.2.1 Inherited Traits"
+    },
+    {
+      "q": "Explain Mendel's cross between tall (TT) and short (tt) pea plants, and distinguish between dominant and recessive traits.",
+      "a": "When Mendel crossed a tall pea plant (TT) with a short pea plant (tt), all F₁ offspring were tall (Tt), proving tallness is dominant. A dominant trait (T) is expressed even when only one copy is present (TT or Tt), whereas a recessive trait (t) is expressed only when both copies are recessive (tt).",
+      "section": "8.2.2 Rules for the Inheritance of Traits – Mendel’s Contributions"
+    },
+    {
+      "q": "How do genes control the expression of traits in an organism?",
+      "a": "Genes are segments of DNA that contain information for making specific proteins. For example, a gene coding for a plant growth hormone produces enough hormone for the plant to grow tall; if less hormone is made, the plant stays short (Gene → Protein → Function → Trait).",
+      "section": "8.2.3 How do these Traits get Expressed?"
+    },
+    {
+      "q": "How is the sex of a child determined in human beings?",
+      "a": "Human females have XX sex chromosomes and produce eggs carrying only an X chromosome. Males have XY sex chromosomes and produce sperms carrying either X or Y. Fertilisation by an X-bearing sperm produces a girl (XX), while fertilisation by a Y-bearing sperm produces a boy (XY).",
+      "section": "8.2.4 Sex Determination"
+    }
+  ]
+}

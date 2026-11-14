@@ -1,0 +1,45 @@
+{
+  "title": "I Cannot Remember My Mother",
+  "class": "9",
+  "subject": "English",
+  "chapter": "Poetry 4",
+  "book": "Kaveri",
+  "notes": [
+    {
+      "heading": "Word Meanings",
+      "points": [
+        "Hover: To remain floating, lingering, or hanging suspended in the air over one place.",
+        "Hum: To make a low, continuous, and vibrating sound with closed lips.",
+        "Shiuli: Small, fragrant orange and white flowers that bloom during early autumn in India.",
+        "Scent: A distinctive, pleasant, and fragrant smell.",
+        "Morning service: The early hours of sacred prayers or religious worship held inside a temple.",
+        "Gaze: A steady, long, and intent look filled with deep affection or thought.",
+        "Distant: Far away in space or time, stretching out to a remote point.",
+        "Stillness: A state of complete quiet, calm, peace, and absence of movement."
+      ]
+    }
+  ],
+  "summary": "I Cannot Remember My Mother by   Rabindranath Tagore   is a deeply emotional, nostalgic poem that beautifully explores the concept of memory, loss, and the eternal, spiritual bond between a child and their deceased mother. The poem is written from the perspective of a child who lost his mother during early childhood, leaving him unable to recall her physical appearance, her face, or her voice in a clear, conventional manner. However, the child insists that his mother is never truly absent, as her lingering presence constantly communicates with his senses through three distinct natural and sensory catalysts. The first memory is triggered during his play hours; when he is in the middle of playing with his toys, a sudden, subtle tune seems to hover over his playthings, reminding him of a comforting   cradle song   his mother used to hum while rocking his cot. The second memory awakens during the autumn season, specifically when the sweet scent of the white   shiuli flowers   drifts through the morning air; this fragrant aroma instantly reminds him of the comforting smell of the morning temple services, where his mother would devoutly carry the fresh blossoms for prayer. The final, most profound connection occurs when the child sits by his bedroom window, looking out into the vast, clear blue sky; he experiences a deep, peaceful sensation that his mother’s loving gaze is looking down at him from the heavens, embracing his entire universe. Through these gentle triggers of sound, scent, and sight, Tagore masterfully demonstrates that a mother's love transcends physical death, proving that she remains an immortal, protective force beautifully woven into the very fabric of her child's everyday world.",
+  "qa": [
+    {
+      "section": "Comprehension Check",
+      "q": "Why does the poet say that he cannot remember his mother?",
+      "a": "The poet cannot clearly remember his mother because she died when he was very young. He has only vague memories of her, but her presence and love remain deeply rooted in his heart."
+    },
+    {
+      "section": "Comprehension Check",
+      "q": "What memories of his mother does the poet have?",
+      "a": "The poet remembers his mother’s gentle presence and the loving way she cared for him. Though the memories are unclear, they remain precious to him and make him feel emotionally connected to her."
+    },
+    {
+      "section": "Comprehension Check",
+      "q": "How does the poet feel about his mother?",
+      "a": "The poet feels deep love and longing for his mother. Although he cannot remember her clearly, he misses her and feels the absence of her love throughout his life."
+    },
+    {
+      "section": "Comprehension Check",
+      "q": "What is the central idea of the poem?",
+      "a": "The poem expresses the deep bond between a child and his mother. It shows that even when memories fade, a mother’s love and presence can remain deeply rooted in a person’s heart."
+    }
+  ]
+}

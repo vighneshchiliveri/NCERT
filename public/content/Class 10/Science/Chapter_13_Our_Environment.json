@@ -1,0 +1,355 @@
+{
+  "title": "Our Environment",
+  "class": "10",
+  "subject": "Science",
+  "chapter": "Chapter 13",
+  "book": "NCERT Science",
+  "notes": [
+    {
+      "heading": "13.1 Ecosystem – What are its Components?",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "An <strong>ecosystem</strong> is a functional unit of nature in which living organisms interact with one another and with the non-living components of their environment."
+        },
+        {
+          "type": "heading",
+          "text": "Components of an Ecosystem"
+        },
+        {
+          "type": "text",
+          "text": "An ecosystem has two main components:"
+        },
+        {
+          "type": "heading",
+          "text": "1. Biotic Components"
+        },
+        {
+          "type": "text",
+          "text": "These are the <strong>living components</strong> of an ecosystem. They include:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Producers:</strong> Green plants that prepare their own food by photosynthesis.",
+            "<strong>Consumers:</strong> Organisms that depend on other organisms for food — <strong>Primary consumers</strong> (herbivores that eat plants), <strong>Secondary consumers</strong> (eat primary consumers), and <strong>Tertiary consumers</strong> (eat secondary consumers).",
+            "<strong>Decomposers:</strong> Organisms such as bacteria and fungi that break down dead plants and animals into simpler substances."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "2. Abiotic Components"
+        },
+        {
+          "type": "text",
+          "text": "These are the <strong>non-living components</strong> of an ecosystem. Examples:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Air",
+            "Water",
+            "Soil",
+            "Sunlight",
+            "Temperature",
+            "Minerals"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Important"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{\\text{Ecosystem} = \\text{Biotic components} + \\text{Abiotic components}}\\]"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{\\text{Producers} \\longrightarrow \\text{Consumers} \\longrightarrow \\text{Decomposers}}\\]"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Producers provide food and energy to consumers.",
+            "Decomposers recycle nutrients back into the environment."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "13.1.1 Food Chains and Webs",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Food Chain"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "A <strong>food chain</strong> is a sequence of organisms in which each organism is eaten by the next organism.",
+            "It shows the transfer of food and energy from one organism to another.",
+            "A food chain generally begins with a <strong>producer</strong>."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Grass} \\longrightarrow \\text{Grasshopper} \\longrightarrow \\text{Frog} \\longrightarrow \\text{Snake} \\longrightarrow \\text{Eagle}\\]"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Grass</strong> → Producer",
+            "<strong>Grasshopper</strong> → Primary consumer",
+            "<strong>Frog</strong> → Secondary consumer",
+            "<strong>Snake</strong> → Tertiary consumer",
+            "<strong>Eagle</strong> → Higher-level consumer"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "10% Law"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Only about <strong>10% of the energy</strong> available at one trophic level is transferred to the next trophic level.",
+            "The remaining energy is mainly used for life processes and lost as heat."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Trophic Levels"
+        },
+        {
+          "type": "text",
+          "text": "The different steps in a food chain are called <strong>trophic levels</strong>:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>First trophic level</strong> → Producers",
+            "<strong>Second trophic level</strong> → Primary consumers",
+            "<strong>Third trophic level</strong> → Secondary consumers",
+            "<strong>Fourth trophic level</strong> → Tertiary consumers"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Food Web"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "A <strong>food web</strong> is a network of interconnected food chains.",
+            "It shows that an organism may have more than one food source and may be eaten by different organisms.",
+            "Food webs provide <strong>greater stability</strong> to an ecosystem than a single food chain."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "13.2 How do our Activities Affect the Environment?",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Human activities can cause harmful changes in the environment. Major causes include:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Deforestation",
+            "Industrialisation",
+            "Burning of fossil fuels",
+            "Pollution",
+            "Excessive use of natural resources",
+            "Improper disposal of waste"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "These activities can lead to:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Air, water and soil pollution",
+            "Global warming",
+            "Climate change",
+            "Loss of biodiversity",
+            "Depletion of the ozone layer",
+            "Accumulation of non-biodegradable waste"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Biodegradable Substances"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Substances that can be broken down naturally by microorganisms are called <strong>biodegradable substances</strong>.",
+            "<strong>Examples:</strong> vegetable peels, paper, leaves and food waste."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Non-biodegradable Substances"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Substances that cannot be easily broken down by natural processes are called <strong>non-biodegradable substances</strong>.",
+            "<strong>Examples:</strong> plastics, glass and many synthetic chemicals.",
+            "They can remain in the environment for a very long time and cause pollution."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "13.2.1 Depletion of Ozone Layer",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Ozone (\\(\\ce{O3}\\))</strong> is a form of oxygen containing three oxygen atoms.",
+            "The <strong>ozone layer</strong> is present in the upper atmosphere and protects living organisms from the harmful <strong>ultraviolet (UV) radiation</strong> of the Sun.",
+            "Excessive exposure to UV radiation can cause <strong>skin cancer, eye damage</strong> and harm to living organisms."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Ozone Depletion"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "The gradual reduction in the amount of ozone in the atmosphere is called <strong>ozone depletion</strong>.",
+            "<strong>Chlorofluorocarbons (CFCs)</strong> are major substances responsible for ozone depletion.",
+            "CFCs were commonly used in <strong>refrigerators, air conditioners and fire extinguishers</strong>.",
+            "CFCs release <strong>chlorine atoms</strong> in the upper atmosphere, which react with ozone and break it down."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Protection of Ozone Layer"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "The use of CFCs and other ozone-depleting substances should be reduced or stopped.",
+            "International efforts such as the <strong>Montreal Protocol</strong> were made to control the production and use of ozone-depleting substances."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Important"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{\\begin{aligned} \\text{Ozone layer} &\\longrightarrow \\text{Protects us from harmful UV radiation} \\\\ \\text{CFCs} &\\longrightarrow \\text{Ozone depletion} \\\\ \\text{Ozone depletion} &\\longrightarrow \\text{Increased UV radiation reaching Earth} \\end{aligned}}\\]"
+        }
+      ]
+    },
+    {
+      "heading": "13.2.2 Managing the Garbage We Produce",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Garbage</strong> is the waste material produced from homes, industries, offices and other activities.",
+            "Improper disposal of garbage causes air, water and soil pollution and can spread diseases."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Types of Garbage"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Biodegradable waste:</strong> Can be broken down naturally by microorganisms. Examples: food waste, vegetable peels, leaves and paper.",
+            "<strong>Non-biodegradable waste:</strong> Cannot be easily broken down naturally. Examples: plastics, glass and metals."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Ways to Manage Garbage"
+        },
+        {
+          "type": "text",
+          "text": "Follow the <strong>3 R's</strong>:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Reduce</strong> – Use fewer resources and avoid unnecessary products.",
+            "<strong>Reuse</strong> – Use items again instead of throwing them away.",
+            "<strong>Recycle</strong> – Convert waste materials into useful products."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Segregate waste</strong> into biodegradable and non-biodegradable waste.",
+            "Biodegradable waste can be converted into <strong>compost</strong>.",
+            "Recyclable materials such as paper, glass, metals and some plastics should be sent for <strong>recycling</strong>.",
+            "Avoid using <strong>single-use plastics</strong> as much as possible.",
+            "Do not throw garbage into water bodies or open spaces.",
+            "Proper waste management helps keep the environment clean and healthy."
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": "An ecosystem consists of interacting biotic components (producers, primary/secondary/tertiary consumers, and decomposers like bacteria and fungi) and abiotic components (air, water, soil, sunlight, temperature, minerals). Food chains transfer food and energy across trophic levels starting from producers, with only about 10% of energy passed to each successive trophic level (10% Law), while interconnected food chains form stable food webs. Human activities generate biodegradable wastes (broken down by microorganisms, e.g., food waste, paper) and non-biodegradable wastes (persistent pollutants like plastics and glass). In the upper atmosphere, the ozone (O₃) layer shields Earth from harmful UV radiation, but chlorofluorocarbons (CFCs) release chlorine atoms that deplete ozone, addressed internationally by the Montreal Protocol. Sustainable waste management relies on the 3 R's (Reduce, Reuse, Recycle), waste segregation, composting and avoiding single-use plastics.",
+  "qa": [
+    {
+      "q": "What are the two main components of an ecosystem, and what role do decomposers play?",
+      "a": "An ecosystem consists of biotic (living: producers, consumers, decomposers) and abiotic (non-living: air, water, soil, sunlight, temperature, minerals) components. Decomposers (bacteria and fungi) break down dead plants and animals into simpler substances and recycle nutrients back into the environment.",
+      "section": "13.1 Ecosystem – What are its Components?"
+    },
+    {
+      "q": "Define trophic levels, state the 10% law of energy transfer in a food chain, and explain why a food web is more stable than a single food chain.",
+      "a": "Each step in a food chain (producers → primary consumers → secondary consumers → tertiary consumers) is a trophic level. According to the 10% law, only about 10% of the energy available at one trophic level is transferred to the next, while the rest is used in life processes or lost as heat. A food web is a network of interconnected food chains, offering alternative food sources and greater stability.",
+      "section": "13.1.1 Food Chains and Webs"
+    },
+    {
+      "q": "Distinguish between biodegradable and non-biodegradable substances with examples.",
+      "a": "Biodegradable substances can be broken down naturally by microorganisms (e.g., vegetable peels, paper, leaves, food waste). Non-biodegradable substances cannot be easily broken down by natural processes and persist in the environment causing pollution (e.g., plastics, glass, synthetic chemicals).",
+      "section": "13.2 How do our Activities Affect the Environment?"
+    },
+    {
+      "q": "How does the ozone layer protect living organisms, what causes its depletion, and what international agreement was made to protect it?",
+      "a": "The ozone (O₃) layer in the upper atmosphere absorbs harmful ultraviolet (UV) radiation from the Sun, preventing skin cancer and eye damage. Chlorofluorocarbons (CFCs) used in refrigerators and air conditioners release chlorine atoms that break down ozone. The Montreal Protocol was adopted internationally to control and phase out ozone-depleting substances.",
+      "section": "13.2.1 Depletion of Ozone Layer"
+    },
+    {
+      "q": "What are the 3 R's of waste management, and how should household garbage be managed effectively?",
+      "a": "The 3 R's are Reduce (use fewer resources), Reuse (use items repeatedly) and Recycle (convert waste into useful products). Effective management also includes segregating biodegradable waste (for composting) from non-biodegradable waste (for recycling) and avoiding single-use plastics.",
+      "section": "13.2.2 Managing the Garbage We Produce"
+    }
+  ]
+}

@@ -1,0 +1,1016 @@
+{
+  "title": "Biomolecules",
+  "class": "12",
+  "subject": "Chemistry",
+  "chapter": "Chapter 10",
+  "book": "NCERT Chemistry",
+  "notes": [
+    {
+      "heading": "10.1 Carbohydrates",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Carbohydrates</strong> are a major class of biomolecules that are essential for living organisms. They are generally polyhydroxy aldehydes or ketones, or substances that produce them on hydrolysis.\n\nThey contain carbon, hydrogen and oxygen, and many have the general formula \\(\\ce{C_x(H2O)_y}\\). However, this formula is not applicable to all carbohydrates.\n\n<strong>Examples:</strong> Glucose, fructose, sucrose, starch and cellulose."
+        }
+      ]
+    },
+    {
+      "heading": "10.1.1 Classification of Carbohydrates",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Carbohydrates are classified into three main groups on the basis of their behaviour towards hydrolysis."
+        },
+        {
+          "type": "heading",
+          "text": "1. Monosaccharides"
+        },
+        {
+          "type": "text",
+          "text": "These are the simplest carbohydrates that cannot be hydrolysed into smaller carbohydrate units.\n\n<strong>Examples:</strong> Glucose and fructose."
+        },
+        {
+          "type": "heading",
+          "text": "2. Oligosaccharides"
+        },
+        {
+          "type": "text",
+          "text": "These carbohydrates produce 2 to 10 monosaccharide units on hydrolysis. Disaccharides are the most common members of this group.\n\n<strong>Examples:</strong> Sucrose, lactose and maltose."
+        },
+        {
+          "type": "heading",
+          "text": "3. Polysaccharides"
+        },
+        {
+          "type": "text",
+          "text": "These are complex carbohydrates that produce a large number of monosaccharide units on hydrolysis.\n\n<strong>Examples:</strong> Starch, cellulose and glycogen.\n\nCarbohydrates can also be classified according to their functional groups:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Aldoses:</strong> Contain an aldehyde group (\\(\\ce{-CHO}\\)). Example: Glucose.",
+            "<strong>Ketoses:</strong> Contain a ketone group (\\(\\ce{>C=O}\\)). Example: Fructose."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "10.1.2 Monosaccharides — Glucose and Fructose",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "A. Glucose"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Glucose</strong> is a monosaccharide with the molecular formula \\(\\ce{C6H12O6}\\). It is commonly known as grape sugar or blood sugar and is an important source of energy in living organisms.\n\n<strong>Preparation of glucose</strong>\n\n<strong>1. From sucrose:</strong> Sucrose undergoes hydrolysis in the presence of dilute mineral acid to produce glucose and fructose."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C12H22O11 + H2O ->[\\ce{H+}] C6H12O6 + C6H12O6}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>2. From starch:</strong> Starch undergoes hydrolysis with dilute sulphuric acid under suitable conditions to produce glucose."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{(C6H10O5)_n + nH2O ->[\\ce{H+}] nC6H12O6}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Structure of glucose</strong>\nGlucose is an <strong>aldohexose</strong> because it contains six carbon atoms and an aldehyde group in its open-chain structure.\n\nIts open-chain structure is represented as:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CHO-(CHOH)4-CH2OH}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Important reactions of glucose:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "With hydroxylamine, glucose forms an oxime, indicating the presence of a carbonyl group.",
+            "With bromine water, glucose is oxidised to gluconic acid, indicating the presence of an aldehyde group.",
+            "With hydrogen cyanide, glucose forms a cyanohydrin, confirming the presence of a carbonyl group.",
+            "With acetic anhydride, glucose forms glucose pentaacetate, indicating the presence of five hydroxyl groups.",
+            "On prolonged heating with \\(\\ce{HI}\\), glucose produces \\(n\\)-hexane, indicating a straight chain of six carbon atoms."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Cyclic structure of glucose</strong>\nGlucose mainly exists in cyclic forms due to the reaction between its aldehyde group and the hydroxyl group at carbon 5. This produces a six-membered ring called a <strong>pyranose ring</strong>.\n\nTwo cyclic forms are possible:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>\\(\\alpha\\)-D-glucose:</strong> The hydroxyl group at carbon 1 is opposite to the \\(\\ce{CH2OH}\\) group in the Haworth representation.",
+            "<strong>\\(\\beta\\)-D-glucose:</strong> The hydroxyl group at carbon 1 is on the same side as the \\(\\ce{CH2OH}\\) group."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "These forms differ only in the configuration at carbon 1, called the <strong>anomeric carbon</strong>. They are known as <strong>anomers</strong>.\n\nThe interconversion of these forms in solution is called <strong>mutarotation</strong>, which causes a change in the observed optical rotation until equilibrium is reached."
+        },
+        {
+          "type": "heading",
+          "text": "B. Fructose"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Fructose</strong> is a monosaccharide with the molecular formula \\(\\ce{C6H12O6}\\). It is commonly found in fruits and honey and is one of the sweetest naturally occurring sugars.\n\nFructose is a <strong>ketohexose</strong> because it contains six carbon atoms and a ketone group.\n\nIts open-chain structure is represented as:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH2OH-CO-(CHOH)3-CH2OH}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Fructose forms cyclic structures through the reaction of its ketone group at carbon 2 with a hydroxyl group within the same molecule. It commonly exists as five-membered <strong>furanose rings</strong>, although six-membered forms are also possible.\n\nGlucose and fructose have the same molecular formula but differ in their functional groups. Therefore, they are <strong>functional isomers</strong>."
+        }
+      ]
+    },
+    {
+      "heading": "10.1.3 Disaccharides — Sucrose, Lactose and Maltose",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Disaccharides</strong> are carbohydrates that yield two monosaccharide units on hydrolysis. The monosaccharide units are joined by a <strong>glycosidic linkage</strong>."
+        },
+        {
+          "type": "heading",
+          "text": "A. Sucrose"
+        },
+        {
+          "type": "text",
+          "text": "Sucrose is commonly known as table sugar and is obtained mainly from sugarcane and sugar beet.\n\nOn hydrolysis, sucrose produces one molecule each of glucose and fructose."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C12H22O11 + H2O ->[\\ce{H+}] \\text{Glucose} + \\text{Fructose}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "In sucrose, the anomeric carbon of glucose is linked to the anomeric carbon of fructose through an \\(\\alpha(1 \\to 2)\\beta\\) glycosidic linkage.\n\nSince both anomeric carbons are involved in the linkage, sucrose is a <strong>non-reducing sugar</strong>. It does not give positive Tollens' or Fehling's tests."
+        },
+        {
+          "type": "heading",
+          "text": "B. Lactose"
+        },
+        {
+          "type": "text",
+          "text": "Lactose is commonly known as milk sugar and is present in the milk of mammals.\n\nOn hydrolysis, lactose produces glucose and galactose."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Lactose} + \\ce{H2O} \\xrightarrow{\\ce{H+}} \\text{Glucose} + \\text{Galactose}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Its monosaccharide units are joined by a \\(\\beta(1 \\to 4)\\) glycosidic linkage.\n\nLactose is a <strong>reducing sugar</strong> because one anomeric carbon remains free."
+        },
+        {
+          "type": "heading",
+          "text": "C. Maltose"
+        },
+        {
+          "type": "text",
+          "text": "Maltose is commonly known as malt sugar and is formed during the partial hydrolysis of starch.\n\nOn hydrolysis, maltose produces two molecules of glucose."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Maltose} + \\ce{H2O} \\xrightarrow{\\ce{H+}} 2\\,\\text{Glucose}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The two glucose units are joined by an \\(\\alpha(1 \\to 4)\\) glycosidic linkage.\n\nMaltose is a <strong>reducing sugar</strong> because one anomeric carbon remains free."
+        }
+      ]
+    },
+    {
+      "heading": "10.1.4 Polysaccharides — Starch, Cellulose and Glycogen",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Polysaccharides</strong> are high-molecular-mass carbohydrates formed by the condensation of many monosaccharide units. They generally serve as storage materials or structural components."
+        },
+        {
+          "type": "heading",
+          "text": "A. Starch"
+        },
+        {
+          "type": "text",
+          "text": "Starch is the main storage carbohydrate in plants. It is found in rice, wheat, potatoes and other plant foods.\n\nIt is a polymer of \\(\\alpha\\)-D-glucose and consists of two components:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Amylose:</strong> A mostly unbranched polymer of glucose units linked by \\(\\alpha(1 \\to 4)\\) glycosidic bonds. It forms a helical structure.",
+            "<strong>Amylopectin:</strong> A branched polymer containing \\(\\alpha(1 \\to 4)\\) linkages in its chains and \\(\\alpha(1 \\to 6)\\) linkages at branch points."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Starch gives a blue colour with iodine solution. It is hydrolysed by suitable enzymes or acids to produce glucose."
+        },
+        {
+          "type": "heading",
+          "text": "B. Cellulose"
+        },
+        {
+          "type": "text",
+          "text": "Cellulose is the main structural component of plant cell walls. It provides strength and rigidity to plants.\n\nIt is a linear polymer of \\(\\beta\\)-D-glucose units joined by \\(\\beta(1 \\to 4)\\) glycosidic linkages.\n\nCellulose chains form strong fibres due to hydrogen bonding between neighbouring chains. Humans cannot digest cellulose because they lack the enzyme cellulase, although it acts as dietary fibre."
+        },
+        {
+          "type": "heading",
+          "text": "C. Glycogen"
+        },
+        {
+          "type": "text",
+          "text": "Glycogen is the principal storage carbohydrate in animals and is found mainly in the liver and skeletal muscles.\n\nIt is a polymer of \\(\\alpha\\)-D-glucose containing \\(\\alpha(1 \\to 4)\\) glycosidic linkages and frequent \\(\\alpha(1 \\to 6)\\) branch points.\n\nGlycogen is more highly branched than amylopectin. Its highly branched structure allows glucose units to be released rapidly when energy is required."
+        }
+      ]
+    },
+    {
+      "heading": "10.1.5 Importance of Carbohydrates",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Source of energy:</strong> Glucose is oxidised during cellular respiration to release energy.",
+            "<strong>Energy storage:</strong> Starch stores energy in plants, while glycogen stores energy in animals.",
+            "<strong>Structural role:</strong> Cellulose forms plant cell walls and provides mechanical strength.",
+            "<strong>Components of nucleic acids:</strong> Ribose is present in RNA, while deoxyribose is present in DNA.",
+            "<strong>Dietary fibre:</strong> Cellulose supports normal bowel function and helps maintain digestive health.",
+            "<strong>Cell recognition:</strong> Carbohydrate groups on cell surfaces participate in cell recognition and communication.",
+            "<strong>Industrial applications:</strong> Carbohydrates are used in food production, fermentation, paper manufacturing and textile industries."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "10.2 Proteins",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Proteins</strong> are essential biomolecules present in all living organisms. They are polymers of \\(\\alpha\\)-amino acids joined together by <strong>peptide bonds</strong>.\n\nThey contain carbon, hydrogen, oxygen and nitrogen. Some proteins also contain sulphur and other elements.\n\n<strong>Examples:</strong> Haemoglobin, insulin, keratin, collagen and enzymes.\n\nProteins perform several important functions, such as building body tissues, transporting substances, regulating biological processes and defending the body against diseases."
+        }
+      ]
+    },
+    {
+      "heading": "10.2.1 Amino Acids",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Amino acids</strong> are organic compounds containing both an amino group (\\(\\ce{-NH2}\\)) and a carboxyl group (\\(\\ce{-COOH}\\)).\n\nThe general structure of an \\(\\alpha\\)-amino acid is:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{H2N-CH(R)-COOH}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Here, \\(R\\) represents a side chain that differs from one amino acid to another.\n\n<strong>Examples:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Glycine:</strong> \\(\\ce{NH2CH2COOH}\\)",
+            "<strong>Alanine:</strong> \\(\\ce{CH3CH(NH2)COOH}\\)"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Zwitterionic form of amino acids"
+        },
+        {
+          "type": "text",
+          "text": "In aqueous solution, amino acids generally exist as <strong>zwitterions</strong> due to the transfer of a proton from the carboxyl group to the amino group."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{^+H3N-CH(R)-COO-}\\]"
+        },
+        {
+          "type": "text",
+          "text": "A zwitterion contains both a positive charge and a negative charge but has an overall electrical charge of zero."
+        },
+        {
+          "type": "heading",
+          "text": "Acidic and basic behaviour"
+        },
+        {
+          "type": "text",
+          "text": "Amino acids are <strong>amphoteric</strong> because they contain both acidic and basic groups."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "In an acidic medium, an amino acid accepts a proton and carries a positive charge.",
+            "In a basic medium, an amino acid loses a proton and carries a negative charge."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "At a particular pH, an amino acid may have zero net charge. This pH is called its <strong>isoelectric point</strong>."
+        },
+        {
+          "type": "heading",
+          "text": "Peptide bond formation"
+        },
+        {
+          "type": "text",
+          "text": "Two amino acids combine through a condensation reaction, eliminating one molecule of water and forming a <strong>peptide bond</strong> (\\(\\ce{-CO-NH-}\\))."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{H2N-CH(R1)-COOH + H2N-CH(R2)-COOH -> H2N-CH(R1)-CO-NH-CH(R2)-COOH + H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The resulting compound is called a <strong>dipeptide</strong>. A large number of amino acids linked by peptide bonds form a <strong>polypeptide chain</strong>."
+        }
+      ]
+    },
+    {
+      "heading": "10.2.2 Classification of Amino Acids",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Amino acids can be classified according to the relative number of amino and carboxyl groups present in their molecules."
+        },
+        {
+          "type": "heading",
+          "text": "1. Neutral amino acids"
+        },
+        {
+          "type": "text",
+          "text": "These contain one amino group and one carboxyl group.\n\n<strong>Examples:</strong> Glycine and alanine."
+        },
+        {
+          "type": "heading",
+          "text": "2. Acidic amino acids"
+        },
+        {
+          "type": "text",
+          "text": "These contain one amino group and two carboxyl groups.\n\n<strong>Examples:</strong> Aspartic acid and glutamic acid."
+        },
+        {
+          "type": "heading",
+          "text": "3. Basic amino acids"
+        },
+        {
+          "type": "text",
+          "text": "These contain two amino groups and one carboxyl group.\n\n<strong>Examples:</strong> Lysine and arginine.\n\nAmino acids are also classified nutritionally according to whether the human body can synthesise them in sufficient quantities."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Essential amino acids:</strong> Cannot be synthesised by the body in sufficient quantities and must be obtained from the diet. Examples include lysine, leucine and valine.",
+            "<strong>Non-essential amino acids:</strong> Can generally be synthesised by the body. Examples include alanine and aspartic acid."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Some amino acids, such as arginine, may be conditionally essential during periods of growth or illness."
+        }
+      ]
+    },
+    {
+      "heading": "10.2.3 Structure of Proteins",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The structure of proteins is described at four levels."
+        },
+        {
+          "type": "heading",
+          "text": "1. Primary structure"
+        },
+        {
+          "type": "text",
+          "text": "The <strong>primary structure</strong> refers to the specific sequence of amino acids in a polypeptide chain. Amino acids are connected by peptide bonds.\n\nThe sequence of amino acids determines how the protein folds and influences its biological function."
+        },
+        {
+          "type": "heading",
+          "text": "2. Secondary structure"
+        },
+        {
+          "type": "text",
+          "text": "The <strong>secondary structure</strong> refers to the local folding of a polypeptide chain, mainly stabilised by hydrogen bonds between peptide groups.\n\nThe two major types are:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>\\(\\alpha\\)-Helix:</strong> The polypeptide chain coils into a spiral structure stabilised by hydrogen bonds.",
+            "<strong>\\(\\beta\\)-Pleated sheet:</strong> Polypeptide chains or segments lie alongside one another in a sheet-like arrangement stabilised by hydrogen bonds."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "3. Tertiary structure"
+        },
+        {
+          "type": "text",
+          "text": "The <strong>tertiary structure</strong> is the overall three-dimensional shape of a single polypeptide chain.\n\nIt is stabilised by several interactions, including:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Hydrogen bonds",
+            "Ionic interactions",
+            "Disulphide bonds",
+            "Hydrophobic interactions and van der Waals forces"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "This structure is important for the biological activity of a protein."
+        },
+        {
+          "type": "heading",
+          "text": "4. Quaternary structure"
+        },
+        {
+          "type": "text",
+          "text": "The <strong>quaternary structure</strong> refers to the arrangement of two or more polypeptide chains, called subunits, into a functional protein.\n\n<strong>Example:</strong> Haemoglobin consists of four polypeptide subunits."
+        },
+        {
+          "type": "heading",
+          "text": "Denaturation of proteins"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Denaturation</strong> is the process in which a protein loses its natural three-dimensional structure and biological activity due to factors such as heat, extreme pH or certain chemicals.\n\nDuring denaturation, the secondary, tertiary and/or quaternary structure is disrupted, while the primary structure generally remains intact because peptide bonds are not normally broken.\n\n<strong>Example:</strong> The denaturation of egg albumin during cooking."
+        }
+      ]
+    },
+    {
+      "heading": "10.3 Enzymes",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Enzymes</strong> are biological catalysts that increase the rate of biochemical reactions in living organisms without being consumed in the reaction.\n\nMost enzymes are globular proteins, although some RNA molecules also possess catalytic activity and are called <strong>ribozymes</strong>.\n\nEnzymes are highly specific in their action. Each enzyme generally catalyses a particular reaction or a group of closely related reactions.\n\n<strong>Examples:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Amylase</strong> helps in the breakdown of starch.",
+            "<strong>Pepsin</strong> helps in the digestion of proteins.",
+            "<strong>Lipase</strong> catalyses the breakdown of fats.",
+            "<strong>Maltase</strong> converts maltose into glucose."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Characteristics of enzymes"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Enzymes increase the rate of reactions by lowering the activation energy.",
+            "They are highly specific towards their substrates.",
+            "They are required in small quantities because they are not consumed during reactions.",
+            "They work most efficiently at an optimum temperature and pH.",
+            "High temperatures or extreme pH may denature enzymes and reduce their activity.",
+            "Many enzymes require non-protein components called <strong>cofactors</strong> for their activity."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "10.3.1 Mechanism of Enzyme Action",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Enzymes act by binding to specific reactant molecules called <strong>substrates</strong> at a particular region known as the <strong>active site</strong>.\n\nThe mechanism of enzyme action can be explained in the following steps:"
+        },
+        {
+          "type": "heading",
+          "text": "1. Formation of the enzyme–substrate complex"
+        },
+        {
+          "type": "text",
+          "text": "The substrate binds to the active site of the enzyme to form an enzyme–substrate complex."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{E} + \\text{S} \\rightleftharpoons \\text{ES}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Here, \\(\\text{E}\\) represents the enzyme, \\(\\text{S}\\) represents the substrate and \\(\\text{ES}\\) represents the enzyme–substrate complex."
+        },
+        {
+          "type": "heading",
+          "text": "2. Conversion of substrate into products"
+        },
+        {
+          "type": "text",
+          "text": "The enzyme lowers the activation energy of the reaction and facilitates the conversion of the substrate into products."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{ES} \\to \\text{E} + \\text{P}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Here, \\(\\text{P}\\) represents the product."
+        },
+        {
+          "type": "heading",
+          "text": "3. Release of products"
+        },
+        {
+          "type": "text",
+          "text": "The products are released from the active site, leaving the enzyme available to catalyse another reaction.\n\nThe overall reaction is:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{E} + \\text{S} \\rightleftharpoons \\text{ES} \\to \\text{E} + \\text{P}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "Models of enzyme action"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Lock-and-key model:</strong> The active site has a specific shape complementary to the substrate, allowing the substrate to fit into it like a key in a lock.",
+            "<strong>Induced-fit model:</strong> The active site changes its shape slightly when the substrate binds, producing a better fit and facilitating the reaction."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Factors affecting enzyme activity"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Temperature:</strong> Enzyme activity generally increases with temperature up to an optimum value. Above this value, denaturation may decrease activity.",
+            "<strong>pH:</strong> Each enzyme has an optimum pH at which it works most efficiently.",
+            "<strong>Substrate concentration:</strong> The reaction rate increases with substrate concentration until the enzyme's active sites become saturated.",
+            "<strong>Enzyme concentration:</strong> When sufficient substrate is available, increasing enzyme concentration generally increases the reaction rate.",
+            "<strong>Inhibitors:</strong> Certain substances decrease enzyme activity by interfering with substrate binding or catalytic action."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "10.4 Vitamins",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Vitamins</strong> are organic compounds required in small quantities for the normal growth, development and proper functioning of the human body. Most vitamins cannot be synthesised by the body in sufficient amounts and must be obtained through the diet.\n\nVitamins do not generally provide energy directly, but they help regulate various metabolic processes and maintain good health.\n\nA deficiency of vitamins can cause specific diseases or disorders.\n\n<strong>Examples:</strong> Vitamin A, vitamin B-complex, vitamin C, vitamin D, vitamin E and vitamin K."
+        }
+      ]
+    },
+    {
+      "heading": "10.4.1 Classification of Vitamins",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Vitamins are classified into two main groups based on their solubility."
+        },
+        {
+          "type": "heading",
+          "text": "1. Fat-soluble vitamins"
+        },
+        {
+          "type": "text",
+          "text": "These vitamins dissolve in fats and oils and can be stored in the liver and fatty tissues of the body.\n\nThe fat-soluble vitamins are A, D, E and K."
+        },
+        {
+          "type": "table",
+          "label": "Fat-soluble vitamins, their functions and deficiency diseases",
+          "headers": [
+            "Vitamin",
+            "Important function",
+            "Deficiency disease or effect"
+          ],
+          "rows": [
+            [
+              "Vitamin A (Retinol)",
+              "Maintains normal vision and healthy skin",
+              "Night blindness"
+            ],
+            [
+              "Vitamin D (Calciferol)",
+              "Helps in calcium absorption and bone formation",
+              "Rickets in children; osteomalacia in adults"
+            ],
+            [
+              "Vitamin E (Tocopherol)",
+              "Acts as an antioxidant and protects cell membranes",
+              "Rare deficiency may cause neurological and muscular problems"
+            ],
+            [
+              "Vitamin K",
+              "Essential for normal blood clotting",
+              "Increased bleeding tendency"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "2. Water-soluble vitamins"
+        },
+        {
+          "type": "text",
+          "text": "These vitamins dissolve in water. Most are not stored in large amounts in the body, so they generally need to be supplied regularly through the diet.\n\nThe water-soluble vitamins include vitamin B-complex and vitamin C."
+        },
+        {
+          "type": "table",
+          "label": "Water-soluble vitamins, their functions and deficiency diseases",
+          "headers": [
+            "Vitamin",
+            "Important function",
+            "Deficiency disease or effect"
+          ],
+          "rows": [
+            [
+              "Vitamin B₁ (Thiamine)",
+              "Helps in carbohydrate metabolism and normal nerve function",
+              "Beriberi"
+            ],
+            [
+              "Vitamin B₂ (Riboflavin)",
+              "Supports energy metabolism",
+              "Cracks at the corners of the mouth and inflammation of the tongue"
+            ],
+            [
+              "Vitamin B₃ (Niacin)",
+              "Helps in energy metabolism",
+              "Pellagra"
+            ],
+            [
+              "Vitamin B₆ (Pyridoxine)",
+              "Important in amino acid metabolism and haemoglobin formation",
+              "Anaemia and neurological problems"
+            ],
+            [
+              "Vitamin B₉ (Folic acid)",
+              "Required for DNA synthesis and red blood cell formation",
+              "Megaloblastic anaemia"
+            ],
+            [
+              "Vitamin B₁₂ (Cobalamin)",
+              "Essential for red blood cell formation and normal nerve function",
+              "Megaloblastic anaemia and neurological disorders"
+            ],
+            [
+              "Vitamin C (Ascorbic acid)",
+              "Required for collagen formation, wound healing and healthy gums",
+              "Scurvy"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Important points"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Fat-soluble vitamins: A, D, E and K.",
+            "Water-soluble vitamins: B-complex and C.",
+            "Vitamin A is important for vision.",
+            "Vitamin D helps maintain healthy bones and teeth.",
+            "Vitamin K is necessary for blood clotting.",
+            "Vitamin C is important for collagen formation and wound healing.",
+            "Vitamin B₁₂ is naturally present mainly in animal-derived foods and certain fortified foods."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "A balanced diet containing fruits, vegetables, cereals, pulses, dairy products and other appropriate food sources helps meet the body's vitamin requirements."
+        }
+      ]
+    },
+    {
+      "heading": "10.5 Nucleic Acids",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Nucleic acids</strong> are essential biomolecules responsible for the storage, transmission and expression of genetic information in living organisms.\n\nThey are polymers of <strong>nucleotides</strong> joined together by <strong>phosphodiester bonds</strong>. Nucleic acids are present in all living cells and play a fundamental role in heredity and protein synthesis.\n\nThere are two major types of nucleic acids:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>DNA (Deoxyribonucleic Acid):</strong> Stores and transmits genetic information.",
+            "<strong>RNA (Ribonucleic Acid):</strong> Participates in the expression of genetic information and protein synthesis."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "10.5.1 Chemical Composition of Nucleic Acids",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Nucleic acids are made up of repeating units called <strong>nucleotides</strong>. Each nucleotide consists of three components:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "A pentose sugar.",
+            "A nitrogenous base.",
+            "A phosphate group."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "1. Pentose sugar"
+        },
+        {
+          "type": "text",
+          "text": "The sugar present in nucleic acids is a five-carbon monosaccharide."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>DNA:</strong> Contains 2-deoxy-D-ribose.",
+            "<strong>RNA:</strong> Contains D-ribose."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The difference is that deoxyribose has a hydrogen atom instead of a hydroxyl group at the \\(2'\\) carbon."
+        },
+        {
+          "type": "heading",
+          "text": "2. Nitrogenous bases"
+        },
+        {
+          "type": "text",
+          "text": "Nitrogenous bases are classified into two groups.\n\n<strong>A. Purines</strong>\nPurines have a double-ring structure."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Adenine (A)",
+            "Guanine (G)"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>B. Pyrimidines</strong>\nPyrimidines have a single-ring structure."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Cytosine (C)",
+            "Thymine (T), found mainly in DNA",
+            "Uracil (U), found mainly in RNA"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "In DNA, the four nitrogenous bases are adenine, guanine, cytosine and thymine. In RNA, uracil replaces thymine."
+        },
+        {
+          "type": "heading",
+          "text": "3. Phosphate group"
+        },
+        {
+          "type": "text",
+          "text": "The phosphate group is derived from phosphoric acid (\\(\\ce{H3PO4}\\)). It connects neighbouring nucleotides through phosphodiester bonds and contributes to the negatively charged sugar-phosphate backbone of nucleic acids."
+        },
+        {
+          "type": "heading",
+          "text": "Nucleoside and nucleotide"
+        },
+        {
+          "type": "text",
+          "text": "A <strong>nucleoside</strong> consists of a nitrogenous base attached to a pentose sugar."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Nucleoside} = \\text{Sugar} + \\text{Nitrogenous base}\\]"
+        },
+        {
+          "type": "text",
+          "text": "A <strong>nucleotide</strong> consists of a nucleoside attached to one or more phosphate groups."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Nucleotide} = \\text{Sugar} + \\text{Nitrogenous base} + \\text{Phosphate}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Nucleotides join together through \\(3'\\text{–}5'\\) phosphodiester linkages to form a polynucleotide chain."
+        }
+      ]
+    },
+    {
+      "heading": "10.5.2 Structure of Nucleic Acids",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Structure of DNA"
+        },
+        {
+          "type": "text",
+          "text": "DNA is generally composed of two polynucleotide chains arranged in a <strong>double helix</strong>.\n\nThe double-helical structure of DNA was proposed by James Watson and Francis Crick in 1953, based on available experimental evidence, including X-ray diffraction studies.\n\n<strong>Important features of DNA:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "DNA consists of two polynucleotide chains coiled around a common axis.",
+            "The two strands run in opposite directions and are therefore <strong>antiparallel</strong>.",
+            "The sugar-phosphate backbones lie on the outside, while the nitrogenous bases face inward.",
+            "Adenine pairs with thymine through two hydrogen bonds.",
+            "Guanine pairs with cytosine through three hydrogen bonds.",
+            "The two strands are complementary because the sequence of one strand determines the sequence of the other."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The complementary base-pairing rules are:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{A = T}\\]"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{G # C}\\]"
+        },
+        {
+          "type": "text",
+          "text": "In double-stranded DNA, the amount of adenine equals thymine, and the amount of guanine equals cytosine.\n\nAccording to the standard B-DNA model, the helix has approximately 10 base pairs per turn, a pitch of \\(3.4\\text{ nm}\\) per turn and a distance of \\(0.34\\text{ nm}\\) between adjacent base pairs.\n\n<strong>Functions of DNA</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Stores hereditary information.",
+            "Transmits genetic information from one generation to the next.",
+            "Directs the synthesis of RNA and, indirectly, proteins.",
+            "Undergoes replication before cell division."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "2. Structure of RNA"
+        },
+        {
+          "type": "text",
+          "text": "RNA is generally a single-stranded polynucleotide consisting of ribose sugar, phosphate groups and the nitrogenous bases adenine, guanine, cytosine and uracil.\n\nAlthough RNA is usually single-stranded, it can fold into complex three-dimensional structures through internal base pairing.\n\n<strong>Types of RNA</strong>\n\n<strong>A. Messenger RNA (mRNA)</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Carries genetic information from DNA to ribosomes.",
+            "Provides the codon sequence used during protein synthesis."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>B. Transfer RNA (tRNA)</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Carries specific amino acids to the ribosome.",
+            "Contains an anticodon that recognises a complementary codon on mRNA."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>C. Ribosomal RNA (rRNA)</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Forms a major structural and functional component of ribosomes.",
+            "Participates in the formation of peptide bonds during protein synthesis."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Differences between DNA and RNA"
+        },
+        {
+          "type": "table",
+          "label": "Differences between DNA and RNA",
+          "headers": [
+            "Feature",
+            "DNA",
+            "RNA"
+          ],
+          "rows": [
+            [
+              "Full form",
+              "Deoxyribonucleic acid",
+              "Ribonucleic acid"
+            ],
+            [
+              "Sugar",
+              "2-Deoxyribose",
+              "Ribose"
+            ],
+            [
+              "Nitrogenous bases",
+              "A, G, C, T",
+              "A, G, C, U"
+            ],
+            [
+              "Structure",
+              "Usually double-stranded",
+              "Usually single-stranded"
+            ],
+            [
+              "Main function",
+              "Storage of genetic information",
+              "Expression of genetic information and protein synthesis"
+            ],
+            [
+              "Stability",
+              "Generally more chemically stable",
+              "Generally less chemically stable"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "DNA and RNA work together to ensure that genetic information is stored, transmitted and used for the synthesis of proteins required for the growth and functioning of living organisms."
+        }
+      ]
+    }
+  ],
+  "summary": "Chapter 10 examines the structure and biological roles of carbohydrates, proteins, enzymes, vitamins, and nucleic acids. It classifies carbohydrates into monosaccharides (glucose and fructose, including open-chain reactions, pyranose/furanose cyclic structures, anomers, and mutarotation), disaccharides (sucrose, lactose, and maltose, distinguishing reducing and non-reducing sugars), and polysaccharides (starch—amylose and amylopectin, cellulose, and glycogen). It explains α-amino acids, zwitterions, isoelectric point, peptide bonds, essential and non-essential amino acids, the four levels of protein structure (primary, secondary α-helix and β-pleated sheet, tertiary, and quaternary), and protein denaturation. The chapter also covers enzyme catalysis (active site, lock-and-key and induced-fit models), fat-soluble (A, D, E, K) and water-soluble (B-complex, C) vitamins with their functions and deficiency diseases, and the chemical composition and structures of DNA and RNA.",
+  "qa": [
+    {
+      "q": "How are carbohydrates classified on the basis of their behaviour towards hydrolysis?",
+      "a": "Carbohydrates are classified into: (1) monosaccharides, which cannot be hydrolysed into simpler carbohydrates (e.g., glucose, fructose); (2) oligosaccharides, which yield 2 to 10 monosaccharide units on hydrolysis (e.g., disaccharides like sucrose, lactose, maltose); and (3) polysaccharides, which yield a large number of monosaccharide units on hydrolysis (e.g., starch, cellulose, glycogen).",
+      "section": "10.1.1 Classification of Carbohydrates"
+    },
+    {
+      "q": "What chemical evidence proves that glucose contains a straight chain of six carbons, a carbonyl group, an aldehyde group, and five hydroxyl groups?",
+      "a": "Prolonged heating with \\(\\ce{HI}\\) gives \\(n\\)-hexane (straight chain of 6 carbons); reaction with hydroxylamine or \\(\\ce{HCN}\\) forms an oxime or cyanohydrin (carbonyl group); oxidation with mild bromine water yields gluconic acid (aldehyde group); and acetylation with acetic anhydride gives glucose pentaacetate (five \\(\\ce{-OH}\\) groups).",
+      "section": "10.1.2 Monosaccharides — Glucose and Fructose"
+    },
+    {
+      "q": "What are anomers and what is mutarotation?",
+      "a": "\\(\\alpha\\)-D-glucose and \\(\\beta\\)-D-glucose are cyclic hemiacetal forms of glucose that differ only in the configuration of the hydroxyl group at carbon 1 (the anomeric carbon) and are called anomers. Mutarotation is the spontaneous interconversion of \\(\\alpha\\) and \\(\\beta\\) anomers in aqueous solution accompanied by a change in optical rotation until equilibrium is reached.",
+      "section": "10.1.2 Monosaccharides — Glucose and Fructose"
+    },
+    {
+      "q": "Why is sucrose a non-reducing sugar whereas lactose and maltose are reducing sugars?",
+      "a": "In sucrose, the anomeric carbon of \\(\\alpha\\)-D-glucose (C1) and the anomeric carbon of \\(\\beta\\)-D-fructose (C2) are both tied up in the \\(\\alpha(1 \\to 2)\\beta\\) glycosidic linkage, leaving no free hemiacetal/hemiketal group. In lactose and maltose, one anomeric carbon remains free, so they act as reducing sugars.",
+      "section": "10.1.3 Disaccharides — Sucrose, Lactose and Maltose"
+    },
+    {
+      "q": "Distinguish between amylose and amylopectin in starch.",
+      "a": "Amylose is a linear, unbranched polymer of \\(\\alpha\\)-D-glucose units joined by \\(\\alpha(1 \\to 4)\\) glycosidic bonds that forms a helical structure. Amylopectin is a branched polymer of \\(\\alpha\\)-D-glucose with \\(\\alpha(1 \\to 4)\\) glycosidic chains and \\(\\alpha(1 \\to 6)\\) glycosidic linkages at branch points.",
+      "section": "10.1.4 Polysaccharides — Starch, Cellulose and Glycogen"
+    },
+    {
+      "q": "What is a zwitterion and what is meant by the isoelectric point of an amino acid?",
+      "a": "In aqueous solution, the carboxyl group of an amino acid transfers a proton to the amino group to form a dipolar ion called a zwitterion (\\(\\ce{^+H3N-CH(R)-COO-}\\)). The isoelectric point is the specific pH at which the amino acid carries zero net electrical charge and does not migrate in an electric field.",
+      "section": "10.2.1 Amino Acids"
+    },
+    {
+      "q": "What are the four levels of protein structure and what happens during denaturation?",
+      "a": "The four levels are primary structure (amino acid sequence linked by peptide bonds), secondary structure (local \\(\\alpha\\)-helix or \\(\\beta\\)-pleated sheet stabilised by hydrogen bonds), tertiary structure (overall 3D folding of a single polypeptide chain), and quaternary structure (arrangement of multiple polypeptide subunits). During denaturation by heat or extreme pH, secondary, tertiary, and quaternary structures unfold and biological activity is lost, while the primary structure remains intact.",
+      "section": "10.2.3 Structure of Proteins"
+    },
+    {
+      "q": "Classify vitamins based on solubility and list the deficiency diseases of Vitamins A, B₁, C, D, and K.",
+      "a": "Fat-soluble vitamins are A, D, E, and K; water-soluble vitamins are B-complex and C. Deficiency of Vitamin A causes night blindness, Vitamin B₁ (thiamine) causes beriberi, Vitamin C (ascorbic acid) causes scurvy, Vitamin D (calciferol) causes rickets in children and osteomalacia in adults, and Vitamin K causes increased bleeding tendency.",
+      "section": "10.4.1 Classification of Vitamins"
+    },
+    {
+      "q": "What are the major structural and chemical differences between DNA and RNA?",
+      "a": "DNA contains 2-deoxy-D-ribose sugar, the bases A, G, C, and thymine (T), and exists as a double-stranded antiparallel helix (with A=T and G≡C pairing) that stores hereditary information. RNA contains D-ribose sugar, the bases A, G, C, and uracil (U) instead of thymine, is usually single-stranded (mRNA, tRNA, rRNA), and functions in protein synthesis.",
+      "section": "10.5.2 Structure of Nucleic Acids"
+    }
+  ]
+}

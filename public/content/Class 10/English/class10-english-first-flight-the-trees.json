@@ -1,0 +1,60 @@
+{
+  "title": "The Trees",
+  "class": "10",
+  "subject": "English",
+  "chapter": "Poetry 7",
+  "book": "First Flight",
+  "notes": [
+    {
+      "heading": "Word Meanings",
+      "points": [
+        "Bury: Covered or hidden away so that it is completely invisible.",
+        "Disengage: To separate, release, or free oneself from a tight hold.",
+        "Verandah: A roofed platform or porch attached to the outside of a house.",
+        "Strain: Making a massive, difficult effort to move or stretch.",
+        "Twigs: The very small, thin topmost pieces of branches.",
+        "Stiff: Hard, rigid, and completely difficult to bend.",
+        "Exertion: Putting in a huge amount of pressure, force, or physical effort.",
+        "Cramped: Shrunk, tight, and severely lacking in natural space.",
+        "Boughs: The main, large, and thick branches of a tree.",
+        "Shuffling: Moving repeatedly with a slow, dragging motion without lifting feet.",
+        "Half-dazed: Feeling incredibly shocked, surprised, or only half-awake.",
+        "Scarcely: Very rarely, barely, or hardly doing an action.",
+        "Departure: The act of leaving a place to go somewhere else.",
+        "Lichen: A crusty, yellow-green moss-like growth found on tree trunks or rocks.",
+        "Whispers: Soft, low, and hushed speaking voices.",
+        "Stumbling: Walking unsteadily and tripping while moving forward.",
+        "Flash: To shine out brilliantly or emit light suddenly for a brief moment.",
+        "Crown: The highest point or the very topmost layer of a structure."
+      ]
+    }
+  ],
+  "summary": "\"The Trees\" by Adrienne Rich is a powerful, symbolic poem that functions both as a brilliant nature metaphor and a feminist allegory celebrating the rebellion of women against patriarchal confinement. The poem opens with a vivid description of the trees inside the poet’s house breaking free from their domestic captivity and moving out into the empty forest. The poet observes that the forest has been empty for days, leaving no place for birds to sit, insects to hide, or the sun to bury its rays in the cool shadow, but she predicts that this barren woodland will be completely filled with trees by the following morning. Throughout the night, a silent but frantic rebellion takes place beneath the roof: the roots strain tirelessly to disengage themselves from the cracks in the veranda floor; the leaves stretch out toward the glass windows; and the stiff twigs exert themselves with sudden energy, resembling newly discharged patients who walk out of clinic doors in a state of daze, eager to experience the open world. The poet sits inside her veranda writing long letters, choosing not to mention this monumental departure of the trees in her correspondence. The night is fresh, the full moon shines brightly in the open sky, and the crisp smell of leaves and lichen drifts through the rooms like a persistent voice. The poem concludes with a dramatic transformation as the trees successfully break through the domestic boundaries and reach the forest. The wind rushes out to meet them, and the tall, majestic oak tree stands so high that it fractures the crown of the moon, reflecting its light like a broken mirror through the highest branches, symbolizing the ultimate triumph of freedom, growth, and emancipation over artificial human restrictions.",
+  "qa": [
+    {
+      "q": "What is the central idea of the poem?",
+      "a": "​ The poem shows the desire of trees to be free from the house and return to their natural surroundings. The poet presents the movement of the trees as if they are trying to escape from human confinement and regain their freedom.",
+      "section": "Thinking About the Poem"
+    },
+    {
+      "q": "Why do the trees want to leave the house?",
+      "a": "​ The trees want to leave the house because they are not meant to grow indoors. They need open space and natural surroundings. Their movement towards the forest represents their desire for freedom.",
+      "section": "Thinking About the Poem"
+    },
+    {
+      "q": "What does the poet mean by “the forest that was empty all these days”?",
+      "a": "​ The forest is described as empty because the trees have been kept inside the house. Once the trees move out, they will return to the forest and fill it with their natural presence.",
+      "section": "Thinking About the Poem"
+    },
+    {
+      "q": "What do the roots, leaves and twigs do in the poem?",
+      "a": "​ The roots work their way out of the cracks in the floor, the leaves move towards the glass, and the twigs become tangled with the branches outside. These actions show the trees struggling to escape from the house.",
+      "section": "Thinking About the Poem"
+    },
+    {
+      "q": "What message does the poem convey?",
+      "a": "​ The poem conveys that nature needs freedom and cannot be controlled forever. It also suggests that human beings should respect nature and allow plants and trees to grow naturally in their proper environment.",
+      "section": "Thinking About the Poem"
+    }
+  ]
+}

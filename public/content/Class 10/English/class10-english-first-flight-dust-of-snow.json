@@ -1,0 +1,44 @@
+{
+  "title": "Dust of Snow",
+  "class": "10",
+  "subject": "English",
+  "chapter": "Poetry 1",
+  "book": "First Flight",
+  "notes": [
+    {
+      "heading": "Word Meanings",
+      "points": [
+        "Hemlock tree: A poisonous evergreen tree with small white flowers, often associated with sadness.",
+        "Dust of snow: Tiny, fine particles or flakes of snow kicked up by movement.",
+        "Shook down: Brushing or causing something to fall from a branch above.",
+        "Mood: A temporary state of mind or feeling.",
+        "Change of mood: A sudden shift in emotional state from sad to happy.",
+        "Saved: Rescued or preserved a part of something from being wasted.",
+        "Rued: Felt deep regret, bitterness, or sorrow over a day gone wrong."
+      ]
+    }
+  ],
+  "summary": "\"Dust of Snow\" by Robert Frost is a beautiful, short, and highly symbolic poem that illustrates how seemingly insignificant natural occurrences can bring about a monumental shift in a person's mood and outlook. The poem is set on a bleak winter day where the poet finds himself in a deeply sorrowful, gloomy, and regretful frame of mind. While he is walking under a hemlock tree, which is traditionally associated with poison, sadness, and negative omens, a crow—another conventional symbol of gloom  and death—suddenly shakes the branch. This abrupt movement causes a fine shower of powdery snow, described by the poet as a \"dust of snow,\" to drop down directly onto him. This unexpected, gentle touch of nature acts as a catalyst, instantly breaking the spell of his dark mood. It gives his heart a sudden change of spirit and rescues the remaining part of a day that he had previously deemed entirely ruined and wasted. Frost masterfully utilizes unconventional symbols of sorrow, like the hemlock tree and the crow, to deliver a powerful message about the healing capacity of nature, proving that joy can be found in the most unexpected places. Ultimately, the poem teaches us to maintain an optimistic outlook, emphasizing that even the smallest moments of beauty can lift our spirits and clear away the clouds of hopelessness.",
+  "qa": [
+    {
+      "q": "What is a “dust of snow”? What does the poet say has changed his mood?",
+      "a": "​ “Dust of snow” refers to the fine particles of snow that fall from a hemlock tree. When the snow falls on the poet, it changes his sad mood and makes him feel refreshed and happy.",
+      "section": "Thinking About the Poem"
+    },
+    {
+      "q": "How has the poet’s mood changed?",
+      "a": "​ The poet’s mood changes from sadness to happiness. A simple moment in nature makes him feel better and saves the rest of his day from being wasted in sadness.",
+      "section": "Thinking About the Poem"
+    },
+    {
+      "q": "How does Frost present nature in the poem?",
+      "a": "​ Frost presents nature as a source of joy and healing. Even a small natural event, such as snow falling from a tree, can positively change a person’s mood and make life feel happier.",
+      "section": "Thinking About the Poem"
+    },
+    {
+      "q": "What do you think is the message of the poem?",
+      "a": "​ The poem teaches us that even small and unexpected moments can bring happiness. We should not allow sadness to control us because nature and simple experiences can change our mood and make our day better.",
+      "section": "Thinking About the Poem"
+    }
+  ]
+}

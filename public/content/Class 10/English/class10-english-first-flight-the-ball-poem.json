@@ -1,0 +1,55 @@
+{
+  "title": "The Ball Poem",
+  "class": "10",
+  "subject": "English",
+  "chapter": "Poetry 5",
+  "book": "First Flight",
+  "notes": [
+    {
+      "heading": "Word Meanings",
+      "points": [
+        "Merrily: Cheerful, joyful, or full of happy energy.",
+        "Bouncing: Jumping, leaping, or springing up and down dynamically.",
+        "Ultimate: The maximum, final, or extreme limit of something.",
+        "Rigid: Stiff, frozen, and completely fixed in place due to shock.",
+        "Trembling: Shaking or shivering uncontrollably from deep emotion or fear.",
+        "Harbour: A secure dock or port area where ships anchor.",
+        "Intrude: To enter a situation or space without invitation or permission.",
+        "Dime: A small silver coin in the US worth exactly ten cents.",
+        "Worthless: Having absolutely no value, use, or importance anymore.",
+        "Possessions: Material wealth, goods, or belongings owned by a person.",
+        "External: Belonging to the outer world rather than one's inner mind or feelings.",
+        "Epistemology: The philosophical study and understanding of the nature of knowledge.",
+        "Desperate: Feeling a hopeless, frantic sense that a situation is impossible to deal with."
+      ]
+    }
+  ],
+  "summary": "\"The Ball Poem\" by John Berryman is a deeply philosophical and poignant poem that explores the themes of loss, growing up, and the ultimate necessity of learning to cope with the harsh realities of life. The poem centers on a young boy who loses his ball while playing, watching it skip merrily down the street before landing with a splash into the harbor water. The poet watches this happen but decides not to intervene, noting that offering words of consolation like \"there are other balls\" or giving the boy a dime to buy a new one would be completely worthless. This is because the lost ball is deeply tied to the boy’s childhood memories, and a new, interchangeable object cannot replace the sentimental value of the original possession. As the boy stands trembling and rigid, staring helplessly into the dark water where his youth slipped away, he experiences his very first sense of responsibility in a \"world of possessions.\" The poet explains that throughout life, people will constantly lose things they love—whether material items, relationships, or time—as \"balls will be lost always.\" Through this experience, the boy undergoes an internal growth process, learning the epistemology of loss, which means understanding what it truly feels like to lose something valuable and discovering the internal strength required to stand up and move forward. Ultimately, the poem delivers a universal lesson that loss is an inevitable part of human existence, and growing up means accepting these painful moments with courage rather than collapsing in despair.",
+  "qa": [
+    {
+      "q": "Why does the poet say, “No use to say ‘O there are other balls’”?",
+      "a": "​ The poet says this because the boy has lost more than just a ball. The ball represents his childhood and something emotionally valuable to him. Another ball cannot replace the one he has lost.",
+      "section": "Thinking About the Poem"
+    },
+    {
+      "q": "What does the boy learn from losing the ball?",
+      "a": "​ The boy learns that loss is a natural part of life. He understands that some things cannot be recovered or replaced, and he must learn to accept loss and move forward.",
+      "section": "Thinking About the Poem"
+    },
+    {
+      "q": "What does “epistemology of loss” mean?",
+      "a": "​ “Epistemology of loss” means understanding what it feels like to lose something and learning how to deal with that loss. The boy is learning this important lesson through the loss of his ball.",
+      "section": "Thinking About the Poem"
+    },
+    {
+      "q": "What does the ball represent in the poem?",
+      "a": "​ The ball represents the boy’s childhood, memories and emotional attachment. Its loss symbolises the experience of losing something precious and learning to accept that loss.",
+      "section": "Thinking About the Poem"
+    },
+    {
+      "q": "What is the central idea of the poem?",
+      "a": "​ The poem shows that loss is an unavoidable part of life. The boy’s lost ball teaches him to accept loss and become emotionally mature. It is a lesson about growing up and understanding the value of things.",
+      "section": "Thinking About the Poem"
+    }
+  ]
+}

@@ -1,0 +1,1593 @@
+{
+  "title": "Solutions",
+  "class": "12",
+  "subject": "Chemistry",
+  "chapter": "Chapter 1",
+  "book": "NCERT Chemistry",
+  "notes": [
+    {
+      "heading": "1.1 Types of Solutions",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Solution"
+        },
+        {
+          "type": "text",
+          "text": "A <strong>solution</strong> is a homogeneous mixture of two or more chemically non-reacting substances whose composition can vary within certain limits."
+        },
+        {
+          "type": "text",
+          "text": "A solution has two components:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Solvent:</strong> The component present in a larger amount, which generally determines the physical state of the solution.",
+            "<strong>Solute:</strong> The component that dissolves in the solvent and is generally present in a smaller amount."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong> In a sugar solution, sugar is the solute and water is the solvent."
+        },
+        {
+          "type": "heading",
+          "text": "2. Types of Solutions"
+        },
+        {
+          "type": "text",
+          "text": "Solutions are classified into three types based on the physical states of the solute and solvent."
+        },
+        {
+          "type": "heading",
+          "text": "1. Solid in Liquid"
+        },
+        {
+          "type": "text",
+          "text": "A solid solute dissolves in a liquid solvent.\n\n<strong>Example:</strong> Sugar in water."
+        },
+        {
+          "type": "heading",
+          "text": "2. Gas in Liquid"
+        },
+        {
+          "type": "text",
+          "text": "A gas dissolves in a liquid solvent.\n\n<strong>Example:</strong> Carbon dioxide in soda water."
+        },
+        {
+          "type": "heading",
+          "text": "3. Solid in Solid"
+        },
+        {
+          "type": "text",
+          "text": "One solid is uniformly mixed with another solid.\n\n<strong>Example:</strong> Brass, an alloy of copper and zinc."
+        },
+        {
+          "type": "heading",
+          "text": "3. Classification Based on Physical States"
+        },
+        {
+          "type": "text",
+          "text": "The solute and solvent can each exist as a solid, liquid or gas. Therefore, nine types of solutions are possible."
+        },
+        {
+          "type": "table",
+          "label": "Classification of solutions based on physical states",
+          "headers": [
+            "Solute",
+            "Solvent",
+            "Example"
+          ],
+          "rows": [
+            [
+              "Gas",
+              "Gas",
+              "Mixture of oxygen and nitrogen"
+            ],
+            [
+              "Liquid",
+              "Gas",
+              "Chloroform vapour in nitrogen"
+            ],
+            [
+              "Solid",
+              "Gas",
+              "Camphor vapour in nitrogen*"
+            ],
+            [
+              "Gas",
+              "Liquid",
+              "Oxygen dissolved in water"
+            ],
+            [
+              "Liquid",
+              "Liquid",
+              "Ethanol in water"
+            ],
+            [
+              "Solid",
+              "Liquid",
+              "Glucose in water"
+            ],
+            [
+              "Gas",
+              "Solid",
+              "Hydrogen in palladium"
+            ],
+            [
+              "Liquid",
+              "Solid",
+              "Mercury in sodium (amalgam)"
+            ],
+            [
+              "Solid",
+              "Solid",
+              "Copper in gold"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "*These are illustrative classifications; the actual formation of a homogeneous solution depends on the substances and conditions."
+        },
+        {
+          "type": "text",
+          "text": "<strong>Important:</strong> Air is a homogeneous mixture of gases, and brass is a solid solution."
+        }
+      ]
+    },
+    {
+      "heading": "1.2 Expressing Concentration of Solutions",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The <strong>concentration of a solution</strong> is the amount of solute present in a given amount of solvent or solution.\n\nConcentration is expressed in the following ways."
+        },
+        {
+          "type": "heading",
+          "text": "1. Mass Percentage (w/w)"
+        },
+        {
+          "type": "text",
+          "text": "It is the mass of solute present in 100 g of solution."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Mass \\%} = \\frac{\\text{Mass of solute}}{\\text{Mass of solution}} \\times 100\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong> 10 g of sugar is dissolved in 90 g of water."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Mass of solution} = 10 + 90 = 100\\text{ g}\\]"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Mass \\%} = \\frac{10}{100} \\times 100 = 10\\%\\]"
+        },
+        {
+          "type": "heading",
+          "text": "2. Volume Percentage (V/V)"
+        },
+        {
+          "type": "text",
+          "text": "It is the volume of solute present in 100 mL of solution."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Volume \\%} = \\frac{\\text{Volume of solute}}{\\text{Volume of solution}} \\times 100\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong> A solution containing 20 mL of ethanol in 100 mL of solution has a volume percentage of 20%."
+        },
+        {
+          "type": "heading",
+          "text": "3. Mass by Volume Percentage (w/V)"
+        },
+        {
+          "type": "text",
+          "text": "It is the mass of solute present in 100 mL of solution."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Mass by volume \\%} = \\frac{\\text{Mass of solute (g)}}{\\text{Volume of solution (mL)}} \\times 100\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong> A solution containing 5 g of glucose in 100 mL of solution has a mass by volume percentage of 5%."
+        },
+        {
+          "type": "heading",
+          "text": "4. Parts per Million (ppm)"
+        },
+        {
+          "type": "text",
+          "text": "It is used to express the concentration of very dilute solutions."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{ppm} = \\frac{\\text{Amount of solute}}{\\text{Amount of solution}} \\times 10^6\\]"
+        },
+        {
+          "type": "text",
+          "text": "The numerator and denominator must be expressed in the same units.\n\nFor dilute aqueous solutions, \\(1\\text{ ppm} \\approx 1\\text{ mg/L}\\)."
+        },
+        {
+          "type": "heading",
+          "text": "5. Mole Fraction (X)"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Mole fraction</strong> is the ratio of the number of moles of one component to the total number of moles of all components in the solution.\n\nFor a solution containing components A and B:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[X_A = \\frac{n_A}{n_A + n_B}\\]"
+        },
+        {
+          "type": "equation",
+          "text": "\\[X_B = \\frac{n_B}{n_A + n_B}\\]"
+        },
+        {
+          "type": "text",
+          "text": "For a binary solution,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[X_A + X_B = 1\\]"
+        },
+        {
+          "type": "text",
+          "text": "Here, \\(n_A\\) and \\(n_B\\) are the number of moles of components A and B, respectively.\n\n<strong>Important:</strong> Mole fraction has no unit because it is a ratio of quantities expressed in moles."
+        },
+        {
+          "type": "heading",
+          "text": "6. Molarity (M)"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Molarity</strong> is the number of moles of solute present in one litre of solution."
+        },
+        {
+          "type": "equation",
+          "text": "\\[M = \\frac{\\text{Moles of solute}}{\\text{Volume of solution (L)}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Since the number of moles is"
+        },
+        {
+          "type": "equation",
+          "text": "\\[n = \\frac{w}{M_m}\\]"
+        },
+        {
+          "type": "text",
+          "text": "the molarity can also be expressed as"
+        },
+        {
+          "type": "equation",
+          "text": "\\[M = \\frac{w \\times 1000}{M_m \\times V}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Where:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(w\\) = mass of solute in grams",
+            "\\(M_m\\) = molar mass of solute in \\(\\text{g mol}^{-1}\\)",
+            "\\(V\\) = volume of solution in mL"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Unit:</strong> \\(\\text{mol L}^{-1}\\) or \\(M\\).\n\n<strong>Important:</strong> Molarity depends on temperature because the volume of a solution changes with temperature."
+        },
+        {
+          "type": "heading",
+          "text": "7. Molality (m)"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Molality</strong> is the number of moles of solute present in one kilogram of solvent."
+        },
+        {
+          "type": "equation",
+          "text": "\\[m = \\frac{\\text{Moles of solute}}{\\text{Mass of solvent (kg)}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Using mass in grams,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[m = \\frac{w \\times 1000}{M_m \\times W}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Where:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(w\\) = mass of solute in grams",
+            "\\(M_m\\) = molar mass of solute in \\(\\text{g mol}^{-1}\\)",
+            "\\(W\\) = mass of solvent in grams"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Unit:</strong> \\(\\text{mol kg}^{-1}\\).\n\n<strong>Important:</strong> Molality is independent of temperature because it depends on mass, which does not change with temperature."
+        },
+        {
+          "type": "heading",
+          "text": "Difference Between Molarity and Molality"
+        },
+        {
+          "type": "table",
+          "label": "Difference Between Molarity and Molality",
+          "headers": [
+            "Molarity (M)",
+            "Molality (m)"
+          ],
+          "rows": [
+            [
+              "Moles of solute per litre of solution.",
+              "Moles of solute per kilogram of solvent."
+            ],
+            [
+              "Depends on the volume of solution.",
+              "Depends on the mass of solvent."
+            ],
+            [
+              "Changes with temperature.",
+              "Does not change with temperature."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "1.3 Solubility",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Solubility</strong> is the maximum amount of a solute that can dissolve in a given amount of solvent at a specified temperature to form a saturated solution.\n\nA <strong>saturated solution</strong> contains the maximum amount of solute that can dissolve under the given conditions.\n\nSolubility mainly depends on:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Nature of the solute and solvent.",
+            "Temperature.",
+            "Pressure, especially for gases dissolved in liquids."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "1.3.1 Solubility of a Solid in a Liquid",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The solubility of a solid in a liquid depends mainly on the nature of the solute, the nature of the solvent and temperature."
+        },
+        {
+          "type": "heading",
+          "text": "1. Effect of Nature of Solute and Solvent"
+        },
+        {
+          "type": "text",
+          "text": "The solubility of a substance depends on the intermolecular forces between solute and solvent particles.\n\nGenerally, <strong>like dissolves like</strong>."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Polar substances tend to dissolve in polar solvents.",
+            "Non-polar substances tend to dissolve in non-polar solvents."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Examples:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Sodium chloride dissolves in water because of favourable ion–dipole interactions.",
+            "Iodine dissolves more readily in non-polar solvents such as carbon tetrachloride than in water."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "2. Effect of Temperature"
+        },
+        {
+          "type": "text",
+          "text": "The effect of temperature on solubility depends on whether the dissolution process absorbs or releases heat.\n\n<strong>Endothermic dissolution:</strong> Heat is absorbed during dissolution. Solubility generally increases with an increase in temperature."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Solute} + \\text{Solvent} + \\text{Heat} \\rightleftharpoons \\text{Solution}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Exothermic dissolution:</strong> Heat is released during dissolution. Solubility generally decreases with an increase in temperature."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Solute} + \\text{Solvent} \\rightleftharpoons \\text{Solution} + \\text{Heat}\\]"
+        },
+        {
+          "type": "text",
+          "text": "For many solid solutes, solubility increases with temperature, but this is not true for every substance."
+        },
+        {
+          "type": "heading",
+          "text": "3. Effect of Pressure"
+        },
+        {
+          "type": "text",
+          "text": "Pressure has very little effect on the solubility of solids in liquids because solids and liquids are nearly incompressible."
+        }
+      ]
+    },
+    {
+      "heading": "1.3.2 Solubility of a Gas in a Liquid (Henry's Law)",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The solubility of a gas in a liquid depends mainly on the nature of the gas and solvent, temperature, and pressure."
+        },
+        {
+          "type": "heading",
+          "text": "Henry's Law"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Henry's law</strong> states that at a constant temperature, the solubility of a gas in a liquid is directly proportional to the partial pressure of the gas above the liquid.\n\nMathematically,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[p = K_H x\\]"
+        },
+        {
+          "type": "text",
+          "text": "Where:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(p\\) = partial pressure of the gas above the solution.",
+            "\\(x\\) = mole fraction of the gas dissolved in the solution.",
+            "\\(K_H\\) = Henry's law constant."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Rearranging,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[x = \\frac{p}{K_H}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Thus, increasing the partial pressure of a gas increases its solubility in the liquid at constant temperature."
+        },
+        {
+          "type": "heading",
+          "text": "Applications of Henry's Law"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Carbonated drinks:</strong> Carbon dioxide is dissolved in soft drinks under high pressure. When the bottle is opened, the pressure decreases and carbon dioxide escapes as bubbles.",
+            "<strong>Scuba diving:</strong> At high pressures underwater, more nitrogen dissolves in the blood. If a diver ascends too quickly, the pressure decreases and dissolved nitrogen may form bubbles, causing decompression sickness.",
+            "<strong>High altitudes:</strong> At high altitudes, the partial pressure of oxygen is lower. Consequently, less oxygen dissolves in the blood, which can cause difficulty in breathing."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Important Points About Henry's Law"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Gas solubility increases with increasing pressure at constant temperature.",
+            "For most gases, solubility decreases as temperature increases.",
+            "A higher value of \\(K_H\\) indicates lower gas solubility at a given pressure, according to \\(x = p / K_H\\)."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "1.4 Vapour Pressure of Liquid Solutions",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Vapour pressure</strong> is the pressure exerted by the vapour of a liquid when the vapour is in equilibrium with the liquid in a closed container at a given temperature.\n\nWhen a liquid is kept in a closed container, some of its molecules escape from the surface into the vapour phase. At the same time, some vapour molecules return to the liquid. When the rates of evaporation and condensation become equal, dynamic equilibrium is established.\n\nThe pressure exerted by the vapour at this stage is called the <strong>equilibrium vapour pressure</strong>."
+        }
+      ]
+    },
+    {
+      "heading": "1.4.1 Vapour Pressure of Liquid–Liquid Solutions (Raoult's Law)",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "When two volatile liquids are mixed, both components can evaporate and contribute to the total vapour pressure of the solution."
+        },
+        {
+          "type": "heading",
+          "text": "Raoult's Law"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Raoult's law</strong> states that the partial vapour pressure of each volatile component of a solution is directly proportional to its mole fraction in the solution at a given temperature.\n\nFor a solution containing two volatile liquids A and B:\n\nThe partial vapour pressure of component A is"
+        },
+        {
+          "type": "equation",
+          "text": "\\[p_A = x_A p_A^\\circ\\]"
+        },
+        {
+          "type": "text",
+          "text": "The partial vapour pressure of component B is"
+        },
+        {
+          "type": "equation",
+          "text": "\\[p_B = x_B p_B^\\circ\\]"
+        },
+        {
+          "type": "text",
+          "text": "Where:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(p_A\\) and \\(p_B\\) are the partial vapour pressures of A and B.",
+            "\\(x_A\\) and \\(x_B\\) are their mole fractions in the liquid solution.",
+            "\\(p_A^\\circ\\) and \\(p_B^\\circ\\) are the vapour pressures of pure A and pure B, respectively, at the same temperature."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "According to Dalton's law of partial pressures, the total vapour pressure is the sum of the partial vapour pressures."
+        },
+        {
+          "type": "equation",
+          "text": "\\[P = p_A + p_B\\]"
+        },
+        {
+          "type": "text",
+          "text": "Substituting the expressions from Raoult's law,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[P = x_A p_A^\\circ + x_B p_B^\\circ\\]"
+        },
+        {
+          "type": "text",
+          "text": "For a binary solution,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[x_A + x_B = 1\\]"
+        },
+        {
+          "type": "text",
+          "text": "Therefore,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[P = x_A p_A^\\circ + (1 - x_A)p_B^\\circ\\]"
+        },
+        {
+          "type": "text",
+          "text": "This equation gives the total vapour pressure of a solution containing two volatile components that obey Raoult's law."
+        },
+        {
+          "type": "heading",
+          "text": "Important Points"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Each component contributes to the total vapour pressure.",
+            "The component with the higher pure vapour pressure is generally more volatile at the same temperature.",
+            "The total vapour pressure depends on the composition of the solution and the vapour pressures of the pure components."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "1.4.2 Raoult’s Law as a Special Case of Henry’s Law",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Henry’s law states that the partial pressure of a gas above a solution is proportional to its mole fraction in the solution."
+        },
+        {
+          "type": "equation",
+          "text": "\\[p = K_H x\\]"
+        },
+        {
+          "type": "text",
+          "text": "Raoult’s law states that the partial vapour pressure of a volatile component is proportional to its mole fraction in the solution."
+        },
+        {
+          "type": "equation",
+          "text": "\\[p_A = p_A^\\circ x_A\\]"
+        },
+        {
+          "type": "text",
+          "text": "Comparing the two equations, we find that Raoult’s law is a special case of Henry’s law when the Henry’s law constant is equal to the vapour pressure of the pure component."
+        },
+        {
+          "type": "equation",
+          "text": "\\[K_H = p_A^\\circ\\]"
+        },
+        {
+          "type": "text",
+          "text": "Thus, Raoult’s law can be considered a special case of Henry’s law in which the proportionality constant becomes equal to the vapour pressure of the pure component.\n\nFor an ideal solution, the component obeys Raoult’s law over the entire range of composition."
+        }
+      ]
+    },
+    {
+      "heading": "1.4.3 Vapour Pressure of Solutions of Solids in Liquids",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "When a non-volatile solid solute is dissolved in a volatile liquid solvent, only the solvent contributes significantly to the vapour pressure of the solution.\n\nFor example, when sugar is dissolved in water, sugar does not evaporate appreciably. Therefore, the vapour pressure of the solution is due to water alone.\n\nAccording to Raoult’s law,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[p_1 = x_1 p_1^\\circ\\]"
+        },
+        {
+          "type": "text",
+          "text": "Where:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(p_1\\) = vapour pressure of the solution.",
+            "\\(x_1\\) = mole fraction of the solvent.",
+            "\\(p_1^\\circ\\) = vapour pressure of the pure solvent."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Since the solute is non-volatile, its presence decreases the mole fraction of the solvent. Hence, the vapour pressure of the solution is lower than that of the pure solvent."
+        },
+        {
+          "type": "heading",
+          "text": "Relative Lowering of Vapour Pressure"
+        },
+        {
+          "type": "text",
+          "text": "The lowering of vapour pressure is the difference between the vapour pressure of the pure solvent and that of the solution."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\Delta p = p_1^\\circ - p_1\\]"
+        },
+        {
+          "type": "text",
+          "text": "Using Raoult’s law,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\Delta p = p_1^\\circ - x_1 p_1^\\circ\\]"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\Delta p = p_1^\\circ (1 - x_1)\\]"
+        },
+        {
+          "type": "text",
+          "text": "Since \\(x_1 + x_2 = 1\\),"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\Delta p = p_1^\\circ x_2\\]"
+        },
+        {
+          "type": "text",
+          "text": "Therefore, the relative lowering of vapour pressure is"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\frac{\\Delta p}{p_1^\\circ} = x_2\\]"
+        },
+        {
+          "type": "text",
+          "text": "Thus, the relative lowering of vapour pressure is equal to the mole fraction of the non-volatile solute for an ideal dilute solution.\n\nThis is a colligative property because it depends on the number of solute particles present relative to the number of solvent particles, rather than on the chemical nature of the solute."
+        }
+      ]
+    },
+    {
+      "heading": "1.5 Ideal and Non-Ideal Solutions (Azeotropes)",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Ideal Solutions"
+        },
+        {
+          "type": "text",
+          "text": "An <strong>ideal solution</strong> is a solution that obeys Raoult’s law over the entire range of composition at a given temperature.\n\nFor a binary solution containing volatile components A and B,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[p_A = x_A p_A^\\circ\\]"
+        },
+        {
+          "type": "equation",
+          "text": "\\[p_B = x_B p_B^\\circ\\]"
+        },
+        {
+          "type": "text",
+          "text": "The total vapour pressure is"
+        },
+        {
+          "type": "equation",
+          "text": "\\[P = p_A + p_B\\]"
+        },
+        {
+          "type": "equation",
+          "text": "\\[P = x_A p_A^\\circ + x_B p_B^\\circ\\]"
+        },
+        {
+          "type": "heading",
+          "text": "Characteristics of Ideal Solutions"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "They obey Raoult’s law at all compositions.",
+            "The intermolecular forces between A–B molecules are nearly equal to those between A–A and B–B molecules.",
+            "The enthalpy change on mixing is zero: \\(\\Delta H_{\\text{mix}} = 0\\).",
+            "The volume change on mixing is zero: \\(\\Delta V_{\\text{mix}} = 0\\)."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Examples:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Benzene and toluene.",
+            "n-Hexane and n-heptane."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "2. Non-Ideal Solutions"
+        },
+        {
+          "type": "text",
+          "text": "A <strong>non-ideal solution</strong> is a solution that does not obey Raoult’s law over the entire range of composition.\n\nNon-ideal behaviour occurs when the intermolecular forces between unlike molecules (A–B) differ significantly from those between like molecules (A–A and B–B).\n\nNon-ideal solutions show two types of deviations."
+        },
+        {
+          "type": "heading",
+          "text": "(a) Positive Deviation from Raoult’s Law"
+        },
+        {
+          "type": "text",
+          "text": "A solution shows positive deviation when its observed vapour pressure is greater than the vapour pressure predicted by Raoult’s law.\n\nThis occurs when A–B intermolecular attractions are weaker than A–A and B–B attractions. The molecules escape more easily into the vapour phase.\n\n<strong>Characteristics:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Vapour pressure is higher than the ideal value.",
+            "Enthalpy change on mixing is generally positive: \\(\\Delta H_{\\text{mix}} > 0\\).",
+            "Volume change on mixing is generally positive: \\(\\Delta V_{\\text{mix}} > 0\\)."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Examples:</strong> Ethanol and acetone; ethanol and cyclohexane."
+        },
+        {
+          "type": "heading",
+          "text": "(b) Negative Deviation from Raoult’s Law"
+        },
+        {
+          "type": "text",
+          "text": "A solution shows negative deviation when its observed vapour pressure is lower than the vapour pressure predicted by Raoult’s law.\n\nThis occurs when A–B intermolecular attractions are stronger than A–A and B–B attractions. The molecules escape less easily into the vapour phase.\n\n<strong>Characteristics:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Vapour pressure is lower than the ideal value.",
+            "Enthalpy change on mixing is generally negative: \\(\\Delta H_{\\text{mix}} < 0\\).",
+            "Volume change on mixing is generally negative: \\(\\Delta V_{\\text{mix}} < 0\\)."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Examples:</strong> Acetone and chloroform; nitric acid and water."
+        },
+        {
+          "type": "heading",
+          "text": "3. Azeotropes"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Azeotropes</strong> are liquid mixtures that boil at a constant temperature and have the same composition in the liquid and vapour phases. Therefore, they cannot be completely separated into their components by simple fractional distillation.\n\nAzeotropes are of two types."
+        },
+        {
+          "type": "heading",
+          "text": "(a) Minimum-Boiling Azeotropes"
+        },
+        {
+          "type": "text",
+          "text": "These are formed by solutions showing sufficiently large positive deviation from Raoult’s law."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "They have a lower boiling point than either pure component.",
+            "Their vapour pressure is higher than expected for an ideal solution."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong> Ethanol and water."
+        },
+        {
+          "type": "heading",
+          "text": "(b) Maximum-Boiling Azeotropes"
+        },
+        {
+          "type": "text",
+          "text": "These are formed by solutions showing sufficiently large negative deviation from Raoult’s law."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "They have a higher boiling point than either pure component.",
+            "Their vapour pressure is lower than expected for an ideal solution."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong> Nitric acid and water."
+        }
+      ]
+    },
+    {
+      "heading": "1.6 Colligative Properties and Determination of Molar Mass",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Colligative Properties"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Colligative properties</strong> are the properties of dilute solutions that depend on the number of solute particles present relative to the number of solvent particles, and not on the chemical nature of the solute.\n\nThese properties are mainly observed when a non-volatile solute is dissolved in a volatile solvent.\n\nThere are four main colligative properties:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Relative lowering of vapour pressure.",
+            "Elevation of boiling point.",
+            "Depression of freezing point.",
+            "Osmotic pressure."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Colligative properties are useful for determining the molar mass of unknown substances."
+        }
+      ]
+    },
+    {
+      "heading": "1.6.1 Relative Lowering of Vapour Pressure",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "When a non-volatile solute is dissolved in a volatile solvent, the vapour pressure of the solvent decreases.\n\nAccording to Raoult’s law,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[p_1 = x_1 p_1^\\circ\\]"
+        },
+        {
+          "type": "text",
+          "text": "Where \\(p_1^\\circ\\) is the vapour pressure of the pure solvent, \\(p_1\\) is the vapour pressure of the solution, and \\(x_1\\) is the mole fraction of the solvent.\n\nThe lowering of vapour pressure is"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\Delta p = p_1^\\circ - p_1\\]"
+        },
+        {
+          "type": "text",
+          "text": "Substituting Raoult’s law,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\Delta p = p_1^\\circ (1 - x_1)\\]"
+        },
+        {
+          "type": "text",
+          "text": "Since \\(1 - x_1 = x_2\\),"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\Delta p = p_1^\\circ x_2\\]"
+        },
+        {
+          "type": "text",
+          "text": "Therefore, the relative lowering of vapour pressure is"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\frac{\\Delta p}{p_1^\\circ} = x_2\\]"
+        },
+        {
+          "type": "text",
+          "text": "Thus, the relative lowering of vapour pressure is equal to the mole fraction of the non-volatile solute in an ideal solution."
+        },
+        {
+          "type": "heading",
+          "text": "Determination of Molar Mass"
+        },
+        {
+          "type": "text",
+          "text": "For a dilute solution,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[x_2 = \\frac{n_2}{n_1 + n_2} \\approx \\frac{n_2}{n_1}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Using \\(n = \\frac{w}{M_m}\\),"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\frac{\\Delta p}{p_1^\\circ} \\approx \\frac{w_2 / M_2}{w_1 / M_1}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Rearranging,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[M_2 \\approx \\frac{w_2 M_1 p_1^\\circ}{w_1 \\Delta p}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Where:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(w_1\\) and \\(w_2\\) are the masses of solvent and solute, respectively.",
+            "\\(M_1\\) and \\(M_2\\) are the molar masses of solvent and solute, respectively."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "This relation is used to determine the molar mass of a non-volatile solute."
+        }
+      ]
+    },
+    {
+      "heading": "1.6.2 Elevation of Boiling Point",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The <strong>boiling point</strong> of a liquid is the temperature at which its vapour pressure becomes equal to the external pressure.\n\nWhen a non-volatile solute is dissolved in a solvent, the vapour pressure of the solvent decreases. Therefore, the solution must be heated to a higher temperature to make its vapour pressure equal to the external pressure.\n\nHence, the boiling point of the solution is higher than that of the pure solvent. This increase is called <strong>elevation of boiling point</strong>."
+        },
+        {
+          "type": "heading",
+          "text": "Elevation of Boiling Point"
+        },
+        {
+          "type": "text",
+          "text": "It is the difference between the boiling point of the solution and that of the pure solvent."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\Delta T_b = T_b - T_b^\\circ\\]"
+        },
+        {
+          "type": "text",
+          "text": "Where:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(T_b\\) = boiling point of the solution.",
+            "\\(T_b^\\circ\\) = boiling point of the pure solvent."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "For dilute solutions, the elevation of boiling point is directly proportional to the molality of the solution."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\Delta T_b \\propto m\\]"
+        },
+        {
+          "type": "text",
+          "text": "Therefore,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\Delta T_b = K_b m\\]"
+        },
+        {
+          "type": "text",
+          "text": "Where:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(K_b\\) = molal elevation constant or ebullioscopic constant.",
+            "\\(m\\) = molality of the solution."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The value of \\(K_b\\) depends on the nature of the solvent."
+        },
+        {
+          "type": "heading",
+          "text": "Determination of Molar Mass"
+        },
+        {
+          "type": "text",
+          "text": "Molality is given by"
+        },
+        {
+          "type": "equation",
+          "text": "\\[m = \\frac{w_2 / M_2}{w_1 / 1000}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Therefore,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[m = \\frac{1000 w_2}{M_2 w_1}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Substituting into the elevation equation,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\Delta T_b = K_b \\frac{1000 w_2}{M_2 w_1}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Rearranging to calculate the molar mass of the solute,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[M_2 = \\frac{1000 K_b w_2}{\\Delta T_b w_1}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Where:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(w_1\\) = mass of solvent in grams.",
+            "\\(w_2\\) = mass of solute in grams.",
+            "\\(M_2\\) = molar mass of solute in \\(\\text{g mol}^{-1}\\).",
+            "\\(K_b\\) = ebullioscopic constant."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Unit of \\(K_b\\):</strong> \\(\\text{K kg mol}^{-1}\\).\n\nElevation of boiling point is a colligative property because, for dilute solutions, it depends on the number of dissolved solute particles rather than their chemical identity."
+        }
+      ]
+    },
+    {
+      "heading": "1.6.3 Depression of Freezing Point",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The <strong>freezing point</strong> of a liquid is the temperature at which its liquid and solid phases coexist in equilibrium.\n\nWhen a non-volatile solute is dissolved in a solvent, the freezing point of the solution becomes lower than that of the pure solvent. This decrease is called <strong>depression of freezing point</strong>.\n\nFor example, adding salt to ice lowers its freezing point, which helps in melting ice at temperatures below \\(0^\\circ\\text{C}\\)."
+        },
+        {
+          "type": "heading",
+          "text": "Depression of Freezing Point"
+        },
+        {
+          "type": "text",
+          "text": "It is the difference between the freezing point of the pure solvent and that of the solution."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\Delta T_f = T_f^\\circ - T_f\\]"
+        },
+        {
+          "type": "text",
+          "text": "Where:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(T_f^\\circ\\) = freezing point of the pure solvent.",
+            "\\(T_f\\) = freezing point of the solution."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "For dilute solutions, depression of freezing point is directly proportional to the molality of the solution."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\Delta T_f \\propto m\\]"
+        },
+        {
+          "type": "text",
+          "text": "Therefore,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\Delta T_f = K_f m\\]"
+        },
+        {
+          "type": "text",
+          "text": "Where:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(K_f\\) = molal depression constant or cryoscopic constant.",
+            "\\(m\\) = molality of the solution."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The value of \\(K_f\\) depends on the nature of the solvent."
+        },
+        {
+          "type": "heading",
+          "text": "Determination of Molar Mass"
+        },
+        {
+          "type": "text",
+          "text": "Molality is given by"
+        },
+        {
+          "type": "equation",
+          "text": "\\[m = \\frac{1000 w_2}{M_2 w_1}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Substituting into the depression equation,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\Delta T_f = K_f \\frac{1000 w_2}{M_2 w_1}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Rearranging,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[M_2 = \\frac{1000 K_f w_2}{\\Delta T_f w_1}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Where:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(w_1\\) = mass of solvent in grams.",
+            "\\(w_2\\) = mass of solute in grams.",
+            "\\(M_2\\) = molar mass of solute in \\(\\text{g mol}^{-1}\\).",
+            "\\(K_f\\) = cryoscopic constant."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Unit of \\(K_f\\):</strong> \\(\\text{K kg mol}^{-1}\\).\n\nDepression of freezing point is a colligative property because, for dilute solutions, it depends on the number of dissolved solute particles rather than their chemical identity."
+        }
+      ]
+    },
+    {
+      "heading": "1.6.4 Osmosis and Osmotic Pressure",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Osmosis"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Osmosis</strong> is the spontaneous movement of solvent molecules through a semipermeable membrane from a region of lower solute concentration to a region of higher solute concentration.\n\nA <strong>semipermeable membrane</strong> allows solvent molecules to pass through it but prevents the passage of solute particles.\n\n<strong>Example:</strong> When raisins are placed in water, water enters the raisins through their membranes, causing them to swell."
+        },
+        {
+          "type": "heading",
+          "text": "2. Osmotic Pressure"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Osmotic pressure</strong> is the minimum external pressure that must be applied to a solution to stop osmosis.\n\nIt is represented by the symbol \\(\\pi\\).\n\nFor dilute solutions, osmotic pressure is given by"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\pi = CRT\\]"
+        },
+        {
+          "type": "text",
+          "text": "Since \\(C = \\frac{n}{V}\\),"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\pi = \\frac{nRT}{V}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Where:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(\\pi\\) = osmotic pressure.",
+            "\\(C\\) = molar concentration of the solution.",
+            "\\(R\\) = gas constant.",
+            "\\(T\\) = absolute temperature in kelvin.",
+            "\\(n\\) = number of moles of solute.",
+            "\\(V\\) = volume of the solution."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "For an electrolyte or a solute that produces multiple particles in solution, the equation can be written as"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\pi = iCRT\\]"
+        },
+        {
+          "type": "text",
+          "text": "where \\(i\\) is the van ’t Hoff factor."
+        },
+        {
+          "type": "heading",
+          "text": "3. Determination of Molar Mass Using Osmotic Pressure"
+        },
+        {
+          "type": "text",
+          "text": "The number of moles of solute is"
+        },
+        {
+          "type": "equation",
+          "text": "\\[n = \\frac{w_2}{M_2}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Substituting into the osmotic pressure equation,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\pi = \\frac{w_2 RT}{M_2 V}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Rearranging to calculate the molar mass,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[M_2 = \\frac{w_2 RT}{\\pi V}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Where:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(w_2\\) = mass of solute.",
+            "\\(M_2\\) = molar mass of solute.",
+            "\\(V\\) = volume of solution in litres.",
+            "\\(T\\) = absolute temperature in kelvin.",
+            "\\(R\\) = gas constant.",
+            "\\(\\pi\\) = osmotic pressure."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "For electrolytes or solutes that undergo association or dissociation, the equation becomes"
+        },
+        {
+          "type": "equation",
+          "text": "\\[M_2 = \\frac{i w_2 RT}{\\pi V}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "4. Importance of Osmotic Pressure"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Osmotic pressure can be measured at room temperature, making it useful for determining the molar masses of proteins and other large molecules that may decompose on heating.",
+            "It is a colligative property and depends on the number of solute particles in a given volume.",
+            "Two solutions having the same osmotic pressure at the same temperature are called <strong>isotonic solutions</strong>."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "1.7 Abnormal Molar Masses (Van ’t Hoff Factor)",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The molar mass of a solute calculated using colligative properties may sometimes differ from its actual molar mass. This is called <strong>abnormal molar mass</strong>.\n\nAbnormal molar mass occurs when solute particles undergo association or dissociation in a solution, changing the total number of particles present."
+        },
+        {
+          "type": "heading",
+          "text": "1. Association of Solute Particles"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Association</strong> occurs when two or more solute molecules combine to form a larger particle.\n\nDue to association, the total number of solute particles decreases. Consequently, the observed colligative property becomes smaller than expected, and the experimentally calculated molar mass becomes higher than the actual molar mass.\n\n<strong>Example:</strong> Ethanoic acid molecules associate to form dimers in benzene through hydrogen bonding."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2CH3COOH <=> (CH3COOH)2}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "2. Dissociation of Solute Particles"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Dissociation</strong> occurs when a solute separates into two or more particles in a solution.\n\nDue to dissociation, the total number of solute particles increases. Consequently, the observed colligative property becomes greater than expected, and the experimentally calculated molar mass becomes lower than the actual molar mass.\n\n<strong>Example:</strong> Sodium chloride dissociates into sodium and chloride ions in water."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{NaCl -> Na+ + Cl-}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "3. Van ’t Hoff Factor (i)"
+        },
+        {
+          "type": "text",
+          "text": "The <strong>van ’t Hoff factor</strong> is the ratio of the observed colligative property to the calculated colligative property when the solute is assumed to remain undissociated."
+        },
+        {
+          "type": "equation",
+          "text": "\\[i = \\frac{\\text{Observed colligative property}}{\\text{Calculated colligative property}}\\]"
+        },
+        {
+          "type": "text",
+          "text": "It can also be expressed as the ratio of the normal molar mass to the experimentally determined molar mass."
+        },
+        {
+          "type": "equation",
+          "text": "\\[i = \\frac{M_{\\text{normal}}}{M_{\\text{observed}}}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "Values of the Van ’t Hoff Factor"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "For non-electrolytes that neither associate nor dissociate: \\(i = 1\\)",
+            "For association: \\(i < 1\\)",
+            "For dissociation: \\(i > 1\\)"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "4. Effect of Van ’t Hoff Factor on Colligative Properties"
+        },
+        {
+          "type": "text",
+          "text": "The van ’t Hoff factor is incorporated into the equations for colligative properties.\n\nRelative lowering of vapour pressure:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\frac{\\Delta p}{p_1^\\circ} = i x_2\\]"
+        },
+        {
+          "type": "text",
+          "text": "For dilute solutions, \\(x_2\\) is the mole fraction of the solute calculated assuming no association or dissociation.\n\nElevation of boiling point:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\Delta T_b = i K_b m\\]"
+        },
+        {
+          "type": "text",
+          "text": "Depression of freezing point:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\Delta T_f = i K_f m\\]"
+        },
+        {
+          "type": "text",
+          "text": "Osmotic pressure:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\pi = i C R T\\]"
+        },
+        {
+          "type": "text",
+          "text": "Here, \\(i\\) accounts for the effective number of solute particles in the solution."
+        },
+        {
+          "type": "heading",
+          "text": "5. Relation Between Van ’t Hoff Factor and Degree of Dissociation"
+        },
+        {
+          "type": "text",
+          "text": "For a solute that dissociates into \\(n\\) particles, the van ’t Hoff factor is related to the degree of dissociation \\(\\alpha\\) by"
+        },
+        {
+          "type": "equation",
+          "text": "\\[i = 1 + (n - 1)\\alpha\\]"
+        },
+        {
+          "type": "text",
+          "text": "Therefore,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\alpha = \\frac{i - 1}{n - 1}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Where:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(i\\) = van ’t Hoff factor.",
+            "\\(n\\) = number of particles formed from one formula unit.",
+            "\\(\\alpha\\) = degree of dissociation."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The degree of dissociation represents the fraction of the original solute particles that dissociate."
+        },
+        {
+          "type": "heading",
+          "text": "6. Relation Between Van ’t Hoff Factor and Degree of Association"
+        },
+        {
+          "type": "text",
+          "text": "For association in which \\(n\\) molecules combine to form one associated particle,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[i = 1 - \\alpha\\left(1 - \\frac{1}{n}\\right)\\]"
+        },
+        {
+          "type": "text",
+          "text": "Therefore,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\alpha = \\frac{n(1 - i)}{n - 1}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Where \\(\\alpha\\) represents the fraction of solute molecules that associate.\n\nThese relations help determine the degree of association or dissociation from experimental colligative-property measurements."
+        }
+      ]
+    }
+  ],
+  "summary": "Chapter 1 explains homogeneous solutions, their classification into nine physical state combinations, and methods for expressing concentration including mass percentage, volume percentage, mass by volume percentage, parts per million, mole fraction, molarity, and molality. It covers the solubility of solids and gases in liquids, Henry's law and its practical applications, vapour pressure of liquid solutions, and Raoult's law for volatile and non-volatile solutes. The chapter distinguishes ideal and non-ideal solutions showing positive or negative deviations, defines minimum- and maximum-boiling azeotropes, and derives the four colligative properties—relative lowering of vapour pressure, elevation of boiling point, depression of freezing point, and osmotic pressure—for molar mass determination, along with the van ’t Hoff factor for abnormal molar masses due to association or dissociation.",
+  "qa": [
+    {
+      "q": "What is a solution and what are its two main components?",
+      "a": "A solution is a homogeneous mixture of two or more chemically non-reacting substances whose composition can vary within certain limits. Its two components are the solvent (present in a larger amount, determining the physical state) and the solute (present in a smaller amount, dissolving in the solvent).",
+      "section": "1.1 Types of Solutions"
+    },
+    {
+      "q": "How do molarity and molality differ with respect to temperature?",
+      "a": "Molarity is the number of moles of solute per litre of solution and changes with temperature because solution volume changes with temperature. Molality is the number of moles of solute per kilogram of solvent and is independent of temperature because mass does not change with temperature.",
+      "section": "1.2 Expressing Concentration of Solutions"
+    },
+    {
+      "q": "Why does mole fraction have no unit?",
+      "a": "Mole fraction is the ratio of the number of moles of one component to the total number of moles of all components in the solution, and since both numerator and denominator are expressed in moles, it is dimensionless.",
+      "section": "1.2 Expressing Concentration of Solutions"
+    },
+    {
+      "q": "How does temperature affect the solubility of a solid in a liquid?",
+      "a": "If the dissolution process is endothermic (absorbs heat), solubility generally increases with an increase in temperature. If the dissolution process is exothermic (releases heat), solubility generally decreases with an increase in temperature.",
+      "section": "1.3.1 Solubility of a Solid in a Liquid"
+    },
+    {
+      "q": "State Henry's law and write its mathematical expression.",
+      "a": "Henry's law states that at a constant temperature, the solubility of a gas in a liquid is directly proportional to the partial pressure of the gas above the liquid: \\(p = K_H x\\), where \\(p\\) is partial pressure, \\(x\\) is mole fraction of the dissolved gas, and \\(K_H\\) is Henry's law constant.",
+      "section": "1.3.2 Solubility of a Gas in a Liquid (Henry's Law)"
+    },
+    {
+      "q": "What are the main applications of Henry's law?",
+      "a": "Henry's law explains the sealing of carbonated drinks under high pressure to dissolve CO2, decompression sickness in scuba divers ascending too quickly due to nitrogen bubbles in the blood, and lower blood oxygen levels at high altitudes where partial pressure of oxygen is lower.",
+      "section": "1.3.2 Solubility of a Gas in a Liquid (Henry's Law)"
+    },
+    {
+      "q": "State Raoult's law for a solution of volatile liquids.",
+      "a": "Raoult's law states that the partial vapour pressure of each volatile component of a solution is directly proportional to its mole fraction in the solution at a given temperature: \\(p_A = x_A p_A^\\circ\\) and \\(p_B = x_B p_B^\\circ\\).",
+      "section": "1.4.1 Vapour Pressure of Liquid–Liquid Solutions (Raoult's Law)"
+    },
+    {
+      "q": "Under what condition is Raoult's law a special case of Henry's law?",
+      "a": "Raoult's law becomes a special case of Henry's law when the Henry's law constant \\(K_H\\) is equal to the vapour pressure of the pure component \\(p_A^\\circ\\).",
+      "section": "1.4.2 Raoult’s Law as a Special Case of Henry’s Law"
+    },
+    {
+      "q": "What are the characteristics of an ideal solution?",
+      "a": "An ideal solution obeys Raoult's law at all compositions, has A–B intermolecular attractions nearly equal to A–A and B–B attractions, has zero enthalpy change on mixing (\\(\\Delta H_{\\text{mix}} = 0\\)), and has zero volume change on mixing (\\(\\Delta V_{\\text{mix}} = 0\\)).",
+      "section": "1.5 Ideal and Non-Ideal Solutions (Azeotropes)"
+    },
+    {
+      "q": "What are azeotropes and what are their two types?",
+      "a": "Azeotropes are liquid mixtures that boil at a constant temperature and have the same composition in the liquid and vapour phases, so they cannot be separated by simple fractional distillation. They are classified into minimum-boiling azeotropes (large positive deviation, e.g., ethanol and water) and maximum-boiling azeotropes (large negative deviation, e.g., nitric acid and water).",
+      "section": "1.5 Ideal and Non-Ideal Solutions (Azeotropes)"
+    },
+    {
+      "q": "What are colligative properties? List the four main colligative properties.",
+      "a": "Colligative properties are properties of dilute solutions that depend on the number of solute particles relative to solvent particles rather than on the chemical nature of the solute. The four main colligative properties are relative lowering of vapour pressure, elevation of boiling point, depression of freezing point, and osmotic pressure.",
+      "section": "1.6 Colligative Properties and Determination of Molar Mass"
+    },
+    {
+      "q": "Why is osmotic pressure preferred for determining the molar mass of proteins and polymers?",
+      "a": "Osmotic pressure is measured at room temperature, which prevents thermal decomposition of heat-sensitive biomolecules like proteins, and uses molarity rather than molality.",
+      "section": "1.6.4 Osmosis and Osmotic Pressure"
+    },
+    {
+      "q": "What is the van ’t Hoff factor and how does its value indicate association or dissociation?",
+      "a": "The van ’t Hoff factor \\(i\\) is the ratio of the observed colligative property to the calculated colligative property (or normal molar mass to observed molar mass). For non-electrolytes \\(i = 1\\), for solute association \\(i < 1\\), and for solute dissociation \\(i > 1\\).",
+      "section": "1.7 Abnormal Molar Masses (Van ’t Hoff Factor)"
+    }
+  ]
+}

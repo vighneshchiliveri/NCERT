@@ -1,0 +1,1104 @@
+{
+  "title": "Alcohols, Phenols and Ethers",
+  "class": "12",
+  "subject": "Chemistry",
+  "chapter": "Chapter 7",
+  "book": "NCERT Chemistry",
+  "notes": [
+    {
+      "heading": "7.1 Classification of Alcohols, Phenols and Ethers",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Organic compounds containing oxygen as a part of their functional groups are classified into <strong>alcohols</strong>, <strong>phenols</strong> and <strong>ethers</strong>."
+        },
+        {
+          "type": "heading",
+          "text": "1. Alcohols"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Alcohols</strong> are organic compounds in which one or more hydroxyl groups (\\(\\ce{-OH}\\)) are attached to a saturated carbon atom (\\(sp^3\\)-hybridised carbon).\n\nGeneral representation: \\(\\ce{R-OH}\\)"
+        },
+        {
+          "type": "heading",
+          "text": "(a) Classification based on the number of hydroxyl groups"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Monohydric alcohols:</strong> Contain one hydroxyl group.\nExample: Ethanol, \\(\\ce{CH3CH2OH}\\)",
+            "<strong>Dihydric alcohols:</strong> Contain two hydroxyl groups.\nExample: Ethane-1,2-diol, \\(\\ce{HO-CH2-CH2-OH}\\)",
+            "<strong>Trihydric alcohols:</strong> Contain three hydroxyl groups.\nExample: Glycerol, \\(\\ce{HOCH2-CHOH-CH2OH}\\)",
+            "<strong>Polyhydric alcohols:</strong> Contain more than one hydroxyl group, generally two or more."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "(b) Classification of monohydric alcohols based on the carbon attached to the –OH group"
+        },
+        {
+          "type": "text",
+          "text": "Alcohols are classified as primary, secondary or tertiary according to the number of carbon atoms attached to the carbon bearing the hydroxyl group.\n\n<strong>1. Primary (1°) alcohol:</strong> The carbon bearing the \\(\\ce{-OH}\\) group is attached to only one other carbon atom or no other carbon atom.\n\nGeneral structure: \\(\\ce{R-CH2-OH}\\)\n\n<strong>Example:</strong> Ethanol, \\(\\ce{CH3CH2OH}\\)\n\n<strong>2. Secondary (2°) alcohol:</strong> The carbon bearing the \\(\\ce{-OH}\\) group is attached to two other carbon atoms.\n\nGeneral structure: \\(\\ce{R-CH(OH)-R'}\\)\n\n<strong>Example:</strong> Propan-2-ol, \\(\\ce{CH3CH(OH)CH3}\\)\n\n<strong>3. Tertiary (3°) alcohol:</strong> The carbon bearing the \\(\\ce{-OH}\\) group is attached to three other carbon atoms.\n\nGeneral structure: \\(\\ce{R3C-OH}\\)\n\n<strong>Example:</strong> 2-Methylpropan-2-ol, \\(\\ce{(CH3)3COH}\\)\n\nHere, \\(R\\) and \\(R'\\) represent alkyl groups, which may be the same or different."
+        },
+        {
+          "type": "heading",
+          "text": "2. Phenols"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Phenols</strong> are organic compounds in which one or more hydroxyl groups are directly attached to an aromatic ring.\n\nGeneral representation: \\(\\ce{Ar-OH}\\)\n\nHere, \\(\\ce{Ar}\\) represents an aromatic group."
+        },
+        {
+          "type": "heading",
+          "text": "Classification based on the number of hydroxyl groups"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Monohydric phenols:</strong> Contain one hydroxyl group directly attached to an aromatic ring.\nExample: Phenol, \\(\\ce{C6H5OH}\\)",
+            "<strong>Dihydric phenols:</strong> Contain two hydroxyl groups directly attached to an aromatic ring.\nExamples: Benzene-1,2-diol and benzene-1,4-diol.",
+            "<strong>Trihydric phenols:</strong> Contain three hydroxyl groups directly attached to an aromatic ring.\nExample: Benzene-1,2,3-triol."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Difference between alcohols and phenols:</strong> In alcohols, the \\(\\ce{-OH}\\) group is attached to a saturated carbon atom, whereas in phenols, the \\(\\ce{-OH}\\) group is directly attached to an aromatic ring."
+        },
+        {
+          "type": "heading",
+          "text": "3. Ethers"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Ethers</strong> are organic compounds in which an oxygen atom is bonded to two alkyl groups, two aryl groups, or one alkyl and one aryl group.\n\nGeneral representation: \\(\\ce{R-O-R'}\\)"
+        },
+        {
+          "type": "heading",
+          "text": "Classification"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Simple or symmetrical ethers:</strong> The two groups attached to the oxygen atom are identical.\nExample: Ethoxyethane, \\(\\ce{CH3CH2-O-CH2CH3}\\)",
+            "<strong>Mixed or unsymmetrical ethers:</strong> The two groups attached to the oxygen atom are different.\nExample: Methoxyethane, \\(\\ce{CH3-O-CH2CH3}\\)"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ethers may contain alkyl groups, aryl groups or both. For example, methoxybenzene (\\(\\ce{C6H5OCH3}\\)) contains one aromatic group and one methyl group."
+        }
+      ]
+    },
+    {
+      "heading": "7.2 Nomenclature of Alcohols, Phenols and Ethers",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The nomenclature of alcohols, phenols and ethers is based on both common names and the IUPAC system."
+        },
+        {
+          "type": "heading",
+          "text": "1. Nomenclature of Alcohols"
+        },
+        {
+          "type": "heading",
+          "text": "(a) Common names"
+        },
+        {
+          "type": "text",
+          "text": "In the common system, the name of the alkyl group is followed by the word alcohol.\n\n<strong>Examples:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(\\ce{CH3OH}\\) — Methyl alcohol",
+            "\\(\\ce{CH3CH2OH}\\) — Ethyl alcohol",
+            "\\(\\ce{CH3CH2CH2OH}\\) — n-Propyl alcohol",
+            "\\(\\ce{CH3CH(OH)CH3}\\) — Isopropyl alcohol"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "(b) IUPAC names"
+        },
+        {
+          "type": "text",
+          "text": "The following rules are used:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Select the longest carbon chain containing the carbon attached to the \\(\\ce{-OH}\\) group.",
+            "Number the chain from the end nearest to the \\(\\ce{-OH}\\) group.",
+            "Replace the final -e of the corresponding alkane name with -ol.",
+            "Indicate the position of the \\(\\ce{-OH}\\) group using the lowest possible number.",
+            "Name and number any substituents as required."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Examples:</strong>"
+        },
+        {
+          "type": "table",
+          "label": "IUPAC names of alcohols",
+          "headers": [
+            "Structure",
+            "IUPAC name"
+          ],
+          "rows": [
+            [
+              "\\(\\ce{CH3OH}\\)",
+              "Methanol"
+            ],
+            [
+              "\\(\\ce{CH3CH2OH}\\)",
+              "Ethanol"
+            ],
+            [
+              "\\(\\ce{CH3CH2CH2OH}\\)",
+              "Propan-1-ol"
+            ],
+            [
+              "\\(\\ce{CH3CH(OH)CH3}\\)",
+              "Propan-2-ol"
+            ],
+            [
+              "\\(\\ce{CH3CH(CH3)CH2OH}\\)",
+              "2-Methylpropan-1-ol"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "For alcohols containing two or more hydroxyl groups, use suffixes such as -diol and -triol.\n\n<strong>Examples:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(\\ce{HOCH2CH2OH}\\) — Ethane-1,2-diol",
+            "\\(\\ce{HOCH2CHOHCH2OH}\\) — Propane-1,2,3-triol"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "2. Nomenclature of Phenols"
+        },
+        {
+          "type": "heading",
+          "text": "(a) Common names"
+        },
+        {
+          "type": "text",
+          "text": "Phenol is the common name for hydroxybenzene. Compounds containing additional substituents are often named using the common name of phenol.\n\n<strong>Examples:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(\\ce{C6H5OH}\\) — Phenol",
+            "\\(\\ce{CH3C6H4OH}\\) — Cresol (methylphenol)"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "In disubstituted phenols, the relative positions of substituents may be indicated by ortho (o-), meta (m-) and para (p-)."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Ortho (o-):</strong> Substituents are at positions 1 and 2.",
+            "<strong>Meta (m-):</strong> Substituents are at positions 1 and 3.",
+            "<strong>Para (p-):</strong> Substituents are at positions 1 and 4."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "(b) IUPAC names"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "The parent name is phenol when the \\(\\ce{-OH}\\) group is directly attached to the benzene ring.",
+            "The carbon attached to \\(\\ce{-OH}\\) is assigned position 1.",
+            "Number the ring to give other substituents the lowest possible locants.",
+            "For compounds containing multiple hydroxyl groups, use suffixes such as -diol and -triol with appropriate locants."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Examples:</strong>"
+        },
+        {
+          "type": "table",
+          "label": "IUPAC names of phenols",
+          "headers": [
+            "Structure or compound",
+            "IUPAC name"
+          ],
+          "rows": [
+            [
+              "\\(\\ce{C6H5OH}\\)",
+              "Phenol"
+            ],
+            [
+              "\\(\\textit{o}\\)-Cresol",
+              "2-Methylphenol"
+            ],
+            [
+              "\\(\\textit{m}\\)-Cresol",
+              "3-Methylphenol"
+            ],
+            [
+              "\\(\\textit{p}\\)-Cresol",
+              "4-Methylphenol"
+            ],
+            [
+              "Catechol",
+              "Benzene-1,2-diol"
+            ],
+            [
+              "Resorcinol",
+              "Benzene-1,3-diol"
+            ],
+            [
+              "Hydroquinone",
+              "Benzene-1,4-diol"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "3. Nomenclature of Ethers"
+        },
+        {
+          "type": "heading",
+          "text": "(a) Common names"
+        },
+        {
+          "type": "text",
+          "text": "In the common system, the names of the two groups attached to oxygen are written alphabetically, followed by the word ether. For identical groups, the prefix di- is used.\n\n<strong>Examples:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(\\ce{CH3OCH3}\\) — Dimethyl ether",
+            "\\(\\ce{CH3OC2H5}\\) — Ethyl methyl ether",
+            "\\(\\ce{C2H5OC2H5}\\) — Diethyl ether"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "(b) IUPAC names"
+        },
+        {
+          "type": "text",
+          "text": "Ethers are named as <strong>alkoxyalkanes</strong>.\n\nThe larger carbon group is generally selected as the parent alkane, while the smaller group attached through oxygen is named as an alkoxy substituent.\n\nCommon alkoxy groups include:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(\\ce{CH3O-}\\) — Methoxy",
+            "\\(\\ce{C2H5O-}\\) — Ethoxy",
+            "\\(\\ce{C3H7O-}\\) — Propoxy"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Examples:</strong>"
+        },
+        {
+          "type": "table",
+          "label": "Common and IUPAC names of ethers",
+          "headers": [
+            "Structure",
+            "Common name",
+            "IUPAC name"
+          ],
+          "rows": [
+            [
+              "\\(\\ce{CH3OCH3}\\)",
+              "Dimethyl ether",
+              "Methoxymethane"
+            ],
+            [
+              "\\(\\ce{CH3OC2H5}\\)",
+              "Ethyl methyl ether",
+              "Methoxyethane"
+            ],
+            [
+              "\\(\\ce{C2H5OC2H5}\\)",
+              "Diethyl ether",
+              "Ethoxyethane"
+            ],
+            [
+              "\\(\\ce{C6H5OCH3}\\)",
+              "Anisole",
+              "Methoxybenzene"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "For substituted ethers, number the parent chain to give the alkoxy group and other substituents the appropriate lowest locants."
+        }
+      ]
+    },
+    {
+      "heading": "7.3 Structures of Functional Groups",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Functional groups are specific atoms or groups of atoms present in organic compounds that determine their characteristic chemical properties and reactions.\n\nThe important functional groups in alcohols, phenols and ethers are:"
+        },
+        {
+          "type": "heading",
+          "text": "1. Alcohol Group (–OH)"
+        },
+        {
+          "type": "text",
+          "text": "In alcohols, the hydroxyl group is attached to a saturated carbon atom.\n\nGeneral structure:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{R-OH}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong> Ethanol, \\(\\ce{CH3CH2OH}\\)"
+        },
+        {
+          "type": "heading",
+          "text": "2. Phenolic Group (–OH)"
+        },
+        {
+          "type": "text",
+          "text": "In phenols, the hydroxyl group is directly attached to an aromatic benzene ring.\n\nGeneral structure:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Ar-OH}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong> Phenol, \\(\\ce{C6H5OH}\\)"
+        },
+        {
+          "type": "heading",
+          "text": "3. Ether Group (–O–)"
+        },
+        {
+          "type": "text",
+          "text": "In ethers, an oxygen atom is bonded to two carbon-containing groups.\n\nGeneral structure:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{R-O-R'}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong> Methoxyethane, \\(\\ce{CH3-O-CH2CH3}\\)\n\nHere, \\(R\\), \\(R'\\) and \\(\\ce{Ar}\\) represent alkyl or aryl groups, as appropriate.\n\nThe main structural difference is that alcohols contain an \\(\\ce{-OH}\\) group attached to a saturated carbon, phenols contain an \\(\\ce{-OH}\\) group attached directly to an aromatic ring, and ethers contain an oxygen atom between two carbon-containing groups."
+        }
+      ]
+    },
+    {
+      "heading": "7.4.1 Preparation of Alcohols and Phenols",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "A. Preparation of Alcohols"
+        },
+        {
+          "type": "text",
+          "text": "Alcohols can be prepared by the following methods.\n\n<strong>1. From alkenes (Hydration)</strong>\nAlkenes react with water in the presence of an acid catalyst to form alcohols."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH2=CH2 + H2O ->[\\ce{H+}] CH3CH2OH}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Ethene gives ethanol.\n\nIn unsymmetrical alkenes, acid-catalysed hydration generally follows Markovnikov's rule: the \\(\\ce{-OH}\\) group attaches to the carbon atom that already has more alkyl groups.\n\n<strong>2. From alkyl halides</strong>\nAlkyl halides react with aqueous potassium hydroxide to form alcohols."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{R-X + KOH(aq) -> R-OH + KX}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Here, \\(X\\) represents a halogen atom.\n\n<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3CH2Br + KOH(aq) -> CH3CH2OH + KBr}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>3. By reduction of aldehydes and ketones</strong>\nAldehydes are reduced to primary alcohols, whereas ketones are reduced to secondary alcohols. Common reducing agents include \\(\\ce{NaBH4}\\) and \\(\\ce{LiAlH4}\\).\n\nAldehyde:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCHO + 2[H] -> RCH2OH}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Ketone:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCOR' + 2[H] -> RCH(OH)R'}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>4. By reduction of carboxylic acids and esters</strong>\nCarboxylic acids are reduced to primary alcohols using a suitable strong reducing agent such as \\(\\ce{LiAlH4}\\)."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCOOH + 4[H] -> RCH2OH + H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Esters undergo reduction to give two alcohol molecules or alcohol products, depending on their structure."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCOOR' + 4[H] -> RCH2OH + R'OH}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>5. From Grignard reagents</strong>\nGrignard reagents react with carbonyl compounds, followed by acidic hydrolysis, to form alcohols."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>With formaldehyde:</strong> primary alcohols.",
+            "<strong>With other aldehydes:</strong> secondary alcohols.",
+            "<strong>With ketones:</strong> tertiary alcohols."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{HCHO + RMgX ->[\\text{dry ether}] RCH2OMgX}\\]"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCH2OMgX + H3O+ -> RCH2OH}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "B. Preparation of Phenols"
+        },
+        {
+          "type": "text",
+          "text": "<strong>1. From haloarenes</strong>\nChlorobenzene is heated with aqueous sodium hydroxide at high temperature and pressure to form sodium phenoxide. Acidification gives phenol."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C6H5Cl + 2NaOH ->[623\\text{ K}][\\text{high pressure}] C6H5ONa + NaCl + H2O}\\]"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C6H5ONa + HCl -> C6H5OH + NaCl}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>2. From benzene sulphonic acid</strong>\nBenzene sulphonic acid is fused with molten sodium hydroxide to form sodium phenoxide, which gives phenol on acidification."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C6H5SO3Na + 2NaOH ->[\\text{fusion}] C6H5ONa + Na2SO3 + H2O}\\]"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C6H5ONa + HCl -> C6H5OH + NaCl}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>3. From diazonium salts</strong>\nBenzene diazonium chloride reacts with warm water to produce phenol, nitrogen gas and hydrochloric acid."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C6H5N2Cl + H2O ->[\\text{warm}] C6H5OH + N2 + HCl}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>4. From cumene (industrial method)</strong>\nCumene is oxidised by air to form cumene hydroperoxide, which undergoes acid-catalysed cleavage to give phenol and acetone."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Cumene} + \\ce{O2} \\to \\text{Cumene hydroperoxide}\\]"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Cumene hydroperoxide} \\xrightarrow{\\ce{H+}} \\text{Phenol} + \\text{Acetone}\\]"
+        },
+        {
+          "type": "text",
+          "text": "This is an important industrial method for manufacturing phenol."
+        }
+      ]
+    },
+    {
+      "heading": "7.4.2 Physical Properties of Alcohols and Phenols",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Physical State and Appearance"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Lower alcohols are generally colourless liquids at room temperature.",
+            "Higher alcohols may exist as liquids or solids, depending on their molecular mass.",
+            "Phenol is a colourless crystalline solid at room temperature, although it may become coloured on exposure to air due to oxidation."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "2. Boiling Points"
+        },
+        {
+          "type": "text",
+          "text": "Alcohols and phenols have higher boiling points than corresponding hydrocarbons and ethers of comparable molecular masses.\n\nThis is because alcohols and phenols form intermolecular hydrogen bonds due to the presence of the \\(\\ce{-OH}\\) group.\n\nGreater energy is required to break these intermolecular attractions during boiling.\n\nFor example, ethanol has a higher boiling point than dimethyl ether, although both have the same molecular formula, \\(\\ce{C2H6O}\\)."
+        },
+        {
+          "type": "heading",
+          "text": "3. Solubility in Water"
+        },
+        {
+          "type": "text",
+          "text": "Alcohols and phenols can form hydrogen bonds with water molecules."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Lower alcohols, such as methanol and ethanol, are completely miscible with water.",
+            "The solubility of alcohols decreases as the length of the hydrocarbon chain increases.",
+            "Phenol is only moderately soluble in water because its aromatic ring is hydrophobic, while its \\(\\ce{-OH}\\) group can form hydrogen bonds with water."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Thus, the balance between the polar hydroxyl group and the non-polar hydrocarbon part determines water solubility."
+        },
+        {
+          "type": "heading",
+          "text": "4. Effect of Molecular Mass"
+        },
+        {
+          "type": "text",
+          "text": "In a homologous series of alcohols, boiling points generally increase with increasing molecular mass because intermolecular van der Waals forces become stronger.\n\nThe same general trend is observed in phenols and other related organic compounds."
+        },
+        {
+          "type": "heading",
+          "text": "5. Effect of Branching"
+        },
+        {
+          "type": "text",
+          "text": "Among alcohols with the same molecular formula, increased branching generally lowers the boiling point because it reduces the effective surface area of the molecules and weakens intermolecular dispersion forces."
+        }
+      ]
+    },
+    {
+      "heading": "7.4.3 Chemical Reactions of Alcohols and Phenols",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Reactions Involving the Cleavage of the O–H Bond"
+        },
+        {
+          "type": "text",
+          "text": "The O–H bond in alcohols and phenols can break when hydrogen is replaced by a metal. These reactions demonstrate their acidic character.\n\n<strong>(a) Reaction with active metals</strong>\nAlcohols react with active metals such as sodium to form alkoxides and liberate hydrogen gas."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2ROH + 2Na -> 2RONa + H2 ^}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2C2H5OH + 2Na -> 2C2H5ONa + H2 ^}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Phenols also react with sodium to form sodium phenoxide and hydrogen gas."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2C6H5OH + 2Na -> 2C6H5ONa + H2 ^}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>(b) Acidic character of alcohols and phenols</strong>\nAlcohols and phenols are weak acids. Phenols are generally more acidic than alcohols because the phenoxide ion formed after losing a proton is stabilised by resonance.\n\nAlcohol:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{ROH <=> RO- + H+}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Phenol:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C6H5OH <=> C6H5O- + H+}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Phenol reacts with aqueous sodium hydroxide to form sodium phenoxide, whereas ordinary alcohols do not react appreciably with aqueous sodium hydroxide."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C6H5OH + NaOH -> C6H5ONa + H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "This reaction helps distinguish phenols from ordinary alcohols."
+        },
+        {
+          "type": "heading",
+          "text": "2. Reactions Involving the Cleavage of the C–O Bond in Alcohols"
+        },
+        {
+          "type": "text",
+          "text": "<strong>(a) Reaction with hydrogen halides</strong>\nAlcohols react with hydrogen halides (\\(\\ce{HX}\\)) to form alkyl halides and water."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{ROH + HX -> RX + H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C2H5OH + HBr -> C2H5Br + H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The reactivity of hydrogen halides generally follows:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{HI > HBr > HCl}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The ease of substitution among alcohols depends on their structure and the reaction conditions.\n\n<strong>(b) Reaction with phosphorus halides</strong>\nAlcohols react with phosphorus halides to form alkyl halides.\n\nUsing phosphorus tribromide:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{3ROH + PBr3 -> 3RBr + H3PO3}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Using phosphorus pentachloride:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{ROH + PCl5 -> RCl + POCl3 + HCl}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>(c) Dehydration of alcohols</strong>\nAlcohols undergo dehydration in the presence of concentrated sulphuric acid to form alkenes at sufficiently high temperatures.\n\n<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3CH2OH ->[\\text{conc. }\\ce{H2SO4}][443\\text{ K}] CH2=CH2 + H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The ease of dehydration generally follows:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[3^\\circ > 2^\\circ > 1^\\circ\\]"
+        },
+        {
+          "type": "text",
+          "text": "This order reflects the relative stability of the carbocation-like intermediate in acid-catalysed dehydration.\n\n<strong>(d) Formation of ethers by dehydration</strong>\nAt a lower temperature, approximately \\(413\\text{ K}\\), ethanol undergoes intermolecular dehydration in the presence of concentrated sulphuric acid to form ethoxyethane."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2C2H5OH ->[\\text{conc. }\\ce{H2SO4}][413\\text{ K}] C2H5OC2H5 + H2O}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "3. Oxidation of Alcohols"
+        },
+        {
+          "type": "text",
+          "text": "Alcohols undergo oxidation to form different products depending on their classification and the oxidising agent used.\n\n<strong>(a) Primary alcohols</strong>\nPrimary alcohols are oxidised first to aldehydes and then to carboxylic acids under stronger oxidation conditions."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCH2OH + [O] -> RCHO + H2O}\\]"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RCHO + [O] -> RCOOH}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3CH2OH ->[[O]] CH3CHO ->[[O]] CH3COOH}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>(b) Secondary alcohols</strong>\nSecondary alcohols are oxidised to ketones."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{R2CHOH + [O] -> R2C=O + H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3CH(OH)CH3 ->[[O]] CH3COCH3 + H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Propan-2-ol forms propanone.\n\n<strong>(c) Tertiary alcohols</strong>\nTertiary alcohols resist oxidation under ordinary conditions because the carbon bearing the \\(\\ce{-OH}\\) group has no hydrogen atom attached to it. Strong oxidation may cause carbon–carbon bond cleavage."
+        },
+        {
+          "type": "heading",
+          "text": "4. Oxidation of Phenols"
+        },
+        {
+          "type": "text",
+          "text": "Phenol can be oxidised by suitable oxidising agents to form quinones.\n\nFor example, oxidation of phenol can produce p-benzoquinone under suitable conditions."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Phenol} \\xrightarrow{[\\text{O}]} \\text{\\textit{p}-Benzoquinone}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Quinones contain two carbonyl groups in a conjugated ring system."
+        },
+        {
+          "type": "heading",
+          "text": "5. Electrophilic Aromatic Substitution in Phenols"
+        },
+        {
+          "type": "text",
+          "text": "The \\(\\ce{-OH}\\) group activates the benzene ring towards electrophilic substitution and directs incoming electrophiles mainly to the ortho and para positions.\n\nThis occurs because the oxygen atom donates electron density into the aromatic ring through resonance.\n\n<strong>(a) Halogenation</strong>\nPhenol reacts with bromine water at room temperature to form 2,4,6-tribromophenol, a white precipitate."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C6H5OH + 3Br2 -> C6H2Br3OH + 3HBr}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>(b) Nitration</strong>\nWith dilute nitric acid, phenol forms a mixture of 2-nitrophenol and 4-nitrophenol."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Phenol} + \\ce{HNO3} \\xrightarrow{\\text{dilute}} \\text{\\textit{o}-Nitrophenol} + \\text{\\textit{p}-Nitrophenol}\\]"
+        },
+        {
+          "type": "text",
+          "text": "With concentrated nitric acid in the presence of concentrated sulphuric acid, phenol forms 2,4,6-trinitrophenol, also known as <strong>picric acid</strong>.\n\n<strong>(c) Sulphonation</strong>\nPhenol reacts with concentrated sulphuric acid to form ortho- and para-phenolsulphonic acids, depending on the temperature."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "At about \\(293\\text{ K}\\), the ortho product is favoured.",
+            "At about \\(373\\text{ K}\\), the para product is favoured."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "These reactions illustrate the strong activating and ortho/para-directing effect of the hydroxyl group in phenol."
+        }
+      ]
+    },
+    {
+      "heading": "7.5 Some Commercially Important Alcohols",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Methanol (CH₃OH)"
+        },
+        {
+          "type": "text",
+          "text": "Methanol is also known as methyl alcohol or wood spirit. It is the simplest alcohol.\n\n<strong>Preparation</strong>\nMethanol is manufactured industrially by catalytic hydrogenation of carbon monoxide."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CO + 2H2 ->[\\ce{ZnO-Cr2O3}][\\text{high pressure}] CH3OH}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Properties and Uses</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Methanol is a colourless, volatile liquid.",
+            "It is completely miscible with water.",
+            "It is used as an industrial solvent.",
+            "It is used in the manufacture of formaldehyde and other chemicals.",
+            "It is used as a fuel and in the production of fuel blends."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Toxicity:</strong> Methanol is highly poisonous. Ingestion can cause serious damage to the nervous system and optic nerve, and may result in blindness or death."
+        },
+        {
+          "type": "heading",
+          "text": "2. Ethanol (C₂H₅OH)"
+        },
+        {
+          "type": "text",
+          "text": "Ethanol is also known as ethyl alcohol. It is an important alcohol used as a solvent, fuel and chemical raw material.\n\n<strong>Preparation</strong>\n\n<strong>(a) By fermentation of sugars</strong>\nEthanol is produced by the fermentation of glucose in the presence of enzymes from yeast under suitable conditions, usually in the absence of oxygen."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C6H12O6 ->[\\text{zymase}][\\text{absence of }\\ce{O2}] 2C2H5OH + 2CO2}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>(b) By hydration of ethene</strong>\nEthanol is prepared industrially by the hydration of ethene in the presence of an acid catalyst."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH2=CH2 + H2O ->[\\ce{H3PO4}] CH3CH2OH}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Properties and Uses</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Ethanol is a colourless liquid with a characteristic odour.",
+            "It is completely miscible with water.",
+            "It is widely used as a solvent in medicines, perfumes and paints.",
+            "It is used as a fuel and as a blending component in petrol.",
+            "It is an important raw material for the manufacture of chemicals such as ethanoic acid and ethyl ethanoate."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Harmful Effects of Ethanol</strong>\nExcessive consumption of ethanol can impair judgement and coordination. Long-term excessive consumption can damage the liver and other organs and may lead to dependence."
+        }
+      ]
+    },
+    {
+      "heading": "7.6.1 Preparation of Ethers",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Ethers can be prepared by several methods. An important method is the <strong>Williamson ether synthesis</strong>."
+        },
+        {
+          "type": "heading",
+          "text": "Williamson Ether Synthesis"
+        },
+        {
+          "type": "text",
+          "text": "In this method, an alkyl halide reacts with sodium alkoxide to form an ether."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{RONa + R'X -> ROR' + NaX}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Here, \\(R\\) and \\(R'\\) represent alkyl groups, and \\(X\\) represents a halogen atom.\n\n<strong>Example: Preparation of methoxyethane</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C2H5ONa + CH3Br -> CH3OC2H5 + NaBr}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Sodium ethoxide reacts with bromomethane to form methoxyethane.\n\n<strong>Mechanism:</strong> Williamson ether synthesis proceeds through an \\(\\text{S}_{\\text{N}}2\\) nucleophilic substitution reaction. The alkoxide ion attacks the carbon atom bonded to the halogen, displacing the halide ion.\n\n<strong>Important points:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Primary alkyl halides generally give the best results.",
+            "Secondary and tertiary alkyl halides may undergo elimination instead of substitution.",
+            "To prepare an unsymmetrical ether, the alkyl halide is generally chosen to be the less hindered partner, preferably a primary alkyl halide."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Preparation of Symmetrical Ethers by Dehydration"
+        },
+        {
+          "type": "text",
+          "text": "Alcohols undergo intermolecular dehydration in the presence of concentrated sulphuric acid at about \\(413\\text{ K}\\) to form ethers.\n\n<strong>Example:</strong> Preparation of ethoxyethane from ethanol."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2C2H5OH ->[\\text{conc. }\\ce{H2SO4}][413\\text{ K}] C2H5OC2H5 + H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "This method is suitable mainly for preparing symmetrical ethers from primary alcohols under controlled conditions."
+        }
+      ]
+    },
+    {
+      "heading": "7.6.2 Physical Properties of Ethers",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Physical state:</strong> Lower ethers are generally colourless, volatile liquids with characteristic odours.",
+            "<strong>Boiling points:</strong> Ethers have lower boiling points than alcohols of comparable molecular masses because ethers do not form intermolecular hydrogen bonds with one another. For example, ethanol has a higher boiling point than dimethyl ether, although both have the molecular formula \\(\\ce{C2H6O}\\).",
+            "<strong>Solubility in water:</strong> Ethers are slightly soluble in water because the oxygen atom can form hydrogen bonds with water molecules. However, they cannot form hydrogen bonds with one another in the same way as alcohols.",
+            "<strong>Solubility in organic solvents:</strong> Ethers are generally soluble in many organic solvents and are widely used as solvents for organic compounds.",
+            "<strong>Polarity:</strong> Ethers are polar compounds because of the polar carbon–oxygen bonds. However, they generally have lower boiling points than corresponding alcohols due to the absence of intermolecular hydrogen bonding between ether molecules."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "7.6.3 Chemical Reactions of Ethers",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Cleavage of C–O Bond by Hydrogen Halides (HX)"
+        },
+        {
+          "type": "text",
+          "text": "Ethers react with hydrogen halides such as \\(\\ce{HI}\\) and \\(\\ce{HBr}\\) to form alcohols and alkyl halides or, with excess hydrogen halide, two alkyl halides.\n\nThe reaction generally requires heating.\n\n<strong>(a) Reaction with HI</strong>\nWhen an ether reacts with one mole of \\(\\ce{HI}\\), cleavage of the C–O bond produces an alcohol and an alkyl iodide."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{ROR' + HI -> RI + R'OH}\\]"
+        },
+        {
+          "type": "text",
+          "text": "With excess \\(\\ce{HI}\\), the alcohol formed may react further to produce another alkyl iodide."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{R'OH + HI -> R'I + H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Overall:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{ROR' + 2HI -> RI + R'I + H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>(b) Cleavage of unsymmetrical ethers</strong>\nIn unsymmetrical ethers, cleavage generally occurs at the less hindered alkyl group when the reaction proceeds by an \\(\\text{S}_{\\text{N}}2\\) mechanism.\n\n<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3OC2H5 + HI -> CH3I + C2H5OH}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The methyl–oxygen bond is cleaved, producing methyl iodide and ethanol.\n\nWith excess \\(\\ce{HI}\\):"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{CH3OC2H5 + 2HI -> CH3I + C2H5I + H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>(c) Cleavage of aryl–alkyl ethers</strong>\nIn aryl–alkyl ethers, the alkyl–oxygen bond is cleaved because the aryl–oxygen bond has partial double-bond character due to resonance and is difficult to break.\n\n<strong>Example:</strong> Anisole reacts with \\(\\ce{HI}\\) to form phenol and methyl iodide."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C6H5OCH3 + HI -> C6H5OH + CH3I}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The aromatic ring remains attached to oxygen, producing phenol."
+        }
+      ]
+    }
+  ],
+  "summary": "Chapter 7 covers the classification, nomenclature, functional group structures, preparation, physical properties, and chemical reactions of alcohols, phenols, and ethers. It explains the preparation of alcohols from alkenes, alkyl halides, carbonyl compounds, carboxylic acids/esters, and Grignard reagents, as well as the preparation of phenols from haloarenes, benzene sulphonic acid, diazonium salts, and cumene. It highlights how intermolecular hydrogen bonding raises the boiling points of alcohols and phenols relative to ethers and hydrocarbons, and compares the acidity of alcohols and phenols (with resonance-stabilised phenoxide ions). The chapter details reactions of alcohols and phenols (O–H and C–O bond cleavage, dehydration, oxidation, and electrophilic substitution of phenol), the industrial production and uses of methanol and ethanol, and the preparation (Williamson synthesis and alcohol dehydration), properties, and C–O cleavage reactions of ethers.",
+  "qa": [
+    {
+      "q": "What is the main structural difference between alcohols, phenols, and ethers?",
+      "a": "Alcohols contain a hydroxyl group (\\(\\ce{-OH}\\)) attached to an \\(sp^3\\)-hybridised saturated carbon atom (\\(\\ce{R-OH}\\)), phenols contain an \\(\\ce{-OH}\\) group attached directly to an aromatic ring (\\(\\ce{Ar-OH}\\)), and ethers contain an oxygen atom bonded to two alkyl or aryl groups (\\(\\ce{R-O-R'}\\)).",
+      "section": "7.3 Structures of Functional Groups"
+    },
+    {
+      "q": "How are primary, secondary, and tertiary alcohols prepared using Grignard reagents?",
+      "a": "Grignard reagents (\\(\\ce{RMgX}\\)) react with carbonyl compounds in dry ether followed by acidic hydrolysis: reaction with formaldehyde (\\(\\ce{HCHO}\\)) gives a primary alcohol, reaction with any other aldehyde (\\(\\ce{R'CHO}\\)) gives a secondary alcohol, and reaction with a ketone (\\(\\ce{R'COR''}\\)) gives a tertiary alcohol.",
+      "section": "7.4.1 Preparation of Alcohols and Phenols"
+    },
+    {
+      "q": "How is phenol manufactured industrially from cumene?",
+      "a": "Cumene (isopropylbenzene) is oxidised by air to form cumene hydroperoxide, which on treatment with dilute acid undergoes cleavage to yield phenol and acetone as a valuable by-product.",
+      "section": "7.4.1 Preparation of Alcohols and Phenols"
+    },
+    {
+      "q": "Why do alcohols and phenols have higher boiling points than ethers and hydrocarbons of comparable molecular mass?",
+      "a": "Alcohols and phenols form strong intermolecular hydrogen bonds due to the polar \\(\\ce{-OH}\\) group, requiring more energy to separate the molecules during boiling. Ethers and hydrocarbons cannot form intermolecular hydrogen bonds with themselves.",
+      "section": "7.4.2 Physical Properties of Alcohols and Phenols"
+    },
+    {
+      "q": "Why is phenol more acidic than ethanol?",
+      "a": "When phenol loses a proton, the resulting phenoxide ion (\\(\\ce{C6H5O-}\\)) is stabilised by delocalisation of the negative charge over the aromatic ring through resonance. The ethoxide ion (\\(\\ce{C2H5O-}\\)) has no such resonance stabilisation. Consequently, phenol reacts with aqueous \\(\\ce{NaOH}\\) whereas ethanol does not.",
+      "section": "7.4.3 Chemical Reactions of Alcohols and Phenols"
+    },
+    {
+      "q": "How does temperature control the products of acid-catalysed dehydration of ethanol?",
+      "a": "When ethanol is heated with concentrated \\(\\ce{H2SO4}\\) at \\(443\\text{ K}\\), intramolecular dehydration occurs to form ethene (\\(\\ce{CH2=CH2}\\)). At a lower temperature of \\(413\\text{ K}\\), intermolecular dehydration occurs between two ethanol molecules to form ethoxyethane (\\(\\ce{C2H5OC2H5}\\)).",
+      "section": "7.4.3 Chemical Reactions of Alcohols and Phenols"
+    },
+    {
+      "q": "What happens when phenol reacts with bromine water versus dilute and concentrated nitric acid?",
+      "a": "With bromine water, phenol forms a white precipitate of 2,4,6-tribromophenol. With dilute \\(\\ce{HNO3}\\), it forms a mixture of o-nitrophenol and p-nitrophenol, whereas with concentrated \\(\\ce{HNO3}\\) in concentrated \\(\\ce{H2SO4}\\), it forms 2,4,6-trinitrophenol (picric acid).",
+      "section": "7.4.3 Chemical Reactions of Alcohols and Phenols"
+    },
+    {
+      "q": "What is Williamson ether synthesis and why are primary alkyl halides preferred?",
+      "a": "Williamson ether synthesis is the reaction of a sodium alkoxide with an alkyl halide (\\(\\ce{RONa + R'X -> ROR' + NaX}\\)), which proceeds via an \\(\\text{S}_{\\text{N}}2\\) mechanism. Primary alkyl halides give the best yield because secondary and tertiary alkyl halides are sterically hindered and undergo elimination to form alkenes instead of substitution.",
+      "section": "7.6.1 Preparation of Ethers"
+    },
+    {
+      "q": "Why does cleavage of anisole (C₆H₅OCH₃) with HI give phenol and methyl iodide rather than iodobenzene and methanol?",
+      "a": "In anisole, the aryl–oxygen (\\(\\ce{C6H5-O}\\)) bond has partial double-bond character due to resonance and is stronger than the alkyl–oxygen (\\(\\ce{O-CH3}\\)) bond. Therefore, cleavage occurs at the \\(\\ce{O-CH3}\\) bond to yield phenol (\\(\\ce{C6H5OH}\\)) and methyl iodide (\\(\\ce{CH3I}\\)).",
+      "section": "7.6.3 Chemical Reactions of Ethers"
+    }
+  ]
+}

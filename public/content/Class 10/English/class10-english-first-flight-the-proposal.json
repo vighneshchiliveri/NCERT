@@ -1,0 +1,66 @@
+{
+  "title": "The Proposal",
+  "class": "10",
+  "subject": "English",
+  "chapter": "Chapter 9",
+  "book": "First Flight",
+  "notes": [
+    {
+      "heading": "Word Meanings",
+      "points": [
+        "Farce: A highly comic, exaggerated, and absurd dramatic play.",
+        "Privilege: An advantage or a special right that someone possesses.",
+        "Consent: To officially give permission or agree to let something happen.",
+        "Lovesick cat: Someone who is in an intensely desperate state of love-yearning.",
+        "Palpitation: A noticeably rapid, irregular, and strong heartbeat caused by nervousness or excitement.",
+        "Negligee: A woman's loose, soft, and thin night dressing gown.",
+        "Perpetuity: A continuous state that stretches on forever without an end date.",
+        "Threshing: The mechanical process of hitting crop plants to separate grains from hulls.",
+        "Carafe: A wide-mouthed glass container or flask used for serving water or juice.",
+        "Excruciating: An experience that is intensely, unbearably, and extremely painful.",
+        "Pettifogger: A petty, inferior lawyer who handles unimportant cases using tricky methods.",
+        "Embezzlement: The serious crime of stealing money or property placed in your care.",
+        "Intriguer: A dishonest person who secretly devises plots, tricks, or schemes.",
+        "Malicious: Intending, showing, or having a clear desire to cause physical or emotional harm.",
+        "Impudence: Rude, insolent behaviour that shows a total lack of respect.",
+        "Confound: To completely surprise, confuse, or bewilder someone.",
+        "Wizen-faced: Having a thin, wrinkled, and dried-out face due to old age.",
+        "Frump: A person who is completely unattractive, dull, and dressed in outdated fashion.",
+        "Pedigree: The documented history, lineage, or pure ancestral background of an animal.   FOOTPRINTS WITHOUT FEET"
+      ]
+    }
+  ],
+  "summary": "\"The Proposal\" by Anton Chekhov is a hilarious, fast-paced one-act satirical play that exposes the superficiality, greed, and extreme pettiness of the wealthy landowning  class in 19th-century Russia, where marriage is treated more like a commercial business transaction than a romantic bond. The narrative centers around Ivan Vassilevitch Lomov, a wealthy but highly hypochondriac neighbor who arrives at the house of Stepan Stepanovich Chubukov dressed in formal evening wear. Lomov's intention is to ask for the hand of Chubukov’s twenty-five-year-old daughter, Natalya Stepanovna, in marriage. A delighted Chubukov eagerly calls his daughter, but when Lomov attempts to make his proposal, his intense nervousness and physical palpitations cause him to ramble, leading him to casually mention that his family's property borders the disputed Oxen Meadows. This small remark ignites an explosive, stubborn argument as Natalya fiercely claims that the Meadows belong to her family, completely derailing the marriage proposal. The shouting match intensifies when Chubukov joins in to defend his daughter, leading to a barrage of mutual insults and threats of legal action until an exhausted Lomov, suffering from severe heart palpitations and a numb foot, storm out of the house. Once he is gone, Chubukov accidentally reveals to Natalya that the young man had actually come to propose marriage. Horrified and desperate not to lose a wealthy suitor, a hysterical Natalya demands that her father bring Lomov back immediately. When Lomov returns, Natalya tries to steer the conversation toward a peaceful settlement, but the peace is short-lived as they quickly fall into a second furious argument, this time over the superiority of their respective hunting dogs, Guess and Squeezer. The argument peaks with all three characters screaming insults at each other's lineages until Lomov collapses into a chair, completely unconscious from physical stress. Fearing he has died, the family panics, but when Lomov stirs back to life, a desperate Chubukov quickly forces the couple's hands together, shouts his blessing, and demands they kiss to seal the engagement. Even as the curtain falls, the newlyweds refuse to stop, instantly continuing their petty bickering over their dogs, demonstrating that their marriage is driven purely by social status and economic greed rather than affection.   FOOTPRINTS WITHOUT FEET",
+  "qa": [
+    {
+      "q": "What does Chubukov initially think about Lomov?",
+      "a": "​ Chubukov initially thinks that Lomov has come to borrow money. He is surprised when Lomov says that he has come to ask for Natalya’s hand in marriage.",
+      "section": "Thinking About the Text"
+    },
+    {
+      "q": "Why does Natalya quarrel with Lomov?",
+      "a": "​ Natalya quarrels with Lomov because they begin arguing about the ownership of the Oxen Meadows. Later, they also argue about whose dog is better. Their arguments continue even though Lomov has come to propose marriage.",
+      "section": "Thinking About the Text"
+    },
+    {
+      "q": "What kind of a person is Natalya?",
+      "a": "​ Natalya is stubborn, argumentative and possessive. She is also practical and strongly interested in marriage. She quickly starts quarrelling with Lomov over small matters, showing her strong and aggressive nature.",
+      "section": "Thinking About the Text"
+    },
+    {
+      "q": "Why does Lomov want to marry Natalya?",
+      "a": "​ Lomov wants to marry Natalya because he feels that he is at the right age for marriage and wants a settled life. He also believes that Natalya is a suitable match for him.",
+      "section": "Thinking About the Text"
+    },
+    {
+      "q": "What makes the proposal funny and ironic?",
+      "a": "​ The proposal is funny because Lomov comes to ask Natalya to marry him, but instead of expressing love, they keep arguing over land and dogs. Even after agreeing to marry, they continue quarrelling, making the situation humorous and ironic.",
+      "section": "Thinking About the Text"
+    },
+    {
+      "q": "Describe the character of Lomov.",
+      "a": "​ Lomov is a nervous, quarrelsome and short-tempered man. He worries about his health and often becomes excited over small matters. Although he comes to propose to Natalya, he gets involved in arguments with her. His nervousness and constant quarrelling make him a humorous character. Footprints Without Feet",
+      "section": "Long Answer"
+    }
+  ]
+}

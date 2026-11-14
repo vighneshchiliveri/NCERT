@@ -1,0 +1,46 @@
+{
+  "title": "Journey to the End of the Earth by Tishani Doshi",
+  "class": "12",
+  "subject": "English",
+  "chapter": "Chapter 3",
+  "book": "Vistas",
+  "notes": [
+    {
+      "heading": "Theme",
+      "text": "Climate change, environmental responsibility, Earth’s history, and the need for global cooperation."
+    }
+  ],
+  "summary": "This travelogue is about the author’s journey to Antarctica with Students on Ice, a program that takes high school students to the end of the Earth to make them aware of climate change. The author travels for 100 hours from Madras to Antarctica by car, plane, and ship. Antarctica is the coldest, driest, and windiest continent. It holds most of the Earth’s ice, has no trees, no buildings, and no human population, only a white landscape and blue horizons.\n\nThe author explains why Antarctica matters. First, it helps us understand Earth’s past. Antarctica was once part of Gondwana, a warm supercontinent that existed millions of years ago. Gondwana had rich flora and fauna. Later, dinosaurs were wiped out, mammals appeared, and Gondwana broke apart. Antarctica drifted south and became cold. Its ice sheets contain carbon records that show how climate has changed over time.\n\nSecond, Antarctica shows us the future. If the West Antarctic ice sheet melts, global sea levels will rise. The continent has no political boundaries, so it reminds us that nations must work together on environmental issues. Third, it makes humans realize how small they are. Walking on ancient ice in complete silence is humbling. The author also mentions phytoplankton, microscopic plants that sustain the Southern Ocean food chain. If the ocean warms and phytoplankton die, the whole ecosystem can collapse.\n\nThe students learn that if we take care of small things, big things will take care of themselves. The journey shows that everything on Earth is linked and that humans must act now to prevent climate change from destroying the planet.",
+  "qa": [
+    {
+      "q": "How do geological phenomena help us to know about the history of humankind?",
+      "a": "Geological phenomena help us understand how the Earth has changed over millions of years. Antarctica was once part of Gondwana, the southern supercontinent. The movement and separation of landmasses created continents, oceans, mountains, and climate changes. By studying these changes, we understand where humans came from and where we may be heading.",
+      "section": "Read and find out"
+    },
+    {
+      "q": "What are the indications for the future of humankind?",
+      "a": "The future of humankind is uncertain because human activities have damaged nature. Population growth, burning of fossil fuels, and increase of carbon dioxide are causing global warming. Melting ice sheets, disturbed ocean currents, and climate change are warning signs for the future.",
+      "section": "Read and find out"
+    },
+    {
+      "q": "‘The world’s geological history is trapped in Antarctica.’ How is the study of this region useful to us?",
+      "a": "Antarctica stores records of the Earth’s past in its ice layers. Its ice cores contain carbon records from thousands of years ago. By studying Antarctica, scientists can understand climate change, evolution, extinction, and the Earth’s past, present, and future.",
+      "section": "Reading with Insight"
+    },
+    {
+      "q": "What are Geoff Green’s reasons for including high school students in the Students on Ice expedition?",
+      "a": "Geoff Green included high school students because they are the future policy-makers. They are young enough to learn, absorb, and act. A visit to Antarctica can create respect for the planet and inspire them to protect the environment.",
+      "section": "Reading with Insight"
+    },
+    {
+      "q": "‘Take care of the small things and the big things will take care of themselves.’ What is the relevance of this statement in the context of the Antarctic environment?",
+      "a": "This statement is relevant because even tiny organisms like phytoplankton are very important in Antarctica’s ecosystem. They support the food chain and help in the carbon cycle. If small things like phytoplankton are affected by ozone depletion, the whole marine ecosystem and global environment may suffer.",
+      "section": "Reading with Insight"
+    },
+    {
+      "q": "Why is Antarctica the place to go to, to understand the earth’s present, past and future?",
+      "a": "Antarctica is the best place because it is almost untouched by humans and stores ancient climate records in its ice. It shows the Earth’s past through geological history, the present through climate change, and the possible future through the effects of global warming.",
+      "section": "Reading with Insight"
+    }
+  ]
+}

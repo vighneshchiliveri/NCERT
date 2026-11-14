@@ -1,0 +1,77 @@
+{
+  "title": "Two Stories about Flying",
+  "class": "10",
+  "subject": "English",
+  "chapter": "Chapter 3",
+  "book": "First Flight",
+  "notes": [
+    {
+      "heading": "Word Meanings",
+      "points": [
+        "Ledge: A narrow horizontal shelf projecting from a wall or a cliff.",
+        "Muster up: To gather, collect, or summon courage or strength.",
+        "Plunge: To dive or fall suddenly and heavily into water or space.",
+        "Shrilly: Producing a sharp, high-pitched, and piercing sound.",
+        "Upbraiding: Scolding, rebuking, or criticizing someone severely.",
+        "Herring: A prized, silvery soft-finned fish found in coastal waters.",
+        "Devour: To eat hungrily, quickly, and greedily.",
+        "Cackle: A sharp, broken noise made by a bird like a seagull or chicken.",
+        "Preening: Brushing, cleaning, and smoothing feathers with a beak.",
+        "Maddened: Driven to absolute distraction or extreme anger (by hunger).",
+        "Soar: To fly or rise high upward into the air.",
+        "Monstrous: Horrible, terrifying, or shockingly huge.",
+        "Curvetting: Leaping or jumping around like a horse.",
+        "Compass: An instrument containing a magnetized pointer which shows the direction of north.",
+        "Runway: A long, level strip of smooth ground where aircraft take off and land.",
+        "Storm: A violent disturbance of the atmosphere with strong winds and dark clouds.",
+        "Twisted: Bent, turned, or spun out of its original shape.",
+        "Frightened: Feeling a sudden sense of deep fear, panic, or anxiety.",
+        "Glimpse: A very quick, brief, and incomplete look at something.",
+        "Radar: A system that uses radio waves to detect the speed and position of aircraft."
+      ]
+    }
+  ],
+  "summary": "\"Two Stories about Flying\" is a two-part chapter that explores the themes of overcoming fear, inner strength, and mysterious divine guidance through two distinct narratives. The first story, \"His First Flight\" by Liam O'Flaherty, centers on a young seagull who is terrified of flying, convinced that his wings will never support him, even as his siblings have already taken to the air. Abandoned by his family on a lonely ledge to starve for twenty-four hours, his hunger becomes unbearable until his clever mother flies near him with a piece of fish but halts just out of reach. Maddened by hunger, the young seagull dives at the fish, falling into the open space; though seized by terror for a brief moment, he instinctively spreads his wings, catches the wind, and conquers his fear, resulting in his joyful first flight and the proud celebrations of his family. The second story, \"The Black Aeroplane\" by Frederick Forsyth, is a mysterious adventure about a pilot flying his old Dakota aeroplane from France to England, looking forward to a hearty English breakfast with his family. As he encounters a massive, pitch-black wall of storm clouds, he decides to risk flying directly into it rather than turning back, only to find his compass, radio, and other instruments completely dead. Lost in the blinding darkness and running out of fuel, he is suddenly rescued by a mysterious black aeroplane without lights on its wings, whose pilot waves and guides him safely through the turbulent storm. Upon breaking through the clouds and landing safely at an airport, the bewildered pilot rushes to the control tower to thank his savior, only to be told by the woman on duty that his was the only aircraft flying that night, leaving the identity of the pilot and the existence of the black aeroplane an unresolved, supernatural mystery.",
+  "qa": [
+    {
+      "q": "Why was the young seagull afraid to fly?",
+      "a": "​ The young seagull was afraid to fly because he thought his wings would not support him. He lacked confidence and feared that he would fall into the sea.",
+      "section": "I. His First Flight"
+    },
+    {
+      "q": "What did the parents do to encourage him?",
+      "a": "​ His parents encouraged him by calling him and showing him how to fly. When he still refused, his mother came near him with a piece of fish but stopped just out of his reach, forcing him to fly towards it.",
+      "section": "I. His First Flight"
+    },
+    {
+      "q": "What happened when the seagull took his first flight?",
+      "a": "​ When the seagull jumped towards the fish, his wings spread automatically and he began to fly. He was surprised and happy to discover that he could fly. Soon, he gained confidence and flew over the sea.",
+      "section": "I. His First Flight"
+    },
+    {
+      "q": "How did the family celebrate his first flight?",
+      "a": "​ The seagull’s parents flew around him and encouraged him. His brothers and sister also joined him. He felt happy and proud after overcoming his fear and learning to fly.",
+      "section": "I. His First Flight"
+    },
+    {
+      "q": "Why was the pilot flying his old Dakota towards England?",
+      "a": "​ The pilot was flying his old Dakota towards England because he wanted to reach home. He was looking forward to having breakfast with his family after completing the flight.",
+      "section": "II. The Black Aeroplane"
+    },
+    {
+      "q": "What happened when the pilot flew into the storm?",
+      "a": "​ The pilot suddenly entered a severe storm with dark clouds. His compass and other instruments stopped working, and he could not see clearly. He became confused and worried about finding his way.",
+      "section": "II. The Black Aeroplane"
+    },
+    {
+      "q": "Who helped the pilot reach the runway?",
+      "a": "​ A mysterious pilot in a black aeroplane appeared and guided him through the storm. The pilot followed the black aeroplane and safely reached the runway.",
+      "section": "II. The Black Aeroplane"
+    },
+    {
+      "q": "Why was the pilot surprised after landing?",
+      "a": "​ The pilot was surprised because the control tower told him that no other aeroplane had been flying in the storm. He wondered who had guided him through the dangerous clouds, making the ending mysterious.",
+      "section": "II. The Black Aeroplane"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "title": "Glimpses of India",
+  "class": "10",
+  "subject": "English",
+  "chapter": "Chapter 5",
+  "book": "First Flight",
+  "notes": [
+    {
+      "heading": "Word Meanings",
+      "points": [
+        "Reminiscing: Thinking fondly about pleasant memories from your past.",
+        "Nostalgia: A sentimental longing or affection for a period in the past.",
+        "Vanish: To disappear suddenly or completely from sight.",
+        "Loaf: A shaped block of bread baked in one piece that can be sliced.",
+        "Furnace: An enclosed stone structure or oven where intense heat is produced.",
+        "Thud: A loud, dull, and heavy sound made by a blunt impact.",
+        "Herald: To signal, announce, or indicate the arrival of something.",
+        "Pader: The traditional local name for a baker in Goa.",
+        "Rebuke: An expression of sharp disapproval, criticism, or a scolding.",
+        "Parapet: A low protective wall or barrier along the edge of a roof or balcony.",
+        "Peculiar: Something very strange, unusual, or unique to a specific thing.",
+        "Testimony: Public evidence or spoken proof that confirms a fact.",
+        "Plump: Having a pleasantly soft, round, and well-fed body.",
+        "Inhabit: To live in, occupy, or settle down permanently in a place.",
+        "Martial: Having to do with war, warriors, or military life.",
+        "Invigorate: Making someone feel fresh, healthy, strong, and highly energetic.",
+        "Canopy: A high, roof-like covering formed by the uppermost branches of forest trees.",
+        "Descent: A person's ancestry, origin, or historical background.",
+        "Valour: Great courage or extreme bravery shown in the face of danger.",
+        "Regiment: A large operational unit of soldiers in an army.",
+        "Abound: To exist in massive quantities or be filled with plenty.",
+        "Rappelling: The action of sliding down a steep cliff face using a secured double rope.",
+        "Panoramic: A wide, unbroken, and complete view of an entire surrounding area.",
+        "Sipped: Drank a liquid very slowly, taking just a tiny mouthful at a time.",
+        "Concentration: A massive gathering, cluster, or dense collection of something in one area.",
+        "Pruning: Trimming or cutting away overgrown branches of a plant to encourage better growth.",
+        "Sprout: The initial stage of growth where a plant begins to grow new leaves or shoots.",
+        "Scoffed: Spoke about something in a deeply mocking, ridiculing, or disrespectful way."
+      ]
+    }
+  ],
+  "summary": "\"Glimpses of India\" is a vibrant three-part chapter that celebrates the rich cultural diversity, historical legacies, and natural beauty of different regions across India. The first part, \"A Baker from Goa\" by Lucio Rodrigues, is a nostalgic essay that recalls the profound Portuguese influence on Goan culture through the traditional village bakers, known as paders. The author remembers his childhood when the baker would arrive twice a day with the musical jhang-jhang sound of his bamboo staff, selling loaves of bread to the elders and sweet bread-bangles to the excited children; the baking profession was so prosperous that a baker's plump physique was a sure sign of wealth, and their traditional dresses (kabai) remain an unforgettable cultural marker. The second part, \"Coorg\" by Lokesh Abrol, paints a breathtaking travelogue of India's smallest district, located midway between Mysore and Mangalore. Described as a piece of heaven that must have drifted from the kingdom of God, Coorg is famous for its evergreen rainforests, rolling hills, coffee plantations, spices, and the brave Kodavu race, who are believed to be of Greek or Arabic descent due to their distinct long black coats (kuppia). This land of adventure offers thrilling sports like river rafting, rock climbing, and trekking, while housing Nisargadhama island and India’s largest Tibetan settlement at Bylakuppe, reflecting a rich tapestry of hospitality and martial heritage. The third part, \"Tea from Assam\" by Arup Kumar Dutta, follows two school friends, Rajvir and Pranjol, traveling to Assam, the \"tea country\" of the world. As they journey through sprawling green tea estates with women plucking fresh leaves in bamboo baskets, Rajvir shares fascinating legends about the origin of tea. One Chinese legend narrates how an emperor discovered tea when leaves accidentally fell into his boiling drinking water, adding a delicious flavor, while a Buddhist legend claims ten tea plants grew from the eyelids of the ascetic Bodhidharma, who cut them off to banish sleep during meditation. Together, these three narratives capture the essence of Indian  tradition, shifting beautifully from the historic bakeries of the west to the misty southern hills, and finally to the lush plantations of the northeast.",
+  "qa": [
+    {
+      "q": "What are the elders in Goa nostalgic about?",
+      "a": "​ The elders in Goa are nostalgic about the old days when Portuguese bakers were an important part of village life. They remember the traditional bread and the baker’s daily visits to their homes.",
+      "section": "I. A Baker from Goa"
+    },
+    {
+      "q": "Is bread-making still popular in Goa? How do you know?",
+      "a": "​ Yes, bread-making is still popular in Goa. The traditional bakeries continue to make bread, and the profession has been passed down through generations. The baker is still an important part of Goan life.",
+      "section": "I. A Baker from Goa"
+    },
+    {
+      "q": "What was the baker called and what did he wear?",
+      "a": "​ The baker was called a pader. He wore a traditional dress called a kabai, which was a long frock-like garment. Later, he wore trousers and a shirt.",
+      "section": "I. A Baker from Goa"
+    },
+    {
+      "q": "How did the baker announce his arrival?",
+      "a": "​ The baker announced his arrival by making a special sound with his bamboo staff. The children recognised this sound and rushed to meet him because they loved his fresh bread and bread-bangles.",
+      "section": "I. A Baker from Goa"
+    },
+    {
+      "q": "Where is Coorg situated?",
+      "a": "​ Coorg, also known as Kodagu, is situated in Karnataka between Mysore and the coastal town of Mangalore. It is famous for its beautiful hills, forests, coffee plantations and pleasant climate.",
+      "section": "II. Coorg"
+    },
+    {
+      "q": "What is Coorg famous for?",
+      "a": "​ Coorg is famous for its natural beauty, coffee plantations, evergreen forests and brave people. It is also known for its wildlife, adventure activities and rich cultural traditions.",
+      "section": "II. Coorg"
+    },
+    {
+      "q": "What is the origin of the people of Coorg?",
+      "a": "​ There are different theories about the origin of the people of Coorg. One theory suggests that they may be descendants of Alexander’s army. Their traditions, dress and customs are different from those of many other communities in India.",
+      "section": "II. Coorg"
+    },
+    {
+      "q": "What are the special qualities of the people of Coorg?",
+      "a": "​ The people of Coorg are known for their bravery, hospitality and love for their land. Many Coorgis have served in the Indian Army. Their courage and martial traditions are highly respected.",
+      "section": "II. Coorg"
+    },
+    {
+      "q": "What did Pranjol and Rajvir see on the way to Assam?",
+      "a": "​ Pranjol and Rajvir saw vast stretches of beautiful tea plantations. The neatly arranged tea bushes covered the hillsides, and tea-pluckers were busy collecting fresh tea leaves.",
+      "section": "III. Tea from Assam"
+    },
+    {
+      "q": "What legends are associated with the discovery of tea?",
+      "a": "​ One legend says that a Chinese emperor discovered tea when some tea leaves accidentally fell into boiling water. Another Indian legend connects tea with Buddhist monk Bodhidharma, whose eyelids were said to have grown into tea plants.",
+      "section": "III. Tea from Assam"
+    },
+    {
+      "q": "What is the best season for tea production?",
+      "a": "​ The best season for tea production is from May to July. During this period, the tea plants produce fresh and good-quality leaves.",
+      "section": "III. Tea from Assam"
+    },
+    {
+      "q": "What did Rajvir tell Pranjol about tea?",
+      "a": "​ Rajvir told Pranjol that tea was first drunk in China and that there were many legends about its discovery. He also knew that tea is grown in large quantities in Assam and was excited to see the tea gardens.",
+      "section": "III. Tea from Assam"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "title": "Nelson Mandela: Long Walk to Freedom",
+  "class": "10",
+  "subject": "English",
+  "chapter": "Chapter 2",
+  "book": "First Flight",
+  "notes": [
+    {
+      "heading": "Word Meanings",
+      "points": [
+        "Besieged: Surrounded or crowded closely by a large group of people.",
+        "Dignitaries: Important, high-ranking officials or people of high status.",
+        "Amphitheatre: An open-air theatre or circular building with tiers of seats.",
+        "Apartheid: A political system of racial discrimination and separation of people based on their race.",
+        "Supremacy: The state of being superior or having total authority over others.",
+        "Pledged: Formally made a solemn, serious, and binding promise.",
+        "Emancipation: The act of setting someone free from legal, social, or political restrictions.",
+        "Deprivation: The state of lacking basic necessities, comforts, or rights.",
+        "Discrimination: Unfair treatment of different categories of people, especially on the grounds of race or gender.",
+        "Spectacular array: An impressive, colourful, and grand display of something.",
+        "Chevron: A V-shaped pattern or formation, often used by military aircraft.",
+        "Overwhelmed: Flooded or completely overcome with intense emotions.",
+        "Profound: Very deep, intense, or having a severe impact.",
+        "Brutality: Cruel, harsh, and violent treatment.",
+        "Resilience: The great capacity to recover quickly from difficulties and endure hardships.",
+        "Illusion: A false idea, misleading belief, or something that appears real but is not.",
+        "Transitory: Temporary, short-lived, or lasting for only a brief period.",
+        "Prejudice: A strong dislike or preconceived opinion about someone without any good reason."
+      ]
+    }
+  ],
+  "summary": "\"Nelson Mandela: Long Walk to Freedom\" is a profound autobiographical excerpt that captures the historic inauguration of South Africa's first democratically elected, non-racial government on May 10, 1994. Held at the grand sandstone amphitheatre in Pretoria, the ceremony was attended by dignitaries from over 140 countries, marking the end of more than three centuries of white supremacy and the brutal system of  apartheid, which had long inflicted deep, lasting wounds on the black population. In his triumphant address, Mandela proudly declares this victory a common achievement for justice, peace, and human dignity, pledging to liberate all South Africans from the continuing bondage of poverty, deprivation, suffering, and discrimination. He pays an emotional tribute to thousands of unsung African patriots who sacrificed their lives to resist oppression, stating that their unparalleled courage taught him that bravery is not the absence of fear, but the triumph over it. The text highlights Mandela’s unique philosophy on human nature, where he asserts that no one is born hating another person based on skin color or religion; because hate must be learned, people can naturally be taught to love, as love comes far more responsively to the human heart. He discusses the twin obligations every man possesses—one to his family and parents, and another to his people, community, and country—noting that under the cruel restrictions of apartheid, a black man attempting to fulfill his duty to his people was forcefully ripped from his home and isolated. Reflecting on his personal understanding of freedom, Mandela notes that as a young boy, freedom meant running in the fields, but as a student and young man in Johannesburg, he realized his boyhood freedom was an illusion. Joining the African National Congress (ANC), his narrow desire for personal liberty transformed into a burning hunger for the collective freedom of his people to live with self-respect. Ultimately, Mandela concludes that true freedom is indivisible, declaring that the chains on any one of his people are chains on all of them, and that the oppressor must be liberated from their hatred just as surely as the oppressed are liberated from their bondage.",
+  "qa": [
+    {
+      "q": "Why were two national anthems sung?",
+      "a": "​ Two national anthems were sung to symbolise the unity of the new South Africa. One was the anthem of the former white government and the other was the African anthem. It showed that both communities were now united.",
+      "section": "Oral Comprehension Check"
+    },
+    {
+      "q": "How does Mandela describe the system of government in his country?",
+      "a": "​ Mandela describes the earlier government as a system of racial discrimination and oppression. The white minority controlled the country and denied basic rights and freedom to the black majority.",
+      "section": "Oral Comprehension Check"
+    },
+    {
+      "q": "What ideals does Mandela set out for the future of South Africa?",
+      "a": "​ Mandela hoped for a country based on equality, freedom, justice and human dignity. He wanted all people, regardless of race or colour, to live together peacefully with equal rights.",
+      "section": "Oral Comprehension Check"
+    },
+    {
+      "q": "Why did the author believe that the oppressed and the oppressor were both robbed of their humanity?",
+      "a": "​ Mandela believed that oppression dehumanised both sides. The oppressed were denied freedom and dignity, while the oppressors became prisoners of hatred, prejudice and fear. Therefore, neither side could live with true freedom and humanity.",
+      "section": "Thinking About the Text"
+    },
+    {
+      "q": "What makes a person a patriot?",
+      "a": "​ A patriot is a person who loves and serves their country and works for its freedom, equality and progress. A true patriot is willing to make sacrifices for the welfare and rights of others.",
+      "section": "Thinking About the Text"
+    },
+    {
+      "q": "How did Mandela’s understanding of freedom change with age?",
+      "a": "​ As a child, Mandela thought freedom meant being free to run, play and live without restrictions. As he grew older, he understood that true freedom meant freedom from racial oppression and equal rights for all people.",
+      "section": "Thinking About the Text"
+    },
+    {
+      "q": "How did Mandela’s hunger for freedom change his life?",
+      "a": "​ Mandela’s desire for freedom made him dedicate his life to the struggle against apartheid. He sacrificed his personal freedom and spent many years in prison. His struggle ultimately helped bring democracy and equality to South Africa.",
+      "section": "Thinking About the Text"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "title": "The Tale of Custard the Dragon",
+  "class": "10",
+  "subject": "English",
+  "chapter": "Poetry 9",
+  "book": "First Flight",
+  "notes": [
+    {
+      "heading": "Word Meanings",
+      "points": [
+        "Musings: A period of deep, quiet reflection or thought.",
+        "Listless: Lacking any energy, enthusiasm, or interest.",
+        "Brooding: Thinking deeply about something that makes you sad, anxious, or angry.",
+        "Prompted: Caused, provoked, or encouraged someone to take action.",
+        "Confide: To share personal secrets or private thoughts with someone you trust.",
+        "Jot down: To write something down very quickly and briefly.",
+        "Plunge: To jump, dive, or throw oneself into something quickly.",
+        "Plunked down: Put or dropped down heavily and abruptly.",
+        "Emigrate: To leave one's own country to go and settle permanently in another.",
+        "Solemn: Marked by deep sincerity, seriousness, or gravity.",
+        "At stake: At risk of being won or lost.",
+        "Glance: A very brief, quick, or hurried look.",
+        "Outburst: A sudden, loud expression of a strong emotion like anger.",
+        "Old fogey: An old-fashioned, dull, or conservative person.",
+        "Chatterbox: A person who talks excessively and incessantly.",
+        "Ramble: To talk or write at great length in a confused or purposeless way.",
+        "Trait: A distinguishing quality or personal characteristic.",
+        "Incorrigible: Someone or something that is impossible to change, correct, or reform.",
+        "Contrary: Completely opposite in nature, direction, or meaning.",
+        "Inherit: To receive money, property, or genetic traits from your ancestors.",
+        "Ingenuity: The quality of being clever, original, and highly inventive."
+      ]
+    }
+  ],
+  "summary": "\"The Tale of Custard the Dragon\" by Ogden Nash is a humorous, whimsical ballad that parodies traditional heroic poetry while delivering a meaningful lesson about true bravery versus empty boasting. The poem centers on a young girl named Belinda, who lives in a peaceful little white house with her collection of pets: a black kitten named Ink, a grey mouse named Blink, a yellow dog named Mustard, and a cowardly dragon whom she calls Custard. The author creates a comical contrast between the pets' personalities, describing Belinda as brave as a barrel full of bears, Ink and Blink as fierce enough to chase lions down the stairs, and Mustard as brave as a tiger in a rage. In stark contrast, Custard is a complete coward who constantly cries for a nice, safe cage, despite possessing fearsome physical traits like sharp teeth, spikes on his back, a mouth like a fireplace, and daggers on his toes. Belinda and her other pets ruthlessly mock Custard for his timidity, tickling him unmercifully and calling him \"Percival\" after  the legendary knight, while boasting loudly about their own superior courage. However, their arrogance is abruptly shattered when a terrifying pirate breaks into the house late one night, holding pistols in both hands and a sharp cutlass between his teeth. Terrified by the intruder, the boastful pets immediately flee in panic: Belinda screams for help, Mustard runs away yelping, Ink trickles down to the basement, and Blink strategically hides in a mousehole. Breaking all expectations, the supposedly cowardly Custard jumps up, snorting like an engine, clashing his tail like iron bars in a dungeon, and charges at the pirate like a robin at a worm. He bravely dodges the pirate's bullets and devours him entirely in a single gulp, saving everyone. Once the danger passes, the family’s hypocrisy instantly returns; Belinda embraces Custard, and the other pets quickly make excuses for their cowardice, claiming they would have been twice as brave if they hadn't been confused. Custard gently agrees with them, quietly returning to his humble request for a safe cage, leaving the readers to appreciate the irony that true courage shows itself in times of crisis rather than through loud proclamations.",
+  "qa": [
+    {
+      "q": "Who are the characters in the poem?",
+      "a": "​ The characters are Belinda, her pets Ink the cat, Blink the mouse, Mustard the dog, and Custard the dragon. There is also a pirate who enters Belinda’s house and creates danger.",
+      "section": "Thinking About the Poem"
+    },
+    {
+      "q": "Why did Custard cry for a nice safe cage?",
+      "a": "​ Custard was a timid dragon and wanted to feel safe. He did not pretend to be brave like the other animals. Therefore, he wished for a secure cage where he could remain protected.",
+      "section": "Thinking About the Poem"
+    },
+    {
+      "q": "Who were the characters that laughed at Custard?",
+      "a": "​ Belinda, Ink, Blink and Mustard laughed at Custard because they thought he was cowardly. They believed that they were much braver than him.",
+      "section": "Thinking About the Poem"
+    },
+    {
+      "q": "Why did everyone run away when the pirate entered the house?",
+      "a": "​ Everyone ran away because they were frightened by the pirate. Although they had always claimed to be brave, they became scared when they actually faced danger.",
+      "section": "Thinking About the Poem"
+    },
+    {
+      "q": "How did Custard prove that he was brave?",
+      "a": "​ Custard bravely faced the pirate when everyone else ran away. He attacked the pirate and swallowed him. In this way, Custard proved that he was actually the bravest of them all.",
+      "section": "Thinking About the Poem"
+    },
+    {
+      "q": "What is the message of the poem?",
+      "a": "​ The poem teaches us that true courage is shown through actions, not through boasting. Custard appeared timid and never claimed to be brave, but he proved his courage when danger came. The poem also humorously shows the difference between appearance and reality.",
+      "section": "Thinking About the Poem"
+    }
+  ]
+}

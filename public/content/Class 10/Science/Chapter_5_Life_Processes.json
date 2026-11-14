@@ -1,0 +1,923 @@
+{
+  "title": "Life Processes",
+  "class": "10",
+  "subject": "Science",
+  "chapter": "Chapter 5",
+  "book": "NCERT Science",
+  "notes": [
+    {
+      "heading": "5.1 What are Life Processes?",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Life processes</strong> are the basic activities performed by living organisms to maintain and continue life."
+        },
+        {
+          "type": "text",
+          "text": "The main life processes are:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Nutrition</strong> – obtaining and using food.",
+            "<strong>Respiration</strong> – obtaining energy from food.",
+            "<strong>Transportation</strong> – carrying food, oxygen and other substances throughout the body.",
+            "<strong>Excretion</strong> – removing harmful waste products from the body."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "These processes are necessary for an organism to maintain its body and stay alive."
+        },
+        {
+          "type": "heading",
+          "text": "Why are life processes necessary?"
+        },
+        {
+          "type": "text",
+          "text": "Even when an organism is not visibly moving, many activities are continuously happening inside its body. For example:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Cells need energy.",
+            "Food and oxygen must reach different cells.",
+            "Waste products must be removed.",
+            "Materials needed for growth and repair must be supplied."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Therefore, <strong>maintenance processes</strong> are essential for the survival of living organisms."
+        }
+      ]
+    },
+    {
+      "heading": "5.2 Nutrition",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Nutrition</strong> is the process by which organisms obtain food and use it for energy, growth, repair and maintenance of the body."
+        },
+        {
+          "type": "text",
+          "text": "Food provides organisms with substances needed for:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Obtaining energy",
+            "Growth",
+            "Repair of damaged tissues",
+            "Maintaining the body's normal functions"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "There are two main modes of nutrition:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Autotrophic nutrition</strong> – organisms make their own food.",
+            "<strong>Heterotrophic nutrition</strong> – organisms obtain food from other organisms."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5.2.1 Autotrophic Nutrition",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Autotrophic nutrition</strong> is a mode of nutrition in which organisms make their own food from simple inorganic substances such as carbon dioxide and water. Organisms that show autotrophic nutrition are called <strong>autotrophs</strong>."
+        },
+        {
+          "type": "heading",
+          "text": "Photosynthesis"
+        },
+        {
+          "type": "text",
+          "text": "Green plants prepare their food by <strong>photosynthesis</strong>. For photosynthesis, plants need:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Carbon dioxide</strong> — obtained from air",
+            "<strong>Water</strong> — absorbed from soil",
+            "<strong>Sunlight</strong> — provides energy",
+            "<strong>Chlorophyll</strong> — present in green leaves and absorbs sunlight"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The overall process is:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{6CO2 + 6H2O ->[\\text{sunlight}][\\text{chlorophyll}] C6H12O6 + 6O2}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Here, \\(\\ce{C6H12O6}\\) represents <strong>glucose</strong>, the food produced."
+        },
+        {
+          "type": "heading",
+          "text": "How does photosynthesis occur?"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Absorption of light energy:</strong> Chlorophyll absorbs sunlight.",
+            "<strong>Conversion of light energy:</strong> Light energy is converted into chemical energy.",
+            "<strong>Splitting of water:</strong> Water molecules are split using this energy.",
+            "<strong>Reduction of carbon dioxide:</strong> Carbon dioxide is used to form glucose."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The oxygen produced during photosynthesis is released into the atmosphere."
+        },
+        {
+          "type": "heading",
+          "text": "Stomata"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Stomata</strong> are tiny pores present mainly on the surface of leaves. They help in:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Taking in carbon dioxide",
+            "Releasing oxygen",
+            "Carrying out exchange of gases"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The opening and closing of stomata are controlled by <strong>guard cells</strong>."
+        }
+      ]
+    },
+    {
+      "heading": "5.2.2 Heterotrophic Nutrition",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Heterotrophic nutrition</strong> is a mode of nutrition in which organisms cannot make their own food and depend on other organisms for food. Organisms showing this mode of nutrition are called <strong>heterotrophs</strong>. Examples include animals, fungi and many bacteria."
+        },
+        {
+          "type": "heading",
+          "text": "Types of heterotrophic nutrition"
+        },
+        {
+          "type": "heading",
+          "text": "1. Holozoic nutrition"
+        },
+        {
+          "type": "text",
+          "text": "In this mode, organisms take in solid or liquid food and digest it inside their body. Examples: Humans, Amoeba, cows. The main steps are:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Ingestion} \\longrightarrow \\text{Digestion} \\longrightarrow \\text{Absorption} \\longrightarrow \\text{Assimilation} \\longrightarrow \\text{Egestion}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "2. Saprophytic nutrition"
+        },
+        {
+          "type": "text",
+          "text": "In this mode, organisms obtain nutrients from dead and decaying organic matter. They release digestive enzymes onto the food and absorb the simpler substances formed. Examples: Fungi such as bread mould and mushrooms."
+        },
+        {
+          "type": "heading",
+          "text": "3. Parasitic nutrition"
+        },
+        {
+          "type": "text",
+          "text": "In this mode, an organism obtains food from a living organism called the <strong>host</strong>, usually harming the host. Examples:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Cuscuta</strong> (plant parasite)",
+            "<strong>Tapeworm</strong>",
+            "<strong>Plasmodium</strong>"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Thus, heterotrophs depend directly or indirectly on other organisms for their food."
+        }
+      ]
+    },
+    {
+      "heading": "5.2.3 How do Organisms obtain their Nutrition?",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Different organisms obtain food in different ways depending on their body structure and surroundings."
+        },
+        {
+          "type": "heading",
+          "text": "In unicellular organisms"
+        },
+        {
+          "type": "text",
+          "text": "In simple, single-celled organisms, the entire process of nutrition takes place through the single cell. For example, <strong>Amoeba</strong> obtains food by using temporary finger-like projections called <strong>pseudopodia</strong>."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Pseudopodia} \\longrightarrow \\text{Surround food particle} \\longrightarrow \\text{Food vacuole}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The steps are:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Ingestion</strong> – Amoeba surrounds the food particle with pseudopodia.",
+            "The food is enclosed inside a <strong>food vacuole</strong>.",
+            "<strong>Digestion</strong> – Digestive enzymes break down the food.",
+            "<strong>Absorption</strong> – The digested nutrients pass into the cytoplasm.",
+            "<strong>Assimilation</strong> – The nutrients are used for energy, growth and repair.",
+            "<strong>Egestion</strong> – The undigested material is expelled from the cell."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "In multicellular organisms"
+        },
+        {
+          "type": "text",
+          "text": "Multicellular organisms have specialised organs for obtaining and processing food. For example, in humans:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Mouth} \\longrightarrow \\text{Oesophagus} \\longrightarrow \\text{Stomach} \\longrightarrow \\text{Small intestine} \\longrightarrow \\text{Large intestine} \\longrightarrow \\text{Anus}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Different organs perform different functions such as ingestion, digestion, absorption and egestion. Thus, as organisms become more complex, they develop specialised organs and systems to carry out nutrition efficiently."
+        }
+      ]
+    },
+    {
+      "heading": "5.2.4 Nutrition in Human Beings",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Humans have a complex digestive system that helps in taking food, digesting it, absorbing nutrients and removing undigested waste. The main organs involved are:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Mouth} \\longrightarrow \\text{Oesophagus} \\longrightarrow \\text{Stomach} \\longrightarrow \\text{Small intestine} \\longrightarrow \\text{Large intestine} \\longrightarrow \\text{Rectum} \\longrightarrow \\text{Anus}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "1. Mouth"
+        },
+        {
+          "type": "text",
+          "text": "Digestion begins in the mouth:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Food is chewed by the teeth.",
+            "The salivary glands produce <strong>saliva</strong>.",
+            "Saliva contains an enzyme called <strong>salivary amylase</strong>, which begins the digestion of starch into simpler sugars.",
+            "The tongue mixes food with saliva and helps in swallowing."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "2. Oesophagus"
+        },
+        {
+          "type": "text",
+          "text": "The swallowed food passes through the oesophagus. The rhythmic contraction and relaxation of its muscles pushes food towards the stomach. This movement is called <strong>peristalsis</strong>."
+        },
+        {
+          "type": "heading",
+          "text": "3. Stomach"
+        },
+        {
+          "type": "text",
+          "text": "The stomach produces hydrochloric acid (HCl), pepsin and mucus:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>HCl</strong> creates an acidic medium required for pepsin to work.",
+            "<strong>Pepsin</strong> begins the digestion of proteins.",
+            "<strong>Mucus</strong> protects the inner lining of the stomach from the acid."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "4. Small intestine"
+        },
+        {
+          "type": "text",
+          "text": "Most digestion and absorption of digested food take place in the small intestine. The small intestine receives:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Bile</strong> from the liver",
+            "<strong>Pancreatic juice</strong> from the pancreas",
+            "<strong>Intestinal juice</strong> from the intestinal glands"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Bile helps in the digestion of fats by breaking large fat globules into smaller ones. This process is called <strong>emulsification of fats</strong>. The pancreas produces enzymes that help digest carbohydrates, proteins and fats."
+        },
+        {
+          "type": "text",
+          "text": "The inner lining of the small intestine has many finger-like projections called <strong>villi</strong>. Villi increase the surface area for absorption of digested food."
+        },
+        {
+          "type": "heading",
+          "text": "5. Large intestine"
+        },
+        {
+          "type": "text",
+          "text": "The large intestine absorbs water and some salts from the undigested food. The remaining waste is stored in the rectum and removed through the anus. This process is called <strong>egestion</strong>."
+        },
+        {
+          "type": "heading",
+          "text": "In short"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Ingestion} \\longrightarrow \\text{Digestion} \\longrightarrow \\text{Absorption} \\longrightarrow \\text{Assimilation} \\longrightarrow \\text{Egestion}\\]"
+        },
+        {
+          "type": "text",
+          "text": "These are the major steps of nutrition in human beings."
+        }
+      ]
+    },
+    {
+      "heading": "5.3 Respiration",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Respiration</strong> is the process by which food is broken down to release energy. The energy released is used by the body to perform various activities."
+        },
+        {
+          "type": "text",
+          "text": "The first step of respiration is the breakdown of glucose into <strong>pyruvate</strong>. This takes place in the <strong>cytoplasm</strong>:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C6H12O6 -> 2C3H4O3} + \\text{Energy}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The further breakdown of pyruvate depends on the availability of oxygen."
+        },
+        {
+          "type": "heading",
+          "text": "1. Aerobic respiration"
+        },
+        {
+          "type": "text",
+          "text": "When oxygen is present, pyruvate is broken down completely in the <strong>mitochondria</strong> to produce carbon dioxide, water and energy:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C6H12O6 + 6O2 -> 6CO2 + 6H2O} + \\text{Energy}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Aerobic respiration releases a <strong>large amount of energy</strong>."
+        },
+        {
+          "type": "heading",
+          "text": "2. Anaerobic respiration"
+        },
+        {
+          "type": "text",
+          "text": "When oxygen is absent, pyruvate can be broken down in different ways. In <strong>yeast</strong>, it produces ethanol, carbon dioxide and energy:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C6H12O6 -> 2C2H5OH + 2CO2} + \\text{Energy}\\]"
+        },
+        {
+          "type": "text",
+          "text": "In our <strong>muscles</strong>, during vigorous exercise, when oxygen supply is insufficient, pyruvate is converted into <strong>lactic acid</strong>, releasing some energy:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{C6H12O6 -> 2C3H6O3} + \\text{Energy}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The accumulation of lactic acid in muscles can cause <strong>muscle cramps</strong>."
+        },
+        {
+          "type": "table",
+          "label": "Aerobic vs Anaerobic respiration",
+          "headers": [
+            "Aerobic",
+            "Anaerobic"
+          ],
+          "rows": [
+            [
+              "Requires oxygen",
+              "Does not require oxygen"
+            ],
+            [
+              "Produces more energy",
+              "Produces less energy"
+            ],
+            [
+              "Produces \\(\\ce{CO2}\\) and \\(\\ce{H2O}\\)",
+              "May produce ethanol + \\(\\ce{CO2}\\), or lactic acid"
+            ],
+            [
+              "Mainly completed in mitochondria",
+              "Occurs in cytoplasm"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5.4 Transportation",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Transportation</strong> is the process of carrying substances such as food, oxygen, water and waste products from one part of the body to another."
+        },
+        {
+          "type": "text",
+          "text": "Transportation is necessary because all cells need:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Food for energy and growth",
+            "Oxygen for respiration",
+            "Removal of waste products"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Different organisms have different transportation systems:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "In <strong>human beings</strong>, transportation is carried out mainly by the <strong>blood circulatory system</strong>.",
+            "In <strong>plants</strong>, transportation is carried out by <strong>xylem and phloem</strong>."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The human circulatory system transports substances through blood vessels, while the plant transport system carries water, minerals and food through specialised tissues."
+        }
+      ]
+    },
+    {
+      "heading": "5.4.1 Transportation in Human Beings",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Human beings have a circulatory system that transports oxygen, nutrients, hormones and waste materials throughout the body. The main parts of the circulatory system are:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Heart</strong>",
+            "<strong>Blood</strong>",
+            "<strong>Blood vessels</strong>"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "1. Heart"
+        },
+        {
+          "type": "text",
+          "text": "The heart is a muscular organ that pumps blood throughout the body. It has four chambers:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Right atrium",
+            "Right ventricle",
+            "Left atrium",
+            "Left ventricle"
+          ]
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Right atrium} \\longrightarrow \\text{Right ventricle} \\quad \\text{and} \\quad \\text{Left atrium} \\longrightarrow \\text{Left ventricle}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The right side mainly handles <strong>deoxygenated blood</strong>, while the left side mainly handles <strong>oxygenated blood</strong>."
+        },
+        {
+          "type": "heading",
+          "text": "2. Blood"
+        },
+        {
+          "type": "text",
+          "text": "Blood transports different substances around the body. It consists mainly of:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Plasma</strong> – transports food, carbon dioxide and other substances.",
+            "<strong>Red blood cells (RBCs)</strong> – contain haemoglobin and transport oxygen.",
+            "<strong>White blood cells (WBCs)</strong> – help fight infections.",
+            "<strong>Platelets</strong> – help in blood clotting."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "3. Blood vessels"
+        },
+        {
+          "type": "text",
+          "text": "There are three main types:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Arteries:</strong> Carry blood away from the heart.",
+            "<strong>Veins:</strong> Carry blood towards the heart.",
+            "<strong>Capillaries:</strong> Very thin blood vessels that allow exchange of materials between blood and tissues."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Double circulation"
+        },
+        {
+          "type": "text",
+          "text": "In humans, blood passes through the heart twice during one complete cycle. This is called <strong>double circulation</strong>. It consists of:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Pulmonary circulation:</strong> \\(\\text{Heart} \\longrightarrow \\text{Lungs} \\longrightarrow \\text{Heart}\\). It carries deoxygenated blood to the lungs and brings oxygenated blood back to the heart.",
+            "<strong>Systemic circulation:</strong> \\(\\text{Heart} \\longrightarrow \\text{Body} \\longrightarrow \\text{Heart}\\). It carries oxygenated blood from the heart to the body and brings deoxygenated blood back."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Double circulation keeps oxygenated and deoxygenated blood separate, allowing efficient supply of oxygen to the body."
+        }
+      ]
+    },
+    {
+      "heading": "5.4.2 Transport in Plants",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Plants need to transport water, minerals and food from one part of the plant to another. Two conducting tissues are responsible for transportation:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Xylem</strong>",
+            "<strong>Phloem</strong>"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "1. Xylem"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Xylem</strong> transports water and minerals from the roots to the stems and leaves. The movement is mainly upward, from roots towards the leaves. Water is absorbed by the roots from the soil and transported through xylem."
+        },
+        {
+          "type": "heading",
+          "text": "2. Phloem"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Phloem</strong> transports food made by the leaves to different parts of the plant. The movement of food through phloem is called <strong>translocation</strong>. Unlike xylem, translocation through phloem can occur in both directions, depending on where the food is needed."
+        },
+        {
+          "type": "heading",
+          "text": "Transport of water"
+        },
+        {
+          "type": "text",
+          "text": "Plants use <strong>transpiration</strong> to help move water upwards. Transpiration is the loss of water in the form of water vapour from the aerial parts of a plant, mainly through stomata. The evaporation of water from leaves creates a <strong>transpiration pull</strong>, which helps draw water upwards through the xylem."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Roots} \\longrightarrow \\text{Xylem} \\longrightarrow \\text{Stem} \\longrightarrow \\text{Leaves}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "Transport of food"
+        },
+        {
+          "type": "text",
+          "text": "Food prepared by photosynthesis in the leaves is transported through phloem to other parts of the plant:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Leaves} \\longrightarrow \\text{Phloem} \\longrightarrow \\text{Growing/Storage parts}\\]"
+        },
+        {
+          "type": "text",
+          "text": "This movement requires energy from the plant."
+        }
+      ]
+    },
+    {
+      "heading": "5.5 Excretion",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Excretion</strong> is the process of removing harmful metabolic waste products from the body. Metabolic activities in cells produce waste substances such as:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Carbon dioxide",
+            "Urea",
+            "Excess water",
+            "Excess salts"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "If these wastes accumulate in the body, they can be harmful. Different organisms remove wastes in different ways."
+        },
+        {
+          "type": "heading",
+          "text": "In human beings"
+        },
+        {
+          "type": "text",
+          "text": "The main excretory system consists of:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Kidneys</strong> – remove nitrogenous wastes such as urea from blood.",
+            "<strong>Ureters</strong> – carry urine from kidneys to the urinary bladder.",
+            "<strong>Urinary bladder</strong> – stores urine.",
+            "<strong>Urethra</strong> – carries urine out of the body."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "In plants"
+        },
+        {
+          "type": "text",
+          "text": "Plants do not have a specialised excretory system. They remove or store waste products in different ways, such as through:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Stomata</strong> – release gases and water vapour.",
+            "<strong>Transpiration</strong> – removes excess water.",
+            "<strong>Storage in leaves, bark and fruits</strong> – some wastes are stored and later removed when these parts fall off.",
+            "<strong>Resins and gums</strong> – some wastes are stored in these substances."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5.5.1 Excretion in Human Beings",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "In human beings, the main excretory waste is <strong>urea</strong>, which is produced when proteins are broken down. The excretory system removes urea and excess water and salts from the body."
+        },
+        {
+          "type": "heading",
+          "text": "Human excretory system"
+        },
+        {
+          "type": "text",
+          "text": "The main organs are:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Kidneys</strong> – filter the blood and remove wastes.",
+            "<strong>Ureters</strong> – carry urine from the kidneys to the urinary bladder.",
+            "<strong>Urinary bladder</strong> – stores urine.",
+            "<strong>Urethra</strong> – carries urine outside the body."
+          ]
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Kidneys} \\longrightarrow \\text{Ureters} \\longrightarrow \\text{Urinary bladder} \\longrightarrow \\text{Urethra} \\longrightarrow \\text{Urine outside}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "Nephron"
+        },
+        {
+          "type": "text",
+          "text": "The <strong>nephron</strong> is the structural and functional unit of the kidney. Each kidney contains a large number of nephrons. The main functions of a nephron are:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Filtration of blood",
+            "Selective reabsorption of useful substances",
+            "Removal of remaining wastes as urine"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Formation of urine"
+        },
+        {
+          "type": "text",
+          "text": "Urine formation occurs mainly in three steps:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Filtration:</strong> Blood is filtered in the <strong>glomerulus</strong>.",
+            "<strong>Selective reabsorption:</strong> Useful substances such as glucose, amino acids, salts and most water are reabsorbed into the blood.",
+            "<strong>Urine formation:</strong> The remaining waste and excess water form urine, which passes through the ureter to the urinary bladder."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Thus, the kidneys help maintain the proper balance of water, salts and wastes in the body."
+        }
+      ]
+    },
+    {
+      "heading": "5.5.2 Excretion in Plants",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Plants do not have a specialised excretory system like animals. They remove their waste products in several ways."
+        },
+        {
+          "type": "heading",
+          "text": "1. Gaseous wastes"
+        },
+        {
+          "type": "text",
+          "text": "Plants produce oxygen during photosynthesis and carbon dioxide during respiration. These gases are removed through <strong>stomata</strong> and other openings."
+        },
+        {
+          "type": "heading",
+          "text": "2. Excess water"
+        },
+        {
+          "type": "text",
+          "text": "Excess water is removed mainly through <strong>transpiration</strong>. Transpiration is the loss of water in the form of water vapour, mainly through stomata."
+        },
+        {
+          "type": "heading",
+          "text": "3. Storage of wastes"
+        },
+        {
+          "type": "text",
+          "text": "Some waste products are stored in parts of the plant such as:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Leaves",
+            "Bark",
+            "Fruits",
+            "Old xylem"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "When these parts fall off, the stored wastes are also removed."
+        },
+        {
+          "type": "heading",
+          "text": "4. Resins and gums"
+        },
+        {
+          "type": "text",
+          "text": "Some plants store their waste products as <strong>resins and gums</strong>, especially in old xylem."
+        },
+        {
+          "type": "heading",
+          "text": "5. Excretion into the soil"
+        },
+        {
+          "type": "text",
+          "text": "Some waste substances can be released into the surrounding soil through the roots. Thus, plants remove wastes by <strong>diffusion, transpiration, storage and shedding of plant parts</strong>, rather than through a specialised excretory organ."
+        }
+      ]
+    }
+  ],
+  "summary": "Life processes — nutrition, respiration, transportation and excretion — are the essential maintenance activities that keep living organisms alive. Autotrophs (such as green plants) synthesise glucose from carbon dioxide and water using sunlight and chlorophyll via photosynthesis, whereas heterotrophs use holozoic, saprophytic or parasitic nutrition. In humans, digestion occurs along the alimentary canal from the mouth to the small and large intestines with the help of salivary amylase, HCl, pepsin, bile, pancreatic enzymes and absorptive villi. Respiration breaks glucose into pyruvate in the cytoplasm and then proceeds either aerobically in mitochondria (yielding CO₂, H₂O and large energy) or anaerobically (yielding ethanol and CO₂ in yeast, or lactic acid in muscles). In humans, the four-chambered heart, blood and blood vessels carry out double circulation, while in plants xylem transports water and minerals upward (aided by transpiration pull) and phloem translocates food in both directions. Excretion in humans removes urea and excess water via nephrons in the kidneys through filtration and selective reabsorption, whereas plants remove wastes via stomata, transpiration, resins/gums, shedding parts and root excretion.",
+  "qa": [
+    {
+      "q": "What are the four main life processes, and why are they necessary?",
+      "a": "The four main life processes are nutrition, respiration, transportation and excretion. They are necessary to supply energy and raw materials for growth and repair, distribute food and oxygen to cells, and remove harmful metabolic wastes.",
+      "section": "5.1 What are Life Processes?"
+    },
+    {
+      "q": "Differentiate between autotrophic and heterotrophic nutrition.",
+      "a": "In autotrophic nutrition, organisms synthesise their own food from simple inorganic substances like carbon dioxide and water (e.g., green plants). In heterotrophic nutrition, organisms cannot make their own food and obtain it from other organisms (e.g., animals and fungi).",
+      "section": "5.2 Nutrition"
+    },
+    {
+      "q": "Write the balanced chemical equation for photosynthesis and state its four main events.",
+      "a": "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ (in the presence of sunlight and chlorophyll). The four events are: (1) absorption of light energy by chlorophyll, (2) conversion of light energy into chemical energy, (3) splitting of water molecules, and (4) reduction of carbon dioxide to glucose.",
+      "section": "5.2.1 Autotrophic Nutrition"
+    },
+    {
+      "q": "What are the three types of heterotrophic nutrition? Give examples of each.",
+      "a": "(1) Holozoic nutrition: taking in and digesting solid or liquid food inside the body (e.g., humans, Amoeba). (2) Saprophytic nutrition: absorbing nutrients from dead and decaying matter using external enzymes (e.g., bread mould, mushrooms). (3) Parasitic nutrition: obtaining food from a living host (e.g., Cuscuta, tapeworm, Plasmodium).",
+      "section": "5.2.2 Heterotrophic Nutrition"
+    },
+    {
+      "q": "How does Amoeba obtain its nutrition?",
+      "a": "Amoeba engulfs food using temporary finger-like projections called pseudopodia to form a food vacuole (ingestion). Digestive enzymes break down the food inside the vacuole (digestion), nutrients diffuse into the cytoplasm (absorption) for growth and energy (assimilation), and undigested waste is expelled (egestion).",
+      "section": "5.2.3 How do Organisms obtain their Nutrition?"
+    },
+    {
+      "q": "State the roles of hydrochloric acid, pepsin, mucus, bile and villi in the human digestive system.",
+      "a": "In the stomach, HCl creates an acidic medium, pepsin digests proteins, and mucus protects the stomach lining. In the small intestine, bile from the liver emulsifies large fat globules into smaller ones, and finger-like villi increase the surface area for absorbing digested nutrients.",
+      "section": "5.2.4 Nutrition in Human Beings"
+    },
+    {
+      "q": "Compare aerobic and anaerobic respiration, including the breakdown pathways of pyruvate.",
+      "a": "Glucose (C₆H₁₂O₆) first breaks down into pyruvate (C₃H₄O₃) in the cytoplasm. In aerobic respiration (with oxygen, in mitochondria), pyruvate breaks down into CO₂, H₂O and a large amount of energy. In anaerobic respiration (without oxygen, in cytoplasm), pyruvate forms ethanol and CO₂ in yeast, or lactic acid in human muscles during vigorous exercise.",
+      "section": "5.3 Respiration"
+    },
+    {
+      "q": "Why do multicellular organisms need a transportation system?",
+      "a": "All cells require food for energy and growth, oxygen for respiration, and removal of metabolic wastes. Specialised systems — the blood circulatory system in humans and xylem/phloem in plants — carry these substances across the body.",
+      "section": "5.4 Transportation"
+    },
+    {
+      "q": "What is double circulation in human beings, and why is it important?",
+      "a": "In humans, blood passes through the four-chambered heart twice in one complete cycle: pulmonary circulation (Heart → Lungs → Heart) and systemic circulation (Heart → Body → Heart). It keeps oxygenated and deoxygenated blood separate, ensuring an efficient oxygen supply to the body.",
+      "section": "5.4.1 Transportation in Human Beings"
+    },
+    {
+      "q": "How do xylem and phloem differ in the transport of materials in plants?",
+      "a": "Xylem transports water and minerals upward from the roots to stems and leaves, aided by transpiration pull. Phloem transports food prepared in leaves to growing and storage parts in both directions (translocation), using energy.",
+      "section": "5.4.2 Transport in Plants"
+    },
+    {
+      "q": "What is excretion, and what are the main metabolic wastes produced in living organisms?",
+      "a": "Excretion is the removal of harmful metabolic wastes from the body, including carbon dioxide, urea, excess water and excess salts.",
+      "section": "5.5 Excretion"
+    },
+    {
+      "q": "Describe the structure of the human excretory system and the three steps of urine formation in a nephron.",
+      "a": "The human excretory system consists of a pair of kidneys, ureters, a urinary bladder and a urethra. Inside each nephron, urine forms in three steps: (1) filtration of blood in the glomerulus, (2) selective reabsorption of glucose, amino acids, salts and water, and (3) removal of remaining waste and excess water as urine.",
+      "section": "5.5.1 Excretion in Human Beings"
+    },
+    {
+      "q": "List five ways in which plants excrete or store their waste products.",
+      "a": "Plants remove gaseous wastes (O₂ and CO₂) through stomata, remove excess water by transpiration, store wastes in leaves, bark and fruits that later fall off, store wastes as resins and gums in old xylem, and excrete some wastes into the soil through roots.",
+      "section": "5.5.2 Excretion in Plants"
+    }
+  ]
+}

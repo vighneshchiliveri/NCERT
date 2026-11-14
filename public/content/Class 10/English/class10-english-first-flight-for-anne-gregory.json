@@ -1,0 +1,51 @@
+{
+  "title": "For Anne Gregory",
+  "class": "10",
+  "subject": "English",
+  "chapter": "Poetry 10",
+  "book": "First Flight",
+  "notes": [
+    {
+      "heading": "Word Meanings",
+      "points": [
+        "Despair: A state of complete hopelessness or extreme sadness.",
+        "Honey-coloured: Having a beautiful, warm yellowish-golden shade like honey.",
+        "Ramparts: High defensive fortress walls, used here as a metaphor for the hair framing her face.",
+        "Locks: Strands, curls, or tufts of hair.",
+        "Dye: A substance used to artificially change the colour of hair.",
+        "Carrot: A bright reddish-orange colour resembling a carrot.",
+        "Yesternight: A poetic or old-fashioned term for last night or the previous night.",
+        "Declare: To formally announce, state, or pronounce something openly.",
+        "Text: A specific passage from holy scripture or an ancient religious writing."
+      ]
+    }
+  ],
+  "summary": "\"For Anne Gregory\" by William Butler Yeats is a beautiful, philosophical poem written in the form of a dialogue that addresses the complex nature of human love and the eternal conflict between physical beauty and spiritual worth. The poem opens with a young male speaker addressing a young woman named Anne Gregory, telling her that no young man will ever fall into despair or love her truly for her own sake alone, independent of her breathtaking outward appearance. The speaker emphasizes that men are naturally drawn to her magnificent, honey-colored yellow hair that frames her face like protective ramparts, meaning that their love is inevitably tied to her physical aesthetics rather than her internal character. In response, the independent-minded Anne declares that she can easily counter this shallow attraction by using a hair dye to change her hair color to brown, black, or carrot. By altering her exterior features, she hopes to find a genuine suitor who will look past her physical surface and love her solely for who she is on the inside, proving that her appearance is merely temporary. In the final stanza, the speaker counters Anne's optimistic view by recounting a religious text he heard an old religious man declare the previous night. This text proves that only God possesses the supreme, divine capacity to love a human being purely for themselves alone, completely detached from the color of their hair or the beauty of their physical form. Through this witty conversation, Yeats delivers a profound commentary on human limitations, highlighting that while human love remains bound to superficial qualities, true unconditional love is a divine attribute belonging exclusively to the creator.",
+  "qa": [
+    {
+      "q": "What does the young man mean by “yellow hair”?",
+      "a": "​ The young man refers to Anne Gregory’s beautiful yellow hair. He suggests that her attractive hair may be one of the reasons why people are drawn to her, rather than loving her for her inner qualities.",
+      "section": "Thinking About the Poem"
+    },
+    {
+      "q": "What does Anne Gregory say she can do to make herself less attractive?",
+      "a": "​ Anne says that she can dye her hair another colour so that men will no longer be attracted to her physical beauty. She believes that then someone might love her for her inner qualities.",
+      "section": "Thinking About the Poem"
+    },
+    {
+      "q": "What does the poet mean by “love for yourself alone”?",
+      "a": "​ It means loving a person for their true inner self rather than for their physical appearance. The poet suggests that such complete and unconditional love is difficult for human beings.",
+      "section": "Thinking About the Poem"
+    },
+    {
+      "q": "What is the central idea of the poem?",
+      "a": "​ The poem shows the difference between physical attraction and true love. It suggests that people are often attracted to external beauty, while only God can love a person completely for their inner self.",
+      "section": "Thinking About the Poem"
+    },
+    {
+      "q": "Why does Anne want to change the colour of her hair?",
+      "a": "​ Anne wants to change her hair colour because she believes that people are attracted to her mainly because of her physical beauty. She hopes that by changing her appearance, someone might love her for her personality and inner qualities.",
+      "section": "Thinking About the Poem"
+    }
+  ]
+}

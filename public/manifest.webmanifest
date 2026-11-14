@@ -1,0 +1,18 @@
+{
+  "name": "NCERT One Stop",
+  "short_name": "NCERT O.S.",
+  "description": "NCERT chapter notes, summaries and question answers.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffe600",
+  "theme_color": "#ffe600",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

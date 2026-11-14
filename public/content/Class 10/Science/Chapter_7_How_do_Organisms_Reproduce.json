@@ -1,0 +1,643 @@
+{
+  "title": "How do Organisms Reproduce?",
+  "class": "10",
+  "subject": "Science",
+  "chapter": "Chapter 7",
+  "book": "NCERT Science",
+  "notes": [
+    {
+      "heading": "7.1 Do Organisms Create Exact Copies of Themselves?",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Reproduction</strong> is the biological process by which organisms produce new individuals of their own kind. Reproduction is important because it ensures the <strong>continuation of a species</strong>."
+        },
+        {
+          "type": "heading",
+          "text": "Are new organisms exact copies?"
+        },
+        {
+          "type": "text",
+          "text": "When an organism reproduces, the new organism receives <strong>DNA</strong> from the parent. DNA contains the information needed to build and control the organism's body. During reproduction, DNA is copied. However, the copying process is not perfectly accurate. Small changes can occur, producing <strong>variations</strong>. Therefore, offspring are generally similar to their parents but are not always exact copies."
+        },
+        {
+          "type": "heading",
+          "text": "Why are variations important?"
+        },
+        {
+          "type": "text",
+          "text": "Variations help organisms survive changing environmental conditions. For example, if the environment changes, some individuals with useful variations may be better able to survive and reproduce."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Reproduction} \\longrightarrow \\text{DNA copying} \\longrightarrow \\text{Small variations} \\longrightarrow \\text{Differences among individuals}\\]"
+        },
+        {
+          "type": "text",
+          "text": "These variations are important for the <strong>survival and evolution of species</strong>."
+        }
+      ]
+    },
+    {
+      "heading": "7.2 Modes of Reproduction Used by Single Organisms",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Single-celled organisms can reproduce by relatively simple methods because their entire body consists of only one cell. Most of these methods are forms of <strong>asexual reproduction</strong>."
+        },
+        {
+          "type": "text",
+          "text": "In asexual reproduction:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Usually only <strong>one parent</strong> is involved.",
+            "There is <strong>no fusion</strong> of male and female gametes.",
+            "The offspring are generally <strong>very similar</strong> to the parent."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The main modes discussed in this chapter are:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Fission",
+            "Fragmentation",
+            "Regeneration",
+            "Budding",
+            "Vegetative propagation",
+            "Spore formation"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "7.2.1 Fission",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Fission</strong> is a type of asexual reproduction in which a single organism divides to form two or more new organisms. It is commonly seen in unicellular organisms."
+        },
+        {
+          "type": "heading",
+          "text": "Binary fission"
+        },
+        {
+          "type": "text",
+          "text": "In <strong>binary fission</strong>, one organism divides into <strong>two daughter organisms</strong>. Example: <strong>Amoeba</strong>. The nucleus first divides, followed by division of the cytoplasm."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Amoeba} \\longrightarrow \\text{Nucleus divides} \\longrightarrow \\text{Cytoplasm divides} \\longrightarrow \\text{2 Daughter cells}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Each daughter cell grows into a complete organism."
+        },
+        {
+          "type": "heading",
+          "text": "Multiple fission"
+        },
+        {
+          "type": "text",
+          "text": "In <strong>multiple fission</strong>, one organism divides to produce <strong>many daughter organisms</strong> at the same time. Example: <strong>Plasmodium</strong>."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Binary fission} \\longrightarrow 2\\text{ organisms} \\quad ; \\quad \\text{Multiple fission} \\longrightarrow \\text{Many organisms}\\]"
+        }
+      ]
+    },
+    {
+      "heading": "7.2.2 Fragmentation",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Fragmentation</strong> is a mode of asexual reproduction in which the body of an organism breaks into two or more fragments, and each fragment develops into a new organism."
+        },
+        {
+          "type": "heading",
+          "text": "Example: Spirogyra"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Spirogyra</strong> is a filamentous green alga. When its filament breaks into smaller pieces, each fragment can grow into a new Spirogyra."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Original filament} \\xrightarrow{\\text{breaks}} \\text{Smaller fragments} \\xrightarrow{\\text{grow}} \\text{New filaments}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Fragmentation is possible because each fragment contains living cells capable of growing into a complete organism. Example: <strong>Spirogyra</strong>."
+        }
+      ]
+    },
+    {
+      "heading": "7.2.3 Regeneration",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Regeneration</strong> is the ability of an organism to regrow lost or damaged body parts. In some simple organisms, if the body is cut into pieces, each piece can develop into a complete organism."
+        },
+        {
+          "type": "heading",
+          "text": "Example: Planaria"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Planaria</strong> can be cut into several pieces, and each piece can develop into a complete organism."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Planaria} \\xrightarrow{\\text{cut into pieces}} \\text{Multiple body pieces} \\longrightarrow \\text{Each develops into a new organism}\\]"
+        },
+        {
+          "type": "text",
+          "text": "This is possible because Planaria has <strong>specialised cells</strong> that can multiply and form different types of cells and tissues."
+        },
+        {
+          "type": "heading",
+          "text": "Regeneration vs Fragmentation"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Fragmentation:</strong> The body breaks into pieces, and each piece grows into a new organism.",
+            "<strong>Regeneration:</strong> The organism has the ability to regrow lost body parts; in some organisms, this can also result in formation of a complete organism from a body fragment."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Example: <strong>Planaria</strong>."
+        }
+      ]
+    },
+    {
+      "heading": "7.2.4 Budding",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Budding</strong> is a type of asexual reproduction in which a small outgrowth called a <strong>bud</strong> develops on the parent organism. The bud grows due to repeated cell division and eventually separates from the parent to form a new organism."
+        },
+        {
+          "type": "heading",
+          "text": "Example: Hydra"
+        },
+        {
+          "type": "text",
+          "text": "In <strong>Hydra</strong>, a small bud develops on the body. The bud gradually grows and develops structures similar to the parent. When it becomes mature, it detaches from the parent and lives independently."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Parent Hydra} \\longrightarrow \\text{Bud develops} \\longrightarrow \\text{Bud matures and detaches} \\longrightarrow \\text{New Hydra}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Budding is therefore an asexual mode of reproduction involving the formation of a new organism from a small outgrowth of the parent."
+        }
+      ]
+    },
+    {
+      "heading": "7.2.5 Vegetative Propagation",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Vegetative propagation</strong> is a type of asexual reproduction in plants in which new plants develop from vegetative parts of the parent plant, such as the <strong>root, stem or leaf</strong>. No seeds are required for this type of reproduction."
+        },
+        {
+          "type": "heading",
+          "text": "Examples"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Stem:</strong> Plants such as <strong>potato, sugarcane and rose</strong> can reproduce through their stems. The <strong>eyes of a potato</strong> can grow into new plants.",
+            "<strong>Leaf:</strong> <strong>Bryophyllum</strong> can produce new plants from buds present along the edges of its leaves.",
+            "<strong>Root:</strong> Some plants can develop new plants from their roots."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Advantages of vegetative propagation"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "It is a fast method of producing new plants.",
+            "Plants produced are generally similar to the parent plant.",
+            "It is useful for growing plants that do not produce viable seeds.",
+            "Plants can sometimes produce flowers and fruits earlier than plants grown from seeds."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "7.2.6 Spore Formation",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Spore formation</strong> is a type of asexual reproduction in which an organism produces small reproductive structures called <strong>spores</strong>. Spores are usually produced inside a <strong>sporangium</strong>."
+        },
+        {
+          "type": "heading",
+          "text": "Example: Rhizopus"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Rhizopus</strong> is a fungus commonly known as <strong>bread mould</strong>. It produces spores inside a sporangium supported by a sporangiophore above thread-like hyphae. When the sporangium bursts, the spores are released into the air. If a spore lands on a suitable surface with favourable conditions, it germinates and develops into a new organism."
+        },
+        {
+          "type": "heading",
+          "text": "Why are spores useful?"
+        },
+        {
+          "type": "text",
+          "text": "Spores have a <strong>protective covering</strong>, which helps them survive unfavourable conditions. They are also very light, so they can be carried by air and spread to new places. Example: <strong>Rhizopus (bread mould)</strong>."
+        }
+      ]
+    },
+    {
+      "heading": "7.3 Sexual Reproduction",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Sexual reproduction</strong> is a mode of reproduction in which two parents are generally involved and the male and female gametes fuse to form a new organism. The fusion of male and female gametes is called <strong>fertilisation</strong>. The cell formed after fertilisation is called a <strong>zygote</strong>."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Male gamete} + \\text{Female gamete} \\longrightarrow \\text{Zygote}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The zygote develops into a new organism."
+        },
+        {
+          "type": "heading",
+          "text": "Main features"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Usually involves two parents.",
+            "Involves formation of male and female gametes.",
+            "Gametes fuse during fertilisation.",
+            "The offspring receives genetic material from both parents.",
+            "It produces variations in offspring."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sexual reproduction is more complex than asexual reproduction, but it creates greater variation, which is important for the survival and evolution of species."
+        }
+      ]
+    },
+    {
+      "heading": "7.3.1 Why the Sexual Mode?",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Sexual reproduction is important because it produces <strong>variations</strong> among offspring. During sexual reproduction, the offspring receives genetic material from two different parents. Therefore, the offspring is not exactly identical to either parent."
+        },
+        {
+          "type": "heading",
+          "text": "Why are variations important?"
+        },
+        {
+          "type": "text",
+          "text": "The environment is constantly changing. Variations may help some organisms survive better in changing conditions. For example, if a disease affects a population, some individuals may have variations that make them more resistant to that disease. These individuals have a better chance of surviving and reproducing."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Sexual reproduction} \\longrightarrow \\text{Variations} \\longrightarrow \\text{Better adaptability}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Sexual reproduction therefore plays an important role in <strong>evolution and the survival of species</strong>."
+        }
+      ]
+    },
+    {
+      "heading": "7.3.2 Sexual Reproduction in Flowering Plants",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "In flowering plants, sexual reproduction takes place through <strong>flowers</strong>. The flower contains the reproductive organs of the plant."
+        },
+        {
+          "type": "heading",
+          "text": "Reproductive parts of a flower"
+        },
+        {
+          "type": "text",
+          "text": "There are two main reproductive parts:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Stamen</strong> – male reproductive part",
+            "<strong>Pistil (carpel)</strong> – female reproductive part"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "1. Stamen"
+        },
+        {
+          "type": "text",
+          "text": "The stamen is the male reproductive part. It consists of:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Anther</strong> – produces pollen grains, which contain the male gametes.",
+            "<strong>Filament</strong> – supports the anther."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "2. Pistil"
+        },
+        {
+          "type": "text",
+          "text": "The pistil is the female reproductive part. It consists of:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Stigma</strong> – receives pollen grains.",
+            "<strong>Style</strong> – connects stigma to ovary.",
+            "<strong>Ovary</strong> – contains ovules.",
+            "<strong>Ovule</strong> – contains the female gamete."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Pollination"
+        },
+        {
+          "type": "text",
+          "text": "The transfer of pollen grains from the anther to the stigma is called <strong>pollination</strong>. It can be:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Self-pollination</strong> – pollen reaches the stigma of the same flower or another flower on the same plant.",
+            "<strong>Cross-pollination</strong> – pollen is transferred from one plant to another plant of the same species."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Fertilisation"
+        },
+        {
+          "type": "text",
+          "text": "After pollination, the pollen grain produces a <strong>pollen tube</strong> that grows through the style towards the ovule. The male gamete travels through the pollen tube and fuses with the female gamete:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Male gamete} + \\text{Female gamete} \\longrightarrow \\text{Zygote}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The zygote develops into an <strong>embryo</strong>. After fertilisation:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Ovule → Seed</strong>",
+            "<strong>Ovary → Fruit</strong>"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Thus, sexual reproduction in flowering plants involves pollination followed by fertilisation, leading to the formation of seeds."
+        }
+      ]
+    },
+    {
+      "heading": "7.3.3 Reproduction in Human Beings",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Human beings reproduce by sexual reproduction. It involves two types of reproductive organs: the <strong>male reproductive system</strong> and the <strong>female reproductive system</strong>. The male produces <strong>sperms</strong>, while the female produces <strong>ova (eggs)</strong>."
+        },
+        {
+          "type": "heading",
+          "text": "Male reproductive system"
+        },
+        {
+          "type": "text",
+          "text": "The main organs are:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Testes</strong> – produce sperms and the male sex hormone testosterone.",
+            "<strong>Scrotum</strong> – holds the testes outside the abdominal cavity and keeps them at a lower temperature needed for sperm formation.",
+            "<strong>Vas deferens</strong> – carries sperms from the testes.",
+            "<strong>Seminal vesicles and prostate gland</strong> – add fluids to the sperms to form semen.",
+            "<strong>Urethra</strong> – carries semen out of the body through the penis."
+          ]
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Testes} \\longrightarrow \\text{Vas deferens} \\longrightarrow \\text{Urethra} \\longrightarrow \\text{Outside}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "Female reproductive system"
+        },
+        {
+          "type": "text",
+          "text": "The main organs are:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Ovaries</strong> – produce ova and female sex hormones.",
+            "<strong>Fallopian tubes (oviducts)</strong> – carry the ovum towards the uterus; fertilisation usually occurs here.",
+            "<strong>Uterus</strong> – where the embryo develops.",
+            "<strong>Cervix</strong> – lower narrow part of the uterus.",
+            "<strong>Vagina</strong> – receives sperms and acts as the birth canal."
+          ]
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Ovary} \\longrightarrow \\text{Fallopian tube} \\longrightarrow \\text{Uterus}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "Fertilisation"
+        },
+        {
+          "type": "text",
+          "text": "During sexual reproduction, a sperm may fuse with an ovum in the <strong>fallopian tube</strong>:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Sperm} + \\text{Ovum} \\longrightarrow \\text{Zygote}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The zygote divides repeatedly and develops into an <strong>embryo</strong>. The embryo gets implanted in the lining of the uterus. This process is called <strong>implantation</strong>."
+        },
+        {
+          "type": "heading",
+          "text": "Pregnancy"
+        },
+        {
+          "type": "text",
+          "text": "After implantation, the embryo continues to develop in the uterus. The developing embryo receives oxygen and nutrients from the mother's blood through a special tissue called the <strong>placenta</strong>. After about nine months, the baby is born."
+        }
+      ]
+    },
+    {
+      "heading": "7.3.4 Reproductive Health",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Reproductive health</strong> means maintaining the physical, mental and social well-being related to the reproductive system. Good reproductive health requires proper knowledge, hygiene and responsible behaviour."
+        },
+        {
+          "type": "heading",
+          "text": "1. Reproductive tract infections (RTIs)"
+        },
+        {
+          "type": "text",
+          "text": "Some infections can be transmitted through sexual contact. These are called <strong>sexually transmitted infections (STIs)</strong>. Examples include:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Gonorrhoea</strong>",
+            "<strong>Syphilis</strong>",
+            "<strong>HIV/AIDS</strong>"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Using condoms and maintaining safe sexual practices can help reduce the risk of sexually transmitted infections."
+        },
+        {
+          "type": "heading",
+          "text": "2. Contraception"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Contraception</strong> means preventing pregnancy by using suitable methods. Some common methods are:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Condoms</strong> – prevent sperm from reaching the ovum and also help protect against STIs.",
+            "<strong>Oral contraceptive pills</strong> – contain hormones that prevent ovulation.",
+            "<strong>Copper-T</strong> – an intrauterine contraceptive device placed inside the uterus.",
+            "<strong>Surgical methods</strong> – such as <strong>vasectomy</strong> in males and <strong>tubectomy</strong> in females."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "3. Importance of reproductive health"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Proper personal hygiene should be maintained.",
+            "Correct information about reproductive organs and processes is important.",
+            "Sexually transmitted infections should be prevented and treated.",
+            "Unwanted pregnancies can be prevented through appropriate contraception.",
+            "Responsible reproductive behaviour helps protect the health of individuals and families."
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": "Reproduction produces new individuals of a species through DNA copying, which introduces small variations essential for adaptation and evolution. Asexual reproduction involves a single parent without gamete fusion and includes binary fission (Amoeba), multiple fission (Plasmodium), fragmentation (Spirogyra), regeneration (Planaria), budding (Hydra), vegetative propagation via stems, leaves or roots (potato, Bryophyllum) and spore formation (Rhizopus). Sexual reproduction combines genetic material from two parents through the fusion of male and female gametes (fertilisation) to form a zygote, generating greater variation. In flowering plants, pollen grains from the stamen's anther are transferred to the pistil's stigma (pollination), followed by fertilisation in the ovule, after which the ovule becomes a seed and the ovary becomes a fruit. In humans, sperms produced in the testes fertilise the ovum in the fallopian tube, and the resulting embryo implants in the uterus and is nourished via the placenta. Reproductive health involves personal hygiene, preventing sexually transmitted infections (gonorrhoea, syphilis, HIV/AIDS), and using contraceptive methods (condoms, oral pills, Copper-T, vasectomy and tubectomy).",
+  "qa": [
+    {
+      "q": "Why are offspring formed by reproduction not always exact copies of their parents, and why is variation beneficial?",
+      "a": "During reproduction, DNA copying is not completely accurate, introducing small variations. Variations help some individuals in a species survive and adapt when environmental conditions change.",
+      "section": "7.1 Do Organisms Create Exact Copies of Themselves?"
+    },
+    {
+      "q": "What are the main characteristics and modes of asexual reproduction?",
+      "a": "Asexual reproduction involves a single parent without fusion of gametes, producing offspring very similar to the parent. Its main modes are fission, fragmentation, regeneration, budding, vegetative propagation and spore formation.",
+      "section": "7.2 Modes of Reproduction Used by Single Organisms"
+    },
+    {
+      "q": "Differentiate between binary fission and multiple fission with examples.",
+      "a": "In binary fission, a unicellular organism divides into two daughter cells (e.g., Amoeba). In multiple fission, a single organism divides to produce many daughter cells simultaneously (e.g., Plasmodium).",
+      "section": "7.2.1 Fission"
+    },
+    {
+      "q": "How does Spirogyra reproduce by fragmentation?",
+      "a": "When a filament of the green alga Spirogyra breaks into two or more fragments, each fragment contains living cells capable of dividing and growing into a complete new filament.",
+      "section": "7.2.2 Fragmentation"
+    },
+    {
+      "q": "Explain regeneration in Planaria and how it differs from fragmentation.",
+      "a": "Planaria possesses specialised cells that proliferate and differentiate so that if its body is cut into pieces, each piece regenerates into a complete organism. Unlike simple fragmentation, regeneration is the ability to regrow lost body parts through specialised cells.",
+      "section": "7.2.3 Regeneration"
+    },
+    {
+      "q": "Describe reproduction by budding in Hydra.",
+      "a": "In Hydra, repeated cell division at one specific site forms a small outgrowth called a bud. The bud grows into a miniature individual and detaches from the parent when mature to live independently.",
+      "section": "7.2.4 Budding"
+    },
+    {
+      "q": "What is vegetative propagation? Give examples of plants that reproduce via stem and leaf, and state two advantages.",
+      "a": "Vegetative propagation is asexual reproduction in which new plants grow from vegetative parts (root, stem or leaf) without seeds — for example, potato eyes (stem) and buds on the leaf margins of Bryophyllum (leaf). It is faster than growing from seed and allows seedless plants to be propagated while preserving parent traits.",
+      "section": "7.2.5 Vegetative Propagation"
+    },
+    {
+      "q": "How does Rhizopus reproduce by spore formation, and how do spores survive harsh conditions?",
+      "a": "Rhizopus (bread mould) forms microscopic spores inside blob-like sporangia. Spores have a thick protective covering that helps them survive unfavourable conditions until they land on a moist surface and germinate.",
+      "section": "7.2.6 Spore Formation"
+    },
+    {
+      "q": "What are the main features of sexual reproduction?",
+      "a": "Sexual reproduction usually involves two parents, formation of male and female gametes, fusion of gametes (fertilisation) to form a zygote, and combination of genetic material from both parents, creating variations in offspring.",
+      "section": "7.3 Sexual Reproduction"
+    },
+    {
+      "q": "Why does sexual reproduction generate greater variation than asexual reproduction?",
+      "a": "Because sexual reproduction combines DNA from two different individuals during fertilisation, creating new combinations of variants that enhance adaptability and evolution.",
+      "section": "7.3.1 Why the Sexual Mode?"
+    },
+    {
+      "q": "Describe the reproductive parts of a flower and state what happens to the ovule and ovary after fertilisation.",
+      "a": "The stamen (male part) consists of the anther (produces pollen grains) and filament. The pistil/carpel (female part) consists of the stigma, style and ovary (containing ovules). After pollination and fertilisation, the zygote forms an embryo, the ovule develops into a seed, and the ovary develops into a fruit.",
+      "section": "7.3.2 Sexual Reproduction in Flowering Plants"
+    },
+    {
+      "q": "Where does fertilisation take place in human beings, and what is the role of the placenta?",
+      "a": "Fertilisation occurs in the fallopian tube (oviduct), forming a zygote that develops into an embryo and implants in the uterus. The placenta is a specialised tissue connecting the embryo to the mother's blood to supply oxygen and nutrients.",
+      "section": "7.3.3 Reproduction in Human Beings"
+    },
+    {
+      "q": "Name three sexually transmitted infections (STIs) and four methods of contraception.",
+      "a": "STIs: gonorrhoea, syphilis and HIV/AIDS. Contraceptive methods: barrier methods (condoms), hormonal oral contraceptive pills, intrauterine devices (Copper-T), and surgical methods (vasectomy in males and tubectomy in females).",
+      "section": "7.3.4 Reproductive Health"
+    }
+  ]
+}

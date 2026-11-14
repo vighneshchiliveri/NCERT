@@ -1,0 +1,60 @@
+{
+  "title": "Nine Gold Medals",
+  "class": "9",
+  "subject": "English",
+  "chapter": "Poetry 5",
+  "book": "Kaveri",
+  "notes": [
+    {
+      "heading": "Word Meanings",
+      "points": [
+        "Athletes: People who are highly trained to compete in sports and track events.",
+        "Spectators: People gathered in a stadium or venue to watch an event.",
+        "Anticipation: A feeling of excitement while looking forward to something.",
+        "Dash: A short, fast, and explosive sprint race.",
+        "Poised: Completely ready, balanced, and waiting to take action.",
+        "Stumbled: Tripped or lost one's balance while running.",
+        "Staggered: Walking or moving unsteadily, almost falling over.",
+        "Asphalt: The dark, hard material used to lay out the athletic track.",
+        "Anguish: Severe mental suffering or emotional pain caused by extreme disappointment.",
+        "Dashed: Completely broken, shattered, or ruined instantly.",
+        "Pulled up on their heels: Stopping suddenly or freezing in their tracks while running fast.",
+        "Ovation: Prolonged, enthusiastic clapping and cheering from an audience.",
+        "Beaming: Radiating immense joy, happiness, or great satisfaction through one's face."
+      ]
+    }
+  ],
+  "summary": "Nine Gold Medals by   David Roth   (from the Class 9 textbook   Kaveri ) is a deeply inspiring narrative poem that redefines the concept of sportsmanship by prioritizing human compassion and empathy over intense competition. The poem is set during a hundred-yard dash at the   Special Olympics , a global sporting event featuring differently-abled athletes who have undergone months of grueling training with the singular hope of winning gold, silver, or bronze medals. As a massive, excited crowd of spectators gathers around the track to cheer, the final event of the day is announced, and the nine determined runners take their positions at the starting block, tensely waiting for the signal. When the starting pistol fires, the runners charge forward with great energy. However, the smallest and youngest runner suddenly loses his balance, stumbles, and falls headfirst onto the asphalt track. Finding his dreams of victory shattered in an instant, the young boy cries out in extreme pain and bitter frustration. What follows next completely shatters the aggressive mold of traditional sports: upon hearing his cry, the other eight competing runners—who were well on their way to victory—abruptly stop in their tracks. Instead of rushing ahead to claim individual glory, they all turn back one by one, return to the fallen boy, and gently help him up to his feet. In a powerful display of solidarity and unity, all   nine athletes join hands   and walk the remaining distance toward the finish line together, reducing the competitive sprint into a peaceful march of human brotherhood. The race ends with all nine contestants crossing the line simultaneously, resulting in each runner being rightfully awarded a  gold medal . The crowd responds with a thunderous standing ovation, deeply moved by the athletes' actions. Ultimately, the poem delivers a powerful moral message that true winning is not about defeating others or crossing the finish line first; rather, the ultimate victory lies in collective success, human cooperation, and lifting others up when they fall.",
+  "qa": [
+    {
+      "section": "Comprehension Check",
+      "q": "What was the setting of the poem?",
+      "a": "The poem is set at a sports event where athletes from different countries are competing in a race. Everyone is ready to win a gold medal and make their country proud."
+    },
+    {
+      "section": "Comprehension Check",
+      "q": "What happened when the race began?",
+      "a": "When the race began, all the athletes ran towards the finish line. Suddenly, one runner fell down and could not continue the race."
+    },
+    {
+      "section": "Comprehension Check",
+      "q": "Why did the other athletes stop running?",
+      "a": "The other athletes stopped because they felt sympathy for the fallen runner. Instead of continuing towards victory, they chose to help him and wait for him."
+    },
+    {
+      "section": "Comprehension Check",
+      "q": "How did the athletes finish the race?",
+      "a": "The athletes returned to the fallen runner, helped him stand up and then walked together towards the finish line. They crossed it together and showed true sportsmanship."
+    },
+    {
+      "section": "Comprehension Check",
+      "q": "Why did the athletes receive nine gold medals?",
+      "a": "The athletes received nine gold medals because they showed that kindness, unity and sportsmanship were more important than individual victory. Their selfless act made all of them winners."
+    },
+    {
+      "section": "Comprehension Check",
+      "q": "What is the main message of the poem?",
+      "a": "The poem teaches us that true victory lies in kindness, cooperation and helping others. It shows that humanity and sportsmanship are more valuable than winning a race or receiving a medal."
+    }
+  ]
+}

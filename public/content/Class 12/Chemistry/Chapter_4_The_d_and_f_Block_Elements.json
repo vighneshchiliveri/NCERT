@@ -1,0 +1,1480 @@
+{
+  "title": "The d- and f- Block Elements",
+  "class": "12",
+  "subject": "Chemistry",
+  "chapter": "Chapter 4",
+  "book": "NCERT Chemistry",
+  "notes": [
+    {
+      "heading": "4.1 Position in the Periodic Table",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The <strong>d-block elements</strong> are located in Groups 3 to 12 of the modern periodic table. They are placed between the s-block and p-block elements.\n\nThe four d-block transition series are:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>First transition series:</strong> Scandium (Sc) to Zinc (Zn), \\(3d\\) series.",
+            "<strong>Second transition series:</strong> Yttrium (Y) to Cadmium (Cd), \\(4d\\) series.",
+            "<strong>Third transition series:</strong> Lanthanum (La) and Hafnium (Hf) to Mercury (Hg), associated with the \\(5d\\) series.",
+            "<strong>Fourth transition series:</strong> Actinium (Ac) and Rutherfordium (Rf) to Copernicium (Cn), associated with the \\(6d\\) series."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The general electronic configuration of d-block elements is"
+        },
+        {
+          "type": "equation",
+          "text": "\\[(n - 1)d^{1-10}ns^{0-2}\\]"
+        },
+        {
+          "type": "text",
+          "text": "where \\(n\\) represents the outermost principal quantum number.\n\n<strong>Transition elements</strong> are those elements whose atoms have partially filled d-orbitals or whose ions have partially filled d-orbitals.\n\nFor example, iron (Fe) is a transition element because its atom has a partially filled d-subshell, and its common ions also contain partially filled d-orbitals.\n\nZinc (Zn), cadmium (Cd) and mercury (Hg) are generally not considered transition elements because their atoms and common \\(+2\\) ions have completely filled d-subshells (\\(d^{10}\\))."
+        }
+      ]
+    },
+    {
+      "heading": "4.2 Electronic Configurations of the d-Block Elements",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The d-block elements are characterised by the progressive filling of electrons in the \\((n - 1)d\\) orbitals. The last electron generally enters the d-subshell of the penultimate shell.\n\nThe general electronic configuration is"
+        },
+        {
+          "type": "equation",
+          "text": "\\[(n - 1)d^{1-10}ns^{0-2}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "Electronic configurations of the first transition series"
+        },
+        {
+          "type": "table",
+          "label": "Electronic configurations of the first transition series",
+          "headers": [
+            "Element",
+            "Symbol",
+            "Electronic configuration"
+          ],
+          "rows": [
+            [
+              "Scandium",
+              "Sc",
+              "\\([\\text{Ar}]\\,3d^1 4s^2\\)"
+            ],
+            [
+              "Titanium",
+              "Ti",
+              "\\([\\text{Ar}]\\,3d^2 4s^2\\)"
+            ],
+            [
+              "Vanadium",
+              "V",
+              "\\([\\text{Ar}]\\,3d^3 4s^2\\)"
+            ],
+            [
+              "Chromium",
+              "Cr",
+              "\\([\\text{Ar}]\\,3d^5 4s^1\\)"
+            ],
+            [
+              "Manganese",
+              "Mn",
+              "\\([\\text{Ar}]\\,3d^5 4s^2\\)"
+            ],
+            [
+              "Iron",
+              "Fe",
+              "\\([\\text{Ar}]\\,3d^6 4s^2\\)"
+            ],
+            [
+              "Cobalt",
+              "Co",
+              "\\([\\text{Ar}]\\,3d^7 4s^2\\)"
+            ],
+            [
+              "Nickel",
+              "Ni",
+              "\\([\\text{Ar}]\\,3d^8 4s^2\\)"
+            ],
+            [
+              "Copper",
+              "Cu",
+              "\\([\\text{Ar}]\\,3d^{10} 4s^1\\)"
+            ],
+            [
+              "Zinc",
+              "Zn",
+              "\\([\\text{Ar}]\\,3d^{10} 4s^2\\)"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Here, \\([\\text{Ar}]\\) represents the electronic configuration of argon."
+        },
+        {
+          "type": "heading",
+          "text": "Exceptional electronic configurations"
+        },
+        {
+          "type": "text",
+          "text": "Chromium and copper do not follow the expected electronic configuration."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Chromium:</strong> \\([\\text{Ar}]\\,3d^5 4s^1\\)",
+            "<strong>Copper:</strong> \\([\\text{Ar}]\\,3d^{10} 4s^1\\)"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "These exceptions occur because half-filled (\\(d^5\\)) and completely filled (\\(d^{10}\\)) d-subshells have extra stability."
+        },
+        {
+          "type": "heading",
+          "text": "Electronic configurations of ions"
+        },
+        {
+          "type": "text",
+          "text": "During ion formation, electrons are removed first from the \\(ns\\) orbital and then from the \\((n - 1)d\\) orbital.\n\nFor example,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Fe}: [\\text{Ar}]\\,3d^6 4s^2\\]"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Fe^2+}: [\\text{Ar}]\\,3d^6\\]"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Fe^3+}: [\\text{Ar}]\\,3d^5\\]"
+        },
+        {
+          "type": "text",
+          "text": "Thus, the \\(4s\\) electrons are removed before the \\(3d\\) electrons."
+        }
+      ]
+    },
+    {
+      "heading": "4.3 General Properties of the Transition Elements (d-Block)",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Transition elements exhibit several characteristic properties due to the presence of partially filled d-orbitals in their atoms or ions.\n\nThe important general properties of transition elements are:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Metallic character and high melting and boiling points.",
+            "Variable oxidation states.",
+            "Formation of coloured ions.",
+            "Magnetic properties.",
+            "Formation of complex compounds.",
+            "Catalytic activity.",
+            "Formation of alloys and interstitial compounds."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "These properties arise mainly from the participation of \\((n - 1)d\\) and \\(ns\\) electrons in bonding and chemical reactions."
+        }
+      ]
+    },
+    {
+      "heading": "4.3.1 Physical Properties",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Transition elements are metals and generally exhibit the following physical properties:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Metallic Character:</strong> Transition elements are hard, strong metals with high tensile strength. They possess metallic lustre and are good conductors of heat and electricity.",
+            "<strong>Melting and Boiling Points:</strong> They generally have high melting and boiling points because of strong metallic bonding involving both \\(d\\) and \\(s\\) electrons.",
+            "<strong>Density:</strong> Transition elements generally have high densities due to their relatively high atomic masses and small atomic volumes.",
+            "<strong>Enthalpy of Atomisation:</strong> They generally have high enthalpies of atomisation because strong metallic bonds require considerable energy to separate the atoms.",
+            "<strong>Electrical and Thermal Conductivity:</strong> They are good conductors of electricity and heat due to the presence of mobile electrons.",
+            "<strong>Alloy Formation:</strong> Transition elements readily form alloys with one another because their atomic sizes are often similar.",
+            "<strong>Exceptions:</strong> Mercury (Hg) is liquid at room temperature, while most other transition elements are solids. Zinc, cadmium and mercury have comparatively lower enthalpies of atomisation than many other transition metals."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "4.3.2 Variation in Atomic and Ionic Sizes of Transition Series",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The atomic and ionic radii of transition elements show only a small variation across a transition series."
+        },
+        {
+          "type": "heading",
+          "text": "1. Atomic Radii"
+        },
+        {
+          "type": "text",
+          "text": "On moving from left to right across a transition series, the atomic radii generally decrease at the beginning and then remain nearly constant towards the end.\n\nThis occurs because the nuclear charge increases with increasing atomic number, while the added electrons enter the inner \\((n - 1)d\\) orbitals. The increased nuclear attraction causes a gradual decrease in atomic size."
+        },
+        {
+          "type": "heading",
+          "text": "2. Ionic Radii"
+        },
+        {
+          "type": "text",
+          "text": "The ionic radii of transition elements also decrease gradually across a series, although the variation is relatively small.\n\nFor ions of the same oxidation state, the increasing nuclear charge attracts the electrons more strongly, resulting in smaller ionic radii."
+        },
+        {
+          "type": "heading",
+          "text": "3. Comparison of Transition Series"
+        },
+        {
+          "type": "text",
+          "text": "The atomic radii of the second transition series (\\(4d\\)) are generally larger than those of the first series (\\(3d\\)). However, the radii of the third transition series (\\(5d\\)) are nearly equal to those of the second series due to <strong>lanthanoid contraction</strong>.\n\n<strong>Lanthanoid contraction</strong> is the gradual decrease in atomic and ionic radii across the lanthanoid series due to the poor shielding effect of \\(4f\\) electrons.\n\nFor example, zirconium (Zr) and hafnium (Hf) have nearly equal atomic radii."
+        }
+      ]
+    },
+    {
+      "heading": "4.3.3 Ionisation Enthalpies",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Ionisation enthalpy</strong> is the energy required to remove the most loosely bound electron from an isolated gaseous atom in its ground state.\n\nThe first ionisation process is represented as"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{M(g) -> M+(g) + e-}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Transition elements generally have high ionisation enthalpies because of their relatively high effective nuclear charge and small atomic sizes."
+        },
+        {
+          "type": "heading",
+          "text": "Variation across a transition series"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "The first ionisation enthalpies generally increase gradually from left to right.",
+            "The variation is not regular because the energies of the \\(ns\\) and \\((n - 1)d\\) orbitals are close to each other.",
+            "The stable electronic configurations of half-filled and completely filled d-subshells also influence ionisation enthalpies."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Comparison with other elements"
+        },
+        {
+          "type": "text",
+          "text": "The ionisation enthalpies of transition elements are generally higher than those of s-block elements but lower than those of many p-block elements in the same period.\n\nThe second and third ionisation enthalpies are higher than the first because, after each electron is removed, the positive charge on the ion increases, making the removal of the next electron more difficult."
+        }
+      ]
+    },
+    {
+      "heading": "4.3.4 Oxidation States",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Oxidation state</strong> is the apparent charge assigned to an atom in a compound or ion according to the rules of oxidation numbers.\n\nTransition elements show variable oxidation states because the energies of the \\((n - 1)d\\) and \\(ns\\) orbitals are very close. Therefore, electrons from both orbitals can participate in bond formation.\n\nFor example,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Fe^2+, Fe^3+}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Iron exhibits \\(+2\\) and \\(+3\\) oxidation states."
+        },
+        {
+          "type": "heading",
+          "text": "Variation in oxidation states"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "The maximum oxidation state generally increases from Scandium to Manganese in the first transition series.",
+            "After Manganese, the maximum oxidation state generally decreases towards Zinc.",
+            "The highest oxidation states are commonly found in compounds involving oxygen or fluorine because these elements are highly electronegative."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Common oxidation states of the first transition series"
+        },
+        {
+          "type": "table",
+          "label": "Common oxidation states of the first transition series",
+          "headers": [
+            "Element",
+            "Common oxidation states"
+          ],
+          "rows": [
+            [
+              "Sc",
+              "+3"
+            ],
+            [
+              "Ti",
+              "+2, +3, +4"
+            ],
+            [
+              "V",
+              "+2, +3, +4, +5"
+            ],
+            [
+              "Cr",
+              "+2, +3, +6"
+            ],
+            [
+              "Mn",
+              "+2, +3, +4, +6, +7"
+            ],
+            [
+              "Fe",
+              "+2, +3"
+            ],
+            [
+              "Co",
+              "+2, +3"
+            ],
+            [
+              "Ni",
+              "+2"
+            ],
+            [
+              "Cu",
+              "+1, +2"
+            ],
+            [
+              "Zn",
+              "+2"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Stability of oxidation states"
+        },
+        {
+          "type": "text",
+          "text": "The \\(+2\\) oxidation state is common because the two \\(ns\\) electrons are removed first. Higher oxidation states arise when additional \\((n - 1)d\\) electrons also participate in bonding.\n\nFor example, manganese exhibits a maximum oxidation state of \\(+7\\) in potassium permanganate, \\(\\ce{KMnO4}\\)."
+        }
+      ]
+    },
+    {
+      "heading": "4.3.5 Trends in the M²⁺/M Standard Electrode Potentials",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The standard electrode potential, \\(E^\\ominus\\), measures the tendency of a species to gain electrons under standard conditions.\n\nFor the reduction of a metal ion to its metal, the electrode reaction is"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{M^2+(aq) + 2e- -> M(s)}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The standard electrode potential for this reaction is represented as \\(E^\\ominus(\\ce{M^2+/M})\\)."
+        },
+        {
+          "type": "heading",
+          "text": "Factors affecting the electrode potential"
+        },
+        {
+          "type": "text",
+          "text": "The value of \\(E^\\ominus(\\ce{M^2+/M})\\) depends mainly on three energy changes:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Enthalpy of atomisation:</strong> Energy required to convert the metal into gaseous atoms.",
+            "<strong>Ionisation enthalpy:</strong> Energy required to remove two electrons from gaseous metal atoms to form \\(\\ce{M^2+}\\) ions.",
+            "<strong>Hydration enthalpy:</strong> Energy released when gaseous metal ions become hydrated in aqueous solution."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The overall process is"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{M(s) -> M^2+(aq) + 2e-}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The electrode potential depends on the balance between these energy changes. Therefore, the values do not show a regular trend across the transition series.\n\nFor example, the standard electrode potential of copper is positive:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[E^\\ominus(\\ce{Cu^2+/Cu}) = +0.34\\text{ V}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Copper does not readily lose electrons to form \\(\\ce{Cu^2+}\\) ions under standard conditions because the energy required for atomisation and ionisation is not sufficiently compensated by hydration enthalpy.\n\nIn contrast, many transition metals have negative standard electrode potentials and can oxidise more readily than copper."
+        }
+      ]
+    },
+    {
+      "heading": "4.3.6 Trends in the M³⁺/M²⁺ Standard Electrode Potentials",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The standard electrode potential for the reduction of a trivalent metal ion to a divalent metal ion is represented as \\(E^\\ominus(\\ce{M^3+/M^2+})\\).\n\nThe electrode reaction is"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{M^3+(aq) + e- -> M^2+(aq)}\\]"
+        },
+        {
+          "type": "text",
+          "text": "The value of \\(E^\\ominus(\\ce{M^3+/M^2+})\\) indicates the tendency of \\(\\ce{M^3+}\\) ions to gain an electron and form \\(\\ce{M^2+}\\) ions."
+        },
+        {
+          "type": "heading",
+          "text": "Variation across the transition series"
+        },
+        {
+          "type": "text",
+          "text": "The standard electrode potentials of transition elements do not show a regular trend because they depend on the relative stabilities of the \\(\\ce{M^3+}\\) and \\(\\ce{M^2+}\\) ions.\n\nThese stabilities are influenced by:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Ionisation enthalpies required to form the ions.",
+            "Hydration enthalpies of the ions.",
+            "Electronic configurations of the \\(\\ce{M^3+}\\) and \\(\\ce{M^2+}\\) ions."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Role of electronic configuration"
+        },
+        {
+          "type": "text",
+          "text": "Ions with stable electronic configurations may show unusual electrode potentials.\n\nFor example, \\(\\ce{Mn^2+}\\) has a stable half-filled \\(3d^5\\) configuration, while \\(\\ce{Zn^2+}\\) has a stable completely filled \\(3d^{10}\\) configuration.\n\nThe relative stability of these electronic configurations affects the tendency of the corresponding ions to undergo oxidation or reduction."
+        }
+      ]
+    },
+    {
+      "heading": "4.3.7 Trends in Stability of Higher Oxidation States",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Transition elements exhibit variable oxidation states because both \\(ns\\) and \\((n - 1)d\\) electrons can participate in bond formation.\n\nThe stability of higher oxidation states depends on the nature of the element and the compound formed."
+        },
+        {
+          "type": "heading",
+          "text": "1. Variation across the transition series"
+        },
+        {
+          "type": "text",
+          "text": "The maximum oxidation state generally increases from Scandium to Manganese and then decreases towards Zinc in the first transition series.\n\nManganese exhibits the highest oxidation state of \\(+7\\) in this series."
+        },
+        {
+          "type": "heading",
+          "text": "2. Stability in oxides and fluorides"
+        },
+        {
+          "type": "text",
+          "text": "Higher oxidation states are generally stabilised in compounds with oxygen and fluorine because these elements are highly electronegative and form strong bonds with transition metals.\n\n<strong>Examples:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(\\ce{V2O5}\\): Vanadium exhibits \\(+5\\) oxidation state.",
+            "\\(\\ce{CrO3}\\): Chromium exhibits \\(+6\\) oxidation state.",
+            "\\(\\ce{Mn2O7}\\): Manganese exhibits \\(+7\\) oxidation state."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "3. Stability of lower oxidation states"
+        },
+        {
+          "type": "text",
+          "text": "Lower oxidation states are generally more stable in simple ionic compounds, particularly for many elements towards the end of the transition series.\n\nFor example, iron commonly exhibits \\(+2\\) and \\(+3\\) oxidation states.\n\nThus, the stability of oxidation states depends on electronic configuration, bonding, and the chemical environment."
+        }
+      ]
+    },
+    {
+      "heading": "4.3.8 Chemical Reactivity and E⊖ Values",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The chemical reactivity of transition elements is related to their standard electrode potentials, \\(E^\\ominus\\).\n\nFor the electrode reaction"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{M^2+(aq) + 2e- -> M(s)}\\]"
+        },
+        {
+          "type": "text",
+          "text": "the standard electrode potential indicates the tendency of the metal ion to gain electrons."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Negative \\(E^\\ominus\\) value:</strong> The metal generally has a greater tendency to lose electrons and undergo oxidation.",
+            "<strong>Positive \\(E^\\ominus\\) value:</strong> The metal ion has a greater tendency to gain electrons and undergo reduction."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "For example,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[E^\\ominus(\\ce{Zn^2+/Zn}) = -0.76\\text{ V}\\]"
+        },
+        {
+          "type": "equation",
+          "text": "\\[E^\\ominus(\\ce{Cu^2+/Cu}) = +0.34\\text{ V}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Zinc is more readily oxidised than copper under standard conditions.\n\nThe standard cell potential for a cell involving zinc and copper is"
+        },
+        {
+          "type": "equation",
+          "text": "\\[E_{\\text{cell}}^\\ominus = E_{\\text{cathode}}^\\ominus - E_{\\text{anode}}^\\ominus = 0.34 - (-0.76) = +1.10\\text{ V}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Since the standard cell potential is positive, the overall cell reaction is spontaneous under standard conditions.\n\n<strong>Conclusion:</strong> Transition metals show different chemical reactivities because their electrode potentials depend on atomisation enthalpy, ionisation enthalpy, and hydration enthalpy."
+        }
+      ]
+    },
+    {
+      "heading": "4.3.9 Magnetic Properties",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The magnetic properties of transition elements arise mainly from the presence of unpaired electrons in their d-orbitals."
+        },
+        {
+          "type": "heading",
+          "text": "1. Paramagnetic Nature"
+        },
+        {
+          "type": "text",
+          "text": "Substances containing one or more unpaired electrons are attracted by an external magnetic field and are called <strong>paramagnetic substances</strong>.\n\nTransition metal atoms and ions with unpaired d-electrons generally show paramagnetism."
+        },
+        {
+          "type": "heading",
+          "text": "2. Diamagnetic Nature"
+        },
+        {
+          "type": "text",
+          "text": "Substances in which all electrons are paired are weakly repelled by an external magnetic field and are called <strong>diamagnetic substances</strong>.\n\nFor example, \\(\\ce{Zn^2+}\\) has the electronic configuration \\(3d^{10}\\), with all electrons paired, so it is diamagnetic."
+        },
+        {
+          "type": "heading",
+          "text": "3. Magnetic Moment"
+        },
+        {
+          "type": "text",
+          "text": "The magnetic moment of a transition metal ion depends mainly on the number of unpaired electrons.\n\nFor many transition metal ions, the spin-only magnetic moment is calculated using"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\mu = \\sqrt{n(n + 2)}\\text{ BM}\\]"
+        },
+        {
+          "type": "text",
+          "text": "where"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(\\mu\\) = magnetic moment in Bohr magnetons (BM)",
+            "\\(n\\) = number of unpaired electrons"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "For example, \\(\\ce{Fe^3+}\\) has a \\(3d^5\\) configuration with five unpaired electrons."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\mu = \\sqrt{5(5 + 2)} = \\sqrt{35} \\approx 5.92\\text{ BM}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Thus, the magnetic moment generally increases with the number of unpaired electrons."
+        }
+      ]
+    },
+    {
+      "heading": "4.3.10 Formation of Coloured Ions",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Most transition metal ions are coloured because they have partially filled d-orbitals.\n\nWhen light falls on a transition metal ion, electrons absorb energy and move from one set of d-orbitals to another set of higher-energy d-orbitals. This process is called a <strong>d–d transition</strong>.\n\nThe absorbed energy corresponds to certain wavelengths of visible light. The remaining transmitted or reflected light gives the ion its observed colour.\n\n<strong>For example:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(\\ce{Cu^2+}\\) — Blue",
+            "\\(\\ce{Fe^2+}\\) — Pale green",
+            "\\(\\ce{Fe^3+}\\) — Yellowish brown",
+            "\\(\\ce{Cr^3+}\\) — Green or violet, depending on the compound",
+            "\\(\\ce{MnO4-}\\) — Purple"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Why are some transition metal ions colourless?"
+        },
+        {
+          "type": "text",
+          "text": "Ions with completely filled \\(d^{10}\\) or empty \\(d^0\\) configurations generally do not show d–d transitions and are often colourless.\n\n<strong>Examples:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(\\ce{Zn^2+}\\): \\(3d^{10}\\), colourless.",
+            "\\(\\ce{Sc^3+}\\): \\(3d^0\\), colourless."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Therefore, the colour of transition metal ions depends mainly on their electronic configuration and the energy difference between their d-orbitals."
+        }
+      ]
+    },
+    {
+      "heading": "4.3.11 Formation of Complex Compounds",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Transition metals readily form <strong>complex compounds</strong> because their ions are relatively small, have high charge densities, and can accept electron pairs from ligands.\n\nA complex compound consists of a central metal atom or ion surrounded by ions or molecules called <strong>ligands</strong>, which donate electron pairs to the central metal ion to form coordinate bonds.\n\nFor example,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{[Cu(NH3)4]^2+}\\]"
+        },
+        {
+          "type": "text",
+          "text": "In this complex, \\(\\ce{Cu^2+}\\) is the central metal ion, and four \\(\\ce{NH3}\\) molecules act as ligands."
+        },
+        {
+          "type": "heading",
+          "text": "Reasons for the formation of complex compounds"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Small size and high charge:</strong> Transition metal ions attract electron pairs from ligands strongly.",
+            "<strong>Availability of vacant orbitals:</strong> Metal ions can accept electron pairs from ligands.",
+            "<strong>Variable oxidation states:</strong> Transition metals can form complexes in different oxidation states.",
+            "<strong>High coordination numbers:</strong> They can bond with several ligands simultaneously."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Examples of complex compounds"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(\\ce{K4[Fe(CN)6]}\\) — Potassium hexacyanidoferrate(II).",
+            "\\(\\ce{[Ag(NH3)2]+}\\) — Diamminesilver(I) ion.",
+            "\\(\\ce{[Co(NH3)6]^3+}\\) — Hexaamminecobalt(III) ion."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Complex compounds are important in analytical chemistry, biological systems, and industrial processes."
+        }
+      ]
+    },
+    {
+      "heading": "4.3.12 Catalytic Properties",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Transition metals and their compounds often act as effective catalysts. A catalyst increases the rate of a chemical reaction without being consumed permanently in the overall reaction."
+        },
+        {
+          "type": "heading",
+          "text": "Reasons for catalytic activity"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Variable oxidation states:</strong> Transition metals can change their oxidation states during reactions and help transfer electrons between reactants.",
+            "<strong>Formation of intermediate compounds:</strong> They form temporary intermediates with reactants, providing an alternative reaction pathway with lower activation energy.",
+            "<strong>Adsorption of reactants:</strong> Transition metal surfaces can adsorb reactant molecules, bringing them closer together and facilitating the reaction."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Examples of transition metal catalysts"
+        },
+        {
+          "type": "table",
+          "label": "Examples of transition metal catalysts",
+          "headers": [
+            "Catalyst",
+            "Industrial process or reaction"
+          ],
+          "rows": [
+            [
+              "Iron (Fe)",
+              "Manufacture of ammonia by the Haber process"
+            ],
+            [
+              "Vanadium(V) oxide (\\(\\ce{V2O5}\\))",
+              "Manufacture of sulphuric acid by the Contact process"
+            ],
+            [
+              "Nickel (Ni)",
+              "Hydrogenation of vegetable oils"
+            ],
+            [
+              "Platinum (Pt)",
+              "Catalytic oxidation of ammonia in the Ostwald process"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Thus, transition metals are widely used as catalysts because of their variable oxidation states, ability to form intermediates, and effective adsorption of reactants."
+        }
+      ]
+    },
+    {
+      "heading": "4.3.13 Formation of Interstitial Compounds",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Transition metals form <strong>interstitial compounds</strong> when small atoms such as hydrogen, carbon, nitrogen or boron occupy the empty spaces (interstitial sites) in their metal crystal lattices.\n\nThese small atoms fit into the spaces between the metal atoms without significantly disturbing the overall crystal structure.\n\n<strong>Examples:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(\\ce{TiC}\\) — Titanium carbide",
+            "\\(\\ce{Fe3C}\\) — Iron carbide",
+            "\\(\\ce{Mn4N}\\) — Manganese nitride",
+            "\\(\\ce{VH_x}\\) — Vanadium hydride, where \\(x\\) represents a variable hydrogen content"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Properties of interstitial compounds"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "They are generally very hard and rigid.",
+            "They often have high melting points.",
+            "They retain metallic conductivity.",
+            "They are usually non-stoichiometric, meaning their composition may vary over a certain range.",
+            "They are generally chemically inert compared with the corresponding pure metals."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Interstitial compounds are important in improving the hardness, strength and durability of metals and alloys."
+        }
+      ]
+    },
+    {
+      "heading": "4.3.14 Alloy Formation",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Transition metals readily form <strong>alloys</strong> because their atomic sizes are generally similar and their crystal structures are often compatible. As a result, atoms of one metal can replace atoms of another metal in the crystal lattice.\n\nAn <strong>alloy</strong> is a homogeneous mixture of two or more metals, or of a metal with a small amount of a non-metal."
+        },
+        {
+          "type": "heading",
+          "text": "Examples of alloys"
+        },
+        {
+          "type": "table",
+          "label": "Examples of alloys",
+          "headers": [
+            "Alloy",
+            "Composition"
+          ],
+          "rows": [
+            [
+              "Stainless steel",
+              "Iron, chromium, nickel and carbon"
+            ],
+            [
+              "Brass",
+              "Copper and zinc"
+            ],
+            [
+              "Bronze",
+              "Copper and tin"
+            ],
+            [
+              "Nichrome",
+              "Nickel, chromium and iron"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Properties of alloys"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "They are generally harder and stronger than pure metals.",
+            "They often have greater resistance to corrosion.",
+            "Their electrical conductivity may differ from that of the constituent metals.",
+            "Their melting points and other physical properties depend on their composition."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Uses:</strong> Alloys are widely used in construction, machinery, electrical heating elements, kitchen utensils and industrial equipment because their properties can be adjusted for specific applications."
+        }
+      ]
+    },
+    {
+      "heading": "4.4 Some Important Compounds of Transition Elements",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Two important compounds of transition elements are potassium dichromate (\\(\\ce{K2Cr2O7}\\)) and potassium permanganate (\\(\\ce{KMnO4}\\)). Both are strong oxidising agents and are widely used in chemical laboratories and industries.\n\nPotassium dichromate contains chromium in the \\(+6\\) oxidation state, whereas potassium permanganate contains manganese in the \\(+7\\) oxidation state."
+        },
+        {
+          "type": "heading",
+          "text": "Potassium Dichromate (K₂Cr₂O₇)"
+        },
+        {
+          "type": "text",
+          "text": "Potassium dichromate is an important compound of chromium. It is an orange crystalline solid and acts as a strong oxidising agent, especially in acidic medium."
+        },
+        {
+          "type": "heading",
+          "text": "1. Preparation of Potassium Dichromate"
+        },
+        {
+          "type": "text",
+          "text": "Potassium dichromate is prepared from chromite ore, \\(\\ce{FeCr2O4}\\), through the following steps.\n\n<strong>Step 1: Conversion of chromite ore into sodium chromate</strong>\nFinely powdered chromite ore is fused with sodium carbonate in the presence of air. Yellow sodium chromate is formed."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{4FeCr2O4 + 8Na2CO3 + 7O2 -> 8Na2CrO4 + 2Fe2O3 + 8CO2}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Step 2: Conversion of sodium chromate into sodium dichromate</strong>\nSodium chromate is treated with dilute sulphuric acid to form sodium dichromate."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2Na2CrO4 + H2SO4 -> Na2Cr2O7 + Na2SO4 + H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Step 3: Conversion of sodium dichromate into potassium dichromate</strong>\nSodium dichromate is treated with potassium chloride. Potassium dichromate crystallises out because it is less soluble than sodium dichromate."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Na2Cr2O7 + 2KCl -> K2Cr2O7 + 2NaCl}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Potassium dichromate is obtained as orange crystals."
+        },
+        {
+          "type": "heading",
+          "text": "2. Properties of Potassium Dichromate"
+        },
+        {
+          "type": "text",
+          "text": "<strong>A. Physical Properties</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Potassium dichromate is an orange-coloured crystalline solid.",
+            "It is soluble in water, and its solubility increases with temperature.",
+            "It is widely used as an oxidising agent in acidic medium."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>B. Chemical Properties</strong>\n\n<strong>1. Action of Alkali and Acid</strong>\nIn aqueous solution, chromate and dichromate ions are interconvertible. The conversion depends on the pH of the solution.\n\nIn an alkaline medium, the orange dichromate ion changes into the yellow chromate ion."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Cr2O7^2- + 2OH- <=> 2CrO4^2- + H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "In an acidic medium, the yellow chromate ion changes into the orange dichromate ion."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2CrO4^2- + 2H+ <=> Cr2O7^2- + H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>2. Oxidising Action</strong>\nPotassium dichromate acts as a strong oxidising agent in acidic medium. During the reaction, chromium is reduced from the \\(+6\\) oxidation state to the \\(+3\\) oxidation state.\n\nThe reduction half-reaction is"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Cr2O7^2- + 14H+ + 6e- -> 2Cr^3+ + 7H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Examples of its oxidising action are given below.\n\n(i) Oxidation of ferrous ions to ferric ions"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Cr2O7^2- + 14H+ + 6Fe^2+ -> 2Cr^3+ + 7H2O + 6Fe^3+}\\]"
+        },
+        {
+          "type": "text",
+          "text": "(ii) Oxidation of iodide ions to iodine"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Cr2O7^2- + 14H+ + 6I- -> 2Cr^3+ + 7H2O + 3I2}\\]"
+        },
+        {
+          "type": "text",
+          "text": "(iii) Oxidation of sulphur dioxide to sulphate ions"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Cr2O7^2- + 8H+ + 3SO2 -> 2Cr^3+ + 4H2O + 3SO4^2-}\\]"
+        },
+        {
+          "type": "text",
+          "text": "In these reactions, the orange dichromate ion is reduced to green \\(\\ce{Cr^3+}\\) ions."
+        },
+        {
+          "type": "heading",
+          "text": "3. Uses of Potassium Dichromate"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "It is used as a strong oxidising agent in chemical laboratories.",
+            "It is used in volumetric analysis for the estimation of reducing agents.",
+            "It is used in the manufacture of dyes, pigments and other chromium compounds.",
+            "It is used in certain industrial processes, including leather processing and metal treatment."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Potassium dichromate contains toxic hexavalent chromium, so its handling and disposal require appropriate safety precautions."
+        },
+        {
+          "type": "heading",
+          "text": "Potassium Permanganate (KMnO₄)"
+        },
+        {
+          "type": "text",
+          "text": "Potassium permanganate is an important compound of manganese. It is a dark purple crystalline solid and acts as a strong oxidising agent in acidic, neutral and alkaline media, depending on the reaction conditions."
+        },
+        {
+          "type": "heading",
+          "text": "1. Preparation of Potassium Permanganate"
+        },
+        {
+          "type": "text",
+          "text": "Potassium permanganate is prepared from pyrolusite ore (\\(\\ce{MnO2}\\)) through the following steps.\n\n<strong>Step 1: Conversion of manganese dioxide into potassium manganate</strong>\nManganese dioxide is fused with potassium hydroxide in the presence of an oxidising agent, such as oxygen. Green potassium manganate is formed."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2MnO2 + 4KOH + O2 -> 2K2MnO4 + 2H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "In this reaction, manganese is oxidised from the \\(+4\\) oxidation state to the \\(+6\\) oxidation state.\n\n<strong>Step 2: Conversion of potassium manganate into potassium permanganate</strong>\nPotassium manganate is converted into potassium permanganate by oxidation or by suitable electrolytic methods.\n\nThe oxidation reaction can be represented as"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2K2MnO4 + Cl2 -> 2KMnO4 + 2KCl}\\]"
+        },
+        {
+          "type": "text",
+          "text": "In this reaction, manganese is oxidised from the \\(+6\\) oxidation state to the \\(+7\\) oxidation state.\n\nPotassium permanganate is obtained as purple crystals."
+        },
+        {
+          "type": "heading",
+          "text": "2. Properties of Potassium Permanganate"
+        },
+        {
+          "type": "text",
+          "text": "<strong>A. Physical Properties</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Potassium permanganate is a dark purple crystalline solid.",
+            "It dissolves in water to form a purple solution.",
+            "It is a strong oxidising agent in acidic, neutral and alkaline media, with different reduction products depending on the medium."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>B. Chemical Properties</strong>\n\n<strong>1. Thermal Decomposition</strong>\nOn heating, potassium permanganate decomposes to form potassium manganate, manganese dioxide and oxygen gas."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2KMnO4 ->[\\Delta] K2MnO4 + MnO2 + O2}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>2. Oxidising Action in Acidic Medium</strong>\nIn acidic medium, the permanganate ion is reduced to \\(\\ce{Mn^2+}\\) ions.\n\nThe reduction half-reaction is"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{MnO4- + 8H+ + 5e- -> Mn^2+ + 4H2O}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Examples:\n\n(i) Oxidation of ferrous ions to ferric ions"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{MnO4- + 8H+ + 5Fe^2+ -> Mn^2+ + 4H2O + 5Fe^3+}\\]"
+        },
+        {
+          "type": "text",
+          "text": "(ii) Oxidation of oxalate ions to carbon dioxide"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{2MnO4- + 16H+ + 5C2O4^2- -> 2Mn^2+ + 8H2O + 10CO2}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>3. Oxidising Action in Neutral or Weakly Alkaline Medium</strong>\nIn neutral or weakly alkaline medium, permanganate ions are generally reduced to brown manganese dioxide."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{MnO4- + 2H2O + 3e- -> MnO2 + 4OH-}\\]"
+        },
+        {
+          "type": "text",
+          "text": "<strong>4. Oxidising Action in Strongly Alkaline Medium</strong>\nIn strongly alkaline medium, permanganate ions can be reduced to green manganate ions."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{MnO4- + e- -> MnO4^2-}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Thus, the reduction product of potassium permanganate depends on the pH of the reaction medium."
+        },
+        {
+          "type": "heading",
+          "text": "3. Uses of Potassium Permanganate"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "It is used as a strong oxidising agent in chemical laboratories and industries.",
+            "It is used in redox titrations for estimating reducing agents such as ferrous ions and oxalate ions.",
+            "It is used in water treatment for oxidising certain impurities.",
+            "It is used in certain industrial oxidation processes.",
+            "It is used in analytical chemistry for the quantitative estimation of various substances."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "4.5 The Inner Transition Elements (f-Block)",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The <strong>inner transition elements</strong> are the elements in which the differentiating electron enters the \\((n - 2)f\\) subshell. They are placed separately at the bottom of the periodic table to keep the table compact.\n\nThey consist of two series:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Lanthanoids:</strong> The elements in which the \\(4f\\) orbitals are progressively filled.",
+            "<strong>Actinoids:</strong> The elements in which the \\(5f\\) orbitals are progressively filled."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The general electronic configuration of inner transition elements is"
+        },
+        {
+          "type": "equation",
+          "text": "\\[(n - 2)f^{0-14}(n - 1)d^{0-1}ns^2\\]"
+        },
+        {
+          "type": "text",
+          "text": "The f-block elements are also called inner transition elements because the differentiating electron enters an inner \\(f\\)-subshell.\n\nMost inner transition elements are metals and exhibit variable oxidation states. Their properties are strongly influenced by their \\(f\\)-electron configurations."
+        }
+      ]
+    },
+    {
+      "heading": "4.5.1 The Lanthanoids",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The <strong>lanthanoids</strong> are the fourteen elements following lanthanum, from cerium (Ce) to lutetium (Lu), in which the \\(4f\\) orbitals are progressively filled. Lanthanum is commonly considered along with them because of its similar chemical properties."
+        },
+        {
+          "type": "heading",
+          "text": "1. Electronic Configuration"
+        },
+        {
+          "type": "text",
+          "text": "The general electronic configuration of lanthanoids is"
+        },
+        {
+          "type": "equation",
+          "text": "\\[[\\text{Xe}]\\,4f^{1-14}5d^{0-1}6s^2\\]"
+        },
+        {
+          "type": "text",
+          "text": "where \\([\\text{Xe}]\\) represents the electronic configuration of xenon.\n\nThe differentiating electron generally enters the \\(4f\\) subshell. However, a few elements show irregularities due to the small energy difference between the \\(4f\\) and \\(5d\\) orbitals."
+        },
+        {
+          "type": "heading",
+          "text": "2. Atomic and Ionic Sizes"
+        },
+        {
+          "type": "text",
+          "text": "The atomic and ionic radii of lanthanoids decrease gradually from left to right across the series. This gradual decrease is called <strong>lanthanoid contraction</strong>.\n\nIt occurs because the nuclear charge increases with increasing atomic number, while the added \\(4f\\) electrons shield the outer electrons poorly.\n\nAs a result, the effective nuclear attraction increases, causing the atomic and ionic sizes to decrease.\n\n<strong>Consequences of lanthanoid contraction:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "The lanthanoids have very similar chemical properties, making their separation difficult.",
+            "The elements of the second and third transition series, such as zirconium and hafnium, have nearly equal atomic radii.",
+            "The basicity of lanthanoid hydroxides decreases from \\(\\ce{La(OH)3}\\) to \\(\\ce{Lu(OH)3}\\) because the ionic size decreases across the series."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "3. Oxidation States of Lanthanoids"
+        },
+        {
+          "type": "text",
+          "text": "The most common oxidation state of lanthanoids is \\(+3\\). In this state, two \\(6s\\) electrons and one additional electron are generally removed."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Ln -> Ln^3+ + 3e-}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Some lanthanoids also exhibit \\(+2\\) and \\(+4\\) oxidation states due to the extra stability associated with empty, half-filled or completely filled \\(4f\\) subshells.\n\n<strong>Examples:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>\\(+2\\) oxidation state:</strong> Samarium (\\(\\ce{Sm^2+}\\)), europium (\\(\\ce{Eu^2+}\\)) and ytterbium (\\(\\ce{Yb^2+}\\)).",
+            "<strong>\\(+4\\) oxidation state:</strong> Cerium (\\(\\ce{Ce^4+}\\)) and terbium (\\(\\ce{Tb^4+}\\))."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The stability of these oxidation states is influenced by their electronic configurations.\n\nFor example, \\(\\ce{Eu^2+}\\) has a half-filled \\(4f^7\\) configuration, while \\(\\ce{Yb^2+}\\) has a completely filled \\(4f^{14}\\) configuration. These configurations contribute to their relative stability."
+        },
+        {
+          "type": "heading",
+          "text": "4. General Characteristics of Lanthanoids"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Metallic Character:</strong> Lanthanoids are silvery-white metals. They are relatively soft and become tarnished when exposed to air.",
+            "<strong>Reactivity:</strong> They are electropositive metals and react with water, acids and other non-metals. Their reactivity generally increases with increasing temperature.",
+            "<strong>Colour:</strong> Many lanthanoid ions are coloured due to electronic transitions within the \\(4f\\) orbitals. Ions with \\(4f^0\\) or \\(4f^{14}\\) configurations are generally colourless.",
+            "<strong>Magnetic Properties:</strong> Most lanthanoid ions are paramagnetic because they contain unpaired \\(4f\\) electrons. Ions with no unpaired electrons are generally diamagnetic.",
+            "<strong>Complex Formation:</strong> Lanthanoids form complex compounds, but their tendency to form complexes is generally lower than that of many transition metals. Their complex formation is mainly due to electrostatic attraction between the metal ions and ligands.",
+            "<strong>Similar Chemical Properties:</strong> Most lanthanoids show the \\(+3\\) oxidation state and have similar ionic sizes. Therefore, their chemical properties are very similar, making their separation difficult.",
+            "<strong>Occurrence and Uses:</strong> Lanthanoids occur mainly in minerals such as monazite and bastnäsite. They are used in permanent magnets, glass polishing, phosphors, electronic devices and special alloys."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "4.5.2 The Actinoids",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The <strong>actinoids</strong> are the fourteen elements following actinium, from thorium (Th) to lawrencium (Lr), in which the \\(5f\\) orbitals are progressively filled. Actinium is commonly included in the series because of its similar chemical properties."
+        },
+        {
+          "type": "heading",
+          "text": "1. Electronic Configuration"
+        },
+        {
+          "type": "text",
+          "text": "The general electronic configuration of actinoids is"
+        },
+        {
+          "type": "equation",
+          "text": "\\[[\\text{Rn}]\\,5f^{0-14}6d^{0-1}7s^2\\]"
+        },
+        {
+          "type": "text",
+          "text": "where \\([\\text{Rn}]\\) represents the electronic configuration of radon.\n\nThe differentiating electron generally enters the \\(5f\\) subshell. However, irregularities occur because the energies of the \\(5f\\), \\(6d\\) and \\(7s\\) orbitals are very close."
+        },
+        {
+          "type": "heading",
+          "text": "2. Ionic Sizes"
+        },
+        {
+          "type": "text",
+          "text": "The ionic radii of actinoids generally decrease with increasing atomic number. This gradual decrease is called <strong>actinoid contraction</strong>.\n\nIt occurs because the nuclear charge increases across the series, while the \\(5f\\) electrons shield the outer electrons imperfectly.\n\nAs a result, the effective nuclear attraction increases and the ionic sizes decrease.\n\nActinoid contraction is generally greater and less regular than lanthanoid contraction because the \\(5f\\) electrons participate more readily in bonding and shielding effects vary across the series."
+        },
+        {
+          "type": "heading",
+          "text": "3. Oxidation States of Actinoids"
+        },
+        {
+          "type": "text",
+          "text": "Actinoids exhibit a wider range of oxidation states than lanthanoids because the energies of the \\(5f\\), \\(6d\\) and \\(7s\\) orbitals are relatively close. Therefore, electrons from these orbitals can participate in bonding.\n\nThe most common oxidation state is \\(+3\\), but oxidation states of \\(+4\\), \\(+5\\), \\(+6\\) and \\(+7\\) are also observed in some actinoids.\n\n<strong>Examples:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Thorium (Th): \\(+4\\)",
+            "Uranium (U): \\(+3, +4, +5, +6\\)",
+            "Neptunium (Np): \\(+3, +4, +5, +6, +7\\)",
+            "Plutonium (Pu): \\(+3, +4, +5, +6, +7\\)"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The stability of these oxidation states depends on the electronic configuration, bonding and chemical environment. Higher oxidation states are particularly common for the early actinoids, while the \\(+3\\) state becomes increasingly important for later members of the series."
+        },
+        {
+          "type": "heading",
+          "text": "4. General Characteristics of Actinoids"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Radioactive Nature:</strong> All actinoids are radioactive. Their nuclei are unstable and undergo radioactive decay. Most actinoids beyond uranium are synthetic elements.",
+            "<strong>Metallic Character:</strong> Actinoids are metals that generally have silvery lustre. They are relatively dense and electropositive.",
+            "<strong>Reactivity:</strong> Actinoids are reactive metals. They react with oxygen, halogens and acids under suitable conditions.",
+            "<strong>Colour:</strong> Many actinoid ions are coloured because of electronic transitions involving the \\(5f\\) electrons. Their colours depend on the oxidation state and chemical environment.",
+            "<strong>Magnetic Properties:</strong> Most actinoid ions exhibit paramagnetism due to the presence of unpaired \\(5f\\) electrons.",
+            "<strong>Complex Formation:</strong> Actinoids readily form complex compounds. Their \\(5f\\), \\(6d\\) and \\(7s\\) orbitals can participate in bonding, and their higher oxidation states favour complex formation.",
+            "<strong>Variable Oxidation States:</strong> Actinoids show a wider range of oxidation states than lanthanoids because the energies of the \\(5f\\), \\(6d\\) and \\(7s\\) orbitals are close.",
+            "<strong>Applications:</strong> Uranium and plutonium are used as nuclear fuels. Other actinoids are used in scientific research, nuclear technology and certain specialised applications."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "5. Comparison Between Lanthanoids and Actinoids"
+        },
+        {
+          "type": "table",
+          "label": "Comparison Between Lanthanoids and Actinoids",
+          "headers": [
+            "Property",
+            "Lanthanoids",
+            "Actinoids"
+          ],
+          "rows": [
+            [
+              "Differentiating electron",
+              "Enters the \\(4f\\) orbital",
+              "Enters the \\(5f\\) orbital"
+            ],
+            [
+              "General electronic configuration",
+              "\\([\\text{Xe}]\\,4f^{1-14}5d^{0-1}6s^2\\)",
+              "\\([\\text{Rn}]\\,5f^{0-14}6d^{0-1}7s^2\\)"
+            ],
+            [
+              "Oxidation states",
+              "Mainly \\(+3\\)",
+              "Mainly \\(+3\\), with a wider range of higher states"
+            ],
+            [
+              "Radioactivity",
+              "Most are non-radioactive; promethium is radioactive",
+              "All are radioactive"
+            ],
+            [
+              "Contraction",
+              "Lanthanoid contraction",
+              "Actinoid contraction"
+            ],
+            [
+              "Complex formation",
+              "Comparatively less extensive",
+              "Generally more extensive"
+            ],
+            [
+              "Bonding",
+              "Predominantly ionic",
+              "Greater tendency to show covalent character"
+            ],
+            [
+              "Occurrence",
+              "Most occur naturally",
+              "Many occur naturally; most elements beyond uranium are synthetic"
+            ],
+            [
+              "Reactivity",
+              "Reactive metals",
+              "Generally highly reactive metals"
+            ]
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The main difference between the two series is that actinoids show a wider range of oxidation states, greater variation in bonding and universal radioactivity. These differences arise mainly from the greater participation of \\(5f\\) electrons in chemical bonding."
+        }
+      ]
+    },
+    {
+      "heading": "4.6 Some Applications of d- and f-Block Elements",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The d-block and f-block elements have many important applications in industry, technology, medicine and scientific research because of their distinctive physical and chemical properties."
+        },
+        {
+          "type": "heading",
+          "text": "Applications of d-block elements"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Iron (Fe):</strong> Used in the manufacture of steel, buildings, bridges, machinery and vehicles.",
+            "<strong>Copper (Cu):</strong> Used in electrical wiring, electronic components and heat exchangers because of its high electrical and thermal conductivity.",
+            "<strong>Chromium (Cr):</strong> Used in stainless steel and corrosion-resistant coatings.",
+            "<strong>Nickel (Ni):</strong> Used in alloys, rechargeable batteries and hydrogenation catalysts.",
+            "<strong>Manganese (Mn):</strong> Used in steel production and in compounds such as potassium permanganate, which acts as an oxidising agent.",
+            "<strong>Titanium (Ti):</strong> Used in aircraft, medical implants and corrosion-resistant equipment because of its strength and low density.",
+            "<strong>Platinum (Pt) and Palladium (Pd):</strong> Used as catalysts in chemical industries and automobile catalytic converters.",
+            "<strong>Zinc (Zn):</strong> Used for galvanising iron and steel to protect them from corrosion."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Applications of f-block elements"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Lanthanoids:</strong> Used in permanent magnets, glass polishing, phosphors, lasers and electronic devices.",
+            "<strong>Cerium (Ce):</strong> Used in glass polishing powders and catalytic applications.",
+            "<strong>Neodymium (Nd):</strong> Used in powerful permanent magnets found in motors, speakers and electronic devices.",
+            "<strong>Europium (Eu):</strong> Used in phosphors for display technologies and lighting.",
+            "<strong>Uranium (U):</strong> Used as a nuclear fuel for generating electricity.",
+            "<strong>Plutonium (Pu):</strong> Certain isotopes are used as nuclear fuels and in specialised power sources.",
+            "<strong>Americium (Am):</strong> Americium-241 is used in many ionisation-type smoke detectors."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Thus, d-block and f-block elements play an essential role in modern industrial processes, energy production, electronics and advanced materials."
+        }
+      ]
+    }
+  ],
+  "summary": "Chapter 4 explores the d-block (transition) and f-block (inner transition) elements of the periodic table. It details the electronic configurations of the first transition series (including the stability-driven exceptions of Cr and Cu) and explains general physical and chemical trends across transition series, including atomic/ionic sizes, ionisation enthalpies, variable oxidation states, standard electrode potentials, magnetic properties, formation of coloured ions via d–d transitions, complex formation, catalytic properties, interstitial compounds, and alloy formation. It also covers the preparation, properties, pH-dependent behaviour, oxidising actions, and uses of potassium dichromate and potassium permanganate, compares the lanthanoid and actinoid series (highlighting lanthanoid and actinoid contractions), and summarises industrial and technological applications of d- and f-block elements.",
+  "qa": [
+    {
+      "q": "Why are zinc, cadmium, and mercury generally not considered transition elements?",
+      "a": "Transition elements are defined as elements whose atoms or common ions have partially filled d-orbitals. Zinc (Zn), cadmium (Cd), and mercury (Hg) have completely filled d-subshells (\\(d^{10}\\)) both in their ground-state atoms and in their common \\(+2\\) oxidation state.",
+      "section": "4.1 Position in the Periodic Table"
+    },
+    {
+      "q": "Why do chromium and copper show exceptional electronic configurations in the 3d series?",
+      "a": "Chromium has the configuration \\([\\text{Ar}]\\,3d^5 4s^1\\) instead of \\(3d^4 4s^2\\), and copper has \\([\\text{Ar}]\\,3d^{10} 4s^1\\) instead of \\(3d^9 4s^2\\), because half-filled (\\(d^5\\)) and completely filled (\\(d^{10}\\)) d-subshells possess extra stability.",
+      "section": "4.2 Electronic Configurations of the d-Block Elements"
+    },
+    {
+      "q": "What is lanthanoid contraction and what are its major consequences?",
+      "a": "Lanthanoid contraction is the gradual decrease in atomic and ionic radii across the lanthanoid series from Ce to Lu due to poor shielding by \\(4f\\) electrons. Its consequences include nearly identical atomic radii for second (\\(4d\\)) and third (\\(5d\\)) transition series pairs like Zr and Hf, difficulty in separating lanthanoids, and decreasing basicity of hydroxides from \\(\\ce{La(OH)3}\\) to \\(\\ce{Lu(OH)3}\\).",
+      "section": "4.3.2 Variation in Atomic and Ionic Sizes of Transition Series"
+    },
+    {
+      "q": "Why do transition elements exhibit variable oxidation states?",
+      "a": "Transition elements exhibit variable oxidation states because the energy difference between the \\((n - 1)d\\) and \\(ns\\) orbitals is very small, allowing electrons from both orbitals to participate in bond formation.",
+      "section": "4.3.4 Oxidation States"
+    },
+    {
+      "q": "Why is the standard electrode potential of copper (Cu²⁺/Cu) positive (+0.34 V)?",
+      "a": "Copper has a positive \\(E^\\ominus(\\ce{Cu^2+/Cu}) = +0.34\\text{ V}\\) because the high energy required for its atomisation and ionisation is not sufficiently compensated by its hydration enthalpy.",
+      "section": "4.3.5 Trends in the M²⁺/M Standard Electrode Potentials"
+    },
+    {
+      "q": "How is the spin-only magnetic moment of a transition metal ion calculated?",
+      "a": "The spin-only magnetic moment is calculated using \\(\\mu = \\sqrt{n(n + 2)}\\text{ BM}\\), where \\(n\\) is the number of unpaired electrons. For example, \\(\\ce{Fe^3+}\\) (\\(3d^5\\), \\(n = 5\\)) has \\(\\mu = \\sqrt{35} \\approx 5.92\\text{ BM}\\).",
+      "section": "4.3.9 Magnetic Properties"
+    },
+    {
+      "q": "Why are most transition metal ions coloured whereas Zn²⁺ and Sc³⁺ are colourless?",
+      "a": "Most transition metal ions have partially filled d-orbitals and undergo d–d electronic transitions by absorbing visible light. \\(\\ce{Zn^2+}\\) (\\(3d^{10}\\)) has a completely filled d-subshell and \\(\\ce{Sc^3+}\\) (\\(3d^0\\)) has an empty d-subshell, so neither undergoes d–d transitions.",
+      "section": "4.3.10 Formation of Coloured Ions"
+    },
+    {
+      "q": "Why do transition metals and their compounds act as good catalysts?",
+      "a": "Transition metals act as effective catalysts because they exhibit variable oxidation states, can form temporary intermediate compounds providing a lower activation energy pathway, and provide a surface for adsorbing and concentrating reactants.",
+      "section": "4.3.12 Catalytic Properties"
+    },
+    {
+      "q": "How is potassium dichromate prepared from chromite ore?",
+      "a": "Potassium dichromate is prepared in three steps: (1) fusion of chromite ore (\\(\\ce{FeCr2O4}\\)) with \\(\\ce{Na2CO3}\\) in air to form yellow \\(\\ce{Na2CrO4}\\), (2) acidification of \\(\\ce{Na2CrO4}\\) with dilute \\(\\ce{H2SO4}\\) to form \\(\\ce{Na2Cr2O7}\\), and (3) treatment of \\(\\ce{Na2Cr2O7}\\) with \\(\\ce{KCl}\\) to crystallise orange \\(\\ce{K2Cr2O7}\\).",
+      "section": "4.4 Some Important Compounds of Transition Elements"
+    },
+    {
+      "q": "How do chromate and dichromate ions interconvert with pH?",
+      "a": "In alkaline medium, orange dichromate ions convert into yellow chromate ions (\\(\\ce{Cr2O7^2- + 2OH- <=> 2CrO4^2- + H2O}\\)). In acidic medium, yellow chromate ions convert back into orange dichromate ions (\\(\\ce{2CrO4^2- + 2H+ <=> Cr2O7^2- + H2O}\\)).",
+      "section": "4.4 Some Important Compounds of Transition Elements"
+    },
+    {
+      "q": "How is potassium permanganate prepared from pyrolusite ore?",
+      "a": "Pyrolusite ore (\\(\\ce{MnO2}\\)) is fused with \\(\\ce{KOH}\\) in the presence of oxygen to form green potassium manganate (\\(\\ce{K2MnO4}\\)), which is then oxidised chemically (e.g., with \\(\\ce{Cl2}\\)) or electrolytically to purple potassium permanganate (\\(\\ce{KMnO4}\\)).",
+      "section": "4.4 Some Important Compounds of Transition Elements"
+    },
+    {
+      "q": "What are the main differences between lanthanoids and actinoids?",
+      "a": "In lanthanoids, the differentiating electron enters the \\(4f\\) orbital, they mainly show the \\(+3\\) oxidation state, and most are non-radioactive (except promethium). In actinoids, the differentiating electron enters the \\(5f\\) orbital, they show a wider range of oxidation states (\\(+3\\) to \\(+7\\)), form complexes more readily, and all are radioactive.",
+      "section": "4.5.2 The Actinoids"
+    }
+  ]
+}

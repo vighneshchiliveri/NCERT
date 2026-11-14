@@ -1,0 +1,336 @@
+{
+  "title": "Magnetic Effects of Electric Current",
+  "class": "10",
+  "subject": "Science",
+  "chapter": "Chapter 12",
+  "book": "NCERT Science",
+  "notes": [
+    {
+      "heading": "12.1 Magnetic Field and Field Lines",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "A <strong>magnetic field</strong> is the region around a magnet where a magnetic force can be experienced.",
+            "The magnetic field is represented by <strong>magnetic field lines</strong>."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Magnetic Field Lines"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Magnetic field lines</strong> are imaginary lines used to represent the strength and direction of a magnetic field.",
+            "The direction of the magnetic field at a point is given by the direction of the <strong>north pole of a compass needle</strong> placed at that point.",
+            "<strong>Outside</strong> a bar magnet, magnetic field lines travel from <strong>North pole to South pole</strong>.",
+            "<strong>Inside</strong> the magnet, they travel from <strong>South pole to North pole</strong>.",
+            "Thus, magnetic field lines form <strong>closed continuous curves</strong>.",
+            "Magnetic field lines <strong>never intersect each other</strong>.",
+            "Where the field lines are <strong>closer together</strong>, the magnetic field is <strong>stronger</strong>.",
+            "Where the field lines are <strong>farther apart</strong>, the magnetic field is <strong>weaker</strong>.",
+            "The magnetic field is <strong>strongest near the poles</strong> of a magnet."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "12.2 Magnetic Field due to a Current-Carrying Conductor",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "A <strong>current-carrying conductor</strong> produces a magnetic field around it. The magnetic field produced depends on:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "The <strong>amount of current</strong> flowing through the conductor.",
+            "The <strong>distance</strong> from the conductor.",
+            "The <strong>shape and arrangement</strong> of the conductor."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The direction of the magnetic field can be determined using the <strong>Right-Hand Thumb Rule</strong>."
+        }
+      ]
+    },
+    {
+      "heading": "12.2.1 Magnetic Field due to a Current through a Straight Conductor",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "When electric current passes through a straight conductor, a magnetic field is produced around the conductor.",
+            "The magnetic field lines are <strong>concentric circles</strong> centred on the conductor.",
+            "The direction of the magnetic field depends on the <strong>direction of current</strong>.",
+            "The strength of the magnetic field <strong>increases</strong> when the current increases, and <strong>decreases</strong> as the distance from the conductor increases."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "12.2.2 Right-Hand Thumb Rule",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The <strong>Right-Hand Thumb Rule</strong> is used to determine the direction of the magnetic field around a current-carrying straight conductor."
+        },
+        {
+          "type": "heading",
+          "text": "Rule"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Hold the straight conductor in your <strong>right hand</strong>.",
+            "Point your <strong>thumb</strong> in the <strong>direction of current</strong>.",
+            "The direction in which your <strong>fingers curl</strong> gives the <strong>direction of the magnetic field lines</strong> around the conductor."
+          ]
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{\\text{Thumb} \\longrightarrow \\text{Direction of current} \\quad ; \\quad \\text{Curled fingers} \\longrightarrow \\text{Direction of magnetic field}}\\]"
+        }
+      ]
+    },
+    {
+      "heading": "12.2.3 Magnetic Field due to a Current through a Circular Loop",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "When electric current flows through a circular loop, a magnetic field is produced around the loop.",
+            "The magnetic field lines around different parts of the loop combine to produce a <strong>stronger magnetic field near the centre</strong> of the loop.",
+            "The magnetic field at the centre of a circular loop is <strong>perpendicular to the plane of the loop</strong>."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The strength of the magnetic field increases when:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "The <strong>current increases</strong>.",
+            "The <strong>number of turns increases</strong>.",
+            "The <strong>radius of the loop decreases</strong>."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "The direction of the magnetic field can be determined using the <strong>Right-Hand Thumb Rule</strong>.",
+            "If current flows through a coil with several turns, the magnetic field produced by each turn adds up, making the field stronger."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "12.2.4 Magnetic Field due to a Current in a Solenoid",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "A <strong>solenoid</strong> is a long coil containing a large number of closely wound circular turns of insulated copper wire.",
+            "When electric current passes through a solenoid, it produces a magnetic field.",
+            "The magnetic field <strong>inside a long solenoid</strong> is <strong>strong, nearly uniform</strong>, and represented by <strong>parallel and equally spaced field lines</strong>.",
+            "The magnetic field <strong>outside a solenoid</strong> is similar to the magnetic field of a <strong>bar magnet</strong>.",
+            "One end of the solenoid behaves like a <strong>North pole</strong> and the other end behaves like a <strong>South pole</strong>."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The strength of the magnetic field inside a solenoid increases when:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "The <strong>current</strong> through it increases.",
+            "The <strong>number of turns per unit length</strong> increases."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "A solenoid can be used to make an <strong>electromagnet</strong> by placing a suitable magnetic material, such as <strong>soft iron</strong>, inside it."
+        }
+      ]
+    },
+    {
+      "heading": "12.3 Force on a Current-Carrying Conductor in a Magnetic Field",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "When a current-carrying conductor is placed in a magnetic field, it experiences a <strong>force</strong>.",
+            "The force is produced due to the interaction between the magnetic field produced by the current and the external magnetic field.",
+            "The direction of the force depends on the <strong>direction of the current</strong> and the <strong>direction of the magnetic field</strong>."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Fleming's Left-Hand Rule"
+        },
+        {
+          "type": "text",
+          "text": "Stretch the <strong>thumb, forefinger and middle finger</strong> of your <strong>left hand</strong> so that they are mutually perpendicular to each other:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Forefinger</strong> → Direction of <strong>magnetic field</strong>",
+            "<strong>Middle finger</strong> → Direction of <strong>current</strong>",
+            "<strong>Thumb</strong> → Direction of <strong>force or motion</strong> of the conductor"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Electric Motor"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "The force acting on a current-carrying conductor in a magnetic field is the basic principle of an <strong>electric motor</strong>.",
+            "An electric motor converts <strong>electrical energy into mechanical energy</strong>."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "12.4 Domestic Electric Circuits",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Domestic electric circuits</strong> are used to supply electrical energy to electrical appliances in homes."
+        },
+        {
+          "type": "heading",
+          "text": "Three Wires in Domestic Circuits"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Live wire:</strong> Usually has red or brown insulation; carries current from the mains to the appliance.",
+            "<strong>Neutral wire:</strong> Usually has black or blue insulation; completes the circuit and carries current back.",
+            "<strong>Earth wire:</strong> Usually has green or green-yellow insulation; provides a path for electric current to flow into the earth in case of leakage and protects us from electric shock."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Connection of Appliances"
+        },
+        {
+          "type": "text",
+          "text": "Electrical appliances in a house are connected in <strong>parallel</strong>. This ensures that:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Each appliance gets the <strong>same potential difference</strong>.",
+            "Each appliance can be <strong>switched independently</strong>.",
+            "If one appliance stops working, the others can continue to work."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Fuse"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "A <strong>fuse</strong> is a safety device that protects the circuit from excessive current.",
+            "It is connected in the <strong>live wire</strong>.",
+            "When excessive current flows, the fuse wire becomes hot and melts, breaking the circuit."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Short Circuit and Overloading"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Short Circuit:</strong> Occurs when the live wire and neutral wire come into direct contact. This produces a very large current, which can cause overheating and fire.",
+            "<strong>Overloading:</strong> Occurs when too many appliances are connected to a circuit at the same time. It causes excessive current to flow and may lead to overheating and fire."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Important"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Domestic appliances</strong> → Parallel connection",
+            "<strong>Fuse</strong> → Connected in live wire",
+            "<strong>Earth wire</strong> → Prevents electric shock",
+            "<strong>Short circuit</strong> → Very large current",
+            "<strong>Overloading</strong> → Too many appliances / excessive current"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": "A magnetic field is represented by closed, non-intersecting magnetic field lines that run from North to South outside a magnet and South to North inside it, with closer lines indicating a stronger field. A current-carrying conductor generates a magnetic field whose direction is given by the Right-Hand Thumb Rule: concentric circles around a straight wire, a reinforced field at the centre of a circular loop, and a strong, uniform field inside a solenoid (which behaves like a bar magnet and forms an electromagnet when a soft-iron core is inserted). A current-carrying conductor placed in a magnetic field experiences a force whose direction is given by Fleming's Left-Hand Rule (Forefinger = field, Middle finger = current, Thumb = force/motion), which is the working principle of an electric motor. Domestic electric circuits use live (red/brown), neutral (black/blue) and earth (green) wires, connect appliances in parallel so each gets the same voltage and operates independently, and protect against short circuits and overloading using a fuse in the live wire.",
+  "qa": [
+    {
+      "q": "List the main properties of magnetic field lines around a bar magnet.",
+      "a": "Magnetic field lines travel from the North pole to the South pole outside the magnet and from South to North inside it, forming closed continuous curves. They never intersect, and their closeness indicates the relative strength of the magnetic field (strongest near the poles).",
+      "section": "12.1 Magnetic Field and Field Lines"
+    },
+    {
+      "q": "On what factors does the magnetic field produced by a current-carrying conductor depend?",
+      "a": "It depends on the magnitude of the electric current, the distance from the conductor, and the shape and arrangement of the conductor.",
+      "section": "12.2 Magnetic Field due to a Current-Carrying Conductor"
+    },
+    {
+      "q": "Describe the pattern and strength of the magnetic field around a current-carrying straight conductor.",
+      "a": "The magnetic field lines form concentric circles centred on the straight conductor. The field strength increases with increasing current and decreases with increasing distance from the wire.",
+      "section": "12.2.1 Magnetic Field due to a Current through a Straight Conductor"
+    },
+    {
+      "q": "State the Right-Hand Thumb Rule.",
+      "a": "If you hold a current-carrying straight conductor in your right hand with your thumb pointing in the direction of electric current, the direction in which your fingers curl gives the direction of the magnetic field lines.",
+      "section": "12.2.2 Right-Hand Thumb Rule"
+    },
+    {
+      "q": "How can the strength of the magnetic field at the centre of a current-carrying circular loop be increased?",
+      "a": "The magnetic field at the centre of a circular loop increases if the current is increased, the number of turns in the coil is increased, or the radius of the loop is decreased.",
+      "section": "12.2.3 Magnetic Field due to a Current through a Circular Loop"
+    },
+    {
+      "q": "What is a solenoid, how does the magnetic field inside it behave, and how is an electromagnet made using it?",
+      "a": "A solenoid is a long coil of many closely wound circular turns of insulated copper wire. Inside a current-carrying solenoid, the magnetic field is strong and nearly uniform (parallel, equally spaced lines), while outside it resembles a bar magnet. Placing a soft-iron core inside a current-carrying solenoid turns it into an electromagnet.",
+      "section": "12.2.4 Magnetic Field due to a Current in a Solenoid"
+    },
+    {
+      "q": "State Fleming's Left-Hand Rule and name the device that works on the force experienced by a current-carrying conductor in a magnetic field.",
+      "a": "Stretch the thumb, forefinger and middle finger of your left hand mutually perpendicular to one another: if the forefinger points in the direction of the magnetic field and the middle finger in the direction of current, the thumb points in the direction of force or motion. This principle is used in an electric motor.",
+      "section": "12.3 Force on a Current-Carrying Conductor in a Magnetic Field"
+    },
+    {
+      "q": "Why are household appliances connected in parallel, what are the roles of the live, neutral and earth wires, and how do short circuit and overloading differ?",
+      "a": "Parallel connection gives every appliance the same voltage and independent switching. The live wire (red/brown) brings current from the mains (with the fuse connected in it), the neutral wire (black/blue) completes the return path, and the earth wire (green) safely conducts leakage current to the ground to prevent shock. A short circuit occurs when live and neutral wires touch directly, causing a sudden huge current, whereas overloading occurs when too many appliances are run on a single circuit simultaneously.",
+      "section": "12.4 Domestic Electric Circuits"
+    }
+  ]
+}

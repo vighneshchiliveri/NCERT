@@ -1,0 +1,1301 @@
+{
+  "title": "Coordination Compounds",
+  "class": "12",
+  "subject": "Chemistry",
+  "chapter": "Chapter 5",
+  "book": "NCERT Chemistry",
+  "notes": [
+    {
+      "heading": "5.1 Werner’s Theory of Coordination Compounds",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Werner’s theory</strong> was proposed by Alfred Werner in 1893 to explain the structure and bonding of coordination compounds.\n\nAccording to Werner’s theory, a central metal atom or ion exhibits two types of valencies:"
+        },
+        {
+          "type": "heading",
+          "text": "1. Primary Valency"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "It corresponds to the oxidation state of the central metal atom or ion.",
+            "It is satisfied by negative ions.",
+            "It is ionisable and generally lies outside the coordination sphere."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "2. Secondary Valency"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "It corresponds to the coordination number of the central metal atom or ion.",
+            "It is satisfied by ligands, which may be neutral molecules or ions.",
+            "It is non-ionisable and lies inside the coordination sphere.",
+            "It has a definite spatial arrangement, giving the complex a specific geometry."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Example"
+        },
+        {
+          "type": "text",
+          "text": "In the coordination compound \\(\\ce{[Co(NH3)6]Cl3}\\):"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Primary valency of cobalt \\(= 3\\)",
+            "Secondary valency of cobalt \\(= 6\\)",
+            "\\(\\ce{NH3}\\) molecules satisfy the secondary valency.",
+            "Three \\(\\ce{Cl-}\\) ions satisfy the primary valency and lie outside the coordination sphere."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The compound dissociates in aqueous solution as follows:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{[Co(NH3)6]Cl3 -> [Co(NH3)6]^3+ + 3Cl-}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "Other postulates of Werner’s theory"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Every metal ion has a fixed number of secondary valencies.",
+            "Secondary valencies are directed in definite directions in space.",
+            "Primary valencies are usually non-directional.",
+            "A group satisfying both primary and secondary valencies satisfies the primary valency as well as the secondary valency."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5.2 Definition of Some Important Terms Pertaining to Coordination Compounds",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "1. Coordination Entity"
+        },
+        {
+          "type": "text",
+          "text": "A <strong>coordination entity</strong> consists of a central metal atom or ion bonded to a fixed number of ligands.\n\n<strong>Example:</strong> \\(\\ce{[Co(NH3)6]^3+}\\)"
+        },
+        {
+          "type": "heading",
+          "text": "2. Central Atom or Ion"
+        },
+        {
+          "type": "text",
+          "text": "The <strong>central atom or ion</strong> is the metal atom or ion to which ligands are directly attached through coordinate bonds.\n\n<strong>Example:</strong> In \\(\\ce{[Co(NH3)6]^3+}\\), cobalt (\\(\\ce{Co^3+}\\)) is the central ion."
+        },
+        {
+          "type": "heading",
+          "text": "3. Ligands"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Ligands</strong> are ions or molecules that donate one or more lone pairs of electrons to the central metal atom or ion to form coordinate bonds.\n\n<strong>Examples:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Neutral ligands:</strong> \\(\\ce{NH3}\\), \\(\\ce{H2O}\\), \\(\\ce{CO}\\)",
+            "<strong>Negative ligands:</strong> \\(\\ce{Cl-}\\), \\(\\ce{CN-}\\), \\(\\ce{OH-}\\)"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "4. Coordination Number"
+        },
+        {
+          "type": "text",
+          "text": "The <strong>coordination number</strong> is the number of ligand donor atoms directly bonded to the central metal atom or ion.\n\n<strong>Examples:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(\\ce{[Ag(NH3)2]+}\\): Coordination number \\(= 2\\)",
+            "\\(\\ce{[Co(NH3)6]^3+}\\): Coordination number \\(= 6\\)"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "A ligand that binds through one donor atom is called a <strong>monodentate ligand</strong>, while a ligand that binds through two donor atoms is called a <strong>bidentate ligand</strong>."
+        },
+        {
+          "type": "heading",
+          "text": "5. Coordination Sphere"
+        },
+        {
+          "type": "text",
+          "text": "The <strong>coordination sphere</strong> consists of the central metal atom or ion and the ligands directly attached to it. It is enclosed within square brackets in the chemical formula.\n\n<strong>Example:</strong> In \\(\\ce{[Co(NH3)6]Cl3}\\), \\(\\ce{[Co(NH3)6]^3+}\\) is the coordination sphere, while the three \\(\\ce{Cl-}\\) ions lie outside it."
+        },
+        {
+          "type": "heading",
+          "text": "6. Coordination Polyhedron"
+        },
+        {
+          "type": "text",
+          "text": "The <strong>coordination polyhedron</strong> is the geometrical arrangement of ligands around the central metal atom or ion.\n\nCommon geometries include:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Coordination number 2:</strong> Linear",
+            "<strong>Coordination number 4:</strong> Tetrahedral or square planar",
+            "<strong>Coordination number 6:</strong> Octahedral"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "7. Oxidation Number"
+        },
+        {
+          "type": "text",
+          "text": "The <strong>oxidation number</strong> of the central metal atom or ion is the charge it would have if all ligands and metal–ligand bonds were assigned according to the usual oxidation-state rules.\n\n<strong>Example:</strong> In \\(\\ce{[Fe(CN)6]^4-}\\), let the oxidation number of iron be \\(x\\).\n\nSince each \\(\\ce{CN-}\\) ligand has a charge of \\(-1\\),"
+        },
+        {
+          "type": "equation",
+          "text": "\\[x + 6(-1) = -4\\]"
+        },
+        {
+          "type": "equation",
+          "text": "\\[x - 6 = -4\\]"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{x = +2}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Therefore, the oxidation number of iron is \\(+2\\)."
+        },
+        {
+          "type": "heading",
+          "text": "8. Homoleptic and Heteroleptic Complexes"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Homoleptic Complexes:</strong> Complexes in which the central metal atom or ion is bonded to only one type of ligand.\n\n<strong>Example:</strong> \\(\\ce{[Co(NH3)6]^3+}\\)\n\n<strong>Heteroleptic Complexes:</strong> Complexes in which the central metal atom or ion is bonded to two or more different types of ligands.\n\n<strong>Example:</strong> \\(\\ce{[Co(NH3)4Cl2]+}\\)"
+        }
+      ]
+    },
+    {
+      "heading": "5.3 Nomenclature of Coordination Compounds",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Nomenclature</strong> is the systematic method of naming coordination compounds according to the rules recommended by IUPAC (International Union of Pure and Applied Chemistry).\n\nCoordination compounds are named by following specific rules based on the ligands, central metal atom or ion, and its oxidation number."
+        }
+      ]
+    },
+    {
+      "heading": "5.3.1 Formulas of Mononuclear Coordination Entities",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "A <strong>mononuclear coordination entity</strong> contains only one central metal atom or ion bonded to ligands.\n\nThe following rules are used to write the formula of a mononuclear coordination entity:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "The central metal atom or ion is written first.",
+            "The ligands are written after the central metal, with anionic ligands generally written before neutral ligands in the formula.",
+            "The formula of the entire coordination entity is enclosed in square brackets.",
+            "The number of each type of ligand is indicated by a subscript outside its formula or parentheses, as required.",
+            "The overall charge of the coordination entity is written outside the square brackets as a superscript."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Examples:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(\\ce{[Co(NH3)6]^3+}\\)",
+            "\\(\\ce{[Fe(CN)6]^4-}\\)",
+            "\\(\\ce{[PtCl4]^2-}\\)",
+            "\\(\\ce{[Ni(CO)4]}\\)"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "For a neutral coordination entity, no charge is written outside the square brackets.\n\nWhen writing the formula of a complete coordination compound, the coordination entity is written first, followed by the counter-ions required to balance its charge.\n\n<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{[Co(NH3)6]Cl3}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Here, the complex ion has a charge of \\(+3\\), which is balanced by three chloride ions, each having a charge of \\(-1\\)."
+        }
+      ]
+    },
+    {
+      "heading": "5.3.2 Naming of Mononuclear Coordination Compounds",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The following rules are used for naming mononuclear coordination compounds according to IUPAC nomenclature."
+        },
+        {
+          "type": "heading",
+          "text": "1. Naming of the cation and anion"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "In a coordination compound, the cation is named first, followed by the anion.",
+            "If the coordination entity is a cation, its name is written before the name of the anion.",
+            "If the coordination entity is an anion, it is named before the cation only when required by the usual cation–anion order; generally, the cation is still named first."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "2. Naming of ligands"
+        },
+        {
+          "type": "text",
+          "text": "Ligands are named before the central metal atom. The names of some common ligands are given below."
+        },
+        {
+          "type": "table",
+          "label": "IUPAC names of common ligands",
+          "headers": [
+            "Ligand",
+            "IUPAC name"
+          ],
+          "rows": [
+            [
+              "\\(\\ce{NH3}\\)",
+              "Ammine"
+            ],
+            [
+              "\\(\\ce{H2O}\\)",
+              "Aqua"
+            ],
+            [
+              "\\(\\ce{CO}\\)",
+              "Carbonyl"
+            ],
+            [
+              "\\(\\ce{NO}\\)",
+              "Nitrosyl"
+            ],
+            [
+              "\\(\\ce{Cl-}\\)",
+              "Chlorido"
+            ],
+            [
+              "\\(\\ce{Br-}\\)",
+              "Bromido"
+            ],
+            [
+              "\\(\\ce{CN-}\\)",
+              "Cyanido"
+            ],
+            [
+              "\\(\\ce{OH-}\\)",
+              "Hydroxido"
+            ],
+            [
+              "\\(\\ce{C2O4^2-}\\)",
+              "Oxalato"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "3. Indicating the number of ligands"
+        },
+        {
+          "type": "text",
+          "text": "The prefixes di-, tri-, tetra-, penta- and hexa- are used to indicate two, three, four, five and six identical ligands, respectively.\n\n<strong>Examples:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(\\ce{[Co(NH3)6]^3+}\\): Hexaammine",
+            "\\(\\ce{[PtCl4]^2-}\\): Tetrachlorido"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "For complex ligand names or ligands whose names already contain numerical prefixes, bis-, tris- and tetrakis- are used."
+        },
+        {
+          "type": "heading",
+          "text": "4. Naming ligands in alphabetical order"
+        },
+        {
+          "type": "text",
+          "text": "When different ligands are present, they are named in alphabetical order, irrespective of their number."
+        },
+        {
+          "type": "heading",
+          "text": "5. Naming the central metal"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "In a cationic or neutral coordination entity, the metal retains its usual name.",
+            "In an anionic coordination entity, the metal name ends in -ate."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Examples:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Iron \\(\\to\\) Ferrate",
+            "Copper \\(\\to\\) Cuprate",
+            "Silver \\(\\to\\) Argentate",
+            "Gold \\(\\to\\) Aurate"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "6. Indicating the oxidation number"
+        },
+        {
+          "type": "text",
+          "text": "The oxidation number of the central metal is written in Roman numerals in parentheses immediately after the metal name.\n\n<strong>Example:</strong> Iron(II), cobalt(III)."
+        },
+        {
+          "type": "heading",
+          "text": "Examples of IUPAC names"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "\\(\\ce{[Co(NH3)6]Cl3}\\) — Hexaamminecobalt(III) chloride",
+            "\\(\\ce{K4[Fe(CN)6]}\\) — Potassium hexacyanidoferrate(II)",
+            "\\(\\ce{[Cu(NH3)4]SO4}\\) — Tetraamminecopper(II) sulfate",
+            "\\(\\ce{[Pt(NH3)2Cl2]}\\) — Diamminedichloridoplatinum(II)"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "5.4 Isomerism in Coordination Compounds",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Isomerism</strong> is the phenomenon in which two or more compounds have the same chemical formula but differ in the arrangement of their atoms or ions, resulting in different properties.\n\nCoordination compounds exhibit two main types of isomerism:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Structural Isomerism:</strong> Compounds differ in the bonding arrangement of their atoms or ions.",
+            "<strong>Stereoisomerism:</strong> Compounds have the same bonding arrangement but differ in the spatial arrangement of their ligands."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Structural isomerism includes ionisation, solvate, linkage and coordination isomerism. Stereoisomerism includes geometric and optical isomerism."
+        }
+      ]
+    },
+    {
+      "heading": "5.4.1 Geometric Isomerism",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Geometric isomerism</strong> arises when ligands occupy different positions around the central metal atom or ion while maintaining the same bonding arrangement.\n\nIt is commonly observed in square planar and octahedral coordination compounds."
+        },
+        {
+          "type": "heading",
+          "text": "1. Cis and Trans Isomerism"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Cis-isomer:</strong> Two identical ligands are adjacent to each other.\n\n<strong>Trans-isomer:</strong> Two identical ligands are opposite to each other.\n\nIn square planar complexes, cis and trans isomers can be observed in compounds of the type \\(\\ce{[MA2B2]}\\).\n\n<strong>Example:</strong> \\(\\ce{[Pt(NH3)2Cl2]}\\)"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Cis-isomer:</strong> The two \\(\\ce{Cl-}\\) ligands are adjacent to each other.",
+            "<strong>Trans-isomer:</strong> The two \\(\\ce{Cl-}\\) ligands are opposite to each other."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "2. Geometric Isomerism in Octahedral Complexes"
+        },
+        {
+          "type": "text",
+          "text": "Octahedral complexes may also exhibit cis–trans isomerism.\n\n<strong>Example:</strong> \\(\\ce{[Co(NH3)4Cl2]+}\\)"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Cis-isomer:</strong> The two chloride ligands are adjacent to each other, making an angle of \\(90^\\circ\\).",
+            "<strong>Trans-isomer:</strong> The two chloride ligands are opposite to each other, making an angle of \\(180^\\circ\\)."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "3. Facial and Meridional Isomerism"
+        },
+        {
+          "type": "text",
+          "text": "Octahedral complexes of the type \\(\\ce{[MA3B3]}\\) exhibit facial (fac) and meridional (mer) isomerism."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Fac-isomer:</strong> The three identical ligands occupy the corners of one triangular face of the octahedron.",
+            "<strong>Mer-isomer:</strong> The three identical ligands lie in a plane passing through the central metal ion, forming a meridian."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong> \\(\\ce{[Co(NH3)3Cl3]}\\)\n\nGeometric isomers may have different physical, chemical and biological properties because their ligands occupy different positions in space."
+        }
+      ]
+    },
+    {
+      "heading": "5.4.2 Optical Isomerism",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Optical isomerism</strong> is a type of stereoisomerism in which compounds exist as two non-superimposable mirror images of each other.\n\nThese isomers are called <strong>enantiomers</strong>.\n\nOptical isomers rotate the plane of plane-polarised light in opposite directions:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Dextrorotatory (\\(+\\)):</strong> Rotates plane-polarised light to the right.",
+            "<strong>Levorotatory (\\(-\\)):</strong> Rotates plane-polarised light to the left."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Optical isomerism occurs when a coordination compound is <strong>chiral</strong>, meaning that its mirror image cannot be superimposed on the original structure.\n\n<strong>Examples:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(\\ce{[Co(en)3]^3+}\\)",
+            "\\(\\ce{[Cr(ox)3]^3-}\\)"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Here, \\(\\text{en}\\) represents ethane-1,2-diamine, and \\(\\text{ox}\\) represents the oxalato ligand.\n\nOptical isomers have identical chemical and physical properties in an achiral environment, except for their opposite optical rotations. They may behave differently when interacting with other chiral substances."
+        }
+      ]
+    },
+    {
+      "heading": "5.4.3 Linkage Isomerism",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Linkage isomerism</strong> occurs when an ambidentate ligand coordinates to the central metal atom or ion through different donor atoms.\n\nAn <strong>ambidentate ligand</strong> is a ligand that has two different donor atoms but coordinates through only one of them at a time.\n\n<strong>Examples of ambidentate ligands:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(\\ce{NO2-}\\): Can coordinate through nitrogen or oxygen.",
+            "\\(\\ce{SCN-}\\): Can coordinate through sulphur or nitrogen."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{[Co(NH3)5(NO2)]Cl2}\\]"
+        },
+        {
+          "type": "text",
+          "text": "In this compound, the \\(\\ce{NO2-}\\) ligand can coordinate through either nitrogen or oxygen."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Nitro isomer:</strong> The ligand coordinates through nitrogen, forming an \\(\\ce{M-NO2}\\) linkage.",
+            "<strong>Nitrito isomer:</strong> The ligand coordinates through oxygen, forming an \\(\\ce{M-ONO}\\) linkage."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Thus, linkage isomers have the same molecular formula but differ in the atom of the ambidentate ligand that is directly bonded to the central metal ion."
+        }
+      ]
+    },
+    {
+      "heading": "5.4.4 Coordination Isomerism",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Coordination isomerism</strong> occurs in compounds containing both complex cations and complex anions, when ligands are exchanged between the two coordination spheres.\n\n<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{[Co(NH3)6][Cr(CN)6]}\\]"
+        },
+        {
+          "type": "text",
+          "text": "and"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{[Cr(NH3)6][Co(CN)6]}\\]"
+        },
+        {
+          "type": "text",
+          "text": "In the first compound, ammonia ligands are coordinated to cobalt and cyanido ligands are coordinated to chromium. In the second compound, these ligands are exchanged between the two metal centres.\n\nBoth compounds have the same overall composition but differ in the distribution of ligands around the central metal ions."
+        }
+      ]
+    },
+    {
+      "heading": "5.4.5 Ionisation Isomerism",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Ionisation isomerism</strong> occurs when two coordination compounds have the same molecular formula but produce different ions in solution because an ion inside the coordination sphere is exchanged with a counter-ion outside it.\n\n<strong>Example:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{[Co(NH3)5Br]SO4}\\]"
+        },
+        {
+          "type": "text",
+          "text": "and"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{[Co(NH3)5SO4]Br}\\]"
+        },
+        {
+          "type": "text",
+          "text": "In the first compound, \\(\\ce{SO4^2-}\\) is outside the coordination sphere, while \\(\\ce{Br-}\\) is coordinated to cobalt.\n\nIn the second compound, \\(\\ce{SO4^2-}\\) is coordinated to cobalt, while \\(\\ce{Br-}\\) is outside the coordination sphere.\n\nTherefore, they produce different ions in aqueous solution."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "The first compound gives sulphate ions.",
+            "The second compound gives bromide ions."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Thus, ionisation isomers differ in the ions released when dissolved in water."
+        }
+      ]
+    },
+    {
+      "heading": "5.4.6 Solvate Isomerism",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Solvate isomerism</strong> occurs when coordination compounds have the same chemical composition but differ in the number of solvent molecules present inside and outside the coordination sphere.\n\nWhen the solvent is water, this type of isomerism is called <strong>hydrate isomerism</strong>.\n\n<strong>Example:</strong>\n\nChromium(III) chloride forms the following hydrate isomers:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "\\(\\ce{[Cr(H2O)6]Cl3}\\) — Hexaaquachromium(III) chloride",
+            "\\(\\ce{[Cr(H2O)5Cl]Cl2 \\cdot H2O}\\) — Pentaaquachloridochromium(III) chloride monohydrate",
+            "\\(\\ce{[Cr(H2O)4Cl2]Cl \\cdot 2H2O}\\) — Tetraaquadichloridochromium(III) chloride dihydrate"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "In these compounds, water molecules are distributed differently between the coordination sphere and the space outside it.\n\nThus, solvate isomers have the same overall chemical composition but differ in the arrangement of solvent molecules inside and outside the coordination sphere."
+        }
+      ]
+    },
+    {
+      "heading": "5.5 Bonding in Coordination Compounds",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Bonding in coordination compounds explains how ligands attach to the central metal atom or ion and how the resulting complexes acquire their shapes, magnetic properties and colours.\n\nThe two important theories used to explain bonding in coordination compounds are:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Valence Bond Theory (VBT):</strong> Explains bonding through the overlap of suitable orbitals of the metal and ligands.",
+            "<strong>Crystal Field Theory (CFT):</strong> Explains the interaction between the central metal ion and ligands in terms of electrostatic forces and the splitting of metal \\(d\\)-orbitals."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "These theories help explain the geometry, hybridisation and magnetic behaviour of coordination compounds."
+        }
+      ]
+    },
+    {
+      "heading": "5.5.1 Valence Bond Theory (VBT)",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Valence Bond Theory</strong> explains the formation of coordination compounds by considering the overlap of suitable orbitals of the central metal atom or ion with the orbitals of ligands.\n\nAccording to VBT, ligands donate lone pairs of electrons into vacant hybrid orbitals of the central metal ion, forming coordinate bonds."
+        },
+        {
+          "type": "heading",
+          "text": "Main Postulates of Valence Bond Theory"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "The central metal atom or ion makes available a number of vacant orbitals equal to its coordination number.",
+            "These orbitals undergo hybridisation to form equivalent hybrid orbitals.",
+            "Ligands donate lone pairs of electrons into these vacant hybrid orbitals, forming coordinate bonds.",
+            "The type of hybridisation determines the geometry of the coordination compound.",
+            "Depending on the ligand strength, pairing of electrons may occur in the metal \\(d\\)-orbitals before hybridisation.",
+            "The presence of unpaired electrons determines the magnetic behaviour of the complex."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Hybridisation and Geometry"
+        },
+        {
+          "type": "table",
+          "label": "Hybridisation, Geometry and Coordination number",
+          "headers": [
+            "Hybridisation",
+            "Geometry",
+            "Coordination number"
+          ],
+          "rows": [
+            [
+              "\\(sp\\)",
+              "Linear",
+              "2"
+            ],
+            [
+              "\\(sp^3\\)",
+              "Tetrahedral",
+              "4"
+            ],
+            [
+              "\\(dsp^2\\)",
+              "Square planar",
+              "4"
+            ],
+            [
+              "\\(d^2sp^3\\)",
+              "Octahedral",
+              "6"
+            ],
+            [
+              "\\(sp^3d^2\\)",
+              "Octahedral",
+              "6"
+            ]
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Example: [Co(NH₃)₆]³⁺"
+        },
+        {
+          "type": "text",
+          "text": "Cobalt has atomic number 27.\n\nElectronic configuration of cobalt:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Co}: [\\text{Ar}]\\,3d^7\\,4s^2\\]"
+        },
+        {
+          "type": "text",
+          "text": "For \\(\\ce{Co^3+}\\), three electrons are removed:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Co^3+}: [\\text{Ar}]\\,3d^6\\]"
+        },
+        {
+          "type": "text",
+          "text": "In this complex, the \\(3d\\) electrons pair up, leaving two vacant \\(3d\\)-orbitals available for hybridisation.\n\nThe hybridisation is \\(d^2sp^3\\), giving an octahedral geometry.\n\nThus, according to VBT, \\(\\ce{[Co(NH3)6]^3+}\\) is an inner-orbital octahedral complex with no unpaired electrons and is diamagnetic."
+        }
+      ]
+    },
+    {
+      "heading": "5.5.2 Magnetic Properties of Coordination Compounds",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The magnetic properties of coordination compounds depend mainly on the number of unpaired electrons present in the central metal ion.\n\nThere are two main types of magnetic behaviour:"
+        },
+        {
+          "type": "heading",
+          "text": "1. Paramagnetic Compounds"
+        },
+        {
+          "type": "text",
+          "text": "Compounds containing one or more unpaired electrons are attracted by an external magnetic field. They are called <strong>paramagnetic compounds</strong>."
+        },
+        {
+          "type": "heading",
+          "text": "2. Diamagnetic Compounds"
+        },
+        {
+          "type": "text",
+          "text": "Compounds in which all electrons are paired are weakly repelled by an external magnetic field. They are called <strong>diamagnetic compounds</strong>."
+        },
+        {
+          "type": "heading",
+          "text": "Magnetic Moment"
+        },
+        {
+          "type": "text",
+          "text": "The magnetic moment of a coordination compound can be calculated using the spin-only formula:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\mu = \\sqrt{n(n + 2)}\\text{ BM}\\]"
+        },
+        {
+          "type": "text",
+          "text": "where:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(\\mu\\) = magnetic moment",
+            "\\(n\\) = number of unpaired electrons",
+            "\\(\\text{BM}\\) = Bohr Magneton"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Examples:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "If \\(n = 0\\), then \\(\\mu = 0\\text{ BM}\\); the compound is diamagnetic.",
+            "If \\(n = 2\\), then \\(\\mu = \\sqrt{8} \\approx 2.83\\text{ BM}\\); the compound is paramagnetic.",
+            "If \\(n = 4\\), then \\(\\mu = \\sqrt{24} \\approx 4.90\\text{ BM}\\); the compound is paramagnetic."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Example: [Fe(CN)₆]⁴⁻"
+        },
+        {
+          "type": "text",
+          "text": "The oxidation state of iron is \\(+2\\)."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Fe^2+}: [\\text{Ar}]\\,3d^6\\]"
+        },
+        {
+          "type": "text",
+          "text": "The cyanido ligand \\(\\ce{CN-}\\) is a strong-field ligand. It causes the \\(3d\\) electrons to pair up, leaving no unpaired electrons in this complex.\n\nTherefore,"
+        },
+        {
+          "type": "equation",
+          "text": "\\[n = 0\\]"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\mu = \\sqrt{0(0 + 2)} = 0\\text{ BM}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Hence, \\(\\ce{[Fe(CN)6]^4-}\\) is diamagnetic."
+        },
+        {
+          "type": "heading",
+          "text": "Example: [FeF₆]⁴⁻"
+        },
+        {
+          "type": "text",
+          "text": "The oxidation state of iron is \\(+2\\), giving the configuration \\(3d^6\\).\n\nThe fluoride ligand \\(\\ce{F-}\\) is a weak-field ligand. In this octahedral complex, the electrons remain unpaired as far as possible, resulting in four unpaired electrons."
+        },
+        {
+          "type": "equation",
+          "text": "\\[n = 4\\]"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\mu = \\sqrt{4(4 + 2)} = \\sqrt{24} \\approx 4.90\\text{ BM}\\]"
+        },
+        {
+          "type": "text",
+          "text": "Hence, \\(\\ce{[FeF6]^4-}\\) is paramagnetic."
+        }
+      ]
+    },
+    {
+      "heading": "5.5.3 Limitations of Valence Bond Theory",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The main limitations of Valence Bond Theory (VBT) are:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "It does not explain the colours of coordination compounds.",
+            "It does not provide a quantitative explanation of the stability of coordination compounds.",
+            "It cannot explain why some ligands are strong-field ligands while others are weak-field ligands.",
+            "It does not adequately explain the electronic spectra of coordination compounds.",
+            "It does not explain the splitting of \\(d\\)-orbitals in the presence of ligands.",
+            "It cannot always predict whether electron pairing will occur in a metal ion without additional information about the ligands."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "These limitations led to the development of Crystal Field Theory (CFT), which explains the splitting of \\(d\\)-orbitals and helps account for the colours and magnetic properties of coordination compounds."
+        }
+      ]
+    },
+    {
+      "heading": "5.5.4 Crystal Field Theory (CFT)",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Crystal Field Theory</strong> explains the bonding in coordination compounds by considering the electrostatic interaction between the central metal ion and the surrounding ligands.\n\nAccording to CFT, ligands are treated as point charges or point dipoles. When they approach the central metal ion, the energies of its five \\(d\\)-orbitals change because of electrostatic repulsion between the ligand electrons and the metal \\(d\\)-electrons."
+        },
+        {
+          "type": "heading",
+          "text": "1. Splitting of d-Orbitals in an Octahedral Field"
+        },
+        {
+          "type": "text",
+          "text": "In an isolated metal ion, all five \\(d\\)-orbitals have the same energy. They are said to be <strong>degenerate</strong>.\n\nWhen six ligands approach the metal ion along the coordinate axes, the five \\(d\\)-orbitals split into two groups of different energies."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Lower-energy set (\\(t_{2g}\\)):</strong> \\(d_{xy}\\), \\(d_{yz}\\), and \\(d_{xz}\\).",
+            "<strong>Higher-energy set (\\(e_g\\)):</strong> \\(d_{x^2-y^2}\\) and \\(d_{z^2}\\)."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The \\(e_g\\) orbitals experience greater repulsion because their lobes point directly towards the ligands, whereas the \\(t_{2g}\\) orbitals point between the axes.\n\nThe energy difference between the two sets is called <strong>octahedral crystal field splitting energy</strong>, represented by \\(\\Delta_o\\).\n\nRelative to the average energy (barycentre):"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Each \\(t_{2g}\\) orbital is lowered by \\(0.4\\Delta_o\\).",
+            "Each \\(e_g\\) orbital is raised by \\(0.6\\Delta_o\\)."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "2. Splitting of d-Orbitals in a Tetrahedral Field"
+        },
+        {
+          "type": "text",
+          "text": "In a tetrahedral complex, four ligands approach the central metal ion between the coordinate axes. The five \\(d\\)-orbitals split into two energy groups in the reverse order compared with an octahedral field."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Lower-energy set (\\(e\\)):</strong> \\(d_{x^2-y^2}\\) and \\(d_{z^2}\\).",
+            "<strong>Higher-energy set (\\(t_2\\)):</strong> \\(d_{xy}\\), \\(d_{yz}\\), and \\(d_{xz}\\)."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The energy difference between the two sets is called <strong>tetrahedral crystal field splitting energy</strong>, represented by \\(\\Delta_t\\).\n\nFor the same metal ion and ligands, the approximate relationship is:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\Delta_t = \\frac{4}{9}\\Delta_o\\]"
+        },
+        {
+          "type": "text",
+          "text": "Tetrahedral splitting is generally smaller than octahedral splitting."
+        },
+        {
+          "type": "heading",
+          "text": "3. Strong-Field and Weak-Field Ligands"
+        },
+        {
+          "type": "text",
+          "text": "The arrangement of electrons in the split \\(d\\)-orbitals depends on the relative magnitudes of crystal field splitting energy \\(\\Delta_o\\) and pairing energy \\(P\\)."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Strong-field ligands:</strong> Produce large splitting and tend to cause electron pairing in octahedral complexes.",
+            "<strong>Weak-field ligands:</strong> Produce small splitting and tend to favour the occupation of higher-energy orbitals before pairing."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Examples of strong-field ligands include \\(\\ce{CN-}\\) and \\(\\ce{CO}\\), while \\(\\ce{F-}\\) and \\(\\ce{Cl-}\\) are weak-field ligands.\n\nThe difference between \\(\\Delta_o\\) and \\(P\\) helps determine whether an octahedral complex is high-spin or low-spin."
+        }
+      ]
+    },
+    {
+      "heading": "5.5.5 Colour in Coordination Compounds",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The colour of many coordination compounds is explained by Crystal Field Theory (CFT).\n\nWhen ligands approach a central transition metal ion, its five \\(d\\)-orbitals split into groups of different energies. An electron can absorb light of a suitable energy and move from a lower-energy \\(d\\)-orbital to a higher-energy \\(d\\)-orbital. This process is called a <strong>\\(d\\)-\\(d\\) transition</strong>.\n\nThe energy absorbed is equal to the difference between the two energy levels:"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\Delta E = h\\nu = \\frac{hc}{\\lambda}\\]"
+        },
+        {
+          "type": "text",
+          "text": "where:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(\\Delta E\\) = energy difference between the \\(d\\)-orbitals",
+            "\\(h\\) = Planck’s constant",
+            "\\(\\nu\\) = frequency of absorbed light",
+            "\\(c\\) = speed of light",
+            "\\(\\lambda\\) = wavelength of absorbed light"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The compound absorbs certain wavelengths of visible light and transmits or reflects the remaining light. The colour observed is generally complementary to the colour absorbed.\n\n<strong>Examples:</strong>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "\\(\\ce{[Cu(H2O)6]^2+}\\) — Blue",
+            "\\(\\ce{[Ni(H2O)6]^2+}\\) — Green",
+            "\\(\\ce{[Co(H2O)6]^2+}\\) — Pink"
+          ]
+        },
+        {
+          "type": "text",
+          "text": "The colour of a coordination compound depends on the metal ion, its oxidation state, the nature of the ligands and the magnitude of crystal field splitting.\n\n<strong>Note:</strong> Complexes of metal ions with \\(d^0\\) or \\(d^{10}\\) configurations generally do not show colour due to \\(d\\)-\\(d\\) transitions, although they may be coloured due to other electronic transitions."
+        }
+      ]
+    },
+    {
+      "heading": "5.5.6 Limitations of Crystal Field Theory",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The main limitations of Crystal Field Theory (CFT) are:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "It assumes that the interaction between the central metal ion and ligands is purely electrostatic and does not adequately consider covalent bonding.",
+            "It does not fully explain the formation of coordinate bonds between metal ions and ligands.",
+            "It cannot completely explain the relative stability of all coordination compounds.",
+            "It does not adequately explain the spectrochemical series of ligands from first principles.",
+            "It cannot explain all the details of the electronic spectra of coordination compounds, including the intensities of absorption bands."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Despite these limitations, CFT successfully explains the splitting of \\(d\\)-orbitals and helps account for the magnetic properties and colours of many coordination compounds."
+        }
+      ]
+    },
+    {
+      "heading": "5.6 Bonding in Metal Carbonyls",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "<strong>Metal carbonyls</strong> are coordination compounds in which carbon monoxide (\\(\\ce{CO}\\)) acts as a ligand and is bonded to a metal atom.\n\nThe bond between the metal and carbon monoxide is explained by <strong>synergic bonding</strong>, which involves two types of interactions."
+        },
+        {
+          "type": "heading",
+          "text": "1. Formation of a Sigma Bond (σ-bond)"
+        },
+        {
+          "type": "text",
+          "text": "The carbon atom of carbon monoxide donates a lone pair of electrons into a vacant orbital of the metal atom, forming a sigma bond."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{M <- CO}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "2. Formation of a Pi Bond (π-bond)"
+        },
+        {
+          "type": "text",
+          "text": "The metal atom donates electron density from its filled \\(d\\)-orbitals into the vacant antibonding \\(\\pi^*\\) orbitals of carbon monoxide. This is called <strong>pi back-bonding</strong>."
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{M -> CO}\\]"
+        },
+        {
+          "type": "heading",
+          "text": "3. Synergic Effect"
+        },
+        {
+          "type": "text",
+          "text": "Sigma donation increases electron density on the metal, while pi back-bonding transfers electron density from the metal to the carbon monoxide ligand.\n\nThese two interactions reinforce each other and are collectively called the <strong>synergic effect</strong>.\n\nAs a result:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "The metal–carbon bond becomes stronger.",
+            "The carbon–oxygen bond becomes weaker.",
+            "The C–O bond length increases, and its stretching frequency generally decreases."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "4. Examples of Metal Carbonyls"
+        },
+        {
+          "type": "text",
+          "text": "<strong>Nickel tetracarbonyl:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Ni(CO)4}\\]"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Geometry: Tetrahedral",
+            "Hybridisation (VBT): \\(sp^3\\)",
+            "It is a neutral metal carbonyl."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Iron pentacarbonyl:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Fe(CO)5}\\]"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Geometry: Trigonal bipyramidal",
+            "It is a neutral metal carbonyl."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "<strong>Dicobalt octacarbonyl:</strong>"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\ce{Co2(CO)8}\\]"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "It contains two cobalt atoms bonded to carbon monoxide ligands.",
+            "Depending on its structure, it may contain a Co–Co bond and bridging carbon monoxide ligands."
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Metal carbonyls are important in organometallic chemistry and are used in the preparation of metals, catalysis and various industrial chemical processes."
+        }
+      ]
+    },
+    {
+      "heading": "5.7 Importance and Applications of Coordination Compounds",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "Coordination compounds play an important role in biological systems, analytical chemistry, medicine, metallurgy and industrial processes."
+        },
+        {
+          "type": "heading",
+          "text": "1. Biological Importance"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Haemoglobin:</strong> Contains iron in a coordination complex and transports oxygen in the blood.",
+            "<strong>Chlorophyll:</strong> Contains magnesium at its centre and helps in photosynthesis.",
+            "<strong>Vitamin B₁₂:</strong> Contains cobalt and is essential for normal body functions, including red blood cell formation."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "2. Medicinal Applications"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Cisplatin</strong>, \\(\\text{cis-}\\ce{[Pt(NH3)2Cl2]}\\), is a coordination compound used in the treatment of certain cancers.",
+            "Some coordination compounds are used in diagnostic procedures and medical research."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "3. Analytical Chemistry"
+        },
+        {
+          "type": "text",
+          "text": "Coordination compounds are used in the qualitative and quantitative analysis of metal ions."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>EDTA</strong> forms stable complexes with many metal ions and is used to determine the hardness of water.",
+            "The formation of coloured coordination compounds helps identify certain metal ions."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "4. Metallurgy"
+        },
+        {
+          "type": "text",
+          "text": "Coordination compounds are used in the extraction and purification of metals."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Gold and silver can be extracted from their ores using cyanide complexes.",
+            "Nickel can be purified by converting it into volatile nickel tetracarbonyl, \\(\\ce{Ni(CO)4}\\), which decomposes on heating to give pure nickel."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "5. Industrial Applications"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Metal complexes are used as catalysts in various industrial reactions.",
+            "Metal carbonyls are important in the preparation and purification of certain metals.",
+            "Coordination compounds are used in electroplating and in the manufacture of specialised materials."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "6. Photography"
+        },
+        {
+          "type": "text",
+          "text": "Sodium thiosulphate, \\(\\ce{Na2S2O3}\\), forms a soluble complex with silver ions and is used as a fixing agent in traditional photographic processing."
+        },
+        {
+          "type": "heading",
+          "text": "7. Water Treatment"
+        },
+        {
+          "type": "text",
+          "text": "EDTA and related complexing agents bind metal ions and are used in certain water-treatment and cleaning applications.\n\nCoordination compounds are therefore essential in biological processes, medicine, chemical analysis, metal extraction and many industrial applications."
+        }
+      ]
+    }
+  ],
+  "summary": "Chapter 5 introduces coordination compounds through Alfred Werner's theory of primary and secondary valencies, defines key terms (coordination entity, central atom/ion, ligands, coordination number, coordination sphere, coordination polyhedron, oxidation number, homoleptic and heteroleptic complexes), and outlines IUPAC rules for writing formulas and naming mononuclear coordination compounds. It explains stereoisomerism (geometric cis/trans and fac/mer isomerism, optical isomerism) and structural isomerism (linkage, coordination, ionisation, and solvate/hydrate isomerism). The chapter details bonding and magnetic behaviour using Valence Bond Theory (VBT) and Crystal Field Theory (CFT) for octahedral and tetrahedral fields, accounts for the colours of complexes via d–d transitions, explains synergic bonding in metal carbonyls, and highlights biological, medicinal, analytical, metallurgical, and industrial applications of coordination compounds.",
+  "qa": [
+    {
+      "q": "Distinguish between primary and secondary valencies according to Werner's theory.",
+      "a": "Primary valency corresponds to the oxidation state of the central metal ion, is satisfied by negative ions, is ionisable, and is non-directional. Secondary valency corresponds to the coordination number, is satisfied by neutral molecules or negative ions (ligands), is non-ionisable, and is directed in space to give a definite geometry.",
+      "section": "5.1 Werner’s Theory of Coordination Compounds"
+    },
+    {
+      "q": "What are homoleptic and heteroleptic complexes? Give one example of each.",
+      "a": "Homoleptic complexes are those in which the central metal ion is bonded to only one type of ligand, such as \\(\\ce{[Co(NH3)6]^3+}\\). Heteroleptic complexes are those in which the central metal ion is bonded to two or more different types of ligands, such as \\(\\ce{[Co(NH3)4Cl2]+}\\).",
+      "section": "5.2 Definition of Some Important Terms Pertaining to Coordination Compounds"
+    },
+    {
+      "q": "Write the IUPAC names of [Co(NH₃)₆]Cl₃ and K₄[Fe(CN)₆].",
+      "a": "\\(\\ce{[Co(NH3)6]Cl3}\\) is named hexaamminecobalt(III) chloride, and \\(\\ce{K4[Fe(CN)6]}\\) is named potassium hexacyanidoferrate(II).",
+      "section": "5.3.2 Naming of Mononuclear Coordination Compounds"
+    },
+    {
+      "q": "What are facial (fac) and meridional (mer) isomers?",
+      "a": "In octahedral complexes of the type \\(\\ce{[MA3B3]}\\) (such as \\(\\ce{[Co(NH3)3Cl3]}\\)), the fac-isomer has three identical ligands occupying the corners of one triangular face of the octahedron, whereas the mer-isomer has the three identical ligands in a plane passing through the central metal ion.",
+      "section": "5.4.1 Geometric Isomerism"
+    },
+    {
+      "q": "What is linkage isomerism and when does it occur?",
+      "a": "Linkage isomerism occurs when an ambidentate ligand (such as \\(\\ce{NO2-}\\) or \\(\\ce{SCN-}\\)) can coordinate to the central metal ion through either of two different donor atoms, for example \\(\\ce{M-NO2}\\) (nitro) versus \\(\\ce{M-ONO}\\) (nitrito) in \\(\\ce{[Co(NH3)5(NO2)]Cl2}\\).",
+      "section": "5.4.3 Linkage Isomerism"
+    },
+    {
+      "q": "Explain ionisation isomerism with an example.",
+      "a": "Ionisation isomerism occurs when two compounds have the same molecular formula but yield different ions in solution due to the exchange of a ligand inside the coordination sphere with a counter-ion outside it, such as \\(\\ce{[Co(NH3)5Br]SO4}\\) (which gives \\(\\ce{SO4^2-}\\) ions) and \\(\\ce{[Co(NH3)5SO4]Br}\\) (which gives \\(\\ce{Br-}\\) ions).",
+      "section": "5.4.5 Ionisation Isomerism"
+    },
+    {
+      "q": "Why is [Fe(CN)₆]⁴⁻ diamagnetic whereas [FeF₆]⁴⁻ is paramagnetic?",
+      "a": "In both complexes, iron is in the \\(+2\\) state (\\(3d^6\\)). In \\(\\ce{[Fe(CN)6]^4-}\\), \\(\\ce{CN-}\\) is a strong-field ligand that pairs up all six \\(3d\\) electrons (\\(n = 0\\), \\(\\mu = 0\\text{ BM}\\)), making it diamagnetic. In \\(\\ce{[FeF6]^4-}\\), \\(\\ce{F-}\\) is a weak-field ligand that does not cause pairing, leaving four unpaired electrons (\\(n = 4\\), \\(\\mu \\approx 4.90\\text{ BM}\\)), making it paramagnetic.",
+      "section": "5.5.2 Magnetic Properties of Coordination Compounds"
+    },
+    {
+      "q": "How do the d-orbitals split in an octahedral crystal field versus a tetrahedral crystal field?",
+      "a": "In an octahedral field, the five degenerate \\(d\\)-orbitals split into a lower-energy \\(t_{2g}\\) set (\\(d_{xy}, d_{yz}, d_{xz}\\), lowered by \\(0.4\\Delta_o\\)) and a higher-energy \\(e_g\\) set (\\(d_{x^2-y^2}, d_{z^2}\\), raised by \\(0.6\\Delta_o\\)). In a tetrahedral field, the splitting is reversed and smaller (\\(\\Delta_t = \\frac{4}{9}\\Delta_o\\)), with a lower-energy \\(e\\) set and higher-energy \\(t_2\\) set.",
+      "section": "5.5.4 Crystal Field Theory (CFT)"
+    },
+    {
+      "q": "What is synergic bonding in metal carbonyls?",
+      "a": "In metal carbonyls, the carbon atom of CO donates a lone pair to a vacant metal orbital to form a \\(\\sigma\\)-bond (\\(\\ce{M <- CO}\\)), while the metal donates electrons from a filled \\(d\\)-orbital into a vacant antibonding \\(\\pi^*\\) orbital of CO to form a \\(\\pi\\)-bond (\\(\\ce{M -> CO}\\), pi back-bonding). These two mutually reinforcing interactions strengthen the M–C bond and weaken the C–O bond.",
+      "section": "5.6 Bonding in Metal Carbonyls"
+    },
+    {
+      "q": "Name three biologically important coordination compounds and the central metal present in each.",
+      "a": "Haemoglobin contains iron (oxygen transport in blood), chlorophyll contains magnesium (photosynthesis in plants), and vitamin B₁₂ contains cobalt (red blood cell formation).",
+      "section": "5.7 Importance and Applications of Coordination Compounds"
+    }
+  ]
+}

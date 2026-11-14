@@ -1,0 +1,288 @@
+{
+  "title": "The Human Eye and the Colourful World",
+  "class": "10",
+  "subject": "Science",
+  "chapter": "Chapter 10",
+  "book": "NCERT Science",
+  "notes": [
+    {
+      "heading": "10.1 The Human Eye",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "The <strong>human eye</strong> is a natural optical instrument that helps us to see objects."
+        },
+        {
+          "type": "text",
+          "text": "The main parts of the human eye are:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Cornea:</strong> Transparent front part of the eye. Most of the refraction of light occurs here.",
+            "<strong>Iris:</strong> Controls the size of the pupil and the amount of light entering the eye.",
+            "<strong>Pupil:</strong> Opening in the iris through which light enters the eye.",
+            "<strong>Eye lens:</strong> Focuses light on the retina.",
+            "<strong>Ciliary muscles:</strong> Change the shape of the eye lens to focus on objects at different distances.",
+            "<strong>Retina:</strong> Light-sensitive screen on which the image is formed.",
+            "<strong>Optic nerve:</strong> Carries signals from the retina to the brain."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "The image formed on the retina is <strong>real, inverted and diminished</strong>.",
+            "The iris controls the amount of light entering the eye by changing the size of the pupil.",
+            "The ability of the eye lens to change its shape to focus clearly on objects at different distances is called <strong>power of accommodation</strong>."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "10.1.1 Power of Accommodation",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "The ability of the eye lens to change its <strong>focal length</strong> to focus clearly on objects at different distances is called <strong>power of accommodation</strong>.",
+            "The <strong>ciliary muscles</strong> help the eye lens to change its shape and focal length.",
+            "For viewing a <strong>distant object</strong>, the ciliary muscles <strong>relax</strong>, the lens becomes <strong>thin</strong>, and its focal length <strong>increases</strong>.",
+            "For viewing a <strong>nearby object</strong>, the ciliary muscles <strong>contract</strong>, the lens becomes <strong>thick</strong>, and its focal length <strong>decreases</strong>.",
+            "The <strong>least distance of distinct vision</strong> (near point) for a normal human eye is <strong>25 cm</strong>.",
+            "The <strong>far point</strong> of a normal eye is <strong>infinity (\\(\\infty\\))</strong>.",
+            "The eye can see clearly between its near point (25 cm) and far point (infinity).",
+            "With age, the power of accommodation may decrease because the ciliary muscles weaken and the eye lens loses flexibility."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "10.3 Refraction of Light Through a Prism",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "A <strong>prism</strong> is a transparent optical object having two triangular bases and three rectangular surfaces.",
+            "When light passes through a glass prism, it undergoes refraction <strong>twice</strong>: (1) when light enters the prism from air, and (2) when light comes out of the prism into air.",
+            "The path of light changes because the speed of light changes when it passes from one medium to another.",
+            "The light ray bends <strong>towards the normal</strong> when it enters glass from air.",
+            "The light ray bends <strong>away from the normal</strong> when it comes out from glass into air.",
+            "The final <strong>emergent ray</strong> is deviated from its original direction.",
+            "The angle between the original direction of the incident ray and the emergent ray is called the <strong>angle of deviation</strong>.",
+            "A prism deviates the path of light, while the splitting of white light into colours (dispersion) is studied in the next topic."
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "10.4 Dispersion of White Light by a Glass Prism",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Dispersion of light</strong> is the phenomenon of splitting of white light into its <strong>seven constituent colours</strong> when it passes through a glass prism.",
+            "The seven colours are: <strong>Violet, Indigo, Blue, Green, Yellow, Orange and Red (VIBGYOR)</strong>.",
+            "The band of seven colours obtained is called the <strong>spectrum of white light</strong>.",
+            "Different colours of light bend through different angles when passing through a prism.",
+            "<strong>Violet</strong> deviates the <strong>most</strong> because it has the <strong>shortest wavelength</strong>.",
+            "<strong>Red</strong> deviates the <strong>least</strong> because it has the <strong>longest wavelength</strong>.",
+            "The order of colours from least deviation to maximum deviation is:"
+          ]
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\text{Red} \\longrightarrow \\text{Orange} \\longrightarrow \\text{Yellow} \\longrightarrow \\text{Green} \\longrightarrow \\text{Blue} \\longrightarrow \\text{Indigo} \\longrightarrow \\text{Violet}\\]"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "The splitting of white light occurs because different colours travel at different speeds in glass and are refracted by different amounts.",
+            "<strong>Newton</strong> was the first to show that sunlight consists of seven colours."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Important"
+        },
+        {
+          "type": "equation",
+          "text": "\\[\\boxed{\\begin{aligned} \\text{White light} \\longrightarrow \\text{Prism} &\\longrightarrow \\text{VIBGYOR spectrum} \\\\ \\text{Maximum deviation} &\\longrightarrow \\text{Violet} \\\\ \\text{Minimum deviation} &\\longrightarrow \\text{Red} \\end{aligned}}\\]"
+        }
+      ]
+    },
+    {
+      "heading": "10.5 Atmospheric Refraction",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Atmospheric refraction</strong> is the refraction of light caused by the Earth’s atmosphere.",
+            "The atmosphere consists of layers of air having different densities. Therefore, light bends continuously as it passes through these layers."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Twinkling of Stars"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Stars are very far away and act like <strong>point sources of light</strong>.",
+            "As starlight passes through different layers of the atmosphere, it undergoes continuous refraction.",
+            "The atmosphere is not stationary, so the path of light keeps changing.",
+            "Therefore, the apparent position and brightness of a star keep changing. This makes the stars appear to <strong>twinkle</strong>."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Why do planets not twinkle?"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Planets are much closer to us and appear as <strong>extended sources of light</strong>.",
+            "The variation in light coming from different parts of the planet averages out.",
+            "Therefore, planets generally <strong>do not twinkle</strong>."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Advance Sunrise and Delayed Sunset"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Due to atmospheric refraction, the Sun is visible about <strong>2 minutes before actual sunrise</strong>.",
+            "Similarly, the Sun remains visible for about <strong>2 minutes after actual sunset</strong>.",
+            "Thus, atmospheric refraction makes the day appear slightly longer."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Important"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Twinkling of stars</strong> → Atmospheric refraction",
+            "<strong>Advanced sunrise</strong> → Atmospheric refraction",
+            "<strong>Delayed sunset</strong> → Atmospheric refraction"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "10.6 Scattering of Light",
+      "blocks": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Scattering of light</strong> is the phenomenon in which light is redirected in different directions when it strikes small particles present in a medium.",
+            "The colour of light that is scattered depends on its <strong>wavelength</strong>."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Tyndall Effect"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "The <strong>Tyndall effect</strong> is the scattering of light by very small particles in a colloidal solution or fine suspension.",
+            "It makes the <strong>path of a beam of light visible</strong>."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Why is the Sky Blue?"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Sunlight contains seven colours.",
+            "The molecules of air and very fine particles in the atmosphere scatter light.",
+            "<strong>Blue light</strong> has a <strong>shorter wavelength</strong> and is scattered much more than red light.",
+            "Therefore, the <strong>sky appears blue</strong>."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Why does the Sun appear Red at Sunrise and Sunset?"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "At sunrise and sunset, sunlight travels a <strong>longer distance</strong> through the atmosphere.",
+            "Most of the blue light is scattered away.",
+            "The <strong>red light</strong>, which has a longer wavelength and is scattered less, reaches our eyes.",
+            "Therefore, the <strong>Sun appears reddish</strong> during sunrise and sunset."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Important Points"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Shorter wavelength</strong> → More scattering",
+            "<strong>Longer wavelength</strong> → Less scattering",
+            "<strong>Blue light</strong> → Scattered more",
+            "<strong>Red light</strong> → Scattered less",
+            "<strong>Blue sky</strong> → Scattering of blue light",
+            "<strong>Red Sun at sunrise/sunset</strong> → Scattering of blue light away"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": "The human eye forms a real, inverted and diminished image on the retina with light entering through the cornea and pupil (regulated by the iris) and focused by the crystalline lens. The ciliary muscles adjust the focal length of the eye lens to focus on both distant (far point at infinity) and nearby (near point at 25 cm) objects — a property called power of accommodation. A glass prism refracts light twice, deviating the emergent ray by the angle of deviation and splitting white light into its seven constituent colours (VIBGYOR spectrum) by dispersion, with violet deviating the most and red the least. Atmospheric refraction through air layers of varying density causes the twinkling of stars (while closer, extended planets do not twinkle) as well as advance sunrise and delayed sunset by about 2 minutes each. Scattering of light by fine particles gives rise to the Tyndall effect, the blue colour of the clear sky (since shorter-wavelength blue light scatters more), and the reddish appearance of the Sun at sunrise and sunset.",
+  "qa": [
+    {
+      "q": "State the functions of the cornea, iris, pupil, ciliary muscles, retina and optic nerve in the human eye.",
+      "a": "Cornea: refracts most of the light entering the eye. Iris: controls the size of the pupil. Pupil: regulates the amount of light entering the eye. Ciliary muscles: adjust the focal length of the eye lens. Retina: acts as a light-sensitive screen where a real, inverted image is formed. Optic nerve: carries electrical signals from the retina to the brain.",
+      "section": "10.1 The Human Eye"
+    },
+    {
+      "q": "What is power of accommodation, and what are the near point and far point of a normal human eye?",
+      "a": "Power of accommodation is the ability of the eye lens to adjust its focal length (with the help of ciliary muscles relaxing for distant objects and contracting for nearby objects) to focus clearly on objects at different distances. For a normal human eye, the near point (least distance of distinct vision) is 25 cm and the far point is infinity (∞).",
+      "section": "10.1.1 Power of Accommodation"
+    },
+    {
+      "q": "How is a ray of light refracted when it passes through a triangular glass prism, and what is the angle of deviation?",
+      "a": "Light refracts twice through a glass prism: it bends towards the normal when entering glass from air, and bends away from the normal when emerging from glass into air. The angle between the original direction of the incident ray and the emergent ray is called the angle of deviation.",
+      "section": "10.3 Refraction of Light Through a Prism"
+    },
+    {
+      "q": "What is dispersion of white light? Which colour deviates the most and which deviates the least through a glass prism, and why?",
+      "a": "Dispersion is the splitting of white light into its seven constituent colours (VIBGYOR) when passing through a glass prism. Different colours travel at different speeds in glass; violet has the shortest wavelength and deviates the most, while red has the longest wavelength and deviates the least.",
+      "section": "10.4 Dispersion of White Light by a Glass Prism"
+    },
+    {
+      "q": "Why do stars twinkle whereas planets do not, and why is the Sun visible about 2 minutes before actual sunrise?",
+      "a": "Stars are distant point sources whose light undergoes continuous atmospheric refraction through shifting air layers, making their apparent position and brightness fluctuate (twinkle). Planets are closer and act as extended sources, so fluctuations average out. Atmospheric refraction also bends sunlight so the Sun is visible 2 minutes before actual sunrise and 2 minutes after actual sunset.",
+      "section": "10.5 Atmospheric Refraction"
+    },
+    {
+      "q": "What is the Tyndall effect, why does the clear sky appear blue, and why does the Sun appear reddish at sunrise and sunset?",
+      "a": "The Tyndall effect is the scattering of light by colloidal or fine suspended particles, making the beam's path visible. Air molecules scatter shorter-wavelength blue light much more than red light, making the clear sky look blue. At sunrise and sunset, sunlight travels a longer path through the atmosphere, scattering away most blue light so mainly longer-wavelength red light reaches our eyes.",
+      "section": "10.6 Scattering of Light"
+    }
+  ]
+}
